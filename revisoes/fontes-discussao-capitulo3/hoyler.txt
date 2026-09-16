@@ -1,0 +1,1073 @@
+=== PDF PAGE 1 ===
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+Artigo Original
+1
+ Este é um artigo publicado em acesso aberto (Open Access) sob a licença Creative Commons Attribution, que permite 
+uso, distribuição e reprodução em qualquer meio, sem restrições desde que o trabalho original seja corretamente citado.
+Política local e coordenação 
+intrapartidária nas dobradas 
+eleitorais paulistanas
+ Telma Hoyler1
+1Centro de Estudos da Metrópole, CEM, São Paulo, SP, Brasil
+E-mail: telmahoyler@gmail.com
+ Eduardo Marques2
+2Departamento de Ciência Política e Centro de Estudos da Metrópole, Universidade de São Paulo, DCP e CEM/USP, 
+São Paulo, SP, Brasil
+E-mail: ecmarq@gmail.com
+DOI: 10.1590/3811000/2022
+Resumo: Pesquisas tem apontado para a transferência de votos de políticos locais para aqueles 
+concorrendo a cargos estaduais e nacionais. Alguns estudos supõem que o clientelismo 
+explicaria o efeito observado, enquanto outros atribuem a transferência aos partidos, que 
+promoveriam coordenação interna institucionalmente. Em ambos os casos, a inferência tem sido 
+destacadamente dedutiva, carecendo de exame dos mecanismos concretos em operação na 
+articulação intrapartidária em eleições. Nesse artigo, analisamos as práticas e relações constitutivas 
+da mobilização política eleitoral de um vereador em São Paulo em duas eleições (2018 e 2020). 
+Partindo de detalhado levantamento de campo com entrevistas e observação etnográfica das 
+práticas dos candidatos e seus operadores em amplo espectro político, mostramos o papel central 
+da política local na coordenação intrapartidária. Mandatos, brokers e redes de mobilização geram 
+coordenação por meio de estruturas de vínculos que conectam atores localmente, ao mesmo 
+tempo que ligam o sistema político verticalmente pelas chamadas dobradas eleitorais, gerando 
+coordenação partidária e eleitoral. Mostramos como a operação da política local cria incentivos e 
+trocas políticas de apoio eleitoral baseados em relações pessoais, mas mediadas pelas estruturas 
+de médio alcance de mandatos e redes. Embora essas sejam influenciadas pelas estruturas 
+partidárias, não são por elas sobredeterminadas.
+Palavras-chave: eleições; política local; coordenação intrapartidária; dobradas eleitorais; São Paulo
+Local politics and intraparty coordination in 
+the electoral dobradas in São Paulo
+Abstract: Scholars have increasingly pointed out the transference of votes from local politicians 
+to those running for state and national offices, based on two sorts of explanations. Some authors 
+assume that clientelism explains the observed effects, while others sustain that the internal 
+coordination of parties leads to them. In both cases, such inferences has been mainly deductive 
+and fail to examine the mechanisms at work in intra-party interplay during election periods. In this 
+article, we explore this issue by analyzing the practices and relationships of a network of electoral 
+political mobilization of one city councilor from São Paulo during two election periods (2018 
+Artigo recebido em: 21/10/2021 | Aprovado em: 03/10/2022
+
+
+=== PDF PAGE 2 ===
+2
+POLÍTICA LOCAL E COORDENAÇÃO INTRAPARTIDÁRIA NAS DOBRADAS ELEITORAIS 
+PAULISTANAS
+Introdução
+Como se dá a coordenação interna aos partidos durante eleições proporcionais e qual 
+é o papel da política local nessa coordenação? Partindo de informações qualitativas de 
+eleições em São Paulo, mostramos como mandatos, operadores políticos e redes de 
+mobilização local enraizadas no território geram um processo de coordenação intrapartidária 
+por meio de estruturas de vínculos que conectam atores localmente, ao mesmo tempo 
+que ligam o sistema político verticalmente pelas chamadas dobradas eleitorais.
+Na literatura especializada, nem sempre o termo coordenação tem recebido definição 
+precisa. Ora parece denotar o efeito de regras eleitorais e de macro instituições (federalismo, 
+presidencialismo etc.) ou da estrutura decisória interna aos partidos sobre o alinhamento 
+de candidaturas e partidos; ora diz respeito à própria ação de coordenar por parte de 
+lideranças partidárias. Todas essas alternativas são válidas e corretas do ponto de vista 
+linguístico, que guarda para o substantivo “coordenação”, tanto a ação como o efeito de 
+coordenar, assim como a própria relação produzida e o processo por meio do qual unidades 
+estão dispostas e relacionadas. No entanto, quando os sentidos não são explicitados, por 
+vezes podem surgir confusões analíticas, inclusive entre o que é efeito e o que é causa. 
+Nesse artigo, entendemos coordenação como o processo pelo qual alinhamentos são 
+construídos. Analisaremos, assim, o processo de formação de dobradas eleitorais pela 
+dimensão relacional, sendo essa uma contribuição inovadora à literatura, que tende a 
+enfocar primordialmente os aspectos formais que levam ao efeito coordenação.
+Da forma como utilizamos o termo, coordenação política intrapartidária em dobradas 
+eleitorais de candidatos proporcionais se refere ao processo pelo qual são produzidos os 
+alinhamentos de candidaturas. Esses alinhamentos se apoiam em conjuntos de relações 
+entre atores, construídas de baixo para cima a partir da operação da política local, em 
+que se dá a mobilização política nos territórios da cidade.
+Substancial parcela da ciência política considera que a política local não tem importância 
+significativa, ou tem relevância apenas local (Judd, 2005). Estudos de dois fenômenos 
+representariam exceções a isso – o chamado reverse coattail (Ames, 1994; Samuels, 
+2000), que descreve os efeitos de níveis locais sobre resultados eleitorais de outros 
+níveis, e o clientelismo, que mesmo em suas versões mais precisas (Stokes et al., 2013), 
+é considerado como um conjunto de práticas locais que desorganizaria/deturpariam 
+a representação política. Esse se articularia com o comportamento personalista e 
+distributivista dos políticos (Ames, 1994), esgarçando a coordenação partidária, mesmo 
+que já se tenha demonstrado que tal efeito é matizado pelas estruturas partidárias e por 
+aspectos institucionais (Avelino et al., 2012).
+Sem querer negar os fenômenos analisados por essa literatura, esse artigo sustenta a 
+importância da política local e seus vínculos na coordenação intrapartidária, inclusive vertical, 
+and 2020). Departing from detailed field interviews and participant observation of the practices 
+of candidates and their brokers, we portrait how local politics plays a central role in intra-party 
+dynamic. ‘Mandates’, brokers and networks of political mobilization provide coordination through 
+structures of ties that connect actors locally and at the same time link them vertically inside the 
+political system, generating political and electoral coordination. We show how the operation of 
+local politics creates political incentives and exchanges of electoral support based on personal 
+relationships, but which mediated by the mid-level structures of mandates and networks. Although 
+these are influenced by party structures, are not overdetermined by them.
+Keywords: Elections; local politics; intra-party coordination; electoral alignments; São Paulo
+
+
+=== PDF PAGE 3 ===
+3
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+por meio das práticas e relações cotidianas de mobilização territorial para a organização 
+de eleições e governos. Para melhor entendimento do fenômeno, deslocamos o foco tanto 
+do voto pessoal e das motivações individuais, como dos aspectos legais que organizam 
+eleições e partidos para os detalhes da mobilização política em sua própria escala de 
+operação. Isso porque embora os cargos em disputa em cada eleição digam respeito a 
+diferentes escalas de poder, os votos sempre se localizam no território, organizando o 
+sistema a partir dos níveis mais locais da federação. A máxima norte-americana de que 
+“all politics is local” resume a percepção de que mesmo a eleição presidencial, ao fim 
+e ao cabo, se ancora e depende das escalas mais desagregadas dos sistemas políticos. 
+Os detalhes da mobilização política local nos levam a compreender a existência e a 
+importância de mandatos, estruturas intermediárias, que conectam pessoas e partidos.
+Neste artigo, exploramos o fenômeno pela análise do mandato e da rede de mobilização 
+política eleitoral de um vereador em São Paulo em duas eleições subsequentes (municipal 
+e estadual/nacional), partindo de detalhado levantamento de campo com entrevistas e 
+observação participante sobre vínculos e práticas dos candidatos e seus operadores/
+apoiadores (Hoyler, 2022). Exatamente porque o voto pessoal existe, mas está imerso em 
+estruturas relacionais locais de disputa e cooperação política, a estrutura de vínculos e a 
+dinâmica dos mandatos e das redes geram coordenação, inclusive vertical. Tais relações 
+costuram grupos políticos internos aos partidos em mandatos, além de acordos políticos 
+entre candidatos e/ou parlamentares que por vezes se convertem nas chamadas dobradas 
+eleitorais. Essa prática conecta candidaturas com diferentes níveis de formalização ao 
+longo de campanhas eleitorais, envolvendo graus diferenciados de compartilhamento de 
+materiais, pessoal e estruturas de campanha por candidatos a deputado estadual e federal, 
+por exemplo. Como veremos, as dobradas envolvem centralmente acordos políticos entre 
+representantes e candidatos das eleições municipais e das eleições nacionais/estaduais 
+(e vice-versa), apesar de serem deslocadas no tempo.
+Duas dimensões especificam os contornos da generalização dos resultados apresentados 
+neste artigo. O primeiro é o tamanho da mobilização requerida, em termos de população 
+e de território. A importância do que analisamos aqui cresce com o aumento da escala 
+requerida para o funcionamento de um dado contexto político, sendo muito menos relevante 
+em cidades pequenas. Isso não quer dizer que o fenômeno não ocorra ou se organize de 
+forma radicalmente diferente em cidades menores, mas que nestes locais a mobilização 
+política apresenta muito menor complexidade. Sem querer adiantar o argumento, o caso 
+da cidade de São Paulo (o maior distrito eleitoral brasileiro em tamanho e complexidade) 
+inclui um conjunto de atores – prefeitos, vereadores, operadores políticos (macrobrokers 
+e microbrokers) – que pode não estar todo presente em escalas menores. Em pequenas 
+cidades, para indicar o outro caso extremo, as atividades dos microbrokers paulistanos 
+podem estar sendo performadas pelos próprios prefeitos e, em cidades de porte médio, 
+pelos vereadores. Entretanto, é lógico considerar que as práticas políticas discutidas nesse 
+artigo também se apresentam de forma similar ali, sendo o sistema político organizado 
+de forma fractal em escalas superpostas. Portanto, embora o caso de São Paulo não 
+seja de forma nenhuma representativo do Brasil em escala e complexidade, contém os 
+atores, práticas e relações da mobilização política territorial presentes nas demais cidades 
+brasileiras, sendo, desse ponto de vista, um caso de complexidade máxima do sistema.
+A segunda dimensão diz respeito ao grau em que o acesso a políticas, serviços e às 
+instituições em geral depende de mediação política. Assim como no caso da escala, essa 
+dimensão é contínua, variando entre dois polos que podem ser pensados como ideais-
+tipo, tendo em um extremo sistemas políticos marcados por intenso clientelismo e, no 
+outro, formas despersonalizadas e não mediada de acesso ao Estado. Há razões para 
+defender que o caso brasileiro se localize em ponto intermediário entre patronagem e 
+universalização, em especial frente ao avanço das políticas sociais e urbanas ocorrido 
+desde a redemocratização.
+
+
+=== PDF PAGE 4 ===
+POLÍTICA LOCAL E COORDENAÇÃO INTRAPARTIDÁRIA NAS DOBRADAS ELEITORAIS 
+PAULISTANAS
+4
+Cabe ainda uma advertência metodológica que na verdade decorre de um aprendizado 
+empírico: partimos da ambição de mapear a totalidade das dobradas eleitorais de um 
+partido em duas eleições federais e estaduais, objetivando investigar sistematicamente 
+a estrutura das alianças no tempo. Entretanto, o fenômeno se mostrou muito mais 
+dinâmico e informal do que imaginávamos, tornando impossível capturá-lo por técnicas 
+tradicionais quantitativas de levantamentos de dados. As entrevistas iniciais revelaram 
+que coordenadores de campanha e políticos em si, quando muito, lembravam das suas 
+dobradas principais, aquelas que se repetem por vínculos de amizade e afinidade entre 
+políticos, por exemplo, mas não das (muitas) alianças pontuais em variados territórios da 
+cidade. Exigiria um esforço enorme, muito maior em termos de tempo e de recursos que 
+dispunhamos, portanto, gerar um banco de dados sistemático e significativo das dobradas 
+eleitorais, mesmo que para um conjunto limitado de parlamentares.
+Levando isso em conta, bem como as perguntas que a literatura ainda se faz sobre o 
+funcionamento da coordenação partidária, decidimos inverter a lógica do desenho de 
+pesquisa. Na impossibilidade de mapear o fenômeno sistematicamente a partir da esfera 
+institucional, exploramos qualitativamente a mobilização política de um vereador em um 
+dado território, observando o fenômeno enquanto este se desdobrava, expandindo o foco 
+para novos atores e interlocutores com uma estratégia de bola de neve. Isso nos permitiu 
+ter acesso à totalidade da estrutura de mobilização desse parlamentar em grau de detalhe 
+impossível de acessar com um estudo quantitativo sistemático. Na verdade, a pesquisa que 
+deu origem a esse artigo (Hoyler, 2022) levantou as estruturas de mobilização política de 
+dois vereadores de partidos distintos (e distantes) ideologicamente, obtendo basicamente 
+os mesmos tipos de atores, práticas e relações. Embora com isso não possamos afirmar 
+que os padrões discutidos aqui são plenamente generalizáveis, certamente nos ajudam 
+a compreender melhor o sistema político brasileiro.
+O artigo é dividido em quatros partes além dessa introdução e da conclusão. A seguir, 
+discutimos as principais explicações para a coordenação partidária entre eleições, assim 
+como definimos pontos de vista conceituais importantes. A segunda seção inicia nossa 
+teorização alternativa sobre o fenômeno, apresentando o conceito (nativo) de mandato, 
+além de especificar tipos de brokers, seus cálculos e relações com representantes. 
+A terceira seção define e analisa a rede de mobilização política local e seus tipos de vínculo 
+a partir das dobradas eleitorais de 2018. Na quarta seção investigamos a dinâmica da 
+mobilização do mandato e da rede a partir de histórias e episódios envolvendo candidatos 
+e representantes a cargos de vários níveis, assim como brokers e eleições. A análise se 
+centra principalmente na eleição de 2018, acrescentando informações da eleição de 
+2020 para refletir sobre suas transformações. A conclusão, ao final, sumariza os padrões 
+mais gerais extraídos das redes, em diálogo com a literatura que trata do tema.
+Explicações existentes para a coordenação intrapartidária em eleições
+Independente de aceitarmos a predominância causal de estruturas partidárias, de 
+incentivos institucionais ou do personalismo em estratégias eleitorais, parece consenso 
+que o arranjo federativo brasileiro dificulta que partidos se coordenem internamente. 
+A questão está na raiz de alguns dos debates cruciais da literatura de política comparada 
+(Mainwaring, 1999; Carey e Shugart, 1995), e é central para entendermos o funcionamento 
+do sistema político brasileiro por várias razões.
+Em primeiro lugar, apesar da organização dos partidos brasileiros contar com uma 
+estrutura de convenções, direções e instâncias federais e estaduais, é relativamente 
+descentralizada a partir da operação por diretórios municipais ou comissões provisórias 
+(Ribeiro, 2013; Guarnieri, 2011). Com isso, alianças inter ou intrapartidárias não se repetem 
+necessariamente nos estados e municípios. Diretórios municipais podem, por exemplo, 
+
+
+=== PDF PAGE 5 ===
+5
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+se rebelar contra decisões de outros níveis do partido levando à não replicação local de 
+alianças que ocorrem no nível nacional, como ocorre com frequência. Um segundo fator 
+que dificulta a articulação intrapartidária é o estatuto soberano do nível municipal em 
+nossa federação. Prefeitos têm autoridade sobre políticas públicas e os municípios são 
+lugar importantes de disputa política (Arretche, 2010). Um terceiro fator é a adoção de lista 
+aberta em eleições proporcionais em distritos de grande magnitude para os cargos do 
+Legislativo. Deixando de lado por um instante as derivações dedutivas que parte da literatura 
+do distributivismo faz dessas regras, é certo que induzem componentes personalistas às 
+disputas partidárias, gerando competição entre candidatos de um mesmo partido, fator 
+conhecido na literatura como voto pessoal (Carey e Shugart, 1995; Mainwaring, 1999).
+Decorreria do voto pessoal a baixa lealdade partidária entre candidatos, e sobretudo 
+entre lideranças municipais e candidatos a outros níveis do mesmo partido, enfraquecendo 
+ou mesmo anulando a capacidade de transferência dos partidos entre níveis da federação, 
+os denominados coattail e reverse coattail effects. O primeiro pode ser entendido como 
+a capacidade de um candidato de mais alto nível transferir votos para seus companheiros 
+de partido concorrendo a cargos mais abaixo, enquanto o segundo diz respeito ao efeito 
+inverso, isto é, à transferência de votos de baixo para cima. Entretanto, estudos têm 
+progressivamente mostrado a existência de tais efeitos, sugerindo que mesmo que o 
+voto pessoal seja relevante, não age sozinho e de forma predominante.
+Em um dos primeiros estudos a esse respeito, Ames (1994), ao examinar a correlação 
+entre a filiação do prefeito e o desempenho de candidatos na eleição presidencial de 1989, 
+encontrou que candidatos à presidência tiveram desempenho superior nos municípios nos 
+quais seu partido governava, o chamado “coattail reverso”. Examinando dados das eleições 
+no Brasil nos períodos democráticos (1945-64; 1989-98), Samuels (2000) também defendeu 
+evidências de efeito reverso, cuja influência fluiria dos governadores para o nível nacional. 
+Carneiro e Almeida (2008) avançaram neste problema ao demonstrar que há correlação entre 
+a votação dos partidos para diferentes níveis, sendo a votação para governador a variável 
+que tem maior efeito sobre votações para deputado federal e estadual, e a votação para 
+prefeito a de maior influência para vereadores. Avelino et al. (2012) também identificaram a 
+vantagem que partidos tiveram ao eleger prefeitos em 2008 para as eleições proporcionais 
+estaduais de 2010. Barone (2014), por fim, encontrou o mesmo efeito dos partidos dos 
+prefeitos em outros níveis, avançando metodologicamente para isolar o efeito partidário 
+de outros fatores, como o sucesso do prefeito ao longo do mandato.
+Diferentemente da política norte-americana (Ferejohn e Calvert, 1984; Golder, 
+2006), não estão ainda muito claros os mecanismos em operação no sistema brasileiro. 
+As interpretações, entretanto, convergem para duas explicações.
+De um lado, autores têm atribuído aos partidos a articulação interna que levaria aos 
+resultados observados. Nesse caso, a inferência é muitas vezes dedutiva. Ao salientar a 
+habilidade dos partidos de organizar esforços eleitorais não somente nas eleições de 
+um mesmo nível, mas entre diferentes níveis, Carneiro e Almeida (2008) sugerem que 
+isso seria fruto da capacidade de articulação entre os níveis de organização partidária. 
+Formulação semelhante é feita por Avelino et al. (2012, p. 988), embora de forma algo 
+tautológica: “Se não existir articulação intrapartidária não haveria motivo para um prefeito 
+eleito por partido cooperar sistematicamente com os candidatos do seu partido nas 
+eleições que ocorrem dois anos depois dele ser eleito”. Alguns autores (Souza, 2020; 
+Mesquita, 2013) chegam ainda a tratar indistintamente de “articulação” e “coordenação” 
+intrapartidária. O uso do termo coordenação, ainda mais do que “articulação”, raramente 
+vem acompanhado do significado que se atribui a ele, por vezes aludindo à existência 
+de um planejamento prévio das instâncias decisórias dos partidos sobre os alinhamentos 
+das campanhas e mesmo dos candidatos, por vezes ao próprio efeito observado.
+
+
+=== PDF PAGE 6 ===
+POLÍTICA LOCAL E COORDENAÇÃO INTRAPARTIDÁRIA NAS DOBRADAS ELEITORAIS 
+PAULISTANAS
+6
+Independente do termo que se utilize e apesar do crescente interesse por temas como 
+coordenação territorial e congruência entre sistema nacional e subnacional dos partidos (Falleti, 
+2010; Freidenberg e Suaréz-Cao, 2014; Suárez-Cao et al., 2017; Wills-Otero, 2016), sabemos 
+ainda pouco sobre o que produz organização multinível intrapartidária (Ribeiro e Fabre, 2019). 
+Talvez continue válida a afirmação de Levitsky (2001) de que organizações partidárias na América 
+Latina continuam sendo “caixas pretas”. Hoje sabemos mais sobre estratégias intrapartidárias 
+para seleção e alinhamento de candidatos em eleições majoritárias (Ribeiro e Borges, 2019; 
+Ribeiro e Fabre, 2019; Souza, 2020), assim como o efeito da coordenação partidária em torno 
+da disputa presidencial sobre o desempenho das legendas nas eleições para a Câmara dos 
+Deputados (Alves, 2019). Com o intuito de contribuir com essa agenda de pesquisa, partindo 
+do ponto de vista da sociologia relacional, esse artigo procura compreender como se produz 
+conexão vertical intrapartidária em eleições proporcionais no sistema brasileiro e introduz 
+nas análises uma estrutura de médio alcance entre pessoas e partidos, que são os mandatos.
+De outro lado do debate, autores deduzem que redes clientelistas ligando máquinas 
+políticas locais às nacionais explicariam o efeito observado. O clientelismo foi classicamente 
+pensado como a permanência de formas de representação antigas, pré-modernas e pré-
+democráticas nas formações políticas contemporâneas (Scott, 1977; Graziano, 1976), que no 
+Brasil ganhavam o nome de “voto de cabresto”. A ideia sobrevive nos pressupostos de uma 
+parte do debate contemporâneo (Nichter, 2018), frequentemente com escorregamentos 
+entre categorias analíticas e interpretações normativas.
+Para Ames (1994), organizações políticas locais se juntam a classe, raça e religião para 
+explicar os resultados eleitorais em nações em desenvolvimento como as da América Latina. 
+O autor explicitamente diferencia o esforço de lideranças políticas de entregar votos às 
+lideranças de sua preferência, dos laços afetivos vinculando cidadãos a suas comunidades.1 
+O autor menciona estudos sobre clientelismo no México e na Venezuela para evidenciar o 
+fenômeno e deduz que se essas organizações são importantes, elas devem afetar o resultado 
+eleitoral supranacional. De modo similar, Samuels (2000) atribui aos governadores, que 
+segundo o autor são políticos centrais para o efeito de reverse coattail, a mobilização que 
+a redes clientelistas trariam para a disputa eleitoral. Ainda que seja parte da explicação 
+central, o clientelismo aparece citado pelos autores de forma meramente alusiva e dedutiva. 
+É verdade que esses estudos se posicionam em outra escala e não se preocupam em 
+desvendar a construção dos vínculos em questão, mas pulam rápido demais para concluir 
+sobre os efeitos de tais práticas na representação política democrática.
+Tentando avançar decupando os vários implícitos presentes nos debates sobre o tema, 
+autores como Kitschelt e Wilkinson (2007) e Stokes et al. (2013) delimitaram melhor o 
+conceito de clientelismo como troca política contingente de votos por serviços (e políticas 
+públicas) em que eleitores/clientes estão submetidos a alguma forma de monitoramento 
+pelo qual poderiam ser identificados e punidos. Os principais problemas da aplicação 
+contemporânea do conceito dizem respeito à expansão do acesso a políticas sob o signo 
+da cidadania com escassa ou nenhuma mediação, assim como as enormes dificuldades 
+de monitoramento colocadas por contextos urbanos democráticos de massa. A resposta 
+da literatura a tais problemas tem sido investir analiticamente do papel dos brokers, tanto 
+em formas variadas e mais sutis de monitoramento, como na mediação que realizam no 
+acesso a políticas, embora um certo viés normativo ainda persista.
+Outros estudos têm avançado na direção de melhor compreender a natureza dessas 
+relações em estudos sobre a América Latina (Ayuero, 2000; Rivadulla, 2012), Índia (Auerbach, 
+2019) e o Brasil. A ideia preconcebida de “patrão” dá lugar à operação concreta da política 
+1	 “By the term local political organization, I refer not to the affective ties linking citizens with their communities but, 
+instead, to the efforts of a community´s political leaders to deliver blocs of votes to candidates the leadership 
+prefers” (Ames, 1994, p. 95)
+
+
+=== PDF PAGE 7 ===
+7
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+por atores inseridos em tramas de relações sociais e institucionais, notadamente vereadores 
+e suas atividades para além da produção legislativa (Kuschnir, 2000; Rocha e Silva, 2017; 
+D’Ávila et al., 2014), em transações que também envolvem ganhos de poder simbólico e 
+estrutural (Borges, 2021). Apesar disso, mesmo essa literatura recente pouco conecta as práticas 
+e relações analisadas localmente com o funcionamento do sistema político como um todo.
+Como veremos mais adiante, os deslocamentos operados por essa literatura recente 
+são promissores. Entretanto, quanto mais os debates avançam, mais se distanciam do que 
+se poderia chamar precisamente de clientelismo, dados a baixa contingência dos serviços 
+e políticas, as grandes dificuldades de monitoramento, o baixo controle dos políticos 
+sobre os brokers, bem como a variedade desses últimos e suas práticas. Defendemos que 
+parece ser mais interessante construir um ponto de vista de médio alcance focado nos 
+padrões de mobilização política, suas práticas, e relações com as estruturas partidárias 
+e os territórios da cidade. O esforço desenvolvido a seguir aproxima essas dimensões.
+Observando o fenômeno por outro ângulo: a rede territorial de 
+mobilização
+Como vimos, há incentivos ao voto pessoal, e a estrutura institucional brasileira induz 
+ainda mais variação nas formas que partidos se organizam internamente (Ribeiro e Fabre, 
+2019). Os resultados empíricos, entretanto, sugerem a existência de coordenação, inclusive 
+vertical. O que pode explicá-la?
+Sustentamos que a coordenação eleitoral em eleições proporcionais ocorre internamente 
+aos partidos por meio de redes políticas multinível enraizadas na mobilização política 
+territorial realizada por políticos locais, seus mandatos e associados. As conexões entre 
+níveis são realizadas pelo pertencimento a grupos políticos internos aos partidos, assim 
+como por alianças que ultrapassam suas fronteiras. Em ambos os casos, essas conexões se 
+materializam nas chamadas dobradas eleitorais, conectando candidatos (e representantes) 
+de diferentes níveis, em graus variados de formalização. Através dessas parcerias, muitas 
+delas informais e efêmeras, candidatos dividem custos, além de organizar e compartilhar 
+equipes e material de campanha. Os conjuntos de tais parcerias constituem redes de 
+mobilização política que ligam candidatos, grupos políticos, e mesmo partidos.
+Nessas redes operam atores – vereadores e brokers – que as literaturas sobre 
+coordenação partidária e eleições têm largamente negligenciado, exceto pelos debates 
+sobre clientelismo. Entretanto, dado o viés normativo destes últimos, mesmo suas análises 
+mais sofisticadas acabam por predefinir as práticas de tais atores, ao invés de analisá-los 
+como parte central de estruturas de mobilização política de médio alcance.
+Como já comentado, os papéis desses atores variam segundo o contexto, embora todos 
+os municípios tenham Câmaras Municipais e vereadores no Brasil. Em municípios menores, 
+vereadores, e até mesmo prefeitos, podem desempenhar funções de brokerage. Em grandes 
+cidades, seja pela alta taxa de representação por vereador (aprox. 160.000 eleitores por 
+vereador em São Paulo) ou pela complexidade das dinâmicas de governança das políticas 
+urbanas (Marques, 2017), vereadores atuam necessariamente a partir uma rede capilarizada 
+de mobilização territorial baseada em brokers (assessores formalmente contratados ou não). 
+Aqui, contudo, eles assumem uma conotação meramente analítica, afastando o sentido 
+normativamente negativo a eles associado pela literatura sobre clientelismo. Ao contrário 
+do que sustenta tal literatura, a atuação legislativa é complementada (e não oposta) à 
+territorial, e ocorre de maneira sistemática durante todo o período de incumbência, e não 
+apenas no momento eleitoral. A partir da extensa pesquisa qualitativa que deu origem a 
+esse artigo, podemos dizer que esse é um fenômeno geral, presente em vários partidos 
+políticos do espectro ideológico. São exceções a isso os políticos cujos mandatos se 
+estruturam principal ou exclusivamente a partir de mídias sociais no espaço virtual.
+
+
+=== PDF PAGE 8 ===
+POLÍTICA LOCAL E COORDENAÇÃO INTRAPARTIDÁRIA NAS DOBRADAS ELEITORAIS 
+PAULISTANAS
+8
+Para compreendermos a inserção e atuação de vereadores e brokers, assim como suas 
+relações com territórios e partidos, devemos começar pelas lógicas de gabinetes e mandatos 
+parlamentares. Os primeiros são institucionalmente definidos e designam a estrutura formal 
+de recrutamento e remuneração de assessores pela Câmara Municipal. Os segundos dizem 
+respeito a uma categoria nativa, dos próprios atores no campo, que assim designam, 
+com pequenas variações de interpretação, o grupo político de apoio ao vereador. Este, 
+embora englobe e seja em parte sustentado a partir do gabinete, é maior do que aquele 
+e opera com transferências informais de recursos. É possível, inclusive, que um mandato 
+se mantenha sem gabinete, quando um incumbente não se reelege, como veremos mais 
+adiante. Os recursos para sustentar mandatos provêm das verbas dos gabinetes, por meio 
+das quais cada parlamentar pode contratar certo número de assessores (alguns dos quais 
+operarão como brokers), mas sobretudo da operação informal conhecida como rachadinha, 
+pela qual assessores formalizados entregam parte do salário para outros não oficialmente 
+contratados. Isso permite multiplicar o número de assessores oficiais em muitos outros, mas 
+obviamente pode também representar uma forma de enriquecimento ilícito para o parlamentar 
+e seus operadores, quando recursos são desviados para o próprio parlamentar ou seus 
+proxis. Os recursos são também provenientes da formação de caixas-dois alimentadas por 
+estratégias diversas, desde corrupção de capitais do urbano interessados em leis específicas, 
+até o limite tênue entre contribuições involuntárias e “vaquinhas” de assessores a partir de 
+seus salários. Todas essas práticas são ilegais, mas são também amplamente difundidas 
+nos partidos, e em muitos dos casos não visam o enriquecimento ilícito do parlamentar.2
+A estrutura de brokerage é composta pelo que Hoyler (2022) denomina macro e 
+microbrokers, distintos pelos tipos de vínculos com o mandato e pelo tamanho de suas 
+influências sobre votos. Enquanto assessor é uma posição formal na Câmara Municipal 
+e, portanto, uma categoria de ordem empírica, macro e micro são categorias analíticas e 
+indicam funções na estrutura. Tomando os vereadores como pontos de partida, macrobrokers 
+estão ligados diretamente a eles, sendo microbrokers ligados por laços secundários. 
+Como se trata de uma classificação de posições relacionais, a escala importa. Assim, do 
+ponto de vista de deputados federais ou estaduais com quem vereadores fazem dobradas 
+eleitorais, vereadores operam como macrobrokers e seu mandato reúne o conjunto de 
+microbrokers. Para facilitar a leitura, contudo, fixaremos ao longo do artigo os termos 
+macro e microbrokers para nomear as equipes de vereadores.
+Essa relação vertical tem sido analisada colocando prefeitos em destaque, ao serem 
+apontados como “cabos eleitorais” de deputados (Fisch, 2019; Barone, 2014). O termo 
+cabo eleitoral, contudo, ajuda pouco a entender posições nessa estrutura e carrega uma 
+conotação pejorativa ligada à noção de clientelismo, além de sugerir um caráter efêmero. 
+No mundo da política, ele é frequentemente designa quem “só entrega panfleto” e não 
+está comprometido com o mandato, nem possui vínculos significativos que possam 
+se converter em votos. Apesar da instabilidade e imprecisão conceitual, a referência a 
+prefeitos como cabos eleitorais tenta indicá-los como brokers, definição relacional que 
+pode ser aplicada para analisar o grupo político que orbita em torno do prefeito e ajuda 
+a conectar os territórios habitados pelos eleitores às eleições nacionais.
+Embora tenhamos optado por manter constante a terminologia, essas relações costuram 
+vários níveis de forma dinâmica. Enquanto macrobrokers, de modo geral, objetivam tornar-
+2	 Desde 2018, as rachadinhas têm recebido ampla atenção da mídia em função da investigação dos esquemas 
+de corrupção da família Bolsonaro, em especial do senador Flávio e do vereador Carlos, mas também o próprio 
+presidente enquanto deputado. Nesse caso, há indícios de lavagem de dinheiro e organização criminosa pelo 
+qual os políticos contratavam funcionários fantasmas e usavam o valor de suas remunerações em benefício 
+próprio. Esses casos têm reforçado a associação da prática a corrupção sistemática. Contudo, nem sempre esse 
+é o caso, e para entendermos a operação de mandatos políticos é preciso separar a prática de devolução de 
+uma parte do salário dos assessores em si, do seu uso. Isso porque rachadinhas são generalizadas, em especial 
+em grandes cidades, onde os políticos necessitam de amplas redes territoriais de mobilização política.
+
+
+=== PDF PAGE 9 ===
+9
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+se vereadores, microbrokers, conforme fazem crescer sua influência no território,3 podem 
+cercar-se de outros microbrokers de influência ainda mais localizada e almejar se tornarem 
+macrobrokers, preferencialmente remunerados oficialmente em um gabinete. Em todos 
+os casos, a lógica da carreira ascendente se dá aumentando o território (de relações e 
+físico) de influência. Ao ascenderem, obtém recursos mais amplos para remunerar pessoas 
+ligadas a eles nessas cadeias de vínculos políticos.
+As campanhas eleitorais são eventos centrais para fortalecer essas estruturas, por alguns 
+motivos: (1) fazem crescer a quantidade de vínculos; (2) injetam recursos de campanha 
+no grupo político; (3) permitem testar os vínculos atualmente existentes e (4) formam e/
+ou fortalecem alianças que aumentam seu tamanho nas eleições municipais e oferecem 
+alguma segurança de cargos em mandatos, no caso de derrota. O suposto de uma parte 
+da literatura de que não há incentivos para o nível local colaborar em eleições de outras 
+instâncias federativas desconhece e não leva em conta a operação dessa estrutura.
+Há fortes motivos para brokers e vereadores se empenharem (intensamente) nas 
+campanhas de deputados. A campanha eleitoral de deputados aumenta e fortalece os 
+vínculos territoriais de vereadores e brokers porque brokers tornam-se coordenadores 
+regionais de campanha e microbrokers coordenam equipes localizadas, compostas por 
+pessoas já conhecidas e outras que os conhecidos vão trazendo como numa bola de 
+neve. Cabe a essas equipes as ações de divulgação cotidiana, como entrega de materiais 
+informativos, santinhos, disparo de mensagens via Whatsapp de promoção de candidaturas 
+etc. A contratação dessas equipes aproxima e mobiliza pessoas com os quais macro e 
+microbrokers não tiveram oportunidade de estreitar laços ao longo do mandato e injeta 
+uma quantidade significativa de recursos,4 o que é um incentivo em si. Como veremos, 
+as razões pelas quais cada broker decide entrar em uma campanha, e não em outra, 
+incluem a confiança em quem convida. O vínculo de confiança, inclusive, atenua a tensão 
+sempre presente em quem faz campanha, dado o risco de não receber pelo trabalho 
+após a eleição, em especial no caso de derrota do candidato ou candidata. A confiança 
+usualmente é proporcional ao tempo de trabalho conjunto já realizado, à presença de 
+relações de amizade e ao pertencimento ao mesmo grupo político no interior do partido.
+As campanhas de deputados federais e estaduais funcionam para vereadores e brokers 
+como testes porque, no âmbito das variáveis que conseguem controlar, o resultado eleitoral 
+é para eles uma função da injeção de recursos na rede de vínculos existente. Importa ao 
+vereador saber quantos votos um macrobroker traz em determinada zona eleitoral porque 
+isso tende a posicionar o broker e o território com maior ou menor primazia na disputa pelos 
+recursos na eleição municipal subsequente. De forma análoga, o macrobroker consegue 
+mapear quem “veio junto” na campanha, de modo a decidir onde intensificar o trabalho e 
+onde não vale a pena investir esforços nos próximos anos. Uma parte do monitoramento 
+buscado pela literatura se associa a esses cálculos, mas como microbrokers e eleitores não 
+são distinguidos, o monitoramento dos microbrokers enquanto contratados para um trabalho 
+é tratado de forma análoga ao que “patrões” teriam com eleitores. A complexificação dessa 
+estrutura sugere que, se houver monitoramento, ele acontece de forma muito mais sutil, 
+indireta e incompleta do que a literatura sobre clientelismo supõe.
+No caso dos vereadores, interessa colocar sua equipe à disposição de campanhas 
+de deputados pela expectativa de acessos facilitados a outros níveis, pelos acordos de 
+troca de apoio ou votos na eleição seguinte (inclusive dobradas), quando deputados 
+3	 O mesmo raciocínio de ascensão na carreira pela expansão do território de apoio e das redes de mobilização 
+abaixo de si pode ser aplicada para prefeitos que querem virar governadores, deputados ou senadores.
+4	 O cálculo médio com o qual os vereadores trabalharam na última eleição municipal em SP é de R$ 100 de custo 
+por voto, incluindo a impressão de material e contratação de pessoal. Considerando a média de 30 mil votos 
+que tendia a fazer um vereador eleito pela fórmula anterior ao fim das coligações para cargos proporcionais, 
+estamos falando da movimentação de 3 milhões de reais por campanha por vereador.
+
+
+=== PDF PAGE 10 ===
+POLÍTICA LOCAL E COORDENAÇÃO INTRAPARTIDÁRIA NAS DOBRADAS ELEITORAIS 
+PAULISTANAS
+10
+retribuem “emprestando” sua rede de brokerage, assim como pela construção de vínculos 
+que permitam apoios mútuos em caso de derrotas eleitorais, alocando seus principais 
+brokers em gabinetes de deputados.
+As dobradas em eleições proporcionais e a estrutura relacional de 
+mobilização política
+A partir de informações de entrevistas em profundidade e de observação participante, 
+descrevemos e analisamos a partir de agora a rede de mobilização política de um vereador 
+de um dado partido em um de seus principais territórios no que diz respeito às dobradas 
+eleitorais da eleição de 2018, e suas transformações na eleição de 2020. A rede articula 
+vínculos locais (embora não necessariamente clientelistas) com vínculos partidários 
+(embora não necessariamente em coordenação de instâncias decisórias).
+Duas importantes advertências: a rede não corresponde à rede completa de mobilização do 
+partido (pois havia vários outros candidatos nesse território), desse político (pois ele mantinha 
+outras redes locais similares a essa em outros territórios), nem desse território (pois também 
+havia ali outros partidos, candidatos e brokers). Entretanto, a delimitação dos vínculos, sua 
+estrutura e mobilização nos permite descrever analiticamente elementos centrais tanto da 
+mobilização político-eleitoral quanto do efeito de coordenação intrapartidária em eleições 
+proporcionais, perspectiva pouco presente na literatura. Os resultados problematizam as 
+relações entre candidatos de escalas distintas (e, secundariamente, entre partidos), o papel dos 
+brokers, e mais amplamente a categoria clientelismo, recentemente retomada pela literatura.
+Os dados têm origem em pesquisa mais ampla (Hoyler, 2022), na qual acompanhamos 
+durante três anos o cotidiano de dois mandatos parlamentares (de partidos ideologicamente 
+distantes, mas ambos bastante centrais na política local) a partir de um de seus brokers, 
+além de realizarmos entrevistas em profundidade com 42 (quarenta e duas) pessoas de 
+diferentes partidos, sendo 7 (sete) vereadores, 18 (dezoito) outros brokers, 4 (quatro) chefes 
+de gabinete de vereadores, 2 (dois) deputados estaduais, 1 (um) deputado federal, 6 (seis) 
+burocratas e 4 (quatro) ex-secretários municipais. A escolha dos entrevistados seguiu 
+procedimentos de bola de neve, reproduzindo um quadro abrangente dos fenômenos 
+observados e triangulando informações. Essa ampla pesquisa qualitativa permitiu identificar, 
+estruturalmente, como mandatos parlamentares, gabinetes e partidos se relacionam. 
+Um desses mandatos parlamentares acompanhados de perto e enfocado nesse partido 
+pertence ao “partido A”, de grande importância no cenário federal e da cidade de São 
+Paulo. Nos termos descritos pela literatura, trata-se de um partido centralizado com 
+autonomia crescente das instancias locais (Souza, 2020; Ribeiro, 2013). Todos os nomes 
+foram ocultados ou modificados para preservar a identidade das fontes, considerando 
+o caráter sensível de algumas informações.
+Os vínculos da rede foram mapeados partindo do vereador Travassos, e seguindo as 
+alianças e conflitos de mobilização política eleitoral indicados pelos atores entrevistados 
+e observados. Como em toda rede, apareceram no mapeamento vínculos periféricos 
+no próprio território e em outros territórios da cidade, cujas histórias apenas foram 
+perseguidas caso importassem à compreensão da delimitação da rede em questão. 
+Na rede de 2018 apareceram três candidatos ao cargo de deputado federal, três ao cargo 
+de deputado estadual, dois vereadores e seus macro e microbrokers, considerando as 
+duas eleições analisadas. Dada a reciprocidade das práticas de apoio político, os vínculos 
+foram todos considerados como recíprocos.
+Podemos considerar que por meio dos vínculos se fazem trocas que envolvem a 
+circulação de recursos financeiros/pessoal de campanha, e votos. No entanto, o conteúdo 
+do que é trocado varia conforme a direção do vínculo. A Figura 1 (abaixo) esquematiza o 
+conteúdo das trocas entre diferentes atores em cada tipo de eleição.
+
+
+=== PDF PAGE 11 ===
+11
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+Figura 1 – A Troca de Voto e Dinheiro em Eleições Municipais, Estaduais e Federais
+Fonte: elaborado pelos autores a partir de pesquisa de campo
+Os vínculos entre microbrokers e macrobrokers conduzem votos do primeiro ao 
+segundo, e recursos em sentido contrário. O mesmo padrão se repete entre macrobrokers 
+e vereadores, e entre aqueles poucos macrobrokers que se vinculam diretamente com 
+deputados. Quando a aliança é construída na base por macrobrokers, em geral o que é 
+trocado é voto, mesmo que com uma dimensão intertemporal: em uma eleição federal 
+um vereador apoia um deputado, retornando o apoio em dois anos. Entre políticos, o 
+conteúdo do que é trocado depende dos acordos específicos. Em eleições federais e 
+municipais, políticos podem trocar votos por recursos para remunerar a rede de mobilização 
+que um político de um nível empresta a outro (portanto sobem votos mobilizados pelo 
+vereador e descem recursos do deputado, por exemplo). Entretanto, também podem 
+ocorrer trocas de votos sem trocas de recursos, para cumprimento de alianças passadas 
+ou criando expectativas futuras. Quem paga a equipe de vereadores para fazer campanha 
+de deputados em geral é o deputado, mas quando a eleição é municipal, diversas vezes 
+são também os deputados que indiretamente ajudam vereadores ao remunerar seus 
+operadores políticos para fazerem campanha local, ainda que isso não fique explícito 
+nas prestações de conta oficiais de campanha. Existe, em geral, assimetria entre os 
+recursos disponíveis para vereadores e deputados no momento eleitoral, o que se deve a 
+acordos internos aos partidos sobre a distribuição de recursos, mas também às diferentes 
+capacidades de mobilizar recursos de caixa-dois nos níveis municipal, estadual e federal.
+O sociograma a seguir (Figura 2) representa a estrutura de mobilização política analisada. 
+Considerando a baixa complexidade do padrão relacional, optamos por não realizar uma 
+análise de redes formalizada baseada em indicadores. A apresentação do sociograma é, 
+portanto, ilustrativa e visa organizar a compreensão da estrutura relacional de apoios investigada.
+Figura 2 – Sociograma Rede De Mobilização Política Do Vereador Travassos Do Partido “A” Em 
+Certo Território, 2018
+Fonte: elaborado pelos autores a partir de pesquisa de campo
+A rede inclui 106 nós, sendo 73 microbrokers, 27 macrobrokers, 8 candidatos, conectados 
+por 220 vínculos, todos considerados recíprocos. Na representação do sociograma, os nós 
+
+
+=== PDF PAGE 12 ===
+POLÍTICA LOCAL E COORDENAÇÃO INTRAPARTIDÁRIA NAS DOBRADAS ELEITORAIS 
+PAULISTANAS
+12
+representam, respectivamente: azul claro - microbrokers; laranja - macrobrokers; vermelho 
+- vereadores; azuis - deputados estaduais; e verdes - deputados federais. Os nós também 
+estão etiquetados como mb (microbroker), MB (macrobroker), V (vereador) DE (deputado 
+estadual), DF (deputado federal). No caso de representantes, as cores indicam candidatos 
+ao cargo naquela eleição ou incumbentes naquele momento quando se tratar de outro 
+nível, por exemplo: vereadores em 2018 são incumbentes enquanto os indicados como 
+deputados disputam o cargo (embora muitos sejam também incumbentes). Em 2020 isso 
+se inverte. Como podemos ver, há nitidamente duas regiões distintas da rede com 
+atividade mais intensa (marcadas com elipses tracejadas): a região acima, à esquerda, 
+e a região abaixo, à direta, ambas conectadas pelo pertencimento do DE Arnaldo e do 
+DF Campos a ambas.
+Representantes eleitos – vereadores e deputados – se relacionam diretamente, mas é a 
+partir deles que se conectam macrobrokers, que por sua vez se ligam a microbrokers. Apenas 
+em dois casos há conexões diretas entre macrobrokers, e não há nenhum vínculo entre 
+microbrokers. As maiores quantidades de conexões diretas (chamadas tecnicamente de 
+graus) envolvem um deputado federal e dois deputados estaduais (ambos com 7 vínculos), 
+seguidos do próprio Travassos (6 vínculos). Quatro macrobrokers são compartilhados por 
+mais de um candidato, sendo dois deles por vínculos indiretos e dois de forma direta. 
+O número de microbrokers vinculados a cada macrobroker varia bastante, desde um único 
+em vários casos, até 8 e 16 nos macrobrokers de maior capacidade de mobilização da 
+rede. Como já citado, esses tramos da rede crescem com o tempo de incumbência, com o 
+trabalho de mobilização do macrobroker e com os recursos disponíveis. Estão representadas 
+10 dobradas, 3 entre deputados estaduais e vereadores, duas entre deputados federais 
+e vereadores e 5 entre deputados federais e estaduais. O candidato a deputado estadual 
+Arnaldo é quem aparece em maior número de dobradas (4), sendo duas com deputados 
+federais e duas com vereadores (que disputam entre si cargo nessa eleição).
+A mobilização do mandato e da rede
+A configuração de estruturas relacionais em si pouco nos informa sobre a dinâmica concreta 
+da política local. Como tais estruturas relacionais foram construídas e são mobilizada nas 
+eleições e durante governos, como se relacionam com mandatos (e partidos) e como se 
+transformam? Para entendermos não apenas a estrutura, mas também a dinâmica da rede 
+e a mobilização de seus vínculos, é preciso acompanhar o desenrolar da política em si. Para 
+tal, narramos ao longo desta seção histórias sobre eventos políticos colhidas em campo. Elas 
+indicam como vereadores e brokers de vários tipos realizam a mobilização política por práticas 
+nos territórios durante eleições e governos, e como a rede é continuamente transformada 
+pela dinâmica da própria política local. Alguns personagens já aparecem identificados no 
+sociograma anterior e outros são localizados nos detalhes do sociograma explorados a seguir.
+a. As alianças eleitorais e os territórios
+Eram nove da manhã de um domingo chuvoso de julho, aquecido apenas pelos 
+preparativos da campanha eleitoral de 2018. Um total de 245 pessoas se reunia no pátio 
+da escola de um bairro periférico para ouvir o que tinham a dizer os cinco homens e uma 
+mulher alinhados no palco. Estavam posicionados, da esquerda para direita, o deputado 
+federal (DF) e pré-candidato à reeleição Campos, o pré-candidato a deputado estadual 
+(DE) Flores, o vereador (V) Travassos e três brokers: Matheus, dona Célia e Júlio. Júlio é 
+macrobroker (MB) do vereador Travassos, enquanto Matheus e dona Célia são microbrokers 
+(mb) ligados ao vereador por meio de Júlio.
+
+
+=== PDF PAGE 13 ===
+13
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+Júlio (MB), responsável por organizar o evento, abriu a reunião elencando as melhorias 
+trazidas à região e resumiu a trajetória de criação de vínculos com os moradores de bairros 
+adjacentes ao seu, explicando aquela escola tão cheia: “Devido a esse trabalho que nós 
+vínhamos fazendo, nós fomos convidados por várias outras comunidades pra estender 
+esse trabalho pra outros bairros” (Júlio, observação participante em julho de 2018).5
+Ao longo dos aproximadamente 20 minutos em que discursou, Júlio distribuiu os créditos 
+e as responsabilidades, sempre relacionadas às atribuições de cada nível de governo, 
+passando pelo prefeito e pelo governador e pelos candidatos para quem fazia a presente 
+campanha. Mais importante, conectou a necessidade de representação do bairro com 
+políticas públicas, e delimitou seu grupo político e a rede de apoios ao bairro e suas causas:
+Está aqui o deputado Campos, que defende o povo lá no Congresso Nacional. Também no plano estadual, 
+nós precisamos eleger quem tem comprometimento com nossas causas. Nós estamos aqui do lado da 
+represa. É nosso principal manancial e se nós não tivermos ações efetivas de sustentabilidade pra garantir 
+água pras gerações futuras, estaremos com o futuro comprometido (...) Então nós precisamos eleger 
+deputados estatuais como o Flores (...) E, com relação à questão municipal, temos aqui o companheiro 
+Travassos, eu sou colaborador do gabinete dele. Na última reunião que ele veio aqui, nós conseguimos 
+algumas coisas, as quais eu vou discorrer agora (...) (Júlio, observação participante em julho de 2018).6
+Colocando-se como “colaborador” de Travassos (V) e relembrando o que “nós 
+conseguimos”, Júlio reafirmava que pertencia àquela comunidade e lutava por ela, ao 
+passo que Travassos (V) e os deputados vinham de fora, mas eram bem-vindos porque 
+estavam comprometidos com suas causas. Isso valorizava sua posição de intermediação 
+ao mesmo tempo em que justificava e legitimava a atuação dos candidatos ali.
+Em seguida, Júlio (MB) passou a palavra para Matheus (mb) e dona Célia (mb). Observar 
+o que se desenrolou ali era como estar diante da abertura de uma matrioska (a tradicional 
+boneca russa). Os microbrokers falaram de sua confiança no trabalho do macrobroker; 
+o macrobroker apresentou um quadro geral, mas centrou foco no vereador ao discorrer 
+as ações do mandato de Travassos (V). O vereador, por sua vez, introduziu os deputados 
+como defensores das causas do bairro e como legítimos destinatários da confiança (e 
+do apoio) dos eleitores. Estabelecia-se, assim, uma conexão entre bairros localizados na 
+periferia sul da cidade de São Paulo e o Congresso Nacional.
+Portanto, embora candidatos possam todos partir de lógicas personalistas (inclusive induzidas 
+pelo sistema eleitoral), operam no interior de estruturas relacionais desse tipo, embricadas às 
+estruturas partidárias, que contribuem para o que observamos como efeito de coordenação 
+intrapartidária em eleições. Para compreender esse efeito no nível partidário, é preciso incluir 
+mandatos na análise. Essas estruturas intermediárias operam mediando indivíduos e partidos, 
+bem como nos níveis federal, estadual e municipal, fazendo as alianças eleitorais chegarem 
+nos potenciais eleitores localizados em territórios. No momento eleitoral, os incentivos acima 
+descritos colocam mandatos como estrutura estratégica central. Na impossibilidade de um 
+alinhamento, ocorrem rupturas no interior de mandatos, como veremos adiante (seção d), o 
+que apenas os reforça como pontos obrigatórios de passagem.
+b. Macrobrokers e mandatos na construção de alianças
+Entretanto, o que leva um vereador a apoiar deputados, e por que apoiar Campos 
+(DF) e Flores (DE), e não outros candidatos? Em outras palavras, como e por que são 
+estabelecidas essas alianças? A seguinte história nos ajuda e entender a formação de 
+alianças.
+5	 Autorização concedida pelo entrevistado para divulgação de depoimentos para fins acadêmicos.
+6	 Idem.
+
+
+=== PDF PAGE 14 ===
+POLÍTICA LOCAL E COORDENAÇÃO INTRAPARTIDÁRIA NAS DOBRADAS ELEITORAIS 
+PAULISTANAS
+14
+No início dos anos 2000, o mesmo Júlio da história anterior trabalhava com Silas em 
+uma companhia de ônibus, respectivamente como motorista e cobrador. A amizade se 
+intensificou quando participaram de uma chapa para disputar o sindicato dos condutores, 
+mas perderam a disputa e foram demitidos da viação. Precisando de emprego, Júlio e Silas 
+foram convidados, por meio de um conhecido em comum, para participar do mandato do 
+um vereador para quem já tinham feito campanha como microbrokers.7 Permaneceram 
+nesse mandato até 2012, quando esse vereador perdeu a eleição. Para acomodar seus 
+principais brokers após a derrota eleitoral, o ex-vereador recorreu a colegas do partido 
+em busca de cargos e repasses financeiros que pudessem manter próximos os principais 
+membros do seu mandato, prática muito comum nos mais variados partidos, o que aparece 
+com frequência nas entrevistas. É de Júlio uma fala bastante ilustrativa do que a pesquisa 
+identificou de maneira generalizada também em outros partidos:
+Os deputados e os vereadores eles se potencializam, um ajuda o outro. Se o cara perdeu eleição ele vai 
+ficar pelo menos dois anos sem mandato, mas se ele tem um potencial, tem uma estrutura, os deputados 
+estadual e federal vão ajudando. Obviamente que você não vai ter as mesmas condições que você teria 
+com o mandato seu, mas geralmente os parlamentares te disponibilizam a estrutura mínima e você 
+mantem ali uma estrutura mínima e vai tocando. (Julio em entrevista, dezembro de 2018).8
+E foi assim que Silas (MB) foi trabalhar no mandato de Flores, que era então vereador 
+e aparece no sociograma como candidato a deputado estadual em 2018. Enquanto Silas 
+(MB), trabalhando para Flores, assumiu um cargo na subprefeitura local, Júlio (MB) seguiu 
+com o vereador para quem trabalhava, embora não mais vinculado a um gabinete. Para 
+sustentar Júlio (MB), esse vereador recorreu a repasses financeiros informais provenientes 
+de um deputado federal do partido, mas como broker sem mandato, Júlio dispunha de 
+pouquíssimos recursos para fazer política. Não conseguia emendas para o território em 
+que atua nem dispunha de um canal aberto com o Executivo, exceto por Silas, de quem 
+passou a depender para conseguir trazer políticas e melhorias para a região. Alguns anos 
+depois, o quadro se inverteu: Flores não foi reeleito vereador e Silas perdeu o cargo, ao 
+passo que Júlio passou a integrar o mandato de Travassos. Em 2018, quando apareceu a 
+chance de retribuir ao amigo a ajuda que recebeu durante aquele difícil período pessoal 
+e de atuação política, Júlio não aceitou fazer campanha para o candidato a deputado 
+estadual Arnaldo, embora Travassos (V) o tenha apoiado como dobrada prioritária em 
+toda cidade. Decidiu fazer campanha para Flores, com quem o amigo Silas continuaria 
+trabalhando, se eleito.
+Esse apoio eleitoral construído desde baixo, ou seja, entre macrobrokers, foi aceito por 
+Travassos (V) porque, segundo o vereador, “não dá pra obrigar assessor a fazer campanha 
+pra alguém que ele não quer, que ele não vai fazer direito”. Quando se trata de um político 
+que o vereador faz questão de apoiar, a aliança na eleição funciona melhor se é colocada 
+desde o começo da contratação do broker. Esse é o caso da relação entre Travassos e 
+Campos (que aparece logo abaixo de Travassos no sociograma), que há mais de uma 
+década se consideram “um único mandato”. Nos termos do vereador, “os assessores de 
+um são do outro também”. Essa pareceria estável, que atravessa eleições, fortalece ambas 
+as candidaturas, mas é uma situação muito difícil de alcançar. “É um sonho”, nas palavras 
+de um outro vereador entrevistado [Partido B, maio de 2019].
+Flores e Travassos, embora não participem do mesmo grupo político dentro do partido, 
+aceitaram o acordo construído desde baixo por Silas e Júlio porque houve a promessa de 
+troca de apoio na eleição seguinte: em 2020, Silas prometeu 3 mil votos para Travassos, 
+valor equivalente ao que Júlio havia prometido em 2018 para Flores. “Prometer voto”, um 
+7	 Esse vereador não está representado do sociograma pois isso ocorreu antes da campanha de 2018. Dessa 
+história restou o vínculo entre Júlio e Silas, que nos ajuda a entender a dobrada eleitoral entre Travassos (V) e 
+deputados em 2018.
+8	 Autorização concedida pelo entrevistado para divulgação de depoimentos para fins acadêmicos.
+
+
+=== PDF PAGE 15 ===
+15
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+termo nativo, significa o total de pessoas que o macrobroker estima conseguir mobilizar 
+e influenciar direta ou indiretamente (via microbrokers). Com base nessa estimativa são 
+feitos os acordos. Ocorre que, paralelamente, em 2018, Flores e o então macrobroker 
+(que operava em outra região) Rubens trocaram 10 mil votos:9 Rubens apoiaria Flores 
+com 10 mil votos em 2018 e Flores retribuiria nas eleições municipais de 2020, quando o 
+macrobroker Rubens se candidataria ao cargo de vereador. Flores cumpriu parcialmente 
+o acordo, apoiando em 2020 apenas a Rubens em toda a cidade, exceto nos territórios 
+em que Silas e Júlio haviam fechado acordo com o mandato de Travassos. Findada a 
+eleição municipal de 2020, como Rubens não se elegeu por poucos votos, bem menos 
+do que Silas e Júlio poderiam ter oferecido a ele, criou-se “um mal-estar” entre Rubens 
+e Flores que, se não fosse resolvido, tenderia a dificultar a formação de uma aliança nas 
+próximas eleições, apesar de serem do mesmo grupo político no partido.
+A Figura 3, a seguir, destaca (como zoom) no sociograma de 2018 as dobradas que o 
+vereador Travassos apoiou, assim como a relação entre Júlio com Silas (acima, à esquerda), 
+que densifica o vínculo entre Travassos (V) e Flores (DE) desde baixo.
+ 
+Figura 3 – Apoios Eleitorais A Partir De Travassos (zoom do sociograma de 2018)
+Fonte: elaborado pelos autores a partir de pesquisa de campo
+O aspecto que queremos destacar aqui é que conexões (políticas, mas também 
+pessoais) entre macrobrokers fazem parte da explicação de como são construídos os 
+apoios eleitorais entre candidatos. Nem sempre elas são construídas pelos próprios 
+candidatos, o que complexifica explicações para o efeito de coordenação observado. 
+Antes do efeito coordenação intra-partidária, existe uma coordenação intra-mandatos e 
+inter-mandatos. A troca pactuada por Silas (MB) e Júlio (MB) precisou primeiramente ser 
+validada pelos mandatos a que pertencem para ter efeito da interação entre eles.
+c. Os apoios podem ser múltiplos
+A existência de vários vínculos entre candidatos no sociograma já nos sugere que 
+apoios podem ser múltiplos. Continuar a acompanhar o mesmo macrobroker nos ajuda 
+a especificar essa dimensão.
+A autonomia de Júlio para decidir quem apoiaria na sua região não prejudicou as 
+dobradas prioritárias em outras áreas, preservando o apoio de Travassos a Arnaldo (DE) 
+e a Campos (DF) a partir da atuação de outros brokers em outros territórios. Quando a 
+dobrada é prioritária, ela recebe mais recursos de campanha e material comum a ambos 
+os candidatos, incluindo por vezes também uma foto do vereador. Em alguns casos, até 
+9	 A quantidade de 10 mil votos é surpreendente e se explica pela capacidade de mobilização desse macrobroker, 
+que atingiu tal patamar que conseguiria, como de fato fez, se candidatar a vereador.
+
+
+=== PDF PAGE 16 ===
+POLÍTICA LOCAL E COORDENAÇÃO INTRAPARTIDÁRIA NAS DOBRADAS ELEITORAIS 
+PAULISTANAS
+16
+mesmo o macrobroker consegue a impressão de um material de campanha com o seu 
+rosto estampado junto aos candidatos que ele apoia. Isso tem um impacto importante, 
+pois o eleitor localizado na base dessas redes de mobilização conhece o broker, mas 
+não o deputado federal.
+Os candidatos a deputado estadual e federal, além de evidentemente terem apoios de 
+outros mandatos em outras cidades do estado, contam também com múltiplas dobradas 
+em uma mesma cidade. Da mesma forma que um vereador pode apoiar diferentes 
+deputados federais e estaduais, também os deputados estaduais são apoiados por 
+vários vereadores e deputados federais e esses, por vários estaduais e vereadores, como 
+mostram os recortes do sociograma seguir, em que Campos (DF), além de apoiar Arnaldo 
+(DE) também apoia Nélio (DE), como mostra a Figura 4.
+ 
+Figura 4 – Dobradas do DF Campos com dois DE e um V (zoom do sociograma de 2018)
+Fonte: elaborado pelos autores a partir de pesquisa de campo
+Nélio (DE), por outro lado, faz dobradas com Campos, além de Ludmila (DF) e Romero 
+(DF), como mostra a Figura 5. As explicações dessas dobradas serão apresentadas a seguir.
+ 
+Figura 5 – Dobradas do deputado estadual Nélio com três deputados federais (zoom do 
+sociograma de 2018)
+Fonte: elaborado pelos autores a partir de pesquisa de campo
+d. Ruptura e formação de novos apoios
+Uma forma importante de transformação das redes (e dos mandatos) se associa a 
+rupturas de apoios, assim como à construção de novos acordos.
+Arnaldo, candidato a deputado estadual que não foi apoiado por Travassos (V) na região 
+em que Júlio (MB) preferiu, junto ao amigo Silas (MB) apoiar Flores (DE), conseguiu fechar 
+
+
+=== PDF PAGE 17 ===
+17
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+parceria com o vereador Ricardo, concorrente de Travassos naquela região. Em troca, 
+Arnaldo (DE) apoiaria a candidatura à reeleição de Ricardo (V) na eleição de 2020. Para 
+deputado federal, Arnaldo fez aliança com Romero (DF), que também se beneficiou dos 
+vínculos do vereador com o território.
+Os candidatos Romero (DF) e Arnaldo (DE) esperavam aproveitar essa parceria 
+estabelecida com Ricardo (V) nesse território para replicar a aliança em outra região da 
+cidade, onde o vereador também tem vínculos. Borges (MB), contudo, um broker até 
+então do mandato de Ricardo e bastante influente nessa outra região, não aceitou fazer 
+campanha para Arnaldo (DE) em função de um desentendimento antigo, embora aceitasse 
+trabalhar na campanha para Romero (DF). Em consonância com esse caso, entrevistas 
+apontam que rupturas raramente acontecem de um momento para outro, mas derivam 
+de desgastes acumulados no tempo que acabam por aflorar. Isso gerou uma ruptura de 
+Borges (MB) com o vereador Ricardo, que fazia questão da dobrada com Arnaldo (DE), 
+não apenas para reciprocar apoio em sua campanha em 2020, como por promessas de 
+remuneração a outros brokers, dando como certa a reeleição do deputado.
+A partir desse momento, Borges (MB) passou a operar nas eleições sem estar atrelado a 
+um mandato específico, confiante em sua capacidade de entregar votos pela quantidade 
+de microbrokers vinculados a ele, capacidade reconhecida por políticos do partido A. 
+Como também mostra a Figura 6, Romero (DF) aproveitou o contato que havia estabelecido 
+com Borges (MB) para seguir com a aliança na região mesmo sem Arnaldo (DE). Para 
+aproveitar o potencial dessa aliança – que envolvia impressão e divulgação de materiais 
+de campanha conjuntas –, Borges (MB) propôs a Romero (DF) uma dobrada com Nélio 
+(DE), aproveitando que Emília, sua irmã, já trabalhava no mandato de Nélio.
+Emília e Borges fazem parcerias entre si, mas nunca tiveram cargos no mesmo mandato. 
+No momento eleitoral, decidem quem vão apoiar por convicções ideológicas e expectativas 
+futuras. Para que não disputem entre si, procuram apoiar os mesmos candidatos. Em 2018, 
+contudo, Emília queria fazer campanha para uma candidata mulher, e não aceitou fazer 
+campanha para Romero (DF). Assim, acabou sendo a responsável pela construção da 
+dobrada de Nélio (DE) com a então vereadora e candidata a deputada federal Ludmila.
+A ruptura entre Borges e Ricardo é indicada com um “x”, e o vínculo entre Borges e 
+Emília aparece destacado por uma estrela na Figura 6.
+ 
+Figura 6 – Ruptura e Formação de Novos Apoios (zoom do sociograma de 2018)
+Fonte: elaborado pelos autores a partir de pesquisa de campo
+Em conjunto com a história da relação entre os macrobrokers Júlio e Silas e decisões 
+diretamente dos políticos, podemos identificar a ocorrência de dois padrões de formação 
+de dobradas. No primeiro caso, a dobrada eleitoral se forma pela troca de apoio entre 
+dois macrobrokers na base, em que o primeiro MB não apoia diretamente o candidato 
+
+
+=== PDF PAGE 18 ===
+POLÍTICA LOCAL E COORDENAÇÃO INTRAPARTIDÁRIA NAS DOBRADAS ELEITORAIS 
+PAULISTANAS
+18
+do segundo MB, mas o apoia por meio deste e o apoio é aceito pelos políticos. Neste 
+caso, temos a representação visual de um quadrilátero MB-DE-V-MB (Figura 7).
+ 
+Figura 7 – Padrão De Relação Quadrilátero (zoom do sociograma de 2018)
+Fonte: elaborado pelos autores a partir de pesquisa de campo
+O segundo padrão ocorre quando o macrobroker é responsável pela aliança política 
+diretamente com o candidato. Essa situação pode ser ilustrada com a história do MB 
+Borges que, ao ter rompido com o vereador, decide o deputado que vai apoiar de maneira 
+desvinculada a um mandato. Nesse caso, aliou-se à Emília e, em conjunto, os dois MB 
+apoiaram o mesmo candidato, formando uma tríade MB-DE-DF (Figura 8). Como em 
+termos relacionais vereadores podem operar como macrobrokers de deputados, também 
+se verificam tríades nos casos em que não há interferência dos operadores políticos mais 
+localizados, fechando tríades Vereador-Deputado Estadual-Deputado Federal.
+ 
+Figura 8 – Padrão De Tríade (zoom do sociograma de 2018)
+Fonte: elaborado pelos autores a partir de pesquisa de campo
+e. As derrotas eleitorais e a movimentação de brokers
+Por fim, outra fonte regular de transformação das redes de mobilização é a movimentação 
+de brokers causada por derrotas eleitorais, levando ao desmonte de gabinetes e à redução 
+do acesso a recursos, embora não necessariamente à desmobilização de mandatos.
+
+
+=== PDF PAGE 19 ===
+19
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+Nélio não foi reeleito como deputado em 2018. Com isso, Emília (MB) perdeu o cargo 
+no legislativo estadual, mas, pelo apoio que ofereceu na campanha, ganhou um cargo 
+no gabinete de Ludmila (V), que também não se elegeu para deputada federal, mas 
+voltou para a Câmara Municipal. Nesse cargo, Emília participa concomitantemente de 
+dois mandatos, já que também foi acordado que ela deve levar o nome de Nélio (DE) 
+em suas ações territoriais para aumentar as chances de Nélio na eleição subsequente. 
+Quando Nélio não se reelegeu, também Joca, um macrobroker com expressiva influência, 
+perdeu seu cargo. Em troca da aliança feita em 2018 com Nélio (então DE), Romero (DF) 
+tratou de cuidar da alocação de Joca, e para isso cobrou o favor de Ricardo (V), a quem 
+havia apoiado. Joca passou a integrar seu mandato até 2020. Após a eleição de 2020, 
+Ricardo não se reelegeu naquele pleito e Joca ingressou no mandato de Romero, mas 
+já fora do nosso período.
+A Figura 9 representa o conjunto das alianças na eleição de 2020, quando o circuito de 
+apoios e relações se reconfigurou levemente. À esquerda, Rubens, que era um macrobroker 
+em 2018, aparece em 2020 com candidato ao cargo de vereador, apoiado por Flores, 
+agora eleito deputado estadual. Além de apoiar Rubens, Flores (DE) retribuiu o apoio 
+de Travassos na região em que Júlio e Silas costuraram o acordo em 2018. Campos e 
+Arnaldo retribuíram o apoio de Travassos e o apoiaram em 2020; Arnaldo apoiou também 
+Ricardo (V), que passou a contar com Joca (MB), que veio do mandato de Nélio. Borges 
+(MB) mais uma vez decidiu sozinho quem apoiar e apoiou Rubens, convencendo a Romero 
+(DF) a também o apoiar em retribuição ao apoio que o próprio Borges lhe deu em 2018. 
+Ludmila, à direita e abaixo, que não se elegeu deputada federal em 2018, aparece em 
+2020 como candidata à reeleição como vereadora.
+ 
+Figura 9 – Vínculos em 2020
+Fonte: elaborado pelos autores a partir de pesquisa de campo
+À guisa de conclusão
+Este artigo analisou a estrutura de mobilização política local do vereador Travassos 
+partindo de certo território da cidade de São Paulo a partir de suas dobradas nas eleições de 
+2018 e 2020. A partir de dados de pesquisa etnográfica e de entrevistas de profundidade, 
+analisamos as estruturas de médio alcance construídas por seu mandato, seus brokers e 
+sua rede de mobilização política no território, além de trazer narrativas de eventos que 
+explicam a formação dos vínculos e a construção desta rede. A identificação de tal rede, 
+conectando territórios específicos da cidade com campanhas a cargos de vários níveis de 
+poder é, em si, um primeiro achado importante: mesmo a eleição nacional, ao fim e ao 
+
+
+=== PDF PAGE 20 ===
+POLÍTICA LOCAL E COORDENAÇÃO INTRAPARTIDÁRIA NAS DOBRADAS ELEITORAIS 
+PAULISTANAS
+20
+cabo, se ancora e depende das escalas mais desagregadas do sistema político. A partir 
+da ampla pesquisa que deu origem a esse artigo podemos afirmar que tal achado tem 
+validade geral para mandatos estaduais ou federais de base territorial (em oposição 
+àqueles organizados principalmente a partir da influência em mídias sociais virtuais). 
+Isso reforça a urgência de integrar escalas locais no centro das análises políticas no país.
+Além disso, vários elementos centrais para compreender a coordenação partidária e a 
+mobilização política afloram da análise da rede e seus vínculos. Primeiramente, o suposto 
+de uma parte da literatura de que não há incentivos para o nível local colaborar em 
+eleições de outras escalas evidencia o desconhecimento sobre a operação das estruturas 
+concretas de mobilização política. Como vimos, brokers e vereadores se empenham nas 
+campanhas de deputados porque estes são eventos centrais para: fazer crescer seus 
+vínculos, injetar recursos de campanha no grupo político, testar os vínculos existentes e 
+formar ou fortalecer alianças em eleições municipais que ofereçam segurança de posições 
+remuneradas em mandatos, em caso de derrota eleitoral.
+A pesquisa também mostra como as relações pessoais são centrais na construção de 
+apoios eleitorais, mas não de forma dissociada de dimensões institucionais, ou mesmo de 
+estruturas partidárias. Mandatos dialogam densamente com grupos políticos do partido 
+e com gabinetes, embora não se confundam com eles. Essas camadas se adicionam e 
+embricam na construção da estrutura local de mobilização, mas não a sobredeterminam. 
+Mesmo em uma rede de mobilização localizada, observamos alianças que cruzaram 
+fronteiras de pertencimento a grupos políticos intrapartidários, costuradas diretamente 
+por macrobrokers. Estes pertencem a grupos e mandatos, mas seu cotidiano se situa entre 
+as questões partidárias e o cotidiano do território, o que os leva a transitar com maior 
+liberdade para criar alianças desde baixo que podem, inclusive, transformar os próprios 
+grupos internos aos partidos ao longo do tempo. O que observamos como efeito da 
+coordenação partidária não acontece por imposição hierárquica de lideranças partidárias, 
+do deputado para vereadores ou mesmo do vereador para o broker. As alianças eleitorais 
+que resultam em dobradas, embora realizadas no escopo partidário, são resultantes de 
+relações construídas no tempo e espaço de forma dinâmica, incluindo rupturas ou novos 
+contatos.
+Vimos também que as relações entre vereadores e brokers são assimétricas, mas os 
+últimos dispõem de recursos de poder significativos e não são inteiramente subordinados 
+aos primeiros. Como em jogos sucessivos, as decisões tomadas nas campanhas interferem 
+na construção de mandatos futuros e nos territórios em que os políticos têm penetração, 
+inclusive pela circulação de macrobrokers entre mandatos. Alianças, assim como derrotas, 
+produzem recomposições de mandatos e realocação de brokers, com intensa disputa pelos 
+que mobilizam territórios mais extensos. Ao se movimentarem entre mandatos, brokers 
+carregam consigo seus vínculos no território e mudam a configuração dos mandatos desde 
+baixo, com efeitos sobre eleições posteriores, e sobre a coordenação interna ao partido.
+Observar a questão sobre como se produz coordenação pelo ponto de vista dos 
+processos relacionais operados por mandatos parlamentares adiciona um novo ângulo 
+às explicações que têm sido oferecidas sobre como se produz congruência entre os 
+sistemas nacionais e subnacionais dos partidos. Esperamos com isso contribuir para abrir 
+a “caixa-preta” dos partidos.
+Agradecimentos
+Os autores agradecem a Marta Mendes da Rocha, Lucas Gelape e a pareceristas 
+anônimos da revista por comentários a versões anteriores do artigo, sendo o resultado final 
+de nossa inteira responsabilidade. Agradecemos também à Fapesp pelo financiamento 
+da pesquisa no Centro de Estudos da Metrópole pelo programa Cepid (2013/07616-7).
+
+
+=== PDF PAGE 21 ===
+21
+REVISTA BRASILEIRA DE CIÊNCIAS SOCIAIS. vol. 38 nº 111. e3811001 2023
+Bibliografia
+ALVES, Vinicius. (2019), Comportamento Eleitoral, Coordenação Partidária E Efeito Coattails 
+No Brasil: Como As Eleições Para O Executivo Influenciam O Voto Para Deputado 
+Federal? Tese de doutorado. Universidade de Brasília, Brasília.
+AMES, Barry. (1994), “The Reverse Coattails Effect: Local Party Organization in the 1989 
+Brazilian Presidential Election”. American Political Science Review, 88, 1: 95-111.
+ARRETCHE, Marta. (2010), “Federalismo e Igualdade Territorial: Uma Contradição em 
+Termos?”. Dados, 53, 3: 587-620.
+AUERBACH, Adam. (2019), Demanding Development: The Politics of Public Goods Provision 
+in India’s Urban Slums. Cambridge: Cambridge University Press.
+AVELINO, George; BIDERMAN, Ciro; BARONE, Leonardo. (2012), “Articulações 
+Intrapartidárias e Desempenho Eleitoral no Brasil”. Dados, 55, 4: 987-1013.
+AYUERO, Javier. (2000), Poor People’s Politics. Peronist Survival Networks and the Legacy 
+of Evita. Durham: Duke University Press.
+BARONE, Leonardo. (2014), Eleições, Partidos e Política Orçamentária no Brasil: explorando 
+os efeitos das eleições locais na política nacional. Tese de doutorado. Fundação 
+Getúlio Vargas, São Paulo.
+BORGES, Mariana. (2021), Weapons of Clients: Why do Voters Support Bad patrons? 
+Ethnographic Evidence from Rural Brazil. Oxford: University of Oxford.
+CAREY, John; SHUGART, Matthew. (1995), “Incentives to cultivate a personal vote: A rank 
+ordering of electoral formulas”. Electoral Studies, 14, 4: 417-439. ISSN 02613794. DOI: 
+10.1016/0261-3794(94)00035-2.
+CARNEIRO, Leandro; ALMEIDA, Maria Hermínia. (2008), “Definindo a Arena Política Local: 
+Sistemas Partidários Municipais na Federação Brasileira”. Dados, 51, 2: 403-432.
+D’ÁVILA, Paulo; CERQUEIRA LIMA, Paulo; JORGE, Vladimyr. (2014), “Indicação e 
+intermediação de interesses: uma análise da conexão eleitoral na cidade do Rio de 
+Janeiro, 2001-2004”. Revista de Sociologia e Política, 22, 49: 39–60.
+FALLETI, Tulia. (2010), Decentralization and Subnational Politics in Latin America. New 
+York: Cambridge University Press.
+FEREJOHN, John; CALVERT, Randall. (1984), “Presidential Coattails in Historical Perspective”. 
+American Journal of Political Science, 20, 1: 127-146.
+FISCH, Arthur. (2019), The cost of elections: articles on the campaign expenditure for federal 
+representatives in Brazil. Tese de doutorado. Fundação Getúlio Vargas, São Paulo.
+FREIDENBERG, Flavia; SUÁREZ-CAO, Julieta. (2014), Territorio y poder: nuevos actores 
+y competencia política en los sistemas de partidos multinivel en América Latina. 
+Salamanca: Universidad de Salamanca.
+GOLDER, Matt. (2006), “Presidential coattails and legislative fragmentation”. American 
+Journal of Political Sciences, 50, 1: 34-28.
+GRAZIANO, Luigi. (1976), “A Conceptual Framework for the Study of Clientelistic Behavior”. 
+European Journal of Political Research, 4, 2: 149–174.
+GUARNIERI, Fernando. (2011), A Força dos Partidos Fracos. Dados, 54, 1: 235-258.
+HOYLER, Telma. (2022), Representação política e conexão territorial: uma etnografia de 
+vereadores e brokers em São Paulo. Tese de doutorado, Universidade de São Paulo, 
+São Paulo.
+JUDD, Dennis. (2005). Everything is Always Going to Hell. Urban Affairs Review, 41, 2: 119-131.
+KITSCHELT, Herbet; WILKINSON, Stephen. (2007), Patrons, clients, and policies: Patterns 
+of democratic accountability and political competition. Nova Iorque: Cambridge 
+University Press.
+
+
+=== PDF PAGE 22 ===
+POLÍTICA LOCAL E COORDENAÇÃO INTRAPARTIDÁRIA NAS DOBRADAS ELEITORAIS 
+PAULISTANAS
+22
+KUSCHNIR, Karina. (2000), Eleições e Representação no Rio de Janeiro. Rio de Janeiro, 
+Relume-Dumará/NUAP.
+LEVITSKY, Steven. (2001), “Inside the Black Box: Recent Studies of Latin American Party 
+Organizations”. Studies in Comparative International Development, 36: 92–110.
+MAINWARING, Scott. (1999), Rethinking Party Systems in the Third Wave of Democratization: 
+The Case of Brazil. Stanford, Stanford University Press.
+MARQUES, Eduardo. (2017). Em Busca de Um Objeto Esquecido: A política e as políticas 
+do urbano no Brasil. Revista Brasileira de Ciências Sociais, 32, 95: 1-18.
+MESQUITA, Lara. (2013), Partidos e coligações: Uma análise exploratória da coordenação 
+partidária em eleições simultâneas. Paper apresentado no 37º Encontro Anual da 
+ANPOCS, Águas de Lindóia, 23 a 27 de setembro de 2013.
+NICHTER, Simeon. (2018), Votes for Survival. Cambridge University Press.
+RIBEIRO, Pedro; FABRE, Elodie. (2019), “Multilevel party organizations in a fragmented 
+presidential system: The case of Brazil”. Regional & Federal Studies, 30, 4: 525-555. 
+DOI: 10.1080/13597566.2019.1591375.
+RIBEIRO, Pedro; BORGES, André. (2019), “The populist challenge: Multi-level electoral 
+coordination in Brazil’s 2018 elections”. Regional & Federal Studies, 30, 3: 363-386. 
+DOI: 10.1080/13597566.2019.1694005
+RIBEIRO, Pedro. (2013). Organização e poder nos partidos brasileiros: uma análise dos 
+estatutos. Revista Brasileira de Ciência Política, 10, 225-265.
+RIVADULLA, María. (2012), “Clientelism or Something Else? Squatter Politics in Montevideo”. 
+Latin America Politics and Society, 54, 1: 37-63.
+ROCHA, Marta da; SILVA, Bruno. (2017), “O poder de indicar: Preferências legislativas de 
+vereadores mineiros”. Cadernos Adenauer, 18, 2: 185–208.
+SAMUELS, David. (2000), “The gubernatorial coattails effect: federalism and congressional 
+elections in Brazil”. The Journal of Politics, 62, 1: 240-253.
+SCOTT, James. (1977), “Patron-client politics and political change in Southeast Asia”, in 
+G. Schmidt & S. Landé (org.), Friends, followers, and factions: A reader in political 
+clientelism, Berkeley: University of California Press.
+SOUZA, Fabiana. (2020), Organização Partidária e Coordenação eleitoral no Brasil. 
+Dissertação de mestrado. Universidade Federal de São Carlos, São Carlos.
+STOKES, Susan; DUNNING, Tad; NAZARENO, Marcelo; BRUSCO, Valeria. (2013), Brokers, 
+Voters, and Clientelism - the Puzzle of Distributive Politics. Nova Iorque: Cambridge 
+University Press.
+SUÁREZ-CAO, Julieta; BATTLE, Margarita; WILLS-OTERO, Laura. (2017), “El auge de los 
+estudios sobre la política subnacional latinoamericana”. Colombia Internacional, 90: 
+15–34.
+WILLS-OTERO, Laura. (2016), “The Electoral Performance of Latin American Traditional 
+Parties, 1978–2006: Does the Internal Structure Matter?”. Party Politics, 22, 6: 758–772.

@@ -1,0 +1,30 @@
+chaves de Dep. Federal com >1 CPF: {2018: 61, 2022: 76}
+chave (ano, UF, nr) cujo 1º registro NÃO é de Dep. Federal: 0
+2018: chaves duplicadas na base = 51; nome do CPF atribuído difere (1º e último nome) = 21; dessas: votos > 0 = 21, eleitas = 0, competitivas = 2, R>0 = 20
+sg_uf sg_partido   nr                        nm_candidato                              nm_cand_cpf  qt_votos_nominais  eleito  comp  vr_receita_recursos_partidos
+   AL       PRTB 2828             FRANCISCO JOSÉ DA SILVA             AUDIVAL AMÉLIO DA SILVA NETO               2661       0  True                       5000.00
+   AP        PHS 3190             MARINALVA DE SENA GOMES      ROZINETE LUCIANA SOUZA DE LIMA MAIA                344       0 False                      25000.00
+   CE        MDB 1522                 GISELE FELIPE BRAGA FRANCISCA AURINETE VIEIRA DE SOUSA FÉLIX               1239       0 False                     414782.86
+   DF         DC 2711                GILDETE SANTANA NETO                   MARIA DO SOCORRO SILVA                145       0 False                       3484.00
+   DF        PPL 5454            FERNANDO LUIS CAMPANELLA         MARCO ANTONIO TOFETTI CAMPANELLA                325       0 False                      24084.37
+   MG     AVANTE 7052               DEBORA CONSUELO SILVA                 PALOMA PRISCILA DA SILVA                 80       0 False                       2868.42
+   MG     AVANTE 7054 LEIDIANE FELIPE DO NASCIMENTO ROCHA          GIRLANDE APARECIDA VAZ DA SILVA                 35       0 False                       2868.42
+   MG     AVANTE 7059       ROSEMIRIA ARACI DE LIMA SOUZA                          ADRIANA JUSTINO                142       0 False                        468.42
+   MG     AVANTE 7061     LUCIA HELENA DE MORAIS DA SILVA                HELENA MARIA GOMES VIEIRA                 26       0 False                       2400.00
+   MG     AVANTE 7085               GRAZIELA SILVA SANTOS                 KESSIA APARECIDA BATISTA                106       0 False                       2868.42
+   MG     AVANTE 7092            MAGNA APARECIDA DA SILVA            MARIA DAS GRACAS SANTOS LOPES                108       0 False                       2868.42
+   MG       PRTB 2801                  GLAUCIENE NOGUEIRA                 INGRID MICHELLE DA SILVA                215       0 False                        100.00
+2022: chaves duplicadas na base = 64; nome do CPF atribuído difere (1º e último nome) = 26; dessas: votos > 0 = 26, eleitas = 1, competitivas = 6, R>0 = 22
+sg_uf sg_partido   nr                       nm_candidato                              nm_cand_cpf  qt_votos_nominais  eleito  comp  vr_receita_recursos_partidos
+   AL   PATRIOTA 5144            APOLONIA GOMES DA SILVA            JOSILEIDE CARVALHO DOS SANTOS                 44       0 False                      10000.00
+   AL   PATRIOTA 5177           REGINA CELIA DE OLIVEIRA             JOSUÉ ANTÔNIO DO CARMO SILVA                118       0 False                      50000.00
+   AM      UNIÃO 4444            PAUDERNEY TOMAZ AVELINO                         RAQUEL FERNANDES              52014       0 False                    2639313.70
+   BA        PMB 3511             ALICELMO PEREIRA SILVA                       ANDRÉ SOUSA BARROS                262       0 False                        819.22
+   BA        PTB 1404        JUMIR JESUS GONÇALVES DUTRA        FABIANA DA CRUZ BORGES DOS SANTOS                146       0 False                           NaN
+   BA        PTB 1417      EDELTONIO LIBERATO DOS SANTOS                MARCIO ANDREY NOVAES LIMA                133       0 False                           NaN
+   CE        MDB 1551               BEATRIZ FELIPE BRAGA                      GISELE FELIPE BRAGA                333       0 False                     112902.94
+   CE        PDT 1251 JOSÉ ARNON CRUZ BEZERRA DE MENEZES PEDRO AUGUSTO GEROMEL BEZERRA DE MENEZES              37057       0  True                    1500000.00
+   DF       AGIR 3633            HEWERT RITCHARD DE MELO                    SEBASTIAO CEZAR PINTO                353       0 False                       5862.07
+   DF     AVANTE 7040     AMANDA CHRISTINA CABRAL BERTIN          JUAREZ TAVORA DE FREITAS JUNIOR               1580       0  True                       2000.00
+   DF       PSDB 4545              ANDRÉIA MOURA ZEMUNER                SÉRGIO FERNANDES FERREIRA               2398       0 False                    1805016.00
+   DF      UNIÃO 4444   RODRIGO RODRIGUES FERREIRA GOMES                 DANIEL DE SOUSA OLIVEIRA               2637       0 False                     195773.39

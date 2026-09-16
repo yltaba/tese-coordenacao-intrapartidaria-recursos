@@ -1,0 +1,724 @@
+=== PDF PAGE 1 ===
+from the SAGE Social Science Collections. All Rights Reserved.
+PARTY POLITICS 
+VOL 7. No.1 pp.89-102 
+Copyright © 2001 SAGE Publications 
+London. Thousand Oaks. New Delhi 
+WHEN DOES EVERY PENNY COUNT? 
+Intra-party Competition and Campaign Finance in 
+Brazil 
+David Samuels 
+ABSTRACT 
+Scholars generally believe that as inter-party competltlOn intensifies, 
+candidates and parties will need to spend more money to win votes. Cox 
+and Thies (] 998) extended this claim and argued that in electoral 
+systems that require intra- as well as inter-party competition we also 
+ought to observe a positive relationship between the intensity of intra-
+party competition and the level of individual campaign spending. They 
+demonstrated such an effect for pre-1993 Japan. However, the relation-
+ship between political competition and campaign spending may be a 
+function of the size of the constituency. In larger districts, candidates 
+face far more competitors - from within their party and from other 
+parties - and thus receive poorer information about the quality of the 
+competition. As a result they may lack a basis for deciding whether to 
+spend more or less. In this paper I extend and re-test the Cox and Thies 
+hypotheses using electoral and campaign spending data from Brazil, 
+which has much larger district magnitudes than Japan. In contrast to 
+Cox and Thies, I find no relationship between the quantity of either 
+intra- or inter-party competition and spending, and no relationship 
+between the quality of inter-party competition and spending in large 
+constituencies. However, I do find that candidates continue to respond 
+to the quality of intra-party competition. These results qualify Cox and 
+Thies's findings: in larger-magnitude candidate-centric electoral systems, 
+candidates respond less to the pressures of inter-party competition, but 
+continue to react to the pressures of intra-party competition. 
+KEY WORDS _ Brazil _ campaign finance _ elections _ personal vote 
+1. Introduction 
+Several scholars have recently drawn attention to the conditions under 
+which candidates for office pursue a 'personal vote'. 1 This question is 
+1354-0688(200101 )7: 1;89-1 02;015137 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 2 ===
+PARTY POLITICS 711) 
+particularly interesting in electoral systems where many candidates from the 
+same party compete in the same constituency. Given intra-party compe-
+tition, candidates cannot rely solely on their party's label to win elections. 
+Instead, they must attempt to differentiate themselves from their co-parti-
+sans as well as from other parties' candidates. One strategy to develop a 
+'personal vote' support base under SNTV, Open-List PR, or other 'candi-
+date-centric' electoral systems, as Cox and Thies (1998) have recently 
+argued, is to spend money. 
+Cox and Thies tested for the impact of both inter- and intra-party com-
+petition on candidate spending decisions. They focused particularly on the 
+effect of intra-party competition, and tested their argument in Japan's pre-
+1993 Single Non-Transferable Vote system. They found that candidate 
+spending increased as intra-party competition increased. In this paper, I 
+extend their argument to make it more broadly generalizable, and test it for 
+the case of Brazil. 
+Brazil is an important case for this claim. It employs a similarly 'candi-
+date-centric' electoral system, open-list PR, but it differs from Japan on a 
+crucial variable: district magnitude. In pre-1993 Japan, district magnitude 
+ranged from 1 to 6 seats per district. In Brazil, district magnitudes range 
+from 8 to 70 seats per district. This variation matters because in larger dis-
+tricts, with more competitors, candidates always face a good number of 
+intra-party as well as inter-party competitors. In Japan, some LDP candi-
+dates faced no intra-party competitors, and most faced only one or two. Do 
+increasingly larger numbers of intra- and inter-party competitors continue 
+to drive candidates to spend more money? Does the intensity of the com-
+petition also matter in larger districts? As district magnitude increases, 
+candidates are less able to obtain good information about when, where and 
+how much money to spend. I thus extend the Cox-Thies claims into new 
+territory by exploring the Brazilian case, testing whether increases in the 
+quantity and quality of intra- and inter-party competition in very large dis-
+tricts continue to have the hypothesized positive impact on candidates' cam-
+paign spending. 
+This paper is organized as follows. In Section Two I extend the Cox-Thies 
+argument regarding the relationship between intra-party competition and 
+campaign finance and explain how this logic plays out in Brazilian elections. 
+Subsequently, I test the relationship between intra-party competition and 
+campaign finance in Brazil. Finally, I discuss my findings and their impli-
+cations. 
+2. The Relationship between Intra-Party Competition 
+and Campaign Finance 
+'Candidate-centric' electoral systems force candidates to compete with their 
+co-partisans as well as against candidates from other parties. In these 
+90 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 3 ===
+SAMUELS: WHEN DOES EVERY PENNY COUNT? 
+electoral systems parties do not set the list-order of candidates. Voters deter-
+mine which candidates receive seats, although typically votes do pool to lists 
+or parties first, which determines how many seats each list gains. More 
+specifically, the following characteristics describe candidate-centric electoral 
+systems: (a) voters cast one vote for either a candidate or a party; (b) each 
+constituency returns more than one member to the legislature; and (c) candi-
+dates receive seats in order of their vote totals. The electoral systems that 
+satisfy these criteria include Single-Transferable Vote (STY) systems, where 
+M>l, Single Non-Transferable Vote (SNTY) systems, where M>l, and 
+Open-List Proportional Representation systems. In these systems, candi-
+dates must cultivate some degree of a 'personal vote' in order to differenti-
+ate themselves from their list-mates; they cannot seek votes on the basis of 
+purely partisan appeals. 
+Personal-vote-seeking strategies are expensive, and in candidate-centric 
+electoral systems we expect campaign expenditures to be much higher than 
+they would be in party-centric electoral systems such as closed-list PRo Cox 
+and Thies hypothesize that two factors condition the level of individual cam-
+paign spending in candidate-centric systems. First, spending ought to 
+increase to the extent that candidates within a list2 do not differentiate them-
+selves on the basis of policy. If candidates differentiate themselves on policy 
+bases, for example by building up a legislative 'niche', they may not have to 
+spend much money - they can credibly claim credit through media exposure 
+or special-interest group connections. On the other hand, if policy does not 
+differentiate candidates, then candidates must rely upon provision of par-
+ticularistic goods. This typically requires spending money. To the degree that 
+candidates do not differentiate themselves based on policy appeals, intra-list 
+spending ought to increase. 
+Second, spending ought to co-vary with the intensity of intra-party com-
+petition. For example, if three seats are at stake in a district, and at time 't' 
+a party nominates only one candidate, then that candidate faces no intra-
+party competition and will spend only what it takes to compete against other 
+parties' candidates and win. However, suppose that at time 't+1' this same 
+party decides (for whatever reason) to nominate two people. If we further 
+suppose that this party's appeal to the general electorate has an established 
+upper bound, then these candidates will be forced to fight for every vote, 
+and as a result will probably spend a good deal of money to come out on 
+top within the party list - as well as beat other parties' candidates. Thus, 
+we expect that as the intensity of intra-list competition increases, so would 
+individual campaign spending within that list. 
+2.1 Intra-Party Competition in Brazil 
+As in Japan, elections in Brazil are candidate-centric. Brazil uses a version 
+of open-list proportional representation electoral rules to elect members to 
+its lower Chamber of Congress, the Chamber of Deputies. This system 
+91 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 4 ===
+PARTY POLITICS 7(1) 
+encourages intra-party competition, because parties do not rank-order 
+candidates on the list. Instead, voters determine the final rank-ordering by 
+their vote choices. If a party wins M seats, then those seats go to the M 
+candidates on the list with the most votes. Thus, candidates must compete 
+against their list-mates in order to win election. 
+Candidates' campaign strategies tend to conform to the incentives that 
+the electoral rules generate. Outside of the leftist parties (which only obtain 
+about 20 percent of the seats in Congress), candidates generally campaign 
+individualistically and do not compete on partisan or policy-based appeals. 
+They rely on extensive personally based clientelistic networks, and devote 
+considerable resources to enhancing their name-recognition and differenti-
+ating themselves from both their co-partisans and other parties' candidates 
+(Ames, 1995a, 1995b; Mainwaring, 1999; Samuels, 1999a). 
+Candidates' individualistic campaign strategies entail extensive financial 
+outlays. As in Japan, legislative campaigns in Brazil are expensive; winning 
+candidates spent an average of about US$ 120,000 in 1994 (Samuels, 
+1999b). Competition in Brazil thus resembles that seen in pre-1993 Japan 
+in that co-partisans must compete against each other, and candidates in non-
+leftist parties typically compete on particularistic bases. However, the 
+number of seats at stake in each district is much larger in Brazil than in 
+Japan. 
+2.2 Extending the Argument 
+Does the quantity and quality of intra- and inter-party competition have 
+similar effects in Japan and Brazil? Cox and Thies found that increases in 
+the quantity and quality of intra-party competition are positively related to 
+increases in candidate spending in Japan. They also found that the quality 
+of inter-party competition affects candidate spending, but not the quantity 
+of inter-party competition. 
+However, they left open the question of whether the relationship holds 
+under different conditions than found in Japan, where candidates faced 
+either two, three or four intra-party competitors. Several other electoral 
+systems allow or have allowed dozens of candidates to compete in each dis-
+trict. For example, Chile's pre-1973 open-list PR system employed district 
+magnitudes ranging from one to eighteen, and Finland's open-list PR system 
+has district magnitudes that range from 1 to 30. District magnitudes in 
+Brazil range from 8 to 70. Given this and given a law that allows multiparty 
+alliances to nominate up to two candidates per seat in each district, the 
+number of candidates on lists that won at least one seat ranged from a low 
+of 10 to a high of 123. In these two districts, the total number of candidates 
+competing was 70 and 532, respectively. 
+Clearly, there exists an enormous quantitative difference between both 
+intra- and inter-party competition under candidate-centric rules in Japan 
+and Brazil. The question is whether there is also a qualitative difference. 
+92 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 5 ===
+SAMUELS: WHEN DOES EVERY PENNY COUNT? 
+Does the hypothesized relationship between competition and candidate 
+spending hold when many more candidates compete? This argument sup-
+poses that candidates strategically respond to environmental conditions. Let 
+us compare this hypothesis with what we expect regarding strategic voting, 
+where voters respond to environmental conditions. Cox (1997), building on 
+earlier collaborative work (Cox and Shugart, 1995) and upon Sartori (1968: 
+279), has argued that as district magnitude increases the quality of the infor-
+mation available to voters regarding candidates' chances of victory necess-
+arily decreases. As district magnitude increases, and minute changes in vote 
+percentages could determine the election's outcome, voters will be hard 
+pressed to determine which candidate(s) will win and which will lose. In 
+particular, they will lack good information about which candidate is likely 
+to obtain the 'last' seat. Consequently, Cox argues that 'large-magnitude 
+systems should in general depress the level of strategic voting, by destroy-
+ing the primary informational prerequisite of such voting' (1997: 106). Cox 
+showed for Colombia and Japan that as district magnitudes go above five, 
+strategic voting does in fact decline. 
+While Cox does not make this point directly, one might suppose that the 
+same logic about the availability of information applies to candidates as well 
+as voters. As district magnitude or the number of competitors increases, the 
+quality of the information candidates have about their own and their com-
+petitors' chances of victory declines. Candidates need good information in 
+order to assess the likely consequences of their campaign tactics. If they 
+cannot adequately assess the quality of the available information, they will 
+remain highly uncertain about the probability of whether a change in strat-
+egy will increase future payoffs or not. 
+Given adequate data, this supposition could be tested in a number of 
+ways. For example, following Cox (1997: chapters 8-9), scholars could ask 
+whether large district magnitudes or large numbers of potential contenders 
+affect candidates' decisions to enter a race. Or, as I do here, we could expand 
+on Cox and Thies (1998) to investigate the impact of inter- and intra-party 
+competition in large district magnitudes on candidates' decisions to increase 
+campaign spending. Cox and Thies investigate the impact of increases in the 
+number and quality of co-partisan and other competitors. I do the same, but 
+I hypothesize that as district magnitude and the number of competitors gets 
+increasingly larger, the incentives for candidates to increase their spending 
+will decline. 
+Suppose that candidate spending increases linearly as the number or 
+quality of co-partisans competing in the same constituency increases. This 
+is essentially the Cox-Thies argument, represented in Figure 1. 
+Figure 2 represents my extension of the Cox-Thies hypothesis about the 
+potential relationship between campaign spending and the number and 
+quality of intra-party competitors in larger districts. 
+With larger district magnitudes, as the number or quality of co-competi-
+tors increases, candidates may be less able to obtain good information upon 
+93 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 6 ===
+candidate C' s 
+spending 
+PARTY POLITICS 7( 1) 
+# of competitors 
+Figure 1. The Relationship between Money and Political Competition 
+candidate C' s 
+spending 
+# of competitors 
+Figure 2. The Relationship between Money and Competition in Larger District 
+Magnitudes 
+which to base spending decisions. For example, they may have a relatively 
+harder time distinguishing between strong and weak candidates. 
+I have stronger expectations regarding the effect of the quantity of com-
+petition than the quality of competition in higher district magnitudes: in 
+larger districts, increases in quantity are less likely to affect candidates' 
+spending decisions than are mcreases in quality. That is, the difference 
+94 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 7 ===
+SAMUELS: WHEN DOES EVERY PENNY COUNT? 
+between zero, one and two competitors may loom large in candidates' eyes, 
+but the difference between 31, 32 and 33 candidates will matter less. 
+However, quality may continue to matter: a candidate who faces 30 tough 
+candidates will still be more likely to spend more than a candidate who faces 
+31 patsies. This issue is whether candidates can assess the quality of the com-
+petition. Below I test for the impact of increases in quantity and quality of 
+intra- and inter-party competition on candidate spending in large districts. 
+3. Campaign Finance Data for Brazil 
+Before testing for any relationship between intra-party competition and cam-
+paign spending, let us first explore the data that provide the dependent vari-
+able, and discuss its validity. In Brazil, parties do not provide financing to 
+individual candidates for legislative office, and no upper bound limits indi-
+vidual campaign spending. For the 1994 elections, candidates for legislative 
+office were required to submit a presta(iio de contas, or registry of campaign 
+contributions to their state's electoral court, which were subsequently sent to 
+the national electoral court in Brasilia (Tribunal Superior Eleitoral, 1997). 
+These reports provide detailed information on every declared contribution to 
+candidates' campaigns, including the name of the contributor, the recipient, 
+the amount contributed and the date of the contribution. These data report 
+campaign contributions, not campaign expenditures, but they serve as useful 
+proxies of individual expenditures, and I have every reason to suspect that 
+candidate spending correlates with contributions. 
+We do not have a way to verify the accuracy of candidates' contribution 
+declarations. While I agree that candidates may under-report campaign con-
+tributions, based on interviews with electoral-court officials, I believe that 
+any under-reporting ought to be randomly distributed across the sample of 
+candidates.3 Thus, while reported contributions may represent only a frac-
+tion of total campaign expenditures, we can test the data to discover 
+whether any patterns that emerge conform to our expectations about a series 
+of 'stylized facts' concerning the relationship between money and elections. 
+If declared contributions were wholly false, we might expect no patterns at 
+all to emerge. However, I have shown elsewhere (Samuels, 1999b) that the 
+data conform to several conventional hypotheses about cross-office, cross-
+district and cross-candidate spending, demonstrating the data's reliability 
+and validity. Campaign finance data are notoriously tricky, and we must 
+make do with what is available. 
+4. Hypotheses and Tests 
+Does the degree of intra- and inter-party competition affect campaign spend-
+ing in Brazil, as Cox and Thies (1998) demonstrated that it did in Japan? I 
+95 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 8 ===
+PARTY POLITICS 7( 1) 
+will first test for a relationship between the quantity of competition and 
+candidate spending. I use OLS (corrected for heteroskedasticity) to test this 
+proposition on all non-leftist candidates in Brazil (see Mainwaring, 1999).4 
+The dependent variable is per-elector spending by each individual candidate. 
+I include the following independent variables: 
+• Number of Candidates on List: this equals the number of co-partisan 
+competitors each candidate faces. 
+• Number of Candidates in State: this equals the total number of candidates 
+each candidate faces in the state (minus the others on the target candi-
+date's own list). 
+• Candidate Quality: this is a ranking created by an independent Brasilia 
+think-tank. Candidates were rated on a scale of 0-3, with a higher 
+ranking indicating better quality (INESC, 1994). INESC, based on their 
+assessment on candidate's previous political experience, an informal poll 
+of members of Congress and their advisors, and consultations with 
+various media outlets. I expect better-quality candidates to receive more 
+money and thus spend more money.s 
+• District Magnitude: I expect a negative relationship between magnitude 
+and spending. In larger districts, candidates must obtain a smaller propor-
+tion of the total vote to win a seat, and thus tend to spend less per capita. 
+• Demographics: this set of variables includes measures of per capita 
+income, urbanization and age in each candidate's district. These are used 
+as control variables. 
+The key variables are 'Number of Candidates on List' and 'Number of 
+Candidates in State'. Cox and Thies found only that the first variable 
+affected candidate spending decisions; they found no relationship between 
+the quantity of inter-party competition and candidate spending in Japan. As 
+stated above, I expect no relationship between the quantity of competition 
+and campaign spending under Brazil's larger district magnitudes. The regres-
+sion results appear in Table 1. 
+The results on the key variables confirm my intuition. In contrast to the 
+Cox-Thies findings for Japan, the number of candidates on one's list or in 
+one's state does not affect candidate spending in Brazil. The results on the 
+other variables can be interpreted in the following way: magnitude is sig-
+nificant and in the expected direction. Candidates tend to spend less money 
+per elector in wealthier districts and districts with a larger elderly popu-
+lation, and more money in urban district. This is because wealthier and older 
+voters are less susceptible to clientelistic appeals and more concerned about 
+policy issues such as education, taxes, healthcare and pensions, and urban 
+voters are more expensive to 'buy off' relative to rural voters. 
+Let us now turn to the quality of competition. Measuring candidate 
+quality is notoriously difficult. In order to generate confidence in my con-
+clusions I provide three different operationalizations of this concept. The 
+first measure assesses quality using vote totals. Many scholars employ the 
+96 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 9 ===
+SAMUELS: WHEN DOES EVERY PENNY COUNT? 
+Table 1. The number of competitors and campaign spending in Brazil 
+Variable 
+Constant 
+#Candidates on list 
+#Candidates in state 
+Candidate quality 
+District magnitude 
+% in capital 
+Income 
+% Elderly 
+N 
+R-squared 
+F 
+Coefficient (Standard Error) 
+0.19*** (0.03) 
+0.00008 (0.00006) 
+0.0001 (0.0001) 
+0.01 ,.,q (0.002) 
+-0.001 ** (0.0005) 
+0.0007 (0.0004) 
+-0.04*"* (0.01) 
+-0.01 ,.*,' (0.002) 
+1087 
+0.19 
+30.9 
+'effective number' of candidates (or more typically, parties) instead of the 
+raw number of candidates, arguing that this number provides a more accu-
+rate assessment of the 'true' level of competition (Taagepera and Shugart, 
+1989). This statistic indicates how 'tightly packed' the candidates are, 
+informing us that as the effective number of candidates increases, so does 
+the likelihood that a small shift of votes from one candidate to another 
+would alter the outcome. Thus, as the effective number of candidates on a 
+list increases, so does the degree of competition.6 
+However, the effective number of candidates has a drawback in that while 
+it tells us how close the race is within lists, it tells us nothing about the rela-
+tive chances that candidates from a given list have of winning. That is, 
+suppose that candidates had perfect information in terms of the rank-order-
+ing of candidates on their list, but no idea how many seats their list would 
+win. A candidate might be on a very competitive list in one sense (if the 
+candidates were tightly bunched), but on a non-competitive list in another 
+sense (if none of the candidates had enough votes to actually win). 
+To better assess the quality of competition, we therefore need to divide 
+the effective number of candidates on each list by the number of seats each 
+list stands to win. This measure, which I call LISTCOMP, necessarily 
+excludes lists that do not win any seats, but it gives us leverage on the ques-
+tion of the degree of intra-party competition. Table 2 provides an example 
+of how this measure improves upon the effective number of candidates. 
+Competitiveness can increase or decrease independently of the effective 
+number of candidates. For example, parties C and E have equal effective 
+numbers of candidates, but competitiveness in party E exceeds that found 
+in party C. To measure inter-party competition in each state, I employ the 
+same technique (and call the variable STATECOMP). 
+The second measure of the quality of competition is more direct. I simply 
+take the average of INESC's measure of candidate quality for each list and 
+97 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 10 ===
+PARTY POLITICS 7( 1) 
+Table 2. Measures of intra-party competition under open-list PR 
+Party A 
+Party B 
+Party C 
+Party D 
+Party E 
+Candidates 
+10 
+10 
+10 
+10 
+10 
+Effective no. candidates 1.4 
+6.8 
+10 
+1 
+10 
+Seats won 
+3 
+3 
+3 
+3 
+1 
+Competitiveness 
+0.47 
+2.27 
+3.33 
+0.33 
+10 
+for each state (LISTQUAL and STATEQUAL). For each candidate, follow-
+ing Cox and Thies, we hypothesize that as the average quality of the candi-
+dates on the list increases, candidates ought to react by spending more. 
+The final measure of the intensity of competition is the most direct - how 
+much other candidates spend. Candidates may spend reactively, depending 
+not on some vague notion of the quality of the competition, but more 
+specifically on information they obtain about how much other candidates 
+on their list or in their state are spending. Again following Cox and Thies I 
+take the average per-capita spending of candidates on each list and in each 
+state (LISTCASH and STATECASH) and hypothesize that as other candi-
+dates spend more, so should the focal candidate. 
+The results of regressions including the three measures of the intensity of 
+competition are found in Table 3. All the other variables in the model are 
+the same as above. Recall that the number of cases is lower in the first regres-
+sion because it excludes lists that did not win at least one seat. 
+The results indicate that the intensity of intra-party competition may 
+matter, depending on how it is operationalized. LISTCOMP is not signifi-
+cant, and is in the opposite direction as predicted. However, LISTQUAL does 
+reach statistical significance, and LISTCASH nearly does. None of the vari-
+ables that measure the intensity of competition at the state level approaches 
+significance. The results for the other variables are consistent with the results 
+from Table 1, although not always statistically significant: candidate quality 
+is positive and strongly significant, district magnitude is significant in one 
+equation and in the predicted direction in the other two, and candidates tend 
+to spend more money in highly urbanized states and less money in wealthier 
+states and states with a larger population of older people. 
+How do these results compare to the Cox and Thies findings? They found 
+that the quality of both intra- and inter-party competition mattered in 
+Japan's smaller districts. In Brazil's much larger district magnitudes, only 
+intra-party competition has the predicted effect, and only weakly so. 
+5. Discussion 
+Scholars have concluded, with good reason, that the electoral environment 
+in Brazil generally promotes personal vote-seeking. Comparative scholars of 
+98 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 11 ===
+SAMUELS: WHEN DOES EVERY PENNY COUNT? 
+Table 3. The Intensity of Competition and Campaign Spending in Brazil 
+Variable 
+Constant 
+LISTCOMP 
+STATECOMP 
+LISTQUAL 
+STATEQUAL 
+LISTCASH 
+STATECASH 
+Candidate quality 
+District magnitude 
+% in capital 
+Income 
+% elderly 
+N 
+R-squared 
+F 
+Coefficient (Standard Error) 
+0.13*** (0.03) 
+-.001 (0.001) 
+0.01 (0.008) 
+0.01 ** * (0.002) 
+-0.0003* (0.0001) 
+0.002 ** (0.0006) 
+-0.03** (0.01) 
+-0.009*** (0.002) 
+996 
+0.22 
+28.33 
+0.23* * * (0.06) 
+0.015* (0.073) 
+-0.06 (0.04) 
+0.01 *** (0.001) 
+- .00024 (0.00015) 
+0.0007 (0.0004) 
+-0.05 (0.026) 
+-0.01*** (0.002) 
+1087 
+0.20 
+30.01 
+0.09* (0.04) 
+0.35 (0.18) 
+0.28 (0.36) 
+0.01 * ** (0.002) 
+-0.0001 (0.0001) 
+0.0005 (0.0003) 
+-0.01 (0.007) 
+-0.006* * (0.002) 
+1087 
+0.21 
+28.37 
+electoral systems (e.g. Myerson, 1993; Carey and Shugart, 1995) have con-
+cluded that open-list PR promotes intense intra-party as well as inter-party 
+competition, and Brazilianists (e.g. Ames, 1995a, 1995b) have argued that 
+Brazilian congressional deputies spend a great deal of time seeking access to 
+pork-barrel public works projects directed at their constituencies. Others 
+have commented on the link between personal vote-seeking and the high 
+levels of campaign spending in Brazilian elections (Aguiar, 1994), but no 
+study has empirically explored the effect of Brazil's electoral system on candi-
+date spending, or compared campaign spending in Brazil to other countries. 
+In this paper, I have begun to address this issue. Cox and Thies (1998) 
+showed that both quantity and the quality of intra-party competition affects 
+candidates' decisions to spend money in Japan, and that the quality of inter-
+party competition also matters. The more intense the competition, the more 
+candidates tend to spend. In contrast, I showed that the raw numbers of 
+competitors - either on a candidate's list or on other lists - does not affect 
+candidates' spending decisions in Brazil. However, there is some evidence 
+that the quality of the competition does matter, but only for intra-party com-
+petition. Candidates who face better-quality or wealthier candidates on their 
+own list tend themselves to spend more money. 
+I argued that Brazil's larger district magnitudes tend to attenuate but not 
+eliminate the effects of political competition. In such large magnitudes, the 
+simple number of competitors - either on a candidate's list or on other lists 
+- does not appear to influence how candidates strategically allocate cam-
+paign resources. I conclude that at low district magnitudes, candidates may 
+strategically respond to increases in the number of competitors, but they do 
+not do so in larger district magnitudes. 
+In terms of the quality of the competition, I found that candidates do not 
+99 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 12 ===
+PARTY POLITICS 7( 1) 
+respond to changes in the quality of the candidates on other parties' lists. 
+However, candidates do tend to respond to increases or decreases in intra-
+party or intra-list competition. This raises the question of why we see this 
+difference between japan and Brazil. In japan, Cox and Thies found that 
+increases in intra-party competition mattered more than increases in inter-
+party competition, but that both mattered. In Brazil, the importance of inter-
+party competition to candidates' spending decisions fades from view. Again, 
+this may be due to Brazil's extremely large district magnitudes. The electoral 
+system generates incentives for Brazilian candidates to worry first and fore-
+most about beating out their list-mates for a seat; obtaining more votes than 
+other parties' candidates becomes a secondary concern. 
+This paper has only scratched the surface of the relationship between 
+money and votes in Brazil. Politicians in candidate-centric multi-member 
+district systems face informational problems that candidates in single-
+member district systems do not, and candidates in Brazil face more intense 
+information-gathering problems than candidates in many other candidate-
+centric electoral systems. One of Brazil's medium-sized states, Minas Gerais, 
+is the size of France. Given that Brazilian candidates compete in rather large 
+geographic spaces, and may be one of several dozen candidates on a list, we 
+need to know more about how they obtain good information about their 
+co-competitors. How do candidates in large multi-member districts strate-
+gize how and where to spend time and money? Candidates in the US, japan 
+and Brazil (and most likely elsewhere) appear to have an insatiable desire 
+for campaign finance, yet we expect candidates in different electoral systems 
+to behave differently. This begs the question of how candidates know how 
+much is enough, or too much, given my finding that there is no relationship 
+between the intensity of intra-party competition and spending in larger dis-
+tricts. This question and others will have to remain for future research. 
+Future research on the 'personal vote' should also incorporate relative 
+differences in candidates' ability to assess the information at their disposal, 
+a question that is lacking from even the more formal-theoretic work on 
+electoral systems (e.g. Cox, 1997; Myerson, 1993). In general terms, this 
+study generates a number of questions about the consequences of variation 
+in the quality of information that candidates can acquire under different 
+electoral rules: different district magnitudes, variation in the number of 
+competitors and other variables create different competitive environments 
+for candidates. It is to this variation that scholars might turn in the con-
+tinuing investigation of the sources and consequences of the quest for the 
+'personal vote'. 
+Notes 
+1 See Cain et al. (1987), Katz (1985), Myerson (1993), Carey and Shugart (1995), 
+Cox (1997) and Samuels (1999a). 
+100 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 13 ===
+SAMUELS: WHEN DOES EVERY PENNY COUNT? 
+2 I will use the term lists, as opposed to parties. A list can be composed of members 
+of only one party, or of candidates from an alliance of more than one party. 
+3 Interview with Valeria Alves de Sousa, TRE director of internal affairs, Sao Paulo, 
+23 September 1996; interview with Salatiel Gomes dos Santos, TSE director of 
+internal affairs, BrasIlia, 28 June 1997. 
+4 As per Cox and Thies, candidates in leftist parties tend to differentiate themselves 
+less on particularistic grounds and more on the basis of policy. Thus, the pressures 
+of intra- and inter-party competition are not likely to affect their decisions to spend 
+more or less money. 
+5 INESC's rating most likely did not influence contributors' willingness to provide 
+funds to candidates; the correlation between candidate quality and campaign 
+contributions in the sample is 0.04. 
+6 I recognize this measure's shortcomings, as pointed out by Taagepera and Shugart 
+(1989), but nevertheless electoral studies scholars generally accept its reliability. 
+References 
+Aguiar, Roberto (1994) 'The Cost of Election Campaigns in Brazil', in Alexander, 
+Herbert and Rei Shiratori (eds) Comparative Political Finance Among the Democ-
+racies. Boulder, co: Westview Press. 
+Ames, Barry (1995a) 'Electoral Rules, Constituency Pressures and Pork Barrel: Bases 
+of Voting in the Brazilian Congress', Journal of Politics 57: 324-43. 
+Ames, Barry (1995b) 'Electoral Strategy Under Open-List Proportional Represen-
+tation', American Journal of Political Science 39: 406-33. 
+Cain, Bruce, John Ferejohn and Morris Fiorina (1987) The Personal Vote: 
+Constituency Service and Electoral Independence. Cambridge, MA: Harvard 
+University Press. 
+Carey, John and Matthew S. Shugart (1995) 'Incentives to Cultivate a Personal Vote: 
+A Rank Ordering of Electoral Formulas', Electoral Studies 14: 417-39. 
+Cox, Gary W. (1997) Making Votes Count. Cambridge: Cambridge University Press. 
+Cox, Gary W. and Matthew S. Shugart (1995) 'Strategic Voting Under Proportional 
+Representation'. Unpublished manuscript, UCSD. 
+Cox, Gary W. and Michael F. Thies (1998) 'The Cost of Intra-Party Competition: 
+The Single Nontransferable Vote and Money Politics in Japan', Comparative 
+Political Studies 31: 267-91. 
+Cox, Gary W. and Michael F. Thies (2000) 'How Much Does Money Matter? 
+"Buying" Votes in Japan, 1967-1990', Comparative Political Studies 33: 37-57. 
+INESC (1994) 'Renova.;ao pode ficar abaixo dos 60% e Sef<i menor nas grandes 
+bancadas', Informativo INESC 49: 4-5. 
+Katz, Richard (1985) 'Preference Votes in Italy: Votes of Opinion, Belonging, or 
+Exchange', Comparative Political Studies 18: 229-49. 
+Mainwaring, Scott (1999) Rethinking Party Systems in the Third Wave of Democ-
+ratization: The Case of Brazil. Stanford, CA: Stanford University Press. 
+Myerson, Roger (1993) 'Incentives to Cultivate Favored Minorities Under Alterna-
+tive Electoral Systems', American Journal of Political Science 87: 856-69. 
+Samuels, David (1998) 'Political Careerism and Pork-Barreling in Brazil'. Paper 
+presented at the Conference on Legislatures and Democracy, Mexico City. 
+101 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 14 ===
+PARTY POLITICS 7( 1) 
+Samuels, David (1999a) 'Incentives to Cultivate a Party Vote in Candidate-Centric 
+Electoral Systems: Evidence from Brazil', Comparative Political Studies 32: 
+487-518. 
+Samuels, David (1999b) 'Money, Elections, and Democracy in Brazil'. Typescript, 
+University of Minnesota. 
+Sartori, Giovanni (1968) Parties and Party Systems: A Framework for Analysis. 
+New York: Cambridge University Press. 
+Taagepera, Rein and Matthew Shugart (1989) Seats and Votes. New Haven: Yale 
+University Press. 
+Tribunal Superior Eleitoral (1995) 'Dados Estatisticos da Elei<;ao de 1994' 
+(Computer files). Brasilia: TSE. 
+Tribunal Superior Eleitoral (1997) 'Sistema de Controle de Recursos Arrecados' 
+(Computer files). Brasilia: TSEtSCI. 
+DAVID SAMUELS received his PhD from the University of California at San Diego 
+in 1998 and is currently an Assistant Professor of Political Science at the University 
+of Minnesota. Professor Samuels specializes in Latin American politics and the 
+comparative study of political institutions, with particular emphasis on Brazilian 
+politics, electoral systems, political parties, legislatures and federalism. He is the 
+author of articles in Comparative Political Studies and the Journal of Politics, and 
+has received grant support from the National Science Foundation. He is working on 
+transforming his dissertation, entitled 'Careerism and its Consequences: Federalism, 
+Elections, and Policy-Making in Brazil' into a book manuscript, and is engaged in a 
+study of Brazilian campaign finance. 
+ADDRESS: Department of Political Science, University of Minnesota, MN 55455, 
+USA. [dsamuels@polisci.umn.edu] 
+Submitted 27 July 1999; accepted 29 February 2000. 
+102 
+ at University of Birmingham on March 20, 2015
+ppq.sagepub.com
+Downloaded from 

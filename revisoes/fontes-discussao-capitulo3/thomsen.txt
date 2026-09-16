@@ -1,0 +1,2243 @@
+=== PDF PAGE 1 ===
+American Political Science Review (2023) 117, 2, 675–691
+doi:10.1017/S0003055422000764
+© The Author(s), 2022. Published by Cambridge University Press on behalf of the American Political
+Science Association. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http://
+creativecommons.org/licenses/by/4.0), which permits unrestricted re-use, distribution and reproduction, provided the original article is
+properly cited.
+Competition in Congressional Elections: Money versus Votes
+DANIELLE M. THOMSEN
+University of California, Irvine, United States
+C
+ompetition among candidates or parties is a necessary condition for democracy. But who counts as
+a candidate and what counts as competition? The influence of money in American elections makes
+fundraising an appropriate alternative to vote totals, and it provides a new vantage point to assess
+the quality of electoral competition. I draw on a dataset of preelection campaign receipts to measure
+competition in U.S. House primaries from 1980 to 2020. When competition is measured with receipts, it
+looks markedly worse than vote share measures suggest. Moreover, the difference between vote share and
+fundraising measures is largest in open-seat primaries, or the best-case scenarios of competition. The
+disparity between measures is driven largely by candidates who have little chance of winning. The findings
+shed new light on resource disparities in elections and demonstrate that our conclusions about the quality
+of competition are tied to our measures.
+C
+ompetition among candidates or parties is a
+necessary
+condition
+for
+democracy
+(Dahl
+1956;
+1971;
+Key
+1949;
+Schlesinger
+1966;
+Schumpeter 1942). But who counts as a candidate and
+what counts as competition? The competitive struggle
+for the people’s vote is so central to our understanding
+of democratic government that the makeup of the
+ballot and the outcomes of elections have, mostly
+implicitly, come to dominate our depictions of the state
+of electoral competition. Political scientists have relied
+on vote totals and victory margins to examine core
+questions in the study of American politics and repre-
+sentation such as whether citizens are able to hold their
+elected officials accountable and whether elections are
+living up to democratic ideals (i.e., Achen and Bartels
+2016; Ansolabehere, Snyder, and Stewart 2001; Bonica
+and Cox 2018; Canes-Wrone, Brady, and Cogan 2002;
+Fraga and Hersh 2018; Hirano and Snyder 2019).1 It is
+almost exclusively through the lens of the ballot that
+scholars have evaluated the nature and quality of com-
+petition in the United States over the short and long run.
+One strength of vote share measures of candidates
+and competition is that the data collection is straight-
+forward. Candidates are listed, votes are tallied, and
+some win and others lose. Vote totals also have theo-
+retical appeal because they have the most direct con-
+sequences for the election of officeholders and the
+makeup of legislative institutions. Yet the reliance on
+votes has limitations as well. Ferejohn (1977, 166)
+alluded to the imperfections of vote share measures
+over four decades ago, noting that they have “the defect
+of suggesting that what might be called the vulnerability
+of a seat is related in some way to vote margin.” Vote
+totals can indicate which races were likely viewed as
+competitive during the campaign cycle, but only after
+the election has occurred. Nor do vote totals always
+reflect how candidates were perceived prior to the elec-
+tion. Upset victories are an obvious example, but candi-
+dates often outperform or underperform expectations.
+This article departs from the use of vote shares and
+examines the quality of competition through the lens of
+fundraising. The influence of money in American elec-
+tions makes fundraising an especially appropriate alter-
+native to the ballot. Campaign war chests are one of the
+most widely used indicators of viability and vulnerabil-
+ity prior to the election.2 Fundraising reports are short-
+hand for who is ahead or behind in the race and who is
+stronger or weaker as a candidate. Coverage of the
+“financial horse race” gives a barometer of support for
+a candidate and their likelihood of winning (La Raja
+2007). The use of receipts as a heuristic for electability
+has become even more prevalent as candidates raise
+record sums of money with each election cycle.3 Addi-
+tional evidence of the importance of money is that it is
+explicitly
+incorporated
+in
+prominent
+forecasting
+models. Fundraising is one of the “fundamentals” in
+538’s models, and the Cook Political Report similarly
+Danielle M. Thomsen
+, Associate Professor, Department of Polit-
+ical Science, University of California, Irvine, United States, dthom-
+sen@uci.edu.
+Received: June 12, 2021; revised: November 14, 2021; accepted:
+June 30, 2022. First published online: September 06, 2022.
+1 Others have instead examined the influence of competition on a
+host of political outcomes such as voter turnout, political engage-
+ment, and government responsiveness (i.e., Ansolabehere, Brady,
+and Fiorina 1992; Cox and Munger 1989; Gimpel, Kaufmann, and
+Pearson-Merkowitz 2007; Griffin 2006; Lipsitz 2011; Patterson and
+Caldeira 1983).
+2 Scholars of presidential nominations have given significant atten-
+tion to the “money primary,” or the competition for financial
+resources prior to the election, and its implications for viability and
+success (i.e., Adkins and Dowdle 2002; Aldrich 1980; Feigenbaum
+and Shelton 2013; Goff 2005; Mayer 2003; Norrander 2006).
+3 Candidates raise as much or more today before the primary than
+general election candidates did in the 1980s. The top fundraiser in
+opposed primaries raised an average of $196,000 in 1980, compared
+with $1.1 million in 2020—an increase of more than fivefold. What is
+more, this average includes primary winners who are unlikely to win
+the general election. The top-raising general election candidate, who
+is likely to be elected, raised an average of $239,000 in preprimary
+funds in 1980, compared with $1.5 million in 2020 (all in 2020 dollars).
+The million dollar price tag of primary elections would have been
+unforeseen by the earliest reformers who set total spending limits
+several times lower than this amount.
+675
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 2 ===
+draws on fundraising data for their reputable ratings of
+competitive House and Senate races.
+Candidates run against their opponents throughout
+an election cycle, and the race culminates in, but is not
+limited to, a vote. Resource disparities matter for
+material and symbolic reasons well before the elec-
+tion. Donations have direct implications for whether
+candidates can hire staffers and consultants, buy
+advertisements, and access the goods and services that
+fuel their campaigns. A strong fundraising haul also
+attracts attention from the media and partisan elites.
+Following the money during the campaign cycle has
+become a staple of political journalism, in part
+because it is measurable, comparable across candi-
+dates, and fits easily into the horse race frame
+(Graber and Dunaway 2017; La Raja 2007). Resource
+disparities influence candidate behavior prior to the
+election as well, and those who struggle to raise
+money are more likely to exit the race (Bonica
+2017). Of course, at the heart of the emphasis on
+fundraising is the strong association between money
+and election outcomes (Bonica 2017; Center for
+Responsive Politics 2020).4 In short, money has mean-
+ing because it matters for the resources available to
+candidates, because receipts are readily accessible and
+widely cited during the campaign, and because the top
+fundraiser usually wins.
+The influence and even necessity of money in
+modern campaigns compels us to examine resource
+disparities among candidates, and it provides a new
+vantage point to assess the quality of competition in
+American elections. I focus on primaries due to the
+recent emphasis on the primary stage and their
+increasing role in the selection of officeholders.5 I
+leverage preelection receipts in more than 16,000
+U.S. House primaries from 1980 to 2020. I first show
+that receipts and votes differ in important ways that
+bear on our understanding of competition. In partic-
+ular, long-shot candidates, or those who raise little or
+no money, outperform their receipt share at the
+ballot box. I then construct new fundraising mea-
+sures of competition to examine how they differ from
+vote share measures. The first is a binary indicator of
+whether the top fundraiser raised less than 57.5% of
+preprimary receipts or whether their fundraising
+margin is within 20 points of the second highest
+fundraiser. The second is a measure of the effective
+number of candidates in the race calculated with
+receipts (Laakso and Taagepera 1979).
+When the quality of primary competition is viewed
+through a fundraising lens, it looks markedly worse
+than recent research suggests. Fewer races are com-
+petitive with fundraising measures, and the number of
+candidates decreases. Open-seat primaries are often
+held up as bright spots in an era of declining general
+election competition, but the difference between vote
+share and fundraising measures is largest in open
+seats. The likelihood that an open-seat primary is
+competitive with vote share measures but not fun-
+draising measures increases by 15 percentage points,
+and the effective number of candidates calculated
+with receipts decreases by nearly half in safe districts
+and by 40% in competitive districts. The disparity
+between vote share and fundraising measures is driven
+largely by financial long shots who outperform their
+receipt share at the ballot box. The quality of competi-
+tion in these best-case scenarios is increasingly relevant
+as more elections are decided at the primary stage.
+The article makes several contributions to the study
+of elections and representation. It provides the first
+analysis of the quality of competition through the lens
+of fundraising. The soaring cost of elections matters for
+who runs, who wins, and how legislators spend their
+time in office (i.e., Bonica 2020; Carnes 2018; Fouir-
+naies 2021; Hall 2019; Kaslovsky 2022; Kirkland 2021;
+Powell 2012). Grappling more directly with resource
+disparities is important because of the outsized role that
+fundraising plays in running for office and gaining
+attention on the campaign trail. Although vote share
+measures of competition have long been the gold stan-
+dard, the findings raise new questions about their
+limitations within both the US and other democracies,
+particularly when there are numerous small parties or
+unknown candidates in the race. Alternative measures
+of viability will necessarily vary by context, but future
+research should give more attention to how vote share
+measures influence our view of competition across
+democratic governments.
+In addition, the framework allows us to draw
+distinctions
+between
+dimensions
+of
+competition.
+The
+fundraising
+arena
+is
+undergoing
+enormous
+and rapid change. The historic amount of money in
+elections has been spurred by both legal and tech-
+nological developments (Magleby 2019; Magleby,
+Goodliffe, and Olsen 2018). The rise in online fun-
+draising has decreased the barriers to giving money,
+and small donors play an increasingly central role in
+the funding of campaigns (Alvarez, Katz, and Kim
+2020; Kim 2022). The ease of donating coupled with
+the engagement of energized partisans can lead to
+unlikely influxes in resources. For instance, a handful
+of recent House and Senate challengers running
+against high-profile incumbents raised huge sums in
+unfavorable districts and lost by large margins
+4 Scholars have examined the relationship between money and elec-
+tion outcomes since the FEC began collecting data in the 1970s. Most
+agree that challenger spending is positively associated with House
+and Senate outcomes (but see Levitt 1994), though the marginal
+returns to incumbents have been a contested subject of debate
+(Gerber 1998; Green and Krasno 1988; 1990; Jacobson 1980, 1990;
+Krasno and Green 1988). Money has also been incorporated into
+measures of quality (Bond, Covington, and Fleisher 1985; Ragsdale
+and Cook 1987), but the core difficulty of using expenditures to
+measure quality is that it mixes ability with the expected outcome.
+More recently, Bonica (2017; 2020) argues that previous studies show-
+ing minimal returns of fundraising reflect a focus on general elections,
+and he uncovers a substantial effect of early money in primaries.
+5 Whereas 42% of House members were elected from safe districts in
+the 1980s, this figure rose to 68% in the 2010s. Among winners in
+open seats, 50% and 63% came from safe districts in the 1980s and
+2010s, respectively. However, I also examine fundraising and vote
+share measures of competition in general elections, and competition
+looks better with vote share measures than with fundraising measures
+in general elections as well. A discussion of general elections is
+provided in the Appendix.
+Danielle M. Thomsen
+676
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 3 ===
+(Skelley 2021).6 Although donors for the most part
+bet on the candidates who win, the framework allows
+us to distinguish preelection viability from electoral
+performance and study where donor behavior and
+election outcomes deviate from expectations.
+Finally, the article raises new questions about how
+we define and study political candidacies. The avail-
+ability of new data has resulted in a surge in attention to
+the factors that shape candidate emergence and suc-
+cess. Most samples start with the ballot, but scholars
+increasingly draw on candidate and committee data
+from the Federal Election Commission or focus on
+those who raise money. Most of the time, it is simply
+not clear how candidacies are measured because there
+has been a dearth of attention to this topic (Fowler
+1993; Thomsen 2017). Those who campaign for office
+but drop out before the election complicate our defini-
+tions even more. Yet these distinctions matter for the
+makeup of candidate pools, particularly with respect to
+income, education, and occupation. They also matter
+for victory rates if our samples include or exclude
+candidates who are more or less viable. This article
+measures candidates and competition with money, but
+the question of what counts as either has theoretical,
+empirical, and normative implications and warrants
+additional scholarly discussion.
+MEASURING ELECTORAL COMPETITION
+Scholars have long relied on vote totals to examine
+competition. A series of influential articles in the 1970s
+studied the “vanishing marginals” and the rise in
+incumbent vote share that unfolded over the late twen-
+tieth century.7 The steady decline in competitive gen-
+eral elections has amplified the importance of primaries
+and sparked new interest in the quality of primary
+competition. Hirano and Snyder (2019) provide the
+most comprehensive study of primaries to date. They
+use four measures of competition: the percentage of
+primaries that were contested, the percentage of pri-
+maries where the winner received less than 57.5% of
+the total votes, the number of candidates in the race,
+and the votes cast for all losing candidates as a percent-
+age of the total votes (Hirano and Snyder 2019, 39).
+They find that, across primaries from 1900 to 2016, the
+level of competition is highest in open-seat races and in
+constituencies with a partisan advantage. The authors
+have a positive view of primaries, and they conclude
+that primaries contribute to the electoral system by
+allowing candidates to compete in constituencies that
+would otherwise lack competition.
+As noted above, fundraising is an appropriate alter-
+native to votes in large part because of its association
+with election outcomes. Indeed, money is perhaps the
+single most valuable resource for candidates who want
+to win. Top fundraisers win the primary 92% of the
+time; if we exclude unopposed candidates, they win
+81% of the time.8 Fundraising is at least as good a
+predictor of outcomes as previous political experience,
+the most commonly used measure of candidate quality
+(i.e., Hirano and Snyder 2019; Jacobson 1989). Fifty-
+two percent of experienced nonincumbents won the
+primary, compared with 85% of nonincumbents who
+raised the most money; among opposed nonincum-
+bents, these figures are 42% and 69%, respectively.
+Here we are not interested in the effect of money on
+outcomes, but the association between the two adds
+validity to fundraising measures of competition.
+Yet money and votes also differ in small but system-
+atic ways that bear on our understanding of competi-
+tion. Figure 1 shows binned scatter plots of the
+relationship between primary receipt share and vote
+share for more than 30,000 U.S. House candidates from
+1980 to 2020. The left graph includes all candidates, and
+the right graph excludes unopposed candidates. Can-
+didates who raise less than 10% of receipts still receive
+15% of the vote, on average.9 Indeed, the relationship
+between money and votes is weakest for those who are
+most likely to lose.10 The correlation between receipt
+share and vote share among those who raise less than
+10% of receipts is 0.11, compared with 0.77 for opposed
+candidates who raise more than 10%.11 Moreover,
+6 Candidates run for office for many reasons. Underdogs who show
+an impressive ability to fundraise but lose can put a race on the map,
+increase attention to various issues, and reap professional rewards in
+the future. Previous work has examined what motivates long-shot
+candidates to run (i.e., Banks and Kiewiet 1989; Boatright 2004;
+Canon 1993; Fishel 1973; Fowler and McClure 1989; Huckshorn
+and Spencer 1971; Kazee 1994; Maisel 1982), but that question is
+beyond the scope of this article.
+7 There is a large body of research on the decline in close general
+elections
+and
+the
+increase
+in
+the
+incumbency
+advantage
+(i.e., Abramowitz 1991; Abramowitz, Alexander, and Gunning
+2006; Alford and Hibbing 1981; Ansolabehere, Brady, and Fiorina
+1992; Cox and Katz 1996; Erikson 1971; 1972; Ferejohn 1977; Fiorina
+1977; Gelman and King 1990; Jacobson 1987; Mayhew 1974; Tufte
+1973; see Jacobson 2015 for a recent update).
+8 The victory rates of opposed incumbents and nonincumbents who
+raise the most are 98% and 69%, respectively. The rare incumbents
+who lose raise an average of 52% of preprimary receipts, compared
+with opposed winning incumbents who raise an average of 90%. This
+sizable difference between winning and losing incumbents suggests
+that fundraising patterns are a good reflection of incumbent vulner-
+ability as well.
+9 Similarly, at the race level, the difference between the top two
+fundraisers is larger than that between the top two vote-getters. In
+opposed races, the average difference between the top two fundrai-
+sers is 66 points, compared with 36 points between the top two vote-
+getters; in the full sample, the average difference between the top two
+fundraisers and vote-getters is 85 points and 72 points, respectively.
+10 Only 5% of candidates who raised less than 10% of preprimary
+receipts won the primary. In advantaged-party open seats, this figure
+is lower, at 3%. Of the 461 total primary winners who won with less
+than 10% of receipts, 346, or 75%, won in challenger-party primaries;
+only 6 of the 346 won in the general election. It is appropriate to
+describe those who raise less than 10% of receipts as long shots.
+11 Vote totals also understate the advantage of fundraisers at the top.
+Opposed candidates who raise more than 90% of receipts receive an
+average of 72% of the vote, and the correlation is 0.12. Yet 74% of
+candidates who raise more than 90% of receipts are unopposed.
+When unopposed candidates are included, the average vote share
+is 93%. Most of the difference between measures of competition is
+driven by long-shot candidates because the vote share and fundrais-
+ing values are the same in unopposed races.
+Competition in Congressional Elections: Money versus Votes
+677
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 4 ===
+long-shot candidates who raise little or no money make
+up a significant share of primary contenders: 45% of
+nonincumbents raise less than 10% of primary receipts,
+and nearly 25% of nonincumbents did not file a fun-
+draising report with the Federal Election Commission,
+indicating that they raised less than $5,000.12
+Because long shots receive more votes than they do
+money, vote share measures are likely to produce a
+more optimistic view of competition than fundraising
+measures. What is more, vote share measures will be
+more likely to differ from fundraising measures in
+open-seat races, or the best-case scenarios of competi-
+tion. Hirano and Snyder (2019) show that open seats
+attract the most candidates, but more amateurs run in
+these contexts as well (Canon 1993). In advantaged-
+party open-seat races, the average number of candi-
+dates who raise less than 10% of receipts is 2.5, com-
+pared with 0.5 in all other primaries, and the share of
+candidates raising less than 10% of receipts is 39% and
+16%, respectively. The top two candidates are more
+evenly matched than in other primaries, but the aver-
+age difference between the top two vote-getters in
+contested advantaged-party open seats is 20 points,
+compared with 29 points for the top two fundraisers.13
+The implication that vote share measures are most
+likely to diverge from fundraising measures in open
+seats is important because much of the optimism
+around primaries is driven by these races in particular
+(Hirano and Snyder 2019).
+I construct new measures of competition with pre-
+primary fundraising totals to examine how they differ
+from vote share measures. First, I create a binary
+measure of whether the race was competitive that
+considers the fundraising advantage of those at the
+top: whether the top fundraiser raised less than 57.5%
+of all preprimary receipts as well as whether the top
+fundraiser’s share of receipts is within 20 percentage
+points of the second highest fundraiser.14 I use both
+measures because, unlike in general elections with two
+candidates, a 55 or 60 percent threshold in primary
+elections does not necessarily indicate a narrow fun-
+draising or victory margin because money and votes
+can be divided among more than two candidates.15 The
+20-point margin measure further distinguishes between
+FIGURE 1.
+Relationship between Primary Receipt Share and Vote Share
+0
+0.2
+0.4
+0.6
+0.8
+1
+Primary Vote Share
+0
+0.2
+0.4
+0.6
+0.8
+1
+Primary Receipt Share
+All Candidates
+0
+0.2
+0.4
+0.6
+0.8
+1
+Primary Vote Share
+0
+0.2
+0.4
+0.6
+0.8
+1
+Primary Receipt Share
+Opposed Candidates
+Note: The left graph shows a binned scatter plot of the relationship between primary receipt share and vote share for U.S. House candidates
+from 1980 to 2020. The right graph excludes unopposed candidates. The lower correlation between receipt share and vote share among
+long-shot candidates provides motivation for why vote share and fundraising measures of competition are likely to differ.
+12 Unlike traditional scatter plots, binned scatter plots are not a
+visualization of the entire dataset (Cattaneo et al. 2019). A traditional
+scatter plot obscures the relationship between money and votes due
+to the size of the dataset, but Figure 1 does not effectively convey the
+distribution of candidates at the low and high ends of fundraising. The
+distribution matters for our expectations of where vote share and
+fundraising measures are likely to differ. Histograms of primary
+receipt share are provided in Figure A3.
+13 The top two vote-getters received an average of 47% and 27% of
+the vote, and the top two fundraisers raised an average of 54% and
+25% of receipts. The disparity between the top two vote-getters and
+the top two fundraisers is smaller in open seats than it is in challenger-
+party and incumbent-contested races, but both fundraising and vote
+share measures are well above the thresholds of competitiveness in
+the vast majority of challenger-party and incumbent-contested races.
+14 The 57.5% threshold is from Hirano and Snyder (2019) and follows
+previous work on general election competition. Ninety-five percent
+of candidates who raise at least 57.5% of receipts won the primary.
+Ninety-one percent of candidates whose receipt share is more than
+20 percentage points lower than the top fundraiser’s share lost the
+primary; of the 9% whose receipt share is more than 20 points lower
+than the top fundraiser’s share but won, three-fourths lost in the
+general election. I also examined a measure of whether the winner
+raised less than 57.5% of receipts and whether the winner’s fundrais-
+ing margin is within 20 points of the top-raising loser. The results are
+the same, but I use preelection data here for the fundraising mea-
+sures. In addition, I use Herfindahl measures of competition calcu-
+lated with vote and receipt shares, and the results are the same (see
+Figure A9).
+15 The average difference between the top two vote-getters when the
+top vote-getter won with less than 57.5% of the primary vote is
+12 points, ranging from 0.01 to 44 points. Twenty-one percent of
+the top vote-getters who won with less than 57.5% of the primary vote
+won by more than 20 points. Even in opposed open-seat primaries in
+safe districts, the average difference between the top two vote-getters
+when the top vote-getter won with less than 57.5% of the primary
+vote is 12 points, ranging from 0.03 to 41 points.
+Danielle M. Thomsen
+678
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 5 ===
+primaries where the top two candidates are more
+evenly matched and those where they are not.
+Second, I create a weighted measure of the number
+of candidates in the race based on preprimary receipts.
+I follow Laakso and Taagepera’s (1979) measure of the
+effective number of parties, where each party is
+weighted by being squared.16 The advantage of using
+the effective number of parties is that it differentiates
+significant parties from less significant ones. I build on
+this approach to generate a fundraising-based measure
+of the effective number of candidates:
+Nc =
+P
+n
+i = 1
+f irt
+
+2
+P
+n
+i = 1
+f 2
+irt
+,
+(1)
+where f irt is the amount of money raised by candidate i
+in race r at time t. In races where receipts are evenly
+distributed among candidates, the effective number of
+candidates is the same as the number of candidates on
+the ballot. In races where one candidate raises the bulk
+of receipts, the effective number of candidates is
+slightly larger than one. Because weighted values are
+almost always lower than unweighted values, our con-
+cern is where they differ the most.
+These measures provide a summary view of compe-
+tition prior to the election. Because competition
+evolves during the cycle, we could also examine the
+relative strength of candidates at any snapshot before
+the election. Contexts change, too, if the incumbent
+decides to retire or if district lines are redrawn. Com-
+petition measures based on early money will only
+include candidates who have entered at that point
+and are less complete views than measures based on
+later fundraising. In addition, because seed money
+increases later fundraising success (Biersack, Herrn-
+son, and Wilcox 1993; Krasno, Green, and Cowden
+1994), early money measures will not capture any
+momentum that follows. We would thus expect fun-
+draising measures later in the cycle to more closely map
+onto (or differ less from) vote totals than those earlier
+in the cycle (see also Gelman and King 1993). Here we
+are interested in overall levels of competition, but the
+measures with early money conform to this expectation
+(see Figure A8).
+Although fundraising measures offer a number of
+advantages, they have their own limitations. First, the
+time frame is unable to match the historical breadth of
+studies that draw on votes.17 Second, the measures are
+contingent on an association between money and out-
+comes. The connection is overwhelmingly apparent in
+the US, but if money is unrelated to viability or man-
+dated to be equitable, other measures would be more
+useful. The measures have serious normative implica-
+tions as well. The emphasis on money has negative
+consequences for who runs as well as who wins, and it
+leads to unorthodox conclusions about representation
+that are not based on levels of constituent support
+(Canes-Wrone and Miller 2022; Gimpel, Lee, and
+Pearson-Merkowitz 2008). However, it is important to
+note that these concerns are rooted in the state of
+American elections rather than the measure itself.
+More generally, fundraising measures provide a new
+opportunity to study the quality of competition through
+the lens that receives the most attention in political
+campaigns today: the ability to raise money.
+DATA AND METHOD
+As noted above, I focus on primaries in light of their
+growing relevance for the selection of officeholders.
+The analyses follow the same structure as those in
+Hirano and Snyder (2019). Competition is measured
+at the race level, and primaries are divided into several
+types based on seat type and partisan leaning. I draw on
+a dataset of more than 33,000 U.S. House candidates
+who filed fundraising reports with the Federal Election
+Commission (FEC) and/or were on the primary ballot
+from 1980 to 2020. I collected the full sample of on-
+ballot primary candidates from the America Votes
+series and the FEC website. Those who were not on
+the ballot but raised money are from the FEC database
+and Bonica’s (2014) Database on Ideology, Money in
+Politics, and Elections (DIME).18 The dataset here
+includes the FEC candidate identifier, the FEC com-
+mittee identifier (when available), and the DIME iden-
+tifier for each candidate to facilitate merges across
+datasets. All of the fundraising data are from FEC
+reports.19
+There are significant challenges associated with col-
+lecting preprimary fundraising data and thus measuring
+competition based on preprimary receipts. The first
+hurdle was merging the candidates with FEC data,
+which was made possible with the identifiers noted
+16 Scholars of comparative politics have given significant attention to
+what counts as a political party (i.e., Cox 1997; Laakso and Taagepera
+1979; Lijphart 1994; Molinar 1991; Taagepera and Shugart 1993) and
+to measuring competition across electoral systems (i.e., Blais and
+Lago 2009; Cox, Fiva, and Smith 2020; Folke 2014; Grofman and Selb
+2011). Yet this line of research similarly draws on vote or seat shares,
+whereas I use preelection resource disparities. One recent exception
+is a measure of effective spending in UK elections by Fouirnaies
+(2021).
+17 The 1974 amendments to the Federal Election Campaign Act
+(FECA) established the Federal Election Commission (FEC), which
+administers the reporting system for campaign finance disclosures.
+For a brief history of federal campaign finance laws, see https://
+transition.fec.gov/info/appfour.htm.
+18 Dropouts are included if they raised money in the same election
+cycle they registered with the FEC, and they comprise 6% of the
+sample. Incumbents who raised money but retired are excluded from
+the dataset.
+19 The dataset also includes overall fundraising totals from the DIME
+data, which allows for additional checks on preprimary values.
+Virtually all of those in the DIME dataset who raise no money did
+not file preprimary reports, which increases our confidence in the
+zero values of preprimary receipts in these cases.
+Competition in Congressional Elections: Money versus Votes
+679
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 6 ===
+above.20 The other challenge is related to FEC report-
+ing requirements. The FEC has collected quarterly and
+preprimary reports since 1980, but the document did
+not ask candidates to provide the total amount raised in
+the preprimary period (election cycle to date) until
+2002. Thus, from 2002 on, I use the total preprimary
+amount reported by the candidate. From 1980 to 2000, I
+use the sum of the amount reported in each quarterly
+period before the primary and the amount in the pre-
+primary report, which covers the first day of the current
+quarterly period through the twentieth day before the
+election.21 I validated these measures with the post-
+2002 preprimary totals provided by the candidates. The
+preprimary totals that I generated with quarterly and
+preprimary reports are correlated with the preprimary
+totals reported by the candidates at 0.99, so I am
+confident in the validity of these totals for the pre-
+2002 period.
+The unit of analysis is the party primary by district
+and year from 1980 to 2020. Only Democratic and
+Republican candidates are considered here.22 There
+are approximately 16,600 primaries, though the num-
+ber decreases to 16,300 with the fundraising measures
+due to missing observations on preprimary receipts in
+about 2% of races. The analyses focus on two main
+factors that are widely known to affect primary com-
+petition: seat type and district partisanship. Like Hir-
+ano and Snyder (2019), partisan balance is coded as
+disadvantaged if the party received less than 42.5% of
+the district vote share in the current or previous pres-
+idential election, balanced if the party received
+between 42.5% and 57.5%, and advantaged if the party
+received more than 57.5%.23 I use their classification of
+primary types: (a) advantaged-party open-seat pri-
+maries, (b) advantaged-party incumbent-contested pri-
+maries,
+(c)
+parties-balanced
+open-seat
+primaries,
+(d)
+parties-balanced
+challenger-party
+primaries,
+(e) parties-balanced incumbent-contested primaries,
+(f)
+disadvantaged-party
+open-seat
+primaries,
+and
+(g) disadvantaged-party challenger-party primaries.24
+The first set of dependent variables includes four
+binary indicators of whether the primary is competitive.
+The vote share measures are whether the top vote-
+getter received less than 57.5% of the vote and whether
+their victory margin is within 20 percentage points of
+the second highest vote-getter. The fundraising mea-
+sures are whether the top fundraiser raised less than
+57.5% of preprimary receipts and whether their fun-
+draising margin is within 20 percentage points of the
+second highest fundraiser. The second set of dependent
+variables includes three measures of the number of
+candidates in the race: the total number of candidates
+on the ballot, the effective number of candidates based
+on vote shares, and the effective number of candidates
+based on receipts.25 I also calculate the difference
+between the respective vote share and fundraising
+measures to examine where the two measures differ
+most. Descriptive statistics of the competitive primary
+variables are provided in Table A1, and distributions of
+the number of candidates variables are provided in
+Figures A1 and A2.26
+20 Of the 33,100 candidates in the dataset, 25,100 have nonzero values
+of preprimary receipts and of total receipts. Another 6,200 have zero
+values of preprimary receipts and of total receipts. The preprimary
+receipts are correlated with total receipts at 0.90; for primary losers
+(who thus did not continue to raise money after the primary), this
+increases to 0.96. There are approximately 1,800 candidates with
+nonzero values of total receipts but zero values of preprimary
+receipts. Of these 1,800 candidates, 700 were unopposed primary
+winners; these races are coded as uncompetitive with one candidate
+in the race. The preprimary figures were further validated by sum-
+ming all of the reports filed by the candidate in a cycle and matching
+these totals to their overall totals. This ensures that the zero values in
+the preprimary stage are zero values rather than an error. In the
+analyses below, 354 of the 16,635 primaries have missing values on
+the fundraising measures because no candidate in the primary
+reported raising money. In other analyses, I followed Jacobson
+(1990) and imputed $5,000 for all candidates who did not file fun-
+draising reports. The findings are the same because $5,000 is still very
+low, but this assumption is more of a stretch for primary candidates
+who do not file reports.
+21 In the 1980s and 1990s, candidates sometimes filed midyear reports
+instead of quarterly reports; I use midyear reports when quarterly
+reports are not available. Candidates who did not file a preprimary
+report or any quarterly report before the primary and were not
+unopposed primary winners are coded as raising no money.
+22 Like Hirano and Snyder (2019, 39), primaries in which no candi-
+date ran for the nomination are counted as uncontested, with zero
+candidates on the ballot and zero effective candidates. Unlike them, I
+include cases in which a nomination was made by convention and
+count these as uncontested; however, they note that the patterns are
+similar when conventions are excluded or counted as uncontested.
+The 13 cases in which the general election winner or future general
+election winner (i.e., Bernie Sanders in 1988) is an Independent are
+also excluded. It is unclear how Hirano and Snyder (2019) code
+blanket primaries; here they are considered by party in order to
+account for district partisanship. Because vote totals are tabulated at
+the primary level in blanket primaries, the total number of candidates
+is calculated at the primary level as well, so the average number of
+candidates is higher. The results are the same if blanket primaries are
+excluded.
+23 I use Jacobson’s presidential vote share data to measure district
+partisanship.
+24 Like Hirano and Snyder (2019, 39), I exclude advantaged-party
+challenger-party primaries and disadvantaged-party incumbent-
+contested primaries. The full sample of 18,270—2 primaries in
+435 districts over 21 cycles—diminishes by 1,647 as a result; 26 pri-
+maries with Independent general election winners are excluded;
+2 primaries in South Dakota’s 2nd district in 1980 are excluded
+because the district was abolished in 1982; and an additional 40 dupli-
+cate primaries when districts were redrawn or a special election was
+held (i.e., Texas in 1996 and 2006; Ohio in 1992, 2006, and 2010) are
+included. The number of observations in the vote share models is
+16,635.
+25 The effective number of candidates based on receipts is correlated
+with the total number of candidates and the effective number of
+candidates based on votes at 0.76 and 0.82, respectively.
+26 There is a slight distinction between earlier research on the rela-
+tionship between spending and general election vote shares and more
+recent work on the relationship between fundraising and primary
+vote shares. Fundraising totals are used far more frequently to convey
+viability than are disbursement totals, so I focus on fundraising. I also
+created measures of competition with preprimary disbursements, and
+the results are the same (see Table A3, Table A4, and Figure A7).
+Preprimary disbursements are correlated with preprimary receipts at
+0.93, so the similarity is unsurprising. In addition, I constructed
+measures of competition by contribution type—those from individ-
+uals, PACs, and limited to itemized receipts—in light of Reynolds
+and Hall’s (2019) finding that House incumbents receive more from
+Danielle M. Thomsen
+680
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 7 ===
+Each model includes a binary variable for open-seat
+and challenger-party primaries, with incumbent-con-
+tested primaries as the baseline. To measure partisan
+leaning, I include indicators for parties-balanced and
+advantaged-party primaries, with disadvantaged-party
+primaries as the baseline. I interact seat type and party
+balance to examine how competition varies across
+primary types. Although entirely self-funded candi-
+dates are rare, many candidates loan money to their
+campaigns. In additional analyses, I exclude candidate
+loans from the preprimary totals, and the results are the
+same (see Tables A5, A6, and A7). I follow Hirano and
+Snyder’s (2019) focus on seat type and district parti-
+sanship due to the overwhelming influence of these
+variables on primary competition, but all of the models
+include district and year fixed effects to account for
+time-invariant attributes of the district and election-
+specific trends.
+DESCRIPTIVE TRENDS OVER TIME
+Before turning to the results, I plot the vote share and
+fundraising measures over time. The top graphs in
+Figure 2 show the percentage of primaries where the
+top vote-getter received less than 57.5% of the vote and
+where the top fundraiser raised less than 57.5% of
+receipts. The bottom graphs show the total number of
+candidates on the ballot and the effective number of
+candidates with receipts.27 The data are broken down
+by incumbent-contested, challenger-party, and open-
+seat races. Two main patterns emerge. First, the fun-
+draising measures reveal lower levels of competition
+across primary types. In open seats, 55% of races are
+competitive with the vote share measure, compared
+with 40% with the fundraising measure. In chal-
+lenger-party primaries, 19% of races are competitive
+with the vote share measure, versus 7% with the
+FIGURE 2.
+Measures of Primary Competition over Time and By Seat Type
+Open-Seat
+Challenger
+Incumbent
+0
+20
+40
+60
+80
+100
+Percent of Primaries
+1980 1984 1988 1992 1996 2000 2004 2008 2012 2016 2020
+(a) 57.5% of Votes
+Open-Seat
+Challenger
+Incumbent
+0
+20
+40
+60
+80
+100
+Percent of Primaries
+1980 1984 1988 1992 1996 2000 2004 2008 2012 2016 2020
+(b) 57.5% of Receipts
+Open-Seat
+Challenger
+Incumbent
+0
+1
+2
+3
+4
+5
+6
+Number of Candidates
+1980 1984 1988 1992 1996 2000 2004 2008 2012 2016 2020
+(d) Effective Candidates
+Open-Seat
+Challenger
+Incumbent
+0
+1
+2
+3
+4
+5
+6
+Number of Candidates
+1980 1984 1988 1992 1996 2000 2004 2008 2012 2016 2020
+(c) Total Candidates
+Note: The top graphs show the percentage of primaries where the top vote-getter received less than 57.5% of total votes and where the top
+fundraiser raised less than 57.5% of total receipts. The bottom graphs show the number of candidates on the ballot and the effective number
+of candidates calculated with preprimary receipts.
+PACs than do challengers and open-seat candidates, and the patterns
+are the same.
+27 The total number of candidates is slightly lower than that in Hirano
+and Snyder (2019, 181) because disadvantaged-party primaries are
+excluded from their figures.
+Competition in Congressional Elections: Money versus Votes
+681
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 8 ===
+fundraising measure. Very few incumbent-contested
+primaries are competitive, but the share is lower with
+the fundraising measure (6% vs. 3%).28 On average,
+the total number of candidates is 1.6 in incumbent-
+contested primaries, 1.5 in challenger-party primaries,
+and 3.7 in open seats. By comparison, the effective
+number in each is 1.1, 1.1, and 2.1, respectively.
+Second, differences between the number of candi-
+date measures are more pronounced in recent election
+cycles, particularly in open-seat primaries. The total
+number of candidates in open seats has risen sharply
+since 2008. From 1980 to 2006, the average total num-
+ber of candidates in incumbent-contested, challenger-
+party, and open-seat primaries is 1.4, 1.4, and 3.4,
+respectively. These figures increase to 1.9, 1.7, and
+4.3, respectively, during the period from 2008 to 2020.
+Whereas the total number of candidates doubled from
+2008 to 2020 in open-seat races, the increase in the
+effective number of candidates is not nearly as stark
+(37% increase). Similarly, in incumbent-contested
+races, the total number of candidates increased by
+53% from 2008 to 2020, but the effective number of
+candidates increased by 9%. The change in the effec-
+tive number of candidates is much more muted than the
+change in the total number of candidates.
+Although the highs and lows track similarly, the
+largest
+single-year
+differences
+between
+measures
+correspond to years in which top fundraisers fared
+worse. The worst year for top fundraisers was in 1992,
+when 15% of top fundraisers lost (compared with the
+average of 8%), and their loss rates were above average
+in 1994, 2010, 2018, and 2020. These years are widely
+considered to be wave elections or atypical with respect
+to victory patterns. For example, women were favored
+in primaries in 1992 and 2018, and outsiders fared
+better in 2018 as well (Dittmar 2020; Porter and Treul
+2018; Scott et al. 2019; Thomsen 2021). To be sure, top
+fundraisers are far more likely to win across this period,
+but atypical elections are useful contrasts because the
+outcomes differed from the norm or from expectations.
+More generally, the trends provide initial support for
+the expectation that competition looks better with vote
+share measures than with measures based on resource
+disparities. The next section incorporates district parti-
+sanship to further explore variation across race types.
+RESULTS
+Table 1 presents the results for whether the primary is
+competitive with the vote share and fundraising
+measures, and Table 2 presents the results with the
+number of candidate measures.29 We can see in Table 1
+that, consistent with Hirano and Snyder’s (2019) find-
+ings, advantaged-party open-seat primaries are the
+most competitive across all four measures. The lower
+levels of competition in incumbent-contested primaries
+and in disadvantaged-party constituencies (the baseline
+categories) is unsurprising. Yet the size of the coeffi-
+cients varies significantly with the vote share and fun-
+draising measures, and the difference is largest in open-
+seat primaries. The magnitude of the difference is
+discussed in more detail below. Another notable pat-
+tern is that, even between the vote share measures
+(Models 1 and 3), the likelihood that a primary is
+competitive is lower with the 20-point vote margin
+measure than with the 57.5% vote share measure
+because unlike in general elections, winning with less
+than 57.5% of the vote does not necessarily indicate a
+narrow 20-point margin.
+The same patterns emerge in Table 2. Across mea-
+sures, the number of candidates increases in open-seat
+primaries in advantaged-party and parties-balanced
+constituencies. The weighted measures calculated with
+votes as well as receipts (Models 2 and 3) indicate that
+the unweighted measure of the number of candidates
+on the ballot includes a large number who fail to attract
+support from voters as well as donors. The coefficients
+are much smaller with the effective number of candi-
+dates measure based on votes (Model 2), and the
+effective number of candidates based on preprimary
+receipts is lower yet (Model 3). As in Table 1, the
+magnitude of the difference across the number of
+candidate measures varies dramatically by primary
+type, with the largest disparity emerging in open seats.
+In addition, I calculated the difference between the
+fundraising and vote share measures to examine
+where they differ most (i.e., whether the race is
+competitive with the 57.5% vote share and 20-point
+vote margin measure minus whether the race is com-
+petitive with the respective fundraising measure; the
+total and effective number of candidates with votes
+minus
+the
+effective
+number
+of
+candidates
+with
+receipts). The full models are provided in Table A2.
+Predicted values are plotted by seat type in Figure 3.30
+28 Of the 7,765 incumbent-contested primaries, 444 and 207 are
+competitive with the 57.5% vote share and fundraising measures,
+respectively. Of the 7,164 challenger-party primaries, 1,338 and
+479 are competitive with the vote share and fundraising measures,
+respectively. Of the 1,706 open-seat primaries, 938 and 676 are
+competitive with the vote share and fundraising measures, respec-
+tively. In the full sample of 16,635 primaries, 2,720 are competitive
+with the vote share measures, compared with 1,362 with the fundrais-
+ing measures (or 16% and 8% of primaries, respectively). The
+number of primaries that are competitive is low with the vote share
+measures, but it is significantly lower with the fundraising measures.
+29 I also ran the analyses without dropouts, and the results are the
+same. Dropout candidates are included because the measure of
+competition is rooted in resource disparities, and candidates can
+amass resources without appearing on the ballot. The models without
+dropouts are provided in Tables A8, A9, and A10. In other analyses, I
+accounted for party and group activity in the race. I use Hassell’s
+(2021) data to control for the number of party-connected donors and
+FEC data to control for party coordinated expenditures and inde-
+pendent expenditures before the primary (Tables A11 and A12). The
+insignificant relationships are unsurprising. As Hassell shows, factors
+like seat type and district partisanship influence party engagement.
+30 The graphs follow the format in Hirano and Snyder (2019; see
+Figure A4). The main comparisons are with the top right (percentage
+of competitive races) and bottom left (number of candidates) graphs.
+Their two other measures—whether the race was contested and the
+total vote percentage to losing candidates—are not incorporated
+here. The measure of whether there is any candidate in the race is
+an exceedingly low standard. The measure of the total vote
+Danielle M. Thomsen
+682
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 9 ===
+TABLE 1.
+Likelihood of Competitive Primary with Votes and Receipts
+(1)
+Competitive,
+57.5% votes
+(2)
+Competitive,
+57.5% receipts
+(3)
+Competitive,
+20-pt vote margin
+(4)
+Competitive,
+20-pt receipt margin
+Open seat
+0.37**
+0.24**
+0.32**
+0.19**
+(0.02)
+(0.02)
+(0.02)
+(0.02)
+Challenger party
+0.16**
+0.07**
+0.15**
+0.06**
+(0.01)
+(0.01)
+(0.01)
+(0.01)
+Parties-balanced
+0.05**
+0.05**
+0.04**
+0.03**
+(0.01)
+(0.01)
+(0.01)
+(0.01)
+Advantaged-party
+0.04**
+0.04**
+0.03**
+0.03**
+(0.01)
+(0.01)
+(0.01)
+(0.01)
+Open seat  Parties-balanced
+0.12**
+0.13**
+0.10**
+0.11**
+(0.03)
+(0.03)
+(0.03)
+(0.03)
+Open seat  Advantaged-party
+0.28**
+0.31**
+0.21**
+0.24**
+(0.03)
+(0.03)
+(0.03)
+(0.03)
+Constant
+0.00
+−0.01
+0.00
+0.01
+(0.05)
+(0.03)
+(0.05)
+(0.04)
+Number of observations
+16,635
+16,281
+16,635
+16,281
+R2
+0.24
+0.23
+0.19
+0.18
+Note: Results are from ordinary least squares (OLS) regressions from 1980 to 2020. Robust standard errors are in parentheses. The
+dependent variable in Models 1 and 2 is whether the top vote-getter received less than 57.5% of total votes and whether the top fundraiser
+raised less than 57.5% of total receipts, respectively. The dependent variable in Models 3 and 4 is whether the top vote-getter’s victory
+margin is within 20 points of the second highest vote-getter and whether the top fundraiser’s fundraising margin is within 20 points of the
+second highest fundraiser, respectively. The baseline categories are incumbent-contested primaries and disadvantaged-party constitu-
+encies. The models include district and year fixed effects. *p < 0.05, **p < 0.01
+TABLE 2.
+Expected Number of Candidates with Votes and Receipts
+(1)
+Total number of
+candidates, ballot
+(2)
+Effective number of
+candidates, votes
+(3)
+Effective number of
+candidates, receipts
+Open seat
+1.46**
+0.96**
+0.70**
+(0.10)
+(0.06)
+(0.05)
+Challenger party
+0.22**
+0.22**
+0.11**
+(0.03)
+(0.02)
+(0.01)
+Parties-balanced
+0.43**
+0.22**
+0.20**
+(0.03)
+(0.02)
+(0.02)
+Advantaged-party
+0.41**
+0.21**
+0.21**
+(0.04)
+(0.02)
+(0.02)
+Open seat  Parties-balanced
+0.60**
+0.30**
+0.32**
+(0.13)
+(0.07)
+(0.06)
+Open seat  Advantaged-party
+1.93**
+0.83**
+0.84**
+(0.15)
+(0.08)
+(0.07)
+Constant
+0.70**
+0.77**
+0.72**
+(0.17)
+(0.11)
+(0.08)
+Number of observations
+16,635
+16,635
+16,281
+R2
+0.37
+0.34
+0.33
+Note: Results are from OLS regressions from 1980 to 2020. Robust standard errors are in parentheses. The dependent variable in Model 1
+is the total number of candidates on the ballot, and the dependent variable in Models 2 and 3 is the effective number of candidates based on
+votes and receipts, respectively. The baseline categories are incumbent-contested primaries and disadvantaged-party constituencies. The
+models include district and year fixed effects. *p < 0.05, **p < 0.01.
+percentage to losing candidates also reveals higher levels of compe-
+tition than does a similar measure based on fundraising, but I focus on
+the top candidate’s advantage and the number of competitors. The
+number of candidates in open seats is slightly lower in their graphs,
+which is likely due to differences in the periods of study. Their data
+extend from 1950 to 2016, whereas the data here are from 1980 to
+2020 when the number of candidates in open-seat primaries is higher
+(Hirano and Snyder 2019, 183). However, the patterns are clearly
+similar. I focus on the expected difference between the measures, but
+the predicted values in Tables 1 and 2 are plotted in Figures A5 and
+A6, respectively.
+Competition in Congressional Elections: Money versus Votes
+683
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 10 ===
+The top graphs show the predicted probability that
+the primary is competitive with the vote share mea-
+sure but not the fundraising measure. The bottom
+graphs show the expected difference between the
+number of candidates with the vote share and fun-
+draising measures; positive (negative) values corre-
+spond to an increase (decrease) in the number of
+candidates with the vote share measures.
+All four graphs indicate that competition looks
+better with vote share measures, but the disparity is
+smallest in incumbent-contested races and largest in
+open seats. In advantaged-party open-seat primaries,
+the probability that a primary is competitive with the
+vote share measure but not the fundraising measure
+increases by 14 percentage points with the 57.5% vote
+share measure and by 13 points with the 20-point vote
+margin measure, as shown in graphs (a) and (b),
+respectively. In parties-balanced open seats, the prob-
+ability increases by 16 percentage points with both the
+57.5% vote share measure and the 20-point vote
+margin
+measure.31
+If
+unopposed
+primaries
+are
+excluded, the probability that an open-seat race is
+competitive increases by 25 percentage points with
+both the 57.5% vote share and the 20-point vote-
+margin measures.
+The number of candidates results also reveal sizable
+differences between measures. The disparity between
+the total and effective number of candidates based on
+receipts reaches a height of 2.3 candidates in advan-
+taged-party open-seat primaries (from 4.9 total to 2.6
+effective candidates) and 1.5 candidates in parties-bal-
+anced open-seat primaries (from 3.6 total to 2.1 effec-
+tive candidates), as shown in graph (c). In other words,
+FIGURE 3.
+Difference between Vote Share and Fundraising Measures of Competition, by Race Type
+Challenger
+Incumbent
+Open-Seat
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+P(Competitive),
+Votes Not Receipts
+Disadvantaged
+Parties-Balanced
+Advantaged
+(a) 57.5% of Votes vs. Receipts
+Challenger
+Incumbent
+Open-Seat
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+P(Competitive),
+Votes Not Receipts
+Disadvantaged
+Parties-Balanced
+Advantaged
+Disadvantaged
+Parties-Balanced
+Advantaged
+Disadvantaged
+Parties-Balanced
+Advantaged
+(b) 20-Pt Vote vs. Receipt Margin
+Challenger
+Incumbent
+Open-Seat
+0
+0.5
+1
+1.5
+2
+2.5
+Difference in Candidates
+(Votes — Receipts)
+Difference in Candidates
+(Votes — Receipts)
+(c) Total vs. Effective (Receipts)
+Challenger
+Incumbent
+Open-Seat
+0
+0.5
+1
+1.5
+2
+2.5
+(d) Effective (Votes vs. Receipts)
+Note: Predicted values are calculated from the models in Table A2. The top graphs show the probability the primary is competitive with the
+vote share measure but not the fundraising measure (for the 57.5% and 20-point margin measures, respectively). The bottom graphs show
+the difference between the total and effective number of candidates (based on receipts) and the difference between the effective number of
+candidates based on votes and receipts, respectively. Across measures, primaries are more competitive with vote share measures than
+with fundraising measures.
+31 Of the 481 advantaged-party open-seat primaries in the dataset,
+339 are competitive with the 57.5% vote share measure, compared
+with 277 with the 57.5% fundraising measure. Of the 744 parties-
+balanced open seats, 413 are competitive with the 57.5% vote share
+measure, versus 296 with the 57.5% fundraising measure.
+Danielle M. Thomsen
+684
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 11 ===
+the number of candidates decreases by nearly half in
+advantaged-party open seats and by 40% in parties-
+balanced open seats with the fundraising measure.
+Unweighted measures are often higher than weighted
+measures, but the difference between the effective
+number of candidate measures based on votes and
+receipts is largest in open-seat primaries as well, as
+shown in graph (d). The magnitude is smaller at 0.4
+candidates, but it is substantively meaningful as the
+average effective number of candidates based on votes
+and receipts is 2.5 and 2.1 in open seats, respectively.
+These two measures of competition—the top vote-
+getter’s or top fundraiser’s advantage and the number of
+candidates—do not have quite the same implications for
+democracy. Races where resources are heavily skewed
+are more clearly worrisome. By comparison, additional
+candidates do not necessarily improve competition, but
+thereisastrongassociationbetweentheeffectivenumber
+of candidates and electoral margins. In safe open-seat
+primaries, the average vote margin between the top two
+vote-getters in primaries with fewer than 2.6 effective
+candidates is 39 points, versus 12 points in primaries with
+more. In opposed incumbent-contested races, the aver-
+age victory margin inprimaries withfewer thanthe mean
+of 1.3 effective candidates is 60 points, versus 30 points in
+primaries with more. Incumbents rarely lose, but the
+percentage of incumbents who win drops from 99.5%
+in opposed primaries with fewer than 1.3 effective can-
+didates to 91.8% in primaries with more. In primaries
+with at least two effective candidates, incumbent victory
+rates decrease to 86.2%. In short, these measures are
+collectively tapping into viability and vulnerability.
+HOW LONG-SHOT CANDIDATES INFLUENCE
+OUR MEASURES
+We may be tempted to interpret the findings above as
+good news because candidates can outperform a fun-
+draising disadvantage at the ballot box. Yet the main
+reason why vote share measures are expected to over-
+state the degree of competition is because of the entry
+of long-shot candidates. This section examines whether
+the disparity between measures widens as the number
+of candidates with limited resources and a minimal
+chance of winning increases. The analyses are struc-
+tured the same as above and include seat type and
+partisan balance. Here the main independent variable
+is the number of candidates in the primary who raise
+less than 10% of preprimary receipts.32 I use indicator
+variables for the number of long-shot candidates in the
+race, with zero candidates raising less than 10% of
+receipts as the baseline. More than 95% of primaries
+have fewer than five long shots, so primaries with five
+or more candidates raising less than 10% of receipts are
+combined into one category. The results are presented
+in Table 3.
+The coefficient on open seat is still positive and
+significant in Models 1 and 2, but the magnitude is
+smaller. Moreover, the coefficients on the number of
+long-shot candidates are much larger than that on
+open seat. For the most part, the difference between
+the vote share and fundraising measures increases
+with each additional long-shot candidate, although
+the size of the increase varies across models. In the
+number of candidate models, open seat is not even
+significant once the number of long shots is taken into
+account. Much of what is driving the relationship
+between
+open-seat
+primaries
+and
+the
+disparity
+between vote share and fundraising measures is the
+number of long-shot candidates in the race. In fact, if
+we add the coefficients on open-seat primaries, com-
+petition even looks better with the fundraising mea-
+sures in Model 4 when there are zero long shots in the
+race (as the values are negative).
+Figure 4 shows the expected difference between
+measures by the number of long-shot candidates for
+advantaged-party open seats. The negative value in
+graph (d) when there are zero long shots illustrates
+the point above, but the majority of open-seat races
+have at least one. On average, there are 2.5 candidates
+who raise less than 10% of receipts in advantaged-party
+open seats. In races with at least three long shots, the
+likelihood a primary is competitive increases by 25 per-
+centage points with the 57.5% vote share measure and
+by 15 to 20 points with the 20-point margin measure.
+Similarly, the disparity between the total and effective
+number of candidates increases by about one candidate
+with each additional long shot. Even the disparity
+between the two effective candidate measures (graph
+[d]), both of which are weighted, is approximately one
+candidate in races with four or more long shots. The
+degree to which our measures differ thus depends on
+the number of candidates who raise little or no money,
+but vote share measures most often result in a better
+view of competition than do measures based on
+resources.
+Although the above analyses are at the race level, we
+can also look at the amount raised per primary vote to
+examine how much cheaper votes are for long shots.
+Vote prices differ dramatically by candidate type, with
+opposed winners raising a median of $10 per primary
+vote and long shots raising a median of $0. Seat type has
+a significant impact as well, and more competitive races
+come with a steeper price tag: the median amount
+raised by open-seat candidates is $11 per vote, and this
+increases to $14 for candidates in advantaged-party
+open seats. In open-seat primaries, non-long shots raise
+a median of $19 per vote, compared with $3 for long-
+shot candidates. In advantaged-party open seats, these
+values are $25 and $6, respectively. Incumbents raise a
+median of $14 per vote, compared with $0 for long shots
+in incumbent-contested races. (These comparisons are
+limited to those in contested elections because vote
+totals are not available for all unopposed candidates.)
+Additional analyses in Table A13 demonstrate that
+32 More specifically, we are interested in the number of long-shot
+candidates whose vote share is higher than their receipt share.
+Ninety-six percent of long shots outperform their receipt share, so I
+use this simpler measure of the number of candidates who raise less
+than 10% of receipts. Similarly, the total number of long shots and the
+total number of long shots who outperform their receipt share are
+correlated at 0.98.
+Competition in Congressional Elections: Money versus Votes
+685
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 12 ===
+long-shot candidates raise much less money per vote
+($18 less, on average) than non-long shots.
+In sum, our interest is not in why so many long-shot
+candidates run but rather how measures based on
+resources change our view of competition. However,
+it is clear that the exponential increase in the amount of
+money needed to win has not deterred candidates from
+entering the fray, even those who have little chance of
+success.33 It may be that long-shot candidates have a
+higher, though still very slim, chance of winning in open
+seats than they do in races with an incumbent (Canon
+1993). Candidates may also miscalculate their ability to
+gain traction and expect to raise more money than they
+do. The broader media environment might play a role
+as well. Arceneaux et al. (2020) find that the density of
+Fox News in congressional districts altered the percep-
+tions of high-quality potential Republican candidates
+and increased their likelihood of running for Congress.
+Media markets may be associated with the entry of
+inexperienced candidates as well. Regardless of the
+motivations of long shots, they are unlikely to be
+formidable in the current context.
+GENERAL ELECTIONS
+Although our main focus is on primary elections, we
+might wonder whether similar patterns emerge in gen-
+eral elections as well. A more detailed overview is
+TABLE 3.
+Relationship between Long Shots and Difference between Measures
+(1)
+Difference in
+competitive
+(57.5%)
+(2)
+Difference in
+competitive
+(20-pt margin)
+(3)
+Difference in
+candidates
+(total-effective)
+(4)
+Difference in
+effective
+(votes-receipts)
+One long-shot candidate
+1.70**
+1.33**
+0.97**
+0.50**
+(0.09)
+(0.08)
+(0.01)
+(0.01)
+Two long shots
+2.64**
+1.61**
+1.91**
+0.77**
+(0.11)
+(0.12)
+(0.01)
+(0.02)
+Three long shots
+3.00**
+1.60**
+2.82**
+1.04**
+(0.14)
+(0.17)
+(0.02)
+(0.04)
+Four long shots
+3.19**
+1.53**
+3.79**
+1.23**
+(0.20)
+(0.30)
+(0.04)
+(0.06)
+Five or more long shots
+2.98**
+1.96**
+6.05**
+1.54**
+(0.21)
+(0.24)
+(0.14)
+(0.09)
+Open seat
+0.60**
+0.83**
+0.00
+0.00
+(0.20)
+(0.19)
+(0.03)
+(0.03)
+Challenger party
+0.84**
+0.79**
+−0.02**
+0.06**
+(0.09)
+(0.08)
+(0.01)
+(0.01)
+Parties-balanced
+−0.16
+−0.02
+0.01
+−0.05**
+(0.10)
+(0.09)
+(0.01)
+(0.01)
+Advantaged-party
+−0.31**
+−0.12
+0.01
+−0.06**
+(0.11)
+(0.10)
+(0.01)
+(0.01)
+Open seat  Parties-balanced
+−0.22
+−0.16
+0.06
+−0.09**
+(0.24)
+(0.23)
+(0.04)
+(0.04)
+Open seat  Advantaged-party
+−0.64**
+−0.47
+0.02
+−0.29**
+(0.27)
+(0.28)
+(0.05)
+(0.04)
+Constant
+0.01
+0.04
+(0.05)
+(0.04)
+Cut point 1
+−4.31**
+−3.34**
+(0.45)
+(0.38)
+Cut point 2
+3.51**
+3.56**
+(0.44)
+(0.39)
+Number of observations
+16,281
+16,281
+16,281
+16,281
+Pseudo R2
+0.20
+0.12
+R2
+0.90
+0.51
+Note: The results in Models 1 and 2 are from ordinal logistic regressions, and the results in Models 3 and 4 are from OLS regressions (1980–
+2020). The dependent variable in Models 1 and 2 is the difference between whether the primary is competitive with the 57.5% vote share
+and fundraising measures and the difference between whether the primary is competitive with the 20-point victory and fundraising margin
+measures, respectively. The dependent variable in Models 3 and 4 is the difference between the total and effective number of candidates
+(based on receipts) and the difference between the effective number of candidates based on votes and receipts, respectively. The baseline
+categories are incumbent-contested primaries, disadvantaged-party constituencies, and primaries with zero long-shot candidates. The
+models include district and year fixed effects. *p < 0.05, **p < 0.01.
+33 However, several studies illustrate that the high price tag of
+running for Congress deters some potential candidates more than
+others (Bonica 2020; Carnes 2018; Hall 2019).
+Danielle M. Thomsen
+686
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 13 ===
+provided in the Appendix.34 The relationship between
+general election receipts and votes echoes that in the
+primary, with long shots who raise less than 10% of
+general election receipts receiving 29% of the vote, on
+average (see Figure A10). Indeed, the floor for long-
+shot candidates is even higher in general elections due
+to the significant influence of partisanship on voting
+behavior.35 The ceiling for those who are almost certain
+to win is similarly lower than their receipt share, as
+candidates who raise more than 80% of receipts
+receive 76% of the vote, on average. I construct the
+same analyses as above to examine the difference in
+competition between vote share and fundraising mea-
+sures in general elections. I use the 57.5% threshold
+for votes and receipts in four types of general elec-
+tions: incumbent-contested and open-seat races in
+competitive and uncompetitive districts.
+The results are provided in Table A14, and predicted
+values of the difference between measures are shown in
+Figure A11. Across races, the quality of competition is
+higher with vote share measures than with fundraising
+measures. For the competition variables, the difference
+between measures is again largest in open seats.
+The predicted probability that a race is competitive
+with the vote share measure but not the fundraising
+measure increases by 32 percentage points in open-seat
+races in competitive districts. In these best-case scenar-
+ios, the number of competitive races declines from
+248 with the vote share measure to 108 with the fun-
+draising measure. However, in contrast to the primary
+FIGURE 4.
+Difference between Measures, by Number of Long Shots
+0
+0.1
+0.2
+0.3
+0.4
+0
+1
+2
+3
+4
+5 +
+Number of Long Shots
+(a) 57.5% of Votes vs. Receipts
+0
+0.1
+0.2
+0.3
+0.4
+0
+1
+2
+3
+4
+5 +
+Number of Long Shots
+(b) 20-Pt Vote vs. Receipt Margin
+0
+2
+4
+6
+0
+1
+2
+3
+4
+5 +
+Number of Long Shots
+(c) Total vs. Effective (Receipts)
+0
+2
+4
+6
+0
+1
+2
+3
+4
+5 +
+Number of Long Shots
+(d) Effective (Votes vs. Receipts)
+P(Competitive),
+Votes Not Receipts
+P(Competitive),
+Votes Not Receipts
+Difference in Candidates
+(Votes — Receipts)
+Difference in Candidates
+(Votes — Receipts)
+Note: Predicted values are calculated from the models in Table 3. The top graphs show the probability the primary is competitive with the
+vote share measure but not the fundraising measure (for the 57.5% and 20-point margin measures, respectively). The bottom graphs show
+the difference between the total and effective number of candidates (based on receipts) and the difference between the effective number of
+candidates based on votes and receipts, respectively. The disparity between vote share and fundraising measures is driven largely by long-
+shot candidates.
+34 I also provide a brief discussion of overall levels of primary and
+general election competition and address whether primaries are
+effective substitutes for the decline in general election competition
+(see Figure A12).
+35 Long shots in general elections also matter in different ways for the
+competition variables because there are only two candidates. In
+particular, they are likely to increase the difference between the
+number of candidate measures, but general elections with long shots
+are unlikely to be competitive with either the vote share or fundrais-
+ing measure. Here our main interest is in overall differences between
+the two measures.
+Competition in Congressional Elections: Money versus Votes
+687
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 14 ===
+results, the difference between the number of candi-
+date measures is smallest in open seats because both
+candidates are more viable than in uncompetitive dis-
+tricts (a difference of 0.26 candidates in competitive
+open seats). Primaries differ from general elections in
+substantial ways, but the results suggest that competi-
+tion is better with vote share measures than with fun-
+draising measures in both.
+CONCLUSION
+To be sure, it is difficult to say what truly counts as
+electoral competition. One goal of this article is to
+generate a new conversation about how our conclu-
+sions about the quality of competition are tied to and
+influenced by the measures we use. Fundraising is a
+valuable metric and a useful alternative to votes
+because it matters for whether candidates can access
+the goods and services associated with victories and
+whether they are perceived as viable contenders. A
+small minority of candidates overcome the odds and
+prevail without raising as much money, but the ability
+to fundraise is seen as an advantage by the vast majority
+of candidates and officeholders who win. And although
+financial long shots do outperform their receipt shares
+at the ballot box, they overwhelmingly lose and usually
+by large margins. Future work should examine how
+candidates perceive the difficulty of obtaining votes
+versus receipts. The results suggest that it is easier to
+garner a negligible amount of votes than it is to raise a
+negligible amount of receipts, perhaps because voters
+use different criteria than donors when deciding who
+to support.
+The main finding is that when competition is viewed
+through the lens of fundraising, it looks significantly
+worse than vote share measures suggest. The likelihood
+that primaries are competitive decreases across race
+types, with the largest difference emerging in open
+seats. The notion that several viable candidates are
+vigorously competing for voter support is not borne
+out when competition is measured with fundraising
+patterns. In open seats—the best-case scenarios of
+competition—the effective number of primary candi-
+dates decreases by nearly half in advantaged-party
+districts and by 40% in competitive districts. Moreover,
+comparisons with the same vote and receipt margin
+thresholds and with weighted vote and receipt shares
+similarly reveal lower levels of competition with the
+fundraising measures. Much of the disparity between
+vote share and fundraising measures is driven by can-
+didates who have little chance of winning.
+Primaries have attracted more attention in recent
+years due to the decline in competitive general elec-
+tions and the notion that the heart of competition has
+shifted to the primary stage. The findings in open seats
+are thus particularly troublesome due to the role these
+primaries play in ensuring that elected officials face
+high-quality competition before they are selected ini-
+tially. Although some have also uncovered negative
+consequences of close elections, democratic govern-
+ments are premised on electoral contestation. It may
+be difficult to agree on how competitive our elections
+should be or how many elections ought to be close, but
+the sheer volume of work in this area reflects a broader
+assumption that, at some point either prior to or during
+an officeholder’s tenure, there is a clear normative
+benefit of close elections. The lower levels of competi-
+tion across the fundraising measures is concerning
+because of the fundamental role that competition plays
+in American democracy.
+Fundraising is likely to remain central to candidate
+viability in the years to come. Calls for campaign
+finance reform have gained momentum as the amount
+of money in elections continues to soar. Reformers face
+a difficult task of balancing various democratic priori-
+ties with the potential implications for legislative insti-
+tutions. As Pildes (2021) notes in a recent New York
+Times editorial, “Campaign-finance efforts are now
+rightly focused on ‘leveling up’ campaign dollars—by
+providing public funds to candidates—rather than try-
+ing to ‘level down’ by imposing caps on election
+spending.” At the heart of efforts to increase access
+to campaign dollars is the concern that fundraising
+hurdles hinder those with fewer resources from seeking
+office or mounting a competitive campaign. At the
+same time, Pildes (2021) argues that we must focus
+not only on the values of participation or equality but
+also on the overall effects of reforms on political
+extremism and moderation. The growing influence of
+small donors may induce more extreme candidates to
+run and help them to win, and the rise in safe seats
+further increases the stakes of fundraising in primary
+elections for the selection of officeholders.
+Beyond the study of competition, fundraising mea-
+sures open up new opportunities to examine questions
+that would be difficult or impossible to look at with
+vote totals. For one, because money is a good indica-
+tor of success, preelection fundraising metrics can be
+used to study primary outcomes where the party cue
+plays a limited role (i.e., Bonica 2017; 2020). We can
+leverage quarterly reports to analyze how resource
+disparities shape dropout decisions and incorporate
+demographic variables to see which candidates have a
+fundraising advantage in the preprimary stage. Sec-
+ond, because campaign receipts can be aggregated in
+several ways, money can shed light on differences
+among elected officials across contexts (Powell 2012;
+Weschle
+2022).
+In
+the
+US,
+lawmaker
+influence
+is unlikely to be associated with vote shares, but
+fundraising has been linked to the distribution of
+party goods (i.e., Heberlig, Hetherington, and Larson
+2006; Kistner 2022; Powell and Grimmer 2016). As
+long as money matters in American politics, fundrais-
+ing measures of viability and strength allow us to
+explore a variety of questions about elections and
+representation.
+SUPPLEMENTARY MATERIALS
+To view supplementary material for this article, please
+visit http://doi.org/10.1017/S0003055422000764.
+Danielle M. Thomsen
+688
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 15 ===
+DATA AVAILABILITY STATEMENT
+Research documentation and data that support the
+findings of this study are available at the American
+Political
+Science
+Review
+Dataverse:
+https://doi.
+org/10.7910/DVN/RTGDFW.
+ACKNOWLEDGMENTS
+This paper was presented at the annual meetings of the
+American Political Science Association and the Mid-
+west Political Science Association. I am grateful to John
+Aldrich, Bernie Grofman, Hans Hassell, Seth Hill,
+Gary Jacobson, Patricia Kirkland, Josh Yoshio Lerner,
+Neil Malhotra, Ken Miller, Kevin Munger, Spencer
+Piston, Rachel Potter, William Smith, Rein Taagepera,
+Michael Tesler, Simon Weschle, Antoine Yoshinaka,
+and Hye Young You, as well as to seminar participants
+at Texas A&M University, University of Tennessee,
+and University of California, Irvine for helpful com-
+ments and feedback.
+CONFLICT OF INTEREST
+The author declares no ethical issues or conflicts of
+interest in this research.
+ETHICAL STANDARDS
+The author affirms this research did not involve human
+subjects.
+REFERENCES
+Abramowitz, Alan I. 1991. “Incumbency, Campaign Spending, and
+the Decline of Competition in U.S. House Elections.” Journal of
+Politics 53 (1): 34–56.
+Abramowitz, Alan I., Brad Alexander, and Matthew Gunning. 2006.
+“Incumbency, Redistricting, and the Decline of Competition in
+U.S. House Elections.” Journal of Politics 68 (1): 75–88.
+Achen, Christopher H., and Larry M. Bartels. 2016. Democracy for
+Realists: Why Elections Do Not Produce Responsive Government.
+Princeton, NJ: Princeton University Press.
+Adkins, Randall E., and Andrew J. Dowdle. 2002. “The Money
+Primary: What Influences the Outcome of Pre-Primary
+Presidential Nomination Fundraising?” Presidential Studies
+Quarterly 32 (2): 256–75.
+Aldrich, John H. 1980. Before the Convention: Strategies and Choices
+in Presidential Nomination Campaigns. Chicago, IL: University of
+Chicago Press.
+Alford, John R., and John R. Hibbing. 1981. “Increased Incumbency
+Advantage in the House.” Journal of Politics 43 (4): 1042–61.
+Alvarez, R. Michael, Jonathan N. Katz, and Seo-young Silvia Kim.
+2020. “Hidden Donors: The Censoring Problem in U.S. Federal
+Campaign Finance Data.” Election Law Journal: Rules, Politics,
+and Policy 19 (1): 1–18.
+Ansolabehere, Stephen, David Brady, and Morris Fiorina. 1992.
+“The Vanishing Marginals and Electoral Responsiveness.” British
+Journal of Political Science 22 (1): 21–38.
+Ansolabehere, Stephen, James M. Snyder, Jr., and Charles Stewart
+III. 2001. “Candidate Positioning in U.S. House Elections.”
+American Journal of Political Science 45 (1): 136–59.
+Arceneaux, Kevin, Johanna Dunaway, Martin Johnson, and Ryan
+J. Vander Wielen. 2020. “Strategic Candidate Entry and
+Congressional Elections in the Era of Fox News.” American
+Journal of Political Science 64 (2): 398–415.
+Banks, Jeffrey S., and D. Roderick Kiewiet. 1989. “Explaining
+Patterns of Candidate Competition in Congressional Elections.”
+American Journal of Political Science 33 (4): 997–1015.
+Biersack, Robert, Paul S. Herrnson, and Clyde Wilcox. 1993. “Seeds
+for Success: Early Money in Congressional Elections.” Legislative
+Studies Quarterly 18 (4): 535–51.
+Blais, André, and Ignacio Lago. 2009. “A General Measure of
+District Competitiveness.” Electoral Studies 28 (1): 94–100.
+Boatright, Robert G. 2004. Expressive Politics: Issue Strategies of
+Congressional Challengers. Columbus: Ohio State University
+Press.
+Bond, Jon R., Cary Covington, and Richard Fleisher. 1985.
+“Explaining Challenger Quality in Congressional Elections.”
+Journal of Politics 47 (2): 510–29.
+Bonica, Adam. 2014. “Mapping the Ideological Marketplace.”
+American Journal of Political Science 58 (2): 367–86.
+Bonica, Adam. 2017. “Professional Networks, Early Fundraising,
+and Electoral Success.” Election Law Journal: Rules, Politics, and
+Policy 16 (1): 153–71.
+Bonica, Adam. 2020. “Why Are There so Many Lawyers in
+Congress?” Legislative Studies Quarterly 45 (2): 253–89.
+Bonica, Adam, and Gary W. Cox. 2018. “Ideological Extremists in
+the U.S. Congress: Out of Step but Still in Office.” Quarterly
+Journal of Political Science 13 (2): 207–36.
+Canes-Wrone, Brandice, David W. Brady, and John F. Cogan. 2002.
+“Out of Step, out of Office: Electoral Accountability and House
+Members’ Voting.” American Political ScienceReview 96(1): 127–40.
+Canes-Wrone, Brandice, and Kenneth M. Miller. 2022. “Out-of-
+District Contributors and Representation in the US House.”
+Legislative Studies Quarterly 47 (2): 361–95.
+Canon, David T. 1993. “Sacrificial Lambs or Strategic Politicians?
+Political Amateurs in U.S. House Elections.” American Journal of
+Political Science 37 (4): 1119–41.
+Carnes, Nicholas. 2018. The Cash Ceiling: Why Only the Rich Run for
+Office–and What We Can Do about It. Princeton, NJ: Princeton
+University Press.
+Cattaneo, Matias D., Richard K. Crump, Max H. Farrell, and Yingjie
+Feng. 2019. “On Binscatter.” FRB of New York Staff Report
+No. 881, February 1, 2019; Rev. August 2021. https://ssrn.com/
+abstract=3344739 or http://doi.org/10.2139/ssrn.3344739.
+Center for Responsive Politics. 2020. “Did Money Win?” Open
+Secrets. https://www.opensecrets.org/elections-overview/winning-
+vs-spending?cycle=2020.
+Cox, Gary W. 1997. Making Votes Count: Strategic Coordination in
+the World’s Electoral Systems. New York: Cambridge University
+Press.
+Cox, Gary W., and Jonathan N. Katz. 1996. “Why Did the
+Incumbency Advantage in U.S. House Elections Grow?”
+American Journal of Political Science 40 (2): 478–97.
+Cox, Gary W., Jon H. Fiva, and Daniel M. Smith. 2020. “Measuring the
+Competitiveness of Elections.” Political Analysis 28 (2): 168–85.
+Cox, Gary W., and Michael C. Munger. 1989. “Closeness,
+Expenditures, and Turnout in the 1982 U.S. House Elections.”
+American Political Science Review 83 (1): 217–31.
+Dahl, Robert A. 1956. A Preface to Democratic Theory. Chicago, IL:
+University of Chicago Press.
+Dahl, Robert A. 1971. Polyarchy: Participation and Opposition. New
+Haven, CT: Yale University Press.
+Dittmar, Kelly. 2020. “Urgency and Ambition: The Influence of
+Political Environment and Emotion in Spurring US Women’s
+Candidacies in 2018.” European Journal of Politics and Gender
+3 (1): 143–60.
+Erikson, Robert S. 1971. “The Advantage of Incumbency in
+Congressional Elections.” Polity 3 (3): 395–405.
+Erikson, Robert S. 1972. “Malapportionment, Gerrymandering, and
+Party Fortunes in Congressional Elections.” American Political
+Science Review 66 (4): 1234–45.
+Feigenbaum, James J., and Cameron A. Shelton. 2013. “The Vicious
+Cycle: Fundraising and Perceived Viability in US Presidential
+Primaries.” Quarterly Journal of Political Science 8 (1): 1–40.
+Competition in Congressional Elections: Money versus Votes
+689
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 16 ===
+Ferejohn, John A. 1977. “On the Decline of Competition in
+Congressional Elections.” American Political Science Review
+71 (1): 166–76.
+Fiorina, Morris P. 1977. “The Case of the Vanishing Marginals: The
+Bureaucracy Did It.” American Political Science Review 71 (1):
+177–81.
+Fishel, Jeff. 1973. Party and Opposition: Congressional Challengers in
+American Politics. New York: David McKay Company.
+Folke, Olle. 2014. “Shades of Brown and Green: Party Effects in
+Proportional Election Systems.” Journal of the European
+Economic Association 12 (5): 1361–95.
+Fouirnaies, Alexander. 2021. “How Do Campaign Spending
+Limits Affect Elections? Evidence from the United
+Kingdom 1885– 2019.” American Political Science Review 115 (2):
+395–411.
+Fowler, Linda. 1993. Candidates, Congress, and the American
+Democracy. Ann Arbor: University of Michigan Press.
+Fowler, Linda L., and Robert D. McClure. 1989. Political Ambition:
+Who Decides to Run for Congress. New Haven, CT: Yale
+University Press.
+Fraga, Bernard L., and Eitan D. Hersh. 2018. “Are Americans Stuck
+in Uncompetitive Enclaves? An Appraisal of U.S. Electoral
+Competition.” Quarterly Journal of Political Science 13 (3):
+291–311.
+Gelman, Andrew, and Gary King. 1990. “Estimating Incumbency
+Advantage without Bias.” American Journal of Political Science
+34 (4): 1142–64.
+Gelman, Andrew, and Gary King. 1993. “Why Are American
+Presidential Election Campaign Polls So Variable When Votes
+Are So Predictable?” British Journal of Political Science 23 (4):
+409–51.
+Gerber, Alan. 1998. “Estimating the Effect of Campaign Spending on
+Senate Election Outcomes Using Instrumental Variables.”
+American Political Science Review 92 (2): 401–11.
+Gimpel, James G., Karen M. Kaufmann, and Shanna Pearson-
+Merkowitz. 2007. “Battleground States versus Blackout States:
+The Behavioral Implications of Modern Presidential Campaigns.”
+Journal of Politics 69 (3): 786–97.
+Gimpel, James G., Frances E. Lee, and Shanna Pearson-Merkowitz.
+2008. “The Check Is in the Mail: Interdistrict Funding Flows in
+Congressional Elections.” American Journal of Political Science
+52 (2): 373–94.
+Goff, Michael J. 2005. The Money Primary: The New Politics of the
+Early Presidential Nomination Process. Lanham, MD: Rowman &
+Littlefield.
+Graber, Doris A., and Johanna Dunaway. 2017. Mass Media and
+American Politics. Washington, DC: CQ Press.
+Green, Donald Philip, and Jonathan S. Krasno. 1988. “Salvation for
+the Spendthrift Incumbent: Reestimating the Effects of Campaign
+Spending in House Elections.” American Journal of Political
+Science 32 (4): 884–907.
+Green, Donald Philip, and Jonathan S. Krasno. 1990. “Rebuttal to
+Jacobson’s ‘New Evidence for Old Arguments.’” American
+Journal of Political Science 34 (2): 363–72.
+Griffin, John D. 2006. “Electoral Competition and Democratic
+Responsiveness: A Defense of the Marginality Hypothesis.”
+Journal of Politics 68 (4): 911–21.
+Grofman, Bernard, and Peter Selb. 2011. “Turnout and the
+(Effective) Number of Parties at the National and District Levels:
+A Puzzle-Solving Approach.” Party Politics 17 (1): 93–117.
+Hall, Andrew B. 2019. Who Wants to Run? How the Devaluing of
+Political Office Drives Polarization. Chicago, IL: University of
+Chicago Press.
+Hassell, Hans J. G. 2021. “Party Elite Engagement and Coordination
+in House Primary Elections: A Test of Theories of Parties.”
+American Journal of Political Science. https://doi.org/10.1111/
+ajps.12680.
+Heberlig, Eric, Marc Hetherington, and Bruce Larson. 2006. “The
+Price of Leadership: Campaign Money and the Polarization of
+Congressional Parties.” Journal of Politics 68 (4): 992–1005.
+Hirano, Shigeo, and James M. Snyder, Jr. 2019. Primary Elections in
+the United States. New York: Cambridge University Press.
+Huckshorn, Robert Jack, and Robert C. Spencer. 1971. The Politics
+of Defeat: Campaigning for Congress. Amherst: University of
+Massachusetts Press.
+Jacobson, Gary C. 1980. Money in Congressional Elections. New
+Haven, CT: Yale University Press.
+Jacobson, Gary C. 1987. “The Marginals Never Vanished:
+Incumbency and Competition in Elections to the U.S. House of
+Representatives, 1952-82.” American Journal of Political Science
+31 (1): 126–41.
+Jacobson, Gary C. 1989. “Strategic Politicians and the Dynamics of
+U.S. House Elections, 1946-86.” American Political Science Review
+83 (3): 773–93.
+Jacobson, Gary C. 1990. “The Effects of Campaign Spending in
+House Elections: New Evidence for Old Arguments.” American
+Journal of Political Science 34 (2): 334–62.
+Jacobson, Gary C. 2015. “It’s Nothing Personal: The Decline of the
+Incumbency Advantage in US House Elections.” Journal of
+Politics 77 (3): 861–73.
+Kaslovsky, Jaclyn. 2022. “Senators at Home: Local Attentiveness and
+Policy Representation in Congress.” American Political Science
+Review 116 (2): 645–61.
+Kazee, Thomas A. 1994. Who Runs for Congress? Ambition, Context,
+and Candidate Emergence. Washington, DC: CQ Press.
+Key, V. O., Jr. 1949. Southern Politics in State and Nation. New York:
+A. A. Knopf.
+Kim, Seo-young Silvia. 2022. “How Much to Ask? Platforms, Parties,
+and Suggested Amounts in Political Fundraising.” Paper presented
+at the 2022 meeting of the Midwest Political Science Association,
+Chicago, IL.
+Kirkland, Patricia A. 2021. “Business Owners and Executives as
+Politicians: The Effect on Public Policy.” Journal of Politics 83 (4):
+1652–68.
+Kistner, Michael. 2022. “Fighting for Majorities? Explaining the
+Development of Caucus Fund-Raising in American Legislatures.”
+Journal of Politics 84 (1): 321–34.
+Krasno, Jonathan S., and Donald Philip Green. 1988. “Preempting
+Quality Challengers in House Elections.” Journal of Politics 50 (4):
+920–36.
+Krasno, Jonathan S., Donald Philip Green, and Jonathan A. Cowden.
+1994. “The Dynamics of Campaign Fundraising in House
+Elections.” Journal of Politics 56 (2): 459–74.
+La Raja, Raymond J. 2007. “Sunshine Laws and the Press: The Effect
+of Campaign Disclosure on News Reporting in the American
+States.” Election Law Journal: Rules, Politics, and Policy 6 (3):
+236–50.
+Laakso, Markku, and Rein Taagepera. 1979. “‘Effective’ Number of
+Parties: A Measure with Application to West Europe.”
+Comparative Political Studies 12 (1): 3–27.
+Levitt, Steven D. 1994. “Using Repeat Challengers to
+Estimate the Effect of Campaign Spending on Election
+Outcomes in the U.S. House.” Journal of Political Economy
+102 (4): 777–98.
+Lijphart, Arend. 1994. Electoral Systems and Party Systems: A Study
+of Twenty-Seven Democracies, 1945-1990. New York: Oxford
+University Press.
+Lipsitz, Keena. 2011. Competitive Elections and the American Voter.
+Philadelphia: University of Pennsylvania Press.
+Magleby, David B. 2019. Financing the 2016 Election. Washington,
+DC: Brookings Institution Press.
+Magleby, David B., Jay Goodliffe, and Joseph A. Olsen. 2018.
+Who Donates in Campaigns? The Importance of Message,
+Messenger, Medium, and Structure. New York: Cambridge
+University Press.
+Maisel, Louis Sandy. 1982. From Obscurity to Oblivion: Running in
+the Congressional Primary. Knoxville: University of Tennessee
+Press.
+Mayer, William G. 2003. “Forecasting Presidential Nominations or,
+My Model Worked Just Fine, Thank You.” PS: Political Science &
+Politics 36 (2): 153–57.
+Mayhew, David R. 1974. “Congressional Elections: The Case of the
+Vanishing Marginals.” Polity 6 (3): 295–317.
+Molinar, Juan. 1991. “Counting the Number of Parties: An
+Alternative Index.” American Political Science Review 85 (4):
+1383–91.
+Norrander, Barbara. 2006. “The Attrition Game: Initial Resources,
+Initial Contests and the Exit of Candidates during the US
+Presidential Primary Season.” British Journal of Political Science
+36 (3): 487–507.
+Danielle M. Thomsen
+690
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press
+
+
+=== PDF PAGE 17 ===
+Patterson, Samuel C., and Gregory A. Caldeira. 1983. “Getting out
+the Vote: Participation in Gubernatorial Elections.” American
+Political Science Review 77 (3): 675–89.
+Pildes, Richard H. 2021. “Opinion—How to Keep Extremists out
+of Power.” The New York Times, February 25. https://
+www.nytimes.com/2021/02/25/opinion/elections-politics-
+extremists.html.
+Porter, Rachel A., and Sarah A. Treul. 2018. “The Increasing Value
+of Inexperience in Congressional Primaries.” Paper presented at
+the 2018 meeting of the Midwest Political Science Association,
+Chicago, IL.
+Powell, Eleanor Neff, and Justin Grimmer. 2016. “Money in Exile:
+Campaign Contributions and Committee Access.” Journal of
+Politics 78 (4): 974–88.
+Powell, Lynda W. 2012. The Influence of Campaign Contributions in
+State Legislatures: The Effects of Institutions and Politics. Ann
+Arbor: University of Michigan Press.
+Ragsdale, Lyn, and Timothy E. Cook. 1987. “Representatives’ Actions
+and Challengers’ Reactions: Limits to Candidate Connections in the
+House.” American Journal of Political Science 31 (1): 45–81.
+Reynolds, Molly E., and Richard L. Hall. 2019. “Financing the 2016
+Congressional Election.” In Financing the 2016 Election,
+ed. David B. Magleby, 217–49. Washington, DC: Brookings
+Institution Press.
+Schlesinger, Joseph A. 1966. Ambition and Politics: Political Careers
+in the United States. Chicago, IL: Rand MacNally.
+Schumpeter, Joseph A. 1942. Capitalism, Socialism, and Democracy.
+New York: Harper and Bros.
+Scott, Jamil, Kesicia Dickinson, Nazita Lajevardi, and Shayla Olson.
+2019. “Supply and Demand in 2018.” Paper presented at the 2019
+Politics of Race, Immigration, and Ethnicity Consortium (PRIEC),
+St. Louis, MO.
+Skelley, Geoffrey. 2021. “Why Candidates with Little Hope of
+Winning Are Raising More Money Than Ever.” FiveThirtyEight,
+August 26. https://fivethirtyeight.com/features/why-long-shot-
+candidates-are-raising-more-money-than-ever/.
+Taagepera, Rein, and Matthew Soberg Shugart. 1993. “Predicting the
+Number of Parties: A Quantitative Model of Duverger’s
+Mechanical Effect.” American Political Science Review 87 (2):
+455–64.
+Thomsen, Danielle M. 2017. Opting out of Congress: Partisan
+Polarization and the Decline of Moderate Candidates. New York:
+Cambridge University Press.
+Thomsen, Danielle M. 2021. “Women Running, Women Winning:
+Voter Preferences in 2018.” In Congress Reconsidered, 12th
+edition, eds. Lawrence C. Dodd, Bruce I. Oppenheimer, and
+C. Lawrence Evans, 133–66. Washington, DC: CQ Press.
+Thomsen, Danielle M. 2022. “Replication Data for Competition in
+Congressional Elections: Money versus Votes.” Harvard
+Dataverse. Dataset. https://doi.org/10.7910/DVN/RTGDFW.
+Tufte, Edward R. 1973. “The Relationship between Seats and Votes
+in Two-Party Systems.” American Political Science Review 67 (2):
+540–54.
+Weschle, Simon. 2022. Money in Politics: Self-Enrichment, Campaign
+Spending, and Golden Parachutes. New York: Cambridge
+University Press.
+Competition in Congressional Elections: Money versus Votes
+691
+https://doi.org/10.1017/S0003055422000764 Published online by Cambridge University Press

@@ -1,0 +1,1749 @@
+=== PDF PAGE 1 ===
+ 
+http://cps.sagepub.com/
+Comparative Political Studies
+ 
+http://cps.sagepub.com/content/32/4/487
+The online version of this article can be found at:
+ 
+DOI: 10.1177/0010414099032004004
+ 1999 32: 487
+Comparative Political Studies
+DAVID J. SAMUELS
+Evidence from Brazil
+Incentives to Cultivate a Party Vote in Candidate-centric Electoral Systems:
+ 
+ 
+Published by:
+ 
+http://www.sagepublications.com
+ can be found at:
+Comparative Political Studies
+Additional services and information for 
+ 
+ 
+ 
+ 
+ 
+http://cps.sagepub.com/cgi/alerts
+Email Alerts: 
+ 
+ 
+http://cps.sagepub.com/subscriptions
+Subscriptions: 
+ 
+ 
+http://www.sagepub.com/journalsReprints.nav
+Reprints: 
+ 
+ 
+http://www.sagepub.com/journalsPermissions.nav
+Permissions: 
+ 
+ 
+http://cps.sagepub.com/content/32/4/487.refs.html
+Citations: 
+ 
+ 
+What is This?
+ 
+- Jun 1, 1999
+Version of Record 
+>> 
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 2 ===
+COMPARATIVE POLITICAL STUDIES / June 1999
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+A prominent question in comparative electoral studies concerns the so-called personal vote.
+Typically, scholars approach this question at a cross-national as opposed to a cross-party level. In
+this article, in contrast, the author focuses on the characteristics of parties, as opposed to the char-
+acteristics of electoral systems, as determinants of candidates’personal vote seeking. The author
+argues that a candidate’s adoption of an individualistic or collective strategy depends largely on
+centralized or decentralized nomination control in his party, his party’s alliance options, and his
+access to and control over funding and patronage. The author explores the Brazilian case, testing
+his claims at the national and district level using multiple regression analysis. Furthermore, he
+explains how one party, the Partido dos Trabalhadores (Workers’ Party, PT), has overcome the
+incentives of the electoral system.
+INCENTIVES TO CULTIVATE A PARTY
+VOTE IN CANDIDATE-CENTRIC
+ELECTORAL SYSTEMS
+Evidence From Brazil
+DAVID J. SAMUELS
+University of Minnesota
+A
+prominent question in comparative electoral studies concerns the so-
+called personal vote. Typically, scholars have approached this question
+at a cross-national as opposed to a cross-party level: They highlight features
+of national electoral systems that create incentives for individual politicians
+to pursue a personal (or a party) vote rather than highlighting features of par-
+ties that might predispose candidates in those parties to pursue personal (or
+party) votes. In this article, I will focus on the characteristics of parties, as
+487
+AUTHOR’S NOTE: I thank Scott Basinger, Gary Cox, James Druckman, Kaare Strom, and
+threeanonymousreviewersfortheir suggestions. I also thank Octávio Amorim Neto and Rogério
+Schmitt for providing data. The Center for Iberian and Latin American Studies at the University
+ofCalifornia,SanDiego,provided research support for fieldwork during the summer of 1995.
+COMPARATIVE POLITICAL STUDIES, Vol. 32 No. 4, June 1999 487-518
+© 1999 Sage Publications, Inc.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 3 ===
+opposed to the characteristics of electoral systems, as determinants of candi-
+dates’ personal vote seeking.
+Of course, any study of how party characteristics affect the balance of per-
+sonal versus party vote seeking by a given party’s candidates must hold elec-
+toral structure constant (just as studies of the impact of electoral structure
+implicitly hold party features constant). Here I focus on a class of electoral
+systems that promote, or even require, personal vote strategies—what I call
+candidate-centric electoral systems. I define this class more precisely later in
+this article, but for now, suffice it to say that it includes the Single Non-
+Transferable Vote (SNTV) system, the Single Transferable Vote (STV) sys-
+tem, Open-List Proportional Representation (PR) systems in general, and
+Brazil’s version of Open-List PR in particular. Given a candidate-centric
+electoral environment, I ask how politicians can buck the trend by strategi-
+cally developing party institutions that overcome the electoral system’s push
+toward individualism.
+Brazil is an interesting case both because its politics are notoriously
+individualistic and because Brazilian voters have the option—unusual in
+candidate-centric systems—of casting a label vote (by voting for a party
+number on the ballot).
+1 When Brazilians cast a vote for a particular candidate,
+it seems natural to interpret this as in large part an expression of personal sup-
+port (even though the vote does pool). When they vote for the party label as a
+whole, foregoing the opportunity to support any particular candidate, it
+seems natural to interpret this as, in large part, an expression of party support.
+The label vote percentage thus naturally measures the balance of party versus
+personal votes that each party receives.
+This article shows that although individualism is a likely strategy under
+candidate-centric electoral rules in general and does indeed pervade Brazil-
+ian politics in particular, a collective electoral strategy under these electoral
+systems is both theoretically possible and empirically detectable (at least in
+Brazil). I demonstrate that the level of label votes that a party receives varies
+considerably in Brazil and is related to party structural features, including the
+nature of nomination control, candidates’access to pork and campaign funds,
+and alliance strategy. These findings are interesting in the Brazilian case
+because they do not gibe with previous suggestions that high label voting per-
+centages are mostly a function of leftist ideology (Mainwaring, 1992, p. 688).
+Moreover, these considerations should generalize across all candidate-
+centric electoral systems; thus, this article opens the path to future compara-
+tive work at the cross-party level.
+488
+COMPARATIVE POLITICAL STUDIES / June 1999
+1. Italy (1945-1993) had a similar system.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 4 ===
+The structure of the article is as follows: Section 2 reviews the literature
+and articulates hypotheses about electoral competition under candidate-
+centric electoral systems. Section 3 places this framework in the Brazilian
+context and reviews the conventional wisdom about Brazilian politics. Sec-
+tion 4 applies the hypotheses from Section 2, presenting quantitative evi-
+dence to support the hypotheses. Section 5 uses qualitative evidence to
+explain how one Brazilian party, the Partido dos Trabalhadores (Workers’
+Party, PT), has institutionalized its party label over the long term, overcoming
+the Brazilian system’s notorious incentives for individualism. Although
+many parties receive relatively high percentages of label votes in the short-
+to-medium term, the PT is the only large Brazilian party that consistently
+receives a high level of label votes, and its ability to institutionalize its label in
+the long term merits special attention. Section 6 concludes.
+ELECTORAL INCENTIVES UNDER
+CANDIDATE-CENTRIC ELECTORAL RULES
+LITERATURE REVIEW AND JUSTIFICATION FOR NEW APPROACH
+In this article, I do not assume that parties are unitary actors; individual
+candidates are my basic units of analysis. Existing efforts to model candidate
+behavior under different electoral systems are inadequate for the task at hand
+because they implicitly hold party features and candidate attributes constant
+in order to focus on variations in national electoral institutions.
+Consider, for example, Carey and Shugart’s (1995) contrast between
+SNTV and closed-list PR (one part of their larger project of rank-ordering
+electoral systems’propensity to generate incentives to seek a personal vote).
+Clearly, SNTV produces more incentives to individualism. However, the
+Japanese Buddhist Kômeitô Party—famous for the discipline and obedience
+of its voters—obviously overcame these incentives (Hrebenar, 1992), as did
+the Japanese Communist Party. If we compared the Kômeitô to a factional-
+ized party under closed-list PR, our expectations about candidate behavior
+based on the electoral system comparison would be largely counteracted by
+not holding party characteristics constant. A related point is that not all candi-
+dates and parties pursue the same strategy within a given electoral system.
+2
+Or, consider Myerson’s (1993) argument that candidates in certain elec-
+toral systems have greater incentives to seek the support of special interests or
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+489
+2. For example, in Italy, party strategy may have influenced the tendency for voters to use
+one or more of their preference votes (Katz, 1985).
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 5 ===
+favored minorities. To focus on the effects of the differing electoral systems,
+Myerson explicitly holds other features constant, such as candidates’ ability
+to make credible pork-barreling promises to voters. Then, he explains to what
+extent and how candidates exploit their resources under different electoral
+systems.
+Similar to Myerson (1993) and Carey and Shugart (1995), I am interested
+in the incentives to cultivate a personal or party vote. However, I differ from
+these analysts in that I do not hold party features constant. In contrast to
+Myerson, I am interested precisely in the case in which candidates may not
+have equal capabilities to make credible commitments to distribute resources
+so that some candidates may find campaigning on other grounds more
+attractive.
+In sum, research on the impact of electoral rules has ignored cross-party
+variation within electoral systems, and we have some prima facie evidence
+that some candidates in some parties buck the trend. In the next section, I
+detail the set of electoral systems that my argument covers. Subsequently, I
+explain the logic of electoral competition under these rules and then hypothe-
+size how candidates might overcome the incentives that the electoral system
+generates.
+THE ELECTORAL SYSTEMS COVERED
+The framework I develop covers electoral systems that satisfy the follow-
+ing criteria: (a) Voting options: Each voter has the option of casting one or
+more votes directly for candidates. Voters may also have the option of casting
+a list vote; (b) District magnitude: Each electoral district returns more than
+one member to the assembly; and (c) Seat allocation: If there are no party
+lists, then candidates receive seats in order of their vote totals: The top M
+vote-getters receive seats in an M-seat district. If there are party lists, then the
+seats are awarded to the candidates on each list in accord with the votes that
+each candidate on the list receives: The top M vote-getting candidates receive
+seats on a list that wins M seats.
+The real-world electoral systems that satisfy these criteria include STV
+systems in which M > 1 (e.g., Ireland, Malta, Australia’s Senate); SNTV sys-
+temsinwhichM>1(e.g.,pre-1994Japan,Taiwan);andOpen-ListPR systems
+(e.g., Poland, Finland, Chile, Brazil, pre-1994 Italy).
+3 I call these systems
+candidate-centric electoral systems because they all tend to push candidates
+490
+COMPARATIVE POLITICAL STUDIES / June 1999
+3. These criteria thus exclude all Closed-List Proportional Representation (PR) systems, all
+electoral systems in which district magnitude equals 1, and some other PR systems (see Carey &
+Shugart, 1995).
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 6 ===
+toward self-promotion rather than toward promoting the party’s collective
+identity.
+THE LOGIC OF THE PERSONAL VOTE IN
+CANDIDATE-CENTRIC ELECTORAL SYSTEMS
+Given the institutional criteria distinguishing candidate-centric electoral
+systems, if there are multiple candidates per party per district, then these can-
+didates cannot rely solely on the party label to get elected. Therefore, candi-
+dates must adopt some degree of individualism as an electoral strategy to dif-
+ferentiate themselves from their copartisans. Let us assume that the electoral
+system is exogenous, that politicians understand the effects of the electoral
+rules, and that when they begin to play the electoral game, they associate with
+like-minded politicians to form parties that further their own personal gain.
+Subsequently, these office-seeking politicians might (or might not)
+believe that intraparty competition will harm more than help their career
+prospects; thus, they might structure their party so as to overcome the incen-
+tives that the electoral system imposes. What is the range of potential strate-
+gies that politicians could adopt under these electoral systems? Consider
+three simple potential strategies that move from individualistic to collective.
+First, politicians could structure internal party rules to allow completely
+unregulated individualism. Candidates would deliver their own pork and
+claim their own credit. They would take their own policy stands, again on
+their own account. If targeting pork or policy appeals meant stealing votes
+from their copartisans, then so be it.
+Second, they could opt to regulate candidates’ individualism. Here, each
+member of the list would still fend for himself or herself, but candidates
+would devise mechanisms to minimize the amount of direct intraparty com-
+petition through nomination control or by setting up bailiwicks and niches
+and sanctioning copartisans who violated party guidelines.
+Third, politicians could attempt to cultivate a collective reputation. This
+can be done over and above option two and would entail developing a party
+platform. The party would require candidates to publicize the platform and
+prohibit them from dissenting from it. Pork-based individualism is not incon-
+sistent with this type of strategy, but policy-based individualism is.
+Politicians clearly possess a range of options under this set of electoral
+systems, and we have no a priori reason to assume that candidates in all par-
+ties will adopt similar strategies: Even if all candidates face similar electoral
+incentives, they still require the wherewithal to pursue a given strategy.
+What might encourage candidates to fight against the incentives that the
+electoral rules impose? I assume that in any electoral system, some portion of
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+491
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 7 ===
+the electorate, and some politicians, have clear preferences over issues of
+public policy and do not want only divisible pork-barrel goods, and I assume
+that in any mass electoral system, voters possess few incentives to acquire
+information about candidates and parties (Downs, 1957). Given these assump-
+tions, the extent to which voters can generalize about candidate behavior
+based on their image of the candidate’s party as a whole is potentially impor-
+tant. Party labels could serve as cues, a way for voters cheaply to reduce their
+uncertainty about parties and politicians (Popkin, 1990). Voters might also
+vote for the label, instead of a candidate, if they trust and can distinguish their
+“brand name” and are indifferent across the party’s individual candidates.
+For individual politicians, under certain conditions, a party label could
+thus serve as a low-cost, high-return investment. Even in places such as
+Japan, Italy, and Brazil, notorious for their clientelistic politics, a candidate’s
+efforts to articulate his or her party’s collective image might reap a reward of
+voters who are either unreachable by private-goods distribution schemes
+(because they are outside of patronage networks) or who actively seek
+policy-oriented parties. Politicians in every party in candidate-centric elec-
+toral systems must choose between investing in their own reputation or in
+their party’s reputation. They can seek votes by either distributing pork or
+adopting policy positions or, more realistically, by adopting a strategy that
+mixes individual and collective appeals.
+4 In the next section, I present
+hypotheses that explain when candidates in these electoral systems might
+adopt either individualistic or collectivistic strategies.
+HYPOTHESES
+In the abstract, candidate-centric electoral systems create strong incen-
+tives for personalism.
+5 However, I hypothesize that in the short-to-medium
+term, the extent to which candidates adopt a collectivistic or individualistic
+strategy depends on (a) the degree to which access to the ballot is centralized
+or decentralized, (b) the extent of candidates’ access to campaign finance
+resources and whether access is centralized or decentralized, (c) the extent of
+candidates’ access to office benefits (Strom, 1990)
+6 and whether access is
+492
+COMPARATIVE POLITICAL STUDIES / June 1999
+4. I do not mean to imply that the two strategies are necessarily mutually exclusive. Also, as
+noted earlier, it is possible to use policy to pursue a personal vote. However, from this point for-
+ward I use the word policy to mean a collective, party-platform policy appeal.
+5. I take electoral systems to be exogenous in this article: Politicians, when they create par-
+ties,respondtothesystem’sincentives and continue to respond as if the system were exogenous.
+6. Strom (1990) defines offices benefits as government portfolios and “private goods
+bestowed on recipients of politically discretionary governmental and subgovernmental appoint-
+ments” (p. 567).
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 8 ===
+centralized or decentralized, and (d) alliance opportunities and other features
+of each country’s electoral system.
+Hypothesis 1: Nomination Control and Label Voting
+First, if nominations are centrally controlled, then all candidates owe their
+political careers, and hence their political allegiance, to the party. In such par-
+ties, we would expect candidates to more willingly stick to policy appeals that
+the party leadership dictates, regardless of the electoral structure. On the
+other hand, if nomination control is decentralized, then individual candidates
+will not feel as beholden to party policy makers. Even in Japan’s personalistic
+SNTV system, for example, the Japanese Communist Party (JCP) and the
+Kômeitô both control nominations tightly and receive strict adherence to the
+party’s policy line from its members (Hrebenar, 1992, p. 83).
+Hypothesis 2: Campaign Finance and Label Voting
+Second, personalism is an expensive strategy requiring resources that not
+all candidates possess or can obtain. Consequently, resource-poor candidates
+might not opt for a personalistic strategy simply because they cannot afford it.
+Candidates who can raise campaign contributions from a support network (in
+exchange for pork, special regulatory exemptions, etc.) are well situated to
+play the personal vote game (e.g., the Liberal Democratic Party [LDP], most
+Brazilian parties). In contrast, those who cannot raise money may instead opt
+to form parties in which the label stands for something. Adopting a label-
+promoting strategy may reap votes where money cannot buy them.
+Whether a party centrally controls campaign finance might also influence
+candidates’ strategies. A party that can turn the finance spigot on or off can
+credibly threaten candidates who deviate from the party line, whereas candi-
+dates responsible for their own fundraising might have the independence to
+ignore such threats.
+Hypothesis 3: Access to Pork and Label Voting
+Third, candidates who associate with the government so that they can
+access and deliver patronage resources such as pork-barrel projects can
+afford to and are expected to rely on their individual ability to “bring home
+the bacon” rather than on their party’s programmatic platform. Even if candi-
+dates mix a pork-and-policy strategy, we expect them to rely relatively more
+on individualistic appeals than those without access to pork. Thus, those who
+cannot rely on government patronage, such as those with poor access to
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+493
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 9 ===
+campaign finance, may opt to rely on cheaper campaign strategies such as
+promotion of a label.
+The extent to which the party centralizes or decentralizes control over
+pork will also influence candidate strategies. For example, in Brazil
+(1945-1964 and 1982-present), individual deputies seek pork largely without
+party leadership mediation (Ames, 1995a, 1995b), whereas central party
+leadership under Chile’s Open-List PR system prior to 1973 apparently
+mediated access to patronage (Valenzuela, 1977). Analysts agree that Chil-
+ean parties prior to 1973 had stronger organizations than their Brazilian
+counterparts and that voters responded to party-label appeals more in Chile
+than in Brazil (cf. Mainwaring, 1995).
+Hypothesis 4: Alliance Strategy or Other Rules
+Fourth, we must also consider the specific quirks in each electoral system
+that might influence whether candidates adopt a label-enhancing or individu-
+alistic strategy. For example, allowing multiparty alliances in Open-List sys-
+tems could push candidates to pay less attention to their party’s label and
+more attention to their own reputation in order to increase their chances of
+victory within the alliance, as in Italy (Katz, 1985) and Brazil (see below for
+details).
+In the long run, the four factors that I hypothesize as influencing candidate
+strategy are endogenous: Candidates may decide, for one reason or another,
+to develop party rules that tend to conform with or counteract incentives
+derived from the electoral rules or resource access. In Section 5, I explore the
+question of when and why individual politicians would create such institu-
+tions with lasting impact, given their resources and political goals, for one
+party in Brazil. I claim, however, that in the short term, these factors are
+“sticky.” They are exogenous for any given individual candidate and will
+affect his or her propensity to promote the party label.
+In sum, the way candidates access the slate and the extent and way in
+which candidates access resources vary within candidate-centric systems.
+These factors are fairly general. Specific quirks in each electoral system, such
+as alliance possibilities, could also vary quite widely across candidate-
+centric systems. For each case analyzed, we will have to combine the general
+hypotheses with details about how candidates and parties respond to the spe-
+cific rules of the game. In any case, these variables should account for the dif-
+ferences observed in the degree to which candidates promote a party label or
+their own personal reputation under candidate-centric electoral systems. In
+the next section, I specify how parties respond to the rules in Brazil.
+494
+COMPARATIVE POLITICAL STUDIES / June 1999
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 10 ===
+BRAZILIAN POLITICAL
+INDIVIDUALISM—THE CONVENTIONAL WISDOM
+In this section, I will first describe the conventional wisdom about Brazil-
+ian parties and then elaborate hypotheses that follow directly from those
+articulated in the previous section. In the next section, I present empirical evi-
+dence that supports my hypotheses.
+Little empirical research exists on postauthoritarian Brazilian political
+parties because few political scientists believe they warrant attention as col-
+lective actors.
+7 Brazilian parties have historically been weak, decentralized
+alliances of patronage machines, tools of local or regional leaders who rely
+on access to public resources to build and maintain a support base. Parties as
+collective actors are little involved in legislative policy making. Instead, con-
+gressional deputies trade votes on policy issues for patronage served up by
+the executive (Ames, 1995a, 1995b; Avelino Filho, 1994; Mainwaring, 1991,
+1992; Novaes, 1993).
+Brazil’s electoral rules are said to perpetuate this political individualism.
+Brazilian voters can vote directly for an individual candidate (by writing in
+the candidate’s name or number) or for a party’s entire label (by writing in the
+party’s name or number). From the candidates’perspective, the incentives for
+individualism are clear: The party’s total list vote equals the sum of the par-
+ty’s candidates’votes plus its party-label votes. If a candidate’s party wins M
+seats, then those seats go to the M candidates on the list with the most candi-
+date votes. Each candidate, therefore, always prefers a vote for himself or
+herself (which boosts both the party’s expected seat total and the candidate’s
+chances of getting one of those seats) over a party-label vote (which has only
+the first effect) and prefers a label vote only over a vote for another party’s
+candidates or label.
+Other institutional factors augment the incentives for individualism in
+Brazil. For example, district magnitude for national elections ranges from 8
+to 70, and parties can nominate as many candidates as there are seats. If par-
+ties enter an electoral alliance, the alliance can run up to 1.5 candidates per
+seat. This permits an alliance to place 105 names on the ballot for federal dep-
+uty (70 seats) in the state of São Paulo, where in 1990 there were 610 candi-
+dates for federal deputy (Lamounier, 1991, p. 57). Thus, although not every
+party fills its slate, the number of both potential and actual candidates within
+a district is staggering. To stand out in this school of political sharks under
+Open-List PR, a politician must focus at least some energy, if not most
+energy, on his or her own personal attributes instead of on the party’s.
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+495
+7. Exceptions include Keck (1992) and Meneguello (1989).
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 11 ===
+All told, Open-List proportional representation generates tremendously
+individualistic incentives because parties do not control the candidates’rank
+on the list and candidates must compete against their copartisans. The result-
+ing intraparty competition hinders party cohesion and promotes individualis-
+tic electoral appeals (Ames, 1995b; Mainwaring, 1992). To get the personal
+votes that they need, Brazilian candidates rely largely on their patronage
+credit-claiming ability (Ames, 1995a). Most research on Brazilian electoral
+politics has focused on the goals of individual politicians instead of parties,
+ignoring the possibility that a trade-off between individual and collective
+electoral strategy might exist.
+EVALUATING THE HYPOTHESES
+Hypothesis 1: Nomination Control
+First, because all parties in Brazil, including the PT, decentralize nomina-
+tion control to the district (state) level, I cannot test for this variable’s impact
+across Brazilian parties. However, as I describe in Section 5, parties can enact
+provisions to counteract this rule’s impact.
+Hypothesis 2: Access to Campaign Finance
+Second, I can confirm that campaign finance is highly decentralized in all
+parties. Most party organizations are weak, and candidates in all parties,
+including the PT, are responsible for financing their own campaigns, which
+are quite expensive (Ames, 1995a; Mainwaring, in press).
+Nevertheless, substantial variations in the extent of campaign finance can-
+didates can appear to exist across parties in Brazil. This raises the possibility,
+as Hypothesis 2 suggests, that poorer candidates cannot afford personalistic
+strategies, whereas wealthier candidates rely less on their party label and
+more on individual appeals. Although campaign expenditure data are
+unavailable, in 1994, the Brazilian electoral court (Tribunal Superior Eleito-
+ral, TSE) required candidates to declare how much they had received in cam-
+paign donations. With this data, we obtain an indication of the relative influ-
+ence of money across parties (see Appendix B on the data). Table 1 indicates
+the average declared donation per party for federal deputy (in reals, nominal
+1994 values, when the real was worth approximately U.S.$1), the standard
+deviation of the average donation, and the number of candidates who pre-
+sented declarations.
+496
+COMPARATIVE POLITICAL STUDIES / June 1999
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 12 ===
+Of the five leftist parties—PT, Partido Comunista do Brasil (Communist
+Party of Brazil, PCdoB), Partido Comunista Brasileiro/Partido Popular
+Socialista (Brazilian Communist Party/Popular Socialist Party, PCB/PPS),
+Partido Socialista Brasileiro (Brazilian Socialist Party, PSB), and Partido
+Democrático Trabalhador (Democratic Labor Party, PDT)—the PT not only
+has the lowest average donation per candidate but also has the lowest stan-
+dard deviation as a percentage of the average donation. Similarly, the PT has a
+far lower average donation per candidate than any of the other major center or
+rightist parties—Partido Progressista Reformador (Progressive Reform
+Party, PPR), Partido Trabalhista Brasileiro (Brazilian Labor Party, PTB), Par-
+tido do Movimento Democrático Brasileiro (Party of the Brazilian
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+497
+Table 1
+Average Campaign Donations Received in 1994 Federal Deputy Elections
+Party
+No. of Candidates
+Average Donation
+SD
+PCdoB
+17
+28452.79
+27341.81
+PCB/PPS
+15
+16144.99
+14389.81
+PT
+214
+10180.41
+5809.46
+PSB
+45
+27967.83
+48419.35
+PDT
+148
+22192.62
+20783.84
+PSDB
+173
+85397.41
+96733.90
+PMDB
+272
+59194.55
+39836.14
+PP
+88
+61930.14
+49790.37
+PTB
+108
+67815.49
+66458.34
+PFL
+161
+66617.72
+43097.70
+PSC
+25
+18239.76
+23492.49
+PRN
+7
+48845.83
+62802.31
+PL
+71
+31714.60
+43466.88
+PDC
+2
+14000.00
+X
+PDS/PPR
+110
+43806.64
+41900.31
+PRONA
+9
+1047.21
+778.82
+Note: PCdoB = Partido Comunista do Brasil (Communist Party of Brazil), PCB/PPS = Partido
+Comunista Brasileiro/Partido Popular Socialista (Brazilian Communist Party/Popular Socialist
+Party), PT = Partido dos Trabalhadores (Workers’ Party), PSB = Partido Socialista Brasileiro
+(Brazilian Socialist Party), PDT = Partido Democrático Trabalhador (Democratic Labor Party),
+PSDB = Partido da Social-Democracia Brasileira (Brazilian Social-Democratic Party),
+PMDB = Partido do Movimento Democrático Brasileiro (Party of the Brazilian Democratic
+Movement), PP = Partido Popular (Popular Party), PTB = Partido Trabalhista Brasileiro (Brazil-
+ian Labor Party), PFL = Partido da Frente Liberal (Party of the Liberal Front), PSC = Partido So-
+cial Cristão (Social Christian Party), PRN = Partido da Reconstrução Nacional (National Recon-
+struction Party), PL = Partido Liberal (Liberal Party), PDC = Partido Democrático Cristão
+(Christian Democratic Party), PDS/PPR = Partido Democrático Social/Partido Progressista Re-
+formador (Social Democratic Party/Progressive Reform Party), and PRONA = Partido da Reedi-
+ficação da Ordem Nacional (Party for the Reedification of National Order)
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 13 ===
+Democratic Movement, PMDB), Partido da Social-Democracia Brasileira
+(Brazilian Social-Democratic Party, PSDB), Partido da Frente Liberal (Party
+of the Liberal Front, PFL), and Partido Popular (Popular Party, PP)—and its
+standard deviation as a percentage of the average is also lower. The data
+include declarations from both winning and losing candidates, so it is not sur-
+prising to see wide standard deviations. However, the PT’s lower average and
+lower standard deviation indicates that in general even its winning candidates
+rely less on money. Only the Partido da Reedificação da Ordem Nacional
+(Party for the Reedification of National Order, PRONA), a small right-wing
+party that relies on the personalistic leadership of its president, and which
+receives high label votes for legislative elections, demonstrates lower per-
+candidate spending. This provides some evidence that in general PT candi-
+dates rely less on money to finance their campaigns. I statistically test for the
+effect of access to campaign finance on label voting in the next section.
+Hypothesis 3: Access to Pork and Label Voting
+Third, for all parties, central party organizations do not control access to
+government pork. Because Brazil’s president typically has to compose a mul-
+tiparty congressional coalition (Amorim Neto, 1995), many parties may hold
+ministerial or other government positions that provide access to particularis-
+tic goods.
+8 Deputies, senators, mayors, and state-government officials seek
+pork on their own, without party mediation. As Hypothesis 3 suggests, I
+expect parties with good access to pork to see lower label voting. I test for the
+effect of access to federal pork in the next section.
+Hypothesis 4: Alliance Strategy and Label Voting
+The last variable in Brazil affecting the choice of an individualistic or col-
+lective electoral strategy is the ability or willingness of a candidate in a party
+to decide to enter electoral alliances for legislative elections. In Brazil, label
+votes for a party in an alliance are added to the votes for the whole alliance,
+not to the party’s candidates alone. Therefore, whether a party is from the left
+or the right of the spectrum, if it enters an alliance, its candidates have incen-
+tives to direct votes away from the label and toward themselves.
+9
+498
+COMPARATIVE POLITICAL STUDIES / June 1999
+8. Much pork in Brazil can be found at the state and local level. Although testing for the
+influence of such access would be useful, such an effort is beyond the scope of this article.
+9. A candidate values a personal vote most highly, a label vote for his or her party in a
+single-party list second, a label vote for his or her party in a multiparty list third, and a vote for
+another party’s candidates or label last.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 14 ===
+Small parties feel this problem especially acutely because they often
+attempt to free-ride off of a larger party in an alliance by strategically restrict-
+ing the number of candidates that they place on the ballot within the alliance
+and concentrating their vote on those candidates. Because those candidates
+who win are those with the highest personal vote totals, candidates from
+small parties in alliances must downplay the label vote. If they emphasize
+their party label and downplay the names within the alliance, they may not get
+enough personal votes to obtain a seat. A party in an alliance is thus expected
+to seek and reap fewer label votes than a party not in an alliance. I test for this
+effect in Section 4.
+THE FRAMEWORK APPLIED
+AGGREGATE ELECTORAL DATA
+This section applies the argument empirically. First, I present aggregate
+electoral returns, noting that the variation in the percentage of these parties’
+total votes that come in the form of label votes seems to follow the logic of the
+argument spelled out above. I then present a more systematic multivariate
+analysis at the district level of a party’s label vote percentages that confirms
+the general validity of the approach.
+Table 2 lists the percentages of each party’s total votes that were given to
+the party label in the 1986, 1990, and 1994 Brazilian congressional elections
+(this table only includes the 15 largest national parties). The parties’ initials
+are in the first column, with leftist parties at the top, moving to the right of the
+political spectrum as one moves down the list. An X indicates that the party
+did not compete or did not exist for that year’s election. For reference, I
+include parallel information that indicates the party’s total vote percentage
+(Tribunal Regional Eleitoral, 1986; Tribunal Superior Eleitoral, 1990; Tribu-
+nal Superior Eleitoral, 1994).
+Table 2 reveals what existing studies have suggested: Most Brazilian par-
+ties fail to attract many label votes. However, Table 2 also illustrates that label
+vote percentages vary and shows how much the PT differs from other parties
+over the last decade. Note that although in 1986 several parties received high
+percentages of label votes, the PT doubled its label vote between 1986 and
+1990, and by 1994, among the large parties, only the PT managed to exten-
+sively promote the label. In 1994, excluding parties that received less than 1%
+of the national vote, the PT obtained label votes at more than 3 times the rate
+of its nearest competitor. Overall, the aggregate results demonstrate that only
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+499
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 15 ===
+the PT has consistently gained a high level of label votes over time.
+10 This fits
+the hypotheses articulated above because PT candidates are resource poor,
+lack access to patronage, and the PT has been so successful at cultivating a
+label that when it enters alliances, other parties now free ride off of the PT’s
+popularity. On the other hand, because candidates in other parties have more
+500
+COMPARATIVE POLITICAL STUDIES / June 1999
+Table 2
+National Percentage of Party-Label Vote and National Percentage of Vote
+% Label
+% Total
+1986
+1990
+1994
+1986
+1990
+1994
+Left
+PCdoB
+15.6
+17.2
+1.8
+0.7
+0.8
+1.2
+PCB/PPS
+20.3
+22.5
+2.9
+1.0
+1.0
+0.6
+PT
+22.7
+43.3
+33.1
+6.6
+10.5
+12.8
+PSB
+8.7
+8.6
+2.1
+1.1
+2.0
+2.2
+PDT
+13.5
+23.6
+5.3
+6.4
+10.5
+7.2
+PSDB
+X
+9.4
+10.9
+X
+8.7
+13.9
+PMDB
+15
+16.1
+3.6
+45.7
+19.0
+20.3
+PP
+X
+X
+0.6
+X
+X
+6.9
+PTB
+19.1
+12.4
+2.3
+5.4
+6.0
+5.2
+PFL
+4.7
+6.9
+1.4
+14.2
+12.5
+12.9
+PSC
+6.4
+19.9
+6.5
+1.4
+0.8
+0.5
+PRN
+X
+11.9
+28
+X
+6.8
+0.4
+PL
+3.3
+9.8
+2.2
+3.4
+4.3
+3.5
+PDC
+18.1
+9.3
+X
+0.8
+2.7
+X
+PDS/PPR
+24.6
+28.5
+2.1
+6.7
+9.6
+9.4
+Right
+PRONA
+X
+54.7
+81.7
+X
+0.03
+0.7
+Note: X = party did not compete or did not exist for that year’s election. PCdoB = Partido Comu-
+nista do Brasil (Communist Party of Brazil), PCB/PPS = Partido Comunista Brasileiro/Partido
+Popular Socialista (Brazilian Communist Party/Popular Socialist Party), PT = Partido dos Tra-
+balhadores (Workers’ Party), PSB = Partido Socialista Brasileiro (Brazilian Socialist Party),
+PDT = Partido Democrático Trabalhador (Democratic Labor Party), PSDB = Partido da Social-
+Democracia Brasileira (Brazilian Social-Democratic Party), PMDB = Partido do Movimento
+Democrático Brasileiro (Party of the Brazilian Democratic Movement), PP = Partido Popular
+(Popular Party), PTB = Partido Trabalhista Brasileiro (Brazilian Labor Party), PFL = Partido da
+Frente Liberal (Party of the Liberal Front), PSC = Partido Social Cristão (Social Christian Party),
+PRN = Partido da Reconstrução Nacional (National Reconstruction Party), PL = Partido Liberal
+(Liberal Party), PDC = Partido Democrático Cristão (Christian Democratic Party), PDS/PPR =
+Partido Democrático Social/Partido Progressista Reformador (Social Democratic Party/Pro-
+gressive Reform Party), and PRONA = Partido da Reedificação da Ordem Nacional (Party for
+the Reedification of National Order)
+10. I want to emphasize the word consistently. The PDS/PPR received a relatively high per-
+centage of label votes in 1986 and 1990, but its leader, Paulo Maluf, then destroyed any appeal its
+label might have had by confusing voters and changing the party’s name yet again in 1993 to the
+PPB. The PPB is known more for its personalistic leader, Paulo Maluf, who happens to be con-
+servative, than for having a leader who happens to be personalistic and espouses a particular con-
+servative ideology. Moreover, the PPB’s label appeal appears linked somehow to Maluf. Nation-
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 16 ===
+access to money and patronage, their parties’ label-vote performance con-
+forms to the conventional wisdom articulated above.
+Table 2 also reveals the absence of a pattern across the political spectrum,
+contrary to Mainwaring’s (1992, p. 688) suggestion that label voting corre-
+lates highly with leftist ideology. For example, two small leftist parties
+received minuscule percentages of label votes in 1994. The excommunist
+PPS label vote percentage was reasonably high in 1986 and 1990 but then
+dropped precipitously in 1994 to 2.9%, a level equal to the clientelistic par-
+ties. The reason for this drop reflects the party’s political strategy in 1994,
+when its candidates rode on PT’s coattails in electoral alliances. Only one or
+two PPS candidates ran in each district, and they deemphasized the party
+label so that the candidates would more likely win a seat within the alliance.
+Candidates in the PCdoB, another small resource-poor communist party,
+adopted the same strategy in 1994, with similar results (1.8% label votes).
+Only one or two candidates from the PCdoB ran in each district, and in televi-
+sion commercials during the 1994 campaign, PCdoB candidates deempha-
+sized the party label, often not even displaying the traditional hammer and
+sickle. Instead, PCdoB candidates emphasized their name and ballot number
+(Carneiro & Schmitt, 1995). Thus, these leftist candidates adapted to the
+institutional environment and decided to sacrifice collective electoral appeals
+and instead adopt individualistic campaign strategies.
+At the other end of the political spectrum, the PRONA, a small, resource-
+poor conservative party, received an astonishing percentage of label votes in
+both 1990 (54.7%) and 1994 (81.7%). In neither election did PRONA enter
+any alliances.
+DISTRICT-LEVEL STATISTICAL ANALYSIS
+The aggregate evidence provided above is suggestive but might be mis-
+leading because the national results aggregate state-by-state (i.e., district-
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+501
+ally, even in 1986 and 1990, the PDS/PPR attracted few label votes: São Paulo state accounted
+for 39% of the party’s total votes for federal deputy in 1990 but accounted for 65% of the party’s
+label votes. Generally, parties that receive a large percentage of their national vote in São Paulo
+(PDS) PTB, PSDB, and PMDB demonstrate a drop in label voting outside of that state, whereas
+parties with political bases outside of São Paulo show an increase in label voting when São Paulo
+is subtracted from their national totals (PDT, PL, PSB, and PRN). This is evidence that parties
+simply receive some label votes in their electoral strongholds regardless of whether they culti-
+vate the label vote. This does not, however, imply that all parties actually cultivate label votes:
+There is a more-than-ideological difference between the PPB, which is strong in São Paulo, and
+the PT, which also is strong in São Paulo. The former gained high label votes, but not consis-
+tently, either across space or over time. The PT consistently receives more label votes because it
+cultivates them.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 17 ===
+level) results and I only included the 15 largest national parties in the chart. To
+reveal more precisely whether campaign finance, pork, and alliance opportu-
+nities are important in Brazil, I have constructed two simple statistical mod-
+els using district-level data from the 1990 and 1994 federal elections (see
+Appendix A for why 1986 was excluded).
+Model 1
+Model 1 regresses the percentage of each party’s vote in each district that
+goes to the label (what the Brazilians call a voto de legenda), indicated by
+%LEGENDA. The main variables of interest follow the hypotheses outlined
+above. First, following Hypothesis 3, I include two variables that attempt to
+capture access to pork: CABINET, a dummy variable that codes all parties in
+government and holding ministries in the president’s cabinet at the time of the
+election as 1 and all others as 0; and CABPORK, a dummy variable that
+equals 1 if a party holds a ministry that distributes pork and 0 otherwise (Fun-
+dação Getúlio Vargas, Centro de Pesquisa e Documentação de História Con-
+temporânea do Brasil, n.d.).
+11 If my hypothesis holds, then parties with pork
+portfolios should obtain a lower label vote percentage than parties without
+such portfolios. Second, following Hypothesis 4, I include ALLIANCE, a
+dummy variable equal to 1 for parties in alliances and 0 for parties running
+alone (Câmara dos Deputados, 1987, 1989; Instituto de Estudos Sócio-
+Econômicos [INESC], 1994; Senado Federal, 1995; TSE, 1990, 1994). Par-
+ties in alliances should obtain a lower percentage of label votes than those not
+in alliances. I also include several control variables (described below). I used
+weighted least squares multiple regression analysis for each year’s election
+12
+in equations specified as follows:
+502
+COMPARATIVE POLITICAL STUDIES / June 1999
+11. I considered the following ministries non-pork oriented: gabinete civil (akin to chief of
+staff), culture, science and technology, environment, justice, foreign relations, planning, and
+economy. My thanks to Octávio Amorim Neto on this point.
+12. I used weighted least squares to correct for heteroskedasticity; variables are weighted by
+party size and the percentage of the vote that the party received in the state. After running a Chow
+test for differences between regressions (see Gujarati, 1988, pp. 443-445), I determined that I
+could not pool the two elections’ data and run only one equation without violating the assump-
+tion of homoskedasticity. The large differences in residual sum of squares between the two years’
+equations may be linked to the ballot structure change in 1994, when party labels were elimi-
+nated from the ballot. Running one equation with fixed-effects variables for each year does
+imply that the ballot structure change affected voters’propensity to vote for a label (and the fact
+that label names were eliminated indicates politicians’ desire for this to happen). The 1994
+results are not, however, an aberration: Except for ALLIANCE in 1990, all other variables are
+significant in both equations, independently.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 18 ===
+%LEGENDA = a + β1ALLIANCE + β2CABINET + β3CABPORK
++ β4INCOME + β5MAGNITUDE + β6LEFTIST + β7PT + e
+where INCOME is per capita income in the state (Instituto Brasileiro de Geo-
+grafia e Estatística [IBGE], 1993, pp. 7-101). This variable controls for any
+regional differences across Brazilian states in terms of economic develop-
+ment. Socioeconomic factors might influence voters’ propensity to vote for
+an individual or a party. MAGNITUDE is the district magnitude—the
+number of seats in the district. LEFTIST codes leftist parties (including the
+PT) as 1 and all other parties as 0.
+13 This variable measures whether leftism
+affects whether candidates adopt collectivist or individualistic strategies. PT
+is a dummy variable that codes the PT as 1 and all other parties as 0.
+If my hypotheses are valid, we should find significant and negative coeffi-
+cients on the ALLIANCE and CABPORK variables, whereas the CABINET
+variable’s impact is indeterminate. The PT dummy variable, it should be
+noted, does not distinguish the PT from all other parties but serves as an inter-
+active variable with the LEFTIST dummy variable: The PT variable thus dis-
+tinguishes the PT only from all other leftist parties, and we expect it to have a
+strongly positive coefficient, whereas we expect no positive impact of
+LEFTIST ideology. We expect MAGNITUDE to have a negative coefficient,
+if any: As the district gets larger, the fight for personal votes should get rela-
+tively more desperate (Carey & Shugart, 1995). I also included an indicator
+of socioeconomic development: per capita INCOME. Following a standard
+political science argument, some have claimed that Brazil’s more developed
+regions should more likely see party-oriented voting (Schwartzman, 1975).
+The results in Table 3 confirm most of my hypotheses.
+14 The ALLIANCE
+variable is strongly significant in the 1994 election, and the CABPORK vari-
+able is strongly significant in both elections. INCOME shows a statistically
+significant impact in 1994 but not in 1990. Further investigation into the rela-
+tionship between socioeconomic variables and political strategy across Bra-
+zil’s widely disparate regions could prove fruitful.
+15 In addition, contrary to
+Carey and Shugart (1995), MAGNITUDE exhibits a small but statistically
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+503
+13. I coded the following parties as leftist: PSB, PPS, PCdoB, PT, and PDT (see Mainwaring,
+1995). I did not code the PSDB as leftist based on its less-than-consistent attention to left-
+ideological programmatic positions.
+14. I use one-tailed tests because I have strong theoretical reasons to suggest the slope of the
+betas on my variables of interest (see Lewis-Beck, 1980, pp. 33-34; Gujarati, 1988, p. 108).
+15. To see if the results from the state of São Paulo distort the findings, I ran a regression
+for each equation that excluded the cases from that state. Doing so does not change my results
+for 1990; in the 1994 equation, none of my main variables were affected; however, M lost
+significance.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 19 ===
+significant upward pressure on the label vote totals.
+16 Finally, as expected,
+although LEFTIST ideology in general has no effect, the PT distinguishes
+itself from its ideological fellow travelers by gaining many label votes.
+17
+Model 2
+Model 2 includes data on candidates’ access to campaign finance. I run a
+separate regression with this variable for two reasons: first, because I only
+have data for the 1994 elections; and second, because I only have donation
+data for 213 cases in 1994 as opposed to the 358 cases in Model 1 (not all
+504
+COMPARATIVE POLITICAL STUDIES / June 1999
+16. The results should be interpreted in the following way: In 1990, for every one-seat
+increase in district magnitude, a party would more likely get about 0.2% more label votes.
+17. The PT does not drive the equations: Taking the PT out of the equations and running them
+again does not change the direction of any variable and only minimally affects the magnitude of
+the betas, except for the ALLIANCE variable in 1994 (β = –1.45, not significant). Of impor-
+tance, without the PT data, the LEFTIST variable hardly changes (compare 1990 LEFTIST
+without the PT: β = 3.27, not significant; 1994 without the PT: β = .72, not significant), indicating
+that leftism independently matters little for label promotion.
+Table 3
+Determinants of Label Voting in Brazilian Legislative Elections, 1990-1994
+Estimated Coefficient (SE)
+Variable
+1990
+1994
+ALLIANCE
+–2.27 (2.10)
+–2.97 (.85)***
+CABINET
+–.41 (1.96)
+1.27 (.66)*
+CABPORK
+–4.44 (2.17)*
+–1.59 (.60)**
+INCOME
+.28 (.21)
+.39 (.07)***
+MAGNITUDE
+.20 (.05)***
+.05 (.02)***
+LEFTIST
+2.67 (2.30)
+.48 (.83)
+PT
+18.61 (3.16)***
+22.98 (1.00)***
+Constant
+7.86 (2.88)**
+.87 (1.12)
+R2
+.30
+.76
+SER
+33.32
+11.14
+N
+314
+358
+ALLIANCE = a dummy variable equal to 1 for parties in alliances and 0 for parties running
+alone; CABINET = a dummy variable that codes all parties in government and holding minis-
+tries in the president’s cabinet at the time of the election as 1 and all others as 0; CABPORK = a
+dummy variable that equals 1 if a party holds a ministry that distributes pork and 0 otherwise; IN-
+COME = a variable measuring per capita income in the state; MAGNITUDE = a variable meas-
+uring the district magnitude—the number of seats in the district; LEFTIST = a variable that
+codes leftist parties (including the PT) as 1 and all other parties as 0; and PT = a dummy variable
+that codes the PT as 1 and all other parties as 0. SER = standard error of the regression.
+*p < .05. **p < .01. ***p < .001.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 20 ===
+candidates presented declarations; in particular, candidates in smaller parties
+failed to do so) (see Appendix B). The model includes all of the variables
+used in Model 1 as well as a variable denominated DONATIONS, which is
+the mean declared donation to a party’s federal deputy candidates in a given
+district (TSE, 1997). Following Hypothesis 2, as candidates have access to
+more money, they should campaign more individualistically and label voting
+should decline. Table 4 relates the results of Model 2.
+The results confirm my hypothesis that access to campaign finance influ-
+ences label voting: DONATIONS has a statistically significant negative
+impact, even with the reduced N.
+18
+In sum, although future research could provide better operational indica-
+tors of access to pork and investigate the impact of socioeconomic variables
+on voters’ propensity to respond to deliberate promotion of the party label
+(e.g., at the state and municipal level), both the descriptive and quantitative
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+505
+Table 4
+Determinants of Label Voting in Brazilian Legislative Elections,
+Including Campaign Donations, 1994
+Variable
+Estimated Coefficient (SE)
+ALLIANCE
+–3.79 (1.09)***
+CABINET
+1.58 (.86)*
+CABPORK
+–1.84 (.82)*
+DONATIONS
+–.000054 (.00000886)*
+INCOME
+.35 (.09)***
+MAGNITUDE
+.06 (.02) ***
+LEFTIST
+.59 (.90)
+PT
+21.21 (1.16)***
+Constant
+2.43 (1.40)*
+R2
+.77
+SER
+6.65
+N
+213
+Dependent variable = %LEGENDA; ALLIANCE = a dummy variable equal to 1 for parties in
+alliances and 0 for parties running alone; CABINET = a dummy variable that codes all parties in
+government and holding ministries in the president’s cabinet at the time of the election as 1 and
+all others as 0; CABPORK = a dummy variable that equals 1 if a party holds a ministry that dis-
+tributes pork and 0 otherwise; INCOME = a variable measuring per capita income in the state;
+MAGNITUDE = a variable measuring the district magnitude—the number of seats in the dis-
+trict; LEFTIST = a variable that codes leftist parties (including the PT) as 1 and all other parties
+as 0; and PT = a dummy variable that codes the PT as 1 and all other parties as 0. SER = standard
+error of the regression.
+*p < .05. **p < .01. ***p < .001.
+18. The coefficient on DONATIONS reveals that one Real donated to candidates in a given
+party reduces that party’s label vote by .0000154%.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 21 ===
+analyses tend to confirm my hypotheses: Although most Brazilian candidates
+seek money and pork and their parties consequently fail to develop a label,
+some parties do encourage label voting as a short-term expedient. In this
+regard, no clear pattern exists across the political spectrum; in fact, small par-
+ties across the spectrum vary in their adopted strategy. Leftist ideology is not
+a sufficient cause of promotion of a party label. Instead, resource constraints
+and alliance options play important causal roles. Of the large Brazilian par-
+ties, only the PT has generated a sizable percentage of label votes consis-
+tently. The difference between the PT and the others demands further
+exploration.
+THE WORKERS’ PARTY AND OPEN-LIST PR
+The empirical data confirm what Brazilianists already know: The PT gets
+a big label vote. In this section, I question whether ideology is a sufficient
+explanation for this result and investigate in more detail the institutional
+underpinnings behind PT candidates’ behavior. How does the PT do it? Are
+the same factors that I considered in Sections 3 and 4—nomination control,
+access to pork, alliance options—relevant?
+The PT is an important actor in Brazilian politics: It is now the fifth largest
+party in Congress, with 10% of the seats; its candidate (Lula) has finished
+second in the last three presidential races; its candidates have won the may-
+or’s office of some of Brazil’s largest cities, including São Paulo; and in 1994,
+the party won its first two statehouses. The PT has demonstrated that there is
+room for a programmatic party in Brazilian politics.
+I have argued that political strategy matters for promotion of a label. In this
+section, I argue that by institutionalizing certain rules, PT politicians have
+successfully bound their own hands, and consequently, unlike politicians in
+other (leftist and rightist) parties that lack such internal rules, they have insti-
+tutionalized their party’s label over time. The way in which PT politicians
+have implemented these mechanisms is not random, nor, as leftists, are their
+motivations merely ideological; the PT’s ideology is not a sufficient condi-
+tion to explain the party’s durable label. In fact, although socialist ideology
+did play an important role in the PT’s self-definition, the party has deliber-
+ately never defined a concrete and unified political line onto which voters
+could easily latch (Garcia, 1991; Gurgel, 1989), as have other Brazilian leftist
+parties (with less electoral success, it should be noted). The creation of rules
+is strategic, as well as causal, because it affects the long-term behavior both of
+PT politicians and Brazilian voters. These institutional innovations are the
+key to understanding how the PT has found a niche in the individualistic
+506
+COMPARATIVE POLITICAL STUDIES / June 1999
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 22 ===
+Brazilian electoral system that the conventional wisdom describes and how,
+given the PT’s lack of resources and allies early on, it was able to institution-
+alize a party label.
+Hypothesis 1: Nomination and Access Control
+First, consider the PT’s efforts to institutionalize a party structure that held
+elected representatives collectively accountable to each other and that held
+elected representatives accountable to the party’s popular base. This innova-
+tion has allowed the PT to develop a nationwide reputation. Although, as in
+all other parties, nomination is decentralized, the PT requires that candidates
+for legislative office be nominated by party núcleos (local organizations)
+instead of through elite negotiations in the state executive committee (Sader
+& Silverstein, 1991, p. 80). Furthermore, unlike all other parties, the PT pro-
+hibits use of the birthright candidate (candidato nato) rule, retaining the
+power to deny deputies a slot on the label come reelection time. In addition,
+although the party legally cannot impose an order on its candidate list, in con-
+trast to other parties, the PT nominated only one candidate per seat, even
+though prior to 1994 it could nominate 1.5 candidates per slot for legislative
+posts (Keck, 1992).
+19 All told, then, even though nomination is still decentral-
+ized, PT elected leaders are far more beholden to the party than are deputies
+from other parties.
+The PT has institutionalized other rules that discourage individualistic
+behavior. For example, to maintain its commitment to intraparty democracy
+and philosophical eclecticism (Gurgel, 1989, p. 88), the party institutional-
+ized factions, but they were institutionalized in a way that maintained party
+cohesion (Keck, 1992, p. 117): The party allows extensive internal debate,
+but after internal votes are taken, the party demands “obligatory respect for
+decisions” (Keck, 1992, p. 96) under the threat of expulsion (Keck, 1992, pp.
+222, 230, 235; Novaes, 1993, p. 125), a credible threat that has been carried
+out on several occasions. Although tension has resulted from the imposition
+of collective decisions on elected officials (Keck, 1992, p. 216) and PT depu-
+ties are hardly a set of doctrinal clones, the party continues to demand and
+obtain cohesive behavior from its elected officials. In particular, the PT gets
+exceptionally high cohesion on congressional roll-call votes, nearly 100%
+(Figueiredo & Limongi, 1995a, 1995b). No other party obtains such high dis-
+cipline, which highlights the success of the combination of internal democ-
+racy and collective and individual responsibility to the party that the PT has
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+507
+19. However, interviews with PT officials in Rio de Janeiro and São Paulo suggest that prior
+to 1994, filling legislative slates with even one candidate per position was difficult for the PT.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 23 ===
+engineered. Elected leaders are accountable to each other and depend elec-
+torally on each other.
+The rules cited above, in combination with the drastic requirement that all
+PT elected officials must give 30% of their salary to the party, create a sort of
+implicit nomination control: They effectively dissuade all but the most com-
+mitted from joining the party. Interviews confirm that the although some can-
+didates find the rules tying elected officials to the party appealing, these same
+rules, and not differences in leftist ideology, often dissuade candidates from
+entering the PT (Marco Aurélio Garcia, member of the PT National Execu-
+tive, personal communication, São Paulo, June 29, 1995; Léo Lince, chief
+aide to the PT leader in the Rio de Janeiro statehouse, personal communica-
+tion, July 24, 1994; Jaílson de Souza Silva, member of the PT state directory
+in Rio de Janeiro, personal communication, July 22, 1994). Moreover, as
+party officials acknowledge, threatened sanctions are heeded because indi-
+vidual politicians, who came to the party lacking resources, know that they
+would be a fish out of water were they to leave the PT (Marco Aurélio Garcia,
+personal communication, São Paulo, June 29, 1995). Because of these rules,
+the PT possesses a largely impermeable recruitment structure, defined as one
+in which “all higher-level officers and candidates are recruited from lower
+levels within the party” (Strom, 1990, p. 579). Evidence for the PT’s imper-
+meability comes from comparing the rates at which Brazilian deputies
+change parties: Whereas party switching is common in the Brazilian Cham-
+ber of Deputies (260 changes occurred during the 1991-1994 legislature,
+when there were 503 deputies), the PT exhibited the lowest level of migration
+either to or from other parties (Nicolau, 1996). The less a party acts as a
+revolving door, the more likely it is that the party has created internal rules
+that discourage both inmigration or outmigration and the more likely it is that
+the party members have attempted to preserve the value of the party label.
+In sum, the PT is the only Brazilian party that has institutionalized internal
+rules that counter Brazil’s notoriously individualistic electoral rules. These
+internal party institutions push PT politicians to adopt more collective strate-
+gies, strengthening the party label.
+Hypotheses 2 and 3: Lack of Resources
+Next, consider PT candidates’historical lack of resources. Brazil has had
+many leftist parties. Whereas other Brazilian parties, including leftist ones
+(such as the PTB and PDT), have traditionally formed from the top down, the
+PT’s leaders organized the party from the bottom up, without access to gov-
+ernmental goods and without deep pockets backing their efforts. As shown in
+508
+COMPARATIVE POLITICAL STUDIES / June 1999
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 24 ===
+Table 1, PT candidates have fewer monetary resources for campaigning.
+Moreover, since its formation the PT has won relatively few executive-level
+positions; although it has won a few spectacular victories at the municipal
+level (such as the city of São Paulo in 1988), only in 1994 did it win two
+gubernatorial races. This lack of access to executive office means that, unlike
+other parties, the PT has not built up an extensive clientelistic network that
+depends on access to government for survival. Instead, grassroots unions and
+social movements opposing Brazil’s military regime in the late 1970s pro-
+vided the base for the party’s formation and electoral growth. The key differ-
+ence between the PT and its leftist contemporaries is that the party’s rank and
+file have been important political resources and have taken an active role in
+party planning, institutionalizing, and decision making (Keck, 1992; Sader &
+Silverstein, 1991). Thus, although the PT as an organization has greater
+resources than do other parties, as in other Brazilian parties, the PT does not
+pay its candidates’ campaign expenses. Instead, PT candidates use the PT’s
+organizational resources, which results in a different campaign style.
+Hypothesis 4: Alliance Strategy
+Finally, consider how the PT’s electoral alliance strategy generates a col-
+lective party image. At its inception, the PT eschewed electoral alliances in
+order to establish a collective reputation. For example, in 1982, the PT
+refused to join the largest opposition party (the PMDB) in alliances in order to
+affirm its presence as “an autonomous force” (Sader & Silverstein, 1991, p. 80).
+Prior to 1985, even discussion of entering alliances was considered taboo
+(Keck, 1992) because PT candidates felt that alliances would “dilute the par-
+ty’s program” (Keck, 1992, p. 226). By the late 1980s, however, the party had
+modified its tactics and began to enter alliances. Still, the PT did not succumb
+to the temptation to ally with any party simply for short-term expedient. The
+PT has never abandoned its position as standard-bearer of the opposition and
+has tactically chosen to ally only with opposition parties. In 1994, smaller
+leftist parties sacrificed their own party labels to free ride on the PT’s popular
+national image.
+20 Moreover, the PT has maintained a national alliance strat-
+egy: The national directory imposes a right of veto on state directories’ alli-
+ance decisions (Nicolau, 1994, p. 18). Thus, although the PT now commonly
+enters electoral alliances, contrary to what my hypothesis might predict,
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+509
+20. The PT recognizes that alliances allow smaller parties to free ride but makes this sacrifice
+to garner support for its executive-office candidates (José Luís Fevereiro, member of the PT
+National Executive Committee, personal communication, Rio de Janeiro, July 26, 1994; see also
+“Tempo de TV”, 1994; “Tempo na TV”, 1994.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 25 ===
+because the PT initially eschewed alliances, it initially established a strong
+national partisan reputation. Currently, unlike other parties (which never had
+strong labels to begin with), because the PT maintains a consistent national
+alliance strategy, it has consequently been able to counter the predicted
+impact of entering alliances and maintained the image of its party label intact.
+EFFECTS OF PT STRATEGY: CAMPAIGN BEHAVIOR
+What are the effects of nomination control, lack of resources, and a
+national alliance strategy? How do the PT’s internal rules play out in electoral
+politics? Following the hypotheses elaborated above, PT candidates innovate
+cheaper ways of attracting votes: During campaigns, PT candidates deliber-
+ately attempt to attract label votes. Party leaders encourage candidates to
+incorporate broad themes, such as opposition to the national government and
+promotion of social rights, into the context of local issues. Adopting broad
+appeals levels the playing field for the PT because it has fewer financial
+resources. For example, one labor-intensive way in which the PT promotes
+the party vote happens on election day: The PT brings activists to polling
+places with signs and banners that read “Vote #13” (the party’s official elec-
+toral code number) or “Vote PT” to encourage those who have not made the
+choice of an individual candidate to cast a party vote.
+In addition, the PT uses its media exposure differently than other parties,
+encouraging voters to vote the label. Brazilian law prohibits individual candi-
+dates from independently advertising on television and radio. The govern-
+ment instead allots air time to parties, which broadcast their programs twice a
+day, every day, for 2 months before elections.
+21 Parties decide how to divide
+their allotted time. Because the personal vote is most important for all candi-
+dates, we can assume that all candidates would rather have more TV time
+than less. Distribution of TV time causes fierce intraparty squabbles because
+the average time that each candidate gets is generally very short. In Rio de
+Janeiro in 1994, PT candidates received 9 seconds each, once a week. For the
+larger parties, candidates could get 30 seconds each.
+The PT in Rio de Janeiro deliberately attempted to increase its label vote
+by promoting a puxador de legenda (literally, a vote puller) during its free
+media time in 1994. This entailed granting more airtime to one candidate
+over the rest.
+22 The candidate did not then engage in self-promotion but
+instead encouraged voters to mark their ballots for the PT label, as he
+510
+COMPARATIVE POLITICAL STUDIES / June 1999
+21. One third of the time is divided equally and two thirds of the time is allotted proportion-
+ally according to each party’s number of seats in the Chamber of Deputies (see Câmara dos
+Deputados, 1993).
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 26 ===
+recognized his colleagues expected of him (Milton Temer, PT candidate for
+federal deputy, personal communication, Rio de Janeiro, July 25, 1994).
+23
+The logic behind this party decision is clear: With a marketable party label,
+and free air time, the PT can cheaply provide an information shortcut to vot-
+ers; the PT employs a collective puxador de legenda because its candidates
+lack the financial resources to run expensive modern campaigns.
+SUMMARY: THE PT LABEL OVER THE LONG TERM
+Why adopt a structure that enhances cohesion? During the early phases of
+Brazil’s redemocratization (1978-1980), only the formation of a different
+party, with a strong organizational structure, would guarantee to the hetero-
+geneous political and social movements and their potential electoral support-
+ers that the PT would tie its own hands and remain distinct in the long term.
+These groups had been either excluded from channeling their demands
+through representative political institutions or were simply disenchanted
+with the political process. To convince these groups that the PT would remain
+different, PT politicians had to innovate rules to make themselves more
+dependent on their own organization. By enforcing cohesion and promoting a
+label, PT politicians created a cheap baseline political identity that could be
+marketed to a broad spectrum of social groups and lowered the costs to indi-
+viduals or small groups of participating in politics. The relative success of the
+PT is a testament to this strategy.
+PT leaders and representatives have incentives to promote cohesion that
+others do not: Their effectiveness does not depend on allegiance to a political
+boss, or being able to buy votes, but on the effectiveness and success of their
+organization. PT politicians favor long-term collective interests, although
+immediate electoral considerations are of course important. This is sig-
+nificantly different from other parties’ legislators, who value long-term
+individual gain above all. Similar to other leftist politicians, PT politicians
+have different political goals and resources from other nonleftists, but,
+unlike other leftist politicians, the PT has invested in cohesive,
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+511
+22. The PT’s puxadores de legenda had 30 seconds, whereas other candidates had 9 seconds
+perappearance.Inotherparties,apuxadorisnotnominated,itsimplydefinesapopularcandidate.
+23. The decision to let a candidate act as puxador and receive extra TV or radio time creates
+jealousy and intense rivalry within the PT. As Adilson Pires, PT city council member in Rio de
+Janeiro (personal communication, July 23, 1994) put it,
+Of 46 deputy candidates we have, 33 will get about 2,000 votes. They have absolutely
+no chance. The real battle for the seats is with the next 10 guys, who get about 10,000
+votes each. The puxadores will get 20,000 votes each. So the real problem for us is
+who gets to be puxador.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 27 ===
+programmatic behavior by developing an array of powerful internal rules.
+This creates a stronger party label in comparison with other Brazilian parties
+across the political spectrum.
+In sum, the PT’s founders, by deciding to enter electoral politics, had to
+take institutions into account. Because the PT was not linked to government,
+was not formed from within the Congress, did not have an established team of
+well-known politicians, and generally lacked financial resources, it could not
+compete on the same turf as the other parties by using similar tactics. Instead,
+the PT had to differentiate its identity, and its candidates’ identities, from
+other politicians and parties. Unlike other leftist parties in Brazilian history,
+such as the PTB, to ensure that individual politicians would resist the tempta-
+tion of the pork barrel and to realize its long-term goals, the PT institutional-
+ized its difference. These internal party institutions, more so than PT ideol-
+ogy (which the PT has never defined), make the costs of defection by an
+individual PT politician much higher than they are to politicians in other (left-
+ist) parties. PT elected officials owe their mandates, and political futures,
+much more to the party than do politicians from other parties. Because of
+internal party rules, and not simply ideology, PT politicians behave differ-
+ently both within the party and in the public arena. The result is cohesiveness
+and the use of a strong party label. Voters clue into this cue, causing the PT to
+consistently gain more party-label votes than other parties. This institutional
+innovation in the Brazilian system has proved to be the PT’s strength over the
+last 15 years.
+24
+CONCLUSION
+This article contributes to our understanding of how politicians with dif-
+ferent resources and strategies adapt to a given set of electoral rules and has
+advanced our understanding of Brazilian electoral politics. First, I argued
+that although analysts correctly claim that a given electoral system creates
+static incentives to promote more or less individualism, this notion provides
+little purchase on assessing the causes of within-system variation on the same
+dependent variable. Thus, although a system’s electoral rules may push
+toward individualism, I argue that not all politicians have the capability to
+compete effectively with a purely individualistic strategy. Although being in
+512
+COMPARATIVE POLITICAL STUDIES / June 1999
+24. Given the PT’s electoral success, it now has deputies in many states and has cracked the
+executive-office barrier by winning two statehouses in 1994. The temptations of office holding
+and Brazil’s vast regional differences may strain the PT’s cohesiveness. However, if the PT
+maintains its internal rules and its alliance strategy, it ought to also retain its strong national party
+label. Only time will tell.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 28 ===
+an alliance may push candidates to downplay their partisan attachments, can-
+didates may be restrained by owing their nomination to the central party and
+they may lack access to money and/or patronage. Therefore, some politicians
+adapt to the rules and appeal to those voters who are either not linked to a
+patronage system or who reject it.
+Second, I used electoral data from Brazil’s recent congressional elections
+to test the hypothesized relationships and found that access to campaign
+finance and pork and alliance strategy influence a party’s promotion of its
+label. Several important new findings emerged from this analysis. The most
+significant finding was that although many parties gain sizable percentages
+of label votes, the Workers’Party is the only large Brazilian party to exhibit a
+consistently high percentage of label votes across space and time, which con-
+firms the street-knowledge perception that the PT is distinct from the mass of
+rent-a-parties that characterize Brazilian electoral politics in that it has a
+nationally recognizable party label.
+I also found that no clear pattern on the dependent variable exists across
+the political spectrum in Brazil, illuminating the counterintuitive finding that
+for important aspects of electoral strategy in Brazil, institutional rules trump
+ideology. In Brazil, the consequences of ideology in general remain unclear
+in terms of electoral strategy: Politicians in leftist parties do not necessarily
+cultivate labels, do not necessarily eschew personalism and cultivate policy-
+oriented votes, and do not necessarily develop an obviously different connec-
+tion to voters, at least in terms of directing their supporters in how to vote.
+Conversely, rightist parties do not necessarily always cultivate only personal
+votes. At times, particularly for small parties, resource limits and alliance
+possibilities push parties on the left to adopt personalistic strategies and push
+parties on the right to adopt collective strategies.
+Finally, I explained how PT politicians counteract the incentives of the
+electoral system over the long term. The PT’s leftist ideology, which the party
+has refused to define exactly, may be a necessary condition but is not a suffi-
+cient explanation for the cohesion that the party demonstrates and its promo-
+tion of a party label. Instead, PT politicians have distinguished themselves
+from others, particularly other leftists, by making the costs of individualistic
+behavior too high. Several sanctioning mechanisms, including controlling
+access to the label and credibly threatening expulsion, achieve this result.
+Consequently, the benefits of a party label have exceeded the costs, and the
+PT remains the only party to consistently gain a high percentage of label
+votes in legislative elections across Brazil.
+Although I have provided details on only one country, the logic of my
+hypotheses is general and builds on Strom’s (1990) and Myerson’s (1993)
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+513
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 29 ===
+theoretical approaches to the study of the behavior of candidates and political
+parties and Carey and Shugart’s (1995) effort to compare the incentives for
+individualism that various electoral systems generate. Future research could
+extend this argument and attempt to explain variation across parties in other
+candidate-centric systems.
+APPENDIX A
+Electoral Data
+I compiled electoral data from Brazil’s Tribunal Superior Eleitoral (TSE) com-
+puter diskettes for 1990 and 1994. I calculated the percentage of every party’s label
+vote and total vote in every district (state) for 1994. For 1990, I excluded the state of
+Goiás because of a recording of “zero” label votes in that state, an impossible result.
+The TSE never prepared a complete set of election returns for 1986. I obtained
+computer printouts from state Regional Electoral Tribunals. Several states are miss-
+ing, including Rondônia, Acre, Piauí, Paraíba, Paraná, Rio Grande do Sul, Mato
+Grosso do Sul, and Goiás. Moreover, the results from several other states do not allow
+one to separate out the label votes by party because they are grouped by alliance.
+I also do not have complete data on alliances; this problem was particularly acute
+for 1986. The TSE does not provide data on parties or alliances of parties that do not
+win at least one seat in either federal or state elections. Thus, although for the three
+elections I found 1,136 cases, I only had alliance membership data for 672 cases.
+Because I lacked complete electoral returns and adequate alliance data for 1986, I
+excluded that year’s election from the regression.
+APPENDIX B
+Campaign Finance Data
+No empirical studies of campaign spending in Brazil exist because Brazilian law
+does not require candidates to detail expenditures. However, for the 1994 elections,
+Brazil’s Tribunal Superior Eleitoral (TSE) required candidates to submit a prestação
+de contas (registry of campaign contributions) (TSE, 1997).25 Because the TSE lacks
+mechanisms to enforce its rules, we can assume that candidates underreported
+514
+COMPARATIVE POLITICAL STUDIES / June 1999
+25. The data contain information on all registered campaign contributions (n = 141,162) to
+candidates for the following offices during the 1994 calendar year: president, governor, senator,
+federal deputy, and state deputy. Candidates are required to send a report to their state’s regional
+electoral tribunal, which then sends all records from the state to the Tribunal Superior Eleitoral
+(TSE) in Brasília. Twenty-four states sent records: Rio de Janeiro, Alagoas, and Mato Grosso do
+Sul did not. Not all candidates submitted a prestação de contas: For federal deputy, the 24 states
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 30 ===
+contributions. However, we can also assume that all candidates have the same incen-
+tives to underreport (or not), and so although reported donations may only represent
+some fraction of total campaign expenditures, the ratio of the average donations in a
+state of one type of office to the others is likely to reflect accurately the relative costs
+of each type of campaign.26
+In 1994, winning candidates declared the following donations, on average:
+Position
+Amount (rounded to nearest thousand)
+Governor
+R$2,497,000
+Senator
+R$377,000
+Federal Deputy
+R$94,000
+State Deputy
+R$34,000
+From the data, we see that, on average, a winning gubernatorial candidate declares
+about 6 times more than a winning senatorial candidate, who in turn declares about 4
+times more than a winning candidate for federal deputy. A winning candidate for fed-
+eral deputy declares about 3 times as much as a winning candidate for state deputy
+(TSE, 1997).
+Can we trust the data? Declared donations do range considerably by state and by
+candidate, particularly for gubernatorial and senatorial candidates. For example, the
+winning candidates for governor in the (relatively poor) states of Piauí and Paraíba
+declared donations of R$310,000 and R$320,000, respectively, whereas their coun-
+terparts in the (relatively rich) states of São Paulo and Minas Gerais declared dona-
+tions of R$10 million and R$11 million, respectively. Two winning Partido dos Tra-
+balhadores (Workers’ Party, PT) senate candidates from small, poor states declared
+donations of only R$3,500 and R$6,500, respectively, whereas a winning PSDB sen-
+ate candidate in São Paulo declared donations of almost R$2 million. From “soaking
+and poking” in the field during the 1992, 1994, and 1996 election seasons, I believe
+that the wide range particularly evident in declared donations is due to real differences
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+515
+that sent records to the TSE send 450 deputies to Congress. I only included donations made on or
+after July 1, 1994: Brazil changed currencies on this day and closely tied its currency’s exchange
+rate to the dollar, nearly halting runaway inflation in its tracks. Prior to July 1, 1994, inflation had
+been running at between 30% to 50% per month, making currency standardization difficult. This
+decision eliminates less than 5% of all donations.
+26. Candidates are required to submit receipts of donation amounts and the donor’s
+government-issued personal or corporate registration number (cadastro de pessoa físíca [CPF]
+or cadastro de pessoa jurídica [CPJ]). All bank transactions require a CPF or CPJ. However, bank
+records can only be opened after a lengthy, complex, and costly legal battle, which makes track-
+ing donations very difficult. Thus, a candidate could provide a receipt for a $10 donation when in
+fact he or she received $10,000. Although TSE officials recognize that this probably occurs fre-
+quently, they acknowledged that the phenomenon is also probably randomly distributed across
+candidates (Valéria Alves de Sousa, head of internal control, Tribunal Regional Eleitoral, per-
+sonal communication, São Paulo, September 23, 1996; Salatiel Carvalho, head of internal con-
+trol, TSE, personal communication, Brasília, June 17, 1997.
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 31 ===
+in campaign costs and not nonrandom underreporting. For example, PT candidates
+have less access to money and rely instead on grassroots get-out-the-vote supporters.
+REFERENCES
+Ames, Barry. (1995a). Electoral rules, constituency pressures and pork barrel: Bases of voting in
+the Brazilian Congress. Journal of Politics, 57(2), 324-343.
+Ames, Barry. (1995b). Electoral strategy under open-list proportional representation. American
+Journal of Political Science, 39(2), 406-433.
+Amorim Neto, Octávio. (1995). Cabinet formation and party politics in Brazil. Paper presented
+at the 1995 meeting of the Latin American Studies Association, Washington, DC.
+Avelino Filho, George. (1994). Clientelismo e política no Brasil: Revisitando velhos problemas
+[Clientelism and politics in Brazil: Revisiting old problems]. Novos Estudos CEBRAP, 38,
+225-240.
+Câmara dos Deputados. (1987). Eleições de 15 de Novembro de 1986: Candidatos e votos obti-
+dos [Elections of November 15, 1986: Candidates and votes obtained]. Brasília: Centro de
+Documentação e Informação, Coordenação de Publicações.
+Câmara dos Deputados. (1989). Assembléia Nacional Constituinte—1987: Repertório
+biográfico dos membros da Assembléia Nacional Constituinte de 1987 [National Constitu-
+ent Assembly, 1987: Biographical report of members of the National Constituent Assembly
+of 1987]. Brasília: Centro de Documentação e Informação, Coordenação de Publicações.
+Câmara dos Deputados. (1993). Mudanças de partido [Party changes]. Brasília: Secretaria Geral
+da Mesa/Núcleo de Informática.
+Carey, John, & Shugart, Matthew S. (1995). Incentives to cultivate a personal vote: A rank order-
+ing of electoral formulas. Electoral Studies, 14(4), 417-435.
+Carneiro, Leandro P., & Schmitt, Rogério A. (1995). Eleições casadas, resultados nem sempre
+solteiros: Campanhas proporcionais e imagem partidária no horário gratuito de propaganda
+eleitoral [Married elections, results not always divorced: Proportional campaigns and party
+image on the free electoral propaganda hour]. Opinião Pública, 3(1), 45-59.
+Downs, Anthony. (1957). An economic theory of democracy. New York: HarperCollins.
+Figueiredo, Argelina C., & Limongi, Fernando. (1995a). Partidos políticos na câmara dos depu-
+tados, 1989-1993 [Political parties in the chamber of deputies]. São Paulo: Centro Brasileiro
+de Análise e Planejamento.
+Figueiredo, Argelina C., & Limongi, Fernando. (1995b). Terra incognita: O Congresso Brasi-
+leiro na época os-constituinte [Unknown lands: The Brazilian Congress in the postconstitu-
+ent assembly era]. São Paulo: CEBRAP.
+Fundação Getúlio Vargas, Centro de Pesquisa e Documentação de História Contemporânea do
+Brasil. (n.d.). Gabinete civil da presidência da república: Ministros-chefes [Civil cabinet of
+the president of the republic: Chief ministers]. Rio de Janeiro: Author.
+Garcia, Marco Aurélio. (1991). Marxismo, Leninismo, e social-democracia [Marxism, Lenin-
+ism, and social democracy]. São Paulo: Partido dos Trabalhadores.
+Gujarati, Damodar. (1988). Basic econometrics. New York: McGraw-Hill.
+Gurgel, Claudio. (1989). Estrelas e borboletas: Origens e questões de um partido a caminho do
+poder [Stars and butterflies: Origins and questions of a party on the road to power]. Rio de
+Janeiro: Editora Papagaio.
+516
+COMPARATIVE POLITICAL STUDIES / June 1999
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 32 ===
+Hrebenar, Ronald J. (1992). The Japanese party system. Boulder, CO: Westview.
+Instituto Brasileiro de Geografia e Estatística. (1993). Anuário estatístico do Brasil, Volume 53
+[Annual statistics of Brazil]. Rio de Janeiro: Author.
+Instituto de Estudos Sócio-Econômicos. (1994). Candidatos a governador: Informativo INESC,
+Ano VIII, 1st semester [Candidates for governor]. Brasília: Author.
+Katz, Richard. (1985). Preference voting in Italy: Votes of opinion, belonging or exchange.
+Comparative Political Studies, 18(2), 229-249.
+Keck, Margaret. (1992). The workers’ party and democratization in Brazil. New Haven, CT:
+Yale University Press.
+Lamounier, Bolivar. (1991). Depois da transição: Democracia e eleições no Governo Collor
+[After the transition: Democracy and elections in the Collor government]. São Paulo:
+Edições Loyola.
+Lewis-Beck, Michael. (1980). Applied regression: and introduction (Sage University Paper
+Series, No. 22). Beverly Hills, CA: Sage.
+Mainwaring, Scott. (1991, October). Politicians, parties and electoral systems: Brazil in com-
+parative perspective. Comparative Politics, 24, 21-43.
+Mainwaring, Scott. (1992). Brazilian party underdevelopment in comparative perspective.
+Political Science Quarterly, 107(4), 677-707.
+Mainwaring, Scott. (1995). Brazil: Weak parties, feckless democracy. In Scott Mainwaring &
+Timothy Scully (Eds.), Parties and party systems in Latin America. Stanford, CA: Stanford
+University Press.
+Mainwaring, Scott. (in press). The party system and democratization in Brazil. Stanford, CA:
+Stanford University Press.
+Meneguello, Rachel. (1989). PT: A formação de um partido, 1979-1982 [PT: The formation of a
+party, 1979-1982]. Rio de Janeiro: Paz e Terra.
+Myerson, Roger B. (1993). Incentives to cultivate favored minorities under alternative electoral
+systems. American Journal of Political Science, 87, 856-869.
+Nicolau, Jairo. (1994). Breves comentários sobre as eleições de 1994 e o quadro político [Brief
+commentary on the 1994 elections and the partisan situation]. Cadernos de Conjuntura
+IUPERJ, 50, 15-19.
+Nicolau, Jairo. (1996). A migração partidária na câmara dos deputados (1991-96) [Party-
+switching in the chamber of deputies (1991-96)]. Monitor Público, 3(10), 41-45.
+Novaes, Carlos Alberto Marques. (1993, March). PT: Dilemas da burocratização [PT: Dilemmas
+of bureaucratization]. Novos Estudos CEBRAP, 35, 217-237.
+Popkin, Samuel. (1990). The reasoning voter. Chicago: University of Chicago Press.
+Sader, Emir, & Silverstein, Ken. (1991). Without fear of being happy: Lula, the workers’party
+and Brazil. New York: Verso.
+Schwartzman, Simon. (1975). São Paulo e o estado nacional [São Paulo and the national state].
+São Paulo: Difusão Européio do Livro.
+Senado Federal. (1995). Deputados Brasileiros: Repertório biográfico [Brazilian deputies: Bio-
+graphical report]. Brasília: Centro Gráfico do Senado Federal.
+Strom, Kaare. (1990). A behavioral theory of competitive political parties. American Journal of
+Political Science, 34(2), 565-598.
+Tempo de TV causa briga na aliança do PT [Allocation of TV time causes battle within the PT
+alliance]. (1994, June 7). Jornal do Brasil, p. A7.
+Tempo na TV abala a coligação petista [Allocation of TV time breaks up the PT alliance]. (1994,
+June 11). Jornal do Brasil, p. A3.
+Tribunal Regional Eleitoral. (1986). Various mimeographed election results.
+Tribunal Superior Eleitoral. (1990). Dados estatísticos [Statistical data]. Brasília: Author.
+Samuels / CULTIVATING THE VOTE IN CANDIDATE-CENTRIC SYSTEMS
+517
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 
+
+
+=== PDF PAGE 33 ===
+Tribunal Superior Eleitoral. (1994). Dados estatísticos [Statistical data]. Brasília: Author.
+Tribunal Superior Eleitoral. (1997). Sistema de controle de recursos arrecados—SISCRA [Sys-
+tem for the control of campaign contributions]. Brasília: Author.
+Valenzuela, Arturo. (1977). Political brokers in Chile: Local government in a centralized polity.
+Durham, NC: Duke University Press.
+David J. Samuels received his Ph.D. in political science from the University of California
+at San Diego in June 1998. He is currently an assistant professor at the University of
+Minnesota, where his research focuses on comparative political institutions and Brazil-
+ian politics.
+518
+COMPARATIVE POLITICAL STUDIES / June 1999
+ at UNIV OF SOUTHERN CALIFORNIA on April 8, 2014
+cps.sagepub.com
+Downloaded from 

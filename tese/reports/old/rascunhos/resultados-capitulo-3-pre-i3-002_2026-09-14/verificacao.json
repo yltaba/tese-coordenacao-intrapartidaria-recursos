@@ -1,0 +1,38 @@
+[
+  {
+    "Verificação": "Uma linha por candidatura (ano, UF, número)",
+    "Resultado": "OK"
+  },
+  {
+    "Verificação": "Recursos partidários não negativos",
+    "Resultado": "OK"
+  },
+  {
+    "Verificação": "Cobertura por nominata: arquivo salvo reproduzido a partir das candidaturas",
+    "Resultado": "OK"
+  },
+  {
+    "Verificação": "Resumo nacional da cobertura: arquivo salvo reproduzido a partir das candidaturas",
+    "Resultado": "OK"
+  },
+  {
+    "Verificação": "Painéis de calibração e cobertura: NECr, candidatos e eleitos coincidem",
+    "Resultado": "OK"
+  },
+  {
+    "Verificação": "Todas as nominatas têm metadados",
+    "Resultado": "OK"
+  },
+  {
+    "Verificação": "Bancada do painel salvo coincide com a junção atual",
+    "Resultado": "OK"
+  },
+  {
+    "Verificação": "NECr entre 1 e o número de recebedores",
+    "Resultado": "OK"
+  },
+  {
+    "Verificação": "513 eleitos em cada eleição",
+    "Resultado": "OK"
+  }
+]

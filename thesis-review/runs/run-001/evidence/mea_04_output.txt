@@ -1,0 +1,32 @@
+['ano_eleicao', 'sg_uf', 'ds_cargo', 'sg_partido', 'nr_candidato', 'ds_origem_receita', 'ds_fonte_receita', 'dt_receita', 'vr_receita']
+fonte                                                         FUNDO ESPECIAL  FUNDO PARTIDARIO  OUTROS RECURSOS
+ano_eleicao origem                                                                                             
+2018        Comercialização de bens ou realização de eventos            0.00              0.00             0.02
+            Doações pela Internet                                       0.00              0.00             0.07
+            Recursos de Financiamento Coletivo                          0.00              0.00             5.25
+            Recursos de origens não identificadas                       0.00              0.00             0.09
+            Recursos de outros candidatos                              22.84              3.16             6.90
+            Recursos de partido político                              819.27            187.53            12.42
+            Recursos de pessoas físicas                                 0.00              0.00           166.85
+            Recursos próprios                                           0.00              0.00           129.67
+            Rendimentos de aplicações financeiras                       0.07              0.01             0.00
+2022        Comercialização de Bens com FEFC                            0.00              0.00             0.00
+            Comercialização de Bens com OR                              0.00              0.00             0.03
+            Doações pela Internet                                       0.00              0.00             0.01
+            Recursos de Financiamento Coletivo                          0.00              0.00             6.18
+            Recursos de origens não identificadas                       0.00              0.00             0.10
+            Recursos de outros candidatos                              25.09              0.98             6.66
+            Recursos de partido político                             2594.73            209.20            56.11
+            Recursos de pessoas físicas                                 0.00              0.00           283.67
+            Recursos próprios                                           0.00              0.00            72.30
+            Rendimentos de aplicações financeiras                       0.27              0.01             0.04
+
+2018: origem partido = R$ 1,019.22 mi | fonte pública (FEFC+FP) = R$ 1,032.88 mi | interseção = R$ 1,006.80 mi
+   origem partido mas fonte NÃO pública: R$ 12.42 mi (1.22% da medida)
+   fonte pública mas origem NÃO partido: R$ 26.08 mi (2.52% dos fundos públicos)
+   fonte pública por origem (R$ mi): {'Recursos de outros candidatos': 26.0, 'Recursos de partido político': 1006.8, 'Rendimentos de aplicações financeiras': 0.07}
+
+2022: origem partido = R$ 2,860.03 mi | fonte pública (FEFC+FP) = R$ 2,830.28 mi | interseção = R$ 2,803.93 mi
+   origem partido mas fonte NÃO pública: R$ 56.11 mi (1.96% da medida)
+   fonte pública mas origem NÃO partido: R$ 26.35 mi (0.93% dos fundos públicos)
+   fonte pública por origem (R$ mi): {'Recursos de outros candidatos': 26.08, 'Recursos de partido político': 2803.93, 'Rendimentos de aplicações financeiras': 0.28}

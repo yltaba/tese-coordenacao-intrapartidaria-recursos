@@ -1,0 +1,5 @@
+﻿Ano,Fonte,N,N_ponderado,Listas,Listas_variacao_X,Beta,EP,IC_inf,IC_sup,p_bilateral,Controles_retidos,p_Holm
+2018,Não partidários (amplo),7630,7630.0,859,593,0.0636323659730799,0.057403855706809406,-0.04903605916132306,0.17630079110748287,0.2679551213821892,vitoria_previa; qe_previo; lag; lag2; hist_ausente; mulher; negra; partido_antes_pct,1.0
+2018,Próprios + pessoas físicas,7630,7630.0,859,570,0.05727735399484127,0.0565426423052282,-0.053700739428110364,0.1682554474177929,0.3113486291012107,vitoria_previa; qe_previo; lag; lag2; hist_ausente; mulher; negra; partido_antes_pct,1.0
+2022,Não partidários (amplo),9675,9675.0,711,539,0.0888595986474118,0.10274604685790473,-0.11286282664075412,0.29058202393557775,0.3874149375461776,vitoria_previa; qe_previo; lag; lag2; hist_ausente; mulher; negra; demografia_ausente; partido_antes_pct,1.0
+2022,Próprios + pessoas físicas,9675,9675.0,711,524,0.07884421277688748,0.10545660048338734,-0.12819987176656994,0.28588829732034493,0.45492121472542135,vitoria_previa; qe_previo; lag; lag2; hist_ausente; mulher; negra; demografia_ausente; partido_antes_pct,1.0

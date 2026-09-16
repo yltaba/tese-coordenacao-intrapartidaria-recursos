@@ -1,0 +1,10 @@
+claim_id: C3.4.07
+capitulo: 3
+secao: "### Priorização financeira pelo Top-NECr"
+claim: "O lift do Top-NECr para competitivos prévios é 1,87 em 2018 e 1,89 em 2022."
+localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 0}
+evidencia: {tipo: csv, referencia: "tese/resultados-capitulo-3/15_cobertura_nacional.csv"}
+assessment: {status: supported, confidence: alta}
+concerns:
+  - "Lift de cobertura e de precisão são idênticos por construção; o texto os apresenta como confirmações separadas."
+agent: results-reviewer

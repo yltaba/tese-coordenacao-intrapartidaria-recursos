@@ -1,0 +1,197 @@
+# priority_queue.yaml — Capítulo 3 — run-001 (thesis-chair, pass 2)
+# Critério: severidade final × confiança × custo (baixo|medio|alto) × dependências (quem desbloqueia vai antes).
+# Lógica da ordem: (1) decisão de construto que destrava a regeneração; (2) regeneração da base, que é longa, começa cedo
+# e muda os números de competitivos, sexo e figuras; (3) enquanto isso, correções de texto baratas que não dependem dos novos
+# números; (4) por último, o que precisa dos números regenerados.
+run: run-001
+capitulo: 3
+fila:
+
+  - ordem: 1
+    issue_id: I-3-002
+    titulo: "Fixar a definição de 'competitivo' (l. 64 × l. 68 × código)"
+    severidade_final: MAJOR
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "Decidir o construto (recomendado: l. 68, 10 % do QE só em disputa proporcional). Retirar os 10 % de Governador/Senador/Prefeito em gerar_rrd.py:686-692 e reescrever a l. 64 para coincidir com a l. 68. Decisão de minutos; a mudança de código entra na regeneração do item 2."
+
+  - ordem: 2
+    issue_id: I-3-001
+    titulo: "Corrigir a ligação de CPF e regenerar a base"
+    severidade_final: MAJOR
+    confianca: alta
+    custo: alto
+    depende_de: [I-3-002]
+    acao: "zfill(11) no CPF; chave (ano, UF, cargo[, município], nr); desempate pelo registro APTO na base de Dep. Federal; regenerar rrd_df_novo.parquet e os artefatos dependentes (01_universos, resumo_nacional, Figuras 3-4); acrescentar testes de plausibilidade a 21_verificacoes.csv. Tratar como provisórios todos os números 'corrigidos' citados na revisão."
+
+  - ordem: 3
+    issue_id: I-3-004
+    titulo: "Terminar a reescrita da síntese (l. 173) e da comparação 2018 × 2022 (l. 181)"
+    severidade_final: MAJOR
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "A nova l. 173 já tirou as partes falsas. Falta acrescentar a amplitude dos lifts (1,9-2,1 no Top-NECr; 1,4-3,6 no Top-X%), declarar as listas com k = C e o lift nas fronteiras comparáveis, e tratar 2018 × 2022 como 'da mesma ordem' na l. 181. Atualizar os valores depois do item 2."
+
+  - ordem: 4
+    issue_id: I-3-013
+    titulo: "Consertar os caminhos das Figuras 3-5"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "Apontar para reports/relatorio-consolidado-capitulo-3/figuras/ ou copiar para figs/; restaurar ou registrar a remoção de 03-formulas-propostas.qmd. Sem isso o capítulo não renderiza."
+
+  - ordem: 5
+    issue_id: I-3-003
+    titulo: "Declarar o universo do sorteio em @sec-metricas"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "Uma a duas frases na l. 107 com a justificativa (não financiar é priorizar) e o lift entre recebedores e o fator da margem de financiar como nota. Números finais depois do item 2."
+
+  - ordem: 6
+    issue_id: I-3-021
+    titulo: "Reenquadrar eleitos como correspondência, não validação"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "Trocar 'validação' por 'correspondência' nas l. 17, 84 e 173 e declarar em @sec-validacao que o lift de eleitos não separa seleção de efeito do dinheiro."
+
+  - ordem: 7
+    issue_id: I-3-005
+    titulo: "Retirar ou calcular a 'estimativa conservadora' das cotas; preencher X/Y"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: baixo
+    depende_de: [I-3-001]
+    acao: "Retirar a frase final da l. 179 ou restringi-la à precisão. Preencher X/Y com a base regenerada (a correção da ligação muda o gênero atribuído em parte dos casos)."
+
+  - ordem: 8
+    issue_id: I-3-009
+    titulo: "Declarar a unidade partido × UF sob coligações/federações"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "Uma frase na seção de dados; reler as l. 117 e 181."
+
+  - ordem: 9
+    issue_id: I-3-008
+    titulo: "Trocar 'fundos públicos' por 'recursos partidários'"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "Definir R_il uma vez (l. 45) e substituir o rótulo nas l. 5, 31, 125 e 183."
+
+  - ordem: 10
+    issue_id: I-3-007
+    titulo: "Declarar a identidade lift ≡ razões de cobertura/precisão"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "Uma frase após @eq-indicadores; enxugar as l. 145-147."
+
+  - ordem: 11
+    issue_id: I-3-012
+    titulo: "Declarar razões de somas e dispersão entre listas"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: baixo
+    depende_de: [I-3-001]
+    acao: "Uma frase em @sec-metricas e, em nota, a mediana do lift por lista (recalculada com a base nova)."
+
+  - ordem: 12
+    issue_id: I-3-010
+    titulo: "Reposicionar o Top-X% e reportar piso/teto"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "Reescrever a l. 155 como operacionalização alternativa e acrescentar uma nota com piso/teto (já calculados)."
+
+  - ordem: 13
+    issue_id: I-3-014
+    titulo: "Fechar os números da Discussão (colchetes, posições, 4,5-7,5×)"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "Remover os colchetes, 'posições' em vez de 'candidaturas' onde o número é Σk, 'cerca de 4,5 e 7,5 vezes'; dizer que os valores do Top-50 % são de eleitos."
+
+  - ordem: 14
+    issue_id: I-3-006
+    titulo: "Acrescentar faixas de permutação e bootstrap"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: medio
+    depende_de: [I-3-001]
+    acao: "Faixa dos 10.000 sorteios em @sec-metricas; IC95 por lista e por partido para cada lift, calculados sobre a base regenerada."
+
+  - ordem: 15
+    issue_id: I-3-011
+    titulo: "Reportar os lifts marginais por faixa do Top-X%"
+    severidade_final: MODERATE
+    confianca: alta
+    custo: medio
+    depende_de: [I-3-001]
+    acao: "Tabela curta ou figura com o lift por faixa incremental (faixas_incrementais.csv regenerado); reescrever as l. 159 e 177."
+
+  - ordem: 16
+    issue_id: I-3-019
+    titulo: "Apagar o cabeçalho duplicado da l. 169"
+    severidade_final: MINOR
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "Apagar a l. 169."
+
+  - ordem: 17
+    issue_id: I-3-017
+    titulo: "Qualificar 'as listas dobraram'"
+    severidade_final: MINOR
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "'a lista mediana mais que dobrou (de 4 para 9)'."
+
+  - ordem: 18
+    issue_id: I-3-020
+    titulo: "Restringir 'núcleos maiores elevam a cobertura' a cortes aninhados"
+    severidade_final: MINOR
+    confianca: alta
+    custo: baixo
+    depende_de: []
+    acao: "'Núcleos maiores que contêm os menores …'."
+
+  - ordem: 19
+    issue_id: I-3-015
+    titulo: "Declarar convenções de denominador"
+    severidade_final: MINOR
+    confianca: alta
+    custo: baixo
+    depende_de: [I-3-001]
+    acao: "Frase na l. 49 e nota sobre perfis não observados (que tendem a sumir com a normalização de CPF)."
+
+  - ordem: 20
+    issue_id: I-3-016
+    titulo: "Declarar o universo das médias de competitivos por lista"
+    severidade_final: MINOR
+    confianca: alta
+    custo: baixo
+    depende_de: [I-3-001]
+    acao: "'entre as 786 e 648 listas com recursos partidários'; valores atualizados com a base nova."
+
+  - ordem: 21
+    issue_id: I-3-018
+    titulo: "Completar as legendas das Figuras 1-5"
+    severidade_final: MINOR
+    confianca: alta
+    custo: baixo
+    depende_de: [I-3-013, I-3-001]
+    acao: "Universo, painéis e significado das linhas; fazer junto com a regeneração das Figuras 3-4."

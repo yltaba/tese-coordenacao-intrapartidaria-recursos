@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "Candidatos únicos": true,
+    "513 eleitos por ano": true,
+    "Todas as receitas têm data": true,
+    "Partidário reconciliado": true,
+    "Não partidário reconciliado": true,
+    "Valores não negativos": true,
+    "Cobertura original 2018": true,
+    "Cobertura original 2022": true,
+    "Coeficiente FE reproduz dummies explícitas": true,
+    "Erro padrão cluster reproduz dummies explícitas": true,
+    "Coeficiente ponderado reproduz WLS com dummies": true,
+    "EP ponderado reproduz WLS com dummies": true,
+    "Normalizar pelo teto preserva estatística t": true
+  },
+  "fontes": {
+    "Tetos 2018 e 2022 — anexo da Portaria TSE 647/2022": "https://sintse.tse.jus.br/documentos/2022/Jul/19/diario-da-justica-eletronico-tse-edicao-extraordinaria/anexo-portaria-no-647-de-12-de-julho-de-2022-divulga-os-limites-de-gastos-nas-campanhas-eleitorais-d",
+    "TSE — Resolução 23.704/2022": "https://www.tse.jus.br/legislacao/compilada/res/2022/resolucao-no-23-704-de-30-de-junho-de-2022",
+    "TRE-MG — teto de deputado federal em 2022": "https://www.tre-mg.jus.br/comunicacao/noticias/2022/Julho/eleicoes-2022-tse-divulga-limites-de-gastos-nas-campanhas-666390",
+    "TRE-PR — teto de deputado federal em 2018": "https://www.tre-pr.jus.br/comunicacao/noticias/2018/Junho/tse-publica-limite-de-gastos"
+  },
+  "consulta_fontes": "2026-09-11",
+  "tetos": {
+    "2018": 2500000.0,
+    "2022": 3176572.53
+  },
+  "N": 17305,
+  "historico_ausente": 7,
+  "lag_ausente": 7,
+  "sha256": {
+    "rrd_df_novo.parquet": "292aa9ec830cf41e46ef0d59eada0fbd3f3a4f1d8a6f7788bea8b1f4b7f7d530",
+    "receitas.parquet": "448fef4305865898a16219204ffbfc88ad05c1dec6cf6aede989212a3a5282b8"
+  }
+}

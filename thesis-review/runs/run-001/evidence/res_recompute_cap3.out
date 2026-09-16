@@ -1,0 +1,63 @@
+======================================================================
+1. UNIVERSOS (linhas 25, 27, 115)
+2018: candidaturas=7630 competitivas=886 (11.61%) perfil_NA=4 listas=859 sem_recursos=73 eleitos=513 eleitos_em_listas_sem_recursos=3
+2022: candidaturas=9675 competitivas=1287 (13.30%) perfil_NA=3 listas=711 sem_recursos=63 eleitos=513 eleitos_em_listas_sem_recursos=0
+crescimento candidaturas 2018->2022: 26.8%  competitivas: 45.3%
+======================================================================
+2. DESCRITIVOS POR LISTA (linhas 117, 121, 127, 131, 175, 181)
+2018 todas (859): C med=4.00 mean=8.88 | F med=1.00 mean=1.031
+2018 financiadas (786): C med=4.00 mean=9.41 | F med=1.00 mean=1.113 | NECr med=1.878 mean=2.962 | C/NECr med=1.947 mean=3.295 | NECr/C pct med=51.36 mean=56.18 | sum k=2318 k/513=4.52
+2022 todas (711): C med=9.00 mean=13.61 | F med=1.00 mean=1.810
+2022 financiadas (648): C med=9.00 mean=14.42 | F med=1.00 mean=1.980 | NECr med=4.814 mean=5.902 | C/NECr med=1.864 mean=2.667 | NECr/C pct med=53.65 mean=55.40 | sum k=3824 k/513=7.45
+'listas dobraram' (l.181): financiadas razao medianas C=2.25, razao medias=1.53; todas: medianas=2.25, medias=1.53
+======================================================================
+3. TOP-NECr NACIONAL (linhas 139-147; fig 03)
+competitivos (perfil NA excluido) 2018: sumG=886 sumk=2318 sumH=716.75 A0=382.72 cobertura=80.90% precisao=30.92% cob_acaso=43.20% prec_acaso=16.51% lift=1.873
+competitivos (perfil NA excluido) 2022: sumG=1287 sumk=3824 sumH=1064.13 A0=563.09 cobertura=82.68% precisao=27.83% cob_acaso=43.75% prec_acaso=14.73% lift=1.890
+competitivos (NA=False) 2018: sumG=886 sumk=2318 sumH=716.75 A0=382.64 cobertura=80.90% precisao=30.92% cob_acaso=43.19% prec_acaso=16.51% lift=1.873
+competitivos (NA=False) 2022: sumG=1287 sumk=3824 sumH=1064.12 A0=563.08 cobertura=82.68% precisao=27.83% cob_acaso=43.75% prec_acaso=14.72% lift=1.890
+eleitos 2018: sumG=513 sumk=2318 sumH=445.00 A0=224.57 cobertura=86.74% precisao=19.20% cob_acaso=43.78% prec_acaso=9.69% lift=1.982
+eleitos 2022: sumG=513 sumk=3824 sumH=475.19 A0=224.42 cobertura=92.63% precisao=12.43% cob_acaso=43.75% prec_acaso=5.87% lift=2.117
+======================================================================
+4. PLACEHOLDER l.179: competitivas por genero (universo de candidaturas)
+2018
+                mean  sum  size    pct
+ds_genero                             
+FEMININO        0.04  108  2414   4.47
+MASCULINO       0.15  778  5212  14.93
+NÃO DIVULGÁVEL  0.00    0     4   0.00
+2022
+                mean   sum  size    pct
+ds_genero                              
+FEMININO        0.06   203  3404   5.96
+MASCULINO       0.17  1084  6268  17.29
+NÃO DIVULGÁVEL  0.00     0     3   0.00
+======================================================================
+5. DISCUSSAO l.173/177: lifts Top-X% (sensibilidade-top-x/resumo_nacional.csv)
+fonte: C:/Users/yuri_taba/Desktop/recursos-campanha-local/tese/reports/sensibilidade-top-x/resumo_nacional.csv
+regra                        top_50  top_60  top_70  top_80  top_90  top_95  top_necr
+desfecho        ano_eleicao                                                          
+competitividade 2018           2.08    2.05    2.02    1.93    1.73    1.53      1.87
+                2022           2.65    2.44    2.20    1.98    1.61    1.38      1.89
+eleicao         2018           2.38    2.35    2.22    2.03    1.79    1.57      1.98
+                2022           3.60    3.17    2.77    2.34    1.78    1.46      2.12
+lifts Top-X% em [1,8; 2,0]: 2 de 24; em [1,7; 2,1]: 9 de 24; min=1.38 max=3.60
+top_50
+                             cobertura  precisao  lift
+desfecho        ano_eleicao                           
+competitividade 2018             57.32     38.93  2.08
+eleicao         2018             66.40     26.10  2.38
+competitividade 2022             52.77     38.24  2.65
+eleicao         2022             70.41     20.32  3.60
+top_80
+                             cobertura  precisao  lift
+desfecho        ano_eleicao                           
+competitividade 2018             78.40     30.16  1.93
+eleicao         2018             84.21     18.74  2.03
+competitividade 2022             81.37     27.87  1.98
+eleicao         2022             91.94     12.55  2.34
+competitividade 2018: cobertura nao-decrescente=True precisao nao-crescente=True lift nao-crescente=True precisao>fora em todos=True
+competitividade 2022: cobertura nao-decrescente=True precisao nao-crescente=True lift nao-crescente=True precisao>fora em todos=True
+eleicao 2018: cobertura nao-decrescente=True precisao nao-crescente=True lift nao-crescente=True precisao>fora em todos=True
+eleicao 2022: cobertura nao-decrescente=True precisao nao-crescente=True lift nao-crescente=True precisao>fora em todos=True
+cobertura eleitos > cobertura competitivos em todos os limiares (l.165): True

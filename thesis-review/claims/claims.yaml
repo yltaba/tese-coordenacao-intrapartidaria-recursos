@@ -1,0 +1,562 @@
+# Ledger consolidado de afirmações verificáveis da tese.
+# Atualizado pelo chair ao fim de cada run. Um claim por item; status em rubric.yaml.
+#
+# Convenções do ledger (desde run-001):
+# - IDs canônicos C{cap}.{secao}.{seq}: secao = ordem dos '##'/'###' COM conteúdo; cabeçalhos vazios não contam
+#   (Cap. 3: 1 Dados · 2 Universo · 3 Seleção do núcleo · 4 Validação · 5 Resultados · 6 Amplitude · 7 Top-NECr ·
+#   8 Robustez · 9 Discussão). Tabela de correspondência com os IDs dos agentes: runs/run-001/synthesis/conflicts.md §C8.
+# - Mesclagem: mesmo claim_id → status mais conservador entre agentes (supported < partially_supported < unsupported <
+#   contradicted) e união de concerns, salvo decisão arbitrada registrada em 'nota_status'.
+# - 'agent' lista os agentes de origem; 'ids_origem' guarda o ID usado em cada relatório.
+# - 'versao_capitulo' = prefixo do sha256 do .qmd avaliado.
+# - Números marcados PROVISÓRIO dependem da regeneração da base (issue I-3-001).
+version: 1
+claims:
+
+  # ---------------------------------------------------------------- Cap. 3 · 2 Universo
+
+  - claim_id: C3.2.01
+    capitulo: 3
+    secao: "### Universo empírico e recursos partidários"
+    claim: "O universo reúne 7.630 candidaturas em 2018 e 9.675 em 2022."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 25}
+    evidencia: {tipo: csv, referencia: "tese/reports/resultados-capitulo-3/01_universos.csv; runs/run-001/evidence/mea_01_output.txt; res_recompute_cap3.out"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "Em 21 (2018) e 26 (2022) candidaturas, CPF, gênero e histórico vêm de outra pessoa (keep-first na base; I-3-001/ADV-3-002). A contagem não muda."
+    agent: "measurement-reviewer, results-reviewer"
+    ids_origem: {measurement: C3.2.01, results: C3.2.01}
+    issues: [I-3-001]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.2.02
+    capitulo: 3
+    secao: "### Universo empírico e recursos partidários"
+    claim: "859 listas em 2018 e 711 em 2022; 73 e 63 sem recursos partidários; 3 e 0 eleitos nelas."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 27}
+    evidencia: {tipo: csv, referencia: "01_universos.csv; evidence/mea_01_output.txt; res_recompute_cap3.out"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "Unidade partido × UF não declarada como desmembramento de coligações (85 % em 2018) e federações (25 % em 2022) (I-3-009)."
+      - "A permanência dessas listas em ΣG_l das métricas não é declarada (I-3-015)."
+    agent: "measurement-reviewer, results-reviewer"
+    ids_origem: {measurement: C3.2.02, results: "C3.2.01 (parte)"}
+    issues: [I-3-009, I-3-015]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  # ---------------------------------------------------------------- Cap. 3 · 3 Seleção do núcleo
+
+  - claim_id: C3.3.01
+    capitulo: 3
+    secao: "#### Top-NECr"
+    claim: "NECr_l = 1/Σ s_il², s_il = R_il/R_l, definido se R_l > 0."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 38}
+    evidencia: {tipo: codigo, referencia: "src/2_gold/cap3_cobertura_top_necr.py:41-43; evidence/mea_01_output.txt (1.570 listas idênticas)"}
+    assessment: {status: supported, confidence: alta}
+    concerns: []
+    agent: "measurement-reviewer"
+    ids_origem: {measurement: C3.3.01}
+    issues: []
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.3.02
+    capitulo: 3
+    secao: "#### Top-NECr"
+    claim: "k_l = ⌊NECr_l + 0,5⌋; empates na posição k_l dividem as posições restantes igualmente; k_l = 0 sem recursos."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 49}
+    evidencia: {tipo: codigo, referencia: "cap3_cobertura_top_necr.py:44-51; cap3_taa_features.py:97-135; evidence/mea_01_output.txt"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "O núcleo é um conjunto de posições: 226 / 477 candidaturas têm pertencimento fracionário (I-3-014)."
+    agent: "measurement-reviewer"
+    ids_origem: {measurement: C3.3.02}
+    issues: [I-3-014]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.3.03
+    capitulo: 3
+    secao: "#### Top-X%"
+    claim: "k^τ_l = menor k com Σ_{j≤k} s_(j)l ≥ τ, τ ∈ {0,50 … 0,95}."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 56}
+    evidencia: {tipo: codigo, referencia: "tese/reports/alternativas-top-necr/analisar.py:36-51; tese/reports/sensibilidade-top-x/analisar.py:72-78, 93-97"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "Apresentado na robustez como teste da arbitrariedade do Top-NECr, mas é outro construto; piso/teto omitidos (I-3-010)."
+    agent: "measurement-reviewer"
+    ids_origem: {measurement: C3.3.03}
+    issues: [I-3-010]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.3.04
+    capitulo: 3
+    secao: "### Seleção do núcleo de candidaturas priorizadas"
+    claim: "As operacionalizações usam exclusivamente recursos provenientes de fundos públicos."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 31}
+    evidencia: {tipo: codigo, referencia: "src/1_silver/gerar_rrd.py:205-209; evidence/mea_04_output.txt"}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns:
+      - "A variável é definida por origem partidária: 1,22 % / 1,96 % não é FEFC/FP, e R$ 26 mi/ano de fundos públicos chegam via outros candidatos e ficam fora (I-3-008)."
+    agent: "measurement-reviewer"
+    ids_origem: {measurement: C3.2.03}
+    issues: [I-3-008]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  # ---------------------------------------------------------------- Cap. 3 · 4 Validação
+
+  - claim_id: C3.4.01
+    capitulo: 3
+    secao: "#### Desempenho eleitoral prévio"
+    claim: "Competitivo = vitória prévia para Presidente, Governador, Senador, Dep. Federal, Dep. Estadual ou Prefeito, ou ≥ 10 % do QE em disputa proporcional para Dep. Federal ou Dep. Estadual (l. 68; a l. 64 dá outra versão)."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 68}
+    evidencia: {tipo: codigo, referencia: "gerar_rrd.py:61-78, 88-113, 137-160, 178-187, 506-524, 686-692, 797-809; cap3_cs_features.py:83-100; evidence/mea_02_output.txt; adv_02_output.txt; chair_01_output.txt"}
+    assessment: {status: contradicted, confidence: alta}
+    concerns:
+      - "O código não implementa a definição: sem Presidente, com Distrital, 10 % do QE aplicado a Governador/Senador/Prefeito, vitórias até 2020 para 2022 (I-3-002)."
+      - "l. 64 contradiz l. 68 quanto ao critério (ii) (I-3-002)."
+      - "Histórico ligado a CPFs errados: chave (ano, UF, nr) não única (D1) e CPFs de 2012/2014 sem zeros à esquerda (D2) (I-3-001)."
+    agent: "measurement-reviewer; adversarial-reviewer (ADV-3-001); thesis-chair (verificação)"
+    ids_origem: {measurement: C3.4.01}
+    issues: [I-3-001, I-3-002]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.4.02
+    capitulo: 3
+    secao: "#### Desempenho eleitoral prévio"
+    claim: "Histórico de 1998 a 2016 para 2018 e de 1998 a 2018 para 2022."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 68}
+    evidencia: {tipo: codigo, referencia: "gerar_rrd.py:178-179, 801-802"}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns:
+      - "2018: bate (≤ 2016). 2022: o código usa vitórias até 2020 e QE < 2022 (I-3-002)."
+      - "Na prática, os registros de 2012 e 2014 de candidatos com CPF iniciado em '0' não entram na janela (I-3-001, D2)."
+    agent: "measurement-reviewer; thesis-chair"
+    ids_origem: {measurement: C3.4.02}
+    issues: [I-3-001, I-3-002]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.4.03
+    capitulo: 3
+    secao: "#### Cobertura, precisão e lift"
+    claim: "Cobertura = ΣH/ΣG; Precisão = ΣH/Σk; Lift = ΣH/Σ(G k/C), com H_l = Σ w g."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 98}
+    evidencia: {tipo: codigo, referencia: "cap3_cobertura_top_necr.py:63-98; reports/alternativas-top-necr/analisar.py:68-72; evidence/mea_01_output.txt"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "Para competitivos, somas sobre N/k válidos (I-3-015)."
+      - "Listas sem recursos ficam em ΣG (I-3-015)."
+      - "Razões de somas ponderam pelas listas grandes; convenção não declarada (I-3-012)."
+    agent: "measurement-reviewer, statistics-reviewer"
+    ids_origem: {measurement: C3.4.03}
+    issues: [I-3-012, I-3-015]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.4.04
+    capitulo: 3
+    secao: "#### Cobertura, precisão e lift"
+    claim: "O valor de referência é analítico: sorteio de k_l entre as C_l candidaturas dá esperança G_l k_l/C_l."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 107}
+    evidencia: {tipo: codigo, referencia: "cap3_cobertura_top_necr.py:68; evidence/mea_03_output.txt; sta_permutacao_top_necr.csv (média da permutação = esperança analítica)"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "O universo do sorteio inclui candidaturas sem recursos, que não podem estar no núcleo, e não é declarado nem justificado em @sec-metricas; entre recebedores o lift de 2018 é 1,69 / 1,78 (I-3-003)."
+    agent: "measurement-reviewer, statistics-reviewer"
+    ids_origem: {measurement: C3.4.04}
+    issues: [I-3-003]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  # ---------------------------------------------------------------- Cap. 3 · 6 Amplitude
+
+  - claim_id: C3.6.01
+    capitulo: 3
+    secao: "### Amplitude das nominatas e concentração dos recursos"
+    claim: "886 (11,6 %) competitivos em 2018 e 1.287 (13,3 %) em 2022; candidatos +27 %, competitivos +45 %."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 115}
+    evidencia: {tipo: csv, referencia: "01_universos.csv; evidence/mea_02_resumo.csv; adv_02_metricas_variantes.csv; chair_01_output.txt; chair_02_output.txt"}
+    assessment: {status: contradicted, confidence: alta}
+    nota_status: >-
+      MEA partially_supported; STA e RES supported. O chair endureceu para contradicted no pass 2 com a evidência nova de
+      ADV-3-001, verificada pelo chair: 886 / 1.287 reproduzem a variável da base, mas nenhuma das 9 variantes com
+      ligação corrigida (D1 e/ou D2; adv_02) dá 886 / 1.287 (2018: 908-1.075; 2022: 1.261-1.568). Só na regra de ligação, 29 / 6 candidaturas
+      com vitória estadual/federal em 2014 estão fora (chair_02). O número substituto depende de I-3-002 e é
+      PROVISÓRIO (definição l. 68: 967 / 1.351; regras do código: 1.075 / 1.568). A parte '+27 %' (candidaturas) está
+      correta.
+    concerns:
+      - "Flag corrompida pela ligação de CPF (I-3-001) e diferente da definição do texto (I-3-002)."
+      - "Descritivo; universos de 2018 (coligações) e 2022 diferem (STA)."
+    agent: "measurement-reviewer, statistics-reviewer, results-reviewer; adversarial-reviewer; thesis-chair"
+    ids_origem: {measurement: C3.6.01, statistics: C3.4.01, results: C3.6.01}
+    issues: [I-3-001, I-3-002]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.6.02
+    capitulo: 3
+    secao: "### Amplitude das nominatas e concentração dos recursos"
+    claim: "Lista mediana com 4 e 9 candidatos; competitivos por lista: mediana 1, média 1,11 e 1,98 (Figura 1)."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 117}
+    evidencia: {tipo: csv, referencia: "reports/relatorio-consolidado-capitulo-3/descritivos.csv; 05_concentracao_ano.csv; figs/cap3_fig_amplitude_barras.png"}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns:
+      - "As médias de competitivos referem-se às listas financiadas (786 / 648); em todas as listas são 1,03 / 1,81, e o universo não é declarado (I-3-016)."
+      - "A legenda não declara universo nem painéis (I-3-018)."
+      - "Médias de competitivos mudarão com a regeneração da flag (I-3-001)."
+    agent: "measurement-reviewer, results-reviewer"
+    ids_origem: {measurement: C3.6.02, results: "C3.6.02 + C3.6.03"}
+    issues: [I-3-016, I-3-018, I-3-001]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.6.03
+    capitulo: 3
+    secao: "### Amplitude das nominatas e concentração dos recursos"
+    claim: "NECr mediano 1,88 (2018) e 4,81 (2022)."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 121}
+    evidencia: {tipo: csv, referencia: "05_concentracao_ano.csv (1,8781 / 4,8144); 00_sintese.csv; res_recompute_cap3.out"}
+    assessment: {status: supported, confidence: alta}
+    concerns: []
+    agent: "measurement-reviewer, results-reviewer"
+    ids_origem: {measurement: C3.6.03, results: C3.6.04}
+    issues: []
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.6.04
+    capitulo: 3
+    secao: "### Amplitude das nominatas e concentração dos recursos"
+    claim: "C/NECr mediano 1,95 e 1,86; NECr/C mediano 51,36 % e 53,65 %; médias C/NECr 3,29 → 2,67 e NECr/C 56,18 % → 55,40 % (Figura 2)."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 127}
+    evidencia: {tipo: csv, referencia: "05_concentracao_ano.csv; descritivos.csv; figs/cap3_fig_concentracao_barras.png"}
+    assessment: {status: supported, confidence: alta}
+    concerns: []
+    agent: "measurement-reviewer, results-reviewer"
+    ids_origem: {measurement: C3.6.04, results: C3.6.05}
+    issues: [I-3-018]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  # ---------------------------------------------------------------- Cap. 3 · 7 Top-NECr
+
+  - claim_id: C3.7.01
+    capitulo: 3
+    secao: "### Priorização financeira pelo Top-NECr"
+    claim: "Mais de 80 % dos competitivos estão no Top-NECr ('4/5'); referência aleatória 43,2 % e 43,7 % (Figura 3)."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 139}
+    evidencia: {tipo: csv, referencia: "sensibilidade-top-x/resumo_nacional.csv (80,90 / 82,68; 43,18 / 43,75); adv_02_metricas_variantes.csv"}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns:
+      - "Reproduz a flag da base, que está corrompida (I-3-001). Com a ligação corrigida (PROVISÓRIO): 80,7 / 80,7 % pela l. 68; 75,6 / 76,2 % pelas regras do código. '> 80 %' e '4/5' dependem da decisão de I-3-002."
+      - "Os números de MEA 'com CPF correto' (75,4 / 76,5; 80,7 / 81,2) herdam o defeito de zeros à esquerda e estão superados."
+      - "IC95 por lista [77,9; 83,9] e [80,5; 84,7] na base atual (STA)."
+      - "Figura 3 não renderiza (I-3-013)."
+    agent: "measurement-reviewer, statistics-reviewer, results-reviewer; adversarial-reviewer"
+    ids_origem: {measurement: C3.7.01, statistics: C3.5.01, results: C3.7.01}
+    issues: [I-3-001, I-3-002, I-3-013]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.7.02
+    capitulo: 3
+    secao: "### Priorização financeira pelo Top-NECr"
+    claim: "Precisão de competitivos 30,9 % e 27,8 %; aleatória 16,5 % e 14,7 %."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 141}
+    evidencia: {tipo: csv, referencia: "sensibilidade-top-x/resumo_nacional.csv (30,95 / 27,84; 16,52 / 14,73); sta_razoes_de_somas.csv"}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns:
+      - "Com a ligação corrigida (PROVISÓRIO): 33,7 / 28,5 % pela l. 68; 35,1 / 31,2 % pelas regras do código (I-3-001)."
+      - "Sob nulo 'só recebedores', acaso = 18,4 % / 15,0 % (I-3-003)."
+      - "'Candidatos selecionados' são posições (Σk) (I-3-014)."
+    agent: "measurement-reviewer, statistics-reviewer, results-reviewer; adversarial-reviewer"
+    ids_origem: {measurement: C3.7.02, statistics: C3.5.02, results: C3.7.02}
+    issues: [I-3-001, I-3-003, I-3-014, I-3-015]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.7.03
+    capitulo: 3
+    secao: "### Priorização financeira pelo Top-NECr"
+    claim: "Lift de competitivos 1,87 (2018) e 1,89 (2022): 'quase 90 % mais'."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 143}
+    evidencia: {tipo: csv, referencia: "sensibilidade-top-x/resumo_nacional.csv (1,8737 / 1,8900); sta_permutacao_top_necr.csv; adv_02_metricas_variantes.csv"}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns:
+      - "Com a ligação corrigida (PROVISÓRIO): 1,90 / 1,85 pela l. 68; 1,83 / 1,76 pelas regras do código. Nas 13 variantes por ano, 1,76-1,91 (I-3-001, I-3-002)."
+      - "Sob nulo 'só recebedores': 1,69 / 1,85; 'quase 90 %' vira 69 % em 2018 (I-3-003)."
+      - "Sem listas com k = C: 2,20 / 1,91 (I-3-004)."
+      - "Muito fora da faixa de permutação em todas as variantes (p < 0,0005); sem faixa reportada (I-3-006)."
+    agent: "measurement-reviewer, statistics-reviewer, results-reviewer; adversarial-reviewer"
+    ids_origem: {measurement: C3.7.03, statistics: C3.5.04, results: C3.7.03}
+    issues: [I-3-001, I-3-002, I-3-003, I-3-004, I-3-006]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.7.04
+    capitulo: 3
+    secao: "### Priorização financeira pelo Top-NECr"
+    claim: "86,7 % dos eleitos em 2018 e 92,6 % em 2022 estão no Top-NECr; o dobro do esperado (43,8 / 43,7 %)."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 145}
+    evidencia: {tipo: csv, referencia: "15_cobertura_nacional.csv; df_cobertura_top_necr_resumo.csv; evidence/mea_01_output.txt"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "'O dobro' é o mesmo número que o lift, não confirmação independente (I-3-007)."
+      - "Com sorteio entre recebedores: 1,78 / 2,05 (I-3-003)."
+      - "Correspondência ex-post, não validação: não separa seleção de efeito do dinheiro (I-3-021)."
+      - "IC95 por lista da cobertura [81,8; 91,1] e [89,7; 95,3] (STA)."
+    agent: "measurement-reviewer, statistics-reviewer, results-reviewer; adversarial-reviewer (ADV-3-003)"
+    ids_origem: {measurement: C3.7.04, statistics: C3.5.05, results: C3.7.04}
+    issues: [I-3-003, I-3-007, I-3-021]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.7.05
+    capitulo: 3
+    secao: "### Priorização financeira pelo Top-NECr"
+    claim: "Precisão de eleitos 19,2 % e 12,4 %; 513 cadeiras; lift 1,98 e 2,12, 'cerca do dobro, em ambos os ciclos'."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 147}
+    evidencia: {tipo: csv, referencia: "15_cobertura_nacional.csv; benchmark_precisao_top_necr.csv; sta_bootstrap_diferencas.csv; validade_expost.csv"}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns:
+      - "Três formulações do mesmo excesso (I-3-007)."
+      - "Sob nulo 'só recebedores': 1,78 / 2,05 (I-3-003)."
+      - "Diferença 2022−2018 +0,14 [−0,07; +0,34]: não é movimento identificável; a queda da precisão exclui zero por lista, não por partido (I-3-006)."
+      - "Não separa seleção de efeito do dinheiro (I-3-021)."
+    agent: "measurement-reviewer, statistics-reviewer, results-reviewer"
+    ids_origem: {measurement: C3.7.05, statistics: "C3.5.06 + C3.5.07", results: C3.7.05}
+    issues: [I-3-003, I-3-006, I-3-007, I-3-021]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  # ---------------------------------------------------------------- Cap. 3 · 8 Robustez
+
+  - claim_id: C3.8.01
+    capitulo: 3
+    secao: "#### Sensibilidade ao limiar Top-X%"
+    claim: "No Top-50 % há mais de 50 % de cobertura dos competitivos; a cobertura cresce com o limiar; padrão consistente 2018/2022 (Figura 4)."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 157}
+    evidencia: {tipo: csv, referencia: "sensibilidade-top-x/resumo_nacional.csv (57,3 % / 52,8 %); trajetorias.csv"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "Crescimento por aninhamento (I-3-020)."
+      - "Depende da flag competitiva; não recomputado com a ligação corrigida (I-3-001)."
+      - "Figura 4 não renderiza e tem legenda incompleta (I-3-013, I-3-018)."
+    agent: "measurement-reviewer, statistics-reviewer, results-reviewer"
+    ids_origem: {measurement: C3.8.01, statistics: C3.6.01, results: C3.8.01}
+    issues: [I-3-001, I-3-010, I-3-013, I-3-018, I-3-020]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.8.02
+    capitulo: 3
+    secao: "#### Sensibilidade ao limiar Top-X%"
+    claim: "Quanto mais restrito o corte, maior a presença desproporcional de competitivos; lift acima de 1 em todos os limiares; Top-95 %: 1,53 (2018) e 1,38 (2022)."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 159}
+    evidencia: {tipo: csv, referencia: "sensibilidade-top-x/resumo_nacional.csv (1,5338 / 1,3754); interpretacao.json; sta_gradiente_marginal.csv"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "A monotonia acumulada é aritmética dada a densidade marginal decrescente; os lifts marginais acima de ~80 % da massa são < 1 (I-3-011)."
+      - "Depende da flag competitiva; não recomputado com a ligação corrigida (I-3-001)."
+    agent: "measurement-reviewer, statistics-reviewer, results-reviewer"
+    ids_origem: {measurement: C3.8.02, statistics: C3.6.03, results: C3.8.02}
+    issues: [I-3-001, I-3-011]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.8.03
+    capitulo: 3
+    secao: "#### Sensibilidade ao limiar Top-X%"
+    claim: "Sistematicamente há mais candidaturas competitivas dentro do núcleo priorizado do que fora."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 161}
+    evidencia: {tipo: csv, referencia: "resumo_nacional.csv (precisão 19-39 % vs proporção fora 2,6-7,7 % em 12/12 cortes)"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "Depende da flag competitiva; margem ampla, não deve inverter com a correção (I-3-001)."
+    agent: "statistics-reviewer, results-reviewer"
+    ids_origem: {statistics: C3.6.04, results: C3.8.03}
+    issues: [I-3-001]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.8.04
+    capitulo: 3
+    secao: "#### Sensibilidade ao limiar Top-X%"
+    claim: "Para eleitos, cobertura maior que para competitivos em todos os limiares; resultados acima do acaso e lifts sempre acima de 1 (Figura 5)."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 165}
+    evidencia: {tipo: csv, referencia: "interpretacao.json (todos_24_lifts_acima_1: true); resumo_nacional.csv; res_recompute_cap3.out §5"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "Figura 5 não renderiza (I-3-013)."
+    agent: "statistics-reviewer, results-reviewer"
+    ids_origem: {statistics: C3.6.05, results: "C3.8.04 (e C3.8.06 citado em RES-3-003)"}
+    issues: [I-3-013]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  # ---------------------------------------------------------------- Cap. 3 · 9 Discussão
+
+  - claim_id: C3.9.01
+    capitulo: 3
+    secao: "## Discussão"
+    claim: "O resultado do capítulo se resume em 1,9, razão que se repete em 2018 e 2022, para competitivas e eleitas, no Top-NECr e em quase todos os limiares do Top-X%."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 173}
+    evidencia: {tipo: csv, referencia: "sensibilidade-top-x/resumo_nacional.csv (lifts 1,38-3,60; 2/24 em [1,8; 2,0]); sta_media_razoes_vs_razao_somas.csv"}
+    assessment: {status: contradicted, confidence: alta}
+    concerns:
+      - "Top-X%: 1,38-3,60; 'quase todos os limiares' é falso (I-3-004)."
+      - "A igualdade entre anos depende da convenção: 2,20 × 1,91 sem listas k = C; 1,69 × 1,85 sob nulo de recebedores (I-3-003, I-3-004)."
+      - "1,9 é agregado ponderado; mediana por lista 2,0 / 1,9 (I-3-012)."
+      - "TRECHO REMOVIDO na versão 679ece09 (19:16 de 2026-09-14); substituído por C3.9.09. Confirmar no run-002."
+    agent: "measurement-reviewer, statistics-reviewer, results-reviewer; adversarial-reviewer"
+    ids_origem: {measurement: C3.9.03, statistics: C3.7.01, results: C3.10.01}
+    issues: [I-3-004, I-3-012]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.9.02
+    capitulo: 3
+    secao: "## Discussão"
+    claim: "Cobertura acima de 80 % dos competitivos e acima de 87 % dos eleitos."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 173}
+    evidencia: {tipo: csv, referencia: "03-top-necr-dados.csv (80,9 / 82,7); 15_cobertura_nacional.csv (86,74 / 92,63)"}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns:
+      - "86,7 % em 2018 não é 'acima de 87 %' (I-3-004)."
+      - "'Acima de 80 %' dos competitivos depende de I-3-001/I-3-002 (PROVISÓRIO: 75,6-80,7 %)."
+      - "TRECHO REMOVIDO na versão 679ece09. Confirmar no run-002."
+    agent: "results-reviewer"
+    ids_origem: {results: C3.10.02}
+    issues: [I-3-004, I-3-001]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.9.03
+    capitulo: 3
+    secao: "## Discussão"
+    claim: "O Top-NECr seleciona cerca de 2,3 mil (2018) e 3,8 mil (2022) candidaturas, entre 4 e 7 vezes as 513 cadeiras."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 175}
+    evidencia: {tipo: csv, referencia: "15_cobertura_nacional.csv; universo.csv (Σk = 2.318 / 3.824)"}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns:
+      - "São posições, não candidaturas: 2.216 / 3.589 inteiras + 226 / 477 fracionárias (I-3-014)."
+      - "Placeholders entre colchetes; 3.824/513 = 7,45 > 7 (I-3-014)."
+    agent: "measurement-reviewer, results-reviewer"
+    ids_origem: {measurement: C3.9.01, results: C3.10.03}
+    issues: [I-3-014]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.9.04
+    capitulo: 3
+    secao: "## Discussão"
+    claim: "A queda da precisão de 19,2 % para 12,4 % decorre de um núcleo que cresceu com o alvo fixo em 513; descontado o tamanho, o núcleo acerta o dobro; média de competitivos por lista 1,1 e 2,0 contra NECr médio 3,0 e 5,9."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 175}
+    evidencia: {tipo: csv, referencia: "15_cobertura_nacional.csv; descritivos.csv; 00_sintese.csv; sta_bootstrap_diferencas.csv"}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns:
+      - "'Acerta o dobro' vale sob o nulo usado; 1,78-2,05 sob nulo de recebedores (I-3-003)."
+      - "Queda −6,8 pp: IC exclui zero por lista, não por partido (I-3-006)."
+      - "Universo das médias de competitivos (financiadas) não declarado (I-3-016)."
+    agent: "statistics-reviewer, results-reviewer"
+    ids_origem: {statistics: C3.7.02, results: C3.10.04}
+    issues: [I-3-003, I-3-006, I-3-016]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.9.05
+    capitulo: 3
+    secao: "## Discussão"
+    claim: "No Top-50 %: precisão 26 % e 20 %, lift 2,4 e 3,6, cobertura 66 % e 70 %; gradiente monotônico nas duas eleições e nas duas referências."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 177}
+    evidencia: {tipo: csv, referencia: "resumo_nacional.csv top_50 eleicao (26,10 / 20,32; 2,380 / 3,599; 66,40 / 70,41); trajetorias.csv"}
+    assessment: {status: supported, confidence: alta}
+    concerns:
+      - "Valores entre colchetes; o texto não diz que são do grupo-alvo eleitos (I-3-014)."
+      - "Monotonia acumulada é implicada pela densidade marginal decrescente (I-3-011)."
+    agent: "statistics-reviewer, results-reviewer"
+    ids_origem: {statistics: C3.7.04, results: C3.10.05}
+    issues: [I-3-011, I-3-014]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.9.06
+    capitulo: 3
+    secao: "## Discussão"
+    claim: "O gradiente é a assinatura de uma distribuição em camadas, e não de uma alocação uniforme com ruído."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 177}
+    evidencia: {tipo: csv, referencia: "reports/sensibilidade-top-x/faixas_incrementais.csv; sta_gradiente_marginal.csv"}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns:
+      - "Contra 'uniforme com ruído': sustentado (permutação)."
+      - "A faixa intermediária (70-95 % da massa) tem lift marginal < 1; o texto não reporta (I-3-011)."
+    agent: "statistics-reviewer"
+    ids_origem: {statistics: C3.7.05}
+    issues: [I-3-011]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.9.07
+    capitulo: 3
+    secao: "## Discussão"
+    claim: "As cotas forçam o financiamento de candidaturas raramente competitivas (X % das mulheres contra Y % dos homens), puxam a precisão para baixo e fazem dos indicadores uma estimativa conservadora da priorização."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 179}
+    evidencia: {tipo: nenhuma, referencia: "placeholder no texto; sta_lift_por_sexo.csv; adv_04_output.txt; res_recompute_cap3.out §4"}
+    assessment: {status: unsupported, confidence: alta}
+    nota_status: >-
+      MEA e RES unsupported; STA contradicted. A regra do status mais conservador daria contradicted. O chair mantém
+      unsupported por decisão arbitrada (conflicts.md C2; adversarial em I-3-005): nenhuma das duas operacionalizações
+      computáveis (estratificação por sexo; Top-NECr em listas só de homens) implementa a realocação que o partido
+      faria sem a obrigação legal. As duas contrariam a direção para o lift, e isso está registrado em concerns.
+    concerns:
+      - "Premissa com placeholder vazio; valores com a base atual: 4,5 % vs 14,9 % (2018), 6,0 % vs 17,3 % (2022). PROVISÓRIO: a ligação de CPF muda flag e gênero (I-3-001)."
+      - "Contrafactual não calculado (I-3-005)."
+      - "Lift entre homens menor que o agregado (1,63 / 1,75); listas só de homens: 1,62 / 1,74. Precisão entre homens maior (35-40 %)."
+      - "Mulheres ocupam 32,9 / 36,2 % das posições do núcleo, ≈ sua participação nas candidaturas (31,7 / 35,2 %)."
+    agent: "measurement-reviewer, statistics-reviewer, results-reviewer; adversarial-reviewer"
+    ids_origem: {measurement: C3.9.02, statistics: C3.7.06, results: C3.10.06}
+    issues: [I-3-005, I-3-001]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.9.08
+    capitulo: 3
+    secao: "## Discussão"
+    claim: "NECr mediano 1,9 → 4,8; a proporção de candidaturas efetivas ficou estável em torno de metade, enquanto as listas dobraram; a priorização em 2022 não desapareceu, mudou de forma."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 181}
+    evidencia: {tipo: csv, referencia: "00_sintese.csv; descritivos.csv; 05_concentracao_ano.csv; res_recompute_cap3.out §2"}
+    assessment: {status: partially_supported, confidence: media}
+    concerns:
+      - "'Dobraram' vale só para a mediana (×2,25; média ×1,53) (I-3-017)."
+      - "'Não desapareceu': lift 2022 fora da permutação, sustentado. 'Mudou de forma' não é testado aqui e a comparação entre eleições é sensível à composição (I-3-004, I-3-009)."
+    agent: "statistics-reviewer, results-reviewer"
+    ids_origem: {statistics: C3.7.07, results: C3.10.07}
+    issues: [I-3-004, I-3-009, I-3-017]
+    runs: [run-001]
+    versao_capitulo: 0aec63e5
+
+  - claim_id: C3.9.09
+    capitulo: 3
+    secao: "## Discussão"
+    claim: "Em todas as operacionalizações usadas, o lift é superior a um; partidos sistematicamente priorizam com mais recursos candidaturas previamente competitivas e candidatos que posteriormente são eleitos."
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 173}
+    evidencia: {tipo: csv, referencia: "reports/sensibilidade-top-x/interpretacao.json (24/24 lifts > 1); resumo_nacional.csv (Top-NECr 1,87-2,12); adv_02_metricas_variantes.csv (lift > 1,76 em todas as variantes de flag)"}
+    assessment: {status: partially_supported, confidence: media}
+    nota_status: >-
+      Registrado pelo chair no pass 2 a partir da versão 679ece09 (editada após as leituras dos especialistas); não
+      revisado por especialista. A parte numérica ('lift > 1 em todas as operacionalizações') é sustentada. 'Priorizam …
+      candidatos que posteriormente são eleitos' lê correspondência ex-post como priorização (I-3-021).
+    concerns:
+      - "Correspondência com eleitos não separa seleção de efeito do dinheiro (I-3-021)."
+      - "Referência ex-ante depende da regeneração da flag (I-3-001)."
+    agent: "thesis-chair"
+    ids_origem: {}
+    issues: [I-3-021, I-3-001, I-3-004]
+    runs: [run-001]
+    versao_capitulo: 679ece09

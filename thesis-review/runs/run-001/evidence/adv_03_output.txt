@@ -1,0 +1,19 @@
+(a) Decomposição lift_todas = lift_rec x lift_receber
+  2018 comp  : lift todas=1.873 | rec(R>0)=1.686 | lift_receber=1.111 | R>=1mil=1.652 (listas k>universo: 31) | R>=10mil=1.563 (listas k>universo: 162)
+  2018 eleito: lift todas=1.982 | rec(R>0)=1.782 | lift_receber=1.112 | R>=1mil=1.772 (listas k>universo: 31) | R>=10mil=1.668 (listas k>universo: 162)
+  2022 comp  : lift todas=1.890 | rec(R>0)=1.851 | lift_receber=1.021 | R>=1mil=1.849 (listas k>universo: 3) | R>=10mil=1.822 (listas k>universo: 83)
+  2022 eleito: lift todas=2.117 | rec(R>0)=2.048 | lift_receber=1.034 | R>=1mil=2.044 (listas k>universo: 3) | R>=10mil=1.995 (listas k>universo: 83)
+
+(b) Perfil das candidaturas com R = 0 x R > 0
+  2018:
+          n  mulher    comp  eleito  votos_mediana  pct_qe_mediana  abaixo_1pct_qe
+zero                                                                              
+False  5584  0.3555  0.1452  0.0861         1757.0          0.0093          0.5141
+True   2046  0.2103  0.0367  0.0156          796.5          0.0042          0.6848
+    R=0: mulheres = 430 de 2046 (21.0 %); competitivos = 75; eleitos = 32; R=0 em listas sem recursos = 235
+  2022:
+          n  mulher    comp  eleito  votos_mediana  pct_qe_mediana  abaixo_1pct_qe
+zero                                                                              
+False  8589  0.3643  0.1457  0.0588         1312.0          0.0065          0.5851
+True   1086  0.2544  0.0331  0.0074          317.5          0.0015          0.8564
+    R=0: mulheres = 276 de 1086 (25.4 %); competitivos = 36; eleitos = 8; R=0 em listas sem recursos = 330

@@ -1,0 +1,59 @@
+=== (d) rótulos de situação: códigos dos caracteres não-ASCII ===
+  N\xc3O ELEITO                                                in TXT_ELEITOS=False nonascii=['0xc3']
+  ELEITO                                                       in TXT_ELEITOS=True nonascii=[]
+  SUPLENTE                                                     in TXT_ELEITOS=False nonascii=[]
+  ELEITO POR M\xc9DIA                                          in TXT_ELEITOS=True nonascii=['0xc9']
+  REGISTRO NEGADO AP\xd3S A ELEI\xc7\xc3O                      in TXT_ELEITOS=False nonascii=['0xd3', '0xc7', '0xc3']
+  M\xc9DIA                                                     in TXT_ELEITOS=True nonascii=['0xc9']
+  REN\xdaNCIA/FALECIMENTO COM SUBSTITUI\xc7\xc3O               in TXT_ELEITOS=False nonascii=['0xda', '0xc7', '0xc3']
+  #NULO                                                        in TXT_ELEITOS=False nonascii=[]
+  INDEFERIDO COM RECURSO                                       in TXT_ELEITOS=False nonascii=[]
+  REN\xdaNCIA/FALECIMENTO/CASSA\xc7\xc3O ANTES DA ELEI\xc7\xc3O in TXT_ELEITOS=False nonascii=['0xda', '0xc7', '0xc3', '0xc7', '0xc3']
+  REGISTRO NEGADO ANTES DA ELEI\xc7\xc3O                       in TXT_ELEITOS=False nonascii=['0xc7', '0xc3']
+  ELEITO POR QP                                                in TXT_ELEITOS=True nonascii=[]
+
+=== (a) granularidade: linhas por candidatura (ano, uf, cargo, municipio, nr, turno) ===
+  duplicadas na chave completa: 89 de 2592395
+
+=== (b) turnos: linhas de Prefeito com nr_turno=2 e situação ===
+nr_turno  ds_sit_tot_turno                              
+1         NÃO ELEITO                                        58973
+          ELEITO                                            32980
+          RENÚNCIA/FALECIMENTO COM SUBSTITUIÇÃO                87
+          #NULO                                                14
+          INDEFERIDO COM RECURSO                                2
+          RENÚNCIA/FALECIMENTO/CASSAÇÃO ANTES DA ELEIÇÃO        1
+2         ELEITO                                              268
+          NÃO ELEITO                                          267
+
+=== (c) CPFs em rrd 2018/2022 que não têm 11 dígitos ===
+nr_cpf_candidato
+-4    7
+
+=== casos extremos: de onde vêm as vitórias de prefeito atribuídas ===
+ ano uf       partido   nr                              nome  n_pref_rrd  n_pref_reproduzido  municipios_distintos anos numeros  vitorias_com_mesmo_nome  candidaturas_reais_prefeito  vitorias_reais_prefeito
+2018 BA         PATRI 5121      JOSE CARLOS GUILHERME SANTOS         9.0                   9                     9 2004      31                        0                            2                        0
+2018 ES           PDT 1200                LEONARDO DEPTULSKI         6.0                   6                     6 2012      13                        1                            2                        2
+2018 MA SOLIDARIEDADE 7777    JOSE SIMPLICIO ALVES DE ARAUJO         6.0                   6                     6 2012      23                        0                            1                        0
+2018 PA           PTC 3621             ELIEL NINA DE AZEVEDO         5.0                   5                     5 2000      22                        0                            3                        0
+2018 PB           PMN 3333 LIDIA DE MOURA SILVA CRONEMBERGER         6.0                   6                     6 2004      40                        0                            1                        0
+2018 PR            PV 4311          BELARMINO ANTONIO BACCIN        10.0                  10                    10 2000      13                        0                            2                        0
+2018 PR            PV 4399        ADALBERTO CARLOS RIGOBELLO         7.0                   7                     7 2016      43                        0                            1                        0
+2018 SP           PSB 4050  RICARDO AUGUSTO MACHADO DA SILVA        13.0                  13                    13 2016      12                        0                            1                        0
+2022 AC            PP 1111              GEHLEN DINIZ ANDRADE         5.0                   5                     5 2020      11                        0                            1                        0
+2022 MA          PODE 1910           EDIMAR DE AGUIAR FRANCO        25.0                  25                    25 2020      10                        0                            1                        0
+2022 MG        AVANTE 7022 ROBERTO WAGNER DE OLIVEIRA JUNIOR        28.0                  28                    28 2012      23                        0                            3                        0
+2022 MG        AVANTE 7025          RUY ADRIANO BORGES MUNIZ        46.0                  46                    46 2016      40                        0                            4                        1
+2022 MG  REPUBLICANOS 1028               LUIZ CARLOS PEREIRA        41.0                  41                    41 2020      10                        0                            5                        0
+2022 PA      PATRIOTA 5120 ELANILDO RAIMUNDO REGO DOS SANTOS         5.0                   5                     5 2004      12                        0                            5                        0
+2022 PE            PL 2255 ANTÔNIO DE LEMOS VASCONCELOS NETO         9.0                   9                     9 2020      25                        0                            3                        0
+2022 PR          PROS 9051          SIGLEI CRISTIANE NARCIZO         7.0                   7                     7 2020      90                        0                            1                        0
+2022 RJ           PSD 5512         FELIPE DOS SANTOS PEIXOTO         6.0                   6                     6 2016      40                        0                            2                        0
+2022 RJ  REPUBLICANOS 1055 JULIO DA SILVA GONÇALVES OLIVEIRA         5.0                   5                     5 2020      10                        0                            1                        0
+2022 SP           PSD 5512  RICARDO AUGUSTO MACHADO DA SILVA        13.0                  13                    13 2016      12                        0                            1                        0
+
+=== todos os 2018/2022 com n_eleicoes_prefeito > 0: vitórias atribuídas com nome igual ao do candidato ===
+      candidaturas  com_alguma_vitoria_mesmo_nome  vitorias  vitorias_mesmo_nome
+ano                                                                             
+2018            19                              1        83                    1
+2022            35                              4       240                    4

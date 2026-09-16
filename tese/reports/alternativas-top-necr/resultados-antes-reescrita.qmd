@@ -1,0 +1,48 @@
+## Resultados
+
+### Copartidários em disputa
+
+Dos 7.630 candidatos a Deputado Federal em 2018, 886 (11,6%) foram classificados como "competitivos" pelos critérios adaptados de @cheibubsin2020. Em 2022, foram 9.675 candidaturas com 1.287 (13,3%) competitivas. Houve um aumento desproporcional dentro do grupo de candidaturas competitivas, enquanto o total de candidatos lançados aumentou 27%, o total de competitivas cresceu 45% no período. A presença de candidaturas competitivas é proporcionalmente maior em distritos pequenos do que em distritos grandes. E, exceto nos distritos médios, houve aumento na parcela de competitivas entre as eleições de 2018 e 2022 [@fig-competitivos-mag].
+
+![Candidaturas competitivas na nominata, por magnitude do distrito (% do total de candidatos)](../figs/cap3_fig_competitivos_mag.png){#fig-competitivos-mag fig-align="center" width="100%"}
+
+A @fig-amplitude apresenta os indicadores que dizem respeito à amplitude das nominatas. No período estudado, a lista partidária mediana teve quatro candidatos em 2018 e nove em 2022. A média de candidaturas foi maior, indicando uma distribuição com cauda à direita. Quando limita-se às candidaturas classificadas como competitivas por seu histórico eleitoral, os números são bem menores em consonância com as evidências de @cheibubsin2020. Em 2018 e 2022, a mediana de candidaturas competitivas por lista é igual a um candidato. A média, respectivamente, é de 1,11 e 1,98 candidato.
+
+![Amplitude formal e efetiva nas nominatas financiadas. Fonte: elaboração própria com base nos dados consolidados do TSE.](../figs/cap3_fig_amplitude_barras.png){#fig-amplitude fig-align="center" width="100%"}
+
+A @fig-amplitude também mostra os resultados do Número Efetivo de Candidaturas em recursos, o NECr. Em 2018, na mediana, partidos concentraram recursos em 1,88 candidato efetivo equivalente. Em 2022, esse número passou a 4,81 candidaturas.
+
+O argumento de @cheibubsin2020 parte de resultados que estão marcados nesta redução entre o número de candidatos lançados formalmente e a presença de candidatos competitivos segundo o histórico eleitoral. Destacam que as listas abertas no Brasil são controladas pelas lideranças dos partidos políticos no momento de sua elaboração, ao lançarem poucas candidaturas competitivas em suas nominatas.
+
+Ao considerarmos a concentração de recursos intralista pelo NECr, busca-se verificar justamente se esta redução também está presente ao considerar a alocação partidária dos recursos dos fundos públicos. Embora o NECr seja maior que as candidaturas competitivas na média e mediana para as duas eleições observadas, ainda assim destaca-se um conjunto de candidaturas menor do que o tamanho total da lista.
+
+A @tbl-concentracao compara o número formal de candidatos ao NECr nas nominatas financiadas. A lista mediana possuía 1,95 e 1,86 candidato formal para cada candidato efetivo em termos de recursos de campanha partidários em 2018 e 2022, respectivamente. Ao inverter o indicador, vê-se que em média, os partidos concentraram recursos em um total de candidaturas financiadas que equivaleu a 56 e 55% do tamanho das nominatas nas eleições estudadas.
+
+| Medida de concentração relativa |  2018 |  2022 |
+|:--------------------------------|------:|------:|
+| C/NECr: média                   |  3,29 |  2,67 |
+| C/NECr: mediana                 |  1,95 |  1,86 |
+| NECr/C: média (%)               | 56,18 | 55,40 |
+
+: Concentração relativa dos recursos nas nominatas financiadas. Fonte: elaboração própria com base no atlas e nas bases consolidadas do capítulo. {#tbl-concentracao}
+
+A @tbl-concentracao mostra uma visão complementar para se pensar o aumento de candidaturas em 2022. Enquanto têm-se mais candidatos sendo lançados e mais candidatos recebendo recursos efetivamente, a razão destes frente ao total da lista permaneceu estável nas duas eleições.
+
+### Focalização de recursos partidários
+
+A @tbl-matriz-top-necr cruza o pertencimento ao núcleo financeiro com o resultado eleitoral. Cada candidatura é situada dentro ou fora do Top-NECr de sua nominata e entre os eleitos ou não eleitos. As contagens são calculadas por lista e somadas separadamente para cada eleição, incluindo candidaturas e eleitos de listas sem recursos partidários, cujo núcleo é vazio.
+
+{{< include ../tese/resultados-capitulo-3/matriz_correspondencia_top_necr.qmd >}}
+
+O tamanho do núcleo corresponde ao NECr arredondado para o inteiro mais próximo. Nos empates no corte, as posições disponíveis são repartidas igualmente entre os candidatos empatados; a parcela complementar é contabilizada fora do núcleo. Por isso, as células representam contagens ponderadas e podem conter decimais. Esse procedimento preserva o número de posições e evita desempates arbitrários.
+
+A leitura por coluna esclarece a cobertura: dos 513 eleitos em 2018, 445 estavam no núcleo, ou 86,74%; em 2022, a contagem ponderada é de 475,19, ou 92,63%. A leitura da linha dos integrantes do núcleo esclarece a precisão: esses eleitos ocupavam 445 das 2.318 posições em 2018 (19,20%) e 475,19 das 3.824 posições em 2022 (12,43%). Assim, a ampliação do núcleo incorpora mais eleitos e também mais não eleitos. A inclusão de candidaturas que não venceram não constitui, por si só, um erro de alocação, pois o resultado eleitoral não revela todos os objetivos partidários.
+
+A matriz apresenta a correspondência observada. O lift complementa essa leitura ao comparar os eleitos no núcleo com os esperados por sorteio do mesmo número de candidatos dentro de cada lista, preservando sua composição. Seu valor agregado divide a soma dos acertos observados pela soma dos esperados, separadamente por eleição.
+
+![Cobertura e precisão do Top-NECr em 2018 e 2022. Fonte: elaboração própria com base nos dados do TSE.](../figs/cap3_fig_top_necr_cobertura_precisao.png){#fig-top-necr-cobertura-precisao fig-align="center" width="100%"}
+
+Em 2018, 86,7% dos candidatos eleitos faziam parte do Top-NECr de suas nominatas. Em 2022, foram 92,6%. O Top-NECr cobre quase a totalidade dos eleitos. Tal cobertura é duas vezes maior que a esperada caso a distribuição fosse ao acaso.
+
+A precisão mostra que 19,2 e 12,4% dos candidatos priorizados foram eleitos em 2018 e 2022 respectivamente. Taxas também duas vezes maiores que àquelas calculadas aleatoriamente.
+

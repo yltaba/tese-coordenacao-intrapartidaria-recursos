@@ -1,0 +1,21 @@
+<!-- Figuras consolidadas do capítulo 3. Caminhos relativos a esta pasta. -->
+
+## Amplitude das nominatas
+
+![Amplitude das listas financiadas: C, competitivos prévios, NECr e k do Top-NECr. Traços mostram Q1–Q3; círculos, medianas; losangos, médias. Cada lista tem peso igual. O intervalo resume dispersão, não incerteza amostral. Competitivos correspondem aos perfis conhecidos.](figuras/01-amplitude.png){#fig-cap3-01-amplitude fig-align="center" width="100%"}
+
+## Concentração relativa
+
+![Concentração relativa nas listas financiadas. C/NECr mede candidaturas formais por candidatura efetiva; NECr/C expressa a amplitude efetiva relativa; k/C expressa a parcela selecionada pelo Top-NECr. As estatísticas são calculadas por lista, antes da agregação.](figuras/02-concentracao.png){#fig-cap3-02-concentracao fig-align="center" width="100%"}
+
+## Medida principal: Top-NECr
+
+![Top-NECr: cobertura, precisão e lift de competitivos prévios e eleitos, em 2018 e 2022. Linha preta: observado; linha cinza pontilhada: benchmark intralista que preserva o tamanho do grupo. Taxas nacionais são razões de somas. As linhas conectam duas eleições, sem estimar valores intermediários.](figuras/03-top-necr.png){#fig-cap3-03-top-necr fig-align="center" width="100%"}
+
+## Sensibilidade Top-X%: Competitivos prévios
+
+![Sensibilidade do limiar Top-X% para competitivos prévios: seis cortes, três indicadores e duas eleições. Benchmark intralista; Top-80% destacado. A referência horizontal indica o resultado do Top-NECr.](figuras/04-topx-competitividade.png){#fig-cap3-04-topx-competitividade fig-align="center" width="100%"}
+
+## Sensibilidade Top-X%: Eleitos
+
+![Sensibilidade do limiar Top-X% para eleitos: seis cortes, três indicadores e duas eleições. Benchmark intralista; Top-80% destacado. A referência horizontal indica o resultado do Top-NECr.](figuras/05-topx-eleicao.png){#fig-cap3-05-topx-eleicao fig-align="center" width="100%"}

@@ -1,0 +1,226 @@
+---
+title: "Coordenação intrapartidária pela alocação de recursos"
+---
+
+<!-- Versão alternativa de 10/09/2026. Preserva o capítulo original. Resultados descritivos conferidos com resultados-capitulo-3/atlas-visual-capitulo-3-v2.html e seus CSVs. Os modelos são retomados do capítulo original, sem nova estimação. Top-Mp não foi calculado e não é apresentado como resultado. -->
+
+Partidos coordenam a competição intrapartidária ao distribuírem recursos de campanha de forma seletiva, diferenciando a capacidade competitiva das candidaturas de suas nominatas. Nesta tese, argumento que essa coordenação se manifesta na definição de um conjunto de candidaturas priorizadas financeiramente e no momento em que os recursos são disponibilizados. A amplitude desse conjunto e sua composição permitem examinar como o partido organiza a disputa entre seus candidatos diante das perspectivas pré-eleitorais de representação.
+
+Este capítulo investiga a priorização financeira nas eleições para deputado federal de 2018 e 2022. A composição da nominata estabelece o universo de concorrentes; a distribuição dos recursos revela a intensidade da diferenciação financeira entre eles; e o histórico eleitoral permite examinar quais candidaturas recebem prioridade. O argumento empírico se organiza em três dimensões: amplitude, concentração e focalização. A primeira identifica o tamanho das listas e do conjunto efetivo financiado; a segunda situa esse conjunto em relação à nominata; e a terceira examina sua composição e sua correspondência com os eleitos.
+
+A distinção temporal organiza essa análise. A bancada existente e o histórico eleitoral são referências observáveis antes da campanha. As transferências registram a distribuição de recursos durante a disputa, antes da abertura das urnas, mas podem responder à evolução da própria campanha. Os resultados eleitorais permitem, posteriormente, avaliar a correspondência entre financiamento e representação. A observação de transferências anteriores ao resultado não significa, portanto, que toda a estratégia tenha sido fixada antes do início da campanha. O capítulo seguinte examina essa dimensão temporal, investigando a antecipação dos recursos.
+
+Essa distinção também orienta o diálogo com a literatura. @crisp2007 discutem o uso da magnitude distrital ($M$) por @careyshugart1995 como referência para os incentivos ao voto pessoal. A disputa entre candidatos de todos os partidos pelas cadeiras do distrito difere da competição entre correligionários pelas cadeiras que seu partido pode conquistar. A razão entre candidaturas e cadeiras esperadas, $C:P$, dirige a atenção a essa segunda dimensão e à unidade partido-no-distrito.
+
+A operacionalização de seus componentes, contudo, exige escolhas. @cheibubsin2020 restringem o universo de concorrentes às candidaturas competitivas e utilizam as cadeiras conquistadas pelo partido como referência para sua capacidade eleitoral. O problema, para o argumento desta tese, aparece quando o resultado da própria eleição representa a expectativa anterior das lideranças: há um desalinhamento temporal entre o conceito e sua medida. Utilizar resultados eleitorais para estudar coordenação não é, por si só, circular; é necessário distinguir seu uso como referência da decisão anterior de seu uso como resultado com o qual essa decisão será confrontada.
+
+Os resultados apresentados a seguir apontam para a ampliação do conjunto efetivo financiado entre 2018 e 2022, acompanhada de uma presença de candidaturas com credenciais anteriores e de futuros eleitos superior à esperada em uma seleção aleatória dentro das listas. Essa combinação permite discutir a coordenação como priorização seletiva, sem pressupor que ela exija a máxima concentração de recursos ou a coincidência exata entre o número efetivo financiado e a bancada pré-eleitoral.
+
+## Dados, unidades de análise e operacionalização
+
+### Universo empírico e recursos partidários
+
+A análise utiliza registros de candidaturas, resultados eleitorais e prestação de contas provenientes do TSE, além da composição da Câmara dos Deputados obtida por sua API. O universo reúne 7.630 candidaturas em 2018 e 9.675 em 2022. A candidatura é a unidade utilizada para identificar o histórico eleitoral e estimar a participação nos recursos. Para examinar a distribuição intrapartidária, essas observações são agregadas por partido, unidade da federação e eleição, formando as nominatas.
+
+| Universo                                                 |  2018 |  2022 |
+|:---------------------------------------------------------|------:|------:|
+| Candidaturas                                             | 7.630 | 9.675 |
+| Nominatas                                                |   859 |   711 |
+| Nominatas com recursos partidários positivos             |   786 |   648 |
+| Nominatas com bancada de referência positiva             |   292 |   252 |
+| Nominatas com recursos e bancada de referência positivos |   290 |   250 |
+| Nominatas com eleitos                                    |   302 |   207 |
+| Eleitos                                                  |   513 |   513 |
+
+: Universos de análise por eleição. Fonte: elaboração própria com base nas bases consolidadas do capítulo. {#tbl-universos}
+
+Os recursos considerados correspondem à variável de receitas com origem em “Recursos de partido político”. Essa seleção identifica a origem partidária do repasse e não restringe, por si só, a fonte aos fundos públicos FEFC e FP. Embora a tese discuta a alocação de recursos no contexto do financiamento público, os indicadores deste capítulo devem ser interpretados como medidas de distribuição de recursos de origem partidária.
+
+<!-- Conferência de origem: resultados-capitulo-3/19_notas_redacao.csv. Uma análise exclusiva de FEFC/FP exigiria outra seleção e recálculo. -->
+
+O tamanho da nominata inclui todas as suas candidaturas, inclusive aquelas sem recursos partidários. Os indicadores de concentração exigem que a nominata tenha recursos positivos. As comparações com a bancada exigem também bancada positiva. Já a cobertura nacional dos eleitos mantém os 513 representantes de cada eleição no denominador, incluindo os três eleitos de 2018 pertencentes a listas sem recursos partidários.
+
+A unidade partidária é mantida nas duas eleições. Em 2022, partidos integrantes de uma mesma federação aparecem separadamente. Assim, a comparação descreve a alocação dentro dos partidos, mas não resolve integralmente a comparabilidade das unidades de competição eleitoral entre os pleitos. Uma análise por federação exigiria reagrupar candidaturas e recalcular o número efetivo e os rankings financeiros.
+
+### Referências anteriores à campanha
+
+A expectativa de cadeiras das lideranças não é diretamente observável. @crisp2007 operacionalizam a magnitude partidária a partir do desempenho em eleições anteriores. No contexto brasileiro, migrações e reorganizações partidárias tornam pertinente uma referência que incorpore a composição mais recente das bancadas. A tese utiliza $Mp$ para designar o número de deputados em exercício vinculados a cada partido e UF na referência anterior à eleição.
+
+Essa bancada oferece uma referência observável de representação, mas não equivale à expectativa subjetiva das lideranças. Pode não captar perspectivas de crescimento, retração ou mudanças no ambiente competitivo. Por esse motivo, a correspondência entre financiamento e $Mp$ é tratada como uma comparação empírica, e não como critério suficiente para classificar uma nominata como coordenada.
+
+Os resultados utilizam a bancada disponível no arquivo consolidado. O script de extração registra as datas de 20 de julho de 2018 e 20 de julho de 2022, mas o CSV não preserva a data de referência. Essa limitação impede certificar, apenas pelo arquivo empregado, que a contagem corresponda à véspera das convenções partidárias.[^03-medindo-coordenacao-intrapartidaria-reestruturado-1]
+
+[^03-medindo-coordenacao-intrapartidaria-reestruturado-1]: A definição temporal pretendida deve ser conciliada com a extração antes da versão definitiva. As estatísticas aqui apresentadas preservam a bancada utilizada no relatório de resultados.
+
+O histórico eleitoral permite identificar candidaturas com credenciais anteriores à disputa. Inspirada em @cheibubsin2020, a classificação utilizada considera competitiva a candidatura com vitória anterior para governador, senador, deputado federal, estadual ou distrital, ou prefeito, ou que tenha alcançado historicamente pelo menos 10% do quociente eleitoral. O desempenho na eleição corrente não participa dessa classificação.
+
+O vínculo entre registros históricos utiliza o CPF. A construção da base remonta a 1998 e inclui vitórias nas eleições municipais anteriores: até 2016 para os candidatos de 2018 e até 2020 para os de 2022. A implementação não incorpora uma variável de vitórias presidenciais. A medida identifica credenciais registradas no histórico disponível; candidaturas sem essas credenciais podem, ainda assim, ser competitivas na eleição em análise.
+
+### Amplitude e concentração do financiamento
+
+O número de candidaturas da nominata, $C_{puy}$, define seu tamanho formal, para o partido $p$, na UF $u$ e eleição $y$. Para descrever a distribuição financeira, utiliza-se o número efetivo de candidaturas em recursos, adaptando a medida de @laaksotaagepera1979 e seguindo @thomsen2023:
+
+$$
+NECr_{puy}=\frac{1}{\sum_{i=1}^{C_{puy}}s_i^2},
+\qquad
+s_i=\frac{R_i}{\sum_j R_j}.
+$$
+
+$R_i$ representa os recursos de origem partidária recebidos pela candidatura. O indicador expressa a quantas candidaturas igualmente financiadas equivale a distribuição observada. Se uma candidatura recebe todos os recursos, $NECr=1$; se todas recebem parcelas iguais, $NECr=C$. Ele não constitui uma contagem literal dos candidatos que receberam transferências.
+
+O NECr descreve a amplitude efetiva do financiamento, mas sua interpretação como concentração depende também do tamanho da lista. Por isso, os resultados apresentam sua relação com $C$. A razão $C/NECr$ indica quantas candidaturas formais existem por candidatura efetiva em recursos; valores mais elevados representam maior concentração relativa. A razão inversa, $NECr/C$, aproxima-se de um quando a distribuição é uniforme. Essas razões são calculadas em cada nominata: a média de uma não é o inverso da média da outra.
+
+### Focalização nos candidatos priorizados
+
+Para identificar pessoas dentro do conjunto priorizado, as candidaturas são ordenadas pelos recursos partidários recebidos. O Top-NECr corresponde às primeiras $k$ posições, com $k=\lfloor NECr+0{,}5\rfloor$. Essa regra converte a medida contínua em um corte no ranking. Em caso de empate no limite, atribui-se crédito fracionário às candidaturas empatadas, preservando o total de posições. Nas listas sem recursos, o núcleo é definido como vazio.
+
+A focalização é examinada em relação a dois grupos: candidatos previamente competitivos e eleitos. A cobertura informa a parcela de cada grupo contida no núcleo. A precisão informa a parcela das posições do núcleo ocupada por integrantes desse grupo. Para os eleitos, a cobertura nacional divide os eleitos no Top-NECr pelos 513 eleitos; a precisão divide os eleitos no núcleo pela soma das posições Top-NECr de todas as nominatas.
+
+Um núcleo maior pode elevar mecanicamente a cobertura. O parâmetro de comparação é, portanto, uma seleção aleatória de $k$ candidatos dentro de cada nominata, preservando seu tamanho e seu número de eleitos ou competitivos. Denotando por $A_l$ o total do grupo de interesse na lista $l$ e por $H_l$ o número de integrantes desse grupo no núcleo, temos:
+
+$$
+\text{Cobertura observada}=\frac{\sum_l H_l}{\sum_l A_l},
+\qquad
+\text{Cobertura esperada}=\frac{\sum_l A_l k_l/C_l}{\sum_l A_l}.
+$$
+
+A razão entre acertos observados e esperados, denominada *lift*, indica quanto a presença do grupo no núcleo supera o sorteio: $\sum_l H_l/\sum_l(A_l k_l/C_l)$. Os cálculos são realizados separadamente para cada eleição. Não se utiliza uma referência fixa comum aos pleitos nem a média simples dos lifts das nominatas. Listas sem integrantes do grupo não têm cobertura individual definida, mas podem contribuir para o denominador da precisão quando possuem posições no núcleo.
+
+Essas medidas preservam a distinção temporal do argumento. A presença de competitivos prévios avalia a associação entre credenciais anteriores e prioridade financeira. A presença de eleitos avalia a correspondência posterior entre essa prioridade e o resultado, sem transformar o resultado em medida da expectativa pré-eleitoral.
+
+<!-- Extensão discutida: cobertura Top-Mp. Não incorporada à análise porque o atlas não oferece seus resultados. Se calculada, definir k=min(Mp,C), explicitar Mp=0 e o limite de cobertura quando E>Mp, além de manter o tratamento de empates. -->
+
+## Resultados
+
+### Amplitude: composição das nominatas e tamanho efetivo financiado
+
+#### Candidaturas e competitividade prévia
+
+A composição das listas estabelece o universo sobre o qual ocorre a distribuição dos recursos. Entre 2018 e 2022, o número de candidaturas passou de 7.630 para 9.675, crescimento de 26,80%. O número de candidatos previamente competitivos aumentou de 886 para 1.287, ou 45,26%. Sua participação nacional passou de 11,61% para 13,30%. Assim, o crescimento das nominatas foi acompanhado de uma expansão proporcionalmente maior das candidaturas com credenciais eleitorais anteriores.
+
+Essa mudança agregada não se reproduz de maneira uniforme entre magnitudes distritais. Nos distritos médios, a participação dos competitivos recuou ligeiramente, de 13,92% para 13,68%. A @fig-competitivos-mag apresenta a composição por magnitude. Os percentuais agregam candidatos de cada grupo; não representam a média das proporções das listas.
+
+![Candidaturas previamente competitivas por magnitude distrital, como proporção do total de candidaturas.](../figs/cap3_fig_competitivos_mag.png){#fig-competitivos-mag fig-align="center" width="100%"}
+
+A comparação com a bancada pré-eleitoral acrescenta uma referência à amplitude dessa competição. Entre as listas com $Mp>0$, 248 de 292 nominatas em 2018, ou 84,93%, tinham até um candidato competitivo a mais que sua bancada. Em 2022, eram 115 de 252, ou 45,63%. A comparação dialoga com a discussão de @cox1997 e @cheibubsin2020, mas utiliza a bancada anterior como referência, em lugar das cadeiras conquistadas na própria eleição. Não se trata, portanto, de uma replicação com medidas idênticas.
+
+Esses resultados indicam uma ampliação do conjunto de candidatos com credenciais anteriores em relação à representação partidária disponível. Ainda não permitem estabelecer se esses candidatos foram priorizados financeiramente. Essa questão exige observar a distribuição dos recursos e a composição do núcleo financiado.
+
+#### Expansão do conjunto efetivo financiado
+
+Nas nominatas com recursos partidários positivos, o tamanho mediano da lista aumentou de quatro para nove candidaturas. No mesmo universo, a mediana do NECr passou de 1,88 para 4,81, enquanto sua média aumentou de 2,96 para 5,90 (@tbl-amplitude). O financiamento passou, portanto, a equivaler à sustentação de um número maior de candidaturas com parcelas iguais.
+
+| Indicador                          | 2018 |  2022 |
+|:-----------------------------------|-----:|------:|
+| Nominatas com recursos positivos   |  786 |   648 |
+| Candidaturas por nominata: média   | 9,41 | 14,42 |
+| Candidaturas por nominata: mediana | 4,00 |  9,00 |
+| NECr: média                        | 2,96 |  5,90 |
+| NECr: mediana                      | 1,88 |  4,81 |
+| NECr: desvio-padrão                | 3,17 |  4,87 |
+
+: Amplitude formal e efetiva nas nominatas financiadas. Cada nominata recebe o mesmo peso nas estatísticas. Fonte: elaboração própria com base nos dados consolidados do TSE. {#tbl-amplitude}
+
+A diferença entre médias e medianas mostra que as distribuições incluem listas com valores mais elevados. O desvio-padrão do NECr também aumenta, de 3,17 para 4,87: a expansão média convive com maior dispersão absoluta entre nominatas. O resultado não implica que todos os partidos tenham ampliado seu conjunto financiado na mesma proporção.
+
+A expansão aparece igualmente quando o número efetivo é situado diante da referência pré-eleitoral de cadeiras. Entre nominatas com recursos positivos e $Mp>0$, a média de NECr por cadeira da bancada aumentou em todas as magnitudes (@fig-necr-magnitude). Nos distritos pequenos, passou de 1,56 para 4,00; nos médios, de 1,58 para 4,26; e nos grandes, de 2,48 para 4,96. Esses cálculos abrangem 290 listas em 2018 e 250 em 2022.
+
+![Número efetivo de candidaturas em recursos por cadeira da bancada de referência, segundo a magnitude distrital.](../figs/cap3_fig_nep_eficiencia_ano_bancada.png){#fig-necr-magnitude fig-align="center" width="100%"}
+
+O afastamento em relação a $Mp$ limita uma interpretação de coordenação baseada na coincidência estrita entre o núcleo financiado e a bancada anterior. Pode refletir tanto a ampliação da prioridade financeira quanto a insuficiência da bancada como representação das perspectivas eleitorais. Para avaliar a seletividade dessa expansão, é necessário situá-la em relação ao tamanho formal das listas e identificar quais candidaturas compõem o núcleo.
+
+### Concentração: diferenciação financeira dentro das nominatas
+
+O crescimento do NECr não equivale, isoladamente, a uma redução da concentração: listas maiores podem sustentar conjuntos efetivos maiores mantendo distribuição semelhante. A @tbl-concentracao compara o número formal de candidatos ao número efetivo em recursos nas nominatas financiadas.
+
+| Medida de concentração relativa |  2018 |  2022 |
+|:--------------------------------|------:|------:|
+| C/NECr: média                   |  3,29 |  2,67 |
+| C/NECr: mediana                 |  1,95 |  1,86 |
+| NECr/C: média (%)               | 56,18 | 55,40 |
+
+: Concentração relativa dos recursos nas nominatas financiadas. As razões são calculadas por lista antes da agregação. Fonte: elaboração própria com base no atlas e nas bases consolidadas do capítulo. {#tbl-concentracao}
+
+A média de candidaturas formais por candidatura efetiva diminuiu de 3,29 para 2,67. A mediana variou menos, de 1,95 para 1,86, permanecendo próxima de duas candidaturas formais para cada candidatura efetiva em recursos. Nessa medida, a concentração relativa diminui, sobretudo quando observada pela média.
+
+A média da razão inversa, entretanto, permaneceu próxima de 55% a 56%. Não há contradição aritmética: inverter a razão altera o peso dos diferentes pontos da distribuição, e a média de inversos não corresponde ao inverso da média. Em conjunto, os indicadores sustentam com mais clareza a ampliação absoluta do financiamento do que uma redução uniforme da concentração relativa. Tampouco esses percentuais indicam a parcela de candidatos que recebeu algum recurso.
+
+A distribuição permaneceu desigual: o tamanho efetivo financiado continuou inferior ao tamanho formal das nominatas em termos agregados. Mas a desigualdade financeira, por si só, não revela o critério de seleção. Um partido pode concentrar recursos em candidaturas sem credenciais anteriores ou dispersá-los entre vários candidatos eleitoralmente relevantes. A dimensão seguinte examina essa composição.
+
+### Focalização: credenciais anteriores e correspondência com os eleitos
+
+#### Competitivos prévios entre os mais financiados
+
+Os núcleos definidos pelo Top-NECr incorporaram 80,90% dos candidatos previamente competitivos em 2018 e 82,68% em 2022 (@tbl-focalizacao-previa). Se o mesmo número de posições fosse preenchido por sorteio dentro de cada nominata, as coberturas esperadas seriam 43,19% e 43,75%, respectivamente.
+
+| Medida                          |  2018 |  2022 |
+|:--------------------------------|------:|------:|
+| Competitivos prévios            |   886 | 1.287 |
+| Cobertura observada (%)         | 80,90 | 82,68 |
+| Cobertura esperada ao acaso (%) | 43,19 | 43,75 |
+| Excedente sobre o acaso (p.p.)  | 37,71 | 38,93 |
+| Lift                            |  1,87 |  1,89 |
+
+: Presença de candidaturas previamente competitivas no Top-NECr. Razões nacionais de somas, com crédito fracionário nos empates. Fonte: elaboração própria com base nos resultados de focalização do atlas. {#tbl-focalizacao-previa}
+
+Os lifts de 1,87 e 1,89 indicam uma presença de competitivos prévios no núcleo superior à esperada pelo seu tamanho e pela composição das listas. A pequena variação entre eleições sugere persistência dessa associação durante a ampliação do conjunto financiado. Os resultados são compatíveis com uma distribuição que prioriza credenciais eleitorais anteriores, embora não revelem diretamente os critérios deliberados pelas lideranças.
+
+#### Histórico eleitoral e participação nos recursos partidários
+
+A análise do Top-NECr identifica a presença de candidatos com credenciais anteriores no núcleo. Os modelos fracionários aprofundam essa questão ao examinar a parcela dos recursos recebida por cada candidatura. Seguindo @papke1996, a variável dependente é a participação individual no total de recursos partidários da nominata, definida no intervalo $[0,1]$.
+
+A estimação utiliza GLM com família binomial e ligação logit, com erros-padrão agrupados por nominata. Os modelos são estimados separadamente para 2018 e 2022, e os resultados são apresentados como efeitos marginais médios, em pontos percentuais. As variáveis de interesse contabilizam vitórias anteriores por cargo; a especificação também inclui a proporção de votos na eleição anterior e controles de contexto eleitoral.
+
+<!-- Conferência pendente herdada do capítulo original: a seção dos modelos informa histórico desde 2002, enquanto a base de competitividade remonta a 1998. Não se presume aqui que as janelas sejam idênticas. Conferir a amostra, a janela e a especificação no script antes de finalizar a descrição de replicação. Os resultados abaixo e a figura são os já reportados, sem reestimação. -->
+
+A @fig-reg-frac apresenta as estimativas já reportadas no capítulo. As vitórias anteriores estão positivamente associadas à participação esperada nos recursos. Para deputado federal e estadual, uma vitória adicional corresponde, aproximadamente, a diferenças de seis e cinco pontos percentuais em 2018, e de três e dois pontos percentuais em 2022, respectivamente. As estimativas para governador e senador são maiores e apresentam maior incerteza.
+
+![Associações entre histórico eleitoral e participação nos recursos partidários: efeitos marginais médios dos modelos fracionários.](../figs/cap3_regressao_fracionaria.png){#fig-reg-frac fig-align="center" width="100%"}
+
+A proporção de votos obtida anteriormente também apresenta associação positiva com o financiamento, segundo os resultados reportados. Essas evidências convergem com a presença de competitivos no Top-NECr: credenciais anteriores estão relacionadas tanto à inclusão no conjunto priorizado quanto à parcela de recursos recebida. Os efeitos marginais descrevem associações condicionais; não identificam o efeito causal de uma vitória anterior. Sua comparação entre eleições também deve considerar que a parcela individual é medida em nominatas de tamanhos diferentes.
+
+#### Eleitos entre os candidatos priorizados
+
+A correspondência com os resultados eleitorais acrescenta uma avaliação posterior da prioridade financeira. O Top-NECr incluiu 86,74% dos eleitos em 2018 e 92,63% em 2022. O benchmark foi recalculado em cada eleição, preservando o tamanho do núcleo e a composição de cada lista: as coberturas esperadas foram 43,78% e 43,75% (@tbl-cobertura-eleitos). A proximidade entre esses valores é um resultado do cálculo, e não a imposição de uma referência única.
+
+| Medida                          |  2018 |  2022 |
+|:--------------------------------|------:|------:|
+| Eleitos                         |   513 |   513 |
+| Posições Top-NECr               | 2.318 | 3.824 |
+| Cobertura observada (%)         | 86,74 | 92,63 |
+| Cobertura esperada ao acaso (%) | 43,78 | 43,75 |
+| Excedente sobre o acaso (p.p.)  | 42,97 | 48,88 |
+| Lift                            |  1,98 |  2,12 |
+| Precisão (%)                    | 19,20 | 12,43 |
+
+: Cobertura e precisão dos eleitos no Top-NECr. As posições incluem todas as nominatas financiadas; a cobertura mantém todos os eleitos no denominador. Fonte: elaboração própria com base nos resultados de focalização do atlas. {#tbl-cobertura-eleitos}
+
+A cobertura aumenta mesmo quando confrontada com o benchmark que incorpora o tamanho de cada núcleo. O lift passa de 1,98 para 2,12: a quantidade de eleitos no Top-NECr equivale a aproximadamente duas vezes a esperada por sorteio dentro das listas. Isso mostra que a correspondência observada não se resume à inclusão de mais posições no ranking.
+
+A precisão, porém, diminui de 19,20% para 12,43%. O conjunto ampliado incorpora uma parcela maior dos eleitos e também mais candidatos que não vencem. Portanto, o aumento da cobertura não significa que uma proporção maior das candidaturas priorizadas tenha sido eleita. Cobertura e precisão descrevem aspectos distintos da correspondência entre financiamento e representação.
+
+Essa distinção também ajuda a interpretar a escala do financiamento. Entre listas financiadas com eleitos, a média de NECr por eleito passa de 2,13 para 3,98. Esse cálculo exclui 486 nominatas financiadas sem eleitos em 2018 e 441 em 2022. Ele mostra que a amplitude efetiva frequentemente supera a representação obtida, mas não identifica quais candidatos conquistaram as cadeiras; essa identificação é fornecida pela cobertura.
+
+A comparação por magnitude revela uma mudança adicional (@tbl-cobertura-magnitude). Em 2018, a cobertura agregada diminui de 93,02% nos distritos pequenos para 88,35% nos médios e 81,49% nos grandes. Em 2022, fica em 94,19%, 90,06% e 93,84%, respectivamente. A correspondência deixa, assim, de diminuir sistematicamente com a magnitude.
+
+| Magnitude distrital | Observada 2018 (%) | Esperada 2018 (%) | Observada 2022 (%) | Esperada 2022 (%) |
+|:--------------|--------------:|--------------:|--------------:|--------------:|
+| Pequena (8–12) | 93,02 | 62,07 | 94,19 | 65,23 |
+| Média (16–31) | 88,35 | 42,75 | 90,06 | 37,56 |
+| Grande (39–70) | 81,49 | 33,30 | 93,84 | 35,66 |
+
+: Cobertura dos eleitos no Top-NECr por magnitude. Razões de somas dos eleitos em cada grupo; o benchmark preserva o sorteio dentro das nominatas. Fonte: elaboração própria com base nos resultados do atlas. {#tbl-cobertura-magnitude}
+
+Em todas as magnitudes, a cobertura observada supera a esperada. Essa associação não demonstra que as lideranças anteciparam perfeitamente os resultados: os próprios recursos podem contribuir para a eleição, e características dos candidatos podem favorecer simultaneamente o acesso ao financiamento e aos votos. O exercício descreve a correspondência entre prioridade financeira e representação obtida, sem identificar separadamente esses processos.
+
+## Discussão: ampliação do financiamento e focalização persistente
+
+As três dimensões permitem articular os resultados sem reduzir a coordenação à concentração máxima. A amplitude aumenta: as nominatas financiadas são maiores, o número de competitivos cresce no agregado e o NECr se eleva. A concentração relativa apresenta uma mudança mais moderada e sensível à medida de agregação. A focalização persiste: o núcleo contém candidatos com credenciais anteriores e futuros eleitos em proporções superiores às esperadas por sorteio dentro das listas.
+
+O resultado central é a coexistência de núcleos financeiros mais amplos com elevada correspondência eleitoral. Em 2022, o Top-NECr abrange uma parcela maior dos eleitos, mas uma parcela menor de suas próprias posições é ocupada por vencedores. A interpretação substantiva deve incorporar ambos os resultados. O financiamento seletivo pode sustentar mais candidaturas relevantes sem produzir correspondência individual perfeita entre prioridade e eleição.
+
+Essas evidências são consistentes com o argumento de que os partidos organizam a competição por meio da diferenciação financeira. A composição das nominatas estabelece o universo da seleção; a distribuição de recursos delimita a prioridade observada; e o histórico eleitoral ajuda a caracterizar quem recebe essa prioridade. A associação com os eleitos acrescenta uma avaliação posterior, sem substituir as referências anteriores à campanha.
+
+A comparação ocorre em ambientes institucionais diferentes, como discutido no atlas. A interpretação de uma adaptação partidária às condições de 2022 é plausível, mas a comparação entre dois pleitos não isola os mecanismos responsáveis pela expansão. Também permanecem os limites da bancada como referência de perspectivas eleitorais e da unidade partidária diante das formas de associação entre legendas. Esses limites recomendam interpretar os resultados como padrões de alocação observados, sem atribuir a cada mudança institucional um efeito identificado.
+
+Por fim, os totais de recursos acumulados durante a campanha não esclarecem quando a diferenciação financeira se estabelece. A mesma distribuição final pode resultar de prioridade definida no início da disputa ou de ajustes posteriores à evolução das candidaturas. O capítulo seguinte examina o momento dos repasses para investigar se a priorização também se expressa na antecipação dos recursos e, assim, aprofundar a análise do processo de coordenação intrapartidária.

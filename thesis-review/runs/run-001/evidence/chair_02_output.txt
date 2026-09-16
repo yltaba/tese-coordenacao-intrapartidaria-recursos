@@ -1,0 +1,3 @@
+vitórias 2014 (cargos estaduais/federais): 1626 | sem CPF ligado: 0 | CPF < 11 díg.: 457
+2018 | candidaturas com vitória em 2014: 481 | não competitivas na base: 29 | destas CPF iniciado em 0: 29 | no núcleo (R>0): 27
+2022 | candidaturas com vitória em 2014: 408 | não competitivas na base: 6 | destas CPF iniciado em 0: 5 | no núcleo (R>0): 6

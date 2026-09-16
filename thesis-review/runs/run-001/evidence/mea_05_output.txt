@@ -1,0 +1,18 @@
+Top-NECr x competitivos, por definição da flag:
+  ano        flag    G  sum_k        H  cobertura  precisao  cob_acaso   lift
+2018    comp_rrd  886   2318  716.750     0.8090    0.3092     0.4319 1.8731
+2018  comp_texto  907   2318  731.750     0.8068    0.3157     0.4301 1.8759
+2018 comp_cod_ok 1017   2318  766.550     0.7537    0.3307     0.4151 1.8159
+2022    comp_rrd 1287   3824 1064.115     0.8268    0.2783     0.4375 1.8898
+2022  comp_texto 1337   3824 1085.282     0.8117    0.2838     0.4360 1.8619
+2022 comp_cod_ok 1554   3824 1189.332     0.7653    0.3110     0.4323 1.7703
+
+Competitivos (candidato_competitivo) por lista:
+ 2018: todas as listas: média=1.031 mediana=1 (n=859) | financiadas: média=1.113 mediana=1 (n=786) | competitivos em listas sem recursos=11
+ 2022: todas as listas: média=1.810 mediana=1 (n=711) | financiadas: média=1.980 mediana=1 (n=648) | competitivos em listas sem recursos=4
+
+Composição da lista no boletim (ds_composicao_coligacao):
+ 2018: listas partido x UF = 859; em coligação/federação com >1 partido = 731 (85.1%); candidaturas nessas listas = 4975 de 7630
+   exemplos: ['PT / PSB / PHS / PC DO B / DC', 'PP / PSDB / PSD / MDB / DEM / SOLIDARIEDADE / PTC / PMN / PR / PTB / PPS', 'PP / PSDB / PSD / MDB / DEM / SOLIDARIEDADE / PTC / PMN / PR / PTB / PPS', 'PSL / PATRI / PSC', 'PT / PSB / PHS / PC DO B / DC']
+ 2022: listas partido x UF = 711; em coligação/federação com >1 partido = 178 (25.0%); candidaturas nessas listas = 1435 de 9675
+   exemplos: ['FEDERACAO PSDB CIDADANIA(PSDB/CIDADANIA)', 'FEDERACAO BRASIL DA ESPERANCA - FE BRASIL(PT/PC DO B/PV)', 'FEDERACAO PSDB CIDADANIA(PSDB/CIDADANIA)', 'FEDERACAO PSOL REDE(PSOL/REDE)', 'FEDERACAO BRASIL DA ESPERANCA - FE BRASIL(PT/PC DO B/PV)']

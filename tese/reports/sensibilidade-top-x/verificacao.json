@@ -1,0 +1,8 @@
+{
+  "html": "OK",
+  "graficos_interativos": 2,
+  "links_validos": 20,
+  "verificacoes_analiticas": 44748,
+  "conferencias": "Integridade das fontes; grade completa; ausência de duplicatas; síntese e faixas marginais reconciliadas.",
+  "revisao_visual": "PNGs das duas figuras inspecionados; navegador indisponível para inspeção visual do HTML."
+}

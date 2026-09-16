@@ -1,0 +1,58 @@
+candidatos: chaves UF duplicadas antes do dedup: 96620 | chaves municipais duplicadas: 9738
+taxa de CPF encontrado por cargo:
+cargo
+DEPUTADO DISTRITAL    0.9626
+DEPUTADO ESTADUAL     0.9547
+DEPUTADO FEDERAL      0.9538
+GOVERNADOR            0.9677
+PREFEITO              0.9578
+SENADOR               0.9714
+VEREADOR              0.9426
+QE dep. federal: validos/eleitos vs quociente_eleitoral.csv — desvio relativo max: 0.2013  (n = 189 ) | mediana: 0.0
+
+===== 2018 (N=7630) =====
+competitivo rrd (candidato_competitivo): 886
+competitivo TEXTO (como escrito, CPF correto): 907 | vitória: 694 | QE prop.: 841
+competitivo CÓDIGO (regras do código, CPF correto): 1017 | vitória: 702 | QE: 1005
+competitivo CÓDIGO (regras do código, CPF keep-first como gerar_rrd): 889 | vitória: 650 | QE: 873
+cruzamento rrd x texto:
+ comp_texto  False  True 
+comp_rrd                
+False        6694     50
+True           29    857
+só rrd: 29 | só texto: 50
+cruzamento rrd x código-CPF-correto: iguais = 7455 de 7630 | só rrd: 22 | só cod_ok: 153
+cruzamento rrd x código-CPF-keepfirst: iguais = 7625 | só rrd: 1 | só kf: 4
+-- componentes --
+ vitória prefeito: rrd = 19 | CPF correto = 133 | concordam = 7480 | só rrd = 18 | só correto = 132
+ vitória dep. distrital (fora do texto): 11 | competitivas só por isso: 7
+ QE>=10% majoritário gov/sen/pref (fora do texto): 335 | competitivas só por isso: 103
+ QE prop. rrd = 869 | QE prop. CPF correto = 841 | QE código CPF correto = 1005
+ vitória maior rrd = 651 | vitória código CPF correto = 702
+ competitivas com vitória prévia FEDERAL (rrd) = 433
+
+===== 2022 (N=9675) =====
+competitivo rrd (candidato_competitivo): 1287
+competitivo TEXTO (como escrito, CPF correto): 1337 | vitória: 930 | QE prop.: 1222
+competitivo CÓDIGO (regras do código, CPF correto): 1554 | vitória: 936 | QE: 1543
+competitivo CÓDIGO (regras do código, CPF keep-first como gerar_rrd): 1287 | vitória: 823 | QE: 1278
+cruzamento rrd x texto:
+ comp_texto  False  True 
+comp_rrd                
+False        8286    102
+True           52   1235
+só rrd: 52 | só texto: 102
+cruzamento rrd x código-CPF-correto: iguais = 9348 de 9675 | só rrd: 30 | só cod_ok: 297
+cruzamento rrd x código-CPF-keepfirst: iguais = 9671 | só rrd: 2 | só kf: 2
+-- componentes --
+ vitória prefeito: rrd = 35 | CPF correto = 222 | concordam = 9426 | só rrd = 31 | só correto = 218
+ vitória prefeito em 2020 (fora da janela do texto): 7 | dessas, competitivas só por isso: 1
+ vitória dep. distrital (fora do texto): 10 | competitivas só por isso: 3
+ QE>=10% majoritário gov/sen/pref (fora do texto): 610 | competitivas só por isso: 214
+ QE prop. rrd = 1276 | QE prop. CPF correto = 1222 | QE código CPF correto = 1543
+ vitória maior rrd = 824 | vitória código CPF correto = 936
+ competitivas com vitória prévia FEDERAL (rrd) = 567
+
+  ano    N  comp_rrd  comp_texto  comp_codigo_cpf_ok  comp_codigo_keepfirst  so_rrd  so_texto  vit_prefeito_rrd  vit_prefeito_ok  vit_prefeito_2020  vit_distrital  qe_majoritario  qe_rrd  qe_prop_ok
+2018 7630       886         907                1017                    889      29        50                19              133                  0             11             335     869         841
+2022 9675      1287        1337                1554                   1287      52       102                35              222                  7             10             610    1276        1222

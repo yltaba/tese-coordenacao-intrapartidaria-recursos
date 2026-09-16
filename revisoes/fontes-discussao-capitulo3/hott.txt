@@ -1,0 +1,1805 @@
+=== PDF PAGE 1 ===
+Original Research Article
+Party Politics
+2023, Vol. 0(0) 1–17
+© The Author(s) 2023
+Article reuse guidelines:
+sagepub.com/journals-permissions
+DOI: 10.1177/13540688231155428
+journals.sagepub.com/home/ppq
+Length of candidate lists and political
+careers: Quasi-experimental evidence from
+Brazil
+Henrique Augusto Campos Fernandez Hott
+University of São Paulo, São Paulo, Brazil
+Naercio Menezes-Filho
+Insper and University of São Paulo, São Paulo, Brazil
+Abstract
+This paper provides causal estimates of the effects of increases in the size of candidate lists on the political careers of
+newcomers to the political arena. We explore an exogenous discontinuity in district magnitude that allows parties to
+expand their candidate lists in the Brazilian open-list local elections and ﬁnd that the additional candidacies are allocated to
+weaker candidates, mainly newcomers, who end up occupying a signiﬁcant share of the additional seats. We also ﬁnd that
+the electoral experience provided by the additional candidacies increases the number of newcomers elected in their second
+attempt.
+Keywords
+candidate lists, open list proportional representation, political entry, party selection, regression discontinuity
+Introduction
+A growing literature has shown the importance of leaders
+for our society (e.g. Besley et al., 2011; Jones and Olken,
+2005). In practice, although politicians are chosen by voters,
+in most cases a selection is made by political parties “that act
+as gate-keepers to aspiring candidates” (Buisseret, 2022: 1).
+In other words, political parties shape the possible choices
+for voters, inﬂuence the paths of those who decide to build a
+political career and, indirectly, the interests most likely to be
+heard (Crotty, 1968). Moreover, their choice may not co-
+incide with the voter’s preference for candidates (Casey
+et al., 2021), and they may even resort to unwanted oli-
+garchical practices such as nepotism (Michels, 1915).
+In this article we shed new light on the parties’ selection
+process, which was once labeled the “secret garden of pol-
+itics” (Gallagher and Marsh, 1988). We study a case of open-
+list proportional representation (OLPR), using data for
+Brazilian local legislative elections in 2012 and 2016. These
+elections are the traditional launching pad for a political
+career in Brazil (Lima and Barreto, 2014; Messias, 2019;
+Miguel, 2003; Noll and Leal, 2008). To improve our un-
+derstanding of party selection, we examine what happens
+when parties can include more candidates on their party lists.
+Who are the candidates who will occupy the additional seats
+(henceforth “marginal candidates”)? How can the availability
+of longer lists affect the political careers of newcomers?
+These are difﬁcult questions to answer because there are
+several empirical challenges. First, the number of candi-
+dates is deﬁned by the political parties themselves, which
+raises concerns about endogeneity. Second, unlike a closed-
+list proportional representation systems (CLPR) where the
+ranking of candidates is explicit, in an open-list system we
+observe only the candidates selected by the party, but not
+their ranking or who was left out. We use Brazilian mu-
+nicipal elections as our laboratory, as they offer a quasi-
+experimental variation in the maximum list size that allows
+us to overcome the above-mentioned challenges.
+Paper submitted 25 July 2022; accepted for publication 17 January 2023
+Corresponding author:
+Henrique Augusto Campos Fernandez Hott, University of São Paulo, São
+Paulo 05508-010, Brazil.
+Email: hhott@alumni.usp.br
+
+
+=== PDF PAGE 2 ===
+Our research design explores the fact that in Brazil the
+maximum size of party lists is a function of the district
+magnitude, which in turn is a non-linear function of the
+municipalities’ population. Therefore, we use a Regression
+Discontinuity Design (RDD) approach that estimates in the
+effects of the population discontinuities on several out-
+comes, such as the number of candidates, list size, list
+composition and election outcomes. Our paper can be seen
+as the ﬁrst attempt at using causal inference to understand
+the effect of increases in maximum allowed size of party
+lists, on election results and the future career of newcomers
+to the political arena.
+In Brazil, party leaders face a trade-off as they com-
+pose their candidate lists (Cheibub and Sin, 2020). On the
+one hand, they target candidates with the best potential to
+maximize their total number of votes, since the number of
+seats a party obtains depends on the sum of the votes of its
+candidates. On the other hand, parties avoid including too
+many competitive candidates so as to prevent the eruption
+of an internal war. Therefore, our hypothesis is that
+parties will choose intermediate candidates, generating an
+inverted-U-shaped relationship between expected voting
+and the probability of being selected as the marginal
+candidate.
+We split the candidates into two groups: incumbents and
+other politicians who have already won an election
+(“winners”), which are deﬁned as “strong”, while new-
+comers and veteran politicians who have never won an
+election (“losers”) are grouped as “weak”. According to our
+hypothesis, strong candidates should not occupy marginal
+seats, as they are candidates with high potential for at-
+tracting votes away from the local party leaders. In addition,
+the weakest candidates are not observed, as they are not
+even selected to compete for the marginal seats. Our ex-
+pectation is that these will be allocated to “intermediate”
+candidates, those with an electoral potential that is big
+enough to contribute to the party, but not too big to threaten
+the position of the party leaders.
+Our ﬁndings show that, as population increases dis-
+continuously, the number of candidates running for ofﬁce
+increases by about 6 (or by 6% of the total number of
+candidates). This increase is driven by the expansion in
+party lists, with no impact on the number of lists. Con-
+ﬁrming our expectations, almost all the marginal candi-
+dates on party lists are “weak” and among them more than
+70% are newcomers. Looking at the composition of the
+extra seat after the election, there is a 65–80% chance that
+it will be occupied by a “weak” candidate, more likely a
+newcomer. Thus, the increase in the list size not only
+increases the participation of newcomers, but also their
+chance of winning a seat. With regards to the medium-
+term effects, our estimates indicate that the chance of a
+newcomer who was defeated in t being elected in t + 4 is
+signiﬁcantly higher in the treated municipalities (roughly
+20% increase). A similar gain is not seen for the other
+groups of candidates, which indicates that the experience
+provided by the ﬁrst election is important for electoral
+success (Haime et al., 2022). Our estimates are robust to
+several robustness tests. In terms of minorities, we ﬁnd a
+positive impact on women’s participation, but only due to
+the institutional requirement of a gender quota, which
+suggests that parties act as “minimal compliers” (Lucardi
+and Micozzi, 2022). We ﬁnd no effects on the candidacies
+of blacks. Moreover, no impact was identiﬁed on the
+election of women and blacks.
+This study is related to several strands of the literature. Our
+results contribute to the debate on the degree of intra-party
+competition in an OLPR system. Although some papers argue
+that in this electoral system there is a high level of intra-party
+competition
+(Ames,
+1995;
+Power,
+1991),
+our
+quasi-
+experimental evidence aligns with recent papers which
+challenge this view, showing that intra-party competition
+system in an OLPR is constrained (Cheibub and Sin, 2020;
+Zucco and Power, 2021). Differently from these studies,
+however, our focus is on the lower government level
+(councilors) and not that of the federal level (deputies). Our
+results also challenge the conventional view that Brazilian
+parties are of little relevance, given their strategic control over
+lists. In this sense, we also speak to the literature that studies
+the composition of party lists (Buisseret, 2022; Ceyhan, 2018;
+Cox et al., 2021; Svit´akov´a and Solt´es, 2020), more specif-
+ically those referring to OLPR in a weakly institutionalized
+party system (e.g. Samuels, 2003; Scully, 1995).
+This paper adds to the growing literature on political
+selection which investigates how the institutional envi-
+ronment shapes the quality of the political class, placing
+political parties at the center of the decision-making
+process (Galasso and Nannicini, 2011, 2017; Mattozzi
+and Merlo, 2015). To our knowledge, this is the ﬁrst paper
+relating the size of the candidate lists to the party’s se-
+lection of candidates and to entering a political career,
+using an exogenous variation in list size, which allows
+one to identify causal effects. Our results indicate that the
+list size impacts the composition of candidate lists, fa-
+voring the entry of less competitive candidates. On an-
+alyzing the starting point of a political career in Brazil,
+our analysis contributes to the literature investigating
+entrance to a political career, by showing that the extra
+seat allows more newcomers to enter politics, and even to
+be elected, whether on their ﬁrst attempt or their second
+(Fox and Lawless, 2005; Gulzar, 2021; Schlesinger,
+1966).
+The study begins describing the data and institutional
+framework. Then we provide a brief overview of the
+composition of candidate lists and candidacy hierarchy. In a
+subsequent section empirical strategy is discussed. Then we
+presents the estimation results and conclude with the
+broader implications of our ﬁndings.
+2
+Party Politics 0(0)
+
+
+=== PDF PAGE 3 ===
+Institutional framework and data
+This section brieﬂy describes the main features of Brazil’s
+electoral system. We then discuss how the size of can-
+didate lists is determined in Brazilian municipalities.
+Finally, we present the data used, as well as some de-
+scriptive statistics.
+Municipal elections and seat distribution in Brazil
+Brazil is a federal republic in a presidential system, with
+three levels of government, namely federal, state of which
+there are 26 (plus the Federal District, where the capital
+Bras´ılia is located), and more than 5,500 municipalities. Just
+as at state and federal levels, municipalities are governed by
+an executive and a legislature, in this case a mayor and
+councilors, respectively. Municipal elections take place
+every 4 years and electors vote for a mayor (prefeito) and a
+councilor (vereador).1
+In the case of the legislature, according to Electoral Law
+9,504/1997, each party proposes an open list of up to 1.5*M
+candidates, where M is the district magnitude - that is crucial
+for our identiﬁcation strategy. For municipalities with fewer
+than 100,000 voters, parties can form coalitions and then
+jointly present a list of 2*M candidates, a strategy adopted
+by most parties in Brazil, especially small ones (Calvo et al.,
+2015).2 To simplify the exposition, we will not distinguish
+these lists, naming them only as candidate lists.
+Voters cast a single vote either for the entire party list
+(list-vote) or for a party candidate (preferential vote). These
+votes are pooled and the allocation of seats takes place in
+two steps: ﬁrst, based on the electoral quotient (a district’s
+total valid votes divided by district magnitude) and on the
+party quotient (a party’s total valid votes divided by elec-
+toral quotient), the seats are allocated between the parties.
+Second, the remaining seats are allocated based on the
+average criterion (a party’s total valid votes + number of
+vacant seats won by the average criterion + 1). After de-
+ﬁning the allocation between parties, the allocation within
+parties are made. Brazil uses an open-list system, so that if
+the party wins N seats, they are allocated to the N candidates
+most voted by the party. There is no limit to the number of
+terms a councilor can serve. In Appendix A the distribution
+of seats is exempliﬁed by a hypothetical election.
+In addition to being the basis of the political hierarchy in
+Brazil, local councils are in many cases the start of poli-
+ticians careers (Lima and Barreto, 2014; Messias, 2019;
+Miguel, 2003; Noll and Leal, 2008), which is why they
+receive special attention in the literature.3 As deﬁned by the
+Brazilian Constitution, it is up to councilors to submit and
+approve municipal laws, and monitor the work of the ex-
+ecutive. In addition, it is common for them to respond
+directly to voters’ demands, whether personal or community
+(Altmann, 2010; Lopez, 2004).
+Populational discontinuities and size of
+candidate lists
+The basis of our identiﬁcation strategy is the way in which
+maximum size of candidate lists is determined. As we have
+seen, they are deﬁned by the magnitude of the district. The
+size of a municipal council was established by Constitutional
+Amendment 58/2009, known as the Councilors’ Constitu-
+tional Amendment Proposal. From the 2012 municipal
+elections onwards, 24 population brackets were established
+with their respective municipal council size caps. The ﬁrst
+group comprises small municipalities of up to 15,000 in-
+habitants with a limit of up to nine councilors, while the last
+bracket (55 councilors) is for municipalities with more than
+eight million inhabitants – which applies only to the city of
+São Paulo. With emphasis on the ﬁrst six discontinuities, with
+15,000, 30,000, 50,000, 80,000, 120,000 and 160,000 in-
+habitants, the council size cap increases to 11, 13, 15, 17,
+19 and 21, respectively.4
+As the maximum size of candidate lists is twice the
+number of local councilors, for the aforementioned dis-
+continuities the cap will be 18, 22, 26, 30, 34, 38 and 42.5
+Table 1 summarizes the mapping of population intervals and
+the constitutional cap for candidate lists size. This table also
+shows that many parties/coalitions chose to have less
+candidates than the constitutional cap. Our study analyzes
+the most recent population rule, established for the 2012 and
+2016 elections.
+One concern involving these discontinuities refers to
+simultaneity with any other population-based policies
+(Eggers et al., 2018). This problem occurs at the population
+threshold of 50,000 inhabitants, when there is both an in-
+crease in lists size (from 26 to 30) and an increase in
+councilors’ wage cap (Ferraz and Finan, 2009), which could
+lead to an identiﬁcation problem. To overcome this prob-
+lem, we also assess the impact of list size excluding the
+municipalities around this cutoff.
+Data description
+Our analysis covers two legislatures: 2013–2016 (elected in
+2012) and 2017–2020 (elected in 2016). The main outcome
+variable, the number of candidates by type, comes from the
+TSE and covers all candidates and results for the 2012 and
+2016 municipal elections.6 In addition to electoral results,
+our database includes information on the party, schooling
+levels, age, gender, self-reported wealth and campaign
+expenditures.
+At
+municipal
+level,
+demographic
+data
+from
+the
+2010 Census is used. In addition, the mean wage is mea-
+sured using data from the Ministry of Labor (RAIS). In
+addition, two identiﬁers are available: CPF (Cadastro de
+Pessoas F´ısicas), a national citizen identiﬁcation number,
+and voter registration. In order to access candidates’ election
+Campos Fernandez Hott and Menezes-Filho
+3
+
+
+=== PDF PAGE 4 ===
+records, candidacy records for the 1994, 1998, 2000, 2002,
+2004, 2006, 2008, 2010, 2012 and 2014 elections are used.
+In order to carry out this search, both CPF and voter reg-
+istration cards were used and, when one was not available,
+the other was used to identify the candidate. The political
+spectrum of the candidates’ parties is deﬁned according to
+Sakurai and Menezes-Filho (2008) and Rodrigues (2009)
+and through information from the parties’ own websites.
+Also available from the TSE are data on all political party
+afﬁliates in Brazil, containing afﬁliate’s name, voter reg-
+istration number (electoral title), party and municipality of
+afﬁliation, as well as the date of afﬁliation and disafﬁliation
+(if applicable).
+The candidates’ election record allows for the identiﬁ-
+cation of four major groups: (i) newcomers, who never ran
+for election; (ii) losers, who have already run for an election,
+but who never won; (iii) winners who have already run for
+an election and won, but do not have a current mandate, so
+they are not incumbents; (iv) incumbents, who are the
+current councilors.
+Figure 1 combines TSE data for the 2012 and
+2016 municipal elections with IBGE population estimates
+of 2011 and 2015, to depict the total number of candidates
+(Panel A) and the average size of candidate lists by mu-
+nicipality (Panel B).7 Descriptive statistics are presented in
+Table B.1 in the Appendix.
+OLPR, list composition and
+candidacy hierarchy
+Candidate lists in Brazil
+One of the main distinctions between electoral systems is
+the division between majoritarian elections and propor-
+tional representation. This is based on the principle that
+seats are allocated between parties in proportion to the
+share of votes they receive. Proportional representation
+systems are diverse as to the way in which the n seats of
+the parties are allocated among their candidates. At one
+extreme is the CLPR, where before elections parties rank
+candidates in their list, so that voters vote for the parties
+and the top candidates are those who win the seats. At the
+other extreme is the OLPR system, in which voters cast a
+ballot for an individual candidate and the number of votes
+determines the top party candidates who will win those
+seats.
+It is widely accepted that in open-list systems the per-
+sonal reputation of candidates is more relevant than in a
+closed-list system (Ames, 1995; Carey and Shugart, 1995;
+Sartori, 1976). The OLPR is the system prevailing in Brazil
+and seems to be characterized both by individualism and an
+underdeveloped
+party
+system
+(e.g.
+Kinzo,
+2005;
+Mainwaring, 1991; Scully, 1995; Samuels, 1997, 2003),
+with a high level of fragmentation and party switching
+(Desposato, 2006). The combination of individualism and
+weak political parties seems to imply campaigns focused on
+candidates, with a high level of intra-party competition
+(Ames, 1995; Power, 1991).
+Table 1. List sizes and population brackets.
+Bracket
+Max
+Mean
+Observations
+0
+< Population ≤
+15,000
+18
+13.37
+6,664
+15,001
+< Population ≤
+30,000
+22
+16.03
+2,262
+30,001
+< Population ≤
+50,000
+26
+18.16
+947
+50,001
+< Population ≤
+80,000
+30
+20.37
+511
+80,001
+< Population ≤
+120,000
+34
+22.36
+293
+120,001
+< Population ≤
+160,000
+38
+23.32
+114
+160,001
+< Population ≤
+200,000
+42
+24.58
+66
+Notes: Table describes the maximum and mean number of candidates in
+candidate list for municipalities in each population bracket.
+(a)
+(b)
+Figure 1. Number of candidates and list size by population.
+Notes: Number of candidates and list size around the cutoffs. (a) number
+of candidates; (b) list size and the constitutional cap on list size. The data
+refer to the 2012 and 2016 elections. The vertical lines represent
+population cutoffs.
+4
+Party Politics 0(0)
+
+
+=== PDF PAGE 5 ===
+However, recent studies have challenged the view that
+Brazilian political parties are of little relevance and that
+intra-party competition is rampant (Cheibub and Sin, 2015,
+2020; Silotto, 2019; Zucco and Power, 2021). First, al-
+though the open-list system reduces the power of parties vis-
+`a-vis the closed-list system, lists in Brazil are not as open as
+in other OLPRs, as parties act as gatekeepers, centralizing
+both the decision on the composition of lists and the al-
+location of campaign resources (Braga, 2008; Guarnieri,
+2004; Meira, 2020; Ribeiro, 2013). Second, both candidates
+and parties want to limit internal competition, as candidates
+do not want to face difﬁculties in elections, such as disputes
+for the constituency and for the party’s resources, while the
+parties want to prevent good candidates from switching to
+other parties which might offer them better opportunities
+(Carroll and Nalepa, 2020; Cheibub and Sin, 2015, 2020;
+Mershon, 2020; Silotto, 2019). Thus, lists are strategically
+constructed to prevent intra-party competition (Cheibub and
+Sin, 2015).
+Parties face a trade-off when composing their lists. On
+the one hand, they want to have competitive candidates to
+gain more votes and thus more seats. But, on the other hand,
+parties must avoid including many competitive candidates
+so as to prevent the eruption of an internal war. To solve this
+internal conﬂict, one strategy would be to estimate how
+many seats they expect to win and include in their ﬁnal list a
+number of competitive candidates close to that number
+(Cheibub and Sin, 2015). The remaining seats would be
+occupied by less competitive candidates, who can still
+obtain a signiﬁcant number of votes to contribute to the
+party reaching the electoral quotient (total valid votes di-
+vided by the number of seats).
+Therefore, the ﬁrst step would be to ﬁnd candidates with
+great electoral potential to guarantee access to the legisla-
+ture, a procedure that has been widely documented in
+studies
+on
+political
+recruitment
+in
+Brazilian
+parties
+(Altmann, 2010; Bolognesi, 2013; Braga and Amaral, 2013;
+Braga and Veiga, 2009; Marques, 2007). There is a vast
+literature highlighting the importance of political experience
+(i.e., ofﬁce-holding experience and incumbency) for a
+candidate’s electoral success. In particular, candidates who
+have already been successfully tested at the polls have the
+greatest electoral potential (Cirone et al., 2021; Fiva and
+Røhr, 2018), especially in Brazil, given the high levels of
+incumbency advantage of candidates in the legislature
+(Avelino et al., 2022; Meira, 2020; Meireles, 2019). In
+addition to incumbents, candidates with ofﬁce-holding
+experience (winners) also have electoral advantages, even
+when running for different political ofﬁces (multi-ofﬁce
+incumbency advantage, see Magalhaes and Hirvonen
+(2015)). Thus, such candidates “tend to be favored by
+the political parties when they face the ﬁnal ﬁlter of the
+elections” (Perissinotto and Bolognesi, 2010: 12). Such
+evidence suggests the primacy of incumbents and winners
+during the composition of party lists, so, as suggested by
+Cheibub and Sin (2020), we will classify them as strong
+candidates.
+Moreover, candidate experience is also positively cor-
+related with electoral success (Anagol and Fujiwara, 2016;
+Górecki and Kukołowicz, 2014). Haime et al. (2022) ﬁnds
+that the candidate experience may improve electoral success
+for some reasons: (i) they learn how to run campaign for
+political ofﬁce; (ii) it provides candidates with a network of
+politicians, donors and supporters who can help in subse-
+quent elections; (iii) it improves their visibility among the
+electorate. Cheibub and Sin (2020) also documents a good
+electoral performance of past unsuccessful candidates in
+Brazil, especially those who obtained a signiﬁcant vote in
+the past. Finally, the candidates with the least potential are
+those with no previous candidate experience, the so-called
+newcomers. To simplify the analysis, we will group losers
+and newcomers as weak candidates. Figure 2 summarizes
+the classiﬁcation of candidates according to their electoral
+experience.
+Candidacy hierarchy
+One way to ﬁnd out how parties compose their lists is by
+checking what happens when they are allowed to include
+more candidates on the party lists. Who will be the marginal
+candidates? As we have seen, parties are careful to prevent
+the entry of additional strong candidates, while it is inter-
+esting for them to include candidates who can contribute to
+increase the electoral quotient.
+If EðVÞ is the expected vote of a candidate, there must be
+a minimum expected vote ðEðVÞMinÞ so that for a vote lower
+than this value it is not worthwhile for the party to include
+the candidate on its list, as it could waste resources without
+making a relevant contribution. On the other hand, there is a
+maximum expected vote ðEðVÞMaxÞ beyond which the
+candidate becomes a threat to the current candidates. For
+example, in the 2008 municipal elections in the municipality
+of Pelotas, party leaders report that, while incumbents are
+almost automatically included in the list, the search for the
+electoral quotient means that the remaining seats are ﬁlled
+by candidates with some electoral potential, as long as these
+emerging candidates do not threaten the election of es-
+tablished candidates (Altmann, 2010).
+Thus, our expectation is that marginal candidates
+(i.e., those who are likely to occupy the additional seats) will
+have an intermediate electoral potential. This idea is il-
+lustrated in Figure 3, which shows that there is an inverted-
+U relationship between expected voting and the probability
+of being selected as the marginal candidate.
+If we consider that there are four types of candidates,
+incumbents (I), winners (W), losers (L) and newcomers (N),
+parties can rank candidates in accordance with their ex-
+pected votes. According to the previous discussion,
+Campos Fernandez Hott and Menezes-Filho
+5
+
+
+=== PDF PAGE 6 ===
+candidates with ofﬁce-holding experience (I and W) will
+have the greatest electoral potential, due to the multi-ofﬁce
+incumbency advantage, especially the I, as the literature on
+party recruitment in Brazil suggests. The third group in
+terms of electoral perspective is the L, while the lowest
+electoral potential is with the N candidates, who have not yet
+been tested at the polls. Additionally, the party may consider
+the registration of novice candidates as an investment in
+candidate experience, so a candidate N may be preferable to
+a candidate L. Thus, assume that the ordering of candidates
+according
+to
+their
+expected
+vote
+is
+such
+that
+EðVIÞ > EðVWÞ > EðVLÞ > EðVNÞ. If in the OLPR the party
+has a list of pre-candidates and orders them according to
+their potential votes, then the ﬁrst positions in the ranking
+must be overrepresented by the I type, and the ﬁnal positions
+by the L and N types.8 Cheibub and Sin (2020) ﬁnd that in
+the Brazilian Chamber of Deputies these last two groups
+make up the majority of the candidates, which should also
+be the case for elections for the municipal legislature.
+Using the terminology of Cirone et al. (2021) and Cox
+et al. (2021), there are three types of positions in the
+candidates ranking: (i) safe spots: the candidate is in-
+cluded in the list regardless of whether there are more
+available slots; (ii) hot spots: intermediate position, the
+candidate is on the margin to enter the ﬁnal list, but only if
+a few more slots are added; and, (iii) hopeless spots:
+lower rankings, candidates who would never enter the
+party’s ﬁnal list. Thus, on average, the I type should be in
+the safe spots as they have the greatest electoral potential,
+while the L and N types are over-represented in the
+hopeless spots.
+For example, consider a municipality with four coun-
+cilors, where the coalition ﬁlls the list with all possible slots
+(t). If, as Brazilian electoral legislation establishes, the
+maximum size of the candidate list is 2 times the number of
+councilors, then t = 8. Suppose there is an increase in the
+number of councilors to six, so that in the new list t0 = 12, so
+that four new candidates can be included in the ﬁnal list,
+occupying the hot spots. A hypothetical party list with
+17 pre-candidates is depicted in Figure 4. Note that, as
+described in the model, the ranking of candidates is cor-
+related to their expected votes, so that candidates of type I
+are on average better ranked, while N are in more mar-
+ginalized positions. In this example, 3/4 of the additional
+slots are ﬁlled by N, while the remaining 1/4 is ﬁlled by L. In
+short, the additional seat is not ﬁlled by the most com-
+petitive candidates because (1) as they are a priority on the
+party list, they will be on the ﬁnal list regardless of whether
+or not there are more seats; (2) the party wants to limit
+internal conﬂicts, so it allocates new seats to less com-
+petitive candidates.
+Our focus in this paper is to investigate the impact of an
+increase in the size of the lists on the composition of these
+lists, on the political career of newcomers and on election
+outcomes. We use a regression discontinuity (RD) ap-
+proach, to be described in the next section, which allows us
+to identify the appropriate counterfactual using the pop-
+ulation discontinuities that deﬁne the caps on size of can-
+didate lists.
+Econometric strategy
+RD design
+Our main objective is to identify the impact of the size of
+candidate lists on the composition of candidates available to
+voters. The institutional framework mandates that list size is
+determined by the council size, which is a non-linear
+function of the municipality population, that is, the maxi-
+mum list size changes discontinuously along the population
+thresholds. This exogenous source of variation induced by
+the institutional setup ﬁts into a RD design, which will allow
+us to identify the effect of interest.
+The RD design exploits the discontinuity in the assignment
+to the treatment to identify the causal effect (Imbens and
+Lemieux, 2008). The treatment assignment Ti,t is one if mu-
+nicipality i in election t fall above the cutoff, that is, increases
+the maximum size of the candidate list. If this increase is the
+Figure 2. Candidate Types By Experience.
+Notes: The solid lines represent the types of candidates analyzed
+throughout the paper.
+Figure 3. Candidate Strength and Selection Probability.
+Note: Relationship between expected voting and the probability of being
+selected as the marginal candidate.
+6
+Party Politics 0(0)
+
+
+=== PDF PAGE 7 ===
+only relevant factor for our outcomes that changes discon-
+tinuously at the populational thresholds, we can use the fol-
+lowing reduced-form speciﬁcation in the bandwidth (h) of the
+six cutoffs (c) to estimate the treatment effect
+Yi, t ¼ f ðPi, t1Þ þ βTi, t þ x0
+i, tγ þ δts þ δtc þ ui, t
+"Pi, t1 2 ½cð1  hÞ, cð1 þ hÞ; hf20%, 10%, 5%g
+(1)
+where f (.) is a ﬂexible function on normalized population
+(running variable) of municipality in t  1 (Pi,t1) and x
+0
+i, t is
+a vector of observed municipal characteristics. In our
+speciﬁcations f (.) follows a linear polynomial control
+(Gelman and Imbens, 2019). As Imbens and Lemieux
+(2008) suggests, we use a simple rectangular (or uni-
+form) kernel. Following Corbi et al. (2019), we also control
+for year-state ﬁxed effects (δts) to account for regional
+business cycles, and for year-cutoff ﬁxed effects to deal with
+different trends across municipalities of different sizes. The
+inference is based on heteroskedasticity-robust standard
+errors clustered at municipal level (ui,t). The β parameter
+estimate the impact of variations implied by the lists size
+caps on several outcomes, such as number of candidates,
+actual list sizes, list composition and council composition
+after the election.
+The main limitation of our empirical strategy is that, parallel
+to the increase in the size of the candidate lists, there is an
+increase in the magnitude of the district. Since it is not possible
+to evaluate the effects of district size and of candidate lists
+separately, as the maximum list size is a deterministic function of
+district magnitude close to the discontinuities, we can only
+evaluate the overall effect of discontinuity on the composition of
+marginal candidates. According to Lundell (2004) and Shomer
+(2014), there is no evidence that district magnitude impacts the
+candidate selection process, so we assume that the effects of
+district magnitude on the composition of the candidate list and
+political career are of second order (such as changing turnout
+(Lyytik¨ainen and Tukiainen, 2019), corruption (Britto and
+Fiorin, 2020) and expenditure (Avis et al., 2022)).
+To deal with the trade-off between bias and variance, we
+show estimations using different bandwidths. A narrow
+bandwidth uses only observations relatively close to
+thresholds, where local randomization of the treatment is
+most likely. As suggested by Litschig and Morrison (2013)
+and Corbi et al. (2019), we adopt relative bandwidths for
+each of the thresholds (h = 20%, h = 10% and h = 5%), that
+is, we only use a neighborhood that is given a percentage of
+distance from each threshold.9
+Figure 5 illustrates the estimation approach for pop-
+ulation discontinuities. In general, the municipalities are
+allocated to the population threshold that is closest to them.
+If the nearest threshold is on the right, then the municipality
+belongs to the control group for this threshold. If the closest
+is on the left, then the municipality belongs to the treatment
+group for this threshold. For example, all municipalities
+with less than 15,000 inhabitants (whose cap is 18) are
+potentially the control group of the ﬁrst threshold.10 For
+municipalities between 15,001 and 30,000 inhabitants
+(whose cap is 22), there are those which are closest to
+the ﬁrst threshold (15,001–22,500) and those closest to the
+second
+threshold
+(22,501–30,000).
+These
+are
+from
+the control group of the second threshold, while the ﬁrst are
+from the treatment group of the ﬁrst threshold. This rea-
+soning applies to all thresholds.
+The ﬁrst identiﬁcation hypothesis requires continuity of
+pre-treatment characteristics relevant to the outcome vari-
+ables around the thresholds. Appendix Table C.1 assesses
+the impact of the population thresholds on 12 municipal
+covariates. No pre-treatment covariates display systematic
+discontinuities around the thresholds, which means that the
+pre-treatment
+covariates are balanced, increasing
+the
+credibility of our identiﬁcation strategy.
+It is also essential that local governments do not manipulate
+their population count (Eggers et al., 2018). We evaluate
+whether there is a discontinuity in the density of the running
+variable (population) along the thresholds, an indication that
+the municipalities manipulate the population count in order to
+increase lists size. If there is precise manipulation of pop-
+ulation estimates and this correlates to the outcomes, then our
+estimates do not identify the causal effect.
+Figure 6 presents the results of the formal test proposed
+by McCrary (2008). The standard procedure consists of
+estimating the density of the running variable (distance of
+the population in relation to the threshold) separately on
+each side of the cutoff, and checking if there is a jump or a
+drop in the density at the threshold by running local linear
+regressions. There is no evidence of precise manipulation of
+the running variable in any of the speciﬁcations, since the
+frequency difference on each side of the threshold is never
+statistically different from zero.11 The absence of manip-
+ulation
+is
+consistent
+with
+the
+independence
+of
+the
+Figure 4. Candidacy Hierarchy.
+Note: In this example the municipality had 4 councilors and increased to 6. In this case, the list can be increased from 8 to 12 candidates. I = Incumbent,
+W = Winner, L = Loser and N = Newcomer.
+Campos Fernandez Hott and Menezes-Filho
+7
+
+
+=== PDF PAGE 8 ===
+government agency that estimates population in Brazil
+(IBGE) (Ferraz and Finan, 2009).
+Results
+In this section, we ﬁrst estimate the impact of the change in
+the constitutional cap of candidate lists on the size and
+composition of the candidates list, as well as on current and
+future election outcomes. In addition, we also check
+whether the possibility of larger candidate lists impact the
+participation of minority groups in politics. As described in
+equation (1), all speciﬁcations include a ﬁrst-order poly-
+nomial of normalized population. To check if our estimates
+are sensitive to the choice of bandwidth, the neighborhood
+of population thresholds is restricted to three relative
+bandwidths: 20%, 10% and 5%. In addition, a vector of
+observed municipal characteristics, ﬁxed year-state and
+year-cutoff effects are included.
+In addition to the estimated coefﬁcients, the mean of the
+dependent variable in the control group (10% bandwidth) is
+presented in Column 1. In Columns 2, 3 and 4, the sample is
+restricted to bandwidths of 20%, 10% and 5%, respectively.
+In Column 5 we present the ratio between the estimate of
+Column 3 and the mean presented in Column 1.
+Effects of the list size on the composition
+of candidacies
+This section presents the main econometric results on the
+effect of the list size cap on political candidacies. As the
+number of candidates that parties can include in their list
+changes discontinuously along the populational thresholds
+(2 * number of councilors), a positive impact on the total
+number of candidates and the size of the lists is expected.
+But, is this increase in the number of candidate solely due to
+the increase in the size of candidate lists, or does rising
+district magnitude lead to an increasing number of lists as
+well? There is mixed empirical evidence regarding the
+impact of district magnitude on the number of parties (e.g.
+Lewis, 2018; Lucardi, 2019; Singer and Gershman, 2018).
+Calvo et al. (2015) ﬁnds that in the Brazilian Congress it is
+common to form coalitions composed of a large number of
+parties, with the existence of pro-small party biases. In this
+context, the number of lists should not be sensitive to the
+magnitude of the district.
+Table 2 presents the main results. The ﬁrst row shows
+that in discontinuity there is a signiﬁcant increase in the total
+number of candidacies: the estimated treatment effect is
+approximately 5.1–6.2 new candidates, which corresponds
+to a relative increase of 5.1–6.2%. Additionally, we see that
+the increase in candidates is due to expansion in list size,
+about 0.9–1.2, with no effect on the number of candidate
+lists. Note that, as in discontinuity the candidate lists can be
+expanded by four candidates (See Section Institutional
+Framework and Data), the increase in candidate lists by 0.9–
+1.2 is equivalent to an increase of 0.2–0.3 for each increase
+in the constitutional cap.
+We also test the effect of expanding candidate lists on
+the number of effective (Laakso and Taagepera, 1979)
+and viable (Niemi and Hsieh, 2002) candidates, measures
+that depend on the proportion of votes received by
+Figure 5. List Sizes and Population Brackets.
+Note: Population discontinuities occur at 15,000, 30,000, 50,000, 80,000, 120,000 and 160,000 inhabitants, with a cap in the list size of 18, 22, 26, 30, 34,
+38 and 42, respectively. Municipalities are deﬁned as control (C) or treated (T) according to their proximity to the discontinuity (C if the closest
+discontinuity is on the right, and T if the closest discontinuity is on the left).
+8
+Party Politics 0(0)
+
+
+=== PDF PAGE 9 ===
+Figure 6. McCrary Density Tests: Populational Thresholds.
+Note: The ﬁrst panel presents graphs for all thresholds, for the whole sample (L), 20% bandwidth (C) and 10% bandwidth (R). The second panel depicts
+estimates for the ﬁrst, second and third thresholds, respectively. Estimates (standard deviation) of the McCrary (2008) tests are 0.015 (0.072), 0.080
+(0.089), 0.002 (0.124), 0.130 (0.126), 0.149 (0.275), and 0.110 (0.328).
+Table 2. Populational threshold, candidacies and list sizes.
+Bandwidth
+Mean control ( < 10%)
+< 20%
+< 10%
+< 5%
+β/Mean ( < 10%)
+(1)
+(2)
+(3)
+(4)
+(5)
+Candidates
+101.14 (63.37)
+5.127*** (1.470)
+6.238*** (2.105)
+6.195** (2.605)
+0.062
+Number of lists
+5.68 (2.56)
+0.053 (0.076)
+0.050 (0.108)
+0.030 (0.142)
+0.009
+List size
+17.08 (4.27)
+1.227*** (0.147)
+1.013*** (0.199)
+0.928*** (0.262)
+0.059
+Effective candidates
+41.15 (20.36)
+1.853*** (0.547)
+1.629** (0.740)
+1.330 (0.991)
+0.040
+Viable candidates
+23.72 (9.47)
+1.535*** (0.302)
+1.352*** (0.397)
+2.158*** (0.558)
+0.057
+Observations
+1,052
+3,705
+1,913
+943
+Mun. Charact.
+—
+Yes
+Yes
+Yes
+—
+Year-state FE
+—
+Yes
+Yes
+Yes
+—
+Year-cutoff FE
+—
+Yes
+Yes
+Yes
+—
+Note: The number of effective candidates is calculated as suggested by Laakso and Taagepera (1979), Pv2
+i , where i is the proportion of votes received by the
+i-th candidate. As suggested by Niemi and Hsieh (2002), we consider as viable candidates with at least 70% of the vote obtained by the last winner. Robust
+standard deviation clustered at municipality level is shown in parentheses. ***p < 0.01, **p < 0.05, *p < 0.10.
+Campos Fernandez Hott and Menezes-Filho
+9
+
+
+=== PDF PAGE 10 ===
+candidates. In the ﬁrst column we see that the number of
+effective candidates in the control group is about 40% of
+total candidates, while the number of viable candidates is
+about 23%. Our results show an approximate 1.3–
+1.8 increase in the total effective candidates, propor-
+tionally smaller than the increase in total candidates,
+suggesting that marginal candidates are electorally
+weaker. Using the proxy of viable candidates, however,
+we ﬁnd that the increase is proportional to the increase in
+the number of total candidates.
+How do parties distribute additional candidacies on their
+lists? We hypothesize that to prevent intra-party conﬂict
+additional candidacies in an open-list will be composed
+mostly of those with less electoral potential, that is, weak
+candidates (newcomers and those who have never been
+successful in past elections). The results presented in
+Table 3 are consistent with this hypothesis. In Panel A, we
+estimate how the additional slots are split between weak and
+strong candidates. Although strong candidates represent
+11% of the candidates, they occupy a very small share of the
+marginal slots on the candidate lists, so that almost all the
+slots are ﬁlled by the weak candidates.
+In Panel B, we disentangle the weak and strong candi-
+dates. Around 71–75% of the weak marginal candidacies
+are destined for newcomers, while among the strong there is
+no signiﬁcant increase in any of the candidate types, with
+the exception of the incumbents in the 20% bandwidth.
+Taking the intermediate sample (10% bandwidth) as an
+example, the additional seat leads to an increase of
+6.238 candidates, with 6.213 being weak (4.5 newcomers
+and 1.7 losers) and 0.025 being strong (0.042 of winners
+and 0.017 of incumbents). With the base value of
+89.67 weak candidates and 11.47 strong candidates, this
+represents an increase of 6.9% for weak and 0.02% for
+strong. The online Appendix shows that the results of this
+article are robust to alternative speciﬁcations.12
+Figure 7 graphically illustrates the results of Tables 2 and 3.
+As Corbi et al. (2019), we net out ﬁxed effects and then plot
+the residuals, averaged over 500-unit intervals, polling across
+all population cutoffs. Moreover, the central line is a spline
+ﬁrst-order polynomial in population size and the parallel lines
+are the 95% conﬁdence interval. Figure 7 conﬁrms that only
+weak candidates ﬁll the additional slots in the candidate lists.
+Effects of the list size on the election results
+As discussed in Institutional Framework and Data, at each
+population discontinuity the district magnitude can increase
+by up to two councilors. In Table 4 we check whether the
+council size actually increases and, distinguishing between
+weak and strong candidates, we examine whether the in-
+crease in the proportion of weak candidates in the party lists
+implies that more weak candidates are elected. In Panel A
+we see that the municipalities in the treatment group in-
+crease the council size by approximately one councilor,
+decomposed into 0.65 and 0.81 weak and between 0.22 and
+0.42 strong candidates. Given that the average share of these
+groups among elected councilors is 52.2% (weak) and
+47.8% (strong), there is an increase in the share of weak
+candidates at City Council. Appendix Table D.3 shows the
+robustness of the results. Figure 8 provides a graphic
+representation of the discontinuities for the composition of
+elected councilors.
+Panel B breaks down the candidates, with Column
+1 showing how the City Council is composed in our control
+group: approximately 28% of councilors are newcomers,
+24% are losers, 10% are winners and the largest group are
+the incumbents (38%). Although all types of candidates
+Table 3. Populational threshold and list composition.
+Bandwidth
+Mean control ( < 10%)
+< 20%
+< 10%
+< 5%
+β/Mean( < 10%)
+(1)
+(2)
+(3)
+(4)
+(5)
+Panel A: Weak versus strong
+Weak
+89.67 (61.26)
+4.830*** (1.440)
+6.213*** (2.068)
+6.158** (2.566)
+0.069
+Strong
+11.47 (3.41)
+0.297** (0.121)
+0.025 (0.162)
+0.037 (0.216)
+0.002
+Panel B: Candidate experience
+Newcomer
+62.65 (43.48)
+3.611*** (1.068)
+4.491*** (1.564)
+4.359** (1.998)
+0.072
+Loser
+27.02 (19.18)
+1.219** (0.479)
+1.722*** (0.662)
+1.799** (0.848)
+0.064
+Winner
+4.01 (2.13)
+0.037 (0.089)
+0.042 (0.117)
+0.049 (0.171)
+0.011
+Incumbent
+7.45 (2.31)
+0.261*** (0.084)
+0.017 (0.111)
+0.011 (0.152)
+0.002
+Observations
+1,052
+3,705
+1,913
+943
+Mun. Charact.
+—
+Yes
+Yes
+Yes
+—
+Year-state FE
+—
+Yes
+Yes
+Yes
+—
+Year-cutoff FE
+—
+Yes
+Yes
+Yes
+—
+Note: Robust standard errors clustered at the municipality-level shown in parentheses. ***p < 0.01, **p < 0.05, *p < 0.10.
+10
+Party Politics 0(0)
+
+
+=== PDF PAGE 11 ===
+occupy some share of the additional seat - with the ex-
+ception of incumbents in 5% bandwidth - our estimates
+imply a 34–48% chance that the extra legislator is a
+newcomer, the highest probability among all candidates.
+When comparing the share in the City Council and in the
+marginal seat, the group that most expands its share is that of
+the newcomers, while the incumbents are the only group to
+reduce their share (they are 38% of councilors, but they only
+occupy 5–31% of the extra seat).
+The analysis discussed so far focus on the short-term. An
+extension of this analysis is to examine whether the cohort
+of newcomers defeated in t persist in their political career
+Figure 7. Population Threshold and Composition of Candidacies.
+Note: Figure plots regression results in both sides of cutoffs using a ﬁrst-order polynomial in population size and their 95% conﬁdence intervals. Scatter
+points are averaged over 500-unit intervals.
+Table 4. Populational threshold and council composition.
+Bandwidth
+Mean Control ( < 10%)
+< 20%
+< 10%
+< 5%
+β/Mean ( < 10%)
+(1)
+(2)
+(3)
+(4)
+(5)
+Panel A: Weak versus strong
+Weak
+5.73 (2.26)
+0.651*** (0.085)
+0.703*** (0.117)
+0.807*** (0.164)
+0.123
+Strong
+5.24 (2.02)
+0.464*** (0.081)
+0.367*** (0.110)
+0.228 (0.157)
+0.070
+Panel B: Candidate experience
+Newcomer
+3.05 (1.73)
+0.396*** (0.077)
+0.366*** (0.102)
+0.510*** (0.151)
+0.120
+Loser
+2.68 (1.73)
+0.255*** (0.070)
+0.337*** (0.092)
+0.298** (0.132)
+0.126
+Winner
+1.10 (0.99)
+0.127*** (0.047)
+0.138** (0.064)
+0.173* (0.090)
+0.125
+Incumbent
+4.14 (1.90)
+0.337*** (0.077)
+0.229** (0.104)
+0.055 (0.147)
+0.055
+Observations
+1,052
+3,705
+1,913
+943
+Mun. Charact.
+—
+Yes
+Yes
+Yes
+—
+Year-state FE
+—
+Yes
+Yes
+Yes
+—
+Year-cutoff FE
+—
+Yes
+Yes
+Yes
+—
+Note: Robust standard errors clustered at the municipality-level shown in parentheses. ***p < 0.01, **p < 0.05, *p < 0.10.
+Campos Fernandez Hott and Menezes-Filho
+11
+
+
+=== PDF PAGE 12 ===
+and go on to win the next election in t + 4. According to
+Haime et al. (2022) the experience that candidates get when
+running for a seat, even if they lose, can help them winning
+future elections. The positive beneﬁts of the candidate
+experience are associated with greater knowledge about
+how to run campaigns, developing networks of political
+connections and gain visibility among the electorate. Thus,
+our hypothesis is that municipalities treated, by providing
+newcomers with candidate experience in t, make even the
+defeated ones succeed in their second attempt (in t + 4). On
+the other hand, if the returns to experience are decreasing,
+the remaining candidates who lose the election in t should
+not increase their chances in t + 4.
+Table 5 shows that in treated municipalities there is a
+signiﬁcant increase in the number of newcomers elected in
+their second attempt, while for other groups the estimates
+are essentially zero. About 16–20% if the additional seats
+are occupied by newcomers defeated in t, equivalent to a
+13.5–16.7% increase for our control group. Robustness
+checks are provided in Table D.4. Thus, it may be a more
+interesting strategy for the party to invest in newcomers in
+the marginal slots than to bet on losers because, although
+both are weak, newcomers gain candidate experience that
+could be crucial for the party’s success in t + 4.13
+In sum, an increase in the candidate lists size impacts
+political careers. First, it impacts the composition of party
+lists, favoring the rise of less experienced candidates are
+who not only more likely to run in more elections, but also
+to occupy an important share of the extra seats. Addi-
+tionally, even when defeated in their ﬁrst attempt, the
+experience gained seems to be important, as the extra seat
+signiﬁcantly increases the number of newcomers who are
+elected in their second attempt.
+Effects of the list size on minorities
+So far, we have addressed candidates’ voting potential
+and argued that the more marginal pre-candidates on
+candidate lists, namely newcomers and losers, beneﬁt
+relatively more as a result of the additional slots. But
+besides electoral experience, will demographic groups
+who are dramatically underrepresented in Brazilian
+politics, such as women (Miguel, 2008; Oliveira and Da
+Silva, 2020; Wylie and Dos Santos, 2016) and blacks
+(Bailey, 2009; Bueno and Dunning, 2017; Campos and
+Machado, 2015; Johnson, 1998), also beneﬁt from the
+possibility of a party nominating more marginal can-
+didates? Following the same arguments which led us to
+Figure 8. Populational Threshold and Composition of Winners.
+Note: Figures plot regression results in both sides of cutoffs using a ﬁrst-order polynomial in population size and their 95% conﬁdence intervals. Scatter
+points are means over 500-unit intervals.
+12
+Party Politics 0(0)
+
+
+=== PDF PAGE 13 ===
+expect an increase in the participation of weak candi-
+dates, it is expected that the additional slots in candidate
+lists
+will
+increase
+the
+participation
+of
+minority
+candidates.
+Table 6 investigates this issue.14 The increase of 1.28–
+1.76 female candidates, given the estimates in Table 3,
+implies that they occupy 25–28.4% of the candidacies
+brought about by the increase in the number of seats. One
+possible explanation for this increase lies in the existence
+of the gender electoral quota (30%), a value slightly
+higher than our estimates. On the other hand, the addi-
+tional seat did not beneﬁt black candidates. In terms of the
+election, in contrast to the results found by Matland
+(1993), Salmond (2006), Thames and Williams (2010)
+and, for Brazil, by Meireles and Andrade (2017), the
+additional seat had no impact on the election of women.
+District
+magnitude
+had
+a
+positive
+but
+statistically
+insigniﬁcant effect among blacks, though only in the most
+restrictive bandwidth (5%).15
+In summary, the results indicate little or no effect on the
+election of women and blacks – thereby contradicting our
+hypothesis. On the candidacy side, the additional slots
+induced more female candidacies. However, this effect only
+reproduces the percentage required by the gender quota –
+according to Lucardi and Micozzi (2022), the parties are
+“minimal compliers” - which is supported by other studies
+in Latin America (Jones et al., 2012). The fact that Brazil
+operates in an open-list, as opposed to a closed-list system,
+could help explain these results, since there is evidence that
+the
+closed-list
+system
+increases
+female
+participation
+(Gonzalez-Eiras and Sanz, 2021; Thames and Williams,
+2010). Concerning the racial gap, our results show that the
+expansion of party lists and the extra seat does not reduce
+racial inequalities in Brazilian elections. An emergent
+Table 5. Populational threshold and council composition in the next election.
+Bandwidth
+Mean Control ( < 10%)
+< 20%
+< 10%
+< 5%
+β/Mean ( < 10%)
+(1)
+(2)
+(3)
+(4)
+(5)
+Panel A: Weak versus strong
+Weak
+2.08 (1.59)
+0.252*** (0.064)
+0.300*** (0.090)
+0.263** (0.124)
+0.145
+Strong
+0.64 (0.78)
+0.037 (0.034)
+0.050 (0.051)
+0.011 (0.067)
+0.078
+Panel B: Candidate experience
+Newcomer
+1.30 (1.15)
+0.175*** (0.052)
+0.217*** (0.072)
+0.208** (0.098)
+0.168
+Loser
+0.78 (0.96)
+0.077* (0.042)
+0.083 (0.055)
+0.055 (0.078)
+0.106
+Winner
+0.22 (0.45)
+0.034* (0.019)
+0.059** (0.029)
+0.071* (0.042)
+0.272
+Incumbent
+0.43 (0.65)
+0.003 (0.029)
+0.009 (0.041)
+0.082 (0.056)
+0.020
+Observations
+1,052
+3,705
+1,913
+943
+Mun. Charact.
+—
+Yes
+Yes
+Yes
+—
+Year-state FE
+—
+Yes
+Yes
+Yes
+—
+Year-cutoff FE
+—
+Yes
+Yes
+Yes
+—
+Note: Robust standard errors clustered at the municipality-level shown in parentheses. ***p < 0.01, **p < 0.05, *p < 0.10.
+Table 6. Populational threshold and minoritarian groups.
+Bandwidth
+Mean Control ( < 10%)
+< 20%
+< 10%
+< 5%
+β/Mean ( < 10%)
+(1)
+(2)
+(3)
+(4)
+(5)
+Panel A: Candidates
+Women
+32.28 (19.79)
+1.283*** (0.478)
+1.746** (0.693)
+1.760** (0.852)
+0.054
+Black
+9.41 (10.48)
+0.084 (0.534)
+0.019 (0.594)
+0.570 (0.898)
+0.002
+Panel B: Winners
+Women
+1.38 (1.19)
+0.071 (0.056)
+0.073 (0.073)
+0.079 (0.102)
+0.053
+Black
+0.61 (0.90)
+0.066 (0.059)
+0.118 (0.074)
+0.229** (0.106)
+0.194
+Observations
+1,052/518
+3,705/1,883
+1,913/961
+943/482
+Mun. Charact.
+—
+Yes
+Yes
+Yes
+—
+Year-state FE
+—
+Yes
+Yes
+Yes
+—
+Year-cutoff FE
+—
+Yes
+Yes
+Yes
+—
+Note: Robust standard deviation clustered at municipality level is shown in parentheses. ***p < 0.01, **p < 0.05, *p < 0.10.
+Campos Fernandez Hott and Menezes-Filho
+13
+
+
+=== PDF PAGE 14 ===
+literature points out that the worst electoral performance of
+Afro-Brazilian candidates is associated with discrimination
+by party elites, who provide greater campaign resources
+(Firpo et al., 2022), media access (Janusz and Campos,
+2021) and “better” identiﬁcation numbers (Janusz and Sells,
+2022) to white candidates, especially men. Additionally,
+even when controlled for non-racial candidate character-
+istics, the difference in electoral outcomes remains, indi-
+cating that racial discrimination plays an important role in
+Brazilian elections (Janusz, 2018).
+Conclusion
+This paper provides new evidence on how parties allocate
+additional slots on the party list in an open-list system, with
+a focus on candidates’ political-electoral careers. Using data
+from the 2012 and 2016 Brazilian municipal elections, we
+apply a RDD when analyzing an exogenous variation in the
+maximum number of candidates that a party can select.
+Using data on the number of candidates and their electoral
+background, we ﬁnd that additional slots allow parties to
+select more marginal candidates for their lists, which im-
+plies a greater proportion of weak candidates. This result
+lends support to the hypothesis that in an OLPR system,
+parties control intra-party competition during the con-
+struction of their lists (e.g. Cheibub and Sin, 2020).
+In addition to expanding their share among candidates,
+the results show that weak candidates, mainly newcomers,
+occupy a signiﬁcant share of the additional seats. After
+expanding the horizon of the analysis, we ﬁnd that, even
+when defeated in their ﬁrst attempt, the electoral experience
+obtained by novices is important for their success in a future
+election. Finally, the additional seat did not manage to
+broaden the share of minorities in politics.
+Our results leave gaps to be ﬁlled in future work. First, if
+the new slots are divided between candidates with no
+previous electoral experience, who were these newcomers
+before being nominated? In other words, were they mem-
+bers of the public service? Is this an intermediate step
+between afﬁliation and candidacy? Finally, our results are
+valid for a given context, namely, Brazilian municipalities in
+an OLPR system. New studies in other countries and
+contexts could provide more robust evidence about the rules
+for party selection.
+Declaration of Conﬂicting Interests
+The author(s) declared no potential conﬂicts of interest with re-
+spect to the research, authorship, and/or publication of this article.
+Funding
+The author(s) disclosed receipt of the following ﬁnancial support
+for the research, authorship, and/or publication of this article: This
+work was supported by the Henrique Augusto Campos Fernandez
+Hott gratefully acknowledges ﬁnancial support from Coordenação
+de Aperfeiçoamento de Pessoal de N´ıvel Superior (CAPES) –
+Finance Code 001 (process number 88882.333286/2019-01) and
+Fapesp - 2019/12553-0.
+ORCID iD
+Henrique Augusto Campos Fernandez Hott https://orcid.org/
+0000-0001-5791-3220
+Notes
+1. The federal capital, Bras´ılia, and the Fernando de Noronha
+archipelago are the only two municipalities which do not hold
+municipal elections, and are not, therefore, considered in any
+of the analysis which follows.
+2. After the period of analysis of this article (2012 and 2016)
+some important changes were made in the Brazilian electoral
+legislation. A constitutional reform in 2017 banned coalitions
+for the position of councilor, so that for municipal elections
+from 2020 onwards only party lists are allowed. Another
+change was introduced by the Law n°14,211/2021, which
+reduced the maximum size of party lists to M + 1.
+3. Although there is no rigidity in political careers in Brazil, it is
+common for individuals to make their debut in politics in
+higher positions, such as those of mayor, state and federal
+deputies, for example.
+4. As in studies by Brollo et al. (2013) and Corbi et al. (2019),
+our analysis focuses on the ﬁrst discontinuities which, in our
+case cover more than 97.5% of all Brazilian municipalities.
+5. As mentioned, coalitions can present lists whose maximum
+size is twice the magnitude of the district for municipalities
+with less than 100,000 voters. As they represent more than
+99% of our sample, to simplify our exposition we will em-
+phasize this case.
+6. Electoral data were collected from https://dadosabertos.tse.
+jus.br/ (accessed on 23/07/2022).
+7. The average size of the candidate lists is obtained by dividing
+the number of candidates by the number of lists submitted.
+8. Several studies on the closed-list system, where the ordering
+of the party list is explicitly observable, point to an ordering of
+the lists according to the candidate’s electoral potential
+(Buisseret, 2022; Ceyhan, 2018; Cox et al., 2021; Svit´akov´a
+and Solt´es, 2020). In the open-list system, we do not observe
+the ordering carried out by the parties, but only the names of
+the pre-candidates included in the ﬁnal list.
+9. As Corbi et al. (2019) points out, the relative bandwidth
+approach is preferable to the absolute in order to avoid losing
+many observations as the population increases. For example, a
+10% bandwidth at the ﬁrst threshold (15,000) will include
+municipalities with populations between 13,500 and 16,500
+inhabitants, while at the second threshold (30,000) we have
+municipalities with populations between 27,000 and 33,000.
+10. Depending on the bandwidth adopted, only municipalities
+relatively close to the threshold are included in the sample.
+14
+Party Politics 0(0)
+
+
+=== PDF PAGE 15 ===
+11. Point estimates (standard errors) for the McCrary (2008) tests
+are 0.015 (0.072) (full sample), 0.080 (0.089) (10%
+bandwidth), 0.002 (0.124) (5% bandwidth), 0.130 (0.126)
+(ﬁrst
+threshold),
+0.149
+(0.275)
+(second
+threshold)
+and 0.110 (0.328) (third threshold).
+12. See Tables D.1 and D.2.
+13. The Appendix Table F.1 shows that approximately 96% of the
+municipalities did not change their population brackets be-
+tween the elections. In Table F.2, we run a speciﬁcation
+dropping municipalities which changed their population
+bracket. The positive effect on the election in t + 4 remains
+signiﬁcant and higher in absolute value.
+14. It was only after the 2014 general election that the race/
+color variable was added to TSE records, which is why our
+analysis of race is only undertaken for the 2016 municipal
+elections.
+15. Appendix Section E presents presents several other tests,
+such as heterogeneities between parties in relation to the
+candidacy selection process, candidates’ membership time,
+some other personal characteristics (age, education and
+birthplace) and other outcomes such as campaign expenses
+and turnout.
+References
+Altmann C (2010) Pol´ıtica Local e Seleção de Candidatos a
+Vereador: Contribuições a Partir do Caso de Pelotas (RS) em
+2008. Master’s Thesis, Mestrado em Ciˆencias Sociais. Pe-
+lotas: Universidade Federal de Pelotas.
+Ames B (1995) Electoral rules, constituency pressures, and pork
+barrel: bases of voting in the Brazilian congress. The Journal
+of Politics 57(2): 324–343.
+Anagol S and Fujiwara T (2016) The runner-up effect. Journal of
+Political Economy 124(4): 927–991.
+Avelino G, Biderman C and Desposato S (2022) Sources of the
+incumbency (dis)advantage. Brazilian Political Science Re-
+view 16(1): 1–39.
+Avis E, Ferraz C, Finan F, et al. (2022) Money and politics: the
+effects of campaign spending limits on political entry and
+competition. American Economic Journal: Applied Eco-
+nomics 14(4): 167–199.
+Bailey SR (2009) Public opinion on nonwhite underrepresentation
+and racial identity politics in Brazil. Latin American Politics
+and Society 51(4): 69–99.
+Besley T, Montalvo JG and Reynal-Querol M (2011) Do edu-
+cated leaders matter? The Economic Journal 121(554):
+F205–F227.
+Bolognesi B (2013) A seleção de candidaturas no DEM, PMDB,
+PSDB e PT nas eleições legislativas federais Brasileiras de
+2010: percepções dos candidatos sobre a formação das listas.
+Revista de Sociologia e Pol´ıtica 21(46): 45–68.
+Braga MdSS (2008) Organizações partid´arias e seleção de can-
+didatos no estado de São Paulo. Opinião P´ublica 14(2):
+454–485.
+Braga MdSS and Amaral OEd (2013) Implicações do processo de
+seleção de candidatos na competição partid´aria: o caso
+Brasileiro. Revista de Sociologia e Pol´ıtica 21(46): 33–43.
+Braga MdSS and Veiga LF (2009) Eleições 2008: por quem e como
+são selecionadas as listas partid´arias `as Cˆamaras de Ver-
+eadores de trˆes capitais Brasileiras. Caxambu: 33° Encontro
+Anual da ANPOCS.
+Britto DG and Fiorin S (2020) Corruption and legislature size:
+evidence from Brazil. European Journal of Political Econ-
+omy 65: 101940.
+Brollo F, Nannicini T, Perotti R, et al. (2013) The political resource
+curse. American Economic Review 103(5): 1759–1796.
+Bueno NS and Dunning T (2017) Race, resources, and representation
+evidence from Brazilian politicians. World Politics 69: 327.
+Buisseret PE, Folke O, Prato C, et al. (2022) Party nomination
+strategies in list proportional representation systems. Amer-
+ican Journal of Political Science 66(3): 714–729.
+Calvo E, Guarnieri F and Limongi F (2015) Why coalitions? Party
+system fragmentation, small party bias, and preferential vote
+in Brazil. Electoral Studies 39: 219–229.
+Campos LA and Machado C (2015) A cor dos eleitos: determi-
+nantes da sub-representação pol´ıtica dos não brancos no
+Brasil. Revista Brasileira de Ciˆencia Pol´ıtica 16: 121–151.
+Carey JM and Shugart MS (1995) Incentives to cultivate a personal
+vote: a rank ordering of electoral formulas. Electoral Studies
+14(4): 417–439.
+Carroll R and Nalepa M (2020) The personal vote and party
+cohesion: modeling the effects of electoral rules on intraparty
+politics. Journal of Theoretical Politics 32(1): 36–69.
+Casey K, Kamara AB and Meriggi NF (2021) An experiment in
+candidate selection. American Economic Review 111(5):
+1575–1612.
+Ceyhan S (2018) Who runs at the top of party lists? Determinants
+of parties’ list ranking in the 2013 German Bundestag
+election. German Politics 27(1): 66–88.
+Cheibub JA and Sin G (2015) Order in chaos intra party co-
+ordination in open list pr systems. In: 72nd annual midwest
+political science association conference, Chicago, IL, April
+3-6, pp. 1–18.
+Cheibub JA and Sin G (2020) Preference vote and intra-party
+competition in open list pr systems. Journal of Theoretical
+Politics 32(1): 70–95.
+Cirone A, Cox GW and Fiva JH (2021) Seniority-based nomi-
+nations and political careers. American Political Science
+Review 115(1): 234–251.
+Corbi R, Papaioannou E and Surico P (2019) Regional transfer
+multipliers. The Review of Economic Studies 86(5): 1901–1934.
+Cox GW, Fiva JH, Smith DM, et al. (2021) Moral hazard in
+electoral teams: List rank and campaign effort. Journal of
+Public Economics Forthcoming.
+Crotty WJ (1968) The party organization and its activities. In:
+Crotty WJ (ed). Approaches to the Study of Party Organi-
+zation. Boston, MA: Allyn & Bacon, 247–306.
+Campos Fernandez Hott and Menezes-Filho
+15
+
+
+=== PDF PAGE 16 ===
+Desposato SW (2006) Parties for rent? Ambition, ideology, and
+party switching in Brazil’s chamber of deputies. American
+Journal of Political Science 50(1): 62–80.
+Eggers AC, Freier R, Grembi V, et al. (2018) Regression dis-
+continuity designs based on population thresholds: pitfalls
+and solutions. American Journal of Political Science 62(1):
+210–229.
+Ferraz C and Finan F (2009) Motivating Politicians: The Impacts
+of Monetary Incentives on Quality and Performance. Tech-
+nical report, National Bureau of Economic Research.
+Firpo S, França M, Portella A, et al. (2022) Racial Inequality in
+Brazilian elections. Available at SSRN 4111691.
+Fiva JH and Røhr HL (2018) Climbing the ranks: incumbency
+effects in party-list systems. European Economic Review 101:
+142–156.
+Fox RL and Lawless JL (2005) To run or not to run for ofﬁce:
+explaining nascent political ambition. American Journal of
+Political Science 49(3): 642–659.
+Galasso Vand Nannicini T (2011) Competing on good politicians.
+American Political Science Review 105(1): 79–99.
+Galasso V and Nannicini T (2017) Political selection under al-
+ternative electoral rules. Public Choice 171(3–4): 257–281.
+Gallagher M and Marsh M (1988) Candidate Selection in Com-
+parative Perspective: The Secret Garden of Politics. London:
+Sage.
+Gelman A and Imbens G (2019) Why high-order polynomials
+should not be used in regression discontinuity designs.
+Journal of Business & Economic Statistics 37(3): 447–456.
+Gonzalez-Eiras M and Sanz C (2021) Women’s representation in
+politics: the effect of electoral systems. Journal of Public
+Economics 198: 104399.
+Górecki MA and Kukołowicz P (2014) Gender quotas candidate
+background and the election of women: a paradox of gender
+quotas in open-list proportional representation systems.
+Electoral Studies 36: 65–80.
+Guarnieri F (2004) Partidos, Seleção de Candidatos e Compor-
+tamento Pol´ıtico. Master’s Thesis, Mestrado em Ciˆencia
+Pol´ıtica. USP, São Paulo.
+Gulzar S (2021) Who enters politics and why? Annual Review of
+Political Science 24: 253–275.
+Haime A, Agust´ın V and Leslie SB (2022) Candidate experience
+and electoral success. Latin American Research Review
+57(1): 170–187.
+Janusz A (2018) Candidate race and electoral outcomes: evidence
+from Brazil. Politics, Groups, and Identities 6(4): 702–724.
+Janusz A and Campos LA (2021) Candidate advertisements and
+Afro-Brazilian political marginalization. Latin American
+Research Review 56(4): 761–778.
+Janusz A and Sells C (2022) Race and campaign resources:
+candidate identiﬁcation numbers in Brazil. Journal of Politics
+in Latin America 14(2): 211–223.
+Imbens GW and Lemieux T (2008) Regression discontinuity
+designs: a guide to practice. Journal of Econometrics 142(2):
+615–635.
+Johnson OA (1998) Racial representation and Brazilian politics:
+black members of the national congress, 1983-1999. Journal
+of Interamerican Studies and World Affairs 40(4): 97–118.
+Jones BF and Olken BA (2005) Do leaders matter? National
+leadership and growth since World War II. The Quarterly
+Journal of Economics 120(3): 835–864.
+Jones MP, Alles S and Tchintian C (2012) Cuotas de g´enero, leyes
+electorales y elección de legisladoras en Am´erica Latina.
+Revista de Ciencia Pol´ıtica (Santiago) 32(2): 331–357.
+Kinzo MD (2005) Os partidos no eleitorado: percepções p´ublicas e
+laços partid´arios no Brasil. Revista Brasileira de Ciˆencias
+Sociais 20: 65–81.
+Laakso M and Rein T (1979) Effective” number of parties: a
+measure with application to West Europe. Comparative
+Political Studies 12(1): 3–27.
+Lewis BD (2018) Endogenous district magnitude and political
+party fragmentation in subnational Indonesia: a research note.
+Electoral Studies 55: 136–145.
+Lima RNd and Barreto A (2014) A carreira de vereador e a
+ambição progressiva: an´alise a partir do caso do Rio Grande
+do Sul (2002-2010). Pensamento Plural 9(12): 91–115.
+Litschig S and Morrison KM (2013) The impact of intergovern-
+mental transfers on education outcomes and poverty reduc-
+tion. American Economic Journal: Applied Economics 5(4):
+206–240.
+Lopez FG (2004) A pol´ıtica cotidiana dos vereadores e as relações
+entre executivo e legislativo em ˆambito municipal: o caso do
+munic´ıpio de Araruama. Revista de Sociologia e Pol´ıtica
+12(22): 153–177.
+Lundell K (2004) Determinants of candidate selection: the degree
+of centralization in comparative perspective. Party Politics
+10(1): 25–47.
+Lyytik¨ainen T and Tukiainen J (2019) Are voters rational? Eu-
+ropean Journal of Political Economy 59: 230–242.
+Lucardi A (2019) The effect of district magnitude on electoral
+outcomes: evidence from two natural experiments in Ar-
+gentina. British Journal of Political Science 49(2): 557–577.
+Lucardi A and Micozzi JP (2022) District magnitude and female
+representation: evidence from Argentina and Latin America.
+American Journal of Political Science 66(2): 318–336.
+Magalhaes L and Hirvonen S (2015) Multi-offce Incumbency
+Advantage: Political Careers in Brazil. Working Paper No.
+15/662. UK: Department of Economics, University of Bristol.
+Mainwaring S (1991) Pol´ıticos, partidos e sistemas eleitorais.
+Novos Estudos 29: 34–58.
+Marques JEDC (2007) Na Busca Dos Novos L´ıderes: o Processo
+de Construção de Candidaturas ao Legislativo Municipal
+Aspectos Teóricos e um Estudo de Caso. Master’s Thesis,
+Mestrado em Ciˆencias Sociais. Universidade Federal de São
+Carlos, São Carlos.
+Matland RE (1993) Institutional variables affecting female rep-
+resentation in national legislatures: the case of Norway. The
+Journal of Politics 55(3): 737–755.
+16
+Party Politics 0(0)
+
+
+=== PDF PAGE 17 ===
+Mattozzi A and Merlo A (2015) Mediocracy. Journal of Public
+Economics 130: 32–44.
+McCrary J (2008) Manipulation of the running variable in the
+regression discontinuity design: a density test. Journal of
+Econometrics 142(2): 698–714.
+Meira JM (2020) How to Close an Open-List: Party Dynamics in
+the Brazilian Electoral System. PhD Thesis, Escola Brasileira
+de Administração P´ublica e de Empresas, Rio de Janeiro.
+Meireles F (2019) Political careers in the house of representatives:
+a quasi-experimental analysis. Dados 62(4): 1–38.
+Meireles F and Andrade LVR (2017) Magnitude eleitoral e rep-
+resentação de mulheres nos munic´ıpios Brasileiros. Revista de
+Sociologia e Pol´ıtica 25(63): 79–101.
+Mershon C (2020) Challenging the wisdom on preferential pro-
+portional representation. Journal of Theoretical Politics
+32(1): 168–182.
+Messias G (2019) Carreira e ambição pol´ıtica dos vereadores de
+Salvador (1997-2012). Revista de Sociologia e Pol´ıtica
+27(72): 1–25.
+Michels R (1915) Political Parties. London: Jarrold & Sons.
+Miguel LF (2003) Capital pol´ıtico e carreira eleitoral: algumas
+vari´aveis na eleição para o congresso Brasileiro. Revista de
+Sociologia e Pol´ıtica 11(20): 115–134.
+Miguel LF (2008) Political representation and gender in Brazil:
+Quotas for women and their impact. Bulletin of Latin
+American Research 27(2): 197–214.
+Niemi RG and Hsieh JF (2002) Counting candidates: an alternative
+to the effective N: with an application to the M+1 rule in
+Japan. Party Politics 8(1): 75–99.
+Noll MI and Leal CdS (2008) A pol´ıtica local na construção da
+carreira pol´ıtica: o caso dos vereadores (São Paulo, Fortaleza
+e Porto Alegre). ENCONTRO DA ABCP 6.
+Perissinotto R and Bolognesi B (2010) Electoral success and
+political institutionalization in the federal deputy elections in
+Brazil (1998, 2002 and 2006). Brazilian Political Science
+Review (Online) 4(1): 10–32.
+Power TJ (1991) Politicized democracy: competition, institutions,
+and “civic fatigue” in Brazil. Journal of Interamerican
+Studies and World Affairs 33(3): 75–112.
+Ribeiro PF (2013) Organização e poder nos partidos Brasileiros:
+uma an´alise dos estatutos. Revista Brasileira de Ciˆencia
+Pol´ıtica 10: 225–265.
+Rodrigues LM (2009) Mudanças Na Classe Pol´ıtica Brasileira.
+Rio de Janeiro: Centro Edelstein.
+Sakurai SN and Menezes-Filho NA (2008) Fiscal policy and re-
+election in Brazilian municipalities. Public Choice 137(1–2):
+301–314.
+Salmond R (2006) Proportional representation and female par-
+liamentarians. Legislative Studies Quarterly 31(2): 175–204.
+Samuels D (1997) Determinantes do voto partid´ario em sistemas
+eleitorais centrados no candidato: evidˆencias sobre o Brasil.
+Dados 40: 493–535.
+Samuels D (2003) Ambition, Federalism, and Legislative Politics
+in Brazil. Cambridge, UK: Cambridge University Press.
+Sartori G (1976) Parties and Party Systems: A Framework for
+Analysis. New York: Cambridge University Press.
+Schlesinger JA (1966) Ambition and Politics: Political Careers in
+the United States. Chicago: Rand McNally.
+Scully TR (1995) Building Democratic Institutions: Party Systems
+in Latin America. Stanford, CA: Stanford University Press.
+Shomer Y (2014) What affects candidate selection processes? A
+cross-national examination. Party Politics 20(4): 533–546.
+Silotto G (2019) A relevˆancia regional nas estrat´egias partid´arias:
+evidˆencias das listas de candidatos de São Paulo. Revista de
+Sociologia e Pol´ıtica 27: 1–17.
+Singer M and Gershman Z (2018) Do changes in district magnitude
+affect electoral fragmentation? Evidence over time at the
+district level. Electoral Studies 54: 172–181.
+Svit´akov´a K and Solt´es M (2020) Sorting of candidates: evidence
+from 20,000 electoral ballots. CERGE-EI Working Paper
+Series 652.
+Oliveira RL and Da Silva VA (2020) The gender gap in Brazilian
+politics and the role of the electoral court. Politics & Gender
+16(2): 409–437.
+Thames FC and Williams MS (2010) Incentives for personal votes
+and women’s representation in legislatures. Comparative
+Political Studies 43(12): 1575–1600.
+Wylie K and Dos Santos P (2016) A law on paper only: electoral
+rules, parties, and the persistent underrepresentation of women
+in Brazilian legislatures. Politics & Gender 12(3): 415.
+Zucco C and Power TJ (2021) Fragmentation without cleavages?
+Endogenous fractionalization in the Brazilian party system.
+Comparative Politics 53(3): 477–500.
+Author biographies
+Henrique Augusto Campos Fernandez Hott is a PhD in
+Economic Theory from the University of São Paulo (FEA-
+USP). He holds a Master’s Degree in Applied Economics
+from University of São Paulo (FEARP-USP). He researches
+on local politics and microeconometrics.
+Naercio Menezes-Filho is the Ruth Cardoso Professor of
+Economics and director of the Brazilian Center for Early
+Childhood Development (CPAPI) at Insper. He is also
+Associate Professor at FEA-USP and member of the Bra-
+zilian Academy of Sciences. He has a PhD in Economics
+from the University College London.
+Campos Fernandez Hott and Menezes-Filho
+17

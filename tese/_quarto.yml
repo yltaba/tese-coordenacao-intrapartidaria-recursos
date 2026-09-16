@@ -1,0 +1,61 @@
+project:
+  type: book
+
+book:
+  title: "A coordenação da competição intrapartidária em listas abertas via alocação de fundos públicos"
+  author: "Yuri Lucatelli Taba"
+  chapters:
+    - index.qmd
+    - 01-introducao.qmd
+    - 02-literatura.qmd
+    - 03-medindo-coordenacao-intrapartidaria.qmd
+    - 04-mecanismo-causal-coordenacao.qmd
+
+bibliography: references.bib
+csl: associacao-brasileira-de-normas-tecnicas.csl
+lang: pt-BR
+
+execute:                                                  
+  echo: false                                                    
+  warning: false
+
+jupyter: python3
+
+format:
+  docx:
+    reference-doc: reference.docx
+    fig-cap-location: top
+    reference-section-title: "Referências"
+  pdf:
+    documentclass: scrreprt
+    classoption:
+      - oneside
+      - open=any
+    pdf-engine: lualatex
+    papersize: a4
+    fontsize: 12pt
+    geometry:
+      - left=3cm
+      - top=3cm
+      - right=2cm
+      - bottom=2cm
+      - headheight=15pt
+      - headsep=0.7cm
+    linestretch: 1.5
+    number-sections: true
+    toc: true
+    toc-depth: 3
+    toc-title: "Sumário"
+    lof: true
+    lot: true
+    colorlinks: true
+    linkcolor: blue
+    citecolor: blue
+    urlcolor: blue
+    link-citations: true
+    fig-cap-location: top
+    tbl-cap-location: top
+    fig-pos: "htbp"
+    tbl-pos: "htbp"
+    include-in-header: latex/preamble.tex
+    include-before-body: latex/before-body.tex

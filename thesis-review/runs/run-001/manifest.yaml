@@ -1,0 +1,46 @@
+run: run-001
+capitulo: 3
+arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd
+iniciado_em: 2026-09-14T16:55:50-03:00
+agentes:
+  - measurement
+  - statistics
+  - results
+  - thesis-chair
+  - adversarial
+insumos:
+  - {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, sha256: 0aec63e5d5771d1a3617b9c03c387c430ae989e4718f639003df8ef06a97206f}
+  - {arquivo: tese/03-formulas-propostas.qmd, sha256: 48981b0751bfba8804b2a1c0cdf8ed2abfa3f1b55435de73a9c33433839bc5f7}
+  - {arquivo: src/2_gold/cap3_cobertura_top_necr.py, sha256: 0840c8c8d057402acbedc88917e427bed6003b6f914a6d63262301c72f8aa39b}
+  - {arquivo: src/2_gold/cap3_cs_features.py, sha256: 2604d1c2160be9e60a52d21b90106b7777d45daa23502355e34491497e151222}
+  - {arquivo: src/2_gold/cap3_taa_features.py, sha256: 596486b7a16478052a814664124ad40a74190b60335915644357486cff038386}
+  - {arquivo: tese/resultados-capitulo-3/15_cobertura_nacional.csv, sha256: 3243938ff33b378eced107433a20149af06f2ede63e247975861c3289b4408f5}
+  - {arquivo: tese/resultados-capitulo-3/00_sintese.csv, sha256: c58e10002daf6ce69218ad4be91bac0790b485b8f39c108f856165c722d5c869}
+  - {arquivo: tese/sensibilidade-top-x/resumo_nacional.csv, sha256: 56d9b829a725fdd5bf66e15873d318b722fb09bd677c5dbf7fa2b2a72a51d891}
+  - {arquivo: data/processed/df_cobertura_top_necr_resumo.csv, sha256: 53788bdc858aaa87ca1e2c386760d3423d72b933bc68d38039c701ce4fd8647b}
+concluido_em: 2026-09-14T19:22:59-03:00
+contagens: {CRITICAL: 0, MAJOR: 3, MODERATE: 12, MINOR: 6}
+gate:
+  measurement: WARN
+  statistics: WARN
+  results: WARN
+  internal_validity: WARN
+  theory: nao_avaliado
+  literature: nao_avaliado
+  writing: nao_avaliado
+  overall: "⚠ Revision required"
+nota: >-
+  Os hashes acima foram mantidos como registrados no início do run. (1) Às 17:01 de 2026-09-14 o autor moveu
+  tese/resultados-capitulo-3/, tese/relatorio-consolidado-capitulo-3/, tese/sensibilidade-top-x/,
+  tese/resultados-validacao-top-necr/, tese/alternativas-top-necr/ e tese/old/ para tese/reports/. Os insumos
+  tese/resultados-capitulo-3/15_cobertura_nacional.csv, 00_sintese.csv e tese/sensibilidade-top-x/resumo_nacional.csv
+  estão hoje em tese/reports/<mesma pasta>/ com o mesmo sha256 (conferido pelo chair nos passes 1 e 2). Os três
+  src/2_gold/cap3_*.py e data/processed/df_cobertura_top_necr_resumo.csv não mudaram. (2) tese/03-formulas-propostas.qmd
+  (sha 48981b07…) foi removido durante o run e não existe em nenhum caminho do repositório; lido por measurement e
+  statistics antes da remoção. (3) tese/03-medindo-coordenacao-intrapartidaria.qmd foi editado às 19:16:22, depois das
+  leituras dos especialistas e do adversarial; sha atual 679ece098e23fbf1b47d1137b4b4060bf09024ca2aa8919839548a5624a3eb86.
+  Mudaram só a l. 173 e a 1ª frase da l. 175. A versão auditada (sha 0aec63e5…) foi reconstruída byte a byte a partir
+  de tese/.quarto/idx/ em evidence/chair_03_capitulo_auditado_reconstruido.qmd; diff em
+  evidence/chair_03_diff_auditado_vs_atual.txt. A arbitragem vale para 0aec63e5. (4) src/1_silver/gerar_rrd.py
+  (sha 4bc9576a…) e data/processed/rrd_df_novo.parquet, decisivos para I-3-001, não estavam no manifesto; incluí-los
+  a partir do run-002.

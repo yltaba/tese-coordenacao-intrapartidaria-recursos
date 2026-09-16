@@ -1,0 +1,63 @@
+C:\Users\yuri_taba\Desktop\recursos-campanha-local\thesis-review\runs\run-001\evidence\mea_01_recompute_listas.py:129: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  print("Candidaturas com R=0 em listas financiadas:", L.groupby("ano").apply(lambda g: (g.C - g.recebedores)[g.R_l > 0].sum()).to_dict())
+merge: {'both': 1570, 'left_only': 0, 'right_only': 0}
+NECr igual: True
+k igual: True
+H_eleitos igual: True
+esperado igual: True
+C igual: True | E igual: True
+
+Agregados nacionais (recomputados):
+ 2018: listas=859 sem_rec=73 sumk=2318 H_e=445.0000 cob_e=0.8674 prec_e=0.1920 A0=224.5724 lift_e=1.9815 | empates na fronteira=121 E>k=10 k==C=207 k>recebedores=0 C==1=163 eleitos em listas sem rec=3
+ 2022: listas=711 sem_rec=63 sumk=3824 H_e=475.1923 cob_e=0.9263 prec_e=0.1243 A0=224.4189 lift_e=2.1174 | empates na fronteira=185 E>k=4 k==C=100 k>recebedores=0 C==1=33 eleitos em listas sem rec=0
+
+=== empate_fronteira: 2018 SP PSOL | C=82 recebedores=74 R_l=1,072,913.39 NECr=5.8089 k=6 sum_w=6.000 E=3 H_eleitos=3.0000 esperado=0.2195 G_comp=2 H_comp=2.0000
+                   nm_candidato         R  eleito  comp   w
+                   IVAN VALENTE 303855.53       1  True 1.0
+        LUIZA ERUNDINA DE SOUSA 298597.53       1  True 1.0
+          SAMIA DE SOUZA BOMFIM 110080.92       1 False 1.0
+        RODRIGO PINTO CHIZOLINI  27771.03       0 False 1.0
+    ADRIANA VASCONCELLOS VIEIRA  23928.35       0 False 1.0
+     ANDREA WERNER SILVA BONOLI  23928.35       0 False 1.0
+           MARCELA DIAS MOREIRA  23769.93       0 False 0.0
+CÉLIO ROBERTO TURINO DE MIRANDA  22797.30       0 False 0.0
+         DOUGLAS ELIAS BELCHIOR  22621.03       0 False 0.0
+ canônico: NECr=5.80888139323592 k=6 eleitos_top=3.0 esperado=0.21951219512195122
+
+=== sem_recursos: 2018 MS PSL | C=4 recebedores=0 R_l=0.00 NECr=nan k=0 sum_w=0.000 E=2 H_eleitos=0.0000 esperado=0.0000 G_comp=0 H_comp=0.0000
+                 nm_candidato   R  eleito  comp   w
+          LUIZ ALBERTO OVANDO 0.0       1 False 0.0
+SINDOLEY LUIZ DE SOUZA MORAIS 0.0       0 False 0.0
+        JOSÉ ALVES DOS SANTOS 0.0       0 False 0.0
+LOESTER CARLOS GOMES DE SOUZA 0.0       1 False 0.0
+ canônico: NECr=nan k=0 eleitos_top=0.0 esperado=0.0
+
+=== E_maior_k: 2018 RJ PSL | C=63 recebedores=43 R_l=397,512.83 NECr=7.3956 k=7 sum_w=7.000 E=12 H_eleitos=4.0000 esperado=1.3333 G_comp=1 H_comp=0.0000
+                                nm_candidato        R  eleito  comp   w
+                      FABIANA SILVA DE SOUZA 87140.83       1 False 1.0
+                 RAQUEL NIEDERMEYER DENARDIN 85009.47       0 False 1.0
+        CHRISTINE NOGUEIRA DOS REIS TONIETTO 74006.33       1 False 1.0
+                HELIO FERNANDO BARBOSA LOPES 16717.50       1 False 1.0
+                    DANIEL LUCIO DA SILVEIRA 13265.00       1 False 1.0
+                           SERGIO LUIZ WEYDT 11088.00       0 False 1.0
+                    ROSILENE ETIENE MENDONÇA  9830.14       0 False 1.0
+  CAROLINA MARIA CARDOSO CALDEIRA DE LACERDA  7630.14       0 False 0.0
+LUIZ EDUARDO CARNEIRO DA SILVA DE SOUZA LIMA  6835.00       1 False 0.0
+                      JOZIEL FERREIRA CARLOS  5474.30       1 False 0.0
+ canônico: NECr=7.3955752059004185 k=7 eleitos_top=4.0 esperado=1.3333333333333333
+
+Empates na fronteira por valor de q:
+ano   q_zero
+2018  False     121
+2022  False     185
+dtype: int64
+Listas com C==1 por ano: {2018: 163, 2022: 33}
+Listas com k==C (financiadas) por ano: {2018: 207, 2022: 100}
+Listas com E>k por ano: {2018: 10, 2022: 4}  eleitos nelas: {2018: 39, 2022: 22}
+Eleitos com R=0 (dentro de listas financiadas ou não) por ano: {2018: 32, 2022: 8}
+Competitivos com R=0 por ano: {2018: 75, 2022: 36}
+Candidaturas com R=0 por ano: {2018: 2046, 2022: 1086}
+Candidaturas com R=0 em listas financiadas: {2018: 1811, 2022: 756}
+Perfil competitivo não observado por ano: {2018: 4, 2022: 3}
+Competitivos por ano (candidato_competitivo): {2018: 886, 2022: 1287}
+Eleitos com votos=0?  0  | Recebedores com 0 votos: {2018: 0, 2022: 0}

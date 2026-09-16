@@ -1,0 +1,1218 @@
+=== PDF PAGE 1 ===
+Article
+Political parties and campaign
+resource allocation: Gender
+gaps in Brazilian elections
+Andrew Janusz
+, Sofi-Nicole Barreiro and Erika Cintron
+University of Florida, USA
+Abstract
+Political parties shape electoral outcomes by determining who stands for election and what campaign resources they have
+at their disposal. The introduction of gender quotas have led party leaders to nominate more women candidates,
+however, those women disproportionately lose. We contend that one of the reasons that women routinely lose is
+because party elites withhold the campaign resources necessary to mount an effective campaign. In this paper, we test
+this resource gatekeeping argument using data on the provision of campaign resources in Brazil. We analyze the
+distribution of three different types of party resources: candidate identification numbers, financial support, and
+television airtime. Our findings show that party elites provide female candidates less advantageous candidate
+identification numbers, less financial support, and less media access than they provide male candidates. Importantly, we
+do not find that gender gaps in campaign contributions are attributable to differences in candidate quality. This finding
+suggests that even when women are recruited to run for office, party elites may still undermine their electoral prospects.
+Keywords
+Brazil, campaigns, elections, gender, political parties
+Introduction
+Political parties play an important role in determining who
+stands for election. Through selective recruitment and
+nomination procedures, they shape the composition of can-
+didate fields, and therein, elected assemblies (Gallagher
+and Marsh, 1988; Norris and Lovenduski, 1995; Siavelis,
+2012). Historically, party leaders’ gatekeeping behavior
+has impeded women from attaining representation com-
+mensurate with their proportion in society (Bjarnega˚rd and
+Kenny, 2015; Hinojosa, 2012; Lawless and Fox, 2010). To
+combat these long-standing disparities, feminists and pro-
+gressive politicians have pushed for the introduction of
+gender quotas (Franceschet et al., 2012; Krook, 2010).
+Where successful, the impact of gender quotas, which
+ensure that political parties nominate a minimum number
+of women to run for office, has been dramatic (Jones, 2009;
+Tripp and Kang, 2008). In the past 25 years, women’s
+representation in national legislatures around the world has
+more than doubled (IPU, 2019).
+In Latin America, the widespread adoption of gender
+quotas led party elites to nominate more women candidates.
+Nevertheless, women have achieved greater political
+representation in some countries than in others (Schwindt-
+Bayer, 2009). Brazil, for example, lags other countries in
+the region and the world with respect to women’s political
+representation (dos Santos and Wylie, 2018). Although at
+least 30% of the candidates that parties nominate for con-
+gressional office must be female, as of 2018, only 14.6%
+of seats in Brazil’s lower house of Congress are held by
+women.
+In this article, we contend that even when party gate-
+keepers nominate women to run for office, they may
+impede them from winning public office by withholding
+critical campaign resources. We test this argument using
+data on the distribution of campaign resources in Brazil,
+where party elites have discretion over three types of
+campaign resources: candidate identification numbers,
+financial resources, and broadcast media time. We find that
+Paper submitted 11 December 2020; accepted for publication 29 April 2021
+Corresponding author:
+Andrew Janusz, University of Florida, 234 Anderson Hall, P.O. Box
+117325, Gainesville, FL 32611-7011, USA.
+Email: ajanusz@ufl.edu
+Party Politics
+1–11
+ª The Author(s) 2021
+Article reuse guidelines:
+sagepub.com/journals-permissions
+DOI: 10.1177/13540688211018424
+journals.sagepub.com/home/ppq
+
+
+=== PDF PAGE 2 ===
+party elites privilege male over female candidates when
+distributing each of these types of resources. Our empirical
+analysis indicates that the gendered distribution of
+resources is not attributable to differences in candidate
+quality. Female candidates receive significantly worse can-
+didate numbers as well as less campaign funds and televi-
+sion airtime than otherwise similar men. This finding
+suggests that party elites in Brazil discriminate against the
+female candidates they nominate and undermine their elec-
+toral prospects.
+To assess whether the distribution of campaign
+resources is electorally consequential, we examine the
+impact of campaign resources on electoral outcomes. Using
+regression methods, we show that candidate identification
+numbers, financial resources, and broadcast media time are
+each significant determinants of vote share. These results
+indicate that ameliorating resource disparities is likely to
+improve women’s electoral prospects. Controlling for cam-
+paign resources, though, we find that female candidates
+receive significantly fewer votes than men. This suggests
+that eliminating resource gaps is not panacea.
+Scholars have traditionally pointed to gendered selec-
+tion processes as hindering women at the nomination stage
+from becoming candidates. Gatekeeping by party elites,
+however, does not only occur at the nomination stage. Party
+elites also shape electoral outcomes by allocating campaign
+resources. In this article, we show that when gender quotas
+require parties to nominate women, elites may use their
+discretion over campaign resources to perpetuate the polit-
+ical power of men.
+Political parties and women’s
+representation
+Political parties are central to electoral politics. They shape
+who runs for elected office via recruitment and selection
+procedures (Lawless and Fox, 2010; Norris, 1997; Norris
+and Lovenduski, 1995; Siavelis, 2012). Parties’ control
+over candidate selection processes has not escaped the
+attention of gender politics scholars. A substantial body
+of research shows that political parties in western democ-
+racies recruit men more often and more intensely than
+women (Fox and Lawless, 2010; Lawless and Fox, 2010).
+One of the principal explanations for this finding is that
+party elites, who are overwhelmingly male, recruit candi-
+dates from their own male-dominated networks (Butler and
+Preece, 2016; Crowder-Meyer, 2013; Hinojosa, 2012; San-
+bonmatsu, 2010).
+The introduction of gender quotas has forced party elites
+to broaden their recruiting efforts (Barnes and Holman,
+2020; Hinojosa, 2012; Hinojosa and V´azquez, 2018). Yet
+evidence shows that political parties routinely nominate the
+minimal number of women required by law (Bjarnega˚rd
+and Zetterberg, 2016; Htun and Jones, 2002; Piscopo,
+2016; Wylie et al., 2019). Moreover, when quota laws “lack
+teeth,” parties routinely fail to even nominate the required
+number of women (Gatto, 2016; Gatto and Wylie, 2021;
+Hinojosa and Piscopo, 2013; Llanos and Sample, 2008;
+Wylie and dos Santos, 2016).
+Monitoring compliance and punishing violations may
+deter party elites from engaging in this type of gendered
+gatekeeping behavior. Nonetheless, even when political
+parties comply with gender quotas and nominate women
+to run for office, the percentage of women elected to public
+office routinely lags the rates at which they run (Rosen,
+2013). One potential reason that women continue to be
+descriptively underrepresented in democracies with gender
+quotas is that nomination is necessary, but not sufficient.
+Female candidates, like their male counterparts, require
+campaign resources.
+Quota laws require political parties to nominate women,
+but do not compel party elites to provide those female
+candidates the campaign resources necessary to run com-
+petitive electoral campaigns. If a political party nominates
+a candidate but does not provide her the necessary
+resources to run a competitive campaign, she is in effect
+a “sacrificial lamb,” a party standard-bearer with no real
+shot at winning public office (Thomas and Bodet, 2013).
+Political parties and the distribution of
+campaign resources
+Modern democracy is unthinkable without political parties
+(Schattschneider, 1960). They aggregate interests, provide
+voters a meaningful choice at the ballot box, and when
+successful, govern. Parties must assemble a winning coali-
+tion to convert their supporters’ preferences into policy.
+Minimum winning coalitions are most conducive to achiev-
+ing this goal (Riker, 1962). To ensure that the party has the
+requisite numbers to pass preferred legislation, party leader
+aide affiliated candidates in winning elected office by pro-
+viding them campaign resources. Party leaders have discre-
+tion over a variety of different types of campaign resources.
+They can facilitate financial contributions from donors
+within the party network, and, at times, contribute directly
+to candidates’ campaigns (Avelino and Fisch, 2018; Has-
+sell, 2016; Jacobson, 1985; Kolodny, 1998; Ocampo,
+2018). Moreover, party elites routinely help them assemble
+a professional campaign staff, provide information about
+the electorate and their competitors, as well as assist them
+attaining media exposure (Fraga and Hassell, 2018; Has-
+sell, 2018; Hassell and Visalvanich, 2019). In some
+instances, political parties are, in fact, the sole providers
+of media exposure. For example, in some Latin American
+and Western European countries, paid political advertising
+on television is prohibited, and party elites have discretion
+over which candidates receive publicity in state-sponsored
+advertising segments (Casas-Zamora, 2016).
+Party elites are presumed to distribute campaign
+resources efficiently to maximize their party’s seats in
+2
+Party Politics XX(X)
+
+
+=== PDF PAGE 3 ===
+parliament. Consistent with this logic, political parties in
+the United States routinely distribute funds to vulnerable
+incumbents and qualified challengers (Damore and Hans-
+ford, 1999; Herrnson, 2009). Yet an individual candidate’s
+chances of electoral success in contested races is never
+known with certainty. This is especially true in multi-
+member electoral districts, which tend to attract larger
+candidate fields. In those situations, party elites’ resource
+allocation decisions are likely to depend on subjective
+assessments of candidates’ abilities.
+Information on candidate background and electoral
+experience is likely to have an outsized impact on elite
+perceptions of electoral potential. Since incumbents win
+reelection with remarkable frequency (Jacobson, 1985),
+party elites are likely to perceive them as the strongest
+candidates and privilege them over novices when distribut-
+ing resources (Jacobson, 1993). Similarly, candidates who
+have previously held elected public office are likely to be
+considered strong candidates and receive party support
+(Cheibub and Sin, 2020). Party elites may also favor expe-
+rienced politicians for policy as opposed to electoral rea-
+sons. Previous office holders have social connections,
+policy expertise, and practical knowledge of government
+that can help the party accomplish their legislative agenda
+(Norris and Lovenduski, 1995). This leads to the following
+hypothesis:
+Hypothesis 1: Party elites provide experienced politi-
+cians greater campaign resources than inexperienced
+candidates.
+Electoral experience, though, may not be the only factor
+that shapes party elites’ resource allocation decisions.
+Given the substantial research which shows that party elites
+favor men over women in recruitment, we might also
+expect party elites to favor men when allocating resources.
+This may occur for two different reasons. First, party elites,
+who are overwhelmingly male, may believe that the ideal
+candidates possess characteristics like their own. Niven
+(1998) shows that male party leaders express a preference
+for individuals with traditionally masculine traits. Those
+deemed to be competitive, outspoken and individualistic,
+were perceived as preferable to those that were cautious
+and compassionate. It is also possible that party elites might
+provide resources disproportionately to male candidates
+because they believe that members of the electorate prefer
+males.
+A growing body of survey and experimental work indi-
+cates that voters are willing to support female candidates
+(Aguilar et al., 2015; Burrell, 1996; Dolan, 2014; Lawless,
+2004; Schwarz et al., 2018; Seltzer et al., 1997; Wylie,
+2018). Nevertheless, there is still a widespread belief that
+voters prefer male candidates (Bateson, 2020; Lawless and
+Fox, 2010; McElroy and Marsh, 2011; Sanbonmatsu,
+2006). Sanbonmatsu (2006) finds that in the U.S. some
+party leaders are overly pessimistic about women’s
+chances. If party elites believe that female candidates will
+face an electoral penalty, they may be less willing to pro-
+vide them campaign resources. We expect that:
+Hypothesis 2: Party elites privilege men over women in
+the distribution of campaign resources.
+Brazil presents an ideal case to test these hypotheses.
+Due to gender quotas, at least 30% of the candidates that
+political parties nominate to run for congress must be
+women. However, parties are not required to provide the
+women they nominate the campaign resources needed to
+mount effective electoral campaigns.
+Brazil’s electoral system, political parties,
+and campaign resource provision
+Brazil is known for having a candidate-centric electoral
+system (Shugart, 2005). Aspiring politicians running for a
+seat in the Chamber of Deputies, Brazil’s 513 seat lower
+house of Congress, compete in statewide electoral dis-
+tricts under open-list proportional representation (OLPR)
+rules. Because candidates compete against candidates
+from other political parties as well as copartisans, they
+run personalistic campaigns (Ames, 1995; Carey and Shu-
+gart, 1995). Candidates highlight their personal character-
+istics and seldom mention their party affiliation (Samuels,
+2001b).
+Brazilian voters routinely have an abundance of candi-
+dates to choose from. Thousands of candidates typically
+run for congressional office (Cunow et al., 2021). Voters
+are entitled to cast a single ballot either for a political
+party or an individual candidate. Most voters, though, cast
+a preference vote for a particular candidate (Avelino and
+Fisch, 2018). When polls close on election day, votes cast
+for individual candidates are pooled at the party level and
+seats within the legislature are then allocated to parties
+according to the proportion of all valid votes they receive.
+Which candidates receive those seats depends on how
+they perform relative to the other candidates on the party
+list.
+Brazilian candidates seek a “personal vote” in an effort
+to win office (Ames, 1995; Carey and Shugart, 1995). In
+their campaign advertisements they highlight their qualifi-
+cations and policy preference and seldom mention their
+party affiliation (Ames, 1995; Carey and Shugart, 1995;
+Samuels, 2001a). Although candidates run personalistic
+campaigns, political parties are by no means electorally
+irrelevant. Brazilian party elites have discretion over the
+distribution of three types of campaign resources: candidate
+identification numbers, campaign funds, and broadcast
+airtime.
+Janusz et al.
+3
+
+
+=== PDF PAGE 4 ===
+Candidate identification numbers
+To cast their vote for a specific candidate, voters must enter
+that candidate’s official identification number into an elec-
+tronic voting machine on election day.1 As a result, candi-
+dates place their unique candidate identification numbers,
+which are distributed by party elites, on everything from
+pamphlets and stickers to clothing and cars. In congressio-
+nal elections, candidate identification numbers have four
+digits. These identification numbers may have repeating
+digits, have adjacent consecutive integers or some combi-
+nation of the two. Easily memorable identification numbers
+are in short supply and highly coveted (Wylie, 2018).
+Party leaders provide some congressional candidates
+with suspiciously memorable identification numbers. For
+example, in Sa˜o Paulo, Francisco Oliveira Silva, who is
+better known as the clown Tiririca (Grumpy) had the iden-
+tification number 2222. Similarly, in the state of Bahia,
+F´elix Mendonc¸a Jr., the son of a popular mayor, held the
+highly desirable identification number 1234. Bueno and
+Dunning (2017) show that candidates provided identifica-
+tion numbers with repeating digits and adjacent consecu-
+tive integers are more likely to win office. It is unclear
+though if party elites provide men “better numbers” than
+women.
+Campaign funds
+Party officials also have discretion over the distribution of
+financial resources. Candidates routinely use party funds to
+produce campaign advertisements, pay campaign staff, and
+to stage campaign events. Due to the large number of com-
+petitors, candidates spend substantial sums of money to
+distinguish themselves from their competitors (Avelino and
+Fisch, 2018; Samuels, 2001a, 2001b). While some congres-
+sional candidates have won office without spending lav-
+ishly, campaign funds are universally regarded as an
+important determinant of electoral success in Brazilian
+congressional elections.
+Businesses and private individuals have historically
+been the principal source of campaign resources (Samuels,
+2001a). Financial disclosures, however, show that political
+parties are an increasingly important source of funds.2 In
+2014, political parties donated more to congressional cam-
+paigns than either corporations or private citizens (Silva
+and Cervi, 2017). Party organizations provided congressio-
+nal candidates cash or physical materials valued at R$450
+million, about 150 million US dollars.
+The criteria that underlie the distribution of parties’
+financial resources is unclear. Even politicians themselves
+report that they do not know how their respective parties
+decide how to allocate funds (Ara´ujo and Borges, 2013).
+Theory suggests that party elites will distribute financial
+resources strategically to maximize the number of seats
+they win and therefore privilege experienced politicians.
+Extant work, though, shows that there is a relationship
+between candidate gender and resource allocation deci-
+sions (Sacchet, 2011; Sacchet and Speck, 2012; Wylie,
+2018). Sacchet (2011) finds that in the 2006 and 2010
+congressional elections, political parties distributed cam-
+paign funds disproportionately to male candidates.
+In 2010, Brazilian political parties were required to
+spend 5% of party funds promoting women’s participation.
+Political parties that year often spent little beyond this
+amount (Wylie, 2018). Wylie et al. (2019) suggest that
+women get less money because party elites only nominate
+them to comply with the gender quota. In some instances,
+the women know that they are “laranja” (orange) candi-
+dates, individuals who do not have a chance of winning
+and do not even campaign. Other women, however, run
+earnest campaigns but do not receive party funds.
+Broadcast airtime
+Like candidate identification numbers, broadcast airtime is
+a valuable campaign resource that party elites exclusively
+control. Survey results indicate that voters regularly watch
+the HGPE and suggests that advertising affects voter beha-
+vior (Porto, 2006). Research on the relationship between
+HGPE airtime and electoral performance are consistent
+with this conclusion. Schmitt et al. (1999) as well as Speck
+and Cervi (2016) find a positive relationship between tele-
+vision airtime and vote share.3 Moreover, in a study that
+addresses endogeneity and omitted variable bias threats,
+Silveira and Mello (2011) show that television advertising
+has a large causal effect on election outcomes. Given the
+electoral value of HGPE airtime, it is not surprising that
+political candidates covet it. Many congressional candi-
+dates, however, never receive it.
+The authors of Brazil’s 1988 Constitution established
+the Hor´ario Gratuito de Propaganda Eleitoral (HGPE), a
+publicly financed electoral program, to ensure that voters
+receive information about the qualifications and policy
+views of candidates from across the political spectrum
+(Porto, 2006). This program grants political parties the
+opportunity to broadcast campaign ads on television and
+radio in the 45 days leading up to elections, but otherwise
+bars the purchase of airtime for political purposes.4
+Although free advertisement time given by the Brazilian
+government has served as a democratizing force between
+parties, it does not level the playing field between candi-
+dates. HGPE airtime is distributed at the discretion of party
+leaders.
+Extant research indicates that party elites establish
+“informal party lists” through the distribution of HGPE
+airtime (Albuquerque et al., 2008; Schmitt et al., 1999).
+Studies show that party leaders privilege incumbents over
+nonincumbents (Janusz and Campos, forthcoming). More-
+over, they reveal that women receive less airtime than men
+(Ara´ujo and Borges, 2013; Carvalho et al., 2018; Romero
+4
+Party Politics XX(X)
+
+
+=== PDF PAGE 5 ===
+et al., 2012). Some posit that women receive less airtime
+because they are less likely to be incumbents (Ara´ujo et al.,
+2018; Romero et al., 2012). Since congressional passage of
+law 12.034 in 2009, parties have been required to provide
+10% of the HGPE airtime they receive to women
+candidates.
+In the next section, we examine how party elites distri-
+bute candidate identification numbers, financial resources,
+and broadcast airtime. Theory suggests that party elites
+distribute campaign resources efficiently to maximize the
+number of seats the party wins. Our quantitative analysis
+reveals that experienced politicians are privileged, but also
+reveals that female candidates are marginalized.
+Analysis of party behavior
+To determine how candidate attributes affect access to
+campaign resources, we draw on data from Brazil’s 2014
+congressional elections. In the 2014 elections, 5,864 can-
+didates competed for a seat in Brazil’s Chamber of Depu-
+ties. Of those candidates, 29.4% identified themselves as
+female. The women that competed in 2014 differed from
+male candidates in observable and theoretically important
+ways. Among the most important differences between men
+and women is their levels of electoral experience. Female
+candidates are significantly less likely than male candidates
+to be incumbents or have held electoral office. Using OLS
+regression we are able to control for theoretically important
+attributes that may explain gender disparities in campaign
+resources.
+We utilize three different dependent variables in our
+analysis of elite party behavior.5 In Model 1, our dependent
+variable is the electoral quality of each candidate’s unique
+identification number. This variable, which is coded in
+accordance with the Bueno and Dunning (2017) “good
+number” measure, reflects the number of repeating digits
+and adjacent sequential integers.6 In Model 2, our depen-
+dent variable is the value of campaign resources provided
+by a candidate’s state political party. We measure this vari-
+able in R$10,000 increments. Finally, in Model 3, our
+dependent variable is the number of seconds of HGPE air-
+time awarded to candidates.7 For this measure, we only
+have data on the distribution of HGPE airtime in Rio de
+Janeiro. Because state party elites exercise control over the
+distribution of candidate identification numbers, campaign
+funds and HGPE airtime, we employ state party fixed
+effects.
+In each model, we include a series of dummy variables
+to capture a candidates’ level of electoral experience. The
+first of these, the Incumbent Politician variable, takes the
+value “1” if a candidate is running for reelection and “0” if
+they are not. The second variable, Electoral Office Holder,
+takes the value “1” if the candidate was elected to any
+political office in the prior 10 years and “0” otherwise.8
+Finally, the Prior Candidacy variable captures whether an
+individual previously ran for elected office but was never
+elected. This variable takes the value “1” if a candidate ran
+for office in the past 10 years but never was elected and “0”
+otherwise. We expect both the Incumbent Politician and the
+Electoral Experience variables to produce positive, statis-
+tically significant coefficients. The Prior Candidacy vari-
+able could have a negative, positive or null effect on the
+distribution of resources. The fact that a candidate has run
+for office and lost likely sends a noisy signal to party elites
+about that individual’s electoral prospects.
+Besides electoral experience, we expect that women are
+likely to be overlooked in the distribution of campaign
+resources. We therefore include the Female Candidate
+variable, which takes the value “1” if a politician identified
+themselves as a woman when they registered to run for
+public office and “0” otherwise. We expect this variable
+to produce a negative, statistically significant coefficient in
+each model.
+Research indicates that candidate attributes besides
+electoral experience and gender may affect their access to
+resources. Therefore, we include measures of a candidate’s
+level of education, occupation, age, and racial group mem-
+bership as control variables (Cervi, 2011; Janusz and Cam-
+pos, forthcoming; Romero et al., 2012). We include the
+College Degree variable, which is coded “1” if a candidate
+reported they have a college degree and “0” otherwise. We
+expect candidates who have graduated college to receive
+greater resources than candidates with less formal educa-
+tion. The Businessperson variable is coded “1” if a person
+identifies themselves a businessperson when they register
+to run for office.9 Since research suggests that party elites
+prefer to recruit business professionals, it is possible they
+also privilege them when distributing resources. The Can-
+didate Age variable is a nominal measure of a candidate’s
+age at the time of registration. Older candidates may be
+perceived as more mature and capable, and therefore pri-
+vileged. Finally, we include a dichotomous measure of
+candidate race. The Nonwhite Candidate variable is coded
+“1” if a candidate did not identify themselves as a white
+when they registered to run for office and “0” otherwise.
+We expect party leaders will favor white candidates over
+nonwhite candidates when allocating resources.
+The OLS regression results presented in Table 1 provide
+strong evidence that party elites distribute campaign
+resources strategically. The results show that party elites
+provide incumbents and those who have held public office
+greater campaign resources than political novices. These
+findings are consistent with our first hypothesis, that party
+elites distribute resources based on electoral experience.
+The results also reveal that party elites provide female can-
+didates less resources than they provide their male coparti-
+sans. This finding is consistent with our second hypotheses.
+Party elites privilege men over women in the distribution of
+campaign resources.
+Janusz et al.
+5
+
+
+=== PDF PAGE 6 ===
+In Model 1, we examine the distribution of candidate
+identification numbers. As expected, both the Incumbent
+Politician and Electoral Office Holder variables have
+positive, statistically significant coefficients. This indi-
+cates that party elites provide incumbents and previous
+office holders significantly more advantageous identifi-
+cation numbers than first-time candidates. Even when we
+include measures of electoral experience, the Female
+Candidate variable has a negative, statistically signifi-
+cant coefficient. This indicates that party elites provide
+male candidates more memorable identification numbers
+than women.
+In Model 2, we explore the distribution of state party
+campaign funds. Again, we find that incumbents and those
+who have held elected office are the largest beneficiaries of
+party support. Incumbents receive approximately
+R$236,660 more than first-time candidates. Party elites
+also privilege candidates who have held elected office
+when distributing funds. While the amount prior office
+holders receive is substantially less than what incumbents
+receive, it is still sizable. Party elites provide candidates
+that have held elected office just shy of R$25,000 more
+than first-time candidates. Consistent with expectations,
+we again find that party elites overlook women. The neg-
+ative, statistically significant coefficient on the Female
+Candidate variable, reveals that female candidates typi-
+cally receive R$16,640 less than otherwise equal male can-
+didates. This finding is consistent with prior work, which
+shows a gender gap in party support (Sacchet, 2011; Sac-
+chet and Speck, 2012; Wylie, 2018). In contrast to pub-
+lished studies, though, we show that these gender gaps
+remain even when controlling for electoral experience.
+Considering the importance of financial resources in con-
+gressional elections and evidence that women face hurdles
+to raising private funds (Ara´ujo and Borges, 2013; dos
+Santos and Wylie, 2018; Wylie, 2020), the results of Model
+2 suggest that party elites are not committed to helping
+women win elected office.
+In Model 3, we turn to the distribution of HGPE air-
+time. In 2014, political parties in Rio de Janeiro distrib-
+uted 422 minutes of broadcast airtime to congressional
+candidates. We find that party leaders did not distribute
+airtime equally. Incumbents and prior office holders
+receive significantly more HGPE airtime than political
+novices. In contrast to prior studies, which suggest that
+women receive less HGPE airtime because they are scar-
+cer among incumbents, we find that electoral experience
+does not explain gender gaps in HGPE airtime. All else
+equal, female nonincumbents receive 9.3 seconds less
+than their male, nonincumbents copartisans. Considering
+the size of Brazil’s congressional districts and voters’
+reliance on television for political information, women
+are thus at a considerable disadvantage.
+In addition to investigating the importance of electoral
+experience and gender, in each model we also control for
+educational attainment, occupation, age, and racial group
+membership. Two findings warrant mention. First, we find
+that the coefficient on the College Degree variable is pos-
+itive and significant across each model. This indicates that
+candidates with college degrees receive better identifica-
+tion numbers, more resources, and more HGPE airtime than
+their less educated copartisans. Party bosses likely believe
+that candidates with a college degree possess the skills and
+knowledge necessary to run a competitive campaign (Cam-
+pos, 2015). Second, we find the Nonwhite Candidate vari-
+able has a negative sign in Models 2 and 3, but is only
+statistically significant in Model 2. With respect to Model
+2, this indicates that party elites provide self-identified
+nonwhite candidates significantly less financial support
+than white candidates. More broadly though, this finding
+suggests that in addition to perpetuating gender gaps in
+campaign resources, Brazilian political parties are also
+Table 1. Gender and party resource allocation.
+Model 1 Candidate ID Number Quality Model 2 State Party Funds (R$10K) Model 3 HGPE Airtime Seconds
+Incumbent Politician
+0.129** (0.057)
+23.662*** (1.327)
+189.153*** (12.55)
+Electoral Office Holder
+0.215*** (0.036)
+2.485*** (0.842)
+45.07*** (7.271)
+Prior Candidacy
+0.003 (0.024)
+0.110 (0.562)
+1.545 (4.200)
+Female Candidate
+0.129*** (0.024)
+1.664*** (0.552)
+9.302** (4.385)
+College Degree
+0.091*** (0.023)
+1.407*** (0.524)
+14.044*** (4.051)
+Business person
+0.010 (0.027)
+0.726 (0.627)
+0.838 (4.800)
+Candidate Age
+0.001 (0.001)
+0.052** (0.022)
+0.226 (0.172)
+Nonwhite Candidate
+0.000 (0.025)
+1.663*** (0.576)
+6.464 (4.210)
+Constant
+3.439*** (0.040)
+5.038*** (1.170)
+27.75** (8.774)
+State Party Fixed Effects
+Yes
+Yes
+Yes
+N
+5,864
+5,864
+863
+R squared
+.039
+.103
+.414
+Standard Error in Parentheses.
+* p < 0.10, ** p < 0.05, *** p < 0.01.
+6
+Party Politics XX(X)
+
+
+=== PDF PAGE 7 ===
+partially responsible for racial disparities in campaign
+resources.
+Table 1 provides striking evidence that parties provide
+greater campaign resources to men than women. But it does
+not demonstrate that nominated women lose because of
+gender disparities in campaign resources. To assess this
+possibility, we turn to electoral outcomes.
+In Table 2, we present an additional set of OLS regres-
+sion results. In the presented models, vote share (logged) is
+the dependent variable.10 The measures of campaign
+resources that served as the dependent variables in the prior
+analysis are now included as independent variables. More-
+over, we include the electoral experience, gender, and con-
+trol variables used in Table 1 because those individual
+attributes may independently affect electoral outcomes. In
+contrast to the OLS models presented in Table 1, which
+uses state party fixed effects, in Table 2 we use state fixed
+effects.
+In Table 2, the results of both Model 1 and Model 2
+suggest that the resources party elites provide are electo-
+rally consequential. The ID Number Quality variable has
+a positive and statistically significant coefficient in both
+models. The State Party Funds variable also has a pos-
+itive, statistically significant coefficient in the first
+model. Although it does not reach conventional levels
+of statistical significance in the second model, which
+only uses data on congressional elections in Rio de
+Janeiro, it continues to have the expected positive sign.
+Finally, in Model 2 the HGPE Airtime variable has a
+positive and statistically significant coefficient. This
+indicates that the more airtime candidates receive, the
+more votes they receive. Together, these results suggest
+that party resources matter. Candidates that receive party
+campaign resources ultimately attain more votes than
+candidates who do not.
+In additional to showing that campaign resources affect
+electoral performance, Table 2 also reveals that there is a
+relationship between gender and vote share. The negative,
+statistically significant coefficient on the Female Candi-
+date variable indicates that women in comparison to men
+receive significantly fewer votes. This finding indicates
+that resources disparities are not the only factor hindering
+women from winning public office and points to the pos-
+sibility that voters discriminate against women. While this
+finding conflicts with the established literature, it is con-
+sistent with the results of a recent voting experiment.
+Batista Pereira (2020) finds that Brazilian voters are less
+likely to vote for women when they can substitute ideolo-
+gically close female candidates with male copartisans.
+Discussion and conclusion
+Political parties are central to electoral competition. Party
+elites determine the types of candidates that run through
+recruitment and nomination procedures. Moreover, they
+influence which types of candidates win via the distribution
+of resources. In this paper, we argue that even when polit-
+ical parties nominate women, they may hinder them from
+winning public office by withholding critical campaign
+resources. We test this hypothesis in Brazil, where parties
+regularly nominate women to run for office, but women are
+not elected in proportion to the rates at which they run.
+Using original data on three distinct types of campaign
+resources, we show that Brazilian party elites overwhel-
+mingly favor men over women. We find that party elites
+provide women less advantageous candidate identification
+numbers than men. Importantly, the distribution of candi-
+date numbers is not unique to Brazil. In Colombia and Peru,
+voters also cast their ballot for candidates by checking a
+number next to a party label or by writing in a candidate
+number. It is unclear, however, if party elites similarly
+marginalize women. More broadly, our findings comple-
+ment work on placement mandates (Corrˆea and Chaves,
+2020; Jankowski and Marcinkiewicz, 2019; Schmidt,
+2009). In countries with open-list systems, where political
+parties rank candidates but voters can disturb the list,
+receiving a higher rank increases the likelihood of electoral
+success (Mustillo and Polga-Hecimovich, 2020). Since
+party elites regularly rank women lower than men, it
+reduces their likelihood of winning office (Corrˆea and
+Chaves, 2020).
+We also show that party elites provide women less cam-
+paign resources than men. In Brazil, party elites have dis-
+cretion over the distribution of campaign funds as well as
+broadcast advertising time. While prior studies document
+gender gaps in resources, they suggest disparities are due to
+differences in electoral experience. In contrast, we find that
+gender disparities in party support are not attributable to
+differences in candidate quality. This finding suggests that
+party leaders discriminate against women when allocating
+Table 2. Gender and electoral success.
+Model 1 Votes
+Logged
+Model 2 Votes
+Logged
+Incumbent Politician
+1.172*** (0.101)
+0.058 (0.327)
+Electoral Office Holder
+2.284*** (0.063)
+2.149*** (0.167)
+Prior Candidacy
+0.113** (0.043)
+0.328*** (0.0959)
+Female Candidate
+1.223*** (0.044) 1.069*** (0.101)
+ID Number Quality
+0.220*** (0.021)
+0.118* (0.050)
+State Party Funds
+(R$10 K)
+0.012*** (0.001)
+0.002 (0.002)
+HGPE Airtime (Seconds)
+0.008*** (0.001)
+Constant
+6.105*** (0.115)
+6.055*** (0.262)
+Controls
+Yes
+Yes
+State Fixed Effects
+Yes
+No
+N
+5,863
+862
+R squared
+.526
+.523
+Standard Error in Parentheses.
+* p < 0.10, ** p < 0.05, *** p < 0.01.
+Janusz et al.
+7
+
+
+=== PDF PAGE 8 ===
+campaign resources and has critical implications for cam-
+paign finance reforms.
+In 2015, corporations were barred from donating to cam-
+paigns and an electoral fund was established to underwrite
+campaigns. According to a judicial ruling, 30% of those
+funds are supposed to go to women. Wylie (2020) shows
+that the change led more women to run and that the gender
+gap in campaign revenues diminished. Our findings suggest
+that gender gaps in resources likely persisted because of
+party elites, the individuals empowered by the change, con-
+tinued to favor men. We find some evidence of this. In
+2018, party elites provided female candidates R$2,900 less
+than male candidates. In other work, Wylie (2018) shows
+that female party leaders are more likely to nominate
+women candidates. Future studies should explore if women
+are also more likely to fund female candidates. Our study
+shows that party gatekeeping does not end at the nomina-
+tion stage. When parties can nominate large numbers of
+candidates and elites exclusively control the distribution
+of critical campaign resources, resource gatekeeping may
+occur.
+Unlike money, which candidates can theoretically attain
+from individual donors, airtime is exclusively distributed
+by party elites. In Europe and Latin America, other coun-
+tries have similar systems. Moreover, the Brazilian model
+has been replicated across the region (Casas-Zamora,
+2016). The extent to which party elites in those countries
+privilege men over women when distributing television
+time however has received scant scholarly attention. The
+Brazilian case demonstrates that public advertising may
+level the playing field between parties, but it will not neces-
+sarily do so within parties. If parties were compelled to
+distribute airtime equally as well as report how they allo-
+cate it, gender gaps in media advertising could be reduced
+and women’s representation would likely increase.
+To push the literature on political parties and gender
+equality forward, a first-order priority should be to explore
+the extent parties have formal criteria for distributing
+resources and whether candidates are aware of them. To
+date, research suggests that resource allocation decisions
+are made in smoke-filled rooms and that candidates are
+ignorant of selection criteria (Ara´ujo and Borges, 2013).
+Future studies should survey party elites to determine if
+they are prejudiced against women or believe voters prefer
+men. Moreover, our findings suggest that women are not
+the only type of candidates that party elites may hinder
+from winning office. Party elites may also hinder ethnic,
+racial, and religious minorities from winning office by
+withholding resources. While several studies explore this
+possibility in developed democracies (Dancygier et al.,
+2020; Fraga and Hassell, 2018; Hassell and Visalvanich,
+2019), it has received comparatively little attention in
+developing democracies.
+It is also important to investigate how the distribution of
+resources affects candidate behavior. For instance, do
+candidates that receive limited party assistance give up
+on campaigning before election day? Moreover, scholars
+should explore whether candidates who receive scant party
+support choose to participate in future elections, and if so,
+whether they switch political parties? These questions
+could be studied in the Brazilian context, but they are
+applicable to all democracies.
+Declaration of conflicting interests
+The author(s) declared no potential conflicts of interest with
+respect to the research, authorship, and/or publication of this
+article.
+Funding
+The author(s) received no financial support for the research,
+authorship, and/or publication of this article.
+ORCID iD
+Andrew Janusz
+https://orcid.org/0000-0003-4920-9342
+Supplemental material
+Supplemental material for this article is available online.
+Notes
+1. No two candidates within the same electoral district have the
+same identification number.
+2. This is especially true following Brazil’s 2016 campaign
+finance reforms. Those reforms barred corporate campaign
+contributions and established a public fund from which par-
+ties receive financial resources.
+3. But see Albuquerque et al. (2008).
+4. Parties are assigned 66% of their advertisement time based on
+how many seats they have in the lower house of Congress,
+with the other 33% of airtime equally distributed between all
+registered parties (Porto, 2006).
+5. In the Online Appendix, we present simple quantitative and
+graphical evidence of gender gaps in resource distribution.
+We also show that our results are robust when we operatio-
+nalize our dependent variables differently.
+6. The Bueno and Dunning “good number” measure is com-
+posed of two components. The first component entails the
+number of repeat digits and the second reflects the number
+of adjacent consecutive integers. Thus, a congressional can-
+didate with the identification number 2222, would receive a
+score of four on the first dimension and a score of one on the
+second. In contrast, a candidate with the identification num-
+ber 1234 would receive a value of one on the first component
+and four on the second. Because candidate numbers can
+repeat, iterate, or do some combination of both, these two
+components are summed to generate an overall measure of
+quality.
+7. The authors timed each congressional ad aired in Rio de
+Janeiro in the run up to the 2014 elections. In total, we col-
+lected data on 2,733 congressional campaign ads, which ran-
+ged in length from 1.6 seconds to 3 minutes. Because we only
+8
+Party Politics XX(X)
+
+
+=== PDF PAGE 9 ===
+have data on the provision of HGPE airtime in Rio de Janeiro,
+the number of observations in this model is substantially
+smaller than other models.
+8. We elect to look at just experience in the past 10 years for
+theoretical reasons. Candidates that have previously held
+office, but were not incumbents, still possess skills and con-
+nections that make them viable electoral contenders. Beyond
+that timeframe, candidates’ abilities are likely to diminish,
+and their connections can be expected to fade. We have uti-
+lized alternative time periods and find that the results are
+robust.
+9. This variable is coded according to the classification schema
+proposed by Carnes and Lupu (2015). The “Businessperson”
+category includes business owners and managers, farm own-
+ers and managers, bankers, business representatives, contrac-
+tors, and salespersons.
+10. This measure is preferable to dichotomous election outcome
+measures because candidates may win or lose elected office
+based on the performance of their copartisans. In the Online
+Appendix, we show that the conclusions are robust to alter-
+native measures of electoral success.
+References
+Aguilar R, Cunow S and Desposato S (2015) Choice sets, gen-
+der, and candidate choice in Brazil. Electoral Studies 39:
+230–242.
+Albuquerque AD, Steibel FB and Carneiro CMZ (2008) A Outra
+Face do Hor´ario Gratuito: Partidos Pol´ıticos e Eleic¸o˜es Pro-
+porcionais na Televisa˜o. Dados 51(2): 459–487.
+Ames B (1995) Electoral strategy under open-list proportional
+representation. American Journal of Political Science 39(2):
+406–433.
+Ara´ujo C and Borges D (2013) Trajet´orias Pol´ıticas e Chances
+Eleitorais: Analisando o “Gˆenero” das Candidaturas em 2010.
+Revista de Sociologia e Polı´tica 21(46): 69–91.
+Ara´ujo C, Calasanti A and Htun M (2018) Women, power, and
+policy in Brazil. In: Schwindt-Bayer LA (ed.), Gender and
+Representation in Latin America. Oxford: Oxford University
+Press, pp. 211–227.
+Avelino G and Fisch A (2018) Money, elections, and candidates.
+In: Ames B (ed.), Routledge Handbook of Brazilian Politics.
+London: Routledge, pp. 161–174.
+Barnes TD and Holman MR (2020) Gender quotas, women’s
+representation, and legislative diversity. The Journal of Poli-
+tics 82(4): 1271–1286.
+Bateson R (2020) Strategic discrimination. Perspectives on Pol-
+itics 18(4): 1068–1087.
+Batista Pereira F (2020) Electoral rules and voter bias against
+female candidates in Brazilian congressional elections. Jour-
+nal of Elections, Public Opinion and Parties. Epub ahead of
+print 12 August 2020. DOI: 10.1080/17457289.2020.1806287.
+Bjarnega˚rd E and Kenny M (2015) Revealing the “secret garden”:
+the informal dimensions of political recruitment. Politics &
+Gender 11(4): 748–753.
+Bjarnega˚rd E and Zetterberg P (2016) Political parties and gen-
+der quota implementation: the role of bureaucratized candi-
+date selection procedures. Comparative Politics 48(3): 393–
+417.
+Bueno N and Dunning T (2017) Race, resources, and representation
+evidence from Brazilian politicians. World Politics 69: 327.
+Burrell BC (1996) A Woman’s Place is in the House: Campaign-
+ing for Congress in the Feminist Era. Ann Arbor, MI: Univer-
+sity of Michigan Press.
+Butler DM and Preece JR (2016) Recruitment and perceptions of
+gender bias in party leader support. Political Research Quar-
+terly 69(4): 842–851.
+Campos LA (2015) Socialismo Moreno, Conservadorismo
+P´alido? Cor e Recrutamento Partid´ario em Sa˜o Paulo e Rio
+de Janeiro nas Eleic¸o˜es de 2012. Dados-Revista de Cıˆencias
+Sociais 58(3): 689–719.
+Carey JM and Shugart MS (1995) Incentives to cultivate a per-
+sonal vote: a rank ordering of electoral formulas. Electoral
+Studies 14(4): 417–439.
+Carnes N and Lupu N (2015) Rethinking the comparative per-
+spective on class and representation: evidence from Latin
+America. American Journal of Political Science 59(1): 1–18.
+Carvalho FCD, Kniess AB and Fontes GS (2018) Representac¸a˜o
+Feminina na Propaganda Eleitoral Partid´aria no Brasil: As
+Candidatas a Deputada Federal pelo Paran´a na TV. Estudos
+em Comunicac¸a˜o 1(26): 231–246.
+Casas-Zamora K (2016) The State of Political Finance Regula-
+tions in Latin America. Stockholm: International IDEA, Dis-
+cussion Paper.
+Cervi EU (2011) O Uso do HGPE Como Recurso Partid´ario em
+Eleic¸o˜es Proporcionais no Brasil: Um Instrumento de An´alise
+de Conte´udo. Opinia˜o Pu´blica 17(1): 106–136.
+Cheibub JA and Sin G (2020) Preference vote and intra-party
+competition in open list PR systems. Journal of Theoretical
+Politics 32(1): 70–95.
+Corrˆea DS and Chaves VS (2020) Gender quotas and placement
+mandates in open and closed lists: similar effects, different
+mechanisms. Electoral Studies 66: 102157.
+Crowder-Meyer M (2013) Gendered recruitment without trying:
+how local party recruiters affect women’s representation.
+Politics & Gender 9(4): 390–413.
+Cunow S, Desposato S, Janusz A and Sells C (2021) Less is more:
+the paradox of choice in voting behavior. Electoral Studies 69:
+102230.
+Damore DF and Hansford TG (1999) The allocation of party
+controlled campaign resources in the house of representatives,
+1989-1996. Political Research Quarterly 52(2): 371–385.
+Dancygier R, Lindgren KO, Nyman P, et al. (2020) Candidate
+supply is not a barrier to immigrant representation: a case–
+control study. American Journal of Political Science, 1–16.
+DOI: 10.1111/ajps.12553.
+Dolan KA (2014) When Does Gender Matter?: Women Candi-
+dates and Gender Stereotypes in American Elections. USA:
+Oxford University Press.
+Janusz et al.
+9
+
+
+=== PDF PAGE 10 ===
+dos Santos PA and Wylie KN (2018) The representation of
+women. In: Ames B (ed.), Routledge Handbook of Brazilian
+Politics. London: Routledge, pp.57–71.
+Fox RL and Lawless JL (2010) If only they’d ask: gender, recruit-
+ment, and political ambition. The Journal of Politics 72(2):
+310–326.
+Fraga BL and Hassell HJ (2018) Are minority and women candi-
+dates penalized by party politics? Race, gender, and access to
+party support. Political Research Quarterly 2018: 1–16.
+Franceschet S, Krook ML and Piscopo JM (2012) Conceptualiz-
+ing the impact of gender quotas. In: Franceschet S, Krook ML
+and Piscopo JM (eds) The Impact of Gender Quotas. Cam-
+bridge: Cambridge University Press, pp. 3–26.
+Gallagher M and Marsh M (1988) Candidate Selection in Com-
+parative Perspective: The Secret Garden of Politics, Vol. 18.
+London; Newbury Park, CA: Sage Publications Ltd.
+Gatto ML (2016) Endogenous Institutionalism and the Puzzle of
+Gender Quotas: Insights From Latin America. PhD Thesis,
+University of Oxford, UK.
+Gatto ML and Wylie K (2021) Informal institutions and gendered
+candidate selection in Brazilian parties. Party Politics. Epub
+ahead
+of
+print
+5
+May
+2021.
+DOI:
+10.1177/
+13540688211008842.
+Hassell HJ (2016) Party control of party primaries: party influence
+in nominations for the US senate. The Journal of Politics
+78(1): 75–87.
+Hassell HJ (2018) The Party’s Primary: Control of Congressional
+Nominations. New York: Cambridge University Press.
+Hassell HJ and Visalvanich N (2019) The party’s primary prefer-
+ences: race, gender, and party support of congressional pri-
+mary candidates. American Journal of Political Science
+63(4): 905–919.
+Herrnson Paul S (2009) The roles of party organizations, party-
+connected committees, and party allies in elections. The Jour-
+nal of Politics 71(4): 1207–1224.
+Hinojosa M (2012) Selecting Women, Electing Women: Political
+Representation and Candidate Selection in Latin America.
+Philadelphia, PA: Temple University Press.
+Hinojosa M and Piscopo JM (2013) Promoting women’s right to
+be elected: twenty-five years of quotas in Latin America. In:
+Teigen M and Engelstad F (eds) Gender Quotas: Comparative
+Perspectives. Bingley: Emerald Group Publishing.
+Hinojosa M and V´azquez L (2018) Seleccio´n de Candidaturas,
+Partidos y Mujeres en Am´erica Latina. Mujeres en la Polı´tica:
+Experiencias Nacionales y Subnacionales en Am´erica Latina.
+M´exico, NA: Instituto Electoral de la Ciudad de M´exico e
+Instituto de Investigaciones Jur´ıdicas, UNAM.
+Htun MN and Jones MP (2002) Engendering the right to partic-
+ipate in decision-making: electoral quotas and women’s lead-
+ership in Latin America. In: Craske N and Molyneux M (eds),
+Gender and the Politics of Rights and Democracy in Latin
+America. London: Palgrave Macmillan, pp. 32–56.
+IPU (2019) Women in National Parliaments. Geneva: The Inter-
+Parliamentary Union.
+Jacobson GC (1985) Party organization and distribution of cam-
+paign resources: republicans and democrats in 1982. Political
+Science Quarterly 100(4): 603–625.
+Jacobson GC (1993) The misallocation of resources in house cam-
+paigns. In: Dodd LC and Oppenheimer BI (eds) Congress Recon-
+sidered. New York, NY: SAGE Publications, pp. 115–139.
+Jankowski M and Marcinkiewicz K (2019) Ineffective and
+counterproductive? The impact of gender quotas in open-list
+proportional representation systems. Politics & Gender 15(1):
+1–33.
+Janusz A and Campos LA (forthcoming) Candidate advertise-
+ments and Afro-Brazilian political marginalization. Latin
+American Research Review. DOI: 10.2139/ssrn.3690578.
+Available at: https://ssrn.com/abstract¼3690578.
+Jones MP (2009) Gender quotas, electoral laws, and the election
+of women: evidence from the Latin American vanguard. Com-
+parative Political Studies 42(1): 56–81.
+Kolodny R (1998) Pursuing Majorities: Congressional Campaign
+Committees in American Politics. Norman, OK: University of
+Oklahoma Press.
+Krook ML (2010) Quotas for Women in Politics: Gender and
+Candidate Selection Reform Worldwide. Oxford: Oxford Uni-
+versity Press.
+Lawless JL (2004) Women, war, and winning elections: gender
+stereotyping in the post-September 11th Era. Political
+Research Quarterly 57(3): 479–490.
+Lawless JL and Fox RL (2010) It Still Takes a Candidate: Why
+Women Don’t Run for Office. Cambridge: Cambridge Univer-
+sity Press.
+Llanos B and Sample K (2008) 30 Years of Democracy: Riding
+the Wave? Women’s Political Participation in Latin America.
+Stockholm, Sweden: International Institute for Democracy and
+Electoral Assistance.
+McElroy G and Marsh M (2011) Electing women to the Dil:
+gender cues and the Irish voter. Irish Political Studies 26(4):
+521–534.
+Mustillo T and Polga-Hecimovich J (2020) Party, candidate, and
+voter incentives under free list proportional representation.
+Journal of Theoretical Politics 32(1): 143–167.
+Niven D (1998) Party Elites and women candidates: the shape of
+bias. Women & Politics 19(2): 57–80.
+Norris P (ed.) (1997) Passages to Power: Legislative Recruitment
+in Advanced Democracies. Cambridge, UK: Cambridge Uni-
+versity Press.
+Norris P and Lovenduski J (1995) Political Recruitment: Gender,
+Race and Class in the British Parliament. Cambridge, UK:
+Cambridge University Press.
+Ocampo AX (2018) The wielding influence of political networks:
+representation in majority-Latino districts. Political Research
+Quarterly 71(1): 184–198.
+Piscopo JM (2016) Democracy as gender balance: the shift from
+quotas to parity in Latin America. Politics, Groups, and Iden-
+tities 4(2): 214–230.
+Porto M (2006) Political advertising and democracy in Brazil. In:
+Kaid L and Holtz-Bacha C (eds), The Sage Handbook of
+10
+Party Politics XX(X)
+
+
+=== PDF PAGE 11 ===
+Political Advertising. Thousand Oakes: SAGE Publications,
+pp.129–143.
+Riker WH (1962) The Theory of Political Coalitions, Vol. 173.
+London: Yale University Press.
+Romero K, Figueiredo M and Ara´ujo C (2012) Participac¸a˜o Fem-
+inina e Dinˆamica de Campanha no HGPE nas Eleic¸o˜es 2010
+para a Cˆamara dos Deputados.
+Rosen J (2013) The effects of political institutions on women’s
+political representation: a comparative analysis of 168 coun-
+tries from 1992 to 2010. Political Research Quarterly 66(2):
+306–321.
+Sacchet T (2011) Partidos Pol´ıticos e Sub-representac¸a˜o Feminina:
+Um Estudo Sobre Recrutamento Legislativo e Financiamento
+de Campanhas no Brasil. In: Paiva D and Bezerra HD (Orgs.).
+Mulheres, Polı´tica e Poder. Goiˆania: Cˆanone Editorial.
+Sacchet T and Speck B (2012) Financiamento Eleitoral, Repre-
+sentac¸a˜o Pol´ıtica e Gˆenero: Uma An´alise das Eleic¸o˜es de
+2006. Opinia˜o Pu´blica 18(1): 177–197.
+Samuels D (2001a) Money, elections, and democracy in Brazil.
+Latin American Politics and Society 43(2): 27–48.
+Samuels D (2001b) When does every penny count? Intra-party
+competition and campaign finance in Brazil. Party Politics
+7(1): 89–102.
+Sanbonmatsu K (2006) Do parties know that “women win”? Party
+leader beliefs about women’s electoral chances. Politics &
+Gender 2(4): 431.
+Sanbonmatsu K (2010) Where Women Run: Gender and Party in the
+American States. Ann Arbor, MI: University of Michigan Press.
+Schattschneider E (1960) Party Government. Piscataway, NJ:
+Transaction Publishers.
+Schmidt GD (2009) The election of women in list PR systems:
+testing the conventional wisdom. Electoral Studies 28(2):
+190–203.
+Schmitt R, Carneiro LP and Kuschnir K (1999) Estrat´egias de
+Campanha no Hor´ario Gratuito de Propaganda Eleitoral em
+Eleic¸o˜es Proporcionais. Dados 42(2): 00–00.
+Schwindt-Bayer LA (2009) Making quotas work: the effect of
+gender quota laws on the election of women. Legislative Stud-
+ies Quarterly 34(1): 5–28.
+Schwarz S, Hunt W and Coppock A (2018) What have we learned
+aboutgenderfromcandidatechoiceexperiments?Ameta-analysis
+of 30 factorial survey experiments. Unpublished Manuscript.
+Seltzer RA, Newman J and Leighton MV (1997) Sex as a Political
+Variable: Women as Candidates and Voters in US Elections.
+Lynne Rienner Publishers.
+Shugart MS (2005) Comparative electoral systems research: the
+maturation of a field and new challenges ahead. In: Gallagher
+M and Mitchell P (eds) The Politics of Electoral Systems.
+Oxford: Oxford University Press.
+Siavelis PM (2012) Pathways to Power: Political Recruitment
+and Candidate Selection in Latin America. University Park,
+PA: Penn State Press.
+Silva BFD and Cervi EU (2017) Padro˜es de Financiamento Elei-
+toral no Brasil: As Receitas de Postulantes `a Cˆamara dos
+Deputados em 2010 e 2014. Revista Brasileira de Cieˆncia
+Polı´tica 23: 75–110.
+Silveira BS and Mello J (2011) Campaign advertising and election
+outcomes: quasi natural experiment evidence from guberna-
+torial elections in Brazil. The Review of Economic Studies
+78(2): 590–612.
+Speck BW and Cervi EU (2016) Dinheiro, Tempo e Mem´oria
+Eleitoral: Os Mecanismos que Levam ao Voto nas Eleic¸o˜es
+para Prefeito em 2012. Dados-Revista de Cieˆncias Sociais
+59(1): 53–90.
+Thomas M and Bodet MA (2013) Sacrificial lambs, women can-
+didates, and district competitiveness in Canada. Electoral
+Studies 32(1): 153–166.
+Tripp AM and Kang A (2008) The global impact of quotas: on the
+fast track to increased female legislative representation. Com-
+parative Political Studies 41(3): 338–361.
+Wylie KN (2018) Party Institutionalization and Women’s Repre-
+sentation in Democratic Brazil. New York: Cambridge Uni-
+versity Press.
+Wylie K (2020) Taking bread off the table: race, gender, resources
+and political ambition in Brazil. European Journal of Politics
+and Gender 3(1): 121–142.
+Wylie K and dos Santos P (2016) A law on paper only: electoral
+rules, parties, and the persistent underrepresentation of
+women in Brazilian legislatures. Politics & Gender 12(3):
+415.
+Wylie K, dos Santos P and Marcelino D (2019) Extreme non-
+viable candidates and quota maneuvering in Brazilian legisla-
+tive elections. Opinia˜o Pu´blica 25(1): 1–28.
+Author biographies
+Andrew Janusz is an assistant professor in the Department of
+Political Science at the University of Florida. His research focuses
+on racial identity, political behavior, and representation in Latin
+America. His work has been published in the Latin American
+Research Review, Electoral Studies, as well as Politics, Groups
+and Identities.
+Sofi-Nicole Barreiro is graduate student in the University of
+Florida’s Latin American Studies Program.
+Erika Cintron is graduate student in the University of Florida’s
+Latin American Studies Program.
+Janusz et al.
+11

@@ -1,0 +1,995 @@
+=== PDF PAGE 1 ===
+Rev. Bras. Ci. Soc. vol. 39 e39013 2024
+Artigo Original
+1
+Este é um artigo publicado em acesso aberto (Open Access) sob a licença Creative Commons Attribution, que permite uso, 
+distribuição e reprodução em qualquer meio, sem restrições desde que o trabalho original seja corretamente citado.
+Impactos limitados do 
+financiamento público sobre a 
+redução da desigualdade em 
+campanhas eleitorais
+ Bruno Fernando da Silva1
+1Pesquisador de pós-doutorado do Instituto Nacional de Ciência e Tecnologia Representação e Legitimidade 
+Democrática (INCT-ReDem) da Universidade Federal do Paraná (UFPR), Curitiba, Paraná, Brasil.
+E-mail: brunofernando@ufpr.br.
+ Adriano Codato2
+2Professor Associado de Ciência Política na Universidade Federal do Paraná, Curitiba, Paraná, Brasil.
+E-mail: adriano@ufpr.br.
+DOI: 10.1590/39013/2024
+Resumo:
+Investigamos os impactos da adoção do financiamento exclusivamente público e da proibição de 
+doações empresariais para as receitas de campanha de candidaturas à Câmara dos Deputados do 
+Brasil entre 2010 e 2022. O objetivo é avaliar se estas mudanças impactaram a concentração de 
+recursos financeiros entre os candidatos. Para isso, usamos estatísticas descritivas e medidas de 
+desigualdade, como o Índice de Gini e a razão entre decis. Os resultados mostram uma melhora no 
+quadro geral de distribuição de recursos somente nas eleições de 2022, enquanto em 2018 ainda 
+houve uma disputa com recursos altamente concentrados em poucos candidatos. Sugerimos que 
+fatores institucionais – como as cotas para minorias e o teto de gastos eleitorais – e partidários 
+ajudam a explicar a diminuição da desigualdade em 2022, mas que eles ainda são insuficientes 
+para reduzir as enormes disparidades existentes entre os candidatos.
+Palavras-chave: financiamento público de campanhas; desigualdade; concentração de recursos; 
+eleições; Câmara dos Deputados.
+Limited impacts of public funding on 
+diminishing inequality in electoral campaigns
+Abstract:
+We investigated the consequences of using public funding and banning corporate donations to 
+finance political campaigns for the Brazilian Chamber of Deputies between 2010 and 2022. The 
+goal is to assess whether these changes impacted the concentration of financial resources among 
+candidates. To this end, we used descriptive statistics and measures of income inequality, such as the 
+Gini Index and deciles ratio. The results point to an improvement in the overall picture of resource 
+distribution only in the 2022 elections, while during 2018 was still a contest with resources highly 
+concentrated in a few candidates. We posit that institutional factors – such as quotas for minorities and 
+the electoral spending cap – combined with party-related factors have contributed to the decrease in 
+inequality in 2022, but that they are still insufficient to reduce the vast disparities among candidates.
+Keywords: public funding; inequality; concentration of resources; elections; Brazilian Chamber 
+of Deputies.
+Recebido em: 20/11/2023 | Aprovado em: 07/05/2024
+
+
+=== PDF PAGE 2 ===
+2
+IMPACTOS LIMITADOS DO FINANCIAMENTO PÚBLICO SOBRE A REDUÇÃO DA 
+DESIGUALDADE EM CAMPANHAS ELEITORAIS
+1. Introdução1
+A proibição de doações de empresas a campanhas eleitorais em 2015, por meio 
+do julgamento da Ação Direta de Inconstitucionalidade (ADI) 4.650, reorganizou as 
+bases do sistema de financiamento eleitoral brasileiro. De acordo com dados das 
+prestações de contas de campanha de 2014, as empresas foram as responsáveis por 
+nada menos que 76% do total de recursos destinados direta ou indiretamente aos 
+candidatos. Portanto, alijá-las do financiamento político alterou o trabalho da classe 
+política para captar recursos financeiros. Em resposta ao banimento das empresas, 
+o Congresso Nacional criou, em 2017, o Fundo Especial de Financiamento de 
+Campanhas (FEFC) prevendo a alocação de recursos públicos aos partidos para o 
+suporte às candidaturas.
+Além do FEFC, o Fundo Partidário (FP), recurso estatal destinado à manutenção das 
+estruturas burocráticas dos partidos, mas que também é empregado em campanhas, 
+passou a receber maiores aportes a partir de 2015 (Cervi, 2020). Essas mudanças fizeram 
+do Estado o principal provedor de recursos eleitorais, respondendo por 76% e 87% das 
+receitas de 2018 e 2022, respectivamente, nas disputas à Câmara dos Deputados. Isto 
+é, passamos de um cenário de eleições pagas com doações privadas de empresas para 
+outro diametralmente oposto, em que a maioria dos recursos provém do orçamento 
+público.
+Como veremos, não há consenso na literatura sobre os efeitos provocados pela adoção 
+abrangente de recursos públicos em campanhas. De um lado, há quem sugira uma 
+visão mais pessimista, alertando para os riscos de congelamento do sistema partidário 
+(Bourdoukan, 2009). Por outro, destacam a ocorrência de eleições mais competitivas e que 
+incentivam a participação de atores que antes não se viam em condições de desafiar o 
+mandatário (Malhotra, 2008; Carlson, 2012). Para contribuir com esse debate, analisamos 
+as subvenções financeiras aos candidatos a deputado federal antes e depois da criação 
+do FEFC, em duas eleições dominadas pelo financiamento empresarial (2010 e 2014) e 
+em duas pelo financiamento estatal (2018 e 2022). O objetivo é verificar qual foi o impacto 
+da saída das empresas e da entrada do Estado no financiamento eleitoral e como isso 
+afetou o acesso a recursos por parte de postulantes à câmara baixa. Isto é, analisamos se 
+essa mudança alterou as condições de disputa, tornando-as mais equilibradas do ponto 
+de vista econômico.
+Além disso, analisamos também se políticos com experiência prévia foram mais 
+beneficiados pelos partidos no total de dinheiro arrecadado do que os novatos nas eleições 
+de 2018 e 2022. Como partidos dependem do desempenho eleitoral e do número de 
+cadeiras conquistadas para obter mais recursos, é presumível que tenham concentrado 
+a maior parte dos recursos em candidatos viáveis eleitoralmente.
+O artigo está organizado em seis seções. Além desta introdução, na segunda revisamos 
+a literatura que trata das estratégias adotadas e os resultados obtidos em diferentes 
+países a partir do uso de dinheiro público da política. A terceira resume as mudanças 
+institucionais ocorridas entre 2010 e 2022 em relação ao financiamento de campanhas. 
+Em seguida, descrevemos a metodologia utilizada e a forma de tratamento dos dados. 
+Na quinta seção apresentamos os resultados empíricos, que são discutidos na parte 
+seguinte. Por fim, concluímos o artigo retomando alguns resultados e fazendo reflexões 
+sobre seus impactos para a política brasileira.
+1	 Agradecemos aos/às pareceristas da Revista Brasileira de Ciências Sociais pelas críticas e sugestões a este 
+trabalho e ao apoio do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq). Processo 
+número 166602/2020-5.
+
+
+=== PDF PAGE 3 ===
+3
+Rev. Bras. Ci. Soc. vol. 39 e39013 2024
+2. Implicações eleitorais do financiamento público de campanhas
+O primeiro registro que se tem da utilização de dinheiro público para o financiamento de 
+atividades políticas é do início do século XX, no Uruguai. No entanto, foi somente a partir 
+da segunda metade do século XX que essa fonte de recursos passou a ser largamente 
+utilizada no mundo democrático (Bourdoukan, 2009; Pinto-Duschinsky, 2002). A literatura 
+aponta algumas razões para a expansão do financiamento público. A primeira delas é o 
+aumento dos custos da política, decorrente da profissionalização das atividades pertinentes 
+a ela e do crescente distanciamento entre sociedade e partido (van Biezen, 2004). Esse 
+distanciamento reduz não somente a atuação voluntária da militância, como também o 
+volume de doações aos partidos. Como forma de compensação, o Estado assume parte 
+dessa perda de receitas partidárias pela via do financiamento público direto ou indireto 
+(Katz e Mair, 1995; Nassmacher, 2003). Além disso, os escândalos de corrupção envolvendo 
+doações privadas a atores políticos fornecem mais explicações para uma maior participação 
+do Estado nessa área (Pinto-Duschinsky, 2002; Speck, 2002). O uso de dinheiro público é 
+encarado, assim, como uma forma de diversificar as fontes de arrecadação dos partidos, 
+amenizando a dependência da política em relação ao capital privado.
+Um aspecto importante dos fundos públicos em campanhas políticas é o arranjo legal 
+para a destinação deles entre os partidos. Ao classificar os tipos de critérios alocativos 
+existentes pelo mundo, Bourdoukan (2009) ressalta que a divisão baseada no passado, 
+isto é, em votos ou cadeiras obtidas na eleição anterior, é a mais favorável aos grandes 
+partidos, tendendo a dificultar a entrada de novos ou menos estabelecidos. Para a autora 
+“a utilização de critérios baseados no tempo passado tende a ‘congelar’ o status quo 
+ante o sistema partidário” (Bourdoukan, 2009, p. 60). Como veremos, a destinação do 
+Fundo Especial de Financiamento de Campanha (FEFC) e o Fundo Partidário (FP) seguem 
+exatamente os critérios que, nessa visão, seriam deletérios ao sistema partidário: o envio 
+é quase que exclusivamente baseado no desempenho eleitoral da disputa mais recente 
+ao Congresso Nacional.
+A experiência em países europeus que alteraram as regras que tratam do funcionamento 
+interno dos partidos, todavia, não encontrou relação entre normas relativas ao financiamento 
+público e a chegada de novos partidos ao poder. Especificamente, não se verificou 
+aumento ou redução na quantia de partidos recém-chegados ao poder após a utilização de 
+recursos públicos em campanhas, nem mesmo quando as regras privilegiaram os maiores 
+partidos (van Biezen e Rashkova, 2014). Mais do que isso, alguns trabalhos destacam 
+ganhos democráticos com a criação de mecanismos de dotações públicas aos partidos.
+No Japão, Carlson (2012) analisou os impactos da implementação de repasses diretos 
+aos partidos a partir de 1994. A distribuição de recursos no país se baseia na quantidade 
+de cadeiras conquistadas na última eleição e no desempenho do partido em pesquisa de 
+opinião acerca da preferência do eleitorado. O autor aponta que há poucas diferenças 
+entre os repasses públicos a incumbentes e desafiantes, ou seja, a estratégia partidária tem 
+privilegiado a igualdade em detrimento do sucesso esperado. Além disso, não se observa 
+relação entre o grau de competição da disputa e o volume de recursos públicos enviados 
+aos candidatos. A explicação para isso está na priorização de incentivos coletivos visando 
+à redução de conflitos internos e na limitação informacional para a alocação estratégica 
+dos recursos financeiros (Carlson, 2012). Assim como o exemplo japonês, em eleições no 
+Maine e Arizona as evidências sugerem efeitos positivos dos recursos estatais, apontando 
+um aumento da competitividade das disputas e fomentando a participação de desafiantes 
+de alta qualidade em pleitos nos quais há candidatura incumbente (Malhotra, 2008).2
+2	 Sobre o impacto do financiamento público para a representação política, ver: Bichay (2020), Kilborn (2018), 
+Kilborn e Vishvanath (2022), Peixoto et al (2022) e Shin e Kwon (2023).
+
+
+=== PDF PAGE 4 ===
+IMPACTOS LIMITADOS DO FINANCIAMENTO PÚBLICO SOBRE A REDUÇÃO DA 
+DESIGUALDADE EM CAMPANHAS ELEITORAIS
+4
+No Brasil, Zelinski et al. (2022), comparando as eleições de 2014 e 2018, sinalizam que 
+o efeito do capital político do indivíduo e do grau de concorrência da disputa sobre a 
+capacidade de arrecadação teve um incremento de uma eleição para a outra. Indicam, 
+portanto, que as estratégias de empresas e partidos para a alocação de recursos seguem 
+critérios semelhantes, baseados na chance de sucesso eleitoral. Resultados anteriores 
+à implementação do financiamento público direto no Brasil já apontavam para este 
+mesmo caminho, com os partidos políticos doando mais recursos para candidatos viáveis 
+eleitoralmente, tal qual as empresas (Silva e Gonçalves, 2019).
+Para além da necessidade de evitar que o investimento financeiro dos partidos seja gasto 
+com candidaturas que possuem baixa probabilidade de vitória, a lógica de concentrar 
+recursos em algumas candidaturas pode estar relacionada ao comportamento estratégico 
+dos partidos na arena eleitoral. Cheibub e Sin (2020) demostram que, a despeito do 
+incentivo promovido pelo sistema eleitoral proporcional de lista aberta para a competição 
+intrapartidária, os partidos brasileiros são capazes de coordenar a montagem das listas 
+partidárias, mitigando a disputa entre correligionários. Para isso, lançam candidatos de alta 
+qualidade na mesma proporção em que esperam conquistar cadeiras em cada distrito.
+Aliada a isso está a possibilidade de os partidos desequilibrarem a disputa em favor 
+desses mesmos candidatos via alocação de recursos financeiros. As evidências de que 
+esses atores adotam estratégias semelhantes entre si quando doam às campanhas, 
+independentemente de grau de organização interna, concentrando seus repasses em 
+poucos candidatos (Bolognesi et al., 2020), corroboram essa percepção. Ademais, trabalhos 
+recentes notaram que o impacto do dinheiro sobre o voto cresceu após a proibição das 
+doações eleitorais por empresas (Deschamps et al., 2021; Reis e Eduardo, 2019).
+Desses achados, depreendemos a primeira hipótese: de que as eleições seguintes ao 
+fim do financiamento empresarial e à adoção de repasses públicos diretos aos partidos 
+não se tornaram menos desiguais do ponto de vista das arrecadações dos candidatos. 
+Uma vez que os partidos manejam as listas eleitorais de modo a evitar a competição 
+intrapartidária, ao mesmo tempo em que premiam seus candidatos de maior capital 
+político, não devemos esperar que o maior controle partidário sobre as receitas eleitorais 
+tenha produzido resultados distintos aos vistos quando a competição era controlada 
+pelas empresas.
+Em consonância a isto está o fato de que candidatos com experiência política prévia são 
+os atores que mais se beneficiam do financiamento de campanhas. Os trabalhos clássicos 
+de Gary Jacobson (1978, 1985) já destacavam que o capital político facilita a arrecadação de 
+recursos em função da experiência com essa atividade e dos feitos realizados no exercício 
+do mandato. A esses trabalhos se somam outros tantos que enfatizam a importância de 
+concorrer à reeleição ou de já ter exercido cargos eletivos para aumentar as receitas de 
+campanhas (Araújo et al., 2015; Barber, 2016; Carazza, 2018; Heerwig, 2016; Krebs, 2001; 
+Mancuso et al., 2018; Mancuso & Speck, 2015).
+Nesse sentido, nossa segunda hipótese sustenta que candidatos detentores de capital 
+político passaram a concentrar ainda mais recursos após a entrada massiva de financiamento 
+estatal. Com os partidos dependendo quase que exclusivamente de subsídios públicos, 
+que têm seu valor atrelado ao desempenho eleitoral em disputas para a Câmara dos 
+Deputados e ao Senado Federal, a tendência é de que a atuação estratégica para as 
+doações de campanha tenha sido exacerbada em 2018 e 2022.
+3. As regras do jogo e suas muitas mudanças entre 2010 e 2022 
+Para tratar da distribuição de recursos entre aqueles que se candidataram de 2010 a 
+2022 no Brasil, necessariamente temos que abordar as mudanças institucionais do período, 
+
+
+=== PDF PAGE 5 ===
+5
+Rev. Bras. Ci. Soc. vol. 39 e39013 2024
+pois elas podem ter impactado diretamente na atuação dos partidos e alterado a forma 
+com que se financia campanhas no país. Não se trata aqui de fazer um compilado de 
+todas as alterações legais, mas sim de abordar brevemente aquelas que nos ajudam a 
+entender o contexto de cada disputa.3
+Do ponto de vista puramente eleitoral e partidário, é importante mencionar três 
+mudanças ocorridas no período, todas elas com impacto esperado sobre a atuação 
+partidária na arena eleitoral. A primeira delas é a criação da cláusula de desempenho, 
+promovida pela Emenda Constitucional (EC) 97 de 2017 (Brasil, 2017a). Com o objetivo 
+de reduzir o número de partidos existentes, a norma estabeleceu critérios progressivos 
+para que os partidos tenham direito de acesso ao Fundo Partidário (FP) e ao tempo de 
+televisão e rádio para a exibição de suas propagandas. A legislação entrou em vigor nas 
+eleições de 2018, prevendo que somente os partidos que alcançassem ao menos 1,5% 
+dos votos válidos para a Câmara dos Deputados, em um terço dos distritos, ou eleito pelo 
+menos 9 deputados federais teriam acesso ao FP e ao tempo de televisão e rádio. Para 
+2022, a cláusula de barreira subiu para 2% dos votos ou 11 deputados.
+Também para a eleição de 2018, entrou em vigor a Lei 13.165/2015 (Brasil, 2015), 
+cujo conteúdo estabelece que poderão ser eleitos pelo sistema proporcional somente 
+os candidatos que atingirem 10% dos votos do quociente eleitoral do distrito. Na esteira 
+dessa mudança, em 2021, o Congresso aprovou outra alteração no Código Eleitoral, 
+determinando que, para ser eleito pelas sobras eleitorais, um candidato deve conquistar 
+ao menos 20% de votos do quociente eleitoral (Lei 14.211/2021) (Brasil, 2021). Como se 
+nota, essas três medidas envolvem resultado eleitoral e afetam as estratégias partidárias 
+para assegurar a eleição de parlamentares e o acesso a recursos financeiros diretos e 
+indiretos. Nesse sentido, não foi apenas o financiamento de campanhas que foi alterado 
+após as eleições de 2014. Acerca desse tema, o Quadro 1, a seguir, organiza as principais 
+normas balizadoras de cada uma das quatro eleições que analisaremos.
+Quadro 1 – Evolução da legislação do financiamento eleitoral no Brasil (2010-2022)
+Eleições
+Doações 
+empresariais
+Financiamento 
+público
+Limite de 
+gastos
+Recursos 
+próprios
+Cotas
+2010 e 2014
+Permitidas
+Fundo Partidário
+Fixado por 
+cada partido
+Limitado ao 
+teto de gastos
+Ausentes
+2018
+Vedadas
+FP* + FEFC**
+R$ 2,5 milhões
+Limitado ao 
+teto de gastos
+Gênero
+2022
+Vedadas
+FP + FEFC
+R$ 3,176 
+milhões
+Até 10% do 
+teto de gastos
+Gênero e 
+raça
+Fonte: elaborado pelos autores (2023).
+Nota: *Fundo Partidário; **Fundo Especial de Financiamento de Campanha.
+As eleições de 2010 e 2014 transcorreram praticamente sob os mesmos parâmetros, 
+sem que nenhuma mudança drástica tenha ocorrido e/ou que possa explicar eventuais 
+diferenças nas contas eleitorais dos candidatos. Foi entre 2014 e 2018 que as alterações 
+mais relevantes ocorreram, primeiro com a proibição do financiamento empresarial pelo 
+Supremo Tribunal Federal (STF – ADI 4.650), e depois com a criação do Fundo Especial 
+de Financiamento de Campanha (FEFC), por meio da Lei 13.487 de 2017 (Brasil, 2017b). 
+A esse respeito, é indispensável tratar das regras definidas pelo legislador para a sua 
+alocação.
+3	 Para uma análise sistematizada das mudanças nas regras eleitorais do financiamento de campanhas, ver Fisch 
+e Mesquita (2022).
+
+
+=== PDF PAGE 6 ===
+IMPACTOS LIMITADOS DO FINANCIAMENTO PÚBLICO SOBRE A REDUÇÃO DA 
+DESIGUALDADE EM CAMPANHAS ELEITORAIS
+6
+Seguindo uma lógica semelhante à do FP, o FEFC destina uma fatia ínfima dos recursos 
+de maneira igualitária entre todos os partidos que têm direito a ele, mas, enquanto o FP 
+destina 5% igualmente entre os que superam a cláusula de barreira, apenas 2% do FEFC 
+é doado igualmente (nesse caso, entre todos os partidos registrados na justiça eleitoral). 
+Os demais 98% dos recursos do FEFC são atribuídos conforme o desempenho eleitoral 
+prévio, sendo 48% do montante doado em função da quantidade de deputados federais 
+eleitos pelo partido, 35% a partir do percentual de votos obtidos para a Câmara dos 
+Deputados entre partidos que elegeram pelo menos um representante e 15% conforme 
+o número de eleitos ao Senado Federal.4
+A disputa de 2018 também foi a primeira eleição geral a contar com teto de gastos 
+eleitorais para todos os cargos em disputa (Lei 13.165/2015) (Brasil, 2015), com todos os 
+candidatos a deputado federal do país submetidos ao mesmo limite de despesas. Além 
+disso, com a aprovação do FEFC, o STF entendeu que as cotas femininas deveriam ser 
+estendidas aos recursos públicos empregados em campanhas, obrigando os partidos a 
+destinarem recursos a elas na mesma proporção de candidatas lançadas no distrito (ADI 
+5.617) (Brasil, 2018).
+Já para 2022, as principais mudanças tratam do teto das autodoações e das cotas raciais. 
+A primeira limitou o emprego de recursos próprios a 10% do teto de gastos permitidos ao 
+cargo em disputa, coibindo candidatos ricos de bancarem sozinhos suas campanhas (Lei 
+13.878 de 2019) (Brasil, 2019). Já a cota racial ampliou o entendimento da cota feminina a 
+candidatos negros, assegurando a eles o mesmo volume de recursos de origem pública 
+que de candidaturas inscritas (Consulta ao TSE 0600306-47) (Brasil, 2020).
+Por fim, uma modificação relevante entre as eleições, mas que não diz respeito à 
+legislação, foi o impulsionamento financeiro que o FP recebeu após a proibição das 
+doações empresariais. Em 2010, o FP representou somente 2% do total das receitas dos 
+candidatos; em 2014, 3%. Com o fim das doações empresariais, esse percentual saltou 
+para 14% em 2018, caindo para 6,5% em 2022 – queda essa compensada pelo aumento 
+no valor do FEFC, como veremos adiante.
+4. Materiais e métodos
+O banco de dados para consulta e replicação dos resultados obtidos nesta pesquisa 
+está disponível em: https://doi.org/10.7910/DVN/BQGB9K. A seguir, detalhamos os 
+procedimentos adotados para a sua construção.
+Este artigo trata das fontes de financiamento eleitoral dos candidatos a deputado 
+federal considerados aptos pela Justiça Eleitoral nos anos de 2010, 2014, 2018 e 2022. 
+Sendo, portanto, uma análise de duas eleições que contaram predominantemente com 
+recursos de origem privada de empresas (2010 e 2014) e duas custeadas em sua maioria 
+pelo Estado – via FEFC e, em menor medida, pelo FP (2018 e 2022). As informações foram 
+coletadas junto ao Tribunal Superior Eleitoral (TSE) no site Portal de Dados Abertos. Para 
+cada disputa, obtivemos e tratamos dois bancos de dados, sendo um deles da relação de 
+candidatos do pleito, e que inclui informações pessoais e políticas de todos, e o outro da 
+prestação de contas eleitorais (especificamente, das receitas declaradas pelos candidatos).
+Para comparar adequadamente os recursos recebidos por competidores de diferentes 
+estados, calculamos o volume de receitas declaradas por cada um em relação ao recebido 
+por todos no distrito. Portanto, trata-se da proporção de dinheiro que cada um conquistou. 
+4	 No FP, os 95% restantes atendem à proporcionalidade de votos obtidos à Câmara dos Deputados (Lei 9.096/1995) 
+(Brasil, 1995).
+
+
+=== PDF PAGE 7 ===
+7
+Rev. Bras. Ci. Soc. vol. 39 e39013 2024
+Em virtude das diferenças demográficas, econômicas e sociais, uma comparação em 
+termos absolutos seria injusta. O mesmo procedimento foi aplicado em relação aos 
+recursos partidários, com a diferença de que a fração dessas receitas foi calculada por 
+estado e partido.5 Essa decisão se deve à desigualdade inerente às receitas partidárias, 
+que, a partir de 2018, foram profundamente afetadas pelo tamanho do partido, dados 
+os critérios alocativos do FP e FEFC. Ainda em relação a esses recursos, consideramos 
+como doações partidárias a soma dos repasses feitos sob essa rubrica com a de “doações 
+de outros partidos e candidatos”, que trata das contribuições efetuadas por partidos de 
+uma mesma coligação/federação.
+Para indicar a assimetria de arrecadação entre os candidatos, utilizamos duas métricas 
+comumente empregadas para o estudo da desigualdade de renda. A primeira delas é o 
+Índice de Gini, que indica o grau de concentração de recursos entre os candidatos. Embora 
+muito empregado, o indicador tem como limitação ser sensível às variações que ocorrem 
+no meio da distribuição da variável, sendo recomendável a utilização de outra técnica 
+que a complemente para acessar as diferenças no topo ou na base da distribuição (De 
+Maio, 2007). Com isso, utilizamos também a razão entre decis de receita para verificar a 
+concentração de recursos entre os candidatos mais bem financiados. Tomamos como pontos 
+de corte o quinto e o nono decil e calculamos a razão entre o volume total de recursos 
+obtidos pelos 10% mais bem financiados em relação aos 50% menos financiados. Para 
+isso, consideramos os indivíduos abarcados nesses grupos em cada um dos estados – do 
+contrário, teríamos estados sobrerrepresentados em algum grupo.
+5. A assimetria de recursos em eleições para a Câmara dos Deputados
+Nos quatro pleitos analisados neste artigo, 27.914 candidatos estiveram aptos a 
+concorrer ao cargo de deputado federal, sendo que 24.923 deles declararam ter recebido 
+algum recurso para financiarem suas campanhas. Esse grupo de pouco menos de 25 mil 
+candidatos compõe o objeto de nossa análise. A seguir, a Tabela 1 detalha o total de 
+candidatos por eleição.
+Tabela 1 - Quantidade de candidatos e financiados a deputado federal por eleição
+Eleição
+Aptos
+Financiados
+% financiados
+2010
+4.903
+4.088
+83,4
+2014
+5.876
+4.988
+84,9
+2018
+7.647
+6.910
+90,4
+2022
+9.488
+8.937
+94,2
+Fonte: elaborado pelos autores com base no Portal de Dados Abertos do TSE.
+Os dados mostram um incremento contínuo não só no número de candidatos como 
+também da fração dos que foram beneficiados com algum montante para suas campanhas, 
+sendo que nas disputas de 2018 e 2022 o salto desses valores foi, proporcionalmente, 
+mais expressivo. Já em relação ao total de recursos investidos nas candidaturas, não se 
+verifica a mesma linearidade. Os dados da Tabela 2 resumem o total declarado pelos 
+candidatos a deputado federal nas quatro eleições. Os valores foram corrigidos pela 
+inflação acumulada de outubro do ano da disputa até outubro de 2022 a partir do Índice 
+5	 Assim, num caso hipotético em que um partido tenha doado somente a um único candidato a deputado federal 
+em determinada circunscrição eleitoral, esse candidato deteve então 100% dos recursos partidários.
+
+
+=== PDF PAGE 8 ===
+IMPACTOS LIMITADOS DO FINANCIAMENTO PÚBLICO SOBRE A REDUÇÃO DA 
+DESIGUALDADE EM CAMPANHAS ELEITORAIS
+8
+Nacional de Preços ao Consumidor Amplo (IPCA) calculado pelo Instituto Brasileiro de 
+Geografia e Estatística (IBGE).
+Tabela 2 – Total de recursos recebidos por candidatos a deputado federal por eleição
+Eleição
+Total declarado (em R$)
+Variação
+2010
+1.901.985.869
+2014
+1.868.145.084
+- 1,8%
+2018
+1.685.817.659
+- 9,8%
+2022
+3.214.627.773
++ 90,7%
+Fonte: elaborado pelos autores com base no Portal de Dados Abertos do TSE.
+O volume de recursos arrecadados pelos competidores sofreu duas quedas, entre 
+2010 e 2014 e de 2014 para 2018, mesmo com o aumento no número de concorrentes. 
+Em contrapartida, para a eleição de 2022 houve um aumento de 90% nas arrecadações. 
+Esse crescimento se explica pelo grande valor destinado aos partidos via FEFC.6
+A seguir, no Gráfico 1, temos a importância relativa das principais fontes de recursos 
+dos candidatos a deputado federal em cada uma das corridas, excluindo somente as que 
+representaram menos de 1% do total destinado às campanhas políticas.
+Gráfico 1 – Perfil do financiamento de candidatos a deputado federal 
+Fonte: elaborado pelos autores com base no Portal de Dados Abertos do TSE.
+O Gráfico 1 evidencia a importância crescente das agremiações partidárias para o caixa 
+dos candidatos. No entanto, não revela a real participação das empresas em 2010 e 2014. 
+Isto ocorre porque havia nesse período uma forma de doação, conhecida como doação 
+indireta, que ocultava a real importância das contribuições das pessoas jurídicas.7 Em 
+2014, quando o TSE passou a obrigar a identificação do doador originário de repasses 
+partidários, revelou-se que as empresas foram responsáveis por 84% das contribuições 
+feitas pelos partidos na ocasião; ou seja, elas responderam por mais de dois terços do 
+financiamento das candidaturas à Câmara dos Deputados naquele ano.
+6	 Ao todo, em 2018, o fundo eleitoral foi de R$ 2,1 bilhões (valores corrigidos pela inflação), enquanto em 2022 
+foi de R$ 4,9 bilhões.
+7	 Por uma estratégia ou escolha política das empresas, parte importante dos recursos que investiam não eram 
+feitos diretamente aos candidatos, mas sim aos partidos, majorando a participação deles e das coligações no 
+financiamento total.
+
+
+=== PDF PAGE 9 ===
+9
+Rev. Bras. Ci. Soc. vol. 39 e39013 2024
+Com a proibição das doações empresariais em 2015, os partidos políticos assumiram 
+o protagonismo definitivo do financiamento de campanhas: ao todo, financiaram 78% 
+do total em 2018 e 89% em 2022 – o FP e o FEFC representaram 98% desses totais, em 
+ambas as eleições. Por outro lado, as doações de pessoas físicas e o autofinanciamento 
+perderam importância a partir de 2018, com essa última fonte tendo participação meramente 
+residual em 2022 – ano em que a lei se tornou mais restritiva ao uso de recursos próprios.
+Esses números evidenciam o protagonismo assumido pelos partidos no financiamento 
+das campanhas eleitorais no Brasil desde 2010. Controlando entre três quartos e cerca de 
+90% das doações, praticamente não resta alternativa aos candidatos que não seja a de 
+recorrer aos seus partidos para que eles viabilizem o orçamento necessário às atividades 
+eleitorais. Feita esta breve contextualização das receitas de campanha, passamos ao tema 
+da desigualdade.
+Tomando como base o percentual de arrecadação dos candidatos, calculamos o Índice 
+de Gini em relação às receitas totais e provenientes de recursos partidários (tendo ou não 
+origem pública).8 O objetivo é verificar se, de maneira geral, encontramos uma alteração 
+significativa dos coeficientes comparando o período em que as empresas dominavam os 
+recursos ao seguinte, de controle dos partidos.
+Tabela 3 – Gini das receitas de campanha
+Eleição
+Receitas totais
+Receitas partidárias
+2010
+0,858
+0,760
+2014
+0,871
+0,753
+2018
+0,859
+0,750
+2022
+0,785
+0,678
+Fonte: elaborado pelos autores com base no Portal de Dados Abertos do TSE.
+Os resultados indicam que os candidatos a deputado federal concorrem em 
+condições muito desiguais de disputa, visto o valor elevado dos coeficientes (próximos 
+a 1), mas que é possível encontrar nuances entre as eleições. Nesse sentido, vemos 
+que de 2010 a 2018 a variação do Gini foi muito pequena, tanto quanto ao total de 
+recursos recebidos pelos competidores como em relação às receitas partidárias. Ainda 
+que tenha havido uma redução da desigualdade de 2014 para 2018, a variação foi 
+praticamente insignificante.
+Quando comparamos as três eleições com 2022 notamos uma queda mais acentuada 
+das diferenças: proporcionalmente, houve um recuo de 9% na desigualdade de acesso ao 
+total de recursos e 10% no acesso às doações partidárias. Portanto, por mais que estejamos 
+diante ainda de valores muito altos para o índice, é preciso destacar que essa diminuição 
+da distância financeira entre os candidatos, restrita ao pleito de 2022, vai de encontro à 
+nossa suspeita inicial. E como ela ocorre também em relação às doações partidárias, não 
+podemos supor que tenha se dado em função de contribuições de cidadãos ou mesmo 
+em virtude do autofinanciamento.9
+Quando olhamos para a desigualdade entre os candidatos nos estados, que é onde 
+as disputas de fato acontecem e as disparidades importam, o cenário é mais complexo. 
+O Gráfico 2 apresenta o Gini calculado por distrito nas quatro eleições.
+8	 A medida varia de 0 a 1, sendo que o valor igual a 0 indica a perfeita equidade entre os indivíduos e 1 o oposto, 
+isto é, que somente um deles concentra todo o recurso disponível.
+9	 A título de comparação, calculamos também o Gini tendo como base o valor absoluto das receitas totais e 
+partidárias dos candidatos; ainda assim a tendência de redução da desigualdade foi a mesma observada nos 
+resultados apresentados – a ordem de grandeza dos valores também foi semelhante.
+
+
+=== PDF PAGE 10 ===
+IMPACTOS LIMITADOS DO FINANCIAMENTO PÚBLICO SOBRE A REDUÇÃO DA 
+DESIGUALDADE EM CAMPANHAS ELEITORAIS
+10
+Gráfico 2 – Desigualdade de recursos por estado
+,
+Fonte: elaborado pelos autores com base no Portal de Dados Abertos do TSE.
+Em geral, as diferenças de arrecadação total atingiram o menor valor em 2022: dos 
+27 distritos, 21 tiveram o Gini mais baixo da série nessa disputa – as exceções foram 
+Acre, Alagoas, Amazonas, Bahia, Ceará e Paraíba. Por outro lado, chama a atenção que 
+a primeira eleição com volumosos recursos públicos, em 2018, tenha sido de grande 
+desigualdade, apresentando, inclusive, o maior índice do período em 12 dos estados. 
+Quadro semelhante a esse ocorreu em 2014, que, como já vimos na Tabela 3, foi o pleito 
+de maior assimetria em arrecadação total.
+A desigualdade intrapartidária, embora costume ser bem menor que a anterior, tem 
+caminhos menos lineares. O Gini assumiu seu menor valor em 2022 em 12 estados, frente 
+a 9 em 2014. Em casos pontuais, como Amazonas, Pernambuco, Piauí e Tocantis, de 
+fato as doações partidárias se tornaram mais desiguais a partir de 2018, mas não há um 
+padrão evidente relacionado à participação ou não de dinheiro público. Nesse sentido, 
+é de se destacar que as campanhas de 2018 e 2022 foram muito diferentes entre si. 
+Em 13 das unidades da federação a disputa de 2018 foi a que teve maior desigualdade 
+na destinação de doações partidárias, contrastando com os números que acabamos de 
+destacar da eleição de 2022.
+Uma outra maneira de acessar a distância de receitas entre competidores é calculando o 
+quanto quem mais arrecadou recebeu a mais que quem menos arrecadou. O Gráfico 3 mostra 
+a razão entre o volume de recursos obtidos pelos 10% mais bem financiados de cada 
+disputa em relação aos 50% menos financiados.
+A trajetória da concentração de recursos pelos candidatos que estão no topo do 
+financiamento evidencia, mais uma vez, o abismo financeiro entre eles e a maioria de 
+seus adversários. Em termos de financiamento total, os 10% mais bem financiados por 
+estado arrecadaram, ao todo, 50 vezes mais que os 50% menos financiados em 2010, 
+diferença essa que cresceu para 73 vezes em 2014 e recuou significativamente nas eleições 
+seguintes – para 43 vezes em 2018 e 11,5 vezes em 2022. Em termos absolutos, um décimo 
+dos candidatos somou cerca de dois terços do total doado às campanhas entre 2010 e 
+
+
+=== PDF PAGE 11 ===
+11
+Rev. Bras. Ci. Soc. vol. 39 e39013 2024
+2018 e 57% do total em 2022. Na outra ponta, da metade menos financiada, os candidatos 
+obtiveram, somados, menos que 2% do total até 2018, chegando a 5% em 2022.10
+Gráfico 3 – Recursos arrecadados pelos 10% mais financiados em relação 
+aos 50% menos financiados
+Fonte: elaborado pelos autores com base no Portal de Dados Abertos do TSE.
+As diferenças em termos de financiamento partidário são parecidas, mas é importante 
+notar que a queda da concentração de recursos foi bem mais sutil de 2014 para 2018 (de 
+64 para 53 vezes) do que ocorreu com as receitas totais. Nesse sentido, a concentração de 
+recursos partidários em 2018 foi maior que em 2010 – ano em que as doações partidárias 
+eram bem menos importantes. Consequentemente, quando ocorreu a inflexão da diferença 
+entre topo e a base de financiamento, foi mais acelerada nas doações partidárias.
+Os boxplots do Gráfico 4 ilustram a distribuição das razões entre o decil superior e o 
+quinto decil nas unidades da federação. Com ele podemos ver como essa medida variou nos 
+distritos. As sombras (violinos) no entorno dos boxplots indicam a densidade: quanto mais 
+larga, mais valores naquela posição; se estreita, poucos casos assumiram aqueles valores.
+Gráfico 4 – Diferenças entre o decil superior e quinto decil nos estados
+Fonte: elaborado pelos autores com base no Portal de Dados Abertos do TSE (2023).
+O cenário nos estados não se difere do quadro geral apresentado pelo Gráfico 3. 
+A eleição de 2014 de fato apresentou maior concentração de recursos entre todas as 
+analisadas, enquanto 2022 é o caso atípico, de menores desigualdades de receitas 
+partidárias e no total. O que mais chama atenção aqui é como as diferenças entre topo e 
+10	Os 10% mais bem financiados concentraram 66% dos recursos em 2010, 71% em 2014 e 70% do total em 2018. 
+Já os 50% menos financiados somaram 1,3% do financiamento de 2010, 0,9% em 2014 e 1,6% em 2022.
+
+
+=== PDF PAGE 12 ===
+IMPACTOS LIMITADOS DO FINANCIAMENTO PÚBLICO SOBRE A REDUÇÃO DA 
+DESIGUALDADE EM CAMPANHAS ELEITORAIS
+12
+base variam consideravelmente em um mesmo ano. Ou seja, enquanto em alguns estados 
+os 10% mais bem financiados arrecadaram mais de cem vezes a soma dos 50% menos 
+financiados, em outros a diferença foi de 1,9 (caso do Mato Grosso do Sul, em 2010, 
+que foi o menor valor entre todas as disputas). Nesse sentido, mais uma vez, a eleição 
+de 2022 foge ao padrão das anteriores: em comparação a elas, houve pouca diferença 
+entre as unidades da federação. Portanto, o menor desequilíbrio entre quem esteve no 
+topo e na base da pirâmide de receitas foi generalizado.
+O conjunto de resultados trazido até aqui denota uma situação ambígua das disputas 
+financiadas predominantemente com recursos públicos. Por um lado, as eleições de 
+2022 foram inequivocamente menos desiguais do que todas as anteriores analisadas; por 
+outro, 2018 tendeu, no mínimo, a ser tão assimétrica quanto as corridas pregressas. Ainda 
+assim, podemos afirmar que as evidências vão, majoritariamente, em sentido oposto ao 
+qual esperávamos inicialmente _ isto é, de aumento da desigualdade com o emprego 
+massivo de recursos públicos nas disputas. Resta ainda testar nossa segunda hipótese 
+de aumento da concentração de doações nas mãos de candidatos de alta qualidade.
+Para verificar este suposto tivemos que adotar um conceito limitado de “capital 
+político”, visto que estamos tratando de quase 25 mil candidatos, o que inviabiliza uma 
+análise mais aprofundada da carreira de cada um deles. Dessa forma, mensuramos a 
+disposição à política desse grupo de duas formas: i) a partir da ocupação declarada 
+ao TSE no momento da candidatura; e ii) pelo fato de o candidato estar concorrendo à 
+reeleição a deputado federal. Chamamos de “políticos profissionais” todos aqueles que 
+se declararam “políticos” (sob essa nomenclatura ou pelo cargo que ocupavam) e os 
+deputados federais candidatos à reeleição. Essa escolha se assemelha à de Cheibub e 
+Sin (2020) quando mensuraram a competitividade (ou a viabilidade) dos competidores.
+O Gráfico 5 mostra a fração de recursos totais e partidários controlados por políticos 
+nos quatro pleitos.
+Gráfico 5 – Participação de políticos no total doado às campanhas
+Fonte: elaborado pelos autores com base no Portal de Dados Abertos do TSE.
+Os resultados evidenciam a predileção dos financiadores de campanha pelos políticos, 
+mas mais especificamente por incumbentes, que controlam a imensa maioria das doações 
+feitas aos políticos em geral. Em termos de participação no financiamento, vemos algumas 
+diferenças entre esses dois grupos: enquanto os políticos arrecadam cada vez menos no 
+total e em doações partidárias, os incumbentes atingiram o pico de participação em 2018. 
+Na ocasião, ficaram com 43% e 47% do total e dos repasses partidários, respectivamente. 
+Por ter sido a primeira eleição subsidiada majoritariamente por recursos públicos, é 
+possível que a incerteza da mudança tenha levado os partidos a adotar uma estratégia 
+
+
+=== PDF PAGE 13 ===
+13
+Rev. Bras. Ci. Soc. vol. 39 e39013 2024
+mais cautelosa, de defesa de mandatos, e que isso explique tamanho volume de receitas 
+na mão de poucas candidaturas.
+Mesmo com o recuo em relação à concentração de recursos para políticos e incumbentes 
+em 2022 (quando a participação desses grupos atingiu o menor valor histórico), é importante 
+destacar que estamos falando ainda de um cenário bastante desigual. Pequenos grupos 
+de candidatos controlaram entre 29%, no caso de incumbentes, e 40%, no caso de 
+políticos, do financiamento total e partidário disponível a quem buscou um mandato na 
+Câmara dos Deputados. Mas, assim como a participação nas receitas varia, o percentual 
+de candidatos com experiência política prévia também se altera entre os anos. Nesse 
+sentido, uma maneira mais adequada de analisar se esses grupos perderam importância 
+no financiamento de campanhas é olhando também para o quanto eles arrecadaram em 
+relação à quantidade de candidaturas que representaram (isto é, a razão entre percentual 
+obtido de recursos e percentual de candidatos). A Tabela 4 resume esses valores.
+Tabela 4 – Desproporcionalidade entre receitas e candidaturas de políticos
+Eleição
+Candidatos
+Recursos 
+partidários
+Recursos totais
+2010
+Políticos
+4
+3,8
+Incumbentes
+5,5
+5,1
+2014
+Políticos
+4,4
+4
+Incumbentes
+7
+6,4
+2018
+Políticos
+5,3
+4,9
+Incumbentes
+8,1
+7,4
+2022
+Políticos
+3,9
+3,9
+Incumbentes
+5,9
+5,8
+Fonte: elaborado pelos autores com base no Portal de Dados Abertos do TSE.
+A desproporção entre recursos e candidaturas nos oferece uma perspectiva um pouco 
+diferente para a participação dos políticos no financiamento de campanhas. Além de 
+evidenciar o maior controle de recursos exercidos por candidatos à reeleição, mostra que 
+a diminuição na participação das doações reflete, no fim das contas, um encolhimento 
+no percentual de políticos que concorreram (como vimos na Tabela 1, houve um grande 
+aumento no total de candidaturas desde 2018). Para políticos em geral, a relação entre 
+dinheiro e candidatos em 2010 e 2022 é virtualmente a mesma, e para incumbentes houve 
+até uma melhora nesse número. Concretamente, esses valores mostram, por exemplo, 
+que os incumbentes arrecadaram 5,9 vezes mais que a quantidade de candidatos que 
+representaram _ obtiveram 29,4% do total de recursos, sendo 5% das candidaturas.
+Novamente, os resultados apontam para um cenário controverso, pois, ainda que os 
+políticos tenham arrecadado uma fração muito menor do butim em 2022 que nos anos 
+anteriores, em termos de desproporcionalidade a situação é bastante similar à de 2010. 
+O que é incontroversa é a diferença entre a primeira e a segunda eleição disputada com 
+recursos públicos em grande quantidade. Seja qual for a métrica adotada, a disputa de 
+2018 é muito mais semelhante com as anteriores a ela do que com a seguinte, de 2022. 
+Mais do que isso, foi o ano em que candidatos à reeleição mais se beneficiaram de recursos 
+partidários e do financiamento total em toda a série.
+Com isso, podemos aceitar parcialmente a nossa segunda hipótese. Ela é particularmente 
+válida para 2018: houve maior desproporcionalidade entre recursos e candidaturas, ao 
+mesmo tempo em que os incumbentes obtiveram a maior fatia dos recursos partidários e 
+totais _ para os políticos profissionais, a queda foi sutil. Em 2022, houve uma semelhança 
+grande com 2010, mas de queda em relação a 2014. Portanto, não está claro o aumento 
+da vantagem para incumbentes e políticos profissionais.
+
+
+=== PDF PAGE 14 ===
+IMPACTOS LIMITADOS DO FINANCIAMENTO PÚBLICO SOBRE A REDUÇÃO DA 
+DESIGUALDADE EM CAMPANHAS ELEITORAIS
+14
+6. Discussão
+Diante do que se sabe acerca do uso de recursos públicos em campanhas, da legislação 
+desenhada pelo Congresso Nacional e do comportamento dos partidos políticos brasileiros 
+ao alocar recursos em candidatos, partimos de duas suposições. A primeira delas era a 
+de que o FEFC, da forma com que foi concebido, aumentaria a discrepância geral de 
+recursos entre os candidatos nas eleições. A segunda sustentava que seriam os políticos 
+profissionais os principais beneficiários desse aumento na desigualdade. Como vimos, 
+os resultados são ambíguos.
+No que diz respeito à assimetria entre candidatos, praticamente todas as evidências 
+trazidas apontam uma melhora no quadro geral da repartição de recursos para as 
+campanhas a deputado federal em 2022. Tivemos uma redução na desigualdade, menor 
+concentração econômica no topo e quase a totalidade dos candidatos sendo financiados 
+com algum valor. Não podemos dizer o mesmo sobre 2018: embora a diferença entre o 
+quanto os mais financiados arrecadaram em relação aos menos financiados tenha recuado, 
+a desigualdade geral da disputa e o volume de recursos obtidos por políticos foram 
+muito altos. Portanto, o financiamento público, isoladamente, não é capaz de explicar o 
+aumento ou a redução das diferenças, já que tivemos cenários distintos em condições 
+semelhantes de disputa. Cabe então especularmos sobre possíveis explicações dessas 
+assimetrias, considerando que o Brasil se tornou um caso bastante singular de democracia 
+com eleições financiadas quase que exclusivamente com recursos públicos – o que 
+dificulta a elaboração de hipóteses robustas sobre o evento observado e comparações 
+diretas com outros países.11
+Uma primeira explicação possível para a melhora nas condições de disputa em 2022 está 
+no significativo impulsionamento do FEFC, que mais que dobrou de 2018 para 2022, 
+combinado ao teto nominal de gastos. Embora essa norma já tenha vigorado em 2018, 
+o montante de recursos destinados às campanhas teve um pequeno recuo em relação 
+a 2014. Poderíamos sugerir então que a redução da desigualdade seria mero reflexo de 
+um excedente de oferta por parte dos partidos, que teriam destinado mais recursos a 
+uma quantidade maior de candidatos apenas por impossibilidade legal de financiar tão 
+somente alguns poucos quadros.
+De fato, é possível verificar um aumento no número de candidatos financiados até o teto 
+de gastos (ou próximo a ele), mas ainda assim os números não parecem ser suficientes 
+para explicar tamanha mudança entre as disputas. O percentual de candidaturas que 
+recebeu o teto de gastos em 2022 foi de apenas 0,28%, frente a 0,09% em 2018 (em 
+números absolutos, 25 e 6, respectivamente). Já aqueles que arrecadaram ao menos 90% 
+do limite de gastos foram 0,9% em 2018 e 1,4% em 2022. Consequentemente, houve um 
+aumento no quantitativo de candidatos muito bem financiados, mas havia espaço para 
+injetar mais recursos em poucos indivíduos, se assim os partidos desejassem.
+Há, no entanto, outras mudanças institucionais que podem ajudar a explicar parte da 
+redução da desigualdade; são elas: os limites ao autofinanciamento e as cotas a negros. 
+Sobre a primeira, é difícil mensurar se impactou na diminuição das diferenças. Mas, em 
+2022, essa modalidade de financiamento se tornou praticamente irrelevante para as 
+campanhas, representando apenas 2,2% do total investido pelos candidatos. Por mais 
+que não fosse indispensável para o financiamento como um todo, os recursos próprios 
+podiam ser injetados até o limite de gastos do candidato em 2018. Com a alteração da 
+lei, já era esperado que tivesse algum efeito sobre as contas eleitorais.
+11	Embora tenhamos visto que em alguns distritos dos Estados Unidos seja possível financiar campanhas 
+exclusivamente com recursos públicos, a grande diferença entre sistema eleitoral e partidário em relação ao 
+Brasil dificulta a transposição de hipóteses surgidas a partir da experiência estadunidense para a brasileira.
+
+
+=== PDF PAGE 15 ===
+15
+Rev. Bras. Ci. Soc. vol. 39 e39013 2024
+Em relação às cotas, é preciso analisá-las separadamente, pois, em 2018, o financiamento 
+às mulheres já estava previsto e ele não afetou a desigualdade como um todo. Ainda 
+assim, a participação delas nas receitas de campanha cresceu para 22% em 2018, quando 
+era de apenas 8% e 10% em 2010 e 2014, respectivamente. Para 2022, a trajetória seguiu 
+ascendente, chegando a 30% do total de dinheiro doado às campanhas de deputados 
+federais.12 No caso das cotas raciais, entrou em vigor somente para o ano de 2022 e também 
+melhorou o acesso ao financiamento eleitoral por candidatos pouco lembrados pelos 
+doadores. A desproporção entre recursos e candidaturas desse grupo passou de 0,56 em 
+2018 para 0,76 em 2022 _ ou seja, foram ainda subfinanciados, mas se aproximaram de 
+uma proporcionalidade.
+Esses resultados sugerem que uma parte da explicação sobre a desigualdade no pleito 
+mais recente reside no melhor cumprimento da política de cotas femininas em relação a 
+2018 e na aplicação das cotas raciais. Contudo, não temos como precisar a magnitude do 
+impacto dessas medidas. Como vimos, foi em 2018 que a participação das mulheres sobre 
+as receitas teve maior incremento no período e isso não gerou uma redução significativa 
+na disparidade de recursos entre os candidatos. Portanto, não se deve creditar somente 
+às cotas as mudanças encontradas, mas sim entendê-las como parte de um conjunto de 
+possíveis explicações.
+De uma perspectiva partidária podemos também formular hipóteses para a redução 
+da desigualdade financeira, bem como para a participação de políticos no total destinado 
+às campanhas. Nesse sentido, uma das explicações para a redução das diferenças estaria 
+na necessidade de os partidos se equilibrarem entre incentivos coletivos e seletivos 
+(Gaxie, 1977; Panebianco, 2005) quando da distribuição de recursos financeiros. Isto 
+é, para tornar o partido atrativo a novos candidatos, ao mesmo tempo em que precisa 
+manter em suas trincheiras quadros competitivos, partidos políticos precisam encontrar 
+um caminho intermediário entre concentrar recursos em poucos candidatos (seletivos) 
+e dispersá-los entre a maioria deles (coletivos).
+Por se tratar da primeira eleição predominantemente financiada com recursos públicos, 
+a disputa de 2018 deve ser encarada como um aprendizado pelos partidos. Isso explicaria 
+o quadro de relativa estabilidade em comparação com as duas eleições anteriores no 
+que diz respeito às desigualdades e a preferência por doar a incumbentes. Em 2022, uma 
+correção de rumos, por pressões internas de integrantes dos partidos por uma destinação 
+menos desequilibrada de recursos, pode ter assegurado algum nível de dinheiro a mais 
+candidatos, ao mesmo tempo em que desfavoreceu políticos de carreira.
+Considerando que os partidos necessitam obter o maior número possível de votos e 
+cadeiras para ter acesso a mais recursos para as eleições seguintes, e mesmo para superar 
+a cláusula de barreira que entrou em vigor em 2018, uma das estratégias é a de equilibrar 
+incentivos coletivos e seletivos. Com isso, é possível obter bons resultados eleitorais 
+sem ocasionar problemas na montagem das listas de candidatos. Essa argumentação 
+vai ao encontro da explicação de Carlson (2012), que credita a ausência de diferenças 
+no financiamento de incumbentes e desafiantes à necessidade de reduzir conflitos 
+intrapartidários por recursos e em virtude da dificuldade de identificar com exatidão quais 
+seriam os candidatos mais competitivos em todas as disputas legislativas.13
+Além da cláusula de barreira, vimos que os critérios para a eleição de candidatos foram 
+alterados no sentido de exigir maior desempenho individual deles. Com isso, a partir de 
+2022, somente candidatos que obtivessem 20% do quociente eleitoral se credenciariam 
+12	A fração de mulheres candidatas aumentou pouco de 2018 para 2022, passando de 32% para 36%.
+13	Embora os partidos brasileiros sejam capazes de reduzir a competição intrapartidária em disputas para a 
+Câmara dos Deputados, a coordenação é mais difícil em distritos de magnitude elevada, que respondem por 
+uma boa fatia dos candidatos (Cheibub & Sin, 2020).
+
+
+=== PDF PAGE 16 ===
+IMPACTOS LIMITADOS DO FINANCIAMENTO PÚBLICO SOBRE A REDUÇÃO DA 
+DESIGUALDADE EM CAMPANHAS ELEITORAIS
+16
+a disputar uma vaga na Câmara quando seu partido não atinge o quociente eleitoral, mas 
+se credencia às sobras. Essa modificação na regra eleitoral serve de incentivo aos partidos 
+para uma distribuição menos desigual de recursos, expandindo o leque de doações a 
+outros candidatos que não apenas aqueles experientes, no intuito de não perder cadeiras 
+por um desempenho insuficiente de alguns competidores.
+7. Considerações finais
+Neste artigo procuramos compreender os impactos do financiamento público de 
+campanhas sobre a desigualdade de recursos entre candidatos. Como se trata de tema 
+ainda pouco examinado no Brasil, optamos por uma abordagem exploratória, que 
+mapeasse o cenário pós-reformas. Aos trabalhos futuros, cabe a possibilidade de testar as 
+suposições que levantamos ou ainda elaborar novas ideias sobre as mudanças ocorridas 
+entre 2018 e 2022.
+Por mais que os resultados apontem para uma melhora geral no quadro da desigualdade 
+da distribuição de recursos financeiros para campanhas eleitorais, é preciso reforçar 
+que esse avanço ainda é muito tímido frente às diferenças financeiras existentes entre 
+os concorrentes. Os achados indicam que os 50% menos financiados ainda detêm uma 
+fração ínfima dos recursos destinados às campanhas (em 2022, apenas 5% do total dos 
+recursos). Em parte, essa desigualdade é causada pela fórmula de distribuição do FEFC 
+entre os partidos, que destina 98% dos valores em função do desempenho eleitoral. 
+Ainda que o quadro tenha se alterado, não é razoável supor que sem constrangimentos 
+institucionais externos – como foram as políticas de cotas – seja possível avançar muito 
+mais do que em 2022. Além disso, não podemos descartar que as regras alocativas do 
+FEFC levem ao congelamento do sistema partidário no futuro (Bourdoukan, 2009).
+Historicamente, um dos motivos para a utilização do financiamento público direto em 
+campanhas é a necessidade de reduzir a influência indevida de interesses privados sobre 
+a política (Pinto-Duschinsky, 2002). Ainda que por caminhos distintos, no Brasil isso não foi 
+diferente. A criação do FEFC foi motivada pela proibição do financiamento empresarial, 
+que ocorreu justamente com o argumento de conter a influência das empresas sobre os 
+resultados eleitorais (Guerra Filho, 2017).
+As duas primeiras eleições ocorridas após a criação do FEFC guardam poucas 
+correspondências entre si, com a primeira sendo semelhante às financiadas com recursos 
+privados e a mais recente menos desigual. Se a trajetória de associação entre gastos e 
+votos conquistados se mantiver estável ou subir, como os dados de eleições municipais 
+sugerem (Deschamps et al., 2021; Reis e Eduardo, 2019), será preciso se atentar para 
+os riscos de impermeabilização e cartelização do sistema partidário nos próximos anos 
+(Bourdoukan, 2009; Katz e Mair, 1995). Isto é, a entrada de novos atores individuais e 
+mesmo o surgimento ou ascensão de novos partidos pode ser dificultada em função 
+das regras formais e informais que têm regido as disputas eleitorais. Para evitar isso, seria 
+desejável se pensar em formas de garantir uma destinação menos assimétrica de recursos 
+entre partidos e candidatos – que não se limite ao atual sistema de cotas – com medidas 
+que deem à sociedade maior possibilidade de participação na definição desses recursos.
+Bibliografia
+ARAÚJO, Victor Augusto; SILOTTO, Graziele Cristina; CUNHA, Lucas Rodrigues. (2015), 
+“Capital político e financiamento eleitoral no Brasil: uma análise empírica da estratégia 
+das empresas na alocação de recursos de campanha”. Teoria & Sociedade, 23, 2:126–158.
+
+
+=== PDF PAGE 17 ===
+17
+Rev. Bras. Ci. Soc. vol. 39 e39013 2024
+BARBER, Michael. (2016), “Donation Motivations: Testing Theories of Access 
+and Ideology”. Political Research Quarterly, 69,1:148–159. DOI: https://doi.
+org/10.1177/1065912915624164.
+BICHAY, Nicolas. (2020). “Public campaign financing and the rise of radical-right parties”. 
+Electoral Studies, 66, e102159. DOI: https://doi.org/10.1016/j.electstud.2020.102159.
+BOLOGNESI, Bruno; HOROCHOVSKI, Rodrigo Rossi, JUNCKES, Ivan Jairo; ROEDER, Karolina 
+Matos. (2020), “Como os partidos distribuem o dinheiro. Estrutura organizacional e 
+recursos eleitorais em 2014 no Brasil”. Colombia Internacional, 1, 104:33–62. DOI: 
+https://doi.org/10.7440/colombiaint104.2020.02.
+BOURDOUKAN, Adla Youssef. (2009), O bolso e a urna: financiamento político em 
+perspectiva comparada. Tese de doutorado, Universidade de São Paulo, São Paulo. DOI: 
+https://doi.org/10.11606/T.8.2009.tde-23112009-102329.
+BRASIL. (1995), Lei n. 9.096, de 19 de setembro. Disponível em https://www.planalto.gov.
+br/ccivil_03/leis/l9096.htm, consultado em 07/05/2024.
+BRASIL. (2015), Lei n. 13.165, de 29 de setembro. Disponível em https://www.planalto.
+gov.br/ccivil_03/_ato2015-2018/2015/lei/l13165.htm, consultado em 07/05/2024.
+BRASIL. (2017a), Emenda Constitucional n. 97, de 4 de outubro. Disponível em https://
+www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc97.htm, consultado 
+em 07/05/2024.
+BRASIL. (2017b), Lei n. 13.487, de 06 de outubro. Disponível em https://www.planalto.
+gov.br/ccivil_03/_ato2015-2018/2017/lei/l13487.htm, consultado em 07/05/2024.
+BRASIL. (2018), Ação Direta de Inconstitucionalidade 5.617. Disponível em https://redir.
+stf.jus.br/paginadorpub/paginador.jsp?docTP=TP&docID=748354101, consultado 
+em 07/05/2024.
+BRASIL. (2019), Lei n. 13.878, de 3 de outubro. Disponível em https://www.planalto.gov.
+br/ccivil_03/_ato2019-2022/2019/lei/l13878.htm, consultado em 07/05/ 2024.
+BRASIL. (2020), Consulta ao Tribunal Superior Eleitoral n. 0600306-47. Disponível em https://
+eadeje.tse.jus.br/mod/resource/view.php?id=15886, consultado em 07/05/2024.
+BRASIL. (2021), Lei n. 14.211, de 01 de outubro. Disponível em https://www.planalto.
+gov.br/ccivil_03/_Ato2019-2022/2021/Lei/L14211.htm, consultado em 07/05/2024.
+CARAZZA, Bruno. (2018), Dinheiro, eleições e poder: As engrenagens do sistema político 
+brasileiro. São Paulo, Companhia das Letras.
+CARLSON, Matthew. (2012), “Financing democracy in Japan: The allocation and 
+consequences of government subsidies to political parties”. Party Politics, 18, 3:391–408. 
+DOI: https://doi.org/10.1177/1354068810380086
+CERVI, Emerson Urizzi. (2020), “Financiamento da política no Brasil entre 2011 e 2020: uma 
+década de aumento de recursos estatais e redução do contato entre representantes e 
+representados”, in A.C. Santano; M.P. Silveira; R.V. Pereira; T.C. Costa. (org.), Proposições 
+para o Congresso Nacional: reforma política. Brasília, Transparência Eleitoral, Editora 
+Íthala.
+CHEIBUB, José Antonio; SIN, Gisela. (2020), “Preference vote and intra-party competition 
+in open list PR systems”. Journal of Theoretical Politics, 32, 1:70–95. DOI: https://doi.
+org/10.1177/0951629819893024.
+DE MAIO, Fernando. (2007), “Income inequality measures”. Journal of Epidemiology & 
+Community Health, 61, 10:849–852. DOI: https://doi.org/10.1136/jech.2006.052969.
+DESCHAMPS, Jacques Paul; JUNCKES, Ivan Jairo; HOROCHOVSKI, Rodrigo Rossi; 
+CAMARGO, Neilor Fermino. (2021), “Dinheiro e sucesso eleitoral em 2008, 2012 e 
+2016 no Brasil”. Revista de Administração Pública, 55, 3:736–756. DOI: https://doi.
+org/10.1590/0034-761220200117.
+
+
+=== PDF PAGE 18 ===
+IMPACTOS LIMITADOS DO FINANCIAMENTO PÚBLICO SOBRE A REDUÇÃO DA 
+DESIGUALDADE EM CAMPANHAS ELEITORAIS
+18
+FISCH, Arthur; MESQUITA, Lara. (2022), “Reformas eleitorais no Brasil contemporâneo: 
+mudanças no sistema proporcional e de financiamento eleitoral”. Estudos Avançados, 
+36, 106:33–53. DOI: https://doi.org/10.1590/s0103-4014.2022.36106.003
+GAXIE, Daniel. (1977), “Économie des partis et rétributions du militantisme”. Revue française 
+de science politique, 27, 1:123–154. https://doi.org/10.3406/rfsp.1977.393715.
+Guerra Filho, A. (2017), “The Brazilian Supreme Court’s ADI 4650 Decision: A Step Towards 
+the End of Plutocracy?”. King’s Law Journal, 28, 2:167-172. DOI: https://doi.org/10.1
+080/09615768.2017.1363548.
+HEERWIG, Jennifer. (2016), “Donations and dependence: Individual contributor strategies in 
+house elections”. Social Science Research, 60, 181–198. DOI: https://doi.org/10.1016/j.
+ssresearch.2016.06.001.
+JACOBSON, Gary. (1978), “The Effects of Campaign Spending in Congressional Elections”. 
+American Political Science Review, 72, 2:469–491. DOI: https://doi.org/10.2307/1954105.
+JACOBSON, Gary. (1985). “Money and votes reconsidered: Congressional elections, 
+1972–1982”. Public choice (pre-1986), 47, 1:7-62.
+KATZ, Richard; MAIR, Peter. (1995), “Changing Models of Party Organization and Party 
+Democracy”. Party Politics, 1, 1:5–28. DOI: https://doi.org/10.1177/135406889500
+1001001.
+KILBORN, Mitchell. (2018), “Public Campaign Financing, Candidate Socioeconomic 
+Diversity, and Representational Inequality at the U.S. State Level: Evidence from 
+Connecticut”. State Politics & Policy Quarterly, 18, 3:296–323. DOI: https://doi.
+org/10.1177/1532440018784980.
+KILBORN, Mitchell; VISHWANATH, Arjun. (2022), “Public Money Talks Too: How Public 
+Campaign Financing Degrades Representation”. American Journal of Political Science, 
+66, 3:730–744. DOI: https://doi.org/10.1111/ajps.12625.
+KREBS, Timothy. (2001), “Political Experience and Fundraising in City Council Elections”. 
+Social Science Quarterly, 82, 3:536–551. DOI: https://doi.org/10.1111/0038-4941.00041
+MALHOTRA, Neil. (2008), “The Impact of Public Financing on Electoral Competition: 
+Evidence from Arizona and Maine”. State Politics & Policy Quarterly, 8, 3:263–281. 
+DOI: https://doi.org/10.1177/153244000800800303.
+MANCUSO, Wagner Pralon; HOROCHOVSKI, Rodrigo Rossi; CAMARGO, Neilor Fermino. 
+(2018), “Financiamento eleitoral empresarial direto e indireto nas eleições nacionais de 
+2014”. Revista Brasileira de Ciência Política, 27:9–36. DOI: https://doi.org/10.1590/0103-
+335220182701.
+MANCUSO, Wagner Pralon; SPECK, Bruno Wilhelm. (2015), “Os preferidos das empresas: 
+um estudo de determinantes do financiamento eleitoral empresarial” in P.R.N. Costa; 
+J.V. Pont. (org.), Empresários, desenvolvimento, cultura e democracia. Curitiba, Editora 
+UFPR.
+NASSMACHER, Karl-Heinz. (2003), “Introduction: Political Parties, Funding and Democracy” 
+in E. Falguera; S. Jones; M. Ohman. (org.), Funding of Political Parties and Election 
+Campaigns: A Handbook on Political Finance. Stockholm, International IDEA.
+PANEBIANCO, Angelo. (2005), Modelos de partido: organização e poder nos partidos 
+políticos. Tradução de Denise Agostinetti. São Paulo, Martins Fontes.
+PEIXOTO, Vitor de Morais; MARQUES, Larissa Martins; RIBEIRO, Leandro Molhano. (2022), 
+“Financiamento de campanhas e desempenho eleitoral das mulheres nas eleições 
+brasileiras (1998-2020)”. Estudos Avançados, 36, 106:93–116. DOI: https://doi.
+org/10.1590/s0103-4014.2022.36106.006.
+PINTO-DUSCHINSKY, Michael. (2002), “Financing Politics: A Global View”. Journal of 
+Democracy, 13, 4:69–86. DOI: https://doi.org/10.1353/jod.2002.0074.
+
+
+=== PDF PAGE 19 ===
+19
+Rev. Bras. Ci. Soc. vol. 39 e39013 2024
+REIS, Bruno Pinheiro Wanderley; EDUARDO, Felipe Lima. (2019), A Distância entre intenção 
+e gesto: consequências da proibição de doações eleitorais por pessoas jurídicas 
+nas eleições municipais de 2016. Boletim de Análise Político-Institucional, 21:67–76. 
+Disponível em http://repositorio.ipea.gov.br/handle/11058/9851, consultado em 
+07/05/2024.
+SHIN, Ki-young; KWON, Soo Hyun. (2023), “’Above all, it will boil down to money problems’: 
+The impact of gender-targeted public financing on political parties and women 
+candidates in South Korea”. International Political Science Review, 44, 1:91–106. DOI: 
+https://doi.org/10.1177/01925121221078232.
+SILVA, Bruno Fernando da; GONÇALVES, Ricardo Dantas. (2019), “Pesquisas eleitorais 
+afetam receitas de campanha: a correlação entre expectativa de vitória e financiamento 
+de campanha em disputas ao Senado”. Revista de Sociologia e Política, 27, 71:1-27, 
+e005. DOI: https://doi.org/10.1590/1678-987319277105.
+SPECK, Bruno Wilhelm. (2002), “Como financiar a competição política? Concepções 
+contemporâneas, ilustrações do caso da Alemanha e perspectivas para a situação do 
+Uruguay”. in G. Caetano. (org.), Dinero y Política. El Financiamiento de los Partidos en 
+la Democracia. Montevideo, Ediciones de La Banda Oriental.
+VAN BIEZEN, Ingrid. (2004), “Political Parties as Public Utilities”. Party Politics, 10, 6:701–722. 
+DOI: https://doi.org/10.1177/1354068804046914.
+VAN BIEZEN, Ingrid; RASHKOVA, Ekaterina. (2014), “Deterring new party entry? The impact 
+of state regulation on the permeability of party systems”. Party Politics, 20, 6:890–903. 
+DOI: https://doi.org/10.1177/1354068812458616.
+ZELINSKI, Fernando; JUNCKES, Ivan Jairo; HOROCHOVSKI, Rodrigo Rossi. (2022), Alocação 
+e captura do financiamento de campanhas via o capital eleitoral de candidatos. 13° 
+Encontro da Associação Brasileira de Ciência Política, Goiânia, 19 a 23 de setembro. 
+Disponível em https://www.researchgate.net/publication/363793088_Alocacao_e_
+captura_do_financiamento_de_campanhas_via_o_capital_eleitoral_de_candidatos, 
+consultado em 07/05/2024.

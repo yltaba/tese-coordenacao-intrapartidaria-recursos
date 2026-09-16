@@ -1,0 +1,581 @@
+# issues.yaml — Capítulo 3 — run-001 — pass 2 (thesis-chair, arbitragem)
+# Esquema: thesis-review/templates/issue.yaml (+ campos opcionais: escala, dimensoes, localizacao, evidencia_decisiva, nota_chair, nota_versao_atual).
+# Ordenados por severidade final (dentro da mesma severidade: macro antes de micro, depois id).
+# Versão arbitrada do capítulo: sha256 0aec63e5… (manifesto; reconstruída em evidence/chair_03_capitulo_auditado_reconstruido.qmd).
+# O capítulo foi editado pelo autor às 19:16 de 2026-09-14 (sha 679ece09…): só a l. 173 e a 1ª frase da l. 175 mudaram
+# (evidence/chair_03_diff_auditado_vs_atual.txt). Efeitos por issue em 'nota_versao_atual'.
+# Caminhos 'tese/<pasta>/' citados pelos agentes estão hoje em 'tese/reports/<pasta>/' (mesmo sha256).
+run: run-001
+pass: 2
+capitulo: 3
+contagem_final: {CRITICAL: 0, MAJOR: 3, MODERATE: 12, MINOR: 6}
+contagem_inicial_pass1: {CRITICAL: 0, MAJOR: 5, MODERATE: 9, MINOR: 6}
+mudancas_pass2:
+  - "I-3-001 absorve ADV-3-001 (CPF sem zeros à esquerda) e ADV-3-002 (CPF da própria candidatura por keep-first); números 'corrigidos' marcados como provisórios."
+  - "I-3-003 MAJOR → MODERATE (segue o adversarial)."
+  - "I-3-005 MAJOR → MODERATE (segue o adversarial)."
+  - "I-3-002 e I-3-004 mantidos MAJOR (não segue o adversarial)."
+  - "I-3-006 MODERATE confirmado."
+  - "Novo I-3-021 a partir de ADV-3-003 (MODERATE)."
+gate:
+  measurement: WARN
+  statistics: WARN
+  results: WARN
+  internal_validity: WARN
+  theory: nao_avaliado
+  literature: nao_avaliado
+  writing: nao_avaliado
+  overall: "⚠ Revision required"
+
+issues:
+
+  # ------------------------------------------------------------------ MAJOR
+
+  - issue_id: I-3-001
+    titulo: "Ligação de CPF defeituosa na construção da base: chave (ano, UF, número) não única e CPFs de 2012/2014 sem zeros à esquerda corrompem o histórico eleitoral (flag competitiva) e, em ~0,3 % das candidaturas, a própria identidade da candidatura"
+    capitulo: 3
+    escala: macro
+    dimensoes: [measurement, internal_validity]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 68, secao: "#### Desempenho eleitoral prévio {#sec-competitivos}"}
+    findings: [MEA-3-001, ADV-3-001, ADV-3-002]
+    claims: [C3.4.01, C3.6.01, C3.7.01, C3.7.02, C3.7.03, C3.8.01, C3.8.02, C3.8.03, C3.9.07]
+    evidencia_decisiva: >-
+      Três defeitos na mesma etapa (gerar_rrd.py), que se corrigem na mesma regeneração.
+      D1 (MEA-3-001): _construir_resultados_select (l. 61-78) e _gerar_resultados_cpf (l. 506-524) fazem
+      drop_duplicates(['ano_eleicao','sg_uf','nr_candidato'], keep='first'). Prefeitos, vereadores, vices e suplentes
+      compartilham número dentro da UF, e isso produz n_eleicoes_prefeito = 46 (2022 MG AVANTE 7025). adv_01: 19 casos
+      com 5 ou mais vitórias, todas de um único ano e de N municípios. adv_06: 79/189 vitórias de Governador e 177/269
+      de Senador vão para outro CPF. O merge keep-first reproduz a flag em 7.630/7.630 e 9.675/9.675 candidaturas (adv_02).
+      D2 (ADV-3-001): candidatos.parquet grava 28,6 % dos CPFs de 2012 e 26,4 % dos de 2014 com 8 a 10 dígitos
+      (chair_01 a). O histórico é unido por CPF-string (l. 182, 805-808), e 31,8 % / 34,2 % das candidaturas da base
+      têm CPF iniciado em '0' (chair_01 b). Para essas, só os registros de 2012 e 2014 se perdem; na prática, 473
+      candidaturas de 2018 disputaram 2014 e 518 disputaram 2012 com CPF gravado sem zeros (chair_01 d). Verificação do
+      chair: Marx Beltrão, Vitor Lippi, Aliel Machado e Newton Cardoso Jr. aparecem 'ELEITO POR QP' em 2014 com CPF de
+      10 ou 9 dígitos e, em 2018, têm n_eleicoes_deputado_federal = 0 e competitivo = False (chair_01 c). Dos 378
+      deputados federais eleitos em 2014 que concorreram em 2018, 52 têm n_eleicoes_deputado_federal = 0 e 25 são não
+      competitivos, todos com CPF iniciado em 0. Numa ligação independente por (UF, cargo, nr), 29 (2018) e 6 (2022)
+      candidaturas com vitória estadual/federal em 2014 são não competitivas (chair_02; adv: 30 / 6).
+      D3 (ADV-3-002): construir_base (l. 88-91, 111-113) aplica o mesmo keep-first à própria candidatura. Há 61 / 76
+      chaves de Dep. Federal com mais de 1 CPF (chair_01 e). Em 3 de 3 casos conferidos, o primeiro registro é de
+      pessoa INAPTA e a candidatura APTA herda CPF, gênero e histórico dela: 2022 AM 4444 Pauderney Avelino (52.014
+      votos) recebe o CPF e o gênero FEMININO de Raquel Fernandes; 2022 DF 4545 Andréia Zemuner fica MASCULINO; 2022 CE
+      1251 José Arnon Bezerra herda o CPF de Pedro Augusto e é marcado competitivo.
+      Efeito agregado (adv_02_metricas_variantes.csv; PROVISÓRIO): nas 13 variantes por ano, lift entre 1,76 e 1,91 e
+      cobertura entre 75,4 % e 83,3 %, sempre fora da faixa de permutação (0,95-1,05).
+    severidade_inicial: MAJOR
+    contra_argumento:
+      agent: adversarial-reviewer
+      assessment: valid
+      resumo: >-
+        O adversarial testou as explicações alternativas (granularidade, 2º turno, CPF placeholder, encoding) e todas
+        caem; a causa foi confirmada sem resíduo e se estende a Governador/Senador. Acrescentou D2 e D3. Rejeitou CRITICAL
+        (lift > 1 e 'observável antes do voto' sobrevivem sob qualquer correção) e MODERATE (a variável ex-ante que
+        sustenta a parte distintiva da conclusão está corrompida). Corrigiu o diagnóstico de impacto: a queda da
+        cobertura para ~75 % vem da regra de 10 % aplicada a Prefeito (I-3-002), não da ligação.
+    severidade_final: MAJOR
+    confianca: alta
+    razao: >-
+      Sigo o adversarial. O chair verificou D2 e D3 por amostragem, com scripts próprios (chair_01, chair_02), e os
+      números batem com adv_02/adv_05. É mudança de medida (regenerar a base), não de redação, e a conclusão
+      qualitativa sobrevive em todas as variantes: lift 1,76-1,91, sempre fora da faixa de permutação. Por isso MAJOR,
+      e não CRITICAL. ADV-3-001 e ADV-3-002 foram fundidos aqui porque são o mesmo padrão de código (chave não
+      normalizada/não única na ligação por CPF), atingem a mesma variável e têm uma única correção.
+    nota_chair: >-
+      NÚMEROS 'CORRIGIDOS' SÃO PROVISÓRIOS. (1) Os números 'com CPF correto' de MEA-3-001/MEA-3-002 citados no pass 1
+      (1.017 / 1.554; cobertura 75,4 / 76,5 %; lift 1,82 / 1,77; pela l. 68: 907 / 1.337; 80,7 / 81,2 %; 1,88 / 1,86)
+      herdam D2, porque mea_02:58 descarta CPFs sem 11 dígitos, e ficam SUPERADOS. (2) Os números de adv_02 com D1 e D2
+      corrigidos (definição da l. 68: 967 / 1.351, cobertura 80,7 / 80,7 %, precisão 33,7 / 28,5 %, lift 1,90 / 1,85;
+      regras do código: 1.075 / 1.568, 75,6 / 76,2 %, 35,1 / 31,2 %, 1,83 / 1,76) também são PROVISÓRIOS: não corrigem
+      D3, ligam os cargos municipais pelo nome do município e reconstroem o QE de Dep. Estadual como votos válidos /
+      eleitos. Os números valem só como ordem de grandeza até a regeneração de rrd_df_novo.parquet. (3) D3 altera
+      ds_genero em parte dos 21 / 26 casos, e isso afeta o X/Y de I-3-005.
+    recomendacao: >-
+      Em gerar_rrd.py: (a) normalizar nr_cpf_candidato com zfill(11) na leitura de candidatos.parquet, antes de
+      qualquer merge; (b) ligar resultados a candidatos por (ano, UF, cargo, nr) nos cargos estaduais/federais e por
+      (ano, UF, cargo, município, nr) nos municipais; (c) na base de Dep. Federal, desempatar chaves duplicadas pelo
+      registro APTO (ds_situacao_candidatura) ou pelo nome; (d) regenerar rrd_df_novo.parquet e todos os CSVs/figuras
+      que dependem de candidato_competitivo, ds_genero e mulher (Figuras 3-4, 01_universos, resumo_nacional etc.);
+      (e) acrescentar a 21_verificacoes.csv: CPF com 11 dígitos em todos os anos; n_eleicoes_prefeito ≤ 6; toda
+      candidatura de deputado federal eleito na legislatura anterior é competitiva (hoje 353/378); nome e gênero da
+      base = nome e gênero do registro APTO. Decidir antes o construto (I-3-002). Depois disso, atualizar 886 / 1.287,
+      '> 80 %', '4/5', 30,9 / 27,8 % e 1,87 / 1,89 no texto.
+    status: open
+
+  - issue_id: I-3-002
+    titulo: "Definição de 'competitivo' contraditória no texto (l. 64 × l. 68) e diferente da implementada; a regra do código aplica '10 % do QE' a disputas majoritárias (Prefeito, Governador, Senador), onde o limiar é quase trivial"
+    capitulo: 3
+    escala: macro
+    dimensoes: [measurement, internal_validity]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 64, secao: "#### Desempenho eleitoral prévio {#sec-competitivos}"}
+    findings: [MEA-3-002]
+    claims: [C3.4.01, C3.4.02, C3.6.01, C3.7.01]
+    evidencia_decisiva: >-
+      l. 64: '10 % do quociente eleitoral nas disputas que concorreram, também exceto para vereador'; l. 68: '(ii) ...
+      em disputa proporcional para Deputado Federal ou Deputado Estadual'. Código: gerar_rrd.py:686-692 aplica 10 % a
+      Governador, Senador e Prefeito, com qt_vaga = 1 (l. 779); l. 137-145, sem Presidente e com Distrital; l. 178-179,
+      vitórias até 2020 para 2022. adv_07: 72,7 % (2016) e 71,8 % (2020) das candidaturas a prefeito atingem o limiar,
+      contra 14-20 % em Dep. Federal. Com a base atual, texto × código move pouco (lift 1,873 → 1,891; 1,890 → 1,908).
+      Com D1+D2 de I-3-001 corrigidos, move muito: cobertura 80,7 / 80,7 % pela l. 68 contra 75,6 / 76,2 % pelo código;
+      lift 1,90 / 1,85 contra 1,83 / 1,76 (adv_02, provisório).
+    severidade_inicial: MAJOR
+    contra_argumento:
+      agent: adversarial-reviewer
+      assessment: partially_valid
+      resumo: >-
+        Contradição e divergência reais. Propõe MODERATE: na base atual o efeito é de no máximo 0,02 no lift; a regra de
+        10 % em majoritárias não é construto defensável, então a correção natural (código alinhado à l. 68) preserva os
+        números; Presidente, janela e Distrital já estão em 19_notas_redacao.csv. Voltaria a MAJOR só se o autor
+        mantivesse a regra do código.
+    severidade_final: MAJOR
+    confianca: alta
+    razao: >-
+      Não sigo o rebaixamento. Nenhuma das duas saídas é só textual. Alinhar à l. 68 exige mudar o código da medida
+      (retirar os 10 % em majoritárias), e alinhar o texto ao código derruba '> 80 %' e '4/5' para 75,6 / 76,2 % assim
+      que I-3-001 for corrigido (adv_02). O próprio adv_07 mostra que a regra implementada não mede credencial:
+      3/4 dos candidatos a prefeito a atingem. O argumento 'na base atual move pouco' só vale enquanto a base estiver
+      corrompida. Os itens Presidente, Distrital e janela, reconhecidos pelo autor, não pesam na severidade; o que pesa
+      é o critério (ii).
+    recomendacao: >-
+      Fixar o construto na definição da l. 68 (recomendado): vitórias em Governador, Senador, Dep. Federal, Dep.
+      Estadual/Distrital e Prefeito; 10 % do QE só em disputa proporcional. Retirar os 10 % de Governador/Senador/Prefeito
+      em gerar_rrd.py:686-692; declarar a janela efetivamente usada; tirar 'Presidente' ou dizer que não há dados;
+      reescrever a l. 64 para coincidir com a l. 68. Se o autor preferir manter a regra do código, reescrever as l. 64 e
+      68 para ela e justificar os 10 % dos votos válidos em majoritária como credencial, sabendo que a cobertura cai para
+      ~76 %. Decidir ANTES de regenerar a base (I-3-001).
+    status: open
+
+  - issue_id: I-3-004
+    titulo: "A síntese do capítulo ('um número: 1,9 … se repete em 2018 e 2022 … e em quase todos os limiares do Top-X%'; 'acima de 87 % dos eleitos') não corresponde à evidência"
+    capitulo: 3
+    escala: macro
+    dimensoes: [results, statistics, internal_validity]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 173, secao: "## Discussão {#sec-discussao-cap3}"}
+    findings: [RES-3-004, STA-3-003]
+    claims: [C3.9.01, C3.9.02, C3.9.08]
+    evidencia_decisiva: >-
+      reports/sensibilidade-top-x/resumo_nacional.csv: lifts Top-X% de 1,375 a 3,599; só 2 de 24 cortes em [1,8; 2,0]
+      e 9 de 24 em [1,7; 2,1]. Cobertura de eleitos em 2018 = 86,74 %. Sobre a comparação entre anos: sob o universo
+      completo, 1,87 × 1,89 e 1,98 × 2,12; sem as listas com k = C (27,4 % de A0 em 2018 contra 2,1 % em 2022), 2,20 ×
+      1,91; sob o nulo de recebedores, 1,69 × 1,85 (sta_media_razoes_vs_razao_somas.csv, sta_razoes_de_somas.csv). A
+      direção da diferença entre eleições muda com a convenção. O IC por partido da diferença contém zero
+      (sta_bootstrap_diferencas.csv).
+    severidade_inicial: MAJOR
+    contra_argumento:
+      agent: adversarial-reviewer
+      assessment: partially_valid
+      resumo: >-
+        Confirma que 'quase todos os limiares' e 'acima de 87 %' são falsos. Propõe MODERATE: 'se repete' é
+        descritivamente correto no Top-NECr; o viés de composição favorece o autor (163 das 207 listas com k = C têm um
+        único candidato e puxam 2018 para 1); o capítulo já traz os números certos nas l. 159 e 177; a conclusão
+        ('não distribuem ao acaso') vale em 24/24 cortes.
+    severidade_final: MAJOR
+    confianca: alta
+    razao: >-
+      Não sigo o rebaixamento. A l. 173 não é uma frase numérica qualquer: é o resultado declarado do capítulo ('O
+      resultado do capítulo pode ser resumido em um número'). Afirma invariância em três eixos e falha em dois
+      (limiares: 1,38-3,60; nível de 2018 entre 1,69 e 2,20 conforme a convenção, com a direção 2018 × 2022 invertendo
+      entre convenções). O argumento de composição do adversarial vale para uma convenção (listas k = C), mas não para a
+      outra (nulo de recebedores). Pela rubrica, a conclusão sobrevive, mas não como está escrita: MAJOR. A correção é
+      barata, e o próprio autor já reescreveu a frase trocando o resultado declarado, não só um número (ver
+      nota_versao_atual).
+    nota_versao_atual: >-
+      Na versão 679ece09 (19:16), a l. 173 foi reescrita: saíram '1,9 … se repete … quase todos os limiares' e 'acima
+      de 87 %', e a frase agora diz 'Em todas as operacionalizações usadas, o lift calculado é superior a um', o que é
+      verdadeiro (24/24 cortes + Top-NECr). As partes falsas parecem resolvidas. PENDENTE: l. 181 ('A priorização em
+      2022 não desapareceu. Mudou de forma') continua lendo 2018 × 2022 sem reconhecer a sensibilidade à composição;
+      falta declarar as listas com k = C e reportar o lift nas fronteiras comparáveis. A nova l. 173 também agrava
+      I-3-021 ('priorizam … candidatos que posteriormente são eleitos'). Confirmar no run-002.
+    recomendacao: >-
+      Manter a nova l. 173 ('lift > 1 em todas as operacionalizações') e acrescentar a amplitude: 1,9-2,1 no Top-NECr;
+      de 1,4 (Top-95 %) a 3,6 (Top-50 %) no Top-X%. Declarar em @sec-metricas quantas listas contribuem com lift = 1 por
+      construção (k = C: 207 / 100) e reportar em nota o lift restrito às fronteiras comparáveis (579 / 548 listas; 2,20
+      / 1,91). Na l. 181, tratar 2018 × 2022 como 'da mesma ordem' e sensível à composição das listas (coligações).
+      Refazer os números depois de I-3-001.
+    status: open
+
+  # ------------------------------------------------------------------ MODERATE
+
+  - issue_id: I-3-003
+    titulo: "Universo do sorteio de referência não declarado em @sec-metricas: com todas as C_l (inclusive quem recebeu zero) o lift inclui a margem 'financiar × não financiar'; entre recebedores o lift de 2018 é 1,69 (competitivos) e 1,78 (eleitos)"
+    capitulo: 3
+    escala: macro
+    dimensoes: [statistics, measurement, internal_validity]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 107, secao: "#### Cobertura, precisão e lift {#sec-metricas}"}
+    findings: [STA-3-001, MEA-3-004]
+    claims: [C3.4.04, C3.7.03, C3.7.04, C3.7.05, C3.9.04]
+    evidencia_decisiva: >-
+      reports/resultados-validacao-top-necr/validade_expost.csv (eleitos, recebedores: 1,782 / 2,048 contra 1,982 /
+      2,117); sta_razoes_de_somas.csv (competitivos 1,874 → 1,686; 1,890 → 1,851); adv_03: lift_todas = lift_rec ×
+      lift_receber, com a margem de financiar = 1,11 (2018) e 1,02-1,03 (2022); sob ambos os nulos o lift fica fora da
+      permutação (P97,5 recebedores = 1,045 / 1,047); pisos de R$ 1 mil e R$ 10 mil dão 1,65 / 1,56 (2018).
+    severidade_inicial: MAJOR
+    contra_argumento:
+      agent: adversarial-reviewer
+      assessment: partially_valid
+      resumo: >-
+        O universo tem justificativa teórica no próprio texto: gatekeeping inclui não financiar; 'entre as candidaturas
+        que autorizaram concorrer' (l. 173 auditada); 'transfere, retém' (l. 183). O nulo de recebedores condiciona numa
+        margem do próprio tratamento. Os números da l. 143/145/147 estão corretos sob o nulo usado. Basta declarar e
+        reportar a decomposição: MODERATE.
+    severidade_final: MODERATE
+    confianca: alta
+    razao: >-
+      Sigo o adversarial. A decomposição exata (adv_03) mostra que a margem de financiar é um fator de 1,11 / 1,03, e
+      não o grosso do lift. Sob o nulo usado, 'quase 90 % mais' e 'o dobro' estão corretos, e sortear entre as
+      candidaturas autorizadas é coerente com a pergunta de gatekeeping (l. 5). A correção é declarar, justificar e
+      reportar a variante já calculada pelo autor, sem mudar método nem conclusão. A consequência quantitativa (nível do
+      lift de 2018 dependente de convenção) está tratada em I-3-004.
+    nota_versao_atual: >-
+      A frase da l. 173 que o adversarial usou como justificativa textual ('entre as candidaturas que autorizaram
+      concorrer') foi removida na versão 679ece09. Hoje o universo só é justificado indiretamente pela l. 183, o que
+      torna a declaração em @sec-metricas mais necessária.
+    recomendacao: >-
+      Em @sec-metricas (l. 107), declarar que o sorteio é feito entre todas as candidaturas da lista e por quê (não
+      financiar é parte da priorização). Reportar em uma frase ou nota o lift entre recebedores (competitivos 1,69 /
+      1,85; eleitos 1,78 / 2,05) e o fator da margem de financiar (1,11 / 1,03). Refazer os números depois de I-3-001.
+    status: open
+
+  - issue_id: I-3-005
+    titulo: "'Estimativa conservadora' por efeito das cotas não é calculada, depende de placeholder vazio e as duas operacionalizações computáveis contrariam a direção para o lift"
+    capitulo: 3
+    escala: macro
+    dimensoes: [statistics, results, measurement, internal_validity]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 179, secao: "## Discussão {#sec-discussao-cap3}"}
+    findings: [RES-3-001, MEA-3-008, STA-3-004]
+    claims: [C3.9.07]
+    evidencia_decisiva: >-
+      Placeholder '[inserir: X% …]' na l. 179. Competitivas: mulheres 4,47 % / 5,96 %, homens 14,93 % / 17,29 %
+      (triangulado em 3 recomputações; herda I-3-001). Estratificação por sexo (sta_lift_por_sexo.csv): lift entre
+      homens 1,633 / 1,755 contra 1,874 / 1,890 no agregado. Top-NECr refeito em listas só de homens (adv_04): precisão
+      sobe (30,9 → 35,5 %; 27,8 → 34,2 %) e lift cai (1,873 → 1,622; 1,890 → 1,742). Cobertura de competitivas entre
+      mulheres (92,6 / 88,3 %) maior que entre homens (79,3 / 81,6 %).
+    severidade_inicial: MAJOR
+    contra_argumento:
+      agent: adversarial-reviewer
+      assessment: valid
+      resumo: >-
+        A crítica é válida e ficou mais forte: uma segunda operacionalização (listas só de homens) também contraria a
+        direção para o lift. Mas é uma frase de qualificação; a conclusão central (l. 173, 183) não depende dela;
+        retirá-la ou restringi-la à precisão resolve sem mudar método ou medida. MODERATE; claim unsupported, e não
+        contradicted.
+    severidade_final: MODERATE
+    confianca: alta
+    razao: >-
+      Sigo o adversarial. O defeito é afirmar sem cálculo, e a correção (retirar a frase ou restringi-la à precisão,
+      que as duas operacionalizações sustentam) não mexe em método, medida nem conclusão. A confiança sobe de média para
+      alta porque duas operacionalizações independentes (STA, adv_04) apontam na mesma direção. O claim C3.9.07 fica
+      unsupported, e não contradicted, porque nenhuma delas implementa a realocação que o partido faria sem a obrigação
+      legal.
+    recomendacao: >-
+      Preencher X/Y depois de regenerar a base (I-3-001; D3 muda ds_genero em parte dos casos). Com a base atual:
+      4,5 % contra 14,9 % em 2018 e 6,0 % contra 17,3 % em 2022, universo = todas as candidaturas. Retirar 'o que faz dos
+      indicadores apresentados uma estimativa conservadora da priorização' ou substituir por uma afirmação restrita e
+      calculada: 'restrita aos homens, a precisão do núcleo é maior (35-40 %), mas o lift não (1,6-1,9)'.
+    status: open
+
+  - issue_id: I-3-021
+    titulo: "Eleitos como 'validação pós-eleitoral' não separam priorização de efeito do dinheiro sobre o voto; limitação reconhecida nas notas do autor e ausente do capítulo"
+    capitulo: 3
+    escala: macro
+    dimensoes: [internal_validity]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 84, secao: "#### Cobertura, precisão e lift {#sec-metricas}"}
+    findings: [ADV-3-003]
+    claims: [C3.7.04, C3.7.05, C3.9.01, C3.9.09]
+    evidencia_decisiva: >-
+      l. 17 ('validação pré e pós eleitoral'), l. 84 ('Para validar a relevância eleitoral do indicador calculado'),
+      l. 173. grep 'causal|efeito do dinheiro' no capítulo = 0. O chair conferiu as notas do autor:
+      notes/daily/2026-09-13.md:35-36 ('Não validar o núcleo pelos eleitos … correspondência') e :69-70 ('não
+      identifica efeito causal do dinheiro; não separa seleção de candidatos fortes de produção de competitividade');
+      19_notas_redacao.csv, 'Interpretação' ('Cobertura dos eleitos tampouco demonstra isoladamente coordenação
+      intencional').
+    severidade_inicial: MODERATE
+    contra_argumento:
+      agent: adversarial-reviewer
+      assessment: not_reviewed
+      resumo: "Issue criado no pass 2 a partir de omissão apontada pelo próprio adversarial (ADV-3-003); não há contra-argumento."
+    severidade_final: MODERATE
+    confianca: alta
+    razao: >-
+      Aceito como issue: há evidência textual verificável, e o próprio autor registrou a limitação. MODERATE, e não
+      MAJOR, porque a parte distintiva da conclusão ('observável antes do voto', l. 183) repousa na referência ex-ante,
+      não nos eleitos. A correção é reenquadrar e declarar o limite, sem mudar método. Fica ligado a I-3-001: enquanto a
+      referência ex-ante estiver corrompida, a de eleitos não pode substituí-la como validação.
+    nota_versao_atual: >-
+      A nova l. 173 (679ece09) diz que partidos 'sistematicamente priorizam … candidatos que posteriormente são
+      eleitos', o que lê a correspondência ex-post como priorização. Isso reforça o issue.
+    recomendacao: >-
+      Trocar 'validação' por 'correspondência' para a referência de eleitos (l. 17, 84, 173), como planejado em
+      notes/daily/2026-09-13.md item 6. Em @sec-validacao, declarar que o lift de eleitos não separa a seleção de
+      candidatos fortes do efeito do financiamento sobre o voto e que a evidência de priorização ex-ante vem dos
+      competitivos.
+    status: open
+
+  - issue_id: I-3-006
+    titulo: "Nenhum indicador ou comparação tem faixa de variabilidade (permutação do nulo; bootstrap por lista e por partido)"
+    capitulo: 3
+    escala: macro
+    dimensoes: [statistics, internal_validity]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 147, secao: "### Priorização financeira pelo Top-NECr"}
+    findings: [STA-3-002, STA-3-008]
+    claims: [C3.7.03, C3.7.05, C3.9.04]
+    evidencia_decisiva: >-
+      sta_permutacao_top_necr.csv (lift sob o nulo 0,95-1,05 / 0,92-1,08; p < 0,0005); sorteios_referencia.csv (10.000
+      sorteios, P2,5-P97,5 = 207-242 contra 445 observados), nunca citado; sta_bootstrap_diferencas.csv (lift eleitos
+      2022−2018 +0,14 [−0,07; +0,34]; precisão −6,8 pp, [−9,8; −3,9] por lista e [−15,4; +1,8] por partido).
+    severidade_inicial: MODERATE
+    contra_argumento:
+      agent: adversarial-reviewer
+      assessment: partially_valid
+      resumo: "Confirma o rebaixamento do pass 1: o texto não lê 1,98 → 2,12 como movimento; o teste que sustenta a conclusão tem p < 0,0005; os dados são o universo, não amostra."
+    severidade_final: MODERATE
+    confianca: alta
+    razao: >-
+      Confirmado. A ausência de faixas é lacuna de apresentação e não muda nenhuma conclusão escrita. As afirmações de
+      igualdade entre anos que excedem a evidência estão em I-3-004. STA propôs MAJOR; mantido MODERATE pelas razões de
+      conflicts.md C4, confirmadas pelo adversarial.
+    recomendacao: >-
+      Em @sec-metricas, uma frase com a faixa de permutação (os 10.000 sorteios já existem). IC95 por bootstrap de
+      listas e de partidos para cada lift, apresentados como estabilidade sob reamostragem, não como erro amostral.
+      Tratar como descritivas as diferenças entre eleições cujo intervalo por partido inclui zero. Recalcular depois de
+      I-3-001.
+    status: open
+
+  - issue_id: I-3-008
+    titulo: "'Fundos públicos' rotula uma variável definida por origem partidária ('Recursos de partido político'), não por fonte FEFC/FP"
+    capitulo: 3
+    escala: macro
+    dimensoes: [measurement, internal_validity]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 31, secao: "### Seleção do núcleo de candidaturas priorizadas"}
+    findings: [MEA-3-003]
+    claims: [C3.3.04]
+    evidencia_decisiva: "gerar_rrd.py:205-209; mea_04_output.txt: origem partidária inclui R$ 12,42 mi (2018) e R$ 56,11 mi (2022) de 'Outros recursos' (1,22 % / 1,96 %) e exclui ~R$ 26 mi/ano de FEFC/FP via outros candidatos; 19_notas_redacao.csv l. 5 aberta."
+    severidade_inicial: MODERATE
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MODERATE
+    confianca: alta
+    razao: "Confirmado pelo pass 1 (código e recomputação conferidos pelo chair). É rótulo de construto que afeta a leitura (l. 5, 31, 125, 183), com efeito numérico de 1-2 %; não muda a conclusão."
+    recomendacao: "Definir R_il uma vez (l. 45) como repasses de origem partidária, majoritariamente FEFC e FP (98,8 % / 98,0 %), e trocar 'fundos públicos' por 'recursos partidários' nas l. 5, 31, 125 e 183, ou filtrar por fonte e recalcular."
+    status: open
+
+  - issue_id: I-3-009
+    titulo: "Unidade 'lista/nominata' = partido × UF, mas 85 % das listas de 2018 estavam em coligação e 25 % das de 2022 em federação; convenção não declarada"
+    capitulo: 3
+    escala: macro
+    dimensoes: [measurement, internal_validity]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 25, secao: "### Universo empírico e recursos partidários"}
+    findings: [MEA-3-005]
+    claims: [C3.2.02, C3.6.02, C3.9.08]
+    evidencia_decisiva: "mea_05_output.txt: 731/859 listas (85,1 %) em coligação em 2018; 178/711 (25,0 %) em federação em 2022; reports/alternativas-top-necr/analisar.py:188 registra a convenção, o capítulo não."
+    severidade_inicial: MODERATE
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MODERATE
+    confianca: alta
+    razao: "Confirmado. A convenção é defensável (o dinheiro é alocado pelo partido), mas não declarada, e muda a leitura das l. 117 e 181. Liga-se a I-3-004: a comparação 2018 × 2022 é sensível à composição."
+    recomendacao: "Declarar na seção de dados que a unidade é o partido na UF mesmo quando integra coligação (2018) ou federação (2022) e que as medidas são intrapartidárias; usar 'nominata partidária' de forma consistente; reler as l. 117 e 181."
+    status: open
+
+  - issue_id: I-3-007
+    titulo: "Lift, razão de coberturas e razão de precisões são o mesmo número por identidade e o texto os apresenta como três confirmações"
+    capitulo: 3
+    escala: micro
+    dimensoes: [statistics, measurement]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 147, secao: "### Priorização financeira pelo Top-NECr"}
+    findings: [MEA-3-006, STA-3-005]
+    claims: [C3.7.04, C3.7.05]
+    evidencia_decisiva: "86,74/43,78 = 19,20/9,69 = 1,98; 92,63/43,75 = 12,43/5,87 = 2,12; reports/sensibilidade-top-x/analisar.py:127 verifica a identidade."
+    severidade_inicial: MODERATE
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MODERATE
+    confianca: alta
+    razao: "Confirmado. Identidade algébrica verificada por dois agentes e pelos scripts do autor; a redação soma três vezes o mesmo fato."
+    recomendacao: "Após @eq-indicadores: 'como o mesmo A0 aparece nos denominadores, o lift é idêntico à razão observado/esperado da cobertura e da precisão'. Nas l. 145-147, retirar 'Estas taxas de precisão seguem duas vezes maiores' e 'O lift confirma'."
+    status: open
+
+  - issue_id: I-3-010
+    titulo: "Robustez troca de construto (Top-X%) e omite a robustez do próprio Top-NECr (piso/teto)"
+    capitulo: 3
+    escala: micro
+    dimensoes: [measurement]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 155, secao: "#### Sensibilidade ao limiar Top-X%"}
+    findings: [MEA-3-007]
+    claims: [C3.3.03, C3.8.01, C3.8.02]
+    evidencia_decisiva: "grep 'piso|teto' no capítulo = 0; df_cobertura_top_necr_resumo.csv: eleitos 2018 piso 82,6 % / 2,18, arredondado 86,7 % / 1,98, teto 87,7 % / 1,75; 2022 91,6 % / 2,26, 92,6 % / 2,12, 93,5 % / 1,98. A l. 177 já relativiza a robustez como 'defesa do Top-NECr'."
+    severidade_inicial: MODERATE
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MODERATE
+    confianca: alta
+    razao: "Confirmado na parte verificável. A afirmação atribuída a 03-formulas-propostas.qmd:104-106 continua não verificável (arquivo ausente)."
+    recomendacao: "Apresentar o Top-X% como operacionalização alternativa (fixa o acúmulo), não como teste da arbitrariedade do Top-NECr; acrescentar uma linha ou nota com piso e teto; alinhar a l. 155 com a l. 177."
+    status: open
+
+  - issue_id: I-3-011
+    titulo: "Monotonia acumulada do Top-X% lida como 'assinatura de camadas'; os lifts marginais por faixa (< 1 acima de ~80 % da massa) existem e não são reportados"
+    capitulo: 3
+    escala: micro
+    dimensoes: [statistics]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 177, secao: "## Discussão {#sec-discussao-cap3}"}
+    findings: [STA-3-007]
+    claims: [C3.8.02, C3.9.05, C3.9.06]
+    evidencia_decisiva: "reports/sensibilidade-top-x/faixas_incrementais.csv e sta_gradiente_marginal.csv: lift marginal, competitivos 2018: 2,08; 1,86; 1,79; 1,26; 0,71; 0,36; eleitos 2018: 2,38; 2,10; 1,42; 0,76; 0,51; 0,20."
+    severidade_inicial: MODERATE
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MODERATE
+    confianca: alta
+    razao: "Confirmado. A leitura 'camadas' pode ser sustentada, mas pela evidência direta (faixas marginais), que também mostra uma faixa do Top-NECr com densidade abaixo da média."
+    recomendacao: "Reportar (tabela curta ou figura) o lift de cada faixa incremental e onde ele cruza 1; reescrever as l. 159 e 177 com base nisso."
+    status: open
+
+  - issue_id: I-3-012
+    titulo: "Razões de somas nacionais ponderam implicitamente pelas listas grandes; convenção e dispersão entre listas não declaradas"
+    capitulo: 3
+    escala: micro
+    dimensoes: [statistics]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 95, secao: "#### Cobertura, precisão e lift {#sec-metricas}"}
+    findings: [STA-3-006]
+    claims: [C3.4.03, C3.9.01]
+    evidencia_decisiva: "sta_media_razoes_vs_razao_somas.csv (lift mediano por lista 2,0 / 1,875; média 2,70 / 2,42); sta_contribuicao_listas_grandes.csv (10 % maiores listas = 41-64 % de A0); 16_cobertura_distribuicao.csv, 17_precisao_distribuicao.csv."
+    severidade_inicial: MODERATE
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MODERATE
+    confianca: alta
+    razao: "Confirmado. A escolha é defensável e o nível típico por lista (mediana 2,0 / 1,9) é da mesma ordem; falta declarar a convenção e a dispersão."
+    recomendacao: "Uma frase em @sec-metricas: 'razões de somas nacionais, não médias por lista; listas com mais candidaturas do grupo-alvo pesam mais'; em nota, a mediana do lift por lista e a dispersão (CSVs 16/17)."
+    status: open
+
+  - issue_id: I-3-013
+    titulo: "Figuras 3, 4 e 5 com caminho quebrado (PNGs movidos para tese/reports/ durante o run); nota formal 03-formulas-propostas.qmd ausente"
+    capitulo: 3
+    escala: micro
+    dimensoes: [results]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 149, secao: "### Priorização financeira pelo Top-NECr"}
+    findings: [RES-3-003]
+    claims: [C3.7.01, C3.8.01, C3.8.04]
+    evidencia_decisiva: "Teste do chair a partir de tese/: MISSING relatorio-consolidado-capitulo-3/figuras/{03-top-necr,04-topx-competitividade,05-topx-eleicao}.png (l. 149, 163, 167); OK em tese/reports/relatorio-consolidado-capitulo-3/figuras/. find . -name '03-formulas*' → vazio. Na versão 679ece09 as l. 149, 163 e 167 continuam iguais."
+    severidade_inicial: MODERATE
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MODERATE
+    confianca: alta
+    razao: "Confirmado: o capítulo não renderiza as três figuras centrais. Causa operacional, não de redação; correção barata."
+    recomendacao: "Atualizar os três caminhos para reports/relatorio-consolidado-capitulo-3/figuras/… ou copiar os PNGs para figs/ e referenciar ../figs/, como nas Figuras 1-2 (as Figuras 3-4 terão de ser regeneradas depois de I-3-001). Restaurar ou registrar a remoção de tese/03-formulas-propostas.qmd. Atualizar CLAUDE.md e tools/new_run.py para os novos caminhos."
+    status: open
+
+  - issue_id: I-3-014
+    titulo: "Números da Discussão (l. 175-177) provisórios ou imprecisos: colchetes, 'candidaturas' onde são posições (Σk) e 'entre 4 e 7 vezes' (7,45)"
+    capitulo: 3
+    escala: micro
+    dimensoes: [results, measurement]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 175, secao: "## Discussão {#sec-discussao-cap3}"}
+    findings: [RES-3-002, MEA-3-011, RES-3-008]
+    claims: [C3.3.02, C3.9.03, C3.9.05]
+    evidencia_decisiva: "universo.csv Posicoes_Top_NECr 2.318 / 3.824; mea_03 (b): 2.216 / 3.589 candidaturas com w = 1 e 226 / 477 fracionárias; resumo_nacional.csv top_50 eleicao: 26,10 / 20,32 %; 2,380 / 3,599; 66,40 / 70,41 %; 3.824/513 = 7,45. Colchetes presentes também na versão 679ece09."
+    severidade_inicial: MODERATE
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MODERATE
+    confianca: alta
+    razao: "Confirmado. Os valores estão corretos, mas seguem marcados como provisórios; 'candidaturas' e '4-7×' são imprecisos."
+    recomendacao: "Remover os colchetes e fixar os valores; dizer 'posições' onde o número é Σk (l. 141, 175) e registrar que 226 / 477 candidaturas pertencem parcialmente ao núcleo; 'cerca de 4,5 e 7,5 vezes'; indicar que os valores do Top-50 % da l. 177 são do grupo-alvo eleitos; indexar R_il na l. 45."
+    status: open
+
+  # ------------------------------------------------------------------ MINOR
+
+  - issue_id: I-3-015
+    titulo: "Convenções de denominador não declaradas: listas sem recursos permanecem em ΣG; competitivos usam N e k válidos (4/3 perfis não observados)"
+    capitulo: 3
+    escala: micro
+    dimensoes: [measurement]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 49, secao: "#### Top-NECr"}
+    findings: [MEA-3-009, MEA-3-010]
+    claims: [C3.2.02, C3.4.03, C3.7.02]
+    evidencia_decisiva: "cap3_cobertura_top_necr.py:10, 74-77; reports/alternativas-top-necr/analisar.py:68-72; mea_03 (e): precisão 30,92 vs 30,95 %."
+    severidade_inicial: MINOR
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MINOR
+    confianca: alta
+    razao: "Confirmado; efeito numérico ≤ 0,03 p.p. Os perfis '-4' serão tratados na normalização de CPF de I-3-001."
+    recomendacao: "Na l. 49: 'essas listas saem das estatísticas de concentração, mas seus candidatos do grupo-alvo seguem no denominador das métricas'; nota em @sec-metricas sobre as candidaturas sem perfil observado."
+    status: open
+
+  - issue_id: I-3-016
+    titulo: "Universo das médias de competitivos por lista (1,11 / 1,98 = listas financiadas) não declarado; em todas as listas são 1,03 / 1,81"
+    capitulo: 3
+    escala: micro
+    dimensoes: [results]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 117, secao: "### Amplitude das nominatas e concentração dos recursos"}
+    findings: [RES-3-006]
+    claims: [C3.6.02, C3.9.04]
+    evidencia_decisiva: "reports/relatorio-consolidado-capitulo-3/descritivos.csv (F média: todas 1,031 / 1,810; financiadas 1,113 / 1,980)."
+    severidade_inicial: MINOR
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MINOR
+    confianca: alta
+    razao: "Confirmado. Valores mudarão com I-3-001."
+    recomendacao: "Na l. 117, acrescentar 'entre as 786 e 648 listas com recursos partidários' e manter a escolha na l. 175."
+    status: open
+
+  - issue_id: I-3-017
+    titulo: "'As listas dobraram' vale para a mediana (×2,25), não para a média (×1,53) nem para o total de candidaturas (+27 %)"
+    capitulo: 3
+    escala: micro
+    dimensoes: [results]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 181, secao: "## Discussão {#sec-discussao-cap3}"}
+    findings: [RES-3-007]
+    claims: [C3.9.08]
+    evidencia_decisiva: "res_recompute_cap3.out: mediana C 4 → 9; média 9,4 → 14,4; candidaturas 7.630 → 9.675; listas 859 → 711."
+    severidade_inicial: MINOR
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MINOR
+    confianca: alta
+    razao: "Confirmado."
+    recomendacao: "'enquanto a lista mediana mais que dobrou (de 4 para 9 candidaturas), com menos listas e 27 % mais candidaturas'."
+    status: open
+
+  - issue_id: I-3-018
+    titulo: "Legendas das Figuras 1-5 omitem universo, painéis e significado das linhas de referência/destaques"
+    capitulo: 3
+    escala: micro
+    dimensoes: [results]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 163, secao: "#### Sensibilidade ao limiar Top-X%"}
+    findings: [RES-3-009]
+    claims: [C3.6.02, C3.6.04, C3.8.01]
+    evidencia_decisiva: "reports/relatorio-consolidado-capitulo-3/manifesto-figuras.csv; tese/scripts/exportar_amplitude_barras.py; PNGs inspecionados por RES."
+    severidade_inicial: MINOR
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MINOR
+    confianca: alta
+    razao: "Confirmado."
+    recomendacao: "Legendas com universo (N = 786 / 648), painéis (média/mediana) e o significado de cada linha (observado, acaso intralista, tracejado = Top-NECr, ponto Top-80 % destacado)."
+    status: open
+
+  - issue_id: I-3-019
+    titulo: "Cabeçalho '## Discussão' duplicado e vazio (l. 169)"
+    capitulo: 3
+    escala: micro
+    dimensoes: [results]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 169, secao: "## Discussão"}
+    findings: [RES-3-005]
+    claims: []
+    evidencia_decisiva: "l. 169 '## Discussão' seguida de l. 171 '## Discussão {#sec-discussao-cap3}'; presente também na versão 679ece09."
+    severidade_inicial: MINOR
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MINOR
+    confianca: alta
+    razao: "Formatação sem efeito no argumento (RES propôs MODERATE; conflicts.md C6)."
+    recomendacao: "Apagar a l. 169."
+    status: open
+
+  - issue_id: I-3-020
+    titulo: "'Núcleos maiores elevam por construção a taxa de cobertura' só vale para cortes aninhados"
+    capitulo: 3
+    escala: micro
+    dimensoes: [statistics]
+    localizacao: {arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd, linha: 107, secao: "#### Cobertura, precisão e lift {#sec-metricas}"}
+    findings: [STA-3-009]
+    claims: []
+    evidencia_decisiva: "reports/sensibilidade-top-x/analisar.py:96 (verificação de aninhamento); trajetorias.csv."
+    severidade_inicial: MINOR
+    contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+    severidade_final: MINOR
+    confianca: alta
+    razao: "Confirmado."
+    recomendacao: "'Núcleos maiores que contêm os menores elevam por construção a cobertura'."
+    status: open

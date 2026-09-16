@@ -1,0 +1,54 @@
+(a) comprimento de nr_cpf_candidato por ano (parcela)
+len             2    6    7      8      9      10     11
+ano_eleicao                                             
+1998         0.029  0.0  0.0  0.000  0.000  0.000  0.971
+2000         0.007  0.0  0.0  0.000  0.000  0.000  0.993
+2002         0.019  0.0  0.0  0.000  0.000  0.000  0.981
+2004         0.002  0.0  0.0  0.000  0.000  0.000  0.998
+2006         0.000  0.0  0.0  0.000  0.000  0.000  1.000
+2008         0.000  0.0  0.0  0.000  0.000  0.000  1.000
+2010         0.000  0.0  0.0  0.000  0.000  0.000  1.000
+2012         0.002  0.0  0.0  0.004  0.038  0.244  0.711
+2014         0.000  0.0  0.0  0.003  0.036  0.224  0.736
+2016         0.000  0.0  0.0  0.000  0.000  0.000  1.000
+2018         0.004  0.0  0.0  0.000  0.000  0.000  0.996
+2020         0.001  0.0  0.0  0.000  0.000  0.000  0.999
+2022         0.001  0.0  0.0  0.000  0.000  0.000  0.999
+
+(b) parcela da base com CPF iniciado em '0'
+ano_eleicao
+2018    0.318
+2022    0.342
+
+(c) amostra nominal (5 casos de ADV-3-001)
+- MARX BELTR: 2014 cpf=['2696564485'] sit2014=['ELEITO POR QP'] | 2018 cpf=['02696564485'] n_dep_fed=[0.0] 10pct_hist=[False] comp=[False]
+- NILTO IGNACIO TATTO: 2014 cpf=[] sit2014=[] | 2018 cpf=['03380916889'] n_dep_fed=[0.0] 10pct_hist=[False] comp=[False]
+- VITOR LIPPI: 2014 cpf=['168780860'] sit2014=['ELEITO POR QP'] | 2018 cpf=['00168780860'] n_dep_fed=[0.0] 10pct_hist=[False] comp=[False]
+- ALIEL MACHADO: 2014 cpf=['6908052923'] sit2014=['ELEITO POR QP'] | 2018 cpf=['06908052923'] n_dep_fed=[0.0] 10pct_hist=[False] comp=[False]
+- NEWTON CARDOSO J: 2014 cpf=['1266637699'] sit2014=['ELEITO POR QP'] | 2018 cpf=['01266637699'] n_dep_fed=[0.0] 10pct_hist=[False] comp=[False]
+
+(d) contagem independente, 2018
+candidaturas 2018 que concorreram em 2014 com CPF gravado sem zeros: 473
+candidaturas 2018 que concorreram em 2012 com CPF gravado sem zeros: 518
+eleitos dep. federal 2014: 513 | com CPF < 11 díg.: 154
+candidaturas 2018 de eleitos dep. fed. 2014: 378 | n_eleicoes_deputado_federal == 0: 52 | não competitivas: 25 | dessas com CPF iniciado em 0: 25
+
+(e) ADV-3-002: chave (ano, UF, nr) de Dep. Federal com >1 CPF
+ano_eleicao
+2018    61
+2022    76
+- 2022 AM 4444 registros em candidatos.parquet (ordem do arquivo):
+        ds_cargo            nm_candidato nr_cpf_candidato ds_situacao_candidatura st_candidato_inserido_urna ds_genero
+DEPUTADO FEDERAL        RAQUEL FERNANDES      77297270210                  INAPTO                       None  FEMININO
+DEPUTADO FEDERAL PAUDERNEY TOMAZ AVELINO      03465268253                    APTO                       None MASCULINO
+  base: [{'nm_candidato': 'PAUDERNEY TOMAZ AVELINO', 'nr_cpf_candidato': '77297270210', 'ds_genero': 'FEMININO', 'qt_votos_nominais': 52014, 'n_eleicoes_deputado_federal': 0.0, 'comp': False}]
+- 2022 DF 4545 registros em candidatos.parquet (ordem do arquivo):
+        ds_cargo              nm_candidato nr_cpf_candidato ds_situacao_candidatura st_candidato_inserido_urna ds_genero
+DEPUTADO FEDERAL SÉRGIO FERNANDES FERREIRA      03781082121                  INAPTO                       None MASCULINO
+DEPUTADO FEDERAL     ANDRÉIA MOURA ZEMUNER      95511946915                    APTO                       None  FEMININO
+  base: [{'nm_candidato': 'ANDRÉIA MOURA ZEMUNER', 'nr_cpf_candidato': '03781082121', 'ds_genero': 'MASCULINO', 'qt_votos_nominais': 2398, 'n_eleicoes_deputado_federal': 0.0, 'comp': False}]
+- 2022 CE 1251 registros em candidatos.parquet (ordem do arquivo):
+        ds_cargo                             nm_candidato nr_cpf_candidato ds_situacao_candidatura st_candidato_inserido_urna ds_genero
+DEPUTADO FEDERAL PEDRO AUGUSTO GEROMEL BEZERRA DE MENEZES      87850885368                  INAPTO                       None MASCULINO
+DEPUTADO FEDERAL       JOSÉ ARNON CRUZ BEZERRA DE MENEZES      11575646315                    APTO                       None MASCULINO
+  base: [{'nm_candidato': 'JOSÉ ARNON CRUZ BEZERRA DE MENEZES', 'nr_cpf_candidato': '87850885368', 'ds_genero': 'MASCULINO', 'qt_votos_nominais': 37057, 'n_eleicoes_deputado_federal': 1.0, 'comp': True}]

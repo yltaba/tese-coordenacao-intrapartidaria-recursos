@@ -1,0 +1,1965 @@
+=== PDF PAGE 1 ===
+33
+Como os partidos distribuem o dinheiro. Estrutura 
+organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi
+Universidade Federal do Paraná
+Rodrigo R. Horochovski
+Universidade Federal do Paraná
+Ivan J. Junckes
+Universidade Federal do Paraná
+ Karolina M. Roeder
+Universidade Federal do Paraná
+CÓMO CITAR:
+Bolognesi, Bruno, Rodrigo R. Horochovski, Ivan J. Junckes y Karolina M. Roeder. 2020. “Como os 
+partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil”. 
+Colombia Internacional 104: 33-62.  https://doi.org/10.7440/colombiaint104.2020.02
+RECIBIDO: 26/02/2019
+ACEPTADO: 18/05/2019
+REVISADO: 26/09/2019
+https://doi.org/10.7440/colombiaint104.2020.02
+RESUMO. Objetivo/contexto: em democracias consolidadas, partidos políticos 
+distribuem recursos internamente baseados numa estratégia para o próprio 
+fortalecimento. Contudo, ainda são poucos os estudos dedicados a analisar o 
+papel dos partidos políticos como intermediadores entre recursos financeiros e 
+candidatos. Desse modo, analisamos as estratégias eleitorais dos partidos políticos 
+com base nas formas pelas quais eles investem recursos financeiros próprios, 
+especificamente advindos do caixa partidário, nas eleições para deputado federal 
+no Brasil em 2014. Metodologia: testamos a hipótese sobre os recursos de origem 
+partidária serem distribuídos a fim de privilegiar os candidatos que têm mandato 
+representativo, a despeito da estrutura organizativa. A hipótese está baseada no 
+traço personalista que caracteriza a dinâmica político-eleitoral no país. Conclusões: 
+nossos dados apontam que as agremiações distribuem seus recursos com vistas 
+ao potencial eleitoral dos indivíduos malgrado sua estrutura organizacional. Não 
+H
+Os autores agradecem os valiosos comentários de Wagner Pralon Mancuso e Bruno 
+Willhelm Speck à primeira versão deste artigo, e as sugestões dos pareceristas anônimos da 
+Colombia Internacional, que fizeram este texto melhor.
+
+
+=== PDF PAGE 2 ===
+34
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+importa quão robusto institucionalmente é um partido político, todos os recursos 
+são concentrados em poucos candidatos. Tal estratégia revela que a estrutura 
+organizacional dos partidos políticos brasileiros não guarda relação com a estratégia 
+partidária durante as eleições legislativas. originalidade: mostramos como os 
+partidos brasileiros são sequestrados por seus parlamentares e, independentemente 
+da força da organização, os recursos partidários acabam por reforçar a ausência de 
+competição e democracia interna no interior dessas organizações.
+PALAVRAS-CHAVE: Partidos políticos, organização partidária, estrutura organizacional, 
+financiamento partidário, financiamento de campanha, eleições 2014 em Brasil.
+How Political Parties Dole out Money? Organizational 
+Structure and Electoral Resources in 2014 Brazilian Elections
+ABSTRACT. Objective/Context: In advanced democracies, political parties distribute 
+their resources internally to make themselves stronger. Few studies examine the role 
+of parties as intermediaries between campaign resources and candidates. Hence, 
+we examine how political parties assigned campaign resources in 2014 election for 
+federal deputies. Methodology: We tested the following hypothesis: resources from 
+parties will be distributed to favor candidates holding office, at the expense of the 
+party’s organizational structure. Our hypothesis is grounded on the personalistic trait 
+surrounding Brazil’s political-electoral dynamics. Conclusions: Data indicates that 
+parties assign their financial resources considering candidate’s individual electoral 
+potential, at the expense of their organizational structure. Such a strategy reveals 
+that the organizational structure of Brazilian parties is not related to the party’s 
+strategy during elections. Originality: We show how often Brazilian political parties 
+are “hijacked” by their elected representatives and, regardless of their organizational 
+strength, party resources end up reinforcing the lack of competiveness and internal 
+democracy within the organization.
+KEYWORDS: Political parties; party organization; organizational structure; party 
+finance; campaign finance; 2014 Brazilian elections.
+¿Cómo los partidos distribuyen el dinero? Estructura 
+organizacional y recursos electorales en 2014 en Brasil
+RESUMEN. Objetivo/Contexto: en democracias avanzadas los partidos distribuyen 
+sus recursos internos a través de una estrategia que busca hacerlos más fuertes. Pocos 
+estudios se dedican a analizar el papel de los partidos políticos como intermediarios 
+entre recursos financieros y su estrategia electoral. Así, este trabajo estudia la forma 
+en que los partidos políticos distribuyeron sus recursos provenientes del cuadro 
+partidista en las elecciones para diputado federal de 2014 en Brasil. Metodología: 
+probamos la siguiente hipótesis: los recursos de origen partidista serán distribuidos 
+a favor de los candidatos que buscan ser reelegidos, en detrimento de la estructura 
+organizativa del partido. Esta hipótesis se basa en el rasgo personalista que marca 
+la dinámica partidista-electoral brasileña. Conclusiones: nuestros datos señalan 
+
+
+=== PDF PAGE 3 ===
+35
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+que los partidos distribuyen sus recursos considerando el potencial electoral de los 
+candidatos e independientemente de su estructura organizacional. Dicha estrategia 
+revela que la estructura organizacional de los partidos políticos brasileños no guarda 
+relación con la estrategia partidista durante las elecciones legislativas. Originalidad: 
+señalamos la manera en que los partidos políticos brasileños son “secuestrados” 
+por sus representantes elegidos, así como la forma en que, independientemente 
+de su fuerza organizativa, sus recursos financieros terminan agravando la falta de 
+competitividad y democracia interna dentro de este tipo de organizaciones.
+PALABRAS CLAVE: Partidos políticos; organización partidista; estructura organizativa; 
+financiación partidista; financiación electoral; elecciones de 2014 en Brasil.
+Introdução
+Parte das pesquisas que buscam mensurar, classificar e agrupar partidos políticos 
+no Brasil tem como fonte de dados resultados eleitorais. Os partidos brasileiros são 
+frequentemente classificados com base em variáveis, como quantidade de cadeiras 
+na câmara dos deputados, número de cidades governadas, proporção de votos do 
+eleitorado etc. (Berlatto, Codato e Bolognesi 2016; Dantas e Praça 2010; Ev e Melo 
+2014; Nascimento et al. 2016). Adicionalmente, estudiosos preocupados com o 
+aporte financeiro dos partidos em períodos eleitorais tentaram responder como se 
+dá a relação entre dinheiro e sucesso eleitoral ou como doadores investem em can-
+didatos (Cervi 2010; Figueiredo Filho 2009; Horochovski et al. 2016; Mancuso 2015; 
+Peixoto 2010; Sacchet e Speck 2012; Samuels 2001b; Speck e Mancuso 2011). Ainda 
+que as variáveis de análise sejam diferentes, a dimensão pela qual se olha para os 
+partidos é a eleitoral. O efeito da escolha pela mensuração eleitoral é encontrar 
+apenas uma face dos partidos políticos (Andeweg 2011; Müller e Strøm 1999).
+Diante desse quadro, o objetivo deste artigo é analisar a relação entre a 
+organização partidária e os recursos que as legendas desfrutam disputando votos. 
+Para isso, partimos de dois supostos. O primeiro circunscreve-se na impossi-
+bilidade da mensuração do partido a partir de seu desempenho competitivo. 
+Os resultados eleitorais são, primordialmente, o output da relação entre estru-
+tura partidária e recursos. Então, tomar o resultado eleitoral como proxy para 
+entender como os partidos arrecadaram seus recursos para produzir determinado 
+resultado sugere tautologia. O segundo suposto compreende que, para mensurar 
+o potencial de um partido desempenhar positivamente nas eleições, é preciso 
+recorrer à estrutura organizativa dele (Tavits 2012). A máquina que movimenta 
+eleitores, cabos eleitorais, conexões e palanques, aquilo que mobiliza o recurso 
+arrecadado. Precisamos saber, antes da urna, a capacidade da agremiação para 
+
+
+=== PDF PAGE 4 ===
+36
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+que o doador enxergue ali um bom lugar para depositar seu investimento e para 
+que o partido seja capaz de articular seus interesses ao competir com os pares.
+Aqui é necessária uma ressalva. Apenas a dinâmica eleitoral não é capaz 
+de revelar como partidos políticos se organizam ou como se estruturam no 
+Brasil, ou seja, o party on the ground. Não é novidade que o voto no país é 
+centrado no candidato e que os partidos políticos ocupam posição secundária 
+na disputa eleitoral legislativa (Ames 1995; Carey e Shugart 1993; Mainwaring 
+e Torcal 2005; Samuels 1999a). Desse modo, inferir acerca da organização parti-
+dária a partir somente da arena eleitoral limita as conclusões sobre a força das 
+legendas como organizações.
+É preciso saber não só quem paga a conta das campanhas eleitorais, mas 
+também se os candidatos recebem de seus partidos conforme a estrutura par-
+tidária ou se o dinheiro privilegia um candidato — ou um seleto grupo de —, 
+com a organização servindo como um acessório de candidaturas individuais 
+(Alcántara 2016; Holtz-Bacha, Langer e Merkle 2014). Então, analisamos a relação 
+entre a distribuição de recursos nas eleições para deputado federal no Brasil em 
+2014 e a estrutura organizacional dos partidos políticos.
+Trata-se, portanto, de um aprofundamento da agenda de pesquisa sobre 
+financiamento político, que tem demonstrado a preferência dos financiadores 
+de campanha, especialmente empresas, por candidatos mais competitivos e que, 
+no fim das contas, recebem mais votos e apresentam maiores chances de se 
+eleger (Figueiredo Filho 2009; Horochovski et al. 2016; Mancuso, Horochovski 
+e Camargo 2016). A questão que se coloca é se os partidos seguem a mesma dinâ-
+mica, de alocação assimétrica dos recursos, na distribuição do fundo partidário e 
+de recursos advindos de doações — de empresas, pessoas físicas e outros partidos. 
+Em resumo, priorizam-se a distribuição orgânica respeitando em alguma medida 
+a estrutura organizacional da agremiação ou se privilegiam indivíduos.
+Como primeiro passo, a estrutura organizacional é definida como a dispo-
+sição formal do partido sob o território. É o hardframe no qual o partido investe 
+e mobiliza seus rank and files e core voters, colocando em operação a busca por 
+votos (Calvo e Murillo 2004; Freidenberg e Levitsky 2007; Sáez 2005; Scarrow 
+1996; Scarrow, Webb e Poguntke 2017b; Tavits 2012; Tavits 2013; Wills-Otero 2016). 
+Será, a partir de um indicador mobilizado para mensurar tal estrutura, essa a 
+variável de controle sob a qual se assentam duas hipóteses:
+H1: os recursos de origem partidária, especificamente, serão distribuídos a 
+fim de privilegiar os candidatos a despeito da estrutura organizativa;
+H2: derivada da primeira, quanto mais estruturado estiver um partido 
+organizacionalmente, mais equânime intrapartidariamente será a distribuição de 
+recursos de campanha oriundos do partido político.
+
+
+=== PDF PAGE 5 ===
+37
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+Do ponto de vista teórico, tais hipóteses apresentam em si duas discussões 
+importantes e caras para os partidos políticos em sistemas eleitorais de lista aberta 
+de alta magnitude (Riker 1982). Ambas focalizam o debate entre personalismo e 
+partidarismo que envolve, desde os anos 1990, parte da produção acadêmica sobre 
+o sistema político brasileiro (Carey e Shugart 1995; Coppedge 1997; Nicolau 2006; 
+Samuels 1997; Samuels 1999a; Samuels 1999b). A fulcro do entrave se dá entre os 
+partidos como atores capazes de controlar seus representantes na arena legislativa 
+e incapazes de fazer o mesmo na arena eleitoral (Pereira e Mueller 2003). Nessa 
+díade, as conclusões levaram um grupo de autores a assinalar a capacidade dos 
+partidos políticos controlar seus candidatos (Amaral 2011; Braga 2007, 2010; Kinzo 
+2003; Meneguello 1998; Rodrigues 2002) e outro grupo a promulgar a fragilidade 
+de nossas agremiações e o acento personalista destas (Ames 1995; Desposato 1997; 
+Desposato 2006; Mainwaring 1991; Mainwaring e Torcal 2005).
+Portanto, trata-se de saber se as estruturas organizacionais importam 
+para a distribuição de recursos nas eleições legislativas1. Partidos de aluguel, ou 
+partidos que “tem dono”, não têm interesse em manter uma estrutura complexa 
+para tomada de decisão, servindo apenas como rótulo oficial para que pequenos 
+grupos utilizem os recursos sob o manto partidário a fim de promover interesses 
+“egoístas”. Assim, partidos com parca estrutura seriam facilmente mobilizados em 
+torno de poucos candidatos e os recursos partidários serviriam de esteira para a 
+promoção de grupelhos e não da agremiação em si. Por outro lado, se um partido 
+é organizado, possui uma burocracia robusta e profissional, filiados ativos, dire-
+tórios permanentes, espera-se que o recurso financeiro não seja sequestrado por 
+um pequeno grupo de interessados em autopromoção. A interdependência entre 
+as estruturas partidárias serviria de freio para a capitulação do recurso em nome 
+do indivíduo (Gierzynski e Breaux 1994, 174-175).
+Assim, espera-se que partidos com maior estrutura, com burocracia mais 
+robusta, maior quantidade de filiados, órgãos especializados etc. não sofram com os 
+desmandos de seus líderes, não fiquem reféns do sucesso eleitoral e sejam capazes 
+de constranger a distribuição de recursos que beneficiem diferentes candidatos. 
+Ainda que os partidos políticos privilegiem o sucesso eleitoral e invistam priorita-
+riamente em candidatos aptos a atrair votos, partidos complexamente organizados 
+tendem a equilibrar essa relação, descentralizando o recurso em diferentes perfis 
+de contentores (Jacobson 1985).
+1	 A literatura tem demonstrado que o financiamento de campanhas eleitorais no Brasil privilegia 
+campanhas majoritárias (Silva e Cervi 2017; Horochovski et al. 2016).
+
+
+=== PDF PAGE 6 ===
+38
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+Para testar as hipóteses, analisamos os 322 partidos brasileiros e seu compor-
+tamento nas eleições de 2014. Com base em dados do Tribunal Superior Eleitoral 
+(TSE), Câmara dos Deputados, sites dos partidos e contatos com as executivas 
+partidárias, compilamos uma base capaz de refletir as principais características dos 
+partidos políticos, desenhando sua ossatura organizativa. Em vez de focarmos nas 
+grandes teorias sobre modelos de partido e mudança organizacional, propomos que 
+explicações de médio alcance podem ser mais úteis para entender dinâmicas internas 
+aos partidos políticos (Janda 1983). A variável dependente é composta de repasses 
+que os partidos fazem a seus candidatos dos recursos oriundos do Fundo Especial 
+de Assistência Financeira aos Partidos Políticos (Fundo Partidário) e de doações 
+realizadas às legendas e repassadas como receita de campanha para seus candidatos 
+a deputado federal nas eleições legislativas nacionais de 2014.
+1.	 Partidos políticos para quê?
+É ocioso repetir o mantra de Eldersveld (1964) e Schattschneider (1942) sobre a 
+importância e a centralidade dos partidos políticos nas democracias. Sabemos, 
+pela literatura comparada, as funções primordiais das agremiações em organi-
+zar o debate, canalizar interesses, recrutar representantes e dirimir conflitos no 
+governo. O problema é como os partidos fazem isso. Estudar cada uma dessas 
+tarefas exigiria modelos teóricos e análises empíricas próprias. Assim, tentamos 
+entender a forma com que os partidos políticos gerem a representação política 
+alocando recursos entre os candidatos que os representarão na arena legislativa, 
+ou seja, um lócus privilegiado para entender duas faces partidárias: organização 
+e representação. Concomitantemente com o declínio da adesão e com a menor 
+participação de filiados, crescem o financiamento partidário e o número de fun-
+cionários pagos pelo partido, o que torna central a questão de como se gasta o 
+dinheiro (Katz e Mair 1995; Poguntke et al. 2016).
+Observamos que estruturas e recursos do partido têm sido utilizados 
+como proxy de força partidária. Alguns partidos são estruturados e operam 
+de forma coesa; outros têm apenas a função de rótulo compartilhado por seus 
+parlamentares, conferindo autonomia aos últimos. Para entendermos tal relação, 
+a estrutura organizacional pode ser analisada a partir da aferição da autonomia 
+ou da restrição da liderança, da centralização ou da dispersão de recursos e da 
+descentralização ou da centralização territorial.
+2	 O Brasil possui 35 partidos (outubro, 2019), mas, nas eleições de 2014, apenas 32 lançaram 
+candidatos ao legislativo nacional.
+
+
+=== PDF PAGE 7 ===
+39
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+Especificamente, recursos podem ser medidos por sua fraqueza ou força 
+financeira, dispersão ou concentração do financiamento, maior ou menor auto-
+nomia em relação ao Estado, robustez ou fragilidade burocrática (Poguntke 
+et al. 2016; Tavits 2008; Tavits 2012; Webb e Keith 2017). Quanto mais forte o 
+partido nesses aspectos, mais forte será sua estrutura organizacional.3 Partidos 
+fortes organizacionalmente, por exemplo, dependem menos da popularidade e 
+personalidade de candidatos individuais. Partidos fracos, alternativamente, são 
+menos capazes de garantir a eleição de seus candidatos com base na reputação do 
+partido (Tavits 2013). Espera-se que os partidos fortes distribuam, então, finan-
+ciamento de forma mais equânime entre os candidatos, e os fracos, de maneira 
+mais concentrada.
+Os estudos que têm como dimensão de análise a estrutura organizacional 
+a mobilizam, por um lado, como variável dependente, buscando explicar a estru-
+tura dos partidos e o trade-off entre as dimensões organizacionais (recursos, 
+estruturas e estratégias de representação) de forma comparada entre países, apon-
+tando como diferentes configurações institucionais levam a diferentes formas de 
+organizar os partidos (Webb e Keith 2017). Por outro lado, quando tratada como 
+variável independente, o objetivo é mensurar o impacto da força organizacional 
+no desempenho eleitoral (Tavits 2013) e nos níveis de participação e represen-
+tação política (Scarrow, Webb e Poguntke 2017a).
+Para Mancuso (2015), a agenda brasileira sobre financiamento eleitoral 
+organiza-se em torno de três temáticas: i) como os recursos afetam os resul-
+tados eleitorais — achados mostram a alta correlação entre recursos investidos 
+e os votos obtidos (Lemos, Marcelino e Pederiva 2010; Mancuso 2012; Samuels 
+2001a; Samuels 2001b); ii) se as doações de campanha beneficiam os doadores 
+por meio da atuação dos eleitos na produção de políticas públicas (Lemos, 
+Marcelino e Pederiva 2010; Samuels 2001c) e iii) se os fatores explicam as con-
+tribuições e os gastos realizados na campanha, especialmente se candidatos e 
+partidos são beneficiados pelo investimento eleitoral (Lemos, Marcelino e Pederiva 
+2010; Mancuso 2012). Os estudos costumam investigar os tipos de financiamento e 
+gastos existentes de forma comparada, as vantagens dos tipos de financiamento 
+3	
+O uso da expressão “estrutura organizacional” remonta a um emaranhado de conceitos que, como 
+sempre na área de partidos políticos, é pouco claro, e diversos autores usam termos diferentes 
+para dizer a mesma coisa. Tavits (2013) utiliza “força organizacional” (organizational strenght), 
+Sáez (2005) “infraestrutura partidária”, Sáez e Freidenberg (2000), “ossatura partidária”, Scarrow, 
+Webb e Poguntke (2017b), finalmente, utilizam a expressão que adotaremos aqui, “estrutura 
+organizacional” (organizational structure). Mas trata-se sempre da ideia das bases estruturais com 
+a qual os partidos políticos trabalham, a estrutura em que se dá a dinâmica de disputa de poder no 
+interior do partido e o mobiliza em suas tarefas cotidianas.
+
+
+=== PDF PAGE 8 ===
+40
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+(privado, público, misto), o desenho da regra eleitoral que rege o financiamento, 
+a comparação entre financiamento público e o financiamento empresarial em 
+períodos eleitorais e não eleitorais.
+Uma área ainda inexplorada no estudo sobre financiamento é a análise 
+de eficácia ou ineficácia das estratégias do gasto eleitoral de partidos e sobre 
+a relação entre investimento e sucesso eleitoral comparada entre as legendas. 
+Ademais, os estudos estão centrados hoje:
+nas doações diretas para as candidaturas, mas a Justiça Eleitoral registra 
+também as doações para os comitês e, a partir de 2010, para os partidos. 
+A parte de doações para comitês e partidos que é repassada para a conta-
+bilidade das candidaturas entra na conta dos estudiosos, mas a parte que 
+é investida diretamente por comitês e partidos geralmente não entra na 
+conta, embora também afete potencialmente o desempenho eleitoral dos 
+candidatos. (Mancuso 2015, 178)
+Em resumo, o papel dos partidos políticos como doadores e atores 
+estratégicos se dissolve nos estudos de financiamento dos candidatos e seu 
+desempenho individual. A relação entre o dinheiro do partido, sua operação e o 
+uso desse recurso como estratégia partidária é pouco analisada. Alguns analisam 
+a distribuição de recursos partidários e focalizam o fundo partidário, como 
+esse recurso público é distribuído entre os partidos4 e pelos partidos. Braga e 
+Bourdoukan (2009) estudam as duas perspectivas de distribuição e suas implica-
+ções para a estruturação da organização partidária e competição política, sob um 
+prisma histórico das mudanças legais e estatutárias na forma de distribuição intra 
+e entre os partidos. As agremiações realizam a distribuição de recursos de formas 
+diferentes. Há partidos que os concentram em nível nacional, como o Partido 
+dos Trabalhadores (PT), enquanto outros, como o Movimento Democrático 
+Brasileiro (MDB) e o Partido da Social Democracia Brasileira (PSDB) adotam 
+estratégia mais descentralizada de distribuição (Botassio 2017).
+Shaefer (2018) utiliza a distribuição realizada do Fundo Partidário pelas agre-
+miações como indicador de centralização e nacionalização dos partidos. Identifica 
+uma tendência centralizadora em nível nacional e, quando distribuído, o recurso 
+aos diretórios estaduais tende a assumir duas formas: a) mais equânime entre os 
+estados ou b) concentrados em estados específicos, com distribuição em estados onde 
+há membros da executiva nacional e/ou lideranças do partido com projeção interna 
+4	 Entre os partidos, ver Bolognesi (2016).
+
+
+=== PDF PAGE 9 ===
+41
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+na organização. A distribuição parece estar correlacionada com o aporte financeiro 
+dos partidos, quanto “mais recursos, mais distribuição”. Os estados com maior 
+presença organizacional ou eleitoral são privilegiados quando esse tipo de recurso 
+é distribuído, passando pela influência dos membros da executiva nacional nos 
+estados e seu grau de parlamentarização.
+Dado o pequeno número de trabalhos, sabemos relativamente pouco sobre 
+a forma que partidos brasileiros destinam seus recursos financeiros — públicos 
+e privados. Entre esses trabalhos, pode-se citar o de Mancuso, Horochovski e 
+Camargo (2016) sobre as eleições de 2014. Os autores mostram que os partidos 
+arrecadam recursos de diferentes maneiras: partidos de grande porte, indepen-
+dentemente de ideologia, e pequenos e médios partidos de direita concentram a 
+maior parte das doações de pessoas jurídicas, fonte dominante do financiamento 
+eleitoral no Brasil, até sua proibição em 2015; pequenos partidos de esquerda 
+dependem quase que exclusivamente de recursos do Fundo Partidário. Ainda, 
+confirmam a tendência das agremiações distribuir seus recursos dentro de suas 
+fileiras internas, seja para candidatos, seja para diretórios e comitês, pouco desti-
+nando recursos para outros partidos, mesmo os coligados. No entanto, a pesquisa 
+não foca a distribuição interna dos recursos partidários entre seus candidatos.
+Internacionalmente temos um volume um pouco maior de trabalhos, 
+ainda que o tema seja incipiente. Harbers (2014), sobre o México, analisa a 
+distribuição dos recursos públicos de três partidos. Também em perspectiva 
+multinível, argumenta que o governo descentralizado desincentiva a nacio-
+nalização dos partidos, uma vez que, estes, interessados em eleger governos 
+locais, direcionam recursos aonde apresentem histórico de melhor desempenho 
+e são mais competitivos, distribuindo incentivos apenas em lugares específicos e 
+solapando, assim, sua nacionalização. Sobre o Japão, Carlson (2012), ao analisar 
+a distribuição e as consequências do fundo público dos partidos, identifica uma 
+distribuição equânime entre os candidatos, sem grandes diferenças entre os 
+incumbents e os desafiantes. A razão seria a preocupação dos líderes nacionais 
+em evitar possíveis conflitos intrapartidários.
+As pesquisas que discutem a distribuição realizada pelos partidos estão 
+concentradas nos Estados Unidos. Gary Jacobson (1985) analisa as estratégias dos 
+partidos ao distribuir recursos controlados por sua organização para, em tese, 
+alcançar interesses coletivos. A hipótese do autor é de que os partidos distribuem 
+de forma racional, com o objetivo de aumentar o número de assentos no legisla-
+tivo nacional. O autor mostra que o Partido Republicano alcançou um sistema de 
+distribuição de recursos mais centralizado, focado em candidatos competitivos e 
+conquistou um maior número de cadeiras, enquanto o Partido Democrata des-
+centralizou seus recursos e conquistou número menor de cadeiras.
+
+
+=== PDF PAGE 10 ===
+42
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+Herrnson (1989) examina as estratégias dos partidos, também nos Estados 
+Unidos, de distribuição de recursos em campanhas parlamentares. Identifica que 
+os membros da direção nacional dos partidos consideram a competitividade, a 
+competência dos candidatos e as questões conjunturais, como o interesse em 
+aumentar a base do partido em uma determinada região, a pressão por parte dos 
+parlamentares do partido e a qualidade da organização da campanha para tomar 
+a decisão de como destinar verba às direções locais dos partidos.
+Gierzynski e Breaux (1994), em uma análise próxima a que desenvolvemos 
+aqui, examinam o papel da estrutura partidária no financiamento de candidatos. 
+Como o dinheiro é distribuído depende da origem do recurso. O recurso vindo 
+do partido político colaboraria para um maior equilíbrio da competição, “that 
+a greater role for parties in financing elections would result in a more equitable 
+distribution of campaign money and a greater level of competition in legislative 
+campaigns” (Gierzynski e Breaux 1994, 172).
+Os autores ainda alegam que há diferenças nos objetivos entre a orga-
+nização partidária e um doador não partidário no que tange à elaboração de 
+políticas. Dado que essas fontes privadas são a maior fatia de financiamento, 
+a distribuição é realizada de forma desigual, favorecendo os incumbents, alvo 
+dos financiadores não partidários. Os que já possuem recursos recebem mais 
+recursos, enquanto candidatos distantes do Estado são negligenciados. As orga-
+nizações partidárias podem colaborar com os novatos e os desafiantes, a fim de 
+tentar derrubar os titulares, ou contribuir com candidatos “who have no chance 
+of winning in order to lay the foundations of future competitive races” (Gierzynski 
+e Breaux 1994, 174). No entanto, essa distribuição é mais igualitária conforme o 
+partido possua recursos para isso: “Consequently, when party organizations are 
+more active and have greater resources, the distribution of campaign money should 
+be relatively more equitable meaning the gap between incumbent and challenger 
+revenue should be smaller” (Gierzynski e Breaux 1994, 174).
+Os partidos teriam papel fundamental para equilibrar, segundo os autores, 
+a competição entre incumbents e desafiantes. Analisando o modo como as organi-
+zações partidárias e não partidárias alocam seus recursos por tipo de candidato, 
+concluem que a probabilidade das organizações partidárias contribuir com os 
+candidatos em caso de disputa competitiva é maior em comparação com o finan-
+ciador não partidário. Em alguns estados, a contribuição partidária a candidatos 
+desafiantes era muito mais alta do que a contribuição de indivíduos, empresas 
+e outros financiadores não partidários. Ambos os doadores (partidários e não 
+partidários) depositam mais dinheiro em disputas mais acirradas, no entanto 
+o partido prioriza desafiantes e o doador não partidário, o candidato à reeleição. O 
+aumento do financiamento partidário aumentaria a média de votos de desafiantes 
+
+
+=== PDF PAGE 11 ===
+43
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+e diminuiria a discrepância que há entre os dois grupos de candidatos, equili-
+brando a competição nos Estados Unidos, ainda que parcialmente.
+2.	 Materiais e métodos
+Com dados disponíveis no Tribunal Superior Eleitoral (TSE), na câmara dos de-
+putados, nos sites dos partidos e pesquisa de campo junto às agremiações, men-
+suramos a estrutura organizacional dos partidos tomando variáveis de Scarrow, 
+Webb e Poguntke (2017b) e Tavits (2013).
+A estrutura organizacional é a base com a qual os partidos políticos 
+partem para se organizar, distribuir poder internamente e fazer contato com a 
+sociedade e com o Estado. Diferentemente das teorias de grande alcance, a ideia 
+é que mudanças de médio alcance, principalmente nas estruturas elementares dos 
+partidos políticos, possam revelar padrões incrementais que as legendas executam 
+e modificam pontualmente (Harmel e Janda 1994; Harmel 2002; Janda 1970, 1980; 
+Scarrow 1996; Scarrow, Webb e Poguntke 2017b; Webb e Keith 2017). Não estamos 
+procurando entender a dinâmica de modelos de partido e tipologias que retratam 
+movimentos tectônicos das legendas e sistemas partidários, mas sim oferecer uma 
+compreensão das bases das quais cada legenda parte para lidar com as dimensões 
+representativa e governamental, ainda que pontuado em uma eleição.
+Assim, as variáveis que compõem a estrutura organizacional dos partidos 
+políticos brasileiros são as nove apresentadas abaixo:5
+i) extensão organizacional: tamanho da executiva (ou do diretório nacional, 
+quando não possui executiva) do partido. Mensurada pela quantidade de cargos 
+— e não de pessoas — que cada partido tem em sua direção. Revela a capacidade 
+do partido de mobilizar uma organização ampla e manter uma base de trabalho 
+com posições profissionais e remuneradas (Scarrow, Webb e Poguntke 2017b);
+ii) capilaridade territorial: é a porção do território de um país onde o par-
+tido se faz presente. Quanto mais o partido ocupa o território, mais fácil mobilizar 
+eleitores, angariar votos e dispor de trabalhadores capazes de fazer valer o partido 
+nas bases geográficas eleitorais (Panebianco 2005; Tavits 2012). É mensurada pela 
+proporção de órgãos partidários em relação ao total de municípios brasileiros;
+iii) inflexão organizativa: trata-se da replicação da estrutura nacional 
+do partido em suas unidades subnacionais. A replicabilidade de tal estrutura 
+indica a capacidade do partido em montar estruturas complexas e criar cor-
+respondência decisória na relação do partido nacional com suas subunidades 
+5	
+Todas as variáveis foram coletadas para efeito da eleição de 2014. Algumas são, como as executivas 
+nacionais, iniciadas em mandatos anteriores, mas que estavam em vigência no ano em tela.
+
+
+=== PDF PAGE 12 ===
+44
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+(Panebianco 2005). Para medir essa variável, escolhemos dez estados brasileiros 
+e verificamos se as executivas ou os diretórios estaduais apresentavam a mesma 
+hierarquia dos nacionais. Esse espelhamento aponta a capacidade do partido ter 
+estrutura de comando eficiente nas ações e nas decisões estratégicas. Um partido 
+que replica toda a estrutura teve como pontuação um nessa variável, enquanto 
+um partido que replicou nenhuma estrutura, zero;
+iv) members ratio: refere-se à capacidade da legenda de mobilizar seus 
+filiados ou contar com eles para a mobilização do voto (Scarrow, Webb e Poguntke 
+2017b; Tavits 2012). Quanto mais filiados um partido possui, maior sua capacidade 
+de amealhar votos na sociedade. A variável foi mensurada pela proporção de filiados 
+de cada partido em relação ao total de eleitores do Brasil em 2014;
+v) flexibilidade: mensurada a partir da idade do partido desde sua funda-
+ção,6 tem como objetivo mostrar que o partido é um label que perdura no tempo 
+a despeito das mudanças em sua composição, no governo ou nas regras eleitorais, 
+e que os eleitores podem identificá-lo como um player na disputa democrática ao 
+longo do tempo (Daza 2005; Lupu 2017; Randall e Svåsand 2002);
+vi) complexidade organizacional: trata-se da interdependência entre as 
+unidades do partido e da especialização que a organização possui para tratar de 
+temas específicos e demandas dos eleitores. Em cada partido foram observados 
+órgãos especiais, como secretaria de mulheres, secretarias de movimentos sociais, 
+vice-presidência de relações internacionais, ou alas da legenda, como a ala jovem, 
+a ala empreendedora. A interdependência se trata da incapacidade decisória de 
+um único membro do partido ou de uma única seção burocrática. Quanto mais 
+órgãos dedicados a funções específicas, mais a organização funciona como uma 
+instituição e depende de uma integração entre suas partes (Huntington 1968; Iñaki 
+2011; Sigelman 1979). A especialização mostra a disposição do partido em manter 
+vínculos com setores específicos da sociedade e ter contato formal com as bases 
+sociais e eleitorais do partido (Billie 1997; Janda 1970; Randall e Svåsand 2002);
+vii) justaposição parlamentar-partidária: diz respeito à autonomia do 
+partido com relação a seus representantes eleitos. Quanto menos o partido 
+depende de sua arena representativa, mais a agremiação pode se preocupar com 
+as questões alheias à estrutura de governo e priorizar a autonomia organizativa. 
+É mensurada a partir da proporção de membros da executiva que não ocupam 
+6	 Desconsideramos que alguns partidos, como o Partido Comunista Brasileiro ou o Partido 
+Trabalhista Nacional (atual Avante), existiram no período da democracia populista e foram 
+interrompidos. Consideramos apenas a reabertura política como período de existência contínua 
+dos partidos, portanto apenas a partir de 1979.
+
+
+=== PDF PAGE 13 ===
+45
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+assentos representativos de qualquer natureza — quanto mais membros do par-
+tido com cargos eletivos, maior a justaposição e menor a autonomia (Daza 2005);
+viii) centralidade organizativa: não basta que o partido esteja presente com 
+seus candidatos apenas no período eleitoral, a presença de diretórios permanentes 
+é importante para que a organização seja reconhecida como uma instituição 
+capaz de mobilizar votos, participar de governos e canalizar expressões para além 
+do interstício eleitoral. Assim, a presença de uma estrutura centralizada em estru-
+turas permanentes é fundamental para que a institucionalização da organização 
+ocorra (Tavits 2013). Aqui mensuramos pela proporção de diretórios partidários 
+permanentes7 em relação ao total de órgãos partidários;
+ix) profissionalização: é aquilo que Key (1949) e Tavits (2012) chamam 
+atenção sobre a necessidade de contar com pessoal remunerado e especializado 
+para executar funções no partido. Desde funções elementares e assessórias até 
+funções centrais, como a presidência da legenda. É a dimensão que Scarrow, 
+Webb e Poguntke (2017b) salientam como mantenedora da organização partidária 
+e executora da distribuição de recursos de poder e materiais na organização. 
+Mensuramos pela quantidade de funcionários que cada partido possui no gabinete 
+da liderança do partido na câmara baixa brasileira e pela quantidade de funcio-
+nários presentes nas folhas de pagamento das executivas nacionais dos partidos.
+O quadro 1 resume as variáveis e os indicadores empíricos utilizados para 
+mensurar a estrutura organizacional dos 32 partidos que disputaram o pleito 
+parlamentar nacional de 2014.
+Quadro 1. Estrutura organizacional: variáveis e forma de mensuração
+Variável
+Indicador
+Forma de mensuração
+i) Extensão 
+organizacional
+Dimensão da executiva 
+nacional do partido
+Cargos existentes na executiva 
+nacional de cada partido
+ii) Capilaridade territorial Cobertura territorial do 
+partido
+Número de órgãos partidários 
+por município em cada 
+unidade da federação
+iii) Inflexão 
+organizacional
+Replicabilidade da executiva 
+nacional
+A partir da executiva estadual, 
+verifica-se o quanto ela se 
+aproxima em extensão e 
+especialização da nacional
+7	
+Os partidos políticos brasileiros têm órgãos não permanentes, como comissões provisórias e 
+comissões interventoras. É sobre esse total de órgãos diretórios (comissões + diretórios) que a 
+centralidade foi mensurada. Em outros estudos, como em Tavits (2012), o indicador é mensurado 
+pela proporção de diretórios ou escritórios em relação aos municípios de um distrito eleitoral.
+
+
+=== PDF PAGE 14 ===
+46
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+Variável
+Indicador
+Forma de mensuração
+iv) Razão de membros
+Potencial mobilizador do 
+partido
+Filiados por N de eleitores no 
+ano eleitoral
+v) Flexibilidade
+Capacidade de adaptação 
+do partido ao ambiente
+Idade do partido em anos
+vi) Complexidade 
+organizacional
+Especialização das 
+atividades do partido
+Quantidade de órgãos 
+especializados presentes na 
+estrutura do partido
+vii) Justaposição 
+parlamentar-partidária
+Independência da 
+organização com relação à 
+arena representativa
+Proporção de membros da 
+executiva que não ocupam 
+cargo eletivo
+viii) Centralidade 
+organizativa
+Dimensão de órgãos fixos 
+do partido capazes de 
+servir como referência de 
+atividade partidária nos 
+períodos não eleitorais
+Quantidade de diretórios 
+municipais pelo total de 
+órgãos do partido (comissões 
+interventoras, comissões 
+provisórias e diretórios 
+municipais)
+ix) Profissionalização
+Material humano do 
+partido para mobilização 
+e execução das atividades 
+partidárias
+Número de funcionários que 
+trabalham no escritório central 
+do partido e nos escritórios 
+parlamentares da legenda
+Fonte: elaboração própria.
+Para a aplicação do indicador de estrutura organizacional, normalizamos 
+os valores das variáveis em escala variando de zero a um.8 A partir disso, fizemos 
+uma média aritmética dos valores em que cada somatório de cada partido foi divi-
+dido pelo total de variáveis coletadas (nove). Os dados coletados apontam que o 
+indicador apresenta consistência interna aceitável, com alfa de Cronbach = 0,640,9 
+de modo que não precisamos proceder à purificação da variância do índice.
+Com o indicador em mãos, partimos para correlacioná-lo com a dis-
+tribuição dos recursos, operacionalizando, portanto nossa segunda hipótese. A 
+correlação de Pearson, nesse sentido, serve para mensurar se os dados estão rela-
+cionados, a força dessa relação e sua direção. Não pretendemos, por ora, mostrar 
+qual é o mecanismo de distribuição do financiamento advindo do partido, isso 
+8	
+Para normalização, utilizamos o procedimento (𝑥𝑖−𝑥𝑚𝑖𝑛)(𝑏−𝑎)/(𝑥𝑚𝑎𝑥−𝑥𝑚𝑖𝑛), em que 𝑥𝑖 representa o 
+valor a ser convertido, 𝑥𝑚𝑖𝑛 o menor valor encontrado da variável, 𝑥𝑚𝑎𝑥 o maior valor encontrado, 
+𝑏 o valor máximo e 𝑎 o valor mínimo da escala pretendida. No caso, aqui, 𝑎=0 e 𝑏=1.
+9	 Segundo Hair et. al. (2009), para as ciências humanas e sociais, alfas acima de 0,6 são aceitáveis, 
+embora o usualmente aceito é acima de 0,7 e, para as ciências da saúde apenas, acima de 0,85.
+
+
+=== PDF PAGE 15 ===
+47
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+será feito ao testar nossa primeira hipótese. Mas o certo é que, ao olharmos ambas 
+as relações, podemos afirmar que uma opera em detrimento da outra, justamente 
+como sugere a literatura internacional.
+3.	 Resultados e discussão
+Nesta seção, testamos empiricamente nossas hipóteses a partir do indicador de estru-
+tura organizacional. A partir dele, testamos a distribuição dos recursos que os partidos 
+repassaram para seus candidatos. Antes, apresentamos os índices de estrutura organi-
+zacional dos partidos brasileiros (tabela 1).
+Tabela 1.10 Índice de estrutura organizacional dos partidos políticos brasileiros  
+em 201411
+PT
+0,674
+PRP
+0,31
+PTB
+0,516
+PR
+0,309
+PSDB
+0,51
+PTC
+0,304
+MDB
+0,48
+PHS
+0,295
+Progre
+0,458
+PRTB
+0,285
+PSB
+0,455
+PSL
+0,284
+PCdoB
+0,438
+Psol
+0,28
+PDT
+0,43
+Avante
+0,279
+PPS
+0,425
+Pros
+0,27
+DEM
+0,422
+PMN
+0,268
+10	 Partido dos Trabalhadores (PT), Partido Trabalhista Brasileiro (PTB), Partido da Social 
+Democracia Brasileira (PSDB), Movimento Democrático Brasileiro (MDB), Progressistas (Progre), 
+Partido Socialista Brasileiro (PSB), Partido Comunista do Brasil (PCdoB), Partido Democrático 
+Trabalhista (PDT), Partido Popular Socialista (PPS), Democratas (DEM), Partido Social Cristão 
+(PSC), Partido Verde (PV), Partido Republicano Brasileiro (PRB), Partido Social Democrata 
+(PSD), Democracia Cristã (DC), Partido Socialista dos Trabalhadores Unidos (PSTU), Partido 
+Republicano Progressista (PRP), Partido da República (PR), Partido Trabalhista Cristão (PTC), 
+Partido Humanista da Solidariedade (PHS), Partido Renovador Trabalhista Brasileiro (PRTB), 
+Partido Social Liberal (PSL), Partido Socialismo e Liberdade (Psol), Avante (Avante), Partido 
+Republicano da Ordem Social (Pros), Partido da Mobilização Nacional (PMN), Partido da Causa 
+Operária (PCO), Solidariedade (SD), Podemos (Pode), Partido Comunista Brasileiro (PCB), 
+Patriota (Patri), Partido Pátria Livre (PPL).
+11	 Apesar de os dados referirem-se a 2014, utilizamos a atual nomenclatura dos partidos políticos, 
+já que vários deles alteraram seus nomes nos últimos anos. Para um resumo sobre essas 
+mudanças, ver Codato, Berlatto e Bolognesi (2018, 85).
+
+
+=== PDF PAGE 16 ===
+48
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+PT
+0,674
+PRP
+0,31
+PSC
+0,403
+PCO
+0,245
+PV
+0,411
+SD
+0,244
+PRB
+0,36
+Pode
+0,24
+PSD
+0,356
+PCB
+0,22
+DC
+0,326
+Patri
+0,217
+PSTU
+0,325
+PPL
+0,201
+Fonte: Laboratório de Partidos e Sistemas Partidários (LAPeS-UFPR).12
+A interpretação dos dados de estrutura organizacional se dá apenas com-
+parativamente. Apesar de o indicador variar de zero a um, não há um modo 
+de dizer que os partidos são mais ou menos estruturados em absoluto ou abs-
+trato. A pontuação é sempre relativa ao país e ao tempo em que as legendas se 
+inserem. Ocorre de forma relativa, já que a distribuição de forças, como filiados 
+ou diretórios, é estratégica e depende da competição com os pares. Portanto, o 
+que podemos ver na tabela 1 é uma ordenação simples e decrescente dos partidos 
+políticos brasileiros no ano de 2014. Observa-se que não há um grande bloco de 
+partidos estruturalmente fortes e outro de partidos fracos. Há um continuum em 
+que o partido mais estruturado, o PT, possui mais do que o triplo do último colo-
+cado, o PPL. Com exceção do PT em relação aos demais, não se nota diferença 
+de mais de um décimo no indicador de estrutura organizacional.
+Além disso, observamos que os partidos dificilmente chegam próximos 
+ao valor máximo. As legendas tendem a se posicionar abaixo de 0,5, o que não é, 
+como dissemos, um valor absoluto, mas aponta que os partidos estão concentrados 
+na parte “baixa” da estrutura organizacional. Realizada a mensuração da estrutura 
+organizacional dos partidos políticos brasileiros em 2014, passemos para a análise 
+dos recursos partidários recebidos pelos candidatos a deputado federal nesse ano.
+Os recursos somaram R$ 35,21 milhões, ou seja, cerca de 22 % do total 
+do fundo em questão, quantia expressiva, considerando-se a quantidade de 
+cargos em disputa e a centralidade das eleições majoritárias para os partidos 
+(Melo 2010). Com raras exceções, os partidos, independentemente de porte e 
+posição no espectro ideológico, claramente direcionam seus recursos para poucos 
+candidatos a deputado federal e sua partilha é claramente desigual (tabela 2).
+12	 www.lapesufpr.com.br
+
+
+=== PDF PAGE 17 ===
+49
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+Tabela 2.* Distribuição dos recursos repassados pelos partidos a candidatos a deputado federal, conforme origem — eleições 2014
+Partido
+PJ (R$)
+PJ (%)
+FP (R$)
+FP (%)
+PF e outras (R$)
+PF e outras 
+(%)
+Rec. total (R$)
+Rec. Total (%)
+DEM
+26.177.251,16
+7,08
+3.141.000,00
+10,04
+415.669,23
+2,45
+29.733.920,39
+7,11
+PCdoB
+14.243.824,27
+3,85
+1.359.965,00
+4,35
+3.103.285,42
+18,30
+18.707.074,69
+4,48
+PCB
+0,00
+0,00
+0,00
+0,00
+4.250,00
+0,03
+4.250,00
+0,00
+PCO
+0,00
+0,00
+7.138,60
+0,02
+1.568,19
+0,01
+8.706,79
+0,00
+PDT
+1.689.808,01
+0,46
+1.636.092,10
+5,23
+206.778,39
+1,22
+3.532.678,50
+0,85
+Patri
+1.989.454,33
+0,54
+832.307,69
+2,66
+115.578,03
+0,68
+2.937.340,05
+0,70
+PHS
+746.274,38
+0,20
+0,00
+0,00
+107.601,91
+0,63
+853.876,29
+0,20
+MDB
+55.536.331,48
+15,02
+448.951,10
+1,43
+2.256.808,59
+13,31
+58.242.091,17
+13,93
+PMN
+2.243.870,60
+0,61
+178.808,85
+0,57
+40.720,04
+0,24
+2.463.399,49
+0,59
+Progre
+55.068.254,30
+14,89
+4.847.822,00
+15,49
+1.288.442,00
+7,60
+61.204.518,30
+14,64
+PPL
+1.296.632,66
+0,35
+0,00
+0,00
+122.716,88
+0,72
+1.419.349,54
+0,34
+PPS
+4.460.932,20
+1,21
+644.615.36
+2,06
+161.988,20
+0,96
+5.267.535,76
+1,26
+PR
+28.004.053,73
+7,57
+12.640.500.00
+40,40
+613.973,35
+3,62
+41.258.527,08
+9,87
+PRB
+2.004.153,25
+0,54
+1.296.763.58
+4,14
+327.345,78
+1,93
+3.628.262,61
+0,87
+Pros
+3.910.887,09
+1,06
+3.698.49
+0,01
+392.881,08
+2,32
+4.307.466,66
+1,03
+PRP
+519.386,00
+0,14
+0.00
+0,00
+70.395,60
+0,42
+589.781,60
+0,14
+*	
+Pessoa Jurídica (PJ), Fundo Partidário (FP), Pessoa Física (PF), Receita (Rec.).
+
+
+=== PDF PAGE 18 ===
+50
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+Partido
+PJ (R$)
+PJ (%)
+FP (R$)
+FP (%)
+PF e outras (R$)
+PF e outras 
+(%)
+Rec. total (R$)
+Rec. Total (%)
+PRTB
+428.044,80
+0,12
+19.451.18
+0,06
+28.851,53
+0,17
+476.347,51
+0,11
+PSB
+10.016.034,75
+2,71
+367.229.54
+1,17
+240.041,11
+1,42
+10.623.305,40
+2,54
+PSC
+4.717.615,86
+1,28
+642.000.00
+2,05
+258.690,38
+1,53
+5.618.306,24
+1,34
+PSD
+23.170.837,68
+6,27
+551.725.15
+1,76
+693.780,67
+4,09
+24.416.343,50
+5,84
+PSDB
+39.611.253,62
+10,71
+257.413.20
+0,82
+1.492.276,41
+8,80
+41.360.943,23
+9,89
+DC
+296.662,50
+0,08
+8.689.51
+0,03
+86.289,39
+0,51
+391.641,40
+0,09
+PSL
+662.135,00
+0,18
+319.626.52
+1,02
+136.293,55
+0,80
+1.118.055,07
+0,27
+Psol
+5.300,00
+0,00
+52.436.02
+0,17
+58.255,85
+0,34
+115.991,87
+0,03
+PSTU
+0,00
+0,00
+0.00
+0,00
+250.111,79
+1,48
+250.111,79
+0,06
+PT
+51.352.464,11
+13,89
+241.767.50
+0,77
+2.046.560,67
+12,07
+53.640.792,28
+12,83
+Pode
+91.314,02
+0,02
+225.482.23
+0,72
+336.790,31
+1,99
+653.586,56
+0,16
+PTB
+18.081.269,06
+4,89
+118.596.80
+0,38
+744.376,06
+4,39
+18.944.241,92
+4,53
+PTC
+65.828,00
+0,02
+1.530.00
+0,00
+10.652,00
+0,06
+78.010,00
+0,02
+Avante
+1.381.717,35
+0,37
+225.176.00
+0,72
+106.406,05
+0,63
+1.713.299,40
+0,41
+PV
+4.596.658,39
+1,24
+617.876.74
+1,97
+567.332,05
+3,35
+5.781.867.18
+1,38
+SD
+17.411.521,93
+4,71
+600.706.96
+1,92
+667.235,25
+3,94
+18.679.464,14
+4,47
+Total
+369.779.770,53
+88,46
+31.287.370.12
+7,48
+16.953.945,76
+4,06
+418.021.086,41
+100,00
+Fonte: elaboração própria com dados do Repositório de Dados Eleitorais do TSE.
+
+
+=== PDF PAGE 19 ===
+51
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+A tabela 2 apresenta a distribuição dos recursos que os partidos repassam 
+aos candidatos a deputado federal. Há uma nítida preponderância de pessoas 
+jurídicas como fontes de tais recursos, com mais de 88 %. O Fundo Partidário, 
+majoritariamente composto de recursos públicos, aparece em um distante 
+segundo lugar, com menos de 7,5 %. Os recursos oriundos de pessoas físicas 
+representam 4 % do total repassado aos candidatos a deputado federal, ou seja, 
+22 vezes menos que os recursos oriundos de empresas. Até 2014, o financiamento 
+eleitoral era preponderantemente empresarial, seja por meio de doações diretas, 
+seja doações indiretas, intermediadas pelos partidos, como as por ora analisadas.
+E internamente? Os partidos concentram ou desconcentram recursos? 
+Para responder, calculamos o coeficiente de Gini para mensurar a distribuição 
+interna dos recursos partidários,13 ou seja, do dinheiro que cada sigla repassa para 
+os seus candidatos. Como resultado, as agremiações abastecem as campanhas de 
+seus candidatos a deputado federal de modo muito desigual. A concentração de 
+recursos em poucos pode ser observada na tabela 3, que apresenta os coeficientes 
+de Gini das agremiações. Invariavelmente, os candidatos apoiados com recursos 
+oriundos de seu partido político são dirigentes ou incumbentes altamente com-
+petitivos, independentemente do porte ou da estrutura do partido. A vantagem 
+aqui é ter uma medida comparativa independente do montante de recursos 
+arrecadados por cada partido ou do numerário distribuído por diferentes fontes. 
+O que importa é saber em que medida partidos que possuem maior estrutura 
+concentraram mais ou menos recursos, se eles respondem à organização ou a 
+candidatos únicos ou a pequenos grupos. À exceção do PCO, todos os partidos 
+atingiram índices superiores a 0,80.
+Tabela 3. Concentração dos recursos distribuídos pelos partidos políticos em 2014
+Partido
+Candidatos
+Candidatos 
+financiados (N)
+Candidatos  
+financiados (%)
+Gini
+DEM
+178
+64
+35,96
+0.892710361
+PCdoB
+83
+4
+4,82
+0.930200686
+PCB
+59
+34
+57,63
+0.933994706
+PCO
+11
+9
+81,82
+0.181900835
+PDT
+322
+119
+36,96
+0.914432799
+Patri
+293
+13
+4,44
+0.989954827
+13	 Tal coeficiente pode ser usado para calcular a distribuição de recursos entre qualquer 
+população, como a distribuição de renda de um país. O coeficiente de Gini é um índice entre 
+0 (nenhuma concentração) e 1 (total concentração).
+
+
+=== PDF PAGE 20 ===
+52
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+Partido
+Candidatos
+Candidatos 
+financiados (N)
+Candidatos  
+financiados (%)
+Gini
+PHS
+301
+39
+12,96
+0.973191718
+MDB
+378
+224
+59,26
+0.884445915
+PMN
+165
+79
+47,88
+0.951395179
+Progre
+186
+103
+55,38
+0.813846619
+PPL
+69
+7
+10,14
+0.997705989
+PPS
+128
+42
+32,81
+0.93950055
+PR
+201
+96
+47,76
+0.861288003
+PRB
+264
+77
+29,17
+0.943508156
+Pros
+95
+30
+31,58
+0.934109836
+PRP
+271
+29
+10,70
+0.967180047
+PRTB
+253
+68
+26,88
+0.970407007
+PSB
+410
+132
+32,20
+0.91762439
+PSC
+189
+27
+14,29
+0.967617997
+PSD
+176
+66
+37,50
+0.849043393
+PSDB
+329
+158
+48,02
+0.91312618
+DC
+227
+47
+20,70
+0.973949945
+PSL
+213
+58
+27,23
+0.923687474
+Psol
+425
+59
+13,88
+0.948993339
+PSTU
+89
+61
+68,54
+0.785835341
+PT
+395
+182
+46,08
+0.85866638
+Pode
+246
+25
+10,16
+0.987406031
+PTB
+266
+123
+46,24
+0.962491733
+PTC
+232
+30
+12,93
+0.975800074
+Avante
+137
+37
+27,01
+0.967524267
+PV
+324
+86
+26,54
+0.972518335
+SD
+159
+71
+44,65
+0.897369231
+Total
+7.074
+2.199
+31,09 (média)
+Fonte: LAPeS-UFPR e TSE.
+Como aponta a tabela 3, a maioria dos partidos brasileiros concentrou 
+recursos em poucos nomes, com coeficientes de Gini que chegaram acima de 
+0,99, quando apenas um único candidato (no caso do Patri e PPL, o presidente 
+da agremiação) utilizou praticamente todo o recurso partidário para sua cam-
+panha eleitoral. O gráfico 1 apresenta a correlação entre o coeficiente de Gini dos 
+partidos e o índice de estrutura organizacional (IEP).
+
+
+=== PDF PAGE 21 ===
+53
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+Gráfico 1.14 Correlação entre o coeficiente de Gini dos recursos partidários e o índice de 
+estrutura organizacional (IEP) nas eleições para deputado federal em 2014
+1,000
+–
+0,800
+–
+0,600
+–
+0,400
+–
+0,200
+–
+0,000
+–
+índice de gini dos recursos partidários
+índice de estrutura organizacional
+0,100 –
+0,200 –
+0,300 –
+0,400 –
+0,500 –
+0,600 –
+0,700 –
+AVANTE
+DC
+DEM
+MDB
+NOVO
+PATRIOTA
+PCB
+PCdoB
+PCO
+PDT
+PHS
+PMB
+PMN
+PODE
+PP
+PPL
+PPS
+PR
+PRB
+PROS
+PRP
+PRTB
+PSB
+PSC
+PSD
+PSDB
+PSL
+PSOL
+PSTU
+PT
+PTB
+PTC
+PV
+REDE
+SD
+Fit line for
+Total
+partido
+Fonte: LAPeS-UFPR; r = 0,296; α = 0,05.
+Como mostra a reta da correlação, as duas variáveis apresentam vetor 
+positivo, mas fraco. Mesmo para padrões de comportamento de instituições 
+políticas, normalmente mais fluidas do que outras (Peters 2012), não é possível 
+dizer que há qualquer relação entre a estrutura organizacional dos partidos 
+e a forma com que eles distribuem recursos financeiros à nominata eleitoral. 
+Diferentemente dos partidos nos Estados Unidos, em que as organizações com 
+maior aporte costumam distribuir mais recursos àqueles que não são apoiados 
+pelos financiadores privados (Gierzynski e Breaux 1994), e dos partidos do Japão, 
+em que há uma distribuição equânime entre os candidatos às eleições propor-
+cionais (Carlson 2012), os partidos brasileiros, independentemente de sua força 
+organizacional, financiam apenas poucos candidatos, promovendo o que Schaefer 
+(2018) sugere como “listas fechadas”, impulsionadas aqui pela direção nacional do 
+partido, que investe em um grupo seleto de indivíduos.
+14	 O Partido Novo (Novo), o Partido da Mulher Brasileira (PMB) e o Rede Sustentabilidade (Rede) 
+aparecem com valor zero no eixo X dado que não disputaram as eleições de 2014. O indicador de 
+estrutura organizacional foi realizado, nesses casos, com dados referentes ao ano de sua fundação.
+
+
+=== PDF PAGE 22 ===
+54
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+Se não há relação entre a estrutura organizacional e a concentração de 
+recursos, parece que a primeira não desempenha um papel decisivo na distribuição 
+de um recurso de poder cada vez mais escasso e importante nas eleições nacio-
+nais, o dinheiro. Os dados sugerem que os partidos políticos brasileiros operam 
+uma lógica que leva menos em conta o peso da organização partidária e mais o 
+investimento nos nomes disputando as eleições. Os partidos passam a ser atributos 
+dos candidatos, e não o inverso (Alcántara 2016). O coeficiente de Gini elevado é 
+elemento robusto para chegar à tal conclusão. Contudo, testamos uma explicação 
+alternativa baseada na lógica da reprodução eleitoral dos candidatos nos partidos.
+Operacionalizamos um indicador de número efetivo de financiados (NEF). 
+A lógica é a mesma consagrada por Laakso e Taagepera (1979). Reconhecemos 
+a limitação do uso do número efetivo como uma medida de concentração ou 
+dispersão, mas a quantidade de financiados em escala numérica é útil para compa-
+rações com outras variáveis. Se os partidos resolvem financiar poucos candidatos 
+proporcionalmente à sua capacidade e se concentram em poucos nomes, a estratégia 
+estaria focada em garantir ou ampliar as bancadas de modo que o recurso partidá-
+rio-eleitoral fosse um instrumento dos candidatos e não do partido político em si.
+Correlacionamos o NEF com a quantidade de cadeiras que cada partido 
+conquistou nas eleições de 2014. Os resultados estão no gráfico 2.
+Gráfico 2. Correlação entre número efetivo de financiados e bancada eleita na câmara 
+dos deputados em 2014
+bancada partidaria na CD eleita em 2014
+número efetivo de ﬁnanciados pelo partido
+30,000 –
+20,000 –
+10,000 –
+40,000 –
+50,000 –
+60,000 –
+0,000 –
+20
+40
+60
+–
+0
+AVANTE
+DC
+DEM
+MDB
+NOVO
+PATRIOTA
+PCB
+PCdoB
+PCO
+PDT
+PHS
+PMB
+PMN
+PODE
+PP
+PPL
+PPS
+PR
+PRB
+PROS
+PRP
+PRTB
+PSB
+PSC
+PSD
+PSDB
+PSL
+PSOL
+PSTU
+PT
+PTB
+PTC
+PV
+REDE
+SD
+Fit line for
+Total
+partido
+–
+–
+–
+Fonte: LAPeS-UFPR; r = 0,924; α = 0,01.
+
+
+=== PDF PAGE 23 ===
+55
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+Diferentemente da correlação entre o coeficiente de Gini e o IEP, dessa 
+vez a correlação é quase perfeita (r = 0,924, com intervalo de confiança de 99 %). 
+O que o dado revela é a estratégia partidária em escolher um número limitado 
+de candidatos para receber os recursos do partido, o que implica mecanicamente 
+cadeiras no parlamento. A lógica de uso dos recursos partidários nas eleições 
+parece resultar na alocação monetária a partir da chance eleitoral que cada can-
+didato possui. Chama atenção o fato de essa correlação apresentar esse grau de 
+força, mostrando que só recebe dinheiro quem tem voto para chegar à Câmara 
+dos Deputados e/ou quem conseguiu se eleger foram aqueles apoiados pelo par-
+tido. Tal achado reforça o método pelo qual a concentração em poucos nomes se 
+traduz, em alguma medida, em menoscabo da organização partidária, justamente 
+em face de uma estratégia acertada para eleger bancadas, ainda que os partidos 
+saibam da limitação de cadeiras possíveis de serem conquistadas. Os recursos 
+partidários no Brasil são, portanto, atributos de candidatos específicos e não um 
+investimento da organização em promover incentivos coletivos ou equilibrar a 
+competição (Alcántara 2016; Gierzynski e Breaux 1994). Ainda que essa seja uma 
+estratégia partidária, o foco é garantir que indivíduos competitivos conquistem 
+cadeiras para o partido e não que o partido conquiste cadeiras para os indivíduos.
+Considerações finais
+Resultados apontam para a rejeição de nossas duas hipóteses (H1 e H2). Ao con-
+trário do que pensávamos inicialmente, o maior grau de estruturação dos par-
+tidos políticos brasileiros não se converte numa distribuição menos desigual de 
+recursos. Os resultados assinalam uma característica importante do sistema par-
+tidário brasileiro, ao menos na disputa pelas cadeiras na Câmara dos Deputados.
+Os partidos apresentam concentração de recursos de campanha em 
+poucos candidatos, invariavelmente nos mais competitivos e que compuseram a 
+lista dos eleitos nas eleições de 2014. Frisamos que tal dinâmica já fora diagnosti-
+cada para o financiamento empresarial e, como vimos, vale para o financiamento 
+partidário, independentemente do grau de estruturação dos partidos. À exceção 
+do PCO, todas as agremiações agem da mesma forma, o que sinaliza para a pouca 
+utilidade prática de se reduzir o financiamento privado como medida de redução das 
+assimetrias, especialmente as internas, sem que isso venha acompanhado de disposi-
+tivos institucionais que obriguem os partidos a distribuir seus recursos de maneira 
+mais equitativa.
+O diagnóstico positivo que se faz dos partidos políticos brasileiros nos 
+anos 1990 e na primeira década dos 2000 parece levar em conta apenas o papel 
+dos líderes como sinônimos personificados das organizações que conduzem ou 
+
+
+=== PDF PAGE 24 ===
+56
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+então do comportamento legislativo — e principalmente o efeito deste — como 
+um sinal de que o sistema partidário brasileiro é robusto. Evidenciamos neste 
+trabalho que os partidos se aglutinam em torno de alguns poucos mandatos ao 
+arrepio de qualquer constrangimento organizacional. A fragmentação partidária, 
+que parece não ser o principal problema para a condução de políticas públicas 
+no Brasil, talvez não o seja à medida que os partidos existam como rótulos legais 
+para promover candidaturas personalistas.
+Referências
+1.	
+Alcántara, Manuel. 2016. A profissionalização da política, editado por Emerson 
+Urizzi Cervi. Curitiba: CPOP-PPGCP/UFPR.
+2.	
+Amaral, Oswaldo. 2011. “Ainda conectado: o PT e seus vínculos com a sociedade.” 
+Opinião Pública 17 (1): 1-44. https://doi.org/10.1590/S0104-62762011000100001
+3.	
+Ames, Barry. 1995. “Electoral Strategy under Open-List Proportional 
+Representation”. American Journal of Political Science 39 (2): 406-433. https://
+www.jstor.org/stable/2111619
+4.	
+Andeweg, Rudy B. 2011. “Approaching Perfect Policy Congruence: Measurement, 
+Development, and Relevance for Political Representation.” Em How Democracie 
+Works. Political Representation and Policy Congruence in Modern Societies. 
+Essays in Honour of Jacques Thomassen, editado por Martin Rosema, Bas Denters 
+e Kees Aarts. Amsterdam: Amsterdam University Press.
+5.	
+Berlatto, Fábia, Adriano Codato e Bruno Bolognesi. 2016. “Da polícia à política: 
+explicando o perfil dos candidatos das forças repressivas de estado à câmara 
+dos deputados”. Revista Brasileira de Ciência Política 21: 77-120. https://doi.
+org/10.1590/0103-335220162103
+6.	
+Billie, Lars. 1997. “Leadership Change and Party Change: The case of Danish 
+Social Democratic Party, 1960-95”. Party Politics. No. 3: 379-390. https://doi.
+org/10.1177/1354068897003003006
+7.	
+Bolognesi, Bruno. 2016. “Dentro do Estado, longe da sociedade: a distribuição do 
+fundo partidário em 2016”. Newsletter. Observatório de Elites Políticas e Sociais 
+do Brasil. NUSP/UFPR 3 (11): 1-15.
+8.	
+Botassio, Barbara. 2017. “Partidos brasileiros na alocação interna de recursos 
+do fundo partidário”. Artigo apresentado no 9o Congresso Latinoamericano de 
+Ciência Política. Montevidéu.
+9.	
+Braga, Maria do Socorro Sousa. 2007. “O Processo político-partidário brasileiro e 
+as eleições de 2006.” Política & Sociedade 6 (10): 53-89. https://doi.org/10.5007/%25x
+10.	
+Braga, Maria do Socorro Sousa. 2010. “Eleições e democracia no Brasil: a 
+caminho de partidos e sistemas partidários institucionalizados”. Revista 
+Brasileira de Ciência Política 4: 43-73. https://periodicos.unb.br/index.php/rbcp/
+article/view/1704
+11.	
+Braga, Maria do Socorro Sousa e Jairo Pimentel Jr. 2011. “Os partidos políticos 
+brasileiros realmente não importam ?”. Opinião Pública 17 (2): 271-303. https://
+doi.org/10.1590/S0104-62762011000200001
+12.	
+Braga, Maria do Socorro Sousa e Adla Bourdoukan. 2009. “Partidos políticos no 
+Brasil: organização partidária, competição eleitoral e financiamento público”. 
+
+
+=== PDF PAGE 25 ===
+57
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+Perspectivas: Revista de Ciências Sociais 35: 117-148. https://periodicos.fclar.unesp.
+br/perspectivas/article/download/2290/1858
+13.	
+Calvo, Ernesto e Maria Victoria Murillo. 2004. “Who delivers? Partisan Clients 
+in the Argentine Electoral Market”. American Journal of Political Science 48 (4): 
+742-757. https://doi.org/10.1111/j.0092-5853.2004.00099.x
+14.	
+Carey, John M. e Matthew S. Shugart. 1993. “Incentives to Cultivate a Personal 
+Vote: A rank Ordering of Electoral Formulas”. Electoral Studies 14 (4): 417-439. 
+https://doi.org/10.1016/0261-3794(94)00035-2
+15.	
+Carlson, Matthew. 2012. “Financing Democracy in Japan: The Allocation and 
+Consequences of Government Subsidies to Political Parties”. Party Politics 18 (3): 391-408. 
+https://doi.org/10.1177/1354068810380086
+16.	
+Carreirão, Yan de Souza e Maria D’Alva G. Kinzo. 2003. “Partidos políticos, 
+preferência partidária e decisão eleitoral no Brasil (1989/2002)”. Dados 47 (1). 
+https://doi.org/10.1590/S0011-52582004000100004
+17.	
+Cervi, Emerson Urizzi. 2010. “Financiamento de campanhas e desempenho 
+eleitoral no Brasil: análise das contribuições de pessoas físicas, jurídicas e partidos 
+políticos às eleições de 2008 nas capitais de estado”. Revista Brasileira de Ciência 
+Política (4): 135-167. https://periodicos.unb.br/index.php/rbcp/article/view/1712
+18.	
+Codato, Adriano, Fábia Berlatto e Bruno Bolognesi. 2018. “Tipologia dos políticos 
+de direita no Brasil: uma classificação empírica”. Análise Social 229: 870-897. 
+http://dx.doi.org/10.31447/as00032573.2018229.02
+19.	
+Coppedge, Michael. 1997. “A Classification of Latin American Political Parties”. 244. 
+Working Paper. Estados Unidos: The Helen Kellogg Institute for International Studies.
+20.	
+Dantas, Humberto e Sérgio Praça. 2010. “Pequenos partidos no Brasil: uma 
+análise do posicionamento ideológico com base nas coligações municipais de 
+2000 a 2008”. Em Coligações Partidárias na Nova Democracia Brasileira: Perfis e 
+Tendências, editado por Silvana Krause, Humberto Dantas e Luis Felipe Miguel, 
+99-133. Rio de Janeiro: Konrad-Adenauer-Stiftung e Editora da Unesp.
+21.	
+Daza, Javier Duque. 2005. “La institucionalización partidista: una propuesta de 
+abordaje de las estructuras organizativas partidistas”. Estudios Politicos 27: 103-127. 
+https://www.redalyc.org/pdf/164/16429055006.pdf
+22.	
+Desposato, Scott W. 1997. “Party Switching and Democratization in Brazil”. Em 
+Political Parties and Legislative Party Switching, editado por William B. Heller e 
+Carol Mershon, 109-144. NovaYork: Palgrave Macmillan.
+23.	
+Desposato, Scott W. 2006. “Parties for Rent? Ambition, Ideology, and Party Switching 
+in Brazil’s Chamber of Deputies”. American Journal of Political Science 50 (1): 62-80. 
+https://www.jstor.org/stable/3694257?seq=1#metadata_info_tab_contents
+24.	
+Eldersveld, Samuel J. 1964. Political Parties: A Behavioral Analysis. Chicago: 
+Rand McNally. https://doi.org/10.2307/1976132
+25.	
+Da Silveira, Leonardo e Paulo Victor Teixeira Pereira de Melo. 2014. “De onde 
+vem e como sobrevivem os nanicos ? Análise da votação dos pequenos partidos 
+brasileiros”. Associação Nacional de Pesquisa e Pós-Graduação em Ciências 
+Sociais, Caxambu.
+26.	
+Figueiredo Filho, Dalson Britto. 2009. “O elo corporativo? Grupos de interesse, 
+financiamento de campanha e regulação eleitoral”, dissertação de mestrado na 
+Universidade Federal de Pernambuco, Brasil.
+27.	
+Freidenberg, Flavia e Steven Levitsky. 2007. “Organización informal de los 
+partidos en America Latina”. Desarollo Económico 46 (184): 539-568.
+
+
+=== PDF PAGE 26 ===
+58
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+28.	
+Gierzynski, Anthony e David Breaux. 1994. “The Role of Parties in Legislative 
+Campaign Financing”. The American Review of Politics 15 (summer): 171-189.
+29.	
+Hair, Joseph F. Jr., William C. Black, Barry J. Babin, Rolph E. Anderson e Ronald 
+L. Tatham. 2009. Análise Multivariada de Dados. São Paulo: Bookman Editora.
+30.	
+Harbers, Imke. 2014. “States and Strategy in New Federal Democracies: 
+Competitiveness and Intra-Party Resource Allocation in Mexico”. Party Politics 
+20 (6): 823-835. doi:10.1177/1354068812458611
+31.	
+Harmel, Robert. 2002. “Party Organizational Change: Competing Explanations?”. 
+Em Political parties in the New Europe: Political and analytical challenges, 
+editado por Kurt Richard Luther e Ferdinand Müller-Rommel. Oxford: Oxford 
+University Press.
+32.	
+Harmel, Robert e Kenneth Janda. 1994. “An Integrated Theory of Party Goals 
+and Party Change”. Journal of Theoretical Politics 6: 259-287. https://doi.org/ 
+10.1177/0951692894006003001
+33.	
+Herrnson, Paul S. 1989. “National Party Decision Making, Strategies, and 
+Resource Distribution in Congressional Elections”. The Western Political Quarterly 
+42 (3): 301-323. doi: 10.2307/448430
+34.	
+Holtz-Bacha, Christina, Ana Ines Langer e Susanne Merkle. 2014. “The 
+Personalization of Politics in Comparative Perspective: Campaign coverage 
+in Germany and the United Kingdom”. European Journal of Communication 
+29 (2): 153-170. doi:10.1177/0267323113516727
+35.	
+Horochovski, Rodrigo Rossi, Ivan Jairo Junckes, Edson Armando Silva, Joseli 
+Maria Silva e Neilor Fermino Camargo. 2016. “Estruturas de poder nas redes de 
+financiamento político nas eleições de 2010 no Brasil”. Opinião Pública 22 (1): 28-55. 
+https://doi.org/10.1590/1807-0191201622128
+36.	
+Huntington, Samuel P. 1968. Political Order in Changing Societies. New Haven e 
+Londres: Yale University Press.
+37.	
+Iñaki, Sagarzazu. 2011. “Weak Party Institutionalization and the Dynamics of 
+Political Dialogue”. Nuffield’s Working Papers Series in Politics. Nuffield College, 
+United Kingdom.
+38.	
+Jacobson, Gary C. 1985. “Party Organization and Distribution of Party 
+Organization Campaign Resources: Republicans and Democrats in 1982”. Political 
+Science Quarterly 100 (4): 603-625. https://www.jstor.org/stable/pdf/2151543
+39.	
+Janda, Kenneth. 1970. “A Conceptual Framework for the Comparative Analysis 
+of political parties”. Sage Professional Papers in Comparative Politics 1: 75-126.
+40.	
+Janda, Kenneth. 1980. “A Comparative Analysis of Party Organizations: The 
+United States, Europe, and the world”. Em The Party Symbol, editado por 
+William J. Crotty, 339-358. São Francisco: W. H. Freeman.
+41.	
+Janda, Kenneth. 1983. “Cross-National Measures of Party Organizations and 
+Organizational Theory”. European Journal of Political Research 11: 319-332. 
+https://doi.org/10.1111/j.1475-6765.1983.tb00065.x
+42.	
+Katz, Richard S., Mair, Peter, Christopher J Haid, Chicago Press, Gabriela Borz e 
+Kenneth Janda. 2008. “The Three Faces of Party Organization”. Political Science 
+46 (february): 593-617. https://doi.org/10.1177/1868103419898913
+43.	
+Katz, Ricardo S. e Peter Mair. 1995. “Changing Models of Party Organization and 
+Party Democracy: The Emergence of the Cartel Party”. Party Politics 1 (1): 5-28. 
+https://doi.org/10.1177/1354068895001001001
+
+
+=== PDF PAGE 27 ===
+59
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+44.	
+Key Jr., Valdimer Orlando. 1949. Southern Politics in State and Nation. Nova 
+York: A Caravelle.
+45.	
+Laakso, Markku e Rein Taagepera. 1979. “‘Effective’ Number of Parties. A Measure 
+with Application to West Europe”. Comparative Political Studies 12 (1): 3-27. 
+https://doi.org/10.1177/001041407901200101
+46.	
+Lemos, Leany Barreiro, Daniel Marcelino e João Henrique Pederiva. 2010. 
+“Porque dinheiro importa: a dinâmica das contribuições eleitorais para o 
+Congresso Nacional em 2002 e 2006”. Opinião Pública 16 (2): 366-393. doi:10.1590/
+S0104-62762010000200004
+47.	
+Lupu, Noam. 2017. “Party Brands, Partisan Erosion, and Party Breakdown”. Em 
+Latin American Party Systems: Institutionalization, Decay, and Collapse, editado 
+por Scott Mainwating. Cambridge: Cambridge University Press.
+48.	
+Mainwaring, Scott. 1991. “Políticos, partidos e sistemas eleitorais.” Novos Estudos 
+Cebrap 29: 34-58.
+49.	
+Mainwaring, Scott e Mariano Torcal. 2005. “Teoria e institucionalização dos 
+sistemas partidários após a terceira onda de democratização”. Opinião Pública 
+XI (2): 249-286. https://doi.org/10.1590/S0104-62762005000200001
+50.	
+Mancuso, Wagner Pralon. 2012. “Empresas e financiamento de campanhas 
+eleitorais de candidatos a deputado federal pelo estado de São Paulo nas eleições 
+de 2002 e 2006”. Em Desenvolvimento e crise na América Latina: estado, empresas 
+e sociedade, editado por Armando Dalla Costa, Ary Cesar Minella, Denise 
+Barbosa Gros, Jacques Mick, Maria Soledad Etcheverry e Wagner Iglecias. 
+Curitiba: CRV.
+51.	
+Mancuso, Wagner Pralon. 2015. “Investimento eleitoral no Brasil: balanço da literatura 
+(2001-2012) e agenda de pesquisa”. Revista de Sociologia e Política 23 (54): 155-183. 
+https://doi.org/10.1590/1678-987315235409
+52.	
+Mancuso, Wagner Pralon, Rodrigo Rossi Horochovski e Neilor Fermino Camargo. 
+2016. “Empresários e financiamento de campanhas na eleição presidencial 
+brasileira de 2014”. Teoria & Pesquisa, 25 (3), 38-64. http://doi.editoracubo.com.
+br/10.4322/tp.25307
+53.	
+Mancuso, Wagner Pralon, Rodrigo Rossi Horochovski e Neilor Firmino. 2019. 
+“Mudança institucional e financiamento político: o papel dos partidos nas 
+eleições de 2014”. Em Presidencialismo de coalização em movimento, editado por 
+Giovana Perlin e Manoel Leonardo Santos, 353-383. Brasília: Edições Câmara.
+54.	
+Mancuso, Wagner Pralon e Bruno Wilhelm Speck. 2015. “Financiamento 
+empresarial na eleição para deputado federal (2002-2010): determinantes e 
+consequências”. Teoria & Sociedade 23 (2): 103-125. http://www.teoriaesociedade.
+fafich.ufmg.br/index.php/rts/article/download/206/150
+55.	
+Melo, Carlos Ranulfo Felix. 2010. “Eleições presidenciais, jogos aninhados e 
+sistema partidário no Brasil”. Revista Brasileira de Ciência Política 4: 13-41. 
+https://periodicos.unb.br/index.php/rbcp/article/view/1702
+56.	
+Meneguello, Rachel. 1998. Partidos e governos no Brasil contemporâneo (1985-1997). 
+São Paulo: Paz e Terra.
+57.	
+Müller, Wolfgang C. e Kaare Strøm. 1999. Policy, Office, or Votes? How Political 
+Parties in Western Europe Make Hard Decisions. Cambridge: Cambridge University 
+Press.
+58.	
+Nascimento, Willber, José Alexandre Silva Jr., Ranulfo Paranhos, Denisson Silva 
+e Dalson Britto Figueiro Filho. 2016. “Does Size Matter? Electoral Performance 
+
+
+=== PDF PAGE 28 ===
+60
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+of Small Parties in Brazil”. Brazilian Political Science Review 10 (2): 1-26. https://
+doi.org/10.1590/1981-38212016000200005
+59.	
+Nicolau, Jairo. 2006. “O sistema eleitoral de lista aberta no Brasil”. Dados — 
+Revista de Ciências Sociais (Belo Horizonte: Editora UFMG) 49 (4): 689-720. 
+https://doi.org/10.1590/S0011-52582006000400002
+60.	
+Panebianco, Angelo. 2005. Modelos de partido: organização e poder nos partidos 
+politicos. São Paulo: Martins Fontes.
+61.	
+Peixoto, Vitor de Moraes. 2010. “Eleições e financiamento de campanhas no 
+Brasil.” Instituto Universitário de Pesquisas do Rio de Janeiro. 2007.
+62.	
+Pereira, Carlos e Bernardo Mueller. 2003. “Partidos fracos na arena eleitoral e 
+partidos fortes na arena legislativa: a conexão eleitoral no Brasil”. Dados 46 (4): 
+735-771. Rio de Janeiro. http://www.scielo.br/pdf/dados/v46n4/a04v46n4.pdf
+63.	
+Peters, B. Guy. 2012. Institutional Theory in Political Science. 3° ed. Nova York: 
+Edward Elgar Pub.
+64.	
+Poguntke, Thomas, Susan E. Scarrow, Paul D. Webb, Elin H. Allern, Nicholas 
+Aylott, Ingrid van Biezen e Enrico Calossi. 2016. “Party Rules, Party Resources 
+and the Politics of Parliamentary Democracies: How Parties Organize in the 21st 
+Century”. Party Politics 22 (6): 661-678. https://doi.org/10.1177/1354068816662493
+65.	
+Randall, Vicky e Lars Svåsand. 2002. “Party Institutionalization in New Democracies”. 
+Party Politics 8 (1): 5-29. https://doi.org/10.1177/1354068802008001001
+66.	
+Riker, William H. 1982. “The Two-Party System and Duverger’s Law: An Essay 
+on the History of Political Science”. The American Political Science Review 76 (4): 
+753. https://www.jstor.org/stable/1962968
+67.	
+Sacchet, Teresa e Bruno Wilhelm Speck. 2012. “Financiamento eleitoral, 
+representação política e gênero: uma análise das eleições de 2006”. Opinião 
+Pública 18 (1): 177-197. https://doi.org/10.1590/S0104-62762012000100009
+68.	
+Sáez, Manuel Alcántara. 2005. ¿Instituiciones o máquinas ideológicas? Origen, 
+programa y organización de los partidos politicos latinoamericanos. Barcelona: ICPS.
+69.	
+Sáez, Manuel Alcántara e Flavia Freidenberg. 2000. “Organización y 
+funcionamento interno de los partidos politicos en América Latina”. Em 
+Partidos Políticos de América Latina, editado por Manuel Alcántara Sáez e Flavia 
+Freidenberg, 1-17. Salamanca: Ediciones Universidad de Salamanca.
+70.	
+Samuels, David. 1997. “Determinantes do voto partidário em sistemas eleitorais 
+centrados no candidato: evidências sobre o Brasil”. Dados 40 (3). https://doi.
+org/10.1590/S0011-52581997000300008
+71.	
+Samuels, David. 2001a. “Does Money Matter? Credible Commitments and 
+Campaign Finance in New Democracies Theory and Evidence from Brazil”. 
+Comparative Politics 34 (1): 23-42. https://www.jstor.org/stable/422413
+72.	
+Samuels, David. 2001b. “When Does Every Penny Count?: Intra-Party Competition 
+and Campaign Finance in Brazil”. Party Politics 7 (1): 89-102. https://doi.org/ 
+10.1177/1354068801007001005
+73.	
+Samuels, David J. 1999a. “Vote in Candidate-Centric”. Comparative political 
+studies. 32 (4): 487-518. https://doi.org/10.1177/0010414099032004004
+74.	
+Samuels, David J. 1999b. “Incentives to Cultivate a Party Vote in Candidate-
+Centric Electoral Systems: Evidence from Brazil”. Comparative Political Studies. 
+32 (4): 487-518. https://doi.org/10.1177/0010414099032004004
+75.	
+Scarrow, Susan E. 1996. Parties and Their Members. Oxford: Oxford University Press.
+
+
+=== PDF PAGE 29 ===
+61
+Como os partidos distribuem o dinheiro. Estrutura organizacional e recursos eleitorais em 2014 no Brasil
+Bruno Bolognesi • Rodrigo R. Horochovski • Ivan J. Junckes • Karolina M. Roeder
+76.	
+Scarrow, Susan E., Paul D. Webb e Thomas Poguntke. 2017. Organizing Political 
+Parties Representation, Participation, and Power. Oxford: Oxford University 
+Press.
+77.	
+Schaefer, Bruno Marques. 2018. “As lógicas de distribuição do fundo partidário: 
+centralização e nacionalização dos partidos brasileiros (2011-2015)”. Universidade 
+Federal do Rio Grande do Sul, Brasil.
+78.	
+Schattschneider, E. 1942. Party Government. Nova York: Holt, Rinehart and Wilston.
+79.	
+Sigelman, Lee. 1979. “Understanding political instability: An Evaluation of the 
+Mobilization — Institutionalization Approach”. Comparative Political Studies 
+12 (2): 205-228. https://doi.org/10.1177/001041407901200204
+80.	
+Silva, Bruno Fernando e Emerson Urizzi Cervi. 2017. “Padrões de financiamento 
+eleitoral no Brasil: as receitas de postulantes à Câmara dos Deputados em 2010 
+e 2014”. Revista Brasileira de Ciência Política 23: 75-110. https://doi.org/10.1590/ 
+0103-335220172303
+81.	
+Speck, Bruno Wilhelm e Wagner Pralon Mancuso. 2011. “O financiamento 
+político nas eleições brasileiras de 2010: um panorama geral”. Em GT 13 — 
+Financiamento político no Brasil: o impacto do dinheiro sobre partidos, eleições, 
+candidatos e representantes. Caxambu, Brasil.
+82.	
+Tavits, Margit. 2008. “Party Systems in the Making: The Emergence and Success 
+of New Parties in New Democracies”. British Journal of Political Science 38 (1): 
+113-133. https://www.jstor.org/stable/27568335
+83.	
+Tavits, Margit. 2012. “Organizing for success: Party Organizational Strength and 
+Electoral Performance in Postcommunist Europe”. The Journal of Politics 74 (1): 
+83-97. https://www.jstor.org/stable/10.1017/s0022381611001198
+84.	
+Tavits, Margit. 2013. Post-Communist democracies and party organization. 
+Cambridge: 
+Cambridge 
+University 
+Press. 
+https://doi.org/10.1017/CBO 
+9781139565196
+85.	
+Webb, Paul D. e Dan Keith. 2017. “Assessing the Strength of Party Organizational 
+Resources: A Survey of the Evidence from the Political Party Database.” Em Organizing 
+Political Parties Representation, Participation, and Power, editado por Susan E. 
+Scarrow, Paul D. Webb e Thomas Poguntke. Oxford: Oxford University Press.
+86.	
+Wills-Otero, Laura. 2016. “The Electoral Performance of Latin American 
+Traditional Parties, 1978-2006: Does the Internal Structure Matter?”. Party 
+Politics 22 (6): 758-772. https://doi.org/10.1177/1354068814563971
+H
+Bruno Bolognesi, Universidade Federal do Paraná, Cientista político, coordenador do 
+Laboratório de Partidos e Sistemas Partidários (LAPeS - www.lapesufpr.com.br), professor 
+no Programa de Pós-Graduação em Ciência Política, pesquisador do Grupo de Investigación 
+de ‘Partidos y Sistemas de Partidos en América Latina’ da Alacip (GIPSAL - https://sites.
+google.com/site/gipsalalacip/) e editor associado da  Revista de Sociologia e Política  (www.
+scielo.br/rsocp). * brunobolognesi@gmail.com
+
+
+=== PDF PAGE 30 ===
+62
+Colomb. int. 104 • issn 0121-5612 • e-issn 1900-6004  
+Octubre-diciembre 2020 • pp. 33-62 • https://doi.org/10.7440/colombiaint104.2020.02
+Rodrigo R. Horochovski, Universidade Federal do Paraná, Cientista político. Professor do 
+curso de Administração Pública e dos Programas de Pós-Graduação em Ciência Política 
+e em Desenvolvimento Territorial Sustentável da Universidade Federal do Paraná (UFPR). 
+Coordenador do Laboratório de Análise do Campo Científico (LACC). * rodrigorh@ufpr.br
+Ivan J. Junckes, Universidade Federal do Paraná, Professor na Universidade Federal do 
+Paraná (UFPR) no curso de Administração Pública e no Programa de Pós-Graduação 
+em Desenvolvimento Territorial Sustentável - PPGDTS. Coordenador líder do grupo de 
+pesquisas Laboratório de Análise de Redes (LAR) onde são desenvolvidas pesquisas em 
+análise de redes sociais (ARS) e financiamento eleitoral. * ivanjj@ufpr.br
+Karolina M. Roeder, Universidade Federal do Paraná,  Professora de Ciência Política 
+do Centro Universitário Internacional (UNINTER), doutoranda em Ciência Política na 
+Universidade Federal do Paraná (UFPR), pesquisadora do Laboratório de Partidos e 
+Sistemas Partidários (LAPeS - www.lapesufpr.com.br), estuda finanças partidárias e estru-
+tura e organização dos partidos políticos. * karolinamattosroeder@gmail.com

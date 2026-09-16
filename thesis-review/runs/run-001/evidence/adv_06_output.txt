@@ -1,0 +1,10 @@
+vitórias estaduais com CPF keep-first diferente do CPF por cargo:
+                    sum  size
+cargo                        
+DEPUTADO DISTRITAL    0   168
+DEPUTADO ESTADUAL     0  7245
+DEPUTADO FEDERAL      0  3591
+GOVERNADOR           79   189
+SENADOR             177   269
+2018: candidaturas que recebem vitória estadual indevida = 5; que perdem vitória estadual = 3
+2022: candidaturas que recebem vitória estadual indevida = 6; que perdem vitória estadual = 5

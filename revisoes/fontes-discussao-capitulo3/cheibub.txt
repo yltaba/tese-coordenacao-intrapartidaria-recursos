@@ -1,0 +1,1401 @@
+=== PDF PAGE 1 ===
+Article
+Journal of Theoretical Politics
+2020, Vol. 32(1) 70–95
+The Author(s) 2020
+Article reuse guidelines:
+sagepub.com/journals-permissions
+DOI: 10.1177/0951629819893024
+journals.sagepub.com/home/jtp
+Preference vote and intra-
+party competition in open list
+PR systems
+Jose´ Antonio Cheibub
+Texas A&M University, College Station, TX, USA
+Gisela Sin
+University of Illinois at Urbana-Champaign, Urbana-Champaign, IL, USA
+Abstract
+Open list proportional representation (PR) systems require that candidates seek personal votes
+in order to be successful. This feature of the system is considered to lead to intense competition
+among co-partisans and, ultimately, to weak electoral and legislative parties, narrow public poli-
+cies, localism, clientelism, and corruption. We examine the distribution of personal votes among
+candidates from the same party for seven elections to the Brazilian national chamber of deputies
+(1990–2014). These elections are widely seen as hyper-competitive, particularly among candidates
+from the same list. Yet, the patterns in the data are not compatible with such a view. We find that
+the level of overall competition is considerably lower than the absolute number of parties and
+candidates competing would suggest. More significantly, we find that the number of viable candi-
+dates within party lists is limited and that their votes are distributed in such a way that indicates a
+contained competition among co-partisans during the election. These findings add to recent work
+that builds a more nuanced view of ballot structure, competition, and personalism.
+Keywords
+Proportional representation; personal vote; open list PR; intra-party competition; electoral sys-
+tems; elections in Brazil
+Corresponding author:
+Jose´ Antonio Cheibub, Texas A&M University, 2010 Allen Building,4348 TAMU, College Station, TX 77843,
+USA.
+Email: cheibub@tamu.edu
+
+
+=== PDF PAGE 2 ===
+1. Introduction
+Proportional representation (PR) electoral systems are based on the principle that
+seats are first allocated to a collective entity: the party. In all cases, the party gains
+seats in proportion to the share of votes it receives. However, PR systems differ in
+the way parties allocate seats to individual candidates. In closed-list systems
+(CLPR), parties rank candidates and voters cast a ballot for the party. The seats
+are allocated to individual candidates according to their rank in the list the party
+builds prior to the election. If the party receives n seats, the top n candidates, as
+ranked by the party, are those who win seats in the legislature. By contrast, in
+open-list systems (OLPR), parties present a set of candidates running under their
+label, but do not rank them prior to the election. Voters cast a ballot for an indi-
+vidual candidate (a preference vote), and parties receive seats in proportion to the
+sum of votes received by all the candidates running under their label. Seats are dis-
+tributed to individual candidates according to the number of personal votes they
+received. If the party receives n seats, the top n candidates, as determined by the
+number of votes they personally received, are those who win the legislative seats.1
+Scholars have claimed that because in CLPR systems voters cannot alter the
+order of candidates the party presents, competition occurs among parties; candi-
+dates’ attributes play little or no role in voters’ decisions. In contrast, it is argued,
+in open-list systems competition is mostly among co-partisans and it is based on
+candidates’ personal attributes. Although parties receive seats in proportion to
+their votes, candidates within each party win seats because they obtain the highest
+number of personal votes. For this reason, candidates emphasize their individual
+attributes to make sure that one of the seats the party wins goes to them and not
+to one of their co-partisans. Thus, scholars posit that competition in OLPR elec-
+tions occurs not only among parties, but also among candidates.2 In these systems,
+elections are characterized by both inter- and intra-party competition.
+We argue, in contrast, that lists in OLPR systems are composed in such a way as
+to minimize the need for candidates from the same party to fight with one another
+during the election. We suggest that intra-party competition in an OLPR system is
+much more constrained than initially thought. We find this to be true especially for
+small districts and for larger parties, where coordination is easier to achieve. For
+larger districts, we find that coordination is more difficult to attain, although it is
+not impossible.
+Using data from elections for the Brazilian national Chamber of Deputies (CD),
+which are universally seen as highly competitive and personalistic, we provide evi-
+dence in support of the view that intra-party competition is significantly controlled.
+Our analysis reveals that even in these most unlikely settings, intra-party competi-
+tion is limited; many lists are carefully built so that competition among co-partisans
+is significantly reduced as candidates seek votes.
+This article is organized into five additional sections. In Section 2, we review
+new literature on electoral systems to which this article is related. In Section 3, we
+explain the basics of elections for the Brazilian CD. In Section 4, we analyze the
+absolute number of candidates in party lists. We distinguish irrelevant candidates,
+Cheibub and Sin
+71
+
+
+=== PDF PAGE 3 ===
+which comprise more than half of all candidates participating in the elections, and
+identify strong or viable candidates. These are the candidates who have a chance
+of winning seats for the CD. Section 5 presents the evidence of limited competition
+in party lists. It is divided into three sub-sections, each focusing on a different way
+of demonstrating ‘list containment.’ Section 6 concludes with a discussion of the
+implications of our findings and possibilities for future work.
+2. OLPR electoral systems and intra-party competition
+PR systems with preference vote are increasingly popular. The reason may reflect
+voters’ desire to cast a ballot for persons and not organizations: when voters are
+directly responsible for the election of specific candidates, they can hold them indi-
+vidually accountable in a way they cannot if their only choice were the entire list
+political parties build (see Colomer, 2011; Manin, 1997; Mitchell, 2000). However,
+because it requires that candidates win over their co-partisans in order to be elected,
+it is widely accepted that candidates under preferential list PR will cultivate their
+own, personal, reputation at the expense of their party’s reputation, thus weakening
+the ties between voters, candidates, and parties (Carey and Shugart, 1995). The
+consequences of the personalism spawned by intra-party competition are said to be
+numerous and noteworthy: electoral campaigns become focused on individuals and
+not policies, party programs are diluted, and public policies respond to local rather
+than national concerns. Owing to intra-party competition, parties become dimin-
+ished in their capacity to enforce a ‘‘brand name’’ and become a simple list of candi-
+dates who compete among themselves to get the most votes. The final result are
+weak political parties and widespread competition consisting of a war of all candi-
+dates against all. For a review of this literature, see Mershon (2020) in this issue.
+We find this conclusion to be incorrect. It depends on three assumptions that are
+not warranted. First, it assumes that if preference vote is present, then intra-party
+competition exists at the time of election. However, it ignores that parties can com-
+pose their lists strategically such that candidates from the same list seek votes from
+non-overlapping constituencies. Second, it assumes that personalism always entails
+narrow and parochial support from constituents. However, it ignores that candi-
+dates may choose to emphasize traits that connect them to valence or ideological
+issues. Third, it assumes that the only instrument parties have to influence candi-
+dates is their placement in the party list. However, parties do have resources that
+can be deployed strategically to generate (personal) votes for candidates they prefer
+to see elected.
+We argue that even in OLPR systems political parties retain a significant role in
+shaping electoral competition. Office-seeking parties have a strong incentive to limit
+competition inside the list to prevent the eruption of a war of all against all within
+their lists. Parties can do so because they control access to their label and are able
+to deploy financial, logistical, and operational resources that are highly desirable
+by individual candidates. Candidates, in turn, also have an interest in limiting com-
+petition within their list. Only a small number of candidates are able to get personal
+votes that are sufficient to guarantee their election; all other candidates need the
+72
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 4 ===
+support of their parties in order to get elected. Given that party resources are lim-
+ited, those who see themselves as viable want to limit competition stemming from
+similar candidates. Thus, in OLPR, intra-list competition happens, like in any other
+electoral system, prior to the election.
+Brazil probably represents the least likely case for finding evidence of limited
+intra-party competition. The received wisdom about CD elections since the return
+of democracy in 1985 emphasizes that political parties are weak, that contests are
+hyper-competitive, and that candidates must fight for votes with co-partisans at
+least as much as they do with candidates from other parties.3 Indeed, such conclu-
+sions come from the analyses of the raw numbers involved in these elections. For
+example, in the 2014 election, 32 parties competed for votes in 27 multimember dis-
+tricts with magnitudes ranging from 8 to 70 (with a median magnitude of 10).
+Parties presented 768 lists across the 27 districts, which together contained 5,882
+candidates seeking one of the 513 seats in the Chamber of Deputies, thus implying
+an overall rate of 11 candidates per seat. The average list contained eight candi-
+dates, with a standard deviation of 12. The effective number of parties in 2014 was
+over 14, both in the electorate and in the CD. Yet, we show that intra-party com-
+petition was substantially constrained, even under these circumstances.
+Careful examination of the aggregate results reveals a different world, more
+ordained and constrained than the one that is usually depicted. The data show that
+the major parties and viable candidates often succeed in reducing partisan self-
+destruction. The fact that intra-party competition is not rampant during the elec-
+tion implies that much of it occurs, like in majoritarian and CLPR systems, prior
+to the election.
+The sharp contrast in the level of intra-party competition between OLPR and
+CLPR systems has been invoked as an explanation for a large number of impor-
+tant outcomes.4 This article adds to the growing list of work that sees a less-sharp
+distinction between these two systems and challenges the connection between the
+ballot structure, intra-party competition, personalism, and these outcomes. Studies
+such as those of Espı´rito-Santo and Sanches (2018), Sanches and Espı´rito-Santo
+(2016), Nemoto and Shugart (2013), Latner and McGann (2005), and Shugart et
+al. (2005) show that candidate attributes matter even where parties are in charge of
+ranking candidates before elections and voters can only cast a ballot for a party.
+Others, in turn, show that even in the presence of preferential voting, party organi-
+zations have other instruments they can deploy to act strategically. Folke et al.
+(2016), for example, point to a ‘primary effect’ in Sweden as parties use the infor-
+mation provided by preferential votes to compose lists for future elections and
+identify candidates for higher offices. Furthermore, the view that parties in prefer-
+ence list PR systems will be ideologically weak and composed of maverick candi-
+dates who cultivate their own unique base of support among voters is powerfully
+undermined by two of the articles included in this issue. Folke and Rickne (2020)
+showed that in Sweden’s local elections, politicians who communicate with voters
+in terms of ideology and policy preferences, receive relatively higher numbers of
+personal votes. Moreover, not only do they fail to find a correlation between ideo-
+logical deviation and preference votes, they show that, when there is a voting
+Cheibub and Sin
+73
+
+
+=== PDF PAGE 5 ===
+conflict between parties and politicians, candidates who think the party’s position
+should be prioritized are favored with preference votes. Carroll and Nalepa (2020),
+in turn, show how the very aspect that is considered to lead to weak parties in
+OLPR, the fact that party leaders cannot rank candidates prior to elections,
+induces parties to recruit individuals with a preference profile similar to that of
+party leaders. The consequence, as they show, are more, rather than less, ideologi-
+cally cohesive parties in OLPR than in CLPR. Finally, closer to our own work
+here, Crisp et al. (2013) and Swindle (2002) showed how parties in preferential PR
+systems strategically compose their lists and how, in so doing, they significantly
+mitigate, if not altogether prevent, intra-party competition. We add to these contri-
+butions by presenting evidence that intra-party competition is limited even in a set-
+ting where unbridled competition is seen as the norm.
+3. Elections for the CD
+Brazil is divided into 27 electoral districts, which correspond to each of the 26
+states and the federal district of Brası´lia (for this reason, we use ‘districts’ and
+‘states’ interchangeably). Each of these districts elects three senators and one gov-
+ernor in majoritarian elections. Senators are elected for 8 years but the Senate is
+renewed by 1/3 and 2/3 every 4 years. Governors and the President are elected for
+4 years in majority run-off contests and, since 1998, have been allowed one imme-
+diate reelection.
+Elections for the national CD and the 27 unicameral state legislatures are held
+under identical rules. The CD has 513 members (503 in 1990) and membership in
+state-level assemblies ranges from 24 to 94. In both cases, the entire state is one dis-
+trict. Voters have one vote, which can be cast for the party label or for a candidate
+running under the party label (there are no independents). Voters do not see a pre-
+printed list of candidates when they enter the booth. Whether voting on paper or
+electronically, voters must enter the number or the name of their party and/or can-
+didate. For this reason, the ‘list’ of candidates has to be conceived loosely: candi-
+dates run under the same party label, but are not in any way presented collectively
+to voters.
+Votes for the party label and votes for individual candidates from that party are
+pooled to compute the party total vote, PV. Seat allocation is first made to the par-
+ties on the basis of district quotas Qd = VV=M, where VV is the number of valid
+votes in the district, and M is the magnitude of the district. Parties get as many
+seats as their ‘party quota’ QP = PV=Qd. The n seats a party wins are allocated to
+the top-n candidates ranked in terms of their personal votes. In other words, the n
+candidates elected from the party slate are those with the highest number of votes.
+Remainder seats are allocated through the highest-average method. Since 1990, the
+election of 889 representatives (out of 3,334 deputies elected, or 27%), happened
+thanks to the remainder distribution.
+There are two important features of the OLPR system in Brazil that matter for
+our analysis. First, there is a district-level threshold, even though there is no
+national threshold. Lists that do not receive at least one Qd are excluded from the
+74
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 6 ===
+distribution of seats. Since the Chamber of Deputies is highly malapportioned in
+favor of states with relatively small populations, the effective threshold varies con-
+siderably among states.5 In Sa˜ o Paulo, for instance, the threshold has been
+100%=70 seats since 1994, which is equal to 1.43% of the valid votes; in Roraima
+(and all the other 10 states with district magnitude equal to 8), it is 100%=8 seats,
+which equals 12.5% of the valid votes. In absolute terms, this means that in 2014,
+a party in Sa˜ o Paulo needed to obtain at least 303,802 votes in order to avoid
+exclusion from the process of seat allocation; in Roraima, the party needed 27,837
+votes. The coalition rule, which we discuss next, allows parties that would not
+reach the district threshold by themselves to receive at least one seat.
+Second, parties are able to and do frequently enter into electoral coalitions when
+running for seats in the CD (as well as for state assemblies); and for the purpose of
+seat allocation, coalitions are treated as a single party. Yet, in what follows, we
+ignore the coalition and focus the analysis entirely on the list of candidates com-
+posed by the party, whether the party is running alone or in a coalition. We have
+three reasons for doing so.
+First, the electoral legislation treats a coalition as a single list only for purposes
+of seat allocation. The distribution of seats to coalitions is identical to the distribu-
+tion of seats to parties running alone: votes given to candidates and parties com-
+posing the coalition are pooled to compute CV, the total votes given to the
+coalition as a whole. To determine the number of seats the coalition can ‘buy,’ CV
+(rather than PV, defined above) is divided by the district quota Qd. Note that vot-
+ers who do not choose a candidate can vote for the parties that compose the coali-
+tion, but they cannot vote for the coalition. This is so because the coalition does
+not exist as an entity for the purposes of electoral campaigning. The allocation of
+seats to candidates is also identical to what happens in individual parties: the num-
+ber of preference votes coalition candidates receive determines their rank, and the
+top-n candidates in the list, regardless of their party affiliation, receive the n seats
+the coalition wins. Thus, and this is very important, coalitions for proportional
+elections only matter after the election, strictly for the aggregation of the votes and
+distribution of seats. In the proportional elections, parties and candidates do not
+compete as members of a coalition and voters are rarely aware that a candidate for
+federal deputy belongs to a party that is in coalition with another party. In fact,
+the legislation explicitly indicates that, when competing for the CD, parties should
+only use their own name and/or acronym during the campaign (TSE, 2012: art.6,
+paragraph 2).
+Second, parties in the same coalition do not negotiate anything about the con-
+duct of the campaign for federal deputies. The list of candidates is not the result of
+a process of bargaining among parties that seek to optimize their own lists with the
+coalition in mind. Rather, they are simply the addition of lists independently gener-
+ated by the parties that compose the coalition.6 The rules are such that coalitions
+do not constrain the number of candidates a party can include in its list. In the
+period studied here, 1990–2014, only 9 coalition lists, out of 796, reached the maxi-
+mum number of candidates they could have presented.7
+Cheibub and Sin
+75
+
+
+=== PDF PAGE 7 ===
+Third, gubernatorial elections drive the formation of coalitions. According to
+the legislation, coalitions need to be consistent at the district level across majoritar-
+ian and proportional contests. In other words, two parties that coalesce to elect a
+governor must either remain together or run separately in the CD elections; but
+they are not allowed to coalesce with a third party that participates in a different
+gubernatorial coalition (Mesquita, 2016). Thus, consistency is defined with respect
+to the coalition that forms to elect the governor.8 One of the implications of this is
+that coalitions are agreed at the district and not at the national level. Not only do
+they vary across elections, they also vary across states in the same election.
+In sum, coalitions for CD elections have little or no effect on how party lists are
+composed. They do not constrain the list of candidates a party presents and, plau-
+sibly, they do not affect how voters cast their ballot. For this reason, when it comes
+to the formation of candidate lists, the party, whether running alone or running in
+coalition, is the relevant unit of analysis.
+4. Party lists and the number of candidates
+In absolute terms, parties present relatively large lists of candidates for the CD.
+Between 1990 and 2014, 28,618 candidates, distributed over 3,816 party lists, com-
+peted for one of the 3,334 seats under dispute. This suggests an environment of
+intense intra-party competition. Yet, the absolute number of candidates running is
+quite misleading as a measure of competitiveness. In contrast to the arguments
+advanced by the literature, we find that the majority of candidates who run are
+irrelevant: they could be dropped from the race and the final allocation of seats
+would not change at all. Furthermore, we also find that the number of strong and
+competitive candidates in each list is actually small. In this section, we define and
+identify irrelevant and strong candidates in two different ways. In both cases, we
+find that about 60% of candidates are irrelevant.
+4.1. Irrelevant candidates
+Scholars and pundits alike commonly argue that in OLPR systems parties have an
+incentive to make their lists as large as possible. This belief comes from the fact that
+the total number of seats a list receives depends on the sum of the votes obtained
+by all candidates in that list. Thus, they argue, the more votes, the better chances to
+win an additional seat, implying that lists should be composed of as many candi-
+dates as there are individuals willing to compete. These individuals would, then,
+‘fight it off’ during the electoral campaign for the preferences of a given pool of
+voters.9 Any additional vote to a candidate in the list adds to the list’s total and,
+thus, increases the probability that the list would get one extra seat. Indeed, given
+the number of candidates running in each election, as can be seen in Table 1, one
+would think that this is exactly what parties do: they open their lists to anyone who
+wants to run and let candidates fend for themselves during the campaing period.10
+76
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 8 ===
+A closer examination of the lists, however, strongly suggests that the environ-
+ment for candidates during the election is not as competitive as it first appears. To
+begin with, the distribution of personal votes is very skewed. The reality of compe-
+tition in CD elections is that very few candidates can be reasonably assured about
+their own election: about 95% of the successful candidates were elected because of
+vote pooling within the list since they did not receive enough personal votes to
+reach one district quota. Many candidates, however, can be certain that they will
+not be elected, and they do not represent a threat to anyone’s chances of being
+elected.
+Table 2 clusters the candidates who ran between 1990 and 2014 by the number
+of personal votes they received, expressed as a proportion of their districts’ quota.
+The numbers show that not all candidates are the same and that the vast majority
+of candidates are, to put it mildly, irrelevant: 13,440 candidates, or 47%, received
+less than 1% of a district quota in personal votes; 77%, over 22,000 individuals
+out of 28,618, received less than 10% of a district quota. This means that, in a dis-
+trict such as Sa˜ o Paulo in 2014, where over 25 million voters cast a ballot, and
+where a seat cost about 300,000 votes, close to half of the candidates received less
+than 3,000 personal votes; and in a district such as Amapa´ , where about half a mil-
+lion people voted and a seat cost about 48,000 votes, a little less than half of the
+candidates received fewer than 480 votes. The small number of votes obtained by
+such a large number of candidates is clear in Figure 1.
+Figure 1 shows the proportion of candidates that competed in the seven elections
+between 1990 and 2014, clustered by the number of personal votes they received,
+expressed as a proportion of the district quota. This figure also adds the proportion
+of the total personal votes cast in all elections that each candidate cluster received.
+Thus, the first column shows that 47% of all candidates received less than 1% of a
+district quota in personal votes and that, together, their vote represented 1.71% of
+the votes cast during the period. The figure also shows that 5.3% of the candidates
+received 41% of the personal votes cast in the seven elections.
+Table 1. Number of candidates and seats in elections for the Chamber of Deputies, Brazil,
+1990–2014
+Year
+Number of candidates
+Number of seats
+Candidate/seat
+1990
+3,824
+503
+7.60
+1994
+1,530
+266
+5.75
+1998
+3,356
+513
+6.54
+2002
+4,198
+513
+8.18
+2006
+4,943
+513
+9.64
+2010
+4,885
+513
+9.52
+2014
+5,882
+513
+11.47
+All years
+28,618
+3,334
+8.58
+Source: Compiled by the authors from TSE, Brazil (http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-
+eleitorais-1/repositorio-de-dados-eleitorais/).
+Cheibub and Sin
+77
+
+
+=== PDF PAGE 9 ===
+Another way to look at the weight of the candidates with the least votes is to
+analyze whether such votes were helpful in pushing the total vote for their lists over
+a district quota. Although small individually, collectively they might have had an
+impact. This, however, is not the case. We simulated the allocation of seats in each
+district for the seven elections by removing, one at a time, the votes obtained by
+the candidate with the fewest personal votes.11 If candidates with a low absolute
+Table 2. Number of candidates in CD elections by personal votes, Brazil, 1990–2014
+Personal votes
+Number of candidates
+Percentage of candidates
+PV\0:01Dq
+13,440
+46.96
+0:01Dq  PV\0:10Dq
+8,663
+30.27
+0:10Dq  PV\0:20Dq
+1,976
+6.90
+0:20Dq  PV\0:30Dq
+1,252
+4.37
+0:30Dq  PV\0:40Dq
+1,004
+3.51
+0:40Dq  PV\050Dq
+752
+2.63
+0:50Dq  PV\0:60Dq
+579
+2.02
+0:60Dq  PV\0:70Dq
+362
+1.26
+0:70Dq  PV\0:80Dq
+196
+0.68
+0:80Dq  PV\0:90Dq
+129
+0.45
+0:90Dq  PV\1:00Dq
+88
+0.31
+1:00Dq  PV\1:50Dq
+128
+0.45
+1:50Dq  PV\2:00Dq
+30
+0.10
+PV.2:00Dq
+19
+0.07
+Total
+28,618
+100.00
+Source: Compiled by the authors from TSE, Brazil (http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-
+eleitorais-1/repositorio-de-dados-eleitorais/). PV = Personal votes; Dq = District quota.
+Figure 1. Proportion of candidates and proportion of personal votes, CD Elections, Brazil,
+1990–2014. Compiled by the authors from TSE, Brazil (http://www.tse.jus.br/eleicoes/
+estatisticas/repositorio-de-dados-eleitorais-1/repositorio-de-dados-eleitorais/)
+78
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 10 ===
+number of votes contributed to the totals of their lists in any way, removing them
+would change the allocation of seats to that list. We discovered that, over the seven
+elections, the votes obtained by 59% of the candidates made no difference whatso-
+ever in the final allocation of seats: removing their votes and reallocating the seats
+produced a distribution of seats identical to the one that occurred in reality. For
+example, in 2014, 1,239 candidates competed for the 70 CD seats from the state of
+Sa˜ o Paulo; the votes of 789 of them could simply be ignored and the allocation of
+seats, which resulted in 18 parties receiving at least one seat, would not have chan-
+ged. Ignoring the votes obtained by 789/1,239 = 64% of all candidates in that dis-
+trict in that election would make no difference in the way the seats were allocated
+to parties and candidates in that district.
+Thus, the vast majority of candidates makes no difference in the allocation of
+seats as they do not help their parties gain an extra one. When we remove irrele-
+vant candidates, the number of candidates that potentially matter in the race drops
+to 10,592 individuals.12
+4.2. Competitive or viable candidates
+Elections for the CD in Brazil are obviously competitive, but the high number of
+candidates per seat, the measure normally used by scholars and pundits, is not a
+good indicator of the real competition candidates face. In the previous section, we
+showed that the vast majority of candidates did not receive 10% of their district
+quotas in personal votes. We also identified as irrelevant those candidates who
+could have been removed from the race without altering in any way the distribution
+of seats in their districts. While compelling, these figures are endogenous to the
+elections in which the candidates competed. In this section, we identify the candi-
+dates who could be considered competitive, strong, or viable on the basis of infor-
+mation generated prior to the election in which they competed. We want to single
+out the candidates that enter the race with a reasonable expectation that they can
+win. Once we identify these candidates, we can evaluate the degree of intra-party
+competition such candidates face.
+We identify viable candidates in any given election by combining information
+about their participation and performance in previous elections. Based on these cri-
+teria, there are three groups of candidates. (1) Previous incumbents: those who at
+election t had been successfully elected as governor, senator, mayor, a member of
+the CD or of one of the state legislatures in a previous election. (2) Unsuccessful
+past candidates: individuals who had ran for one of those offices in the past but
+who were never elected. (3) Inexperienced candidates: those who had not partici-
+pated in an electoral contest before t.13
+We consider all previous incumbents to be strong, competitive, viable, or ‘high-
+quality’ candidates. In this sense, we follow the US literature on campaigns and
+elections, which considers candidates who have previously held public offices to be
+‘quality candidates.’ In general they did well, in terms of personal votes: 90% of
+them received more than 36% of their district quota, and no one received less than
+Cheibub and Sin
+79
+
+
+=== PDF PAGE 11 ===
+10%; as can be seen in Table 3, 61% of them were elected when they ran in one or
+more of the four elections between 2002 and 2014.
+Regarding the second category, past unsuccessful candidates, one could argue
+that they should all be considered weak because they never won an elected posi-
+tion. Yet, some of them did quite well in the past. It is reasonable, therefore, to
+think that they came into the election at t expecting to be successful, but, for vari-
+ous reasons, were not elected. Thus, instead of discarding all these candidates
+(which would favor our argument of low intra-party competition), we decided to
+include and consider strong those candidates who, although never elected before,
+received in the elections he or she had participated in at least 10% of a district
+quota in personal votes. This classifies as viable or strong 211 of the 212 candidates
+who had tried before but were first elected at t, and 562 of the 4,781 who were not
+elected at t, for a total of 773.14 Thus, 15% of the candidates who came into the
+election with a prior but unsuccessful run commanded sufficient personal votes to
+be considered viable candidates. Finally, 12,378 out of 19,908 candidates, 62%,
+had no prior electoral experience when they ran between 2002 and 2014. Some of
+these did well in terms of personal votes in the election they ran, although only 323
+were elected. Some of these are candidates who believed they could attract personal
+votes on the basis of activities they had engaged in outside of the electoral arena,
+whether or not these activities were political. Of these candidates, we consider
+viable those who were elected (with four exceptions) and, to be consistent with the
+criterion adopted above, those who obtained at least 10% of a district quota in
+personal votes, but were not elected. This adds 997 individuals to the set of viable
+candidates: 319 of the 323 novices elected when they first ran, and 678 novices who
+ended up not getting elected.15
+In the end, of the 19,908 candidates who participated in elections between 2002
+and 2014, 16%, (212 + 1508 + 319 + 562 + 960 + 678) or 4,238, can be consid-
+ered quality, viable or strong candidates. It was among these candidates that real
+competition for votes took place. This means that the ratio of candidate per seat
+under dispute in the four elections was 2.1. This is a far lower rate than that
+obtained by simply comparing the number of candidates with the total number of
+seats under dispute, which was 8.58 (see Table 1). This suggests that intra-party
+competition is much more limited than a first general analysis of candidates would
+indicate.
+Table 3. Candidates in CD elections according to their electoral histories, Brazil, 2002–2014
+Type of Candidate
+Running
+Elected
+Strong/Viable
+Previous Incumbent
+2,468
+1,508
+2,468
+Past Unsuccessful Candidate
+4,993
+212
+773
+No Previous Electoral History
+12,378
+323
+997
+Missing History
+69
+9
+Total
+19,908
+2,052
+4,238
+Source: Compiled by the authors from TSE, Brazil (http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-
+dados-eleitorais-1/repositorio-de-dados-eleitorais/).
+80
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 12 ===
+5. Contained intra-party competition
+The previous section showed that in spite of the large number of lists and candi-
+dates competing for a seat in the Brazilian CD, intra-party competition seems to be
+limited. Among strong candidates, the ratio of candidates per seat is 2.1, far from
+the ratio of 10 the literature usually reports.
+In this section, we explore the dynamics within parties to understand the level of
+intra-party competition. We do this by examining the distribution of personal votes
+across candidates in the same party and across parties. First, we look into whether
+different parties use distinct strategies to compose their lists. We find that competi-
+tive parties present candidate lists that are more efficient that those presented by
+less-competitive parties. Second, we assess the degree of intra-party competition by
+comparing the number of strong candidates in a list (as identified in Section 4.2)
+with the number of candidates elected from that list. We find that parties tend to
+build lists with as many strong candidates as seats they receive; lists that contain
+multiple strong candidates win multiple seats. We interpret this as evidence that
+strong candidates in the same party list are not necessarily competing for the same
+seat. We also analyze the context in which these parties act, and find that district
+magnitude adds uncertainty into parties’ strategies. Third, we examine the pattern
+of distribution of personal votes within party and coalition lists. We show that the
+distribution of votes across candidates from the same party list tends to be sharply
+discontinuous when we move from the last elected to the first non-elected candi-
+date. This indicates, we believe, that rather than a random group of individuals
+seeking votes in competition with one another, party lists are deliberately built in a
+way to reduce clashes among co-partisans.
+5.1. Candidate efficiency of party lists
+We define list efficiency as the ratio between the number of candidates presented
+and the number of candidates elected in a list, with low ratios indicating higher
+efficiency. The received view about CD elections in Brazil, as we have seen, is that
+party lists are large and candidates face intense competition from co-partisans, that
+is, that party lists are inefficient. Efficiency would be of no concern to either parties
+or candidates. Given that seats are allocated to the lists by pooling votes across all
+candidates, parties should have an incentive to present lists as large as possible.
+The incentive should be stronger for consolidated, more competitive and wealthier
+parties because they are those more likely to attract candidates. Thus, party lists of
+more competitive parties should be highly inefficient. In a perverse way, the litera-
+ture argues, the system rewards parties that are able to attract as many candidates
+as possible and incite intense competition among them.
+However, as we can see in Figure 2, the opposite is true. This figure presents the
+ratio between the number of candidates in a party list and the number of candi-
+dates elected in that list for the seven elections between 1990 and 2010, averaged
+over party type and district magnitude. We can see that candidate lists presented
+by more consolidated and competitive parties are considerably more efficient than
+Cheibub and Sin
+81
+
+
+=== PDF PAGE 13 ===
+those presented by weak, less-competitive ones. The former have lists that are sig-
+nificantly more contained numerically.
+We define as consolidated and more competitive the eight parties which, accord-
+ing to Mesquita (2016), have ‘executive proclivities,’ that is, parties that have pre-
+sented competitive candidates for governor in multiple elections and in multiple
+districts. For her, these parties ‘have the most to gain from coordinating electoral
+entry. They guarantee reduced competition and increased support for their candi-
+dates in the districts they consider to be the most important in any given election’
+(Mesquita, 2016: 70–71). Mesquita identifies eight such parties: the PT and the
+PSDB, the two parties that have held the presidency for relatively long periods of
+time since 1990 (12 years for the PT and 8 years for the PSDB) and are in opposite
+sides of the ideological and electoral spectrum (Limongi and Cortez, 2010; Melo,
+2014; Mesquita, 2016); four parties normally considered to be Brazil’s catch-all par-
+ties, the PMDB, PFL=DEM, PTB, and the PP; and two parties that were stronger
+earlier (PDT) or that have expanded later (PSB) in the period.16 The ‘executive pro-
+clivities’ of these parties, alongside with their desire to reduce competition, trans-
+lates into relatively higher levels of list efficiency in elections for the CD. Together,
+these parties presented 14,237 candidates across all seven elections and elected
+2,617; they presented 5.4 candidates for every candidate elected. The remaining par-
+ties, considered to be much less competitive, presented 14,381 candidates and
+elected 717, meaning that they presented 20 candidates for every candidate they
+elected. The candidate efficiency of competitive and non-competitive parties is more
+or less the same in small (DM between 8 and 12 seats), medium (DM between 16
+and 31 seats), and large (DM between 39 and 70 seats) districts. Thus, intra-party
+competition in the more competitive parties is substantially more restrained than in
+the other parties, at least when it comes to the number of potential competitors.17
+Figure 2. Party list efficiency by party type and district magnitude, CD Elections, Brazil, 1990–
+2014. Compiled by the authors from TSE, Brazil (http://www.tse.jus.br/eleicoes/estatisticas/
+repositorio-de-dados-eleitorais-1/repositorio-de-dados-eleitorais/)
+82
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 14 ===
+5.2. The number of strong candidates in party lists
+We now move to an examination of the number of strong candidates that appear
+in different party lists. What can the number of such candidates tell us about intra-
+party competition? Their absolute numbers tell us almost nothing: viable candi-
+dates do not necessarily face more competition from their co-partisans simply
+because they are in lists with other similar candidates. For example, intra-party
+competition might be less intense in a list that contains 10 viable candidates than
+in a list with only 3 such candidates if the former list is from a more competitive
+party that has enough electoral strength to elect all 10 of them while the latter is a
+list from a weaker party that expects to elect only one. To evaluate the degree of
+competition candidates face within their lists, thus, we need to have some idea of
+how those who put the list together expect to do in the election. In other words, we
+need to have a measure of the number of seats each list expects to receive. The
+degree of intra-party competition will increase with the difference between the
+number of viable candidates presented in a list, and the number of candidates the
+list expects to elect.
+Finding such an estimate, however, is not straightforward. In line with other
+researchers, we could use past success (e.g., the average number of seats received in
+the past n elections) as an indicator of how a party expects to do in the current elec-
+tion (Crisp et al., 2007). In a context such as that in Brazil, however, where district-
+level volatility is high, an average of past performance would not be very reliable as
+an indicator of future performance. The high volatility caused both by shifts in vot-
+ers’ preferences and the entry and exit of parties in different districts, leads to an
+artificially large number of lists that over-perform, that is, lists that elect more can-
+didates than the number of candidates they present. Although this is possible (e.g.,
+see the example in note 12), it is not reasonable to expect it to be frequent.
+Our solution is to simply compare the number of strong candidates in a list, our
+measure of viable candidates, with the number of seats a list received in the current
+election. This is possible because we classify candidates as strong in the current
+election on the basis of their performance in past elections; the classification, in this
+sense, is exogenous to the election for which it is used. We argue that intra-party
+competition is more intense, the larger the difference between the number of strong
+candidates in a list and the number of candidates elected from that list. When there
+are strong candidates who were not elected, it suggests that some candidates
+received votes that could have gone to someone else in the list.
+Table 4 contains the relevant information for the four elections for which we
+can identify strong candidates. Table entries represent the absolute number of
+party lists by the difference between strong candidates presented and elected, and
+by the magnitude of electoral districts: small (8–12), medium (16–31), and large
+(39–70). As can be seen, close to half of all party lists presented no strong candi-
+dates and elected no one. Intra-party competition in these cases is either non-
+existent or irrelevant.
+In turn, 1,367 lists presented at least one strong candidate. Of these lists, 24%
+presented exactly the number of strong candidates they elected, and 41% presented
+Cheibub and Sin
+83
+
+
+=== PDF PAGE 15 ===
+one strong candidate who was not elected. As we consider the number of viable
+candidates in the list to be an indicator of the party’s expected number of seats it
+will obtain, we see that 65% of the lists with at least one strong candidate are well
+coordinated in the sense that they follow Cox’s (1997) rule and present at most
+M + 1 viable candidates (where, following Crisp et al. (2007), M denotes the
+‘party’s magnitude’). In only 10% of all lists, or 35% of the lists with at least one
+competitive candidate, do we see three or more strong candidates in excess of the
+number of candidates elected. These lists are clearly uncoordinated. Had the party
+devoted some of the resources and efforts that went towards the multiple non-
+elected candidates to only one of them, they might have been able to obtain an
+additional seat. Eight per cent of the lists had two strong candidates in excess.
+Whether one adds them to the set of ‘well-coordinated’ lists or not, the overall pic-
+ture is not one of internecine intra-party competition.18
+Note that the difference between presented and elected viable candidates varies
+considerably with district magnitude. Candidates in smaller districts are less likely
+to have to fight against their co-partisans than candidates in largest districts. In dis-
+tricts with magnitudes between 8 and 12, 78% of all lists presented at most M + 1
+candidates with M as defined above; this proportion falls to 61% in medium size
+districts, and to 44% in the mega districts, those with magnitudes between 39 and
+70. In turn, while only 7% of the lists in the small districts presented three or more
+excess strong candidates, 40% in the mega districts did so. It may well be the case
+that the widespread perception of chaotic electoral competition for the CD in
+Brazil, prevalent among analysts of virtually every kind, comes from the habit of
+Table 4. Number of party lists by type of list and district magnitude, Brazil, 2002–2014
+District Magnitude
+Type of List
+All
+8  DM  12
+16  DM  31
+39  DM  70
+No strong candidates, no
+candidates elected
+1,275
+748
+388
+139
+As many strong candidates as
+candidates elected
+325
+189
+93
+43
+One more strong candidate than
+the number of candidates
+elected
+562
+306
+162
+94
+Two more strong candidates
+than the number of candidates
+elected
+210
+98
+65
+47
+Three or more strong
+candidates than the number of
+candidates elected
+266
+45
+97
+124
+Fewer strong candidates than
+elected
+4
+0
+2
+2
+All
+2,642
+1,386
+807
+449
+Source: Compiled by the authors from TSE, Brazil (http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-
+eleitorais-1/repositorio-de-dados-eleitorais/).
+84
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 16 ===
+projecting the electoral dynamics observed in the five mega districts to the rest of
+the country. These are the most developed districts; they concentrate about 60% of
+both population and economic activity and are the focus of national media atten-
+tion. Their sheer magnitude makes it hard for parties to form a reliable estimate of
+their strength and virtually impossible for candidates to have a good sense of where
+they stand in terms of votes when compared with their co-partisans. Relatedly, vot-
+ers are concentrated in large urban centers, which makes it harder for candidates to
+carve, geographically or in any other way, non-overlapping constituencies. It is
+possible, therefore, that the sense of extremely intense intra-party competition that
+pervades analysis of CD elections in Brazil emerges from the observation of what
+happens in the largest districts, which is then projected to the smaller ones.
+In conclusion, a comparison of the number of strong candidates presented by
+and elected from each list shows a very different picture than the one that predomi-
+nates in studies of Brazilian legislative elections and of OLPR electoral systems in
+general. Intra-party competition in smaller districts, at least as measured by the fre-
+quency with which lists present excess strong candidates, is much more constrained
+than previously realized.
+5.3. Discontinuous distribution of personal votes across candidates in the same
+list
+The lack of intense competition inside party lists can be also demonstrated through
+an examination of how personal votes are distributed across candidates in a party
+list. Consider the 2014 election in the state of Santa Catarina, in southern Brazil,
+where 16 seats were under dispute. The election was dominated by two broad coali-
+tions and one party, the Worker’s Party (PT), which ran alone and won two seats.
+One of the coalitions, C1, was composed of eight parties, and elected five candi-
+dates across three of these parties: PSDB, PP, and PPS; the other coalition, C2,
+contained 12 parties and received 9 seats, also distributed across three parties:
+PMDB, PR, and PSD.
+The distribution of votes for the candidates in the three sets of lists that received
+seats in this election is presented in panels A, B, and C of Figure 3. The hollow cir-
+cle in each panel represents the last candidate elected from that party. In panel A,
+we see the three parties from C1 that received seats. Keeping in mind that personal
+votes are expressed as a proportion of the district quota, we see that the first two
+candidates in the PP received, respectively, 1:09 and 0:59Dq in personal votes, and
+they were elected; the third candidate, who was not elected, received 0:02Dq in per-
+sonal votes. Thus, the difference in personal votes between the last elected and the
+first non-elected PP candidates was 0:57Dq. A similar situation can be observed for
+the other two parties in C1: the last elected candidate for the PSDB received 0:24Dq
+in personal votes, and the first non-elected received 0:06Dq; the last elected for the
+PPS received 0:37Dq and the first non-elected 0:01. Thus, a sharp discontinuity can
+be observed in Figure 3 in the personal votes received by the last elected and the
+first non-elected candidates in the same party.
+Cheibub and Sin
+85
+
+
+=== PDF PAGE 17 ===
+A similar discontinuity exists in the second coalition, C2, composed of three par-
+ties (PMDB, PR, and PSD, Figure 3 panel B). In both the PMDB and the PSD, the
+discontinuity is between the personal votes of the first and second non-elected can-
+didates. The PR, in turn, presented only one candidate, who was elected, thus impli-
+citly implying a difference as large as that candidate’s personal vote. In Figure 3
+panel C, we can observe the electoral results for the PT, which did not participate
+in any coalition. The first and second candidates, both elected, had personal votes
+equivalent to 0:64Dq and 0:53Dq, respectively. The third candidate, not elected,
+had personal votes amounting to 0:18Dq. The difference in personal votes between
+the last elected and the first non-elected candidates was, therefore, equal to 0:36Dq.
+Thus, we see in panels A–C of Figure 3 that the distribution of personal votes of
+candidates from the same party tend to take a sharp turn south at or around the
+first non-elected candidate.
+Now examine panel D of Figure 3, which depicts the distribution of personal
+votes received by candidates from all 8 parties that participated in C1, and those
+from the 12 parties that participated in C2. We can see that the difference between
+the last elected candidate and the first and/or second non-elected candidate is con-
+siderably smaller: the share of personal votes across the candidates occupying these
+three relative positions is quite similar. It is not difficult to imagine that small dis-
+turbances prior to the election could have led to the success of the sixth or
+Figure 3. Distribution of personal votes for candidates in party and coalition lists, CD
+elections, Santa Catarina, 2014. Compiled by the authors from TSE, Brazil (http://www.tse.jus.br/
+eleicoes/estatisticas/repositorio-de-dados-eleitorais-1/repositorio-de-dados-eleitorais/)
+86
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 18 ===
+seventh candidates instead of the fifth in C1, or of the tenth and not the ninth can-
+didate in C2.
+This pattern exemplifies the different environment candidates face in party ver-
+sus coalition lists. Candidates must act parametrically within the coalition: as dis-
+cussed in Section 3, the coalition list is the product of the mere addition of lists
+composed independently and, for political and legal reasons, are not identified as
+an actor in the campaign for federal representatives, let alone one capable of strate-
+gic behavior. But candidates can and do affect the lists in the parties under whose
+label they run, most importantly the number of claimants on the finite party
+resources. The fact that there is such a sharp discontinuity in the number of per-
+sonal votes received by successful and unsuccessful candidates suggests, we believe,
+Table 5. Difference in personal votes between last elected and first non-elected candidates in
+coalition and party lists, Brazil, 1990–2014
+Panel A
+Panel B
+Average across elections for each state
+Average across states for each election
+State
+Party
+Coalition
+Year
+Party
+Coalition
+AC
+0.313
+0.052
+1990
+0.160
+0.046
+AL
+0.396
+0.121
+1994
+0.214
+0.054
+AM
+0.402
+0.151
+1998
+0.285
+0.096
+AP
+0.201
+0.062
+2002
+0.278
+0.100
+BA
+0.252
+0.045
+2006
+0.307
+0.098
+CE
+0.365
+0.126
+2010
+0.326
+0.095
+DF
+0.427
+0.088
+2014
+0.384
+0.090
+ES
+0.221
+0.057
+GO
+0.307
+0.078
+MA
+0.276
+0.057
+MG
+0.206
+0.037
+MS
+0.223
+0.071
+MT
+0.269
+0.134
+PA
+0.280
+0.102
+PB
+0.341
+0.119
+PE
+0.380
+0.039
+PI
+0.361
+0.115
+PR
+0.221
+0.099
+RJ
+0.198
+0.068
+RN
+0.499
+0.171
+RO
+0.235
+0.066
+RR
+0.271
+0.095
+RS
+0.160
+0.083
+SC
+0.246
+0.043
+SE
+0.316
+0.138
+SP
+0.101
+0.041
+TO
+0.244
+0.043
+Source: Compiled by the authors from TSE, Brazil (http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-
+eleitorais-1/repositorio-de-dados-eleitorais/).
+Cheibub and Sin
+87
+
+
+=== PDF PAGE 19 ===
+that strong candidates go into the election knowing that they are fighting not their
+co-partisans but members of different parties. Table 5 demonstrates that the inflec-
+tion is general and larger in party lists than in coalition lists: the average differences
+for party lists for each state in all elections (panel A), and for each election across
+the states (Panel B), is always considerably higher than for coalition lists. To the
+extent that the break in the distribution of votes from the last elected to the first
+non-elected candidate denotes capacity to limit intra-list competition, we can say
+with assurance that members of the same party face much more limited competi-
+tion from co-partisans than members of parties in the same coalition.
+We interpret the existence of a sharp discontinuity between the last elected and
+the first non-elected candidate in party lists as evidence that these lists are numeri-
+cally contained and that they tend to be contained at or around that point. We
+would be incorrect, however, if we were to find similar differences across the per-
+sonal votes of candidates located in other relative positions. Our last piece of evi-
+dence, thus, is presented in Figure 4, which compares the personal votes between
+candidates located at different positions in the party list. If we locate the difference
+in votes between the last winner (LW) and the first loser (FL) at the center, to its
+left we have the difference in personal votes between the next-to-last winner (NLW)
+and the LW, and between the next to the next-to-last winner (NNLW) and NLW; to
+the right are the differences between the FL and the second loser (SL), and between
+the SL and the third loser (TL). If party lists are limited in the number of candidates
+they contain, we should observe a curvilinear pattern in the distribution of these
+differences: relatively small differences between two winning or two losing candi-
+dates; large differences between a winning and a losing candidate.19 Limiting the
+analysis to lists with all the positions displays a similar pattern, but significantly
+Figure 4. Average difference in personal votes for pairs of candidates in the same party list by
+district magnitude. Compiled by the authors from TSE, Brazil (http://www.tse.jus.br/eleicoes/
+estatisticas/repositorio-de-dados-eleitorais-1/repositorio-de-dados-eleitorais/). Candidate
+positions: NNLW = Next to Next to Last Winner; NLW = Next to Last Winner; LW = Last
+Winner; FL = First Loser; SL = Second Loser; TL = Third Loser.
+88
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 20 ===
+reduces the number of lists. As displayed in Figure 4, the overall pattern conforms
+with this expectation. Differences in the personal votes of last winners and first
+losers in lists from the same party are considerably larger than the differences
+between pairs to their left and right. As we had found in Section 4.2, there is a dis-
+trict magnitude effect: although the pattern of discontinuity is as expected across
+all districts, it is sharper in smaller districts than in larger.
+6. Conclusion
+In this article, we have provided evidence to the effect that, even in its most extreme
+form, OLPR elections do not necessarily imply high levels of intra-party competi-
+tion. Electoral campaigns will certainly be personalized since candidates need to
+attract votes for themselves. However, there is nothing in this fact that requires
+candidates from the same list to compete with one another for votes and that, as a
+consequence, competition will degenerate into a war of all against all, with the ulti-
+mate obliteration of political parties. As we have seen, the absolute number of can-
+didates competing misleads the observer because over 40% of them, in a strong
+and specific sense, are irrelevant: they generate so few votes that they could be
+dropped out of the race without changing at all the allocation of seats. Moreover,
+the number of candidates who enter an election with a reasonable expectation of
+victory is small, implying a moderate level of overall competition. Finally, when we
+consider the distribution of candidates inside the party lists we discover that, in
+general, they contain a limited number of viable candidates and that the number of
+excess candidates is small. To be sure, this pattern is less accentuated in very large
+districts, but it is nonetheless significantly present, suggesting that the difficulty
+emerges not so much from the ballot structure but from the extremely large magni-
+tude and sheer number of voters in the district.
+It is important to mention that candidates can be different not only because they
+have different number of personal votes, but also because they seek votes in differ-
+ent constituencies and, thus, do not really compete for the same pool of voters.
+Candidates in the same list can seek votes in different areas of the district; they can
+also seek the vote of constituencies that, even if not geographically concentrated,
+are qualitatively different (e.g., issue-oriented voters). Thus, apart from the finding
+that party lists are populated by a relatively small number of strong candidates, it
+might be possible that even that small number of candidates draw votes from dif-
+ferent constituencies spread across the district. We develop this idea in another
+paper.
+Electoral systems that cultivate incentives for candidates to emphasize the per-
+sonal vote do not necessarily imply autophagic competition among co-partisans
+and the obliteration of political parties. Yes, OLPR (and other forms of preferen-
+tial PR) does make elections more focused on individual candidates. However, the
+competition within parties happens prior to the election, with both parties and can-
+didates making sure that two candidates from the same party join forces to attract
+votes that otherwise would have gone to a different party, rather than fighting for
+the votes that one or the other would have received. Our findings have implications
+Cheibub and Sin
+89
+
+
+=== PDF PAGE 21 ===
+for the kinds of linkages politicians and voters establish in preferential PR systems,
+for the behavior of politicians once they are elected, and for the role of electoral
+institutions on the nature of public policies. They question the causal chain that
+connects incentives for personal votes to intra-party competition, weak political
+parties, and adverse policy outcomes.
+Acknowledgements
+We thank audience members and discussants for useful feedback during ALACIP, APSA,
+EPSA, and MPSA meetings. We would also like to thank for their comments the participants
+at seminars and workshops at Hebrew University, Oxford University, Peace University
+Institute, Texas A&M University, University of Illinois at Urbana-Champaign, University of
+Massachusetts at Amherst, and University of Virginia. We received useful feedback from
+many individuals but we are especially grateful to Gustavo Diaz Diaz Romero, Magna
+Ina´ cio, Roni Lehrer, Alejandro Medina, Milan Svolik, and Dawid Tatarczyk. Gisela Sin
+would like to thank the Lemann Institute for Brazilian Studies at the University of Illinois
+for their generous support. We would like to extend special thanks to Guy Whitten and the
+European Union Center at Texas A&M University for supporting one of the workshops in
+preparation for this special issue. Finally, we thank the authors in this special issue for their
+feedback during these workshops and the suggestions by two anonymous referees.
+Declaration of conflicting interests
+The author(s) declared no potential conflicts of interest with respect to the research, author-
+ship and/or publication of this article.
+Funding
+The author(s) received no financial support for the research, authorship and/or publication
+of this article.
+ORCID iD
+Jose´ Antonio Cheibub
+https://orcid.org/0000-0001-9732-4922
+Notes
+1.
+In addition to closed and open, PR lists can be flexible. In these systems, parties rank
+candidates prior to elections but voters can cast a preference vote for specific candi-
+dates in the list. Candidates receiving a certain number of preference votes are elected,
+regardless of their rank in the list produced by the party. The number of votes neces-
+sary to upset the party ranking varies considerably across systems, but is usually a pro-
+portion of the total number of votes received by the party or of the quota necessary to
+elect a candidate in the district. In most existing systems, voters rarely upset the rank-
+ing of candidates produced by the party, although there is evidence that personal votes
+are becoming more important (Reinwick and Pilet, 2016).
+2.
+See, among others, Bergman et al. (2013), Norris (2006), Willis et al. (1999: 21), Carey
+and Shugart (1995), and Geddes and Ribeiro Neto (1992).
+90
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 22 ===
+3.
+Ames and Power (2007: 191) state that the Brazilian OLPR system ‘encourages fierce
+struggles not only among different parties, but also between candidates from the same
+party.’ For Mainwaring (1995: 395), ‘to get elected, candidates often compete with their
+own party members more than they compete with candidates of other parties;’ Nicolau
+(2006: 700) believes that ‘candidates see as their main rivals colleagues from the same
+list rather than from other parties’ [our translation]; Geddes and Ribeiro Neto (1992:
+649) make reference to a remark by Francisco Weffort, a political scientist and eventual
+politician, to the effect that ‘the open-list system pits candidates of the same party
+against each other;’ Power (2000: 28) believes that Brazilian ‘open-list PR is fratricidal.’
+4.
+A non-exhaustive list includes: relatively low levels of public goods provision (Shugart,
+1999); narrowly targeted public policy (Lizzeri and Persico, 2001; Milesi-Ferretti et al.,
+2002); relatively high levels of corruption (Chang, 2005; Geddes and Ribeiro Neto,
+1992; Golden, 2003); relatively low levels of corruption (Kunicova´
+and Rose-
+Ackerman, 2005; Persson et al., 2003), or different types of corruption (Gingerich,
+2013); gender imbalance (Jones and Navia, 1999); distributive politics (Franchino and
+Mainenti, 2013); higher budget deficits (Hallergerg and Marier, 2004); inefficient public
+spending (Hicken and Simmons, 2008); bilateral investment treaties and foreign direct
+investment (Crisp et al., 2010; Garland and Biglaiser, 2008); vote buying (Hicken,
+2007); agricultural subsidies (Park and Jensen, 2007); and economic reform (Bagashka,
+2012).
+5.
+Malapportionment in the CD comes primarily from a constitutional rule imposing a
+floor and a ceiling on the formula for determining the magnitude of the district: regard-
+less of population, no district may have fewer than 8 or more than 70 seats. There are
+no adjustments of seats due to population shifts. The last time a change occurred was
+in 1993, when the size of the CD increased from 503 to 513, with the additional 10 seats
+going to Sa˜ o Paulo. In 2013 the court in charge of elections (the Tribunal Superior
+Eleitoral or TSE) attempted to adjust the number of seats on the basis of the 2010 cen-
+sus. States challenged the TSE decision in the federal high court (Supremo Tribunal
+Federal), which reversed the changes, arguing that they could only be made on the
+basis of constitutional (complementar) legislation (Zampier, 2013).
+6.
+See Carneiro (2009) for examples of how parties form candidate lists in the state of Rio
+de Janeiro.
+7.
+These were in Amapa´ (1990), Brası´lia (two in 1990, one in 1998, two in 2014), Paraı´ba
+(1990), Rondonia (2014), and Roraima (2014). For reasons we could not discover, four
+coalitions in 1990 (Roraima, Sa˜ o Paulo, and two in Rio de Janeiro) presented more
+candidates than they should have been allowed.
+8.
+For a review of the literature on the incentives of large and small parties to coalesce in
+elections for the CD see Calvo, Guarnieri, and Limongi (2015), Schmitt (2005) and
+Mesquita (2016).
+9.
+Consider, for example, Bergman et al. (2013: 322): ‘A seat-maximizing party under
+OLPR is indifferent to the distribution of votes across its candidates, meaning we can
+expect laissez faire competition: nominate the maximum allowable number of candi-
+dates, and let them compete freely.’
+10.
+All the data in this article come from Tribunal Superior Eleitoral, Brasil. Data for 1994
+are incomplete. The TSE has withdrawn the data that used to be available and has re-
+released information for only 15 of the 27 districts.
+11.
+In this exercise, we started by allocating the seats in the district as they actually hap-
+pened. We did that according to the rules that governed each election, which means that
+we used the coalition lists, when relevant, as the recipient of seats; we then allocated the
+Cheibub and Sin
+91
+
+
+=== PDF PAGE 23 ===
+seats to individual members of the list. For 12 of the 177 districts, we were not able to
+exactly replicate the final allocation of seats, although the outcome was very close. We
+did not include these districts here.
+12.
+Recall that 28,618 candidates competed between 1990 and 2014. Excluding the candi-
+dates in the 12 districts we could not replicate, leaves 25,588 candidates, of which
+14,996 were found to be irrelevant. Therefore, the personal votes received by 10,592
+candidates mattered for the final allocation of seats.
+13.
+Owing to data limitations, our ‘history’ only goes back as far as 1998. Thus, candidates
+who ran in 2002 had histories defined by their participation and performance in the 1998
+and 2000 elections; candidates who ran in 2006 had histories defined by their participation
+and performance in the 1998, 2000, 2002, and 2004 elections; etc. In creating these his-
+tories, in addition to the national elections that happened up to 2014, we also considered
+the local elections of 2000, 2004, 2008, 2012, and 2016. There were 69 candidates in these
+elections for whom we were not able to find information about their participation and
+performance in previous elections. In total, therefore, Table 3 and the analysis in Section
+5.2 refer to the 19,908 who participated in the four elections between 2002 and 2014.
+14.
+The one case not classified as strong among the 212 who were first elected at t comes
+from the list presented by the PRONA in Sa˜ o Paulo in 2002. This candidate received
+0.15% of a district quota in personal votes and was elected in the tail of Ene´ as
+Carneiro, who obtained 5.6 district quotas in personal votes, thus automatically elect-
+ing himself and four of his co-partisans. The other three received similarly low levels of
+personal votes, but had never participated in any election before. A fifth candidate,
+also an electoral novice who received 0.01% of a district quota in personal votes, was
+elected in the remainder distribution.
+15.
+The four exceptions are explained in the previous note. The majority of novices who
+were not elected when they ran performed poorly in the elections they had participated
+in: 50% of them received less than 0.6% of a district quota in personal votes; 90% of
+them received less than 8% of a district quota.
+16.
+Mesquita’s list is only marginally different from other classifications of large parties,
+e.g., Guarnieri (2011) and Braga (2006).
+17.
+Parties in Brazil, as in other places, differ in the way they are organized, some more cen-
+tralized than others. This is clearly something that might affect their ability to control
+the list and prevent entry of excess candidates. Unfortunately, addressing this possibil-
+ity is impossible given the state of our knowledge about how parties in Brazil are orga-
+nized. The best and most complete study of party organization in Brazil is by Guarnieri
+(2011), which is limited to only seven parties. Since there may be variation in the way
+parties operate at the district level when it comes to list composition, it is not possible
+to extend Guarnieri’s classification of parties to the whole country.
+18.
+There are at least two possible reasons for lists in Brazil to overshoot the number of strong
+candidates. One is that there is a non-trivial number of seats (close to 15% in the average
+district) that are allocated through the (largest average) remainder distribution. Second,
+many candidates are not initially elected but end up serving some significant amount of
+time as an elected representative. Many of those who were initially elected leave when they
+join the government as a minister or as a member of an executive or judicial agency, or
+run in mayoral elections that take place in the second year of their mandate. When this
+happens, the next candidate in the list takes the seat. We know of no systematic studies
+about these candidates, except that the number is considered to be high.
+19.
+The number of cases in each pair differs because not all lists have candidates in all
+positions.
+92
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 24 ===
+References
+Ames B and Power TJ (2007) Parties and governability in Brazil. In: Webb P and White S
+(eds) Party Politics in New Democracies. Oxford: Oxford University Press, pp. 179–212.
+Bagashka T (2012) The personal votes and economic reform. Electoral Studies 31(3):
+562–575.
+Bergman ME, Shugart MS and Watt KA (2013) Patterns of intra-party competition in open-
+list and SNTV systems. Electoral Studies 32: 321–333.
+Braga MdSS (2006) O processo partida´rio-eleitoral brasileiro: Padro˜es de competicxa˜o polı´tica.
+Sa˜ o Paulo: Associacxa˜ o Editorial Humanitas.
+Calvo E, Guarnieri F and Limongi F (2015) Why coalitions: Party system fragmentation,
+small party bias, and preferential vote in Brazil. Electoral Studies 39: 219–229.
+Carey JM and Shugart MS (1995) Incentives to cultivate a personal vote: A rank ordering of
+electoral formulas. Electoral Studies 14(4): 417–439.
+Carneiro AR (2009) Processo de selecxa˜o de candidatos ao cargo de deputado federal no estado
+do Rio de Janeiro: Organizando as ‘pecxas’ do ‘‘quebra-cabecxa’’. PhD Thesis, Instituto
+Universita´ rio de Pesquisas do Rio de Janeiro (IUPERJ), Rio de Janeiro, Brazil.
+Carroll R and Nalepa M (2020) The personal vote and party cohesion: Modeling the effects
+of electoral rules on intraparty politics. Journal of Theoretical Politics 32(1): 36–69.
+Chang ECC (2005) Electoral incentives for political corruption under open-list proportional
+representation. The Journal of Politics 67(3): 716–730.
+Colomer JM (2011) Introduction: Party and personal representation. In: Colomer JM (ed)
+Personal Representation: The Neglected Dimension of Electoral Systems. ECPR Press, pp.
+1–20.
+Cox GW (1997) Making Votes Vount: Strategic Coordination in the World’s Electoral
+Systems. Cambridge: Cambridge University Press.
+Crisp BF, Jensen K and Shomer Y (2007) Magnitude and vote seeking. Electoral Studies 26:
+727–734.
+Crisp BF, Jensen NM, Rosas G and Zeitzoff T (2010) Vote-seeking incentives and
+investment
+environments:
+The
+need
+for
+credit
+claiming
+and
+the
+provision
+of
+protectionism. Electoral Studies 29: 221–226.
+Crisp BF, Olivella S, Malecki M and Sher M (2013) Vote-earning strategies in flexible list
+systems: Seats at the price of unity. Electoral Studies 32: 658–669.
+Espı´rito-Santo A and Sanches ER (2018) Looking for locals under a closed-list proportional
+representation system: The case of Portugal. Electoral Studies 52: 117–127.
+Folke O, Persson T and Rickne J (2016) The primary effect: Preference votes and political
+promotions. American Political Science Review 110(3): 559–578.
+Folke O and Rickne J (2020) Preference votes: Accountability at the price of cohesion?
+Journal of Theoretical Politics 32(1): 11–35.
+Franchino F and Mainenti M (2013) Electoral institutions and distributive policies in
+parliamentary systems: An application to state aid measures in eu countries. West
+European Politics 36(3): 498–520.
+Garland MW and Biglaiser G (2008) Do electoral rules matter? Political institutions and
+foreign direct investment in Latin America. Comparative Political Studies 42(2): 224–251.
+Geddes B and Ribeiro Neto A (1992) Institutional sources of corruption in Brazil. Third
+World Quarterly 13(4): 641–662.
+Gingerich D (2013) Political Institutions and Party-directed Corruption in South America:
+Stealing for the Team. Cambridge: Cambridge University Press.
+Cheibub and Sin
+93
+
+
+=== PDF PAGE 25 ===
+Golden MA (2003) Electoral connections: The effects of the personal vote on political
+patronage, bureaucracy and legislation in postwar italy. British Journal of Political
+Science 33: 189–212.
+Guarnieri F (2011) A forcxa dos partidos fracos. Dados 54(1): 235–258.
+Hallergerg M and Marier P (2004) Executive authority, the personal vote and budget
+discipline in Latin American and Caribbean countries. American Journal of Political
+Science 48(3): 571–587.
+Hicken A (2007) How do rules and institutions encourage vote buying? In: Elections for
+Sale: The Causes and Consequences of Vote-buying. Boulder, CO: Lynne Rienner, pp. 47–
+60.
+Hicken A and Simmons JW (2008) The personal vote and the efficacy of education spending.
+American Journal of Political Science 52(1): 109–124.
+Jones MP and Navia P (1999) Gender quotas, electoral laws, and the election of women:
+Assessing the effectiveness of quotas in open list proportional representation electoral
+systems. Social Science Quarterly 80: 341–355.
+Kunicova´ J and Rose-Ackerman S (2005) Electoral rules and constitutional structures as
+constraints on corruption. British Journal of Political Science 35(4): 573–606.
+Latner M and McGann A (2005) Geographical representation under proportional
+representation: The cases of Israel and the Netherlands. Electoral Studies 24: 709–734.
+Limongi F and Cortez R (2010) As eleicxo˜ es de 2010 e o quadro partida´ rio. Novos Estudos 88:
+21–37.
+Lizzeri A and Persico N (2001) The provision of public goods under alternative electoral
+incentives. American Economic Review 91(1): 225–245.
+Mainwaring S (1995) Brazil: Weak parties, feckless democracy. In: Mainwaring S and Scully
+TR (eds) Building Democratic Institutions: Party Systems in Latin America. Palo Alto,
+CA: Stanford University Press, pp. 354–398.
+Manin B (1997) The Principles of Representative Government. New York: Cambridge
+University Press.
+Melo CR (2014) The 2014 elections and the Brazilian party system. Brazilian Political
+Science Review 9(1): 93–114.
+Mershon C (2020) Challenging the wisdom on preferential proportional representation.
+Journal of Theoretical Politics 32(1): 168–182.
+Mesquita L (2016) Coordenacxa˜o eleitoral no Brasil: O papel dos partidos polı´ticos. PhD
+Thesis, Universidade Estadual do Rio de Janeiro, IUPERJ, Rio de Janeiro, Brazil.
+Milesi-Ferretti GM, Perotti R and Rostagno M (2002) Electoral systems and public
+spending. Quaterly Journal of Economics 117(2): 609–657.
+Mitchell P (2000) Voters and their representatives: Electoral institutions and delegation in
+parliamentary democracies. European Journal of Political Research 37: 335–351.
+Nemoto K and Shugart MS (2013) Localism and coordination under three different electoral
+systems: The national district of the Japanese House of Councilors. Electoral Studies
+32(1): 1–12.
+Nicoalu J (2006) O sistema eleitoral de lista aberta no brasil. Dados 49(4): 689–720.
+Norris P (2006) Recruitment. In: Katz R and Crotty W (eds) Handbook of Party Politics.
+London: SAGE Publications, pp. 89–108.
+Park JH and Jensen N (2007) Electoral competition and agricultural support in OECD
+countries. American Journal of Political Science 51(2): 314–329.
+Persson T, Tabellini G and Trebbi F (2003) Electoral rules and corruption. Journal of the
+European Economic Association 1(4): 958–989.
+94
+Journal of Theoretical Politics 32(1)
+
+
+=== PDF PAGE 26 ===
+Power TJ (2000) Political institutions in democratic Brazil: Politics as a permanent
+constitutional convention. In: Democratic Brazil: Actors, institutions, and processes.
+Pittsburgh, PA: Pittsburgh University Press, pp. 17–35.
+Reinwick A and Pilet JB (2016) Faces on the Ballot: The Personalization of Electoral Systems
+in Europe. Oxford: Oxford University Press.
+Sanches ER and Espı´rito-Santo A (2016) Cabecxas de lista a` s eleicxo˜ es legislativas portuguesas:
+Lacxos locais ou visibilidade nacional? Ana´lise Social 220: 659–683.
+Schmitt R (2005) Os estudos sobre aliancxas ee coligacxo˜ es eleitorais na cieˆ ncia polı´tica
+brasileira. In: Krause S and Schmitt R (eds) Partidos e coligacxo˜es eleitorais no Brasil.
+Fundacxa˜ o Editora da UNESP, pp. 11–26.
+Shugart MS (1999) Presidentialism, parliamentarism, and the provision of collective goods
+in less-developed countries. Constitutional Political Economy 10: 53–88.
+Shugart MS, Valdini ME and Suominen K (2005) Looking for locals: Voter information
+demands
+and
+personal
+vote-earning
+attributes
+of
+legislators
+under
+proportional
+representation. American Journal of Political Science 49(2): 437–449.
+Swindle SM (2002) The supply and demand of the personal vote: Theoretical considerations
+and empirical implications of collective electoral incentives. Party Politics 8(3): 279–300.
+TSE TSE (2012) Co´digo eleitoral anotado e legislacxa˜o complementar. 10th Ed. Tribunal
+Superior Eleitoral, Secretaria de Gesta˜ o da Informacxa˜ o, Brası´lia.
+Willis E, Garman C and Haggard S (1999) The politics of decentralization in Latin America.
+Latin American Research Review 34(1): 7–56.
+Zampier D (2013) TSE muda representacxa˜ o de estados na caˆ mara dos deputados. Available
+at:
+http://www.ebc.com.br/noticias/brasil/2013/04/tse-muda-representacao-de-estados-
+na-camara-dos-deputados.
+Cheibub and Sin
+95

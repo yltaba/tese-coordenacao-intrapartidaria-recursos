@@ -1,0 +1,1750 @@
+=== PDF PAGE 1 ===
+Journal of Public Economics 234 (2024) 105133
+Available online 27 April 2024
+0047-2727/© 2024 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+Contents lists available at ScienceDirect
+Journal of Public Economics
+journal homepage: www.elsevier.com/locate/jpube
+The gatekeeper’s dilemma: Political selection or team effort✩
+Jon H. Fiva a, Federica Izzo b, Janne Tukiainen c,d,∗
+a Department of Economics, BI Norwegian Business School, Norway
+b Department of Political Science, University of California San Diego, United States of America
+c Department of Economics, Turku School of Economics, University of Turku, Rehtorinpellonkatu 3, FI-20014, Finland
+d VATT Institute for Economic Research, Arkadiankatu 7, Helsinki FI-00101, Finland
+A R T I C L E
+I N F O
+JEL classification:
+C21
+D72
+Keywords:
+Intra-party politics
+Flexible party lists
+Campaigning
+Moral hazard
+Seniority norms
+Bargaining
+A B S T R A C T
+Political parties play a crucial gatekeeping role in elections, including controlling electoral resources, candidate
+recruitment, and electoral list compositions. In making these strategic choices, parties aim to encourage
+candidates to invest in the campaign, while also trying to secure advantages for their preferred candidates.
+We study how parties navigate this trade-off using a specific feature of the Norwegian local electoral system
+in which parties can give advantaged positions to some candidates in an otherwise open list. Our theory
+reveals that parties’ ex-ante electoral strength impacts their strategic decisions. Notably, the trade-off is
+weaker for more popular parties, allowing them to facilitate the election of their preferred candidates without
+compromising the party’s overall performance. We show empirically that the moral hazard concern is real, and
+that larger parties are indeed more likely to use their power to make some candidates safe. The advantage
+of large parties extends further: safeguarding specific candidates enables parties to achieve disproportionately
+favorable outcomes in post-electoral bargaining. These findings reveal new insights for political representations,
+policy outcomes, and intra-party dynamics more broadly.
+1. Introduction
+Political parties are often considered as the cornerstone of democ-
+racy (Stokes, 1999). Among their vital roles is that of gatekeepers
+in the political selection process. Parties wield control over electoral
+resources and candidate recruitment, shape the composition of electoral
+lists, influence the internal competition for seats and the allocation of
+electoral rents.
+In navigating these strategic choices, political parties face a dual
+objective. On one hand, party leaders aim to incentivize individual
+candidates’ behavior, in order to get them to contribute to the party’s
+goals and invest in costly campaign efforts (e.g., Invernizzi and Prato,
+2023). On the other hand, parties may seek to exercise their gate-
+keeping power to secure advantages or positions for their preferred
+candidates (e.g., Buisseret and Prato, 2022). These objectives often
+present a challenging trade-off, as they may be hard to achieve at the
+same time.
+This paper investigates how political parties resolve this trade-off.
+We study, both theoretically and empirically, under which conditions
+✩We thank Ali Cirone, Benoit Crutzen, Ben Geys, Nikitas Konstantinidis, Carlo Prato, Rune SøRensen, Stephane Wolton for useful comments and Anna Ristilä for
+excellent research assistance. Fiva gratefully acknowledges financial support from The Research Council of Norway (grant no. 314079). Tukiainen acknowledges
+funding by the European Research Council (ERC, INTRAPOL, 101045239). Views and opinions expressed are however those of the authors only and do not
+necessarily reflect those of the EU or the ERC. Neither EU nor ERC can be held responsible.
+∗Corresponding author at: Department of Economics, Turku School of Economics, University of Turku, Rehtorinpellonkatu 3, FI-20014, Finland.
+E-mail addresses: jon.h.fiva@bi.no (J.H. Fiva), fizzo@ucsd.edu (F. Izzo), janne.tukiainen@utu.fi (J. Tukiainen).
+party leaders privilege maximizing the candidates’ incentives for effort
+and when instead they choose a strategy that emphasizes selection
+(of their preferred candidates). Our main contribution is to show that
+parties’ ex-ante electoral strength crucially influences their strategic
+calculus in this domain. In particular, we uncover an important regu-
+larity. The aforementioned tradeoff is weaker for ex-ante more popular
+parties. These parties can adopt strategies that protect or advantage
+their preferred members, without compromising the party’s collective
+performance. Thus, more popular parties can have their proverbial cake
+and eat it too.
+Empirically investigating this trade-off and understanding how par-
+ties strategically address it presents numerous challenges. Political
+parties are often unwilling to disclose information about their internal
+dynamics, to the extent that political scientists have labeled parties’
+objectives and internal organization as the ‘‘black box’’ or ‘‘secret
+garden’’ of politics (Field and Siavelis, 2008; Hazan and Rahat, 2010;
+Gallagher and Marsh, 1988).
+This paper circumvents this issue by capitalizing on a particular
+feature of the Norwegian local electoral system. In Norway, local
+https://doi.org/10.1016/j.jpubeco.2024.105133
+Received 2 July 2022; Received in revised form 14 April 2024; Accepted 16 April 2024
+
+
+=== PDF PAGE 2 ===
+Journal of Public Economics 234 (2024) 105133
+2
+J.H. Fiva et al.
+elections are decided by a flexible list system, where voters can express
+their preference for individual politicians (as in open-list systems), but
+parties can choose to assign an advantaged position to some of their
+candidates (similarly to a closed-list system). The candidates that are
+placed in an advantaged spot receive a ‘bonus’ amount of personal
+preference votes. This boost is so large that it is extremely hard for
+a non-advantaged candidate to compete with the advantaged ones in
+the intra-party contest.
+By strategically allocating advantaged positions, local parties can
+therefore regulate the intensity of the internal contest for seats. As
+such, parties may fall victim of the trade-off that we discussed above.
+If this trade-off is binding, parties must choose between an allocation
+strategy that maximizes individual candidates’ incentives to contribute
+to the party’s collective performance and one that seeks to shield their
+favored candidates from competition. This context thus offers a unique
+opportunity for us to delve into the gatekeeper’s dilemma.
+To this aim, we first introduce a stylized model to study parties’
+strategic problem in this setting. Party leaders care about maximizing
+the number of seats won, but they also value the possibility to manage
+the political selection process by securing positions for specific can-
+didates in the list. In the model, the allocation of seats to the party
+is a function of its ex-ante electoral strength, as well as individual
+candidates’ effort. The assignment of seats within the party is a function
+of candidates’ effort and the allocation of advantaged positions. Here,
+party leaders face a moral hazard problem, since individual candidates
+care solely about their own chances of winning a seat, rather than the
+party’s overall performance. Crucially, the intensity of this problem will
+be endogenous to the party’s strategic choice. In fact, the number of
+advantaged positions allocated by the leadership fundamentally alters
+the candidates’ incentives to exert costly campaign effort in this setting.
+Our analysis proceeds in two steps. First, our model confirms the
+existence of the gatekeeper’s dilemma: while the leadership may want
+to strategically allocate advantages in order to insulate some candidates
+from competition and guarantee them a seat, the total amount of cam-
+paign effort is maximized when no advantaged positions are assigned.
+Thus, the party leader cannot both maximize incentives for effort and
+protect its preferred candidates at the same time.
+Second, we show that ex-ante more popular parties have a strategic
+advantage in navigating this tradeoff. The intuition is as follows. When
+certain candidates are shielded from internal competition (i.e., receive
+an advantage that guarantees them a seat),1 only those without this
+advantage may have incentives to exert effort in order to win the
+internal contest for seats. Yet, these non-advantaged candidates stand
+a chance of securing a position only if the party wins more seats
+than the number of advantaged candidates in the list (because the
+seats are allocated first to the advantaged candidates). If a party is ex-
+ante electorally stronger, for example because its ideological stances
+are more popular with the electorate, the number of seats it may
+expect to win is higher (everything else being equal). In principle,
+this may increase or decrease the equilibrium effort choice of the non-
+advantaged candidates, given the complex set of incentives arising in
+the model. For instance, a higher number of available prizes reduces
+the necessity of winning the intraparty contest that governs the alloca-
+tion of seats amongst non-advantaged candidates, thereby diminishing
+the motivation to exert effort. On the other hand, the availability of
+more prizes offers these candidates the opportunity to secure one by
+achieving a sufficiently high rank in the internal competition, without
+the need to be the top contender. This possibility, in turn, enhances the
+incentives to invest effort. Our analysis shows that the second effect
+1 Formally, the number of advantaged candidates is smaller than the
+minimum number of seats the party expects to win.
+dominates. Fixing the number of advantaged candidates, the incentive
+for non-advantaged candidates to exert effort grows with the party’s ex-
+ante electoral popularity. A similar effect emerges under open-list, but
+there the marginal impact of increasing the party’s strength is reduced
+by the fact that internal competition is more intense. As a consequence,
+ex-ante more popular parties can protect their preferred candidates
+without significantly dampening the other candidates’ incentives to
+exert effort, and thus without sacrificing the party’s overall electoral
+performance. Therefore the likelihood that, in equilibrium, a party
+assigns advantages to protect some of its candidates and guarantee
+them a seat increases in the party’s initial electoral strength.
+With these predictions at hand, we turn to the data. First, we verify
+that political candidates respond to the incentives arising under the
+different list structures as predicated in the model. We show that,
+as expected, candidates exert more effort, proxied by their personal
+vote share or media presence, when their advantaged status does not
+guarantee them a seat compared to when it does. This reassures us
+that the moral hazard problem we hypothesize is indeed empirically
+relevant. Next, we show that the data support our main prediction
+on the equilibrium allocation of advantaged positions. The likelihood
+of a party choosing an allocation that insulates some candidates from
+competition (at the expenses of effort and thus seats) is increasing in its
+ex-ante electoral strength. These results are robust to several controls
+and different empirical specifications. Importantly, further analysis also
+suggests that the hypothesized mechanism underlies these empirical
+patterns.
+Next, we investigate how a party’s ability to advantage their pre-
+ferred candidates impacts the party’s post-electoral outcomes. Natu-
+rally, we cannot directly compare post-electoral outcomes for parties
+employing different allocation strategies because this choice is en-
+dogenous to the party’s initial strength. Instead, we identify specific
+candidate traits that political parties typically prioritize, but that do
+not align with voters’ preferences. This enables us to examine how
+protecting candidates with these characteristics, who would otherwise
+face greater challenges in securing a seat, impacts a party’s success in
+the post-electoral bargaining process.
+We then proceed in two steps. First, by comparing voter preferences
+with parties’ strategic allocation of advantages, we find that voters
+tend to be less inclined toward women candidates, but parties tend
+to prioritize these candidates when assigning advantageous positions.
+Furthermore, while both voters and parties tend to favor incumbents,
+the effect of incumbency and further seniority on the likelihood of
+securing an advantageous position within the party is more substantial
+than the effect on vote share.
+Secondly, when examining the consequences of electing candidates
+with these particular traits, we discover that as the proportion of
+elected incumbents and women increases, political parties tend to
+achieve more influential nominations and positions in the municipal
+government. As such, these findings underscore that the ability to shield
+certain candidates from competition and ensure their election can
+significantly boost the party’s influence in the post-electoral bargaining
+and policymaking process.
+Even more broadly, our key finding that more popular parties are
+more likely to insulate some candidates from competition and secure
+them a seat has implications beyond the electoral realm. We know
+from a large empirical literature that the individual qualities of political
+leaders can have an important impact on municipalities’ or countries’
+economic performance (Besley et al., 2011; Carreri and Payson, 2023;
+Meriläinen, 2022). As such, parties’ ability to advantage candidates
+with specific characteristics is far from inconsequential, particularly
+if larger parties are more inclined to adopt this strategy (since their
+candidates are more likely to obtain positions of power). From a welfare
+perspective, this result presents a dual perspective. On one hand,
+if these more influential parties can more easily deviate from voter
+preferences in the selection process, this raises concern for substantive
+representation. On the other hand, if parties have better information on
+
+
+=== PDF PAGE 3 ===
+Journal of Public Economics 234 (2024) 105133
+3
+J.H. Fiva et al.
+candidate quality and use their leverage to select leaders better able
+to govern (Buisseret et al., 2022), this may ultimately benefit voter
+welfare. Delving into these welfare questions and identifying conditions
+under which the net effect leans in one direction or the other represents
+a promising avenue for future research.
+While this paper focuses on the strategies employed by political
+parties within flexible electoral systems, the theoretical insights we
+have uncovered hold broader relevance. Political parties wield their
+gatekeeping power across various domains. This power extends to con-
+trolling electoral resources, shaping the composition of electoral lists,
+managing internal competition for seats, and allocating electoral rents.
+For example, when deciding how to allocate electoral resources (Sny-
+der, 1989), parties may opt for equal distribution among all candidates
+or choose to grant advantages selectively. In open-list systems, parties
+can tilt the balance in favor of their preferred candidates by construct-
+ing less competitive candidate lists, or they may seek a more balanced
+competition (Cheibub and Sin, 2020). Similarly, in closed-list systems,
+parties face a strategic choice of whether to position their strongest
+candidates at the top or in the middle of the list (Buisseret et al., 2022;
+Cox et al., 2021; Crutzen et al., 2024). All these decision points involve
+incentives similar to those captured in our model, transcending the
+specifics of any single electoral system and offering valuable insights
+into the broader dynamics of party politics.
+In all these diverse contexts, our theory points to the strategic
+advantage of electorally stronger political parties. These parties can
+promote their preferred candidates without jeopardizing their overall
+electoral performance. This, in turn, potentially provides additional
+strategic advantages in the post-electoral process.
+Our findings thus suggest a dynamic according to which ex-ante
+more popular parties effectively leverage their strength to further con-
+solidate their influence within the political landscape. As such, and
+especially in relation to parties’ tendency to protect incumbents, our
+results underscore a critical connection between the concentration of
+power within parties and its distribution across parties. Mitigating
+parties’ gatekeeping power, for example by imposing opening the can-
+didate selection process or list composition, or regulating electoral
+resources, is important not only as it improves intra-party democracy,
+but also to preserve the competitiveness of the system as a whole.
+2. Related literature
+Our theory starts from the assumption that the party leadership
+faces a moral hazard problem vis-a-vis individual candidates. As such,
+our paper connects first and foremost to the literature on moral hazard
+in teams (Holmström, 1982), especially within the context of electoral
+competition (see Crutzen and Sahuguet, 2023a for a review). Crutzen
+and Sahuguet (2023b) analyze different electoral rules and demonstrate
+that the candidate selection process (e.g., a primary) is an important
+source of incentives to campaign, as in our case. They assume that
+parties care solely about maximizing effort. In contrast, our contribu-
+tion is to study the trade-off between inducing effort and controlling
+political selection. Crutzen et al. (2024) develop a model with a similar
+trade-off between selection and campaigning, but analyze closed-list
+PR, where parties must choose how to rank their candidates on the list.
+Their focus is specifically on how media coverage, candidates’ desire
+to access post-electoral high offices, and polarization influence how
+parties rank candidates. In our case, parties choose the type of list, and
+we study how their electoral strength influences their strategic choice
+in navigating the trade-off.
+Other related papers also consider settings where parties exercise
+their gatekeeping power and influence candidate selection. For ex-
+ample, in Galasso and Nannicini (2011) parties field loyal but less
+competent candidates in safe districts and competent but less loyal
+candidates in more competitive ones; in Buisseret et al. (2022) parties
+respond to strategic voters, and face a trade-off between maximizing
+votes and ensuring a high quality of governance. However, in these
+papers candidates have different types and take no strategic action. Our
+focus on candidates’ effort choice complements these works.
+Our paper also connects to the literature on endogenous electoral
+institutions (Achury et al., 2017; Aghion et al., 2004; Leemann and
+Mares, 2014), where the observation is that parties themselves make
+the rules under which they compete. Typically, all parties in the same
+system are subject to same rule. Instead, the specific context we focus
+on offers a rare opportunity, as each party chooses independently how
+much flexibility to embed in its electoral list (moving from a fully open
+list where no advantages are assigned, to an allocation that resembles
+closed lists with some candidates fully insulated from competition).
+Thus, we can observe a wide variation in parties’ choices even within
+the same local context, allowing us to more easily approach ‘all else
+equal’ comparisons in our empirical analysis.
+It is worth noting that our focus on list flexibility is in line with
+recent theoretical and empirical literature emphasizing how the ballot
+structure shapes electoral competition, the behavior of candidates,
+political selection, and intraparty politics (Buisseret and Prato, 2022;
+Buisseret et al., 2022; Carroll and Nalepa, 2020; Cox et al., 2021;
+Crutzen et al., 2020, 2024; Galasso and Nannicini, 2011; Hangartner
+et al., 2019; Kselman, 2020). Moreover, we provide evidence support-
+ing the party politics literature view that control over the type of
+candidates elected is valuable to the parties (Bawn et al., 2012; Cohen
+et al., 2008; Eriksson and Vernby, 2021; McCarty and Schickler, 2018),
+as well as the recent works on seniority-based nomination norms in
+politics (e.g., Cirone et al., 2021; Cox and Nowacki, 2023; Epstein et al.,
+1997; McKelvey and Riezman, 1992).
+More broadly, previous literature regarding how election systems
+interact with the advantage of larger parties has focused mainly on
+the mechanical relationship between vote shares and seat shares and to
+what extent various election rules favor the larger parties (Benoit, 2000;
+Herron et al., 2018). Our insight that ex-ante more popular parties have
+a further advantage in managing political selection is to our knowledge
+novel.
+3. Institutional setting
+Before delving into the analysis, it is important to provide further
+details on the institutional setting we will be considering in both our
+formal and empirical analyses.
+The Norwegian population of about 5.4 million is divided into 356
+municipalities (2020).2 These municipalities (local governments) are
+important entities of the welfare state with responsibilities for many
+core public services, such as education and primary health care. In
+total, municipalities employ about 17% of the total labor force. Each
+local government is run by a municipal council of 11 to 77 members.
+Local elections take place every fourth year.3
+The Norwegian list-based electoral system works as follows. Voters
+cast a ballot for one of the parties and, if they want, express their
+preferences for individual candidates. Voters can give a personal vote
+2 A municipal amalgamation reform, passed by parliament in June 2015,
+lead to a reduction in the number of municipalities from 428 to 356 over
+the following four years. The local election in 2019 used the post-reform
+municipality structure in place from January 2020.
+3 Norwegian politics is dominated by seven political parties, which can
+be classified as left-leaning (Labor Party (A); Socialist Left Party (SV)), center
+(Center Party (SP); Christian Peoples’ Party (KRF); Liberal Party (V)) or right-
+leaning (Conservative Party (H); Progress Party (FRP)). Appendix Table C.1
+provides descriptive statistics at the municipality-level for these parties in the
+2019 elections. The Labor Party and the Center Party are the largest parties,
+and present lists in almost all municipalities. On average, they win 28–29
+percent of the seats in the municipalities where they run. With an average
+council size of about 26 members, this translates into about 7 seats.
+
+
+=== PDF PAGE 4 ===
+Journal of Public Economics 234 (2024) 105133
+4
+J.H. Fiva et al.
+to as many candidates as they like.4 Seats are allocated across parties
+based on the modified Sainte-Laguë method.5 The allocation of seats
+within parties is instead decided based on an index which depends on
+both voter and party choices. The election system allows parties to give
+some of their candidates a ‘‘head start’’ (advantage), that increments
+their personal vote-share by adding 25% of the total number of votes
+received by the party.6 More precisely, denote as 𝑃𝑜𝑙𝑙𝑖𝑙candidate 𝑖’s
+advantage-adjusted personal preference vote-share. We have that:
+𝑃𝑜𝑙𝑙𝑖𝑙=
+⎧
+⎪
+⎨
+⎪⎩
+𝑃𝑒𝑟𝑠𝑜𝑛𝑎𝑙𝑉𝑜𝑡𝑒𝑠𝑖
+if 𝑖has no advantage
+𝑃𝑒𝑟𝑠𝑜𝑛𝑎𝑙𝑉𝑜𝑡𝑒𝑠𝑖+ 0.25 ⋅𝑃𝑎𝑟𝑡𝑦𝑉𝑜𝑡𝑒𝑠𝑙
+if 𝑖has a advantage for list 𝑙.
+(1)
+𝑃𝑜𝑙𝑙𝑖𝑙then determines the candidates’ post-ballot ranking, and
+therefore, the order in which they are elected. In practice, the head-
+start is so large that it is extremely hard for non-advantaged candidates
+to compete with advantaged candidates.7
+The maximum number of candidates that a party can give an advan-
+tage to depends on the size of the local council, although for the vast
+majority of party lists the restriction is not binding.8 Parties can choose
+any number between zero and the maximum. The decision over how
+many advantaged positions to allocate, and to whom, is taken by local
+parties’ nomination committees. The candidates with an advantage
+are listed in boldface on the top of the ballot. The initial ranking of
+candidates does not otherwise play any formal role, except if there is
+a tie. In our empirical analysis, we focus on the 2019 local elections,
+where the median number of advantaged candidates is two.9 However,
+there is considerable variation across municipalities for each party
+(Appendix Table C.1), as well as over time within municipalities.10
+Thus, the number of advantaged positions that parties give appears to
+be a real choice.
+4. The gatekeeper’s dilemma
+In what follows, we introduce a stylized model to analyze parties’
+optimal allocation of advantaged positions. For ease of presentation,
+we will first focus on the candidates’ campaign effort choice, fixing
+an allocation of advantaged positions. We will then define the party’s
+objective function and characterize the equilibrium allocation strategy.
+4 In the 2019 elections, which our empirical analysis focuses on, 46 percent
+of voters cast at least one personal vote.
+5 The principle of highest average methods, like modified Sainte-Laguë, is
+to distribute seats in consecutive rounds to the party that ‘‘most deserves’’ a
+seat. This is achieved by using a series of divisors, which depend on the seats
+granted to the party in prior rounds. Modified Sainte-Laguë uses the divisor
+series ‘‘1.4, 3, 5, 7, ...’’. The D’Hondt method, which was used in Norwegian
+local elections until 1999, uses the divisor series ‘‘1, 2, 3, 4, ...’’ (Fiva and
+Folke, 2016).
+6 Candidates with a head start are listed at the top of the ballot paper in
+boldface. Appendix Figure C.1 provides an example.
+7 In 2019, only 2% of non-advantaged candidates received personal votes
+amounting to 25% of the total number of votes received by the party, which
+is the minimum to overtake a candidate with a head start (see Appendix Figure
+C.2). Only 0.2% of non-advantaged candidates beat a candidates with a head
+start in 2019.
+8 In councils with fewer than 23 members, parties can give an advantage
+to a maximum of 4 candidates. For councils with 23 to 53 members, the
+maximum is 6, and for councils with more than 53 members, 10 is the
+limit (Fiva and Røhr, 2018). In our sample, 8 percent of party lists are at
+the maximum allowed.
+9 Within our baseline estimation sample, 80% of advantaged candidates
+secure election, compared to 13% of those without an advantage.
+10 For municipalities that were not involved in any mergers between 2015
+and 2019, we find a correlation between the number of advantaged candidates
+at the list-level of 0.49.
+4.1. The candidates’ effort choice
+Consider the game between 𝑛candidates belonging to the same
+party, that only care about their own individual success (i.e., their
+probability of winning a seat). Each candidate’s strategic choice is
+the amount of costly campaign effort to exert 𝑒𝑖∈[0, 1]. Formally,
+each candidate 𝑖’s utility is 𝑈𝑖= I𝑖𝑅−
+𝑒2
+𝑖
+2 , where I𝑖takes value 1 if
+candidate 𝑖obtains a seat and 0 otherwise.11 The individual candidates’
+campaign effort influences the party’s overall electoral performance.
+We model this electoral process in a reduced-form. The number of votes
+received by the party (𝑉) is a function of the 𝑛candidates’ effort choices
+(∑𝑛
+𝑖=1 𝑒𝑖), the party’s ex-ante electoral strength (𝑆),12 and a random
+shock (𝛿∼𝑈[−1
+2𝜙, 1
+2𝜙]):
+𝑉=
+𝑛
+∑
+𝑖=1
+𝑒𝑖+ 𝑆+ 𝛿.
+(2)
+The allocation of seats to the party is proportional to its vote-share.
+Specifically, for each 𝑥, there is a threshold 𝑥⋅𝐾that the votes obtained
+by the party must surpass to win 𝑥seats. Thus, the party obtains 1 seat
+if 𝑉∈[𝐾, 2𝐾), 2 seats if 𝑉∈[2𝐾, 3𝐾) etc.
+The allocation of the seats within the party is a function of two
+elements: each candidate’s effort choice, and the allocation of advan-
+taged positions by the party leadership. Each seat that the party wins
+is allocated to the set of advantaged candidates first. Only after all
+the advantaged candidates have obtained a seat, the residual seats are
+allocated to the non-advantaged candidates. Suppose, for example, that
+the party assigns an advantaged position to 3 candidates, and wins
+a total of 𝜎> 3 seats. Then, 3 seats are allocated to the advantaged
+candidates and 𝜎−3 to the non-advantaged ones. Suppose instead that
+the party assigns an advantaged position to 3 candidates, and wins a
+total of 𝜎≤3 seats. Then, all the seats are allocated to the advantaged
+group.
+Within each group (advantaged and non-advantaged), each candi-
+date’s probability of obtaining a seat is increasing in their effort choice,
+and decreasing in the effort choice of the other candidates in the same
+group. Formally, seats are allocated as a result of a (sequential) Tullock
+contest, as in Crutzen et al. (2020). For example, suppose that the party
+wins a single seat, and allocates an advantaged position to 𝑛𝑎> 1
+candidates.13 Then, for each advantaged candidate 𝑖𝑎, the probability
+of obtaining a seat is:
+𝑄𝑖𝑎(1) =
+𝑒𝑖𝑎
+∑
+𝑖𝑎𝑒𝑖𝑎
+.
+(3)
+Suppose instead that the party wins a total of two seats and allocates
+an advantaged position to 𝑛𝑎> 2 candidates. Then each advantaged
+candidate’s probability of obtaining the first seat is as above (𝑄𝑖𝑎(1)).
+The candidate that obtains this first seat is then excluded from the
+contest for the second. Each advantaged candidate 𝑖𝑎’s probability of
+obtaining a seat is therefore
+𝑄𝑖𝑎(2) =
+𝑒𝑖𝑎
+∑
+𝑖𝑎𝑒𝑖𝑎
++ (1 −
+𝑒𝑖𝑎
+∑
+𝑖𝑎𝑒𝑖𝑎
+)
+𝑒𝑖𝑎
+∑
+𝑖𝑎≠𝑤1 𝑒𝑖𝑎
+,
+(4)
+where 𝑤1 denotes the candidate that won the first seat. If the party wins
+11 We impose 𝑅< 1 to ensure interior solutions.
+12 As a function, for example, of the voters’ ideological leaning or the value
+of the party brand.
+13 Abusing notation, 𝑛𝑎will denote both the set of advantaged candidates
+and the cardinality of this set.
+
+
+=== PDF PAGE 5 ===
+Journal of Public Economics 234 (2024) 105133
+5
+J.H. Fiva et al.
+more seats than the number of advantaged candidates, the allocation
+within the non-advantaged group follows an analogous process.14
+4.2. Analysis
+We use this model to formally characterize the candidates’ equilib-
+rium effort choices under various allocations of advantaged positions.
+The specific calculations, which will be crucial in determining which
+allocation maximizes total effort, are relegated to Appendix A. How-
+ever, it is important to highlight an intuitive property of the candidates’
+equilibrium choices here.
+Denote 𝑁the minimum number of seats the party is guaranteed to
+obtain, i.e., the number of seats the party expects to win thanks to its
+ex-ante electoral strength (even if all candidates exert 0 effort, and the
+shock 𝛿takes its smallest value). 𝑛𝑎∈[0, 𝑛] indicates the number of
+advantaged candidates in the list. Then, we have:
+Remark 1.
+Suppose that candidates with an advantaged status are
+guaranteed a seat (i.e., 𝑁≥𝑛𝑎> 0). Then, these candidates exert no
+effort in equilibrium.
+In the model, candidates care solely about their individual success.
+As such, even if the party’s collective performance depends on the mem-
+bers’ individual contributions, a candidate will not find it worthwhile
+to invest in costly effort if they are always guaranteed a seat. This
+situation occurs when the party assigns fewer advantaged positions
+than the minimum number of seats it anticipates winning, i.e., when
+𝑁≥𝑛𝑎> 0. We refer to these cases as lists with bottom only
+competition, indicating that only candidates without an advantage
+(listed at the bottom) are subject to internal competition for seats.
+In contrast, if the party assigns 𝑛𝑎> 𝑁, advantaged status does
+not ensure a seat, and even the advantaged candidates are subject
+to intraparty competition. We will refer to lists in which 𝑛𝑎> 𝑁
+as lists with top competition to signify that even the advantaged
+candidates (listed at the top in bold) must compete with their fellow
+party members to secure a seat.15
+Remark 1 highlights two important aspects of the strategic problem
+faced by the party leadership. First, the leadership faces a moral hazard
+problem vis-à-vis the candidates: the overall success of the party hinges
+on the individual candidates’ effort choices (as detailed below), yet
+each candidate has an incentive to exert effort only to the extent
+necessary to secure a seat. Secondly, through the decision to allocate
+advantaged status to some of the candidates, the party leadership holds
+the power to fundamentally reshape the structure and intensity of com-
+petition within the list, thereby influencing the candidates’ incentives
+for effort.
+14 Formally, denote as 𝜒the number of seats won by the party and allocated
+to the set of advantaged candidates (notice that 𝜒= 𝑚𝑖𝑛∈{𝜎, 𝑛𝑎}). The
+probability that each of the advantaged candidates wins a seat is:
+𝑄𝑖𝑎(𝜒) = 𝑞1 +
+𝑚𝑎
+∑
+𝑗=2
+𝑞𝑗(
+𝑗∏
+𝑠=1
+(1 −𝑞𝑠)),
+where
+𝑞𝑗=
+𝑒𝑖𝑎
+𝑒𝑖𝑎+ ∑
+𝑘≠𝑖𝑎𝑒𝑘
+,
+for all 𝑖𝑎, 𝑘∈𝑛𝑎∖{𝑤𝑗−1}. 𝑤𝑗−1 denotes the set of advantaged candidates that
+won the first 𝑗−1 seats. In an analogous way, we can define 𝜉= 𝑚𝑎𝑥∈
+{0, 𝜎−𝜒}, and the probability of winning a seat for a candidate that does not
+receive an advantage as 𝑄𝑖𝑛𝑎(𝜉).
+15 In top-competition lists both advantaged and non-advantaged candidates
+have incentives to exert effort, as long as the number of advantages is not
+larger than the maximum number of seats the party may ever hope to win.
+If that instead is the case, non-advantaged candidates are hopeless and only
+advantaged ones exert positive effort in equilibrium.
+4.3. Empirical evidence on candidates’ effort choice
+Before moving to analyze the party’s optimal allocation, we turn to
+the data. We aim to verify that, in our setting, candidates respond to
+incentives as posited in our model. In particular, we seek to validate
+Remark 1, i.e., the claim that when candidates are insulated from
+internal competition (because their advantaged status guarantees them
+a seat), they will have lower incentives to exert costly campaign effort,
+even if this means damaging the party’s collective performance.
+We consider the candidates running for office in the 2019 local
+election (54,244 candidates) (Fiva et al., 2021). We exclude the 1,551
+candidates running in Oslo and Bergen, since these two municipali-
+ties have chosen a parliamentary system. We also exclude candidates
+running for non-standard lists (i.e. joint lists of the main parties,
+party-independent lists, and minor party lists) (10,584 candidates),
+candidates running for office in municipalities involved in mergers
+(11,601 candidates), and candidates that have any missing data from
+the administrative registers (2,940 candidates). This leaves us with a
+sample of 29,312 candidates running at 1,626 lists. In order to classify
+party lists as adopting either bottom or top competition, we consider
+the minimum number of seats the list won in the last four elections,
+corresponding to the parameter 𝑁in the model. Then, lists with bottom
+only competition are lists in which the number of advantages is weakly
+lower than 𝑁, while lists with top competition are lists in which the
+number of advantages is higher than 𝑁.
+We do not have a direct measure of campaign effort. Instead, we
+rely on a proxy: candidates’ within-list personal vote-shares. In the
+Appendix, we present the results using an alternative proxy: candidates’
+within-list share of media hits in the six weeks leading up to election
+day.16 Of course, a candidate’s vote-share (or share of media hits) is
+not solely a function of their effort choice. The candidates’ personal
+characteristics as well as features of the party will also have an impact,
+above and beyond campaigning effort. As such, we cannot simply
+compare candidates with and without an advantaged status, since this
+is likely to be correlated with a host of relevant individual character-
+istics. Similarly, we cannot simply compare candidates from different
+parties, some where the advantage guarantees a seat (bottom only
+competition) and others where it does not (top competition). Parties
+strategically choose their list type, therefore the choice of bottom versus
+top competition is likely to be endogenous to features of the party that
+also impact our outcomes of interest. It is also possible that parties
+adopting different list structures systematically select different types of
+candidates.
+To circumvent these issues, we estimate the following regression
+model:
+𝑌𝑖𝑝𝑚= 𝛼𝑇𝑜𝑝𝑝𝑚+ 𝛽𝐴𝑖𝑝𝑚+ 𝛿𝑇𝑜𝑝𝑝𝑚⋅𝐴𝑖𝑝𝑚+ 𝜂𝑝+ 𝝀′𝐗𝐢𝐩𝐦+ 𝑢𝑖𝑝𝑚.
+(5)
+For ease of illustration, we estimate the model separately for lists
+that have two, three, four, or five to six advantaged candidates.17 Here
+𝑌𝑖𝑝𝑚denotes the share of personal votes that candidate 𝑖gets in party
+list 𝑝in municipality 𝑚. 𝑇𝑜𝑝𝑝𝑚denotes lists with top competition (𝑛𝑎>
+𝑁), and captures the baseline effect of different party (or candidate)
+characteristics associated with this list structure. 𝐴𝑖𝑝𝑚is a dummy equal
+to one if 𝑖holds an advantaged position, and captures the baseline
+effect of different individual characteristics associated with advantaged
+status. The parameter of interest, 𝛿, captures the interaction between
+these two variables, i.e., the difference between the effect of being in
+a top versus bottom competition list for advantaged candidates, net
+16 The data come from the media archive Atekst, which has comprehensive
+coverage of news stories appearing in Norwegian newspapers on the web and
+in print, as well as stories in radio and TV. This database has previously
+been used by Cox et al. (2021) to construct measures of campaign effort for
+candidates’ participating in the 2017 national election.
+17 We do not study cases with more than 6 advantaged as they are rare.
+
+
+=== PDF PAGE 6 ===
+Journal of Public Economics 234 (2024) 105133
+6
+J.H. Fiva et al.
+Fig. 1. Vote shares by rank and nature of competition.
+Note: This figure displays candidates’ personal vote share (within party list) by pre-election ballot rank and nature of competition. We split the sample by the number of advantaged
+candidates (given in the title of each sub-panel). We pool cases where the advantage is given to 5-6 candidates because of few observations.
+of the difference for non-advantaged ones. This interaction approach
+allows us to control for differences in individual level characteristics
+between candidates in different list types, as well as the differences
+between advantaged and non-advantaged candidates in the same list.
+Furthermore, the regression controls for the choices that the party
+makes, that is, the list type, the candidates’ rank and their advantage
+status. We expect top competition to motivate advantaged candidates
+at the top of the list to put in more effort (𝛿> 0).
+In Eq. (5), we also include party fixed-effects 𝜂𝑝(thus leveraging
+variation within party across municipalities), as well as a battery of
+individual-level covariates 𝐗𝐢𝐩𝐦.18 Adding these additional candidate
+characteristics is potentially relevant since it is possible that there is
+selection specifically into safe spots. That is, even when accounting
+for average differences across lists, parties that choose bottom only
+competition (i.e., 𝑛𝑎≤𝑁) may systematically select different advan-
+taged candidates than parties adopting top-competition lists, where
+advantaged positions are not secure (i.e., 𝑛𝑎> 𝑁).
+We start by providing a graphical illustration of the raw data. In
+Fig. 1 we plot candidates’ vote shares by pre-election ballot rank and
+list type (top or bottom only competition).19 The results are striking
+and systematic. When candidates are facing intra-party competition at
+the top of the list, they tend to receive more personal votes.20 For
+18 For the time-varying individual characteristics, we use data from 2018,
+the year before the election. Appendix Table C.2 provides descriptive statistics
+for the main variables in our empirical analysis.
+19 We pool candidates ranked lower than 10 in a ‘‘10+’’ category. The
+average list length is 18.6, 19.7, 22.3, and 31.4 for lists that give an advantage
+to 2, 3, 4, and 5–6 candidates.
+20 The only exception to the result is candidates that are ranked first,
+for whom personal vote shares are more similar under the two allocation
+structures for the cases when 5-6 advantaged positions are given (typically
+example, looking at lists with two advantaged candidates, a first-ranked
+candidate gets about nine percentage points higher personal vote share
+when the advantage does not insulate him or her from internal compe-
+tition. We find a corresponding effect of about four percentage points
+for the second-ranked candidates. For lower-ranked candidates, where
+none are insulated from competition, there are no clear discernible
+differences between the two types of allocation structures.
+In Table 1 we provide the corresponding regression results. In
+line with the graphical evidence, we estimate 𝛿to be 7.6 percentage
+points for lists that give an advantage to two candidates. This estimate
+corresponds to the average difference between the two lines for rank 1
+and 2 in Fig. 1 (first difference) and the two lines for ranks lower than
+2 (second difference), after netting out individual-level characteristics
+and national party fixed effects. For lists with an advantage given
+to 3, 4, and 5–6 candidates, we find similar results.21 The somewhat
+smaller estimated 𝛿of 3.6 −5.0 percentage points partly reflect that
+larger parties). Crucially, parties typically place the mayoral candidate in
+the top-ranked position. Thus, especially in the larger parties, top-ranked
+candidates have more incentives to campaign in order to increase their party’s
+overall performance, and thus, the chances of winning the mayoral position,
+even if their own seat in the council is safe (Cox et al., 2021).
+21 In Appendix Table C.3, we investigate the possibility that there is sys-
+tematic selection into safe spots. We find that candidates that have prior
+experience as councillors or mayors are more likely to obtain an advantage in a
+bottom only competition list. However, these imbalances are unlikely to drive
+our results. Candidates with previous political experiences likely attract more
+personal votes, regardless of their effort choice. If anything, this would lead
+to a downward bias in our main estimates absent controls. This may explain
+why, in fact, our results are even stronger where we include individual-level
+controls (compare Table 1 with controls, and the top-left panel of Appendix
+Table C.3 without controls).
+
+
+=== PDF PAGE 7 ===
+Journal of Public Economics 234 (2024) 105133
+7
+J.H. Fiva et al.
+Table 1
+Candidates insulated from intraparty competition receive fewer personal votes.
+(1)
+(2)
+(3)
+(4)
+Advantage 2
+Advantage 3
+Advantage 4
+Advantage 5-6
+Top competition
+0.002
+0.004∗
+0.002
+−0.003
+(0.002)
+(0.002)
+(0.002)
+(0.002)
+Advantage
+0.127∗∗∗
+0.104∗∗∗
+0.074∗∗∗
+0.060∗∗∗
+(0.004)
+(0.005)
+(0.004)
+(0.003)
+Top competition X Advantage
+0.076∗∗∗
+0.037∗∗∗
+0.050∗∗∗
+0.036∗∗∗
+(0.006)
+(0.006)
+(0.006)
+(0.007)
+Mean of outcome var.
+0.055
+0.053
+0.046
+0.033
+R-squared
+0.58
+0.55
+0.53
+0.50
+Observations
+10 606
+4458
+4071
+3025
+Notes: The outcome variable is the candidates’ personal vote share (within party list). The baseline sample
+is all the candidates running for one of the seven main parties in the 2019 local election. We drop all
+lists where we fail to match any candidates with administrative data from Statistics Norway. We split the
+sample by the number of advantaged candidates (given in the title of each column). We pool cases where
+the advantage is given to 5-6 candidates because of few observations. We control for various candidate
+characteristics and national party fixed effects (see Eq. (5)). Appendix Table C.4 provides the full regression
+results. Standard errors are clustered at the municipal level and reported in parentheses. * denotes 10%
+statistical significance, ** 5% and *** 1%.
+lists with more advantaged candidates tend to be longer (as reflected
+in the mean of the outcome variable). In all sub-samples, the estimated
+𝛿is statistically significant.22 We interpret these results as evidence that
+the candidates’ campaigning effort responds to the incentives induced
+by the party leadership’s advantage allocation strategy in the expected
+way.23
+4.4. The party’s optimal choice
+Under the reassurance that the moral hazard problem we hypothe-
+size is empirically relevant in our setting, we now proceed to analyze
+the optimal number of advantaged positions for the party leadership to
+allocate.
+Building on the literature emphasizing that parties place a premium
+on the ability to influence political nomination processes (Cohen et al.,
+2008; McCarty and Schickler, 2018), we assume that the party lead-
+ership cares about seats (and, thus, maximizing campaign effort), but
+also values the possibility to protect some of its candidates. Recall that
+𝑛𝑎indicates the number of advantaged positions allocated by the party,
+and 𝑁is the minimum number of seats the party expects to win. Denote
+𝜎the total number of seats won by the party. Then, we have that the
+leadership’s utility 𝑈𝑙is:
+𝑈𝑙=
+{
+𝑊𝜎+ 𝐵,
+if 0 < 𝑛𝑎≤𝑁
+𝑊𝜎,
+otherwise
+(6)
+Thus, 𝑊is the value of each additional seat. Recall that when
+𝑛𝑎≤𝑁, the advantaged candidates are always guaranteed a seat. As
+22 One potential concern is that the supply of high-quality candidates may
+confound our results, affecting both the number of advantages allocated by the
+party and the distribution of votes within the list. To address this concern, we
+repeat our analysis splitting the sample using municipal population as a proxy
+for these supply-side factors: municipalities with population above (below)
+10,000 can be considered as environments with high (low) supply of good
+candidates. Reassuringly, we show that the results are very similar in both
+subsamples (Appendix Tables C.5 and C.6).
+23 Appendix Table C.7 provides the regression results for our alternative
+proxy for effort, the share of media hits. We find that top candidates facing
+intra-party competition receive about 3 percentage points more media hits in
+the six weeks preceding the elections. Because media hits are more unequally
+distributed across candidates than personal votes, as some candidates get lot
+of hits and most none, the estimated 𝛿are less precise. However, in all four
+sub-samples, the estimated effects are statistically distinguishable from zero at
+least at the ten percent level.
+such, 𝐵captures in a reduced-form the payoff premium that the lead-
+ership obtains from insulating specific candidates from competition.24
+Substantively, insulating some candidates from competition may be
+valuable for the party leadership in and of itself (because the leadership
+wants to ensure its preferred candidates get to office), or because this
+represents a prize or reward the leadership allocates within the context
+of a larger dynamic intra-party bargaining process. Adopting a reduced-
+form approach, we black-box the question of why parties want to
+protect some candidates, and simply focus on the potential trade-off
+between selection (i.e., protecting some candidates) and effort.
+Before proceeding to the analysis, it is important to emphasize that
+we do not explicitly consider candidates with different characteristics
+in the model. This is not to say that we assume all candidates are the
+same: individual heterogeneity is precisely why the party leadership
+may value managing the selection. Instead, here we take a stylized
+approach, which allows us to abstract from the issue of which types
+parties prefer, and focus on the tradeoff between incentivizing effort
+and gatekeeping selection.25
+Hereafter, we will assume that 𝑛= 4 and 𝑁= 1, i.e., the party
+list includes 4 candidates and the party is always guaranteed at least 1
+seat.26
+Analysis. First, it is important to establish what is the allocation
+strategy that maximizes campaign effort in our setting:
+Lemma 1. Total campaign effort (and thus expected number of seats) is
+maximized when the party allocates zero advantaged positions (𝑛𝑎= 0).
+A fully open list, meaning a list where no candidate enjoys a special
+advantage, maximizes total effort and therefore the party’s collective
+performance. Intra-party competition is heightened under an open
+list, which ensures that all candidates can have an (equal) chance of
+24 Our key results from Proposition 1 are unchanged if we allow the party
+to also obtain a premium from excluding some candidates from competition
+(i.e., from choosing 𝑛𝑎≥𝑁).
+25 An important caveat is that this approach relies on the assumption that
+the marginal cost of effort is not a function of candidates’ characteristics.
+26 These assumptions ensure the analysis is tractable, while also guarantee-
+ing that all allocation strategies (open list, bottom only competition, and top
+competition) are available to the party leadership.
+
+
+=== PDF PAGE 8 ===
+Journal of Public Economics 234 (2024) 105133
+8
+J.H. Fiva et al.
+winning a seat27 and are therefore incentivized to exert costly campaign
+effort.28
+This illuminates the gatekeeper’s dilemma. If the party leadership
+was interested solely in maximizing the candidates’ campaign effort
+(which then translates into seats), it should never allocate any advan-
+taged position, so as to intensify internal competition. However, the
+party also values selection, and obtains a benefit from using advantaged
+positions so as to protect its preferred candidate(s).
+Here, we are interested in understanding under which conditions
+the party leadership chooses to protect some candidates, at the ex-
+penses of its collective electoral success (i.e., number of seats). Given
+our setup, it is straightforward to see that we can always find a 𝐵
+large enough that the party finds it optimal to strategically allocate
+advantaged positions to protect some of its candidates, rather than
+maximizing incentives for effort. Less straightforwardly, our analysis
+shows that the value of 𝐵that induces a party to adopt this strategy is
+a function of its ex-ante electoral strength (𝑆): the stronger the party,
+the lower this threshold. This yields the following result:
+Proposition 1.
+The likelihood (in the sense of set inclusion) that the
+party leadership allocates advantaged positions to insulate some candidates
+from competition (i.e., chooses bottom only competition) is increasing in the
+party’s ex-ante electoral strength 𝑆.
+Notice that Lemma 1 implies that, in equilibrium, the party will
+either assign no advantaged positions at all, in order to maximize effort,
+or choose bottom only competition (0 < 𝑛𝑎≤𝑁), in order to select its
+preferred candidates.29 Under 0 < 𝑛𝑎≤𝑁, the advantaged candidates
+are always guaranteed a seat, therefore only the non-advantaged ones
+will ever have incentives to exert effort. Such candidates are competing
+for the few seats that the party may win, and that would remain open
+after all advantaged candidates have secured a position. As the party’s
+ex-ante electoral strength increases (everything else being equal), the
+number of seats it expects to win is higher. Fixing the number of
+advantaged candidates, this implies that there is a higher number of
+positions to allocate to the non-advantaged group. In principle, this
+could either increase or decrease the equilibrium effort decision of
+the non-advantaged candidates. A higher number of available prizes
+reduces the stakes of winning the internal contest, which may diminish
+the motivation to exert effort. On the other hand, this also implies
+that each candidate may hope to win a seat by achieving a sufficiently
+high rank in the internal competition, without the need to be the top
+contender. This possibility, in turn, enhances the incentives to invest
+effort. Our analysis shows that the second effect dominates. Thus, the
+non-advantaged candidates’ campaign effort increases with the party’s
+ex-ante electoral strength 𝑆. A similar effect emerges under open-list
+(𝑛𝑎= 0), but there the marginal impact of increasing party strength is
+27 Notice that the party can achieve this either by assigning no advantages,
+or by assigning advantages to all the members of the list. However, in the
+Norwegian context there is an exogenous upper bound to the number of
+advantages parties can allocate, therefore it is typically unfeasible to assign
+advantaged statuses to all candidates on the list. We maintain this assumption
+in the model, although our results from Proposition 1 would remain robust
+upon relaxing this restriction.
+28 All candidates in the list can have incentives to exert effort even if some
+advantages are assigned, as long as 𝑛𝑎> 𝑁. Under this allocation, competition
+is segmented between top and bottom of the list, but even advantaged
+candidates have to compete with each other to obtain a seat. However, our
+analysis reveals that this allocation strategy is inefficient for the party, as both
+groups of candidates have lower incentives to exert effort than under a fully
+open list.
+29 If we allow the party to also obtain a premium from excluding some
+candidates from competition (as in Footnote 24), this list structure will
+sometimes be chosen in equilibrium, but our predictions from Proposition 1
+remain unchanged.
+reduced by the fact that internal competition is more intense. In other
+words, the difference in equilibrium effort under the two allocation
+structures is decreasing in 𝑆. Thus, if 𝑆is too low, protecting some
+candidates comes at a high cost for the party. In contrast, when 𝑆is
+high, parties can secure seats for their preferred candidates without sac-
+rificing collective performance. Therefore, electorally stronger parties
+experience a weaker trade-off, and can get the best of both worlds.
+4.5. Robustness and extensions
+Before proceeding with our empirical analysis, it is important to
+discuss whether our theoretical results are robust to altering the model
+in some intuitive ways. One assumption adopted in the model is that
+candidates only care about being elected, and therefore are only moti-
+vated to exert effort insofar as it is necessary to obtain seat. However,
+it is plausible that individual candidates may harbor additional motives
+for investing in the campaign. For example, they might seek visibility
+to bolster their chances in future elections or have a desire to maximize
+personal votes to enhance their standing within the party.
+In Appendix B, we analyze a version of the model with this feature.
+We show that, while the individual candidates’ effort choices may differ
+from the baseline model, our main prediction of interest (Proposition 1)
+remains robust. The intuition is as follows. Under specific conditions,
+candidates’ eagerness to gain exposure might be so pronounced that
+all are willing to invest the maximum effort, regardless of their ad-
+vantaged status or their prospects of being elected. In such cases, any
+allocation strategy from the party leadership yields an identical total
+effort from the candidate list. However, when this is not the case,
+and the candidates are incentivized to exert more effort when it is
+instrumental in winning a seat, the party experiences the exact same
+trade-off we described in the baseline model. The party leadership
+may want to assign advantages to protect its preferred candidates, but
+total effort is higher under open list. However, the difference between
+effort under open-list and effort in bottom-competition lists decreases
+as 𝑆increases, mirroring the logic in the baseline model. Thus, ex-
+ante more popular parties face a weaker trade-off, and are better
+positioned to use advantages strategically. Averaging across all cases,
+our prediction remains unchanged: the likelihood that, in equilibrium,
+the party leadership chooses to use advantaged status to secure a seat
+for its preferred candidates increases in the party’s ex-ante electoral
+strength.
+Looking instead at the party’s motives, in the baseline model we
+assume that the parties obtain the benefit 𝐵when assigning advantages
+in a way that completely insulates certain candidates from competi-
+tion. However, it is possible that in addition to the strategic value
+of securing a seat for these candidates, parties may obtain a benefit
+from assigning advantages more generally. For example, parties may
+want to use advantages as a reward for candidates’ past behavior, or
+within the context of a broader bargaining process with the members.
+In Appendix B, we analyze an extension of the baseline model where,
+in addition to the value of isolating their preferred candidates from
+internal competition, parties obtain a benefit that is a function (either
+decreasing or increasing) of the number of advantaged positions they
+allocate. Our prediction from Proposition 1 remains robust. Depending
+on the parameter values, parties may sometimes want to adopt an open-
+list, while other times prefer to assign advantages to one or multiple
+members of the list. However, the likelihood that they choose an allo-
+cation strategy that fully insulates some candidates from competition
+is increasing in their ex-ante popularity with the electorate.
+4.6. Empirical evidence on optimal choice and ex-ante electoral strength
+We now return to the data to investigate the validity of the pre-
+dictions from Proposition 1 in our setting. We use the party’s aver-
+age historic performance as a proxy for its ex-ante electoral strength
+(𝑆) (Fiva et al., 2023). More precisely, focusing on parties’ strategic
+
+
+=== PDF PAGE 9 ===
+Journal of Public Economics 234 (2024) 105133
+9
+J.H. Fiva et al.
+Table 2
+Relationship between bottom only competition (0 < 𝑛𝑎≤𝑁) and electoral strength measured by the local party historic vote
+share.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+All
+All
+All
+All
+𝐴< 𝐴_𝑚𝑎𝑥
+0 < 𝑁
+𝑁< 𝐴_𝑚𝑎𝑥
+Voteshare (historic average)
+1.993∗∗∗
+1.733∗∗∗
+1.396∗∗∗
+1.863∗∗∗
+1.785∗∗∗
+1.721∗∗∗
+3.068∗∗∗
+(0.080)
+(0.110)
+(0.141)
+(0.133)
+(0.144)
+(0.133)
+(0.292)
+Number of incumbents
+0.022∗∗∗
+0.016∗∗∗
+0.024∗∗∗
+0.034∗∗∗
+0.021∗∗∗
+0.021∗
+(0.006)
+(0.006)
+(0.006)
+(0.008)
+(0.006)
+(0.012)
+Mean of outcome variable
+0.607
+0.607
+0.607
+0.607
+0.615
+0.643
+0.492
+R-squared
+0.25
+0.26
+0.30
+0.31
+0.29
+0.26
+0.20
+Observations
+1387
+1387
+1387
+1387
+1256
+1309
+1030
+Party FE
+No
+No
+Yes
+No
+No
+No
+No
+Municipality FE
+No
+No
+No
+Yes
+Yes
+Yes
+Yes
+Notes: We estimate a linear probability model (OLS). Standard errors are clustered at the municipal level and reported in
+parentheses. * denotes 10% statistical significance, ** 5% and *** 1%.
+Fig. 2. The likelihood that a party chooses bottom only competition (0 < 𝑛𝑎≤𝑁)
+increases with electoral strength measured by the local party historic vote share.
+Note: This binned scatterplot shows the percent of local party lists choosing 0 < 𝑛𝑎≤𝑁
+(denoted on the 𝑦axis as ‘bottom competition’) in the 2019 election as a function of
+the local party historic vote share.
+behavior in the 2019 elections as dependent variable, we measure ex-
+ante strength using the average of each party’s vote share in all prior
+local elections since 2003. Fig. 2 displays the raw data, while Table 2
+reports the regression result.30 We find that, in line with our theoretical
+results, the likelihood that a party chooses to protect some candidates
+from competition by assigning them an advantaged status increases
+with the party’s ex-ante electoral strength. Specifically, a 10%-point
+increase in the party’s prior vote share is associated with about a 20%-
+point increase in the likelihood of the party adopting bottom only
+competition, on average.
+This relationship is robust to including several controls. In column
+(2), we control for the number of re-running incumbents in the party.
+This addresses the possibility that due to a seniority norm, parties need
+to allocate advantaged positions to their re-running incumbents who
+30 In the Appendix, we repeat the analysis using the local party vote share in
+the preceding national elections as an alternative proxy (see Appendix Table
+C.8 and Appendix Figure C.3).
+demand them, rather than thinking about this choice strategically. Ex-
+ante stronger parties are likely to have more re-running incumbents,
+therefore this may confound our results. This also controls for the pos-
+sibility that, since bold characters tend to attract the voters’ attention,
+parties may decide to have their more popular politicians (e.g., the
+ones who previously won election) in advantaged position to exploit
+this nudge in the electoral booth. While our coefficient of interest
+slightly decreases in size the substantial effect remains comparable and
+the coefficient remains highly statistically significant. In column (3),
+we include party fixed effect, and leverage variations within parties
+across municipalities. This addresses the potential concern that specific
+parties, who are stronger across municipalities and for perhaps idiosyn-
+cratic reasons tend to adopt bottom-competition lists, would drive the
+results. Our findings indicate this is not a significant concern in our
+setting. Again, our coefficient of interest remains highly significant and
+large. In column (4), we include municipalities fixed effect, leveraging
+variation within municipalities across parties. Because we only look at
+the 2019 elections, these fixed effect perfectly control for features such
+as the size of the council, the intensity of competition across parties,
+differences in the pool of potential candidates, etc. In Column (5),
+we drop from the sample those local parties that chose the maximum
+possible number of advantages, since this constrained optimum may
+not align with their choice absent the upper bound. In column (6) and
+(7), respectively, we drop those local parties for whom 𝑁is equal to
+zero, and 𝑁is larger than the maximum number of advantages a party
+can assign in the municipality, since the choice for these parties is
+mechanical. In all of these specifications, our results remain robust and
+strongly in line with our theoretical predictions.
+Thus, while our design does not allow us to make causal claims on
+the effect of parties’ popularity on their strategic choice when it comes
+to allocating advantages positions, the correlation is remarkably robust
+and strongly in line with our theoretical prediction.
+Furthermore, we provide some suggestive evidence that the specific
+mechanism underlying our theoretical prediction is also at play in
+our empirical results. In our model, political parties face a trade-off
+between maximizing effort (by adopting an open list) and protecting
+their preferred candidates (by adopting bottom-competition lists). This
+tradeoff emerges for two reasons: first, advantaged candidates in a
+bottom-competition list have no reason to exert costly effort; second,
+assigning the certainty of a seat to the advantaged candidates depresses
+incentives for effort for the non-advantaged candidates as well, since
+there are less prizes available for them to win. Our prediction in
+Proposition 1 emerges because this second effect is dampened for ex-
+ante more popular parties. Thus, if our hypothesized mechanism is
+correct, we should observe a higher effort choice from non-advantaged
+candidates in bottom only competition lists as the party’s ex-ante
+strength increases.
+Indeed, this is exactly what the results in Table 3 suggest. Limiting
+the sample to bottom only competition lists, we find that the share of
+personal votes obtained by the non-advantaged candidates in the list
+
+
+=== PDF PAGE 10 ===
+Journal of Public Economics 234 (2024) 105133
+10
+J.H. Fiva et al.
+Table 3
+The share of personal votes to non-advantaged candidates in bottom only competition lists increase with
+the party’s electoral strength (𝑆).
+(1)
+(2)
+(3)
+(4)
+(5)
+Voteshare (historic average)
+0.278∗∗∗
+0.239∗∗∗
+0.314∗∗∗
+0.231∗∗∗
+0.125∗∗∗
+(0.035)
+(0.032)
+(0.033)
+(0.039)
+(0.048)
+Length of list
+0.005∗∗∗
+0.005∗∗∗
+0.005∗∗∗
+0.008∗∗∗
+(0.001)
+(0.001)
+(0.001)
+(0.001)
+List with mayor
+−0.056∗∗∗
+−0.073∗∗∗
+−0.063∗∗∗
+(0.009)
+(0.009)
+(0.010)
+Mean of outcome variable
+0.624
+0.624
+0.624
+0.624
+0.624
+R-squared
+0.39
+0.45
+0.47
+0.51
+0.44
+Observations
+842
+842
+842
+842
+842
+Advantage (count) FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Party FE
+No
+No
+No
+Yes
+No
+Municipality FE
+No
+No
+No
+No
+Yes
+Notes: We limit the sample to bottom only competition, and regress the share of personal votes to non-
+advantaged candidates on the party’s ex-ante electoral strength, 𝑆. The unit of analysis is a list in a
+municipality. * denotes 10% statistical significance, ** 5% and *** 1%.
+(over the advantaged ones) increases in the party’s ex-ante electoral
+strength. This holds even after controlling for the length of the list,
+whether a previous mayor is in the list, the number of advantages
+allocated by the party, and party/municipality fixed effects. The re-
+lationship is also robust to using the local party’s vote-share in the
+previous national election as alternative proxy for electoral strength
+(Appendix Table C.9).
+5. Electorally strong parties, the gatekeeper’s dilemma and post-
+electoral outcomes
+In our earlier sections we established, theoretically and empirically,
+that ex-ante more popular parties are more likely to insulate their pre-
+ferred candidates from competition. The mechanism is that, although
+all parties face a trade-off between effort and selection, this trade-off is
+less pronounced for electorally stronger parties. In essence, these par-
+ties appear to enjoy a strategic advantage, as they can safeguard their
+preferred candidates without significantly compromising incentives for
+the other members of their list to exert costly campaign effort.
+In this section, we explore the ramifications of this strategic ad-
+vantage, specifically investigating how a party’s capacity to secure
+seats for their preferred candidates shapes post-electoral outcomes.
+In an ideal experiment, we would randomly allocate the number of
+advantaged candidates in each party and compare post-election out-
+comes. Of course, this is impossible. Furthermore, our earlier results
+suggest that the decision to allocate advantaged statuses to shield
+specific candidates from competition is endogenous to the party’s ini-
+tial strength. Consequently, merely comparing outcomes across parties
+making different allocation choices offers no prospect of isolating the
+causal impact from potential confounders.
+To address this challenge, we adopt a two-step approach, focusing
+on identifying the type of candidates that parties tend to protect, and
+the consequences of such candidates being elected for post-electoral
+outcomes. First, we compare the individual traits that have a positive
+correlation with a candidate’s personal vote-share and those that are
+positively associated with obtaining an advantaged status from the
+party. When certain characteristics are linked to an advantaged sta-
+tus but do not necessarily predict a higher vote-share, we interpret
+this disparity as indicative of features that parties value indepen-
+dently of voter preferences. Second, we therefore explore how the
+election of candidates possessing these valued characteristics impacts
+the party’s post-electoral bargaining outcomes. This provides an indica-
+tion of whether a strategic advantage in navigating the selection-control
+tradeoff generates further advantages for the party in other domains.
+5.1. Identifying valuable characteristics
+Our goal in this section is to identify candidate characteristics
+that parties value above and beyond their electoral appeal. For this
+purpose, we compare the results of two regressions. First, we estimate a
+linear probability model where we regress advantage status on a set of
+candidate-level characteristics and local party fixed effects. The results
+of this regression, reported in Appendix Table C.10, identify candidate
+characteristics that predict obtaining an advantaged position.31
+Next, we study what candidate characteristics are positively as-
+sociated with higher personal voteshare. We regress the candidates’
+personal votes on their characteristics, while controlling for the advan-
+tage status, pre-election rank fixed effects and local party fixed effects.
+The results are reported in Appendix Table C.13.32
+By comparing the results of the two analyses, we see that most
+of the covariates that are positively associated with probability of
+obtaining an advantage are also positive predictors of personal vote-
+shares, and vice-versa. Furthermore, the substantive magnitude of the
+effects (standardized by the mean of the outcome variable) are similar
+in both regression. However, there is some disagreement. Notably,
+women are more likely to secure an advantaged position in the list, yet
+they tend to receive fewer personal votes than men. Furthermore, while
+both voters and parties seem to favor previous incumbents, the effect
+of being an incumbent on the likelihood of securing an advantaged
+position is significantly larger than the effect on vote share.
+With this information at hand, we can therefore investigate how
+the ability to use gatekeeping power to select specific types of candi-
+dates, i.e., women and incumbents, influences parties’ success in the
+post-electoral bargaining process.
+5.2. Women, incumbents and post-electoral bargaining
+We investigate the hypothesis that women and incumbents are
+valuable for political parties because electing such candidates secures
+a premium in the post-election bargaining process. In our setting, such
+bargaining advantage could result in the party obtaining a dispropor-
+tionate share of the seats in the municipal board. The significance of
+these positions is substantial. As mentioned earlier, municipalities serve
+as crucial policy-making entities, overseeing vital social services such
+31 In Appendix C, we investigate potential heterogeneity in these results.
+Interestingly, the patterns do not seem to vary much across ideological
+blocs (Appendix Table C.11) or the nature of the inter-party competition as
+measured by how intensely they are competing for the mayoral seat (Appendix
+Table C.12).
+32 This analysis is related to our campaigning analysis reported in Table 1,
+but fundamentally distinct from it. There, candidate characteristics control
+for voters’ preferences, and we study how being in a safe spot influences
+candidates’ effort (proxied by their residualized vote-share). Here, we are
+instead interested in studying voters’ preferences directly, and thus investigate
+how different individual characteristics predict votes, while controlling for
+advantaged status.
+
+
+=== PDF PAGE 11 ===
+Journal of Public Economics 234 (2024) 105133
+11
+J.H. Fiva et al.
+Table 4
+Post-electoral bargaining outcomes.
+(1)
+(2)
+(3)
+(4)
+(5)
+Seat share (percent)
+0.983∗∗∗
+0.983∗∗∗
+0.981∗∗∗
+1.000∗∗∗
+0.999∗∗∗
+(0.012)
+(0.012)
+(0.013)
+(0.035)
+(0.047)
+Incumbents (percent)
+0.014∗∗∗
+0.015∗∗∗
+0.019∗∗∗
+(0.004)
+(0.004)
+(0.006)
+Women (percent)
+0.009∗
+0.011∗∗
+0.013∗∗
+(0.005)
+(0.005)
+(0.006)
+Seat share squared
+−0.000
+−0.001
+(0.001)
+(0.001)
+Mean of outcome variable
+17.46
+17.46
+17.46
+17.46
+17.46
+R-squared
+0.839
+0.840
+0.840
+0.841
+0.847
+Observations
+1800
+1800
+1800
+1800
+1800
+Municipality FE
+No
+No
+No
+No
+Yes
+Notes: The sample consist of main party lists winning a seat in a local council in the 2019 election. The
+dependent variable is the party’s percent of seats in the executive board. ‘‘Seat share’’ measure the percent of
+seats the party holds in the council. ‘‘Incumbents’’ measure the percent of re-elected incumbents among the
+elected candidates from the party. ‘‘Women’’ measure the percent of women among the elected candidates
+from the party. Standard errors are clustered at the municipal level and reported in parentheses. * denotes
+10% statistical significance, ** 5% and *** 1%.
+as primary healthcare and education. The municipal board, serving
+as the executive branch of local government, plays a pivotal role in
+decision-making processes.
+The board is elected by the council at the beginning of each electoral
+period. While its composition should in principle reflect the seat-shares
+in the council, parties retain some leeway. If no councilor demands that
+the board members are selected via list-based proportional elections,33
+its composition is decided on via a negotiated agreement. Furthermore,
+even if no formal bargaining process takes place, there are fewer
+positions in the board than seats in the council, which creates a degree
+of disproportionality that the parties must resolve.
+To investigate our hypothesis, we regress the share of board seats
+that a party 𝑝in a municipality 𝑚at time 𝑡gets (𝐵𝑜𝑎𝑟𝑑𝑠ℎ𝑎𝑟𝑒𝑝𝑚𝑡) on
+the share of women (𝑊𝑜𝑚𝑒𝑛𝑠ℎ𝑎𝑟𝑒𝑝𝑚𝑡) and the share of incumbents
+(𝐼𝑛𝑐𝑠ℎ𝑎𝑟𝑒𝑝𝑚𝑡) elected within the party.
+𝐵𝑜𝑎𝑟𝑑𝑠ℎ𝑎𝑟𝑒𝑝𝑚𝑡= 𝛼+𝛽𝐶𝑜𝑢𝑛𝑐𝑖𝑙𝑠ℎ𝑎𝑟𝑒𝑝𝑚𝑡+𝜒𝑊𝑜𝑚𝑒𝑛𝑠ℎ𝑎𝑟𝑒𝑝𝑚𝑡+𝛾𝐼𝑛𝑐𝑠ℎ𝑎𝑟𝑒𝑝𝑚𝑡+𝜇𝑝𝑚𝑡.
+(7)
+Despite close to one-to-one mapping between the council seat share
+(𝐶𝑜𝑢𝑛𝑐𝑖𝑙𝑠ℎ𝑎𝑟𝑒𝑝𝑚𝑡) and board seat share, we see a statistically significant
+bargaining boost associated with electing more incumbents or women
+into the council. Table 4 shows that a 10%-points increase in incumbent
+share results in about 1.4%-points increase in the party’s share of the
+executive. In turn, a 10%-points increase in the share of women results
+in a 1.1%-points increase in the parties share of the executive. Thus,
+selecting incumbents and women candidates tends to improve a party’s
+chance of occupying strategic positions in the executive board, even
+controlling for the party’s seat-share in the council and its square. These
+results are robust to considering the share of incumbent and women
+both together and in separate regressions, as well as to the inclusion of
+municipal fixed effects.
+In this setting, electing experienced candidates may be valuable
+for political parties because such candidates are better at navigating
+the post-election bargaining process (as in Meriläinen and Tukiainen,
+2022). Of course this does not exclude the possibility that parties could
+tend to protect incumbents because these candidates themselves are
+members of the local elite deciding how to allocate advantaged status.
+Nonetheless, our results above suggest that selecting these experienced
+33 In this case, each party (or groups of parties) puts forward a list of
+candidates for the board, including up to twice the number of names relative to
+the number of positions to be filled. Each list can only include elected council
+members, and should cover at least 40 percent candidates of each gender ‘‘as
+far as possible’’ (Local Government Act §7–5).
+candidates provides an advantage to the party in the post-electoral
+negotiations. To interpret the results on women, we note that when
+the board is selected via list-based proportional elections, each list has
+to include at least 40% of candidates of each gender (see Footnote 33).
+Even when the board is instead formed via a negotiated agreement,
+each councillor can anticipate that, if he or she demands that the
+board is selected via proportional elections, the gender quota will
+have to be respected. This credible threat inevitably constrains the
+bargaining process. As such, these gender quotas may explain why
+female candidates are more valuable for parties in the post-election
+bargaining.
+We note that these results on the prevalence of women and incum-
+bents among candidates favored by political parties have substantial
+economic relevance, since electing candidates with these characteristics
+has been shown to impact policy and economic outcomes. Meriläinen
+(2022) demonstrates that increasing the proportion of incumbents in
+Finnish municipal councils positively influences fiscal sustainability
+outcomes. In Germany, mayors with prior office experience tend to
+reduce local public debt, lower total municipal expenditures, and de-
+crease local taxes (Freier and Thomasius, 2016). Similarly, a plethora of
+studies consistently underscores the significance of female representa-
+tion. Hessami and da Fonseca (2020) surveys the literature, indicating
+that in developing countries, increased female political representation
+improves provision of public goods (Chattopadhyay and Duflo, 2004;
+Clots-Figueras, 2011). In developed countries, evidence is more mixed,
+but female representation is linked, for example, to the expansion
+of public childcare (Baskaran and Hessami, 2024). Moreover, female
+representation also contributes to enhanced institutional quality by
+reducing corruption and rent extraction by those in power (Brollo and
+Troiano, 2016).
+More broadly, to the extent that electorally stronger parties are
+better positioned to use their gatekeeping power to insulate their
+preferred candidates, our findings indicate that this strategic advantage
+may have a crucial effect on post-electoral outcomes, ultimately im-
+pacting the distribution of power and decision-making in the political
+arena. As we discuss further below, this dynamic can have far-reaching
+consequences, including the allocation of resources, policy decisions,
+and the overall direction of governance.
+6. Discussion and conclusion
+In this paper, we have delved into the intricate dynamics of political
+parties and their strategic use of gatekeeping power. We have demon-
+strated that parties encounter a tradeoff between incentivizing list
+members to contribute to the party’s collective performance and shield-
+ing preferred candidates from internal competition to secure them a
+
+
+=== PDF PAGE 12 ===
+Journal of Public Economics 234 (2024) 105133
+12
+J.H. Fiva et al.
+seat. Our key contribution is to show, theoretically and empirically, that
+this tradeoff is less pronounced for more popular parties, granting them
+the ability to safeguard their preferred candidates without compromis-
+ing their overall performance. Furthermore, our results suggest that this
+strategic advantage translates into a disproportional influence of these
+parties in post-electoral bargaining and policymaking processes.
+While our focus has been on the case of Norway, the generalizability
+of our results may extend beyond this specific context. List propor-
+tional representation systems are used by 70 out of 199 countries,
+which makes such systems the most used across the world (Reynolds
+et al., 2008). In particular, flexible-list systems are used in many
+other countries in the world, such as in Austria, Belgium, the Czech
+Republic, Denmark, Estonia, Indonesia, Norway, Netherlands, Slovakia,
+and Sweden (Crisp et al., 2013).
+Furthermore, our key insights remain relevant outside the realm of
+these flexible-list systems. Regardless of the specific institutional setting
+they operate in, parties can in fact often face a tradeoff analogous to
+the one we investigate here. For example, under proportional repre-
+sentation with closed-list, political parties must choose how to rank
+different candidates in their list (Buisseret et al., 2022). Here, parties
+face a strategic choice of whether to position their strongest candidates
+at the top or in the middle of the list. Existing works study the effect
+of ideology and media exposure (Crutzen et al., 2024), consider how
+the choice of candidate ranking is linked to the distribution of post-
+electoral rents (Cox et al., 2021), or how strategic voting may generate
+distortions in the ranking chosen by the party (Buisseret et al., 2022).
+Our framework complements these works by highlighting how this
+choice may be influenced by the effort vs. selection tradeoff. Placing the
+strongest candidate in the middle of the list boosts the party’s overall
+chances (as in the theories of Buisseret et al. (2022) and Crutzen et al.
+(2024)), and thus the incentives for all candidates to exert more effort.
+Instead, placing the strongest candidate at the top of the list ensures
+they will obtain a seat, but reduces other candidates’ hopes of ever
+winning a seat themselves and thus their motivation to invest costly
+effort.
+In systems of open-list proportional representation, the candidates’
+ranking on the list is irrelevant. However, parties still control the
+list composition. As Cheibub and Sin (2020) highlight, this choice
+fundamentally alters the intensity of competition for seats within the
+party. As such, applying our theoretical framework, parties may choose
+to tilt the balance in favor of their preferred candidates by constructing
+less competitive candidate lists, or they may seek more balanced com-
+petition. The former strategy privileges selection at the expense of the
+party’s collective performance, while the latter maximizes incentives
+for effort but fails to protect specific candidates. Additionally, in such
+systems parties also strategically determine how to allocate electoral
+and logistical resources. They may opt for equal distribution among all
+candidates or choose to grant advantages selectively. This choice is also
+relevant under first past the post, where parties must allocate resources
+across different districts (Snyder, 1989).
+In sum, all these decision points involve incentives similar to those
+captured in our model, transcending the specifics of any single electoral
+system and offering valuable insights into the broader dynamics of
+party politics. Our findings suggest that, in all these varied settings,
+the tradeoffs involved in these strategic choices should be weaker
+for ex-ante more popular parties. These parties are better positioned
+to leverage their gatekeeping power to favor preferred candidates,
+resulting in strategic advantages post-election.
+Furthermore, these results underscore a crucial link between the
+concentration of power within and across parties. In our framework,
+this link emerges via two channels. First, parties with an advantage
+in the intra-party contest use this leverage to insulate their preferred
+candidates, concentrating advantages and resources within a select few.
+Secondly, our results on post-electoral outcomes depict a narrative
+where ‘power begets power.’ While more popular parties inherently
+enjoy a stronger position, these findings highlight that their strategic
+advantage in navigating the selection-control trade-off can reinforce
+this effect.
+Indeed, while our analysis focuses on the post-electoral bargaining
+and decision-making process, it is plausible to speculate that the strate-
+gic advantage in this domain would resonate across other domains,
+further solidifying these parties’ position. For example, it may allow
+advantaged parties to more effectively attract donations or campaign
+contributions. Research in various contexts has established that holding
+positions of power provides a strategic advantage in soliciting dona-
+tions (Fouirnaies and Hall, 2014; Holbrook and Weinschenk, 2014). If
+the capacity to safeguard specific candidates translates into a dispro-
+portionate influence in the post-electoral process, we could anticipate a
+corresponding comparative advantage in the realm of political finance.
+Similarly, the credible promise of insulation from internal competition
+and further gains in the post-electoral process may yield a strate-
+gic advantage in recruiting high-quality candidates. Stronger political
+candidates tend to also have better outside options in the private
+market (Caselli and Morelli, 2002; Dal Bó et al., 2006; Messner and
+Polborn, 2004). Consequently, parties may encounter challenges in
+recruiting such promising candidates for political office. By offering
+the assurance of a secure seat insulated from intra-party competition,
+along with additional rewards post-election, more popular parties may
+enjoy a privileged position in addressing this recruitment challenge.
+Of course, ex-ante more popular parties inherently have an advantage
+in navigating these challenges; our argument is that the possibility to
+more effectively navigate the selection versus effort tradeoff further
+amplifies this advantage (compared to a counterfactual world in which
+this tradeoff equally constrains all parties).
+These implications highlight the importance of keeping parties’
+gatekeeping power in check. A recent body of scholarship analyzes
+the impact of inter-party competition on intra-party dynamics and
+organization (e.g., Invernizzi and Prato, 2023; Invernizzi, 2023). Our
+findings contribute to this literature by emphasizing the significance of
+addressing both sides of the equation. In this context, reforms aimed
+at curbing parties’ influence over the candidate nomination process
+(e.g., implementing open primaries, providing public funding for politi-
+cal candidates, establishing independent candidate support services, or
+introducing randomized ballot order) may not only promote intra-party
+democracy but also safeguard the competitiveness and impartiality of
+the entire political system.
+Declaration of competing interest
+The author(s) declare none
+Data availability
+The data that has been used is confidential.
+Appendix A. Supplementary data
+Supplementary material related to this article can be found online
+at https://doi.org/10.1016/j.jpubeco.2024.105133.
+References
+Achury, Susan, Ramírez, Margarita, Cantú, Francisco, 2017. Endogenous ballot struc-
+tures: The selection of open and closed lists in Colombia’s legislative elections.
+Elect. Stud. 49, 136–154.
+Aghion, Alesina, A., Trebbi, F., 2004. Endogenous political institutions. Q. J. Econ. 119,
+565–611.
+Baskaran,
+Thushyanthan,
+Hessami,
+Zohal,
+2024.
+Women
+in
+political
+bodies
+as
+policymakers. Rev. Econ. Stat. (forthcoming).
+Bawn, Kathleen, Cohen, Martin, Karol, David, Masket, Seth, Noel, Hans, Zaller, John,
+2012. A theory of political parties: Groups, policy demands and nominations in
+American politics. Perspect. Politics 10 (3), 571–597.
+
+
+=== PDF PAGE 13 ===
+Journal of Public Economics 234 (2024) 105133
+13
+J.H. Fiva et al.
+Benoit, Kenneth, 2000. Which electoral formula is the most proportional? A new look
+with new evidence. Political Anal. 8 (4), 381–388.
+Besley, Timothy, Montalvo, Jose G., Reynal-Querol, Marta, 2011. Do educated leaders
+matter? Econ. J. 121 (554), F205–227.
+Brollo, Fernanda, Troiano, Ugo, 2016. What happens when a woman wins an election?
+Evidence from close races in Brazil. J. Dev. Econ. 122, 28–45.
+Buisseret, Peter, Folke, Olle, Prato, Carlo, Rickne, Johanna, 2022. Party nomination
+strategies in list proportional representation systems. Am. J. Political Sci. 66 (3),
+714–729.
+Buisseret, Peter, Prato, Carlo, 2022. Competing principals? Legislative representation
+in list proportional representation systems. Am. J. Political Sci. 66 (1), 156–170.
+Carreri, Maria, Payson, Julia, 2023. Local leaders and the pursuit of growth in US
+cities: the role of managerial skill. Political Sci. Res. Methods 1–17.
+Carroll, Royce, Nalepa, Monika, 2020. The personal vote and party cohesion: Modeling
+the effects of electoral rules on intraparty politics. J. Theor. Politics 32 (1), 36–69.
+Caselli, Francesco, Morelli, Massimo, 2002. Bad politicians. Q. J. Econ. 117 (4),
+1369–1401.
+Chattopadhyay, Raghabendra, Duflo, Esther, 2004. Women as policy makers: Evidence
+from a randomized policy experiment in India. Econometrica 72 (5), 1409–1443.
+Cheibub, José Antonio, Sin, Gisela, 2020. Preference vote and intra-party competition
+in open list PR systems. J. Theor. Politics 32 (1), 70–95.
+Cirone, Alexandra, Cox, Gary W., Fiva, Jon H., 2021. Seniority-based nominations and
+political careers. Am. Political Sci. Rev. 115 (1), 234–251.
+Clots-Figueras, Irma, 2011. Women in politics: Evidence from the Indian states. J. Public
+Econ. 95 (7), 664–690.
+Cohen, Marty, Karol, David, Noel, Hans, Zaller, John, 2008. The Party Decides:
+Presidential Nominations Before and After Reform. University of Chicago Press,
+Chicago, IL.
+Cox, Gary W., Fiva, Jon H., Smith, Daniel M., Sørensen, Rune J., 2021. Moral hazard
+in electoral teams: List rank and campaign effort. J. Public Econ. 200, 104457.
+Cox, Gary W., Nowacki, Tobias, 2023. The emergence of party-based political careers
+in the United Kingdom, 1801–1918. J. Politics 85 (1), 178–191.
+Crisp, Brian F., Olivella, Santiago, Malecki, Michael, Sher, Mindy, 2013. Vote-earning
+strategies in flexible list systems: Seats at the price of unity. Elect. Stud. 32 (4),
+658–669.
+Crutzen, Benoit, Flamand, Sabine, Sahuguet, Nicolas, 2020. A model of team contest,
+with an application to incentives under list proportional representation. J. Public
+Econ. 120.
+Crutzen, Benoit S.Y., Konishi, Hideo, Sahuguet, Nicolas, 2024. The best at the top?
+Candidate ranking strategies under closed list proportional representation. Political
+Sci. Res. Methods (forthcoming).
+Crutzen, Benoit, Sahuguet, Nicholas, 2023a. Political parties in models of political
+economy, a survey. Working Paper.
+Crutzen, Benoît S.Y., Sahuguet, Nicolas, 2023b. Comparative politics with intraparty
+candidate selection. Eur. J. Political Econ. 79, 102445.
+Dal Bó, Ernesto, Dal Bó, Pedro, Di Tella, Rafael, 2006. ‘‘Plata o plomo?’’: bribe and
+punishment in a theory of political influence. Am. Political Sci. Rev. 100 (1), 41–53.
+Epstein, David, Brady, David, Kawato, Sadafumi, O’Halloran, Sharyn, 1997. A compar-
+ative approach to legislative organization: Careerism and seniority in the United
+States and Japan. Am. J. Political Sci. 41 (3), 965–998.
+Eriksson, Lina M., Vernby, Kåre, 2021. Welcome to the party? Ethnicity and the
+interaction between potential activists and party gatekeepers. J. Politics 83 (4),
+1861–1866.
+Field, Bonnie N., Siavelis, Peter M., 2008. Candidate selection procedures in transitional
+polities: A research note. Party politics 14 (5), 620–639.
+Fiva, Jon H., Folke, Olle, 2016. Mechanical and psychological effects of electoral
+reform. Br. J. Political Sci. 46 (2), 265–279.
+Fiva, Jon H., Halse, Askill, Natvik, Gisle James, 2023. Local government dataset.
+Available at https://www.jon.fiva.no/data.htm.
+Fiva, Jon H., Røhr, Helene Lie, 2018. Climbing the ranks: Incumbency effects in
+party-list systems. Eur. Econ. Rev. 101, 142–156.
+Fiva, Jon H., Sørensen, Rune J., Vøllo, Reidar, 2021. Local candidate dataset. Available
+at https://www.jon.fiva.no/data.htm.
+Fouirnaies, Alexander, Hall, Andrew B., 2014. The financial incumbency advantage:
+Causes and consequences. J. Politics 76 (3), 711–724.
+Freier, Ronny, Thomasius, Sebastian, 2016. Voters prefer more qualified mayors, but
+does it matter for public finances? Evidence for Germany. Int. Tax Public Finance
+23, 875–910.
+Galasso, Vincenzo, Nannicini, Tommaso, 2011. Competing on good politicians. Am.
+Political Sci. Rev. 105 (01), 79–99.
+Gallagher, Michael, Marsh, Michael, 1988. Candidate selection in comparative perspec-
+tive: The secret garden of politics. SAGE Modern Politics Series, vol. 18, SAGE
+Publications Limited.
+Hangartner, Dominik, Ruiz, Nelson A., Tukiainen, Janne, 2019. Open or closed? How
+list type affects electoral performance, candidate selection, and campaign effort.
+VATT Institute for Economic Research Working Papers 120. Available at SSRN:
+https://ssrn.com/abstract=3418767.
+Hazan, Reuven Y., Rahat, Gideon, 2010. Democracy Within Parties: Candidate Selection
+Methods and Their Political Consequences. Oxford University Press, Oxford, UK.
+Herron, Erik S., Pekkanen, Robert J., Shugart, Matthew S., 2018. The Oxford Handbook
+of Electoral Systems. Oxford University Press.
+Hessami, Zohal, da Fonseca, Mariana Lopes, 2020. Female political representation and
+substantive effects on policies: A literature review. Eur. J. Political Econ. 63,
+101896.
+Holbrook, Thomas M., Weinschenk, Aaron C., 2014. Money, candidates, and mayoral
+elections. Elect. Stud. 35, 292–302.
+Holmström, Bengt, 1982. Moral hazard in teams. Bell J. Econ. 13 (2), 324–340.
+Invernizzi, Giovanna M., 2023. Antagonistic cooperation: Factional competition in the
+shadow of elections. Am. J. Political Sci. 67 (2), 426–439.
+Invernizzi, Giovanna Maria, Prato, Carlo, 2023. Bending the iron law. Available at
+SSRN: https://ssrn.com/abstract=3462071.
+Kselman,
+Daniel
+M.,
+2020.
+Public
+goods
+equilibria
+under
+closed-and
+open-list
+proportional representation. J. Theor. Politics 32 (1), 112–142.
+Leemann, Lucas, Mares, Isabela, 2014. The adoption of proportional representation. J.
+Politics 76 (2), 461–478.
+McCarty, Nolan, Schickler, Eric, 2018. On the theory of parties. Annu. Rev. Political
+Sci. 21 (1), 175–193.
+McKelvey, Richard D., Riezman, Rayman, 1992. Seniority in legislatures. Am. Political
+Sci. Rev. 86, 951–965.
+Meriläinen, Jaakko, 2022. Political selection and economic policy. Econ. J. 132 (648),
+3020–3046.
+Meriläinen, Jaakko, Tukiainen, Janne, 2022. The advantage of incumbents in coalitional
+bargaining. Legislative Stud. Q. 47 (4), 921–957.
+Messner, Matthias, Polborn, Mattias K., 2004. Paying politicians. J. Public Econ. 88
+(12), 2423–2445.
+Reynolds, Andrew, Reilly, Ben, Ellis, Andrew, 2008. Electoral System Design: The New
+International IDEA Handbook. International Institute for Democracy and Electoral
+Assistance, Oxford, UK.
+Snyder, James M., 1989. Election goals and the allocation of campaign resources.
+Econometrica 57 (3), 637–660.
+Stokes, S.C., 1999. Political parties and democracy. Annu. Rev. Political Sci. 2 (1),
+243–267.

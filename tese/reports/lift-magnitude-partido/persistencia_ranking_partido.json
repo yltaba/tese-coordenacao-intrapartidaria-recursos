@@ -1,0 +1,44 @@
+{
+  "eleitos": {
+    "n_familias_comparadas": 9,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.0876228290414024,
+    "familias": [
+      "MDB",
+      "PDT",
+      "PL",
+      "PP",
+      "PSB",
+      "PSD",
+      "PT",
+      "REPUBLICANOS",
+      "UNIAO"
+    ]
+  },
+  "competitivos": {
+    "n_familias_comparadas": 19,
+    "spearman_rho": 0.007017543859649123,
+    "spearman_p": 0.9772535735987999,
+    "familias": [
+      "AVANTE",
+      "CIDADANIA",
+      "MDB",
+      "PATRIOTA",
+      "PC DO B",
+      "PDT",
+      "PL",
+      "PODE",
+      "PP",
+      "PSB",
+      "PSC",
+      "PSD",
+      "PSDB",
+      "PT",
+      "PTB",
+      "PV",
+      "REPUBLICANOS",
+      "SOLIDARIEDADE",
+      "UNIAO"
+    ]
+  }
+}

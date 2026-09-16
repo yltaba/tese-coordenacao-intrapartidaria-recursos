@@ -1,0 +1,13 @@
+Prefeito, 1º turno: parcela de candidaturas com >= 10% dos votos válidos
+             candidaturas  pct>=10%  nao_eleitos_com_pct>=10%  mediana_candidatos_por_municipio
+ano_eleicao                                                                                    
+2012              14797.0     0.813                    6510.0                               2.0
+2016              15152.0     0.727                    6066.0                               2.0
+2020              17538.0     0.718                    7156.0                               3.0
+
+Dep. Federal: parcela de candidaturas com >= 10% do QE
+             candidaturas  pct>=10%QE
+ano_eleicao                          
+2010               4887.0       0.201
+2014               6178.0       0.161
+2018               7630.0       0.144

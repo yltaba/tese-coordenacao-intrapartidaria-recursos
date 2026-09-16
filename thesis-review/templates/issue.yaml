@@ -1,0 +1,15 @@
+issue_id: I-3-001
+titulo: ""
+capitulo: 3
+findings: [MEA-3-001, RES-3-004]
+claims: [C3.4.07]
+severidade_inicial: MAJOR
+contra_argumento:
+  agent: adversarial-reviewer
+  assessment: partially_valid
+  resumo: ""
+severidade_final: MAJOR
+confianca: alta
+razao: ""
+recomendacao: ""
+status: open

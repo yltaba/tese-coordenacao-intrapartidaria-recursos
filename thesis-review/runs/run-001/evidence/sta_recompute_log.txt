@@ -1,0 +1,190 @@
+fonte: tese\reports\sensibilidade-top-x\candidaturas.parquet
+   regra        desfecho  ano      sumH   sumG   sumk       A0    A0rec  cobertura  precisao   lift  lift_rec  cob_acaso  prec_acaso
+top_necr competitividade 2018  716.7500  886.0 2316.0 382.5414 425.0498     0.8090    0.3095 1.8737    1.6863     0.4318      0.1652
+top_necr competitividade 2022 1064.1152 1287.0 3822.0 563.0316 574.8163     0.8268    0.2784 1.8900    1.8512     0.4375      0.1473
+top_necr         eleicao 2018  445.0000  513.0 2318.0 224.5724 249.6946     0.8674    0.1920 1.9815    1.7822     0.4378      0.0969
+top_necr         eleicao 2022  475.1923  513.0 3824.0 224.4189 231.9867     0.9263    0.1243 2.1174    2.0484     0.4375      0.0587
+
+PERMUTACAO
+        desfecho  ano    universo  observado  esperado_analitico  media_perm  sd_perm    p2_5   p97_5  max_perm  lift_obs  lift_p2_5  lift_p97_5  p_valor  replicas
+competitividade 2018       todos    716.750             382.541     382.547   10.636 361.610 402.811   421.389     1.874      0.945       1.053      0.0      2000
+competitividade 2018 recebedores    716.750             425.050     424.896   10.381 403.857 444.359   461.189     1.686      0.950       1.045      0.0      2000
+competitividade 2022       todos   1064.115             563.032     563.278   14.133 534.968 590.389   608.571     1.890      0.950       1.049      0.0      2000
+competitividade 2022 recebedores   1064.115             574.816     575.003   13.722 546.785 601.648   616.724     1.851      0.951       1.047      0.0      2000
+        eleicao 2018       todos    445.000             224.572     224.524    8.714 207.128 241.687   254.685     1.982      0.922       1.076      0.0      2000
+        eleicao 2018 recebedores    445.000             249.695     249.653    8.563 232.103 266.249   275.748     1.782      0.930       1.066      0.0      2000
+        eleicao 2022       todos    475.192             224.419     224.725    9.421 206.131 243.153   264.620     2.117      0.919       1.083      0.0      2000
+        eleicao 2022 recebedores    475.192             231.987     231.876    9.468 213.689 250.055   265.690     2.048      0.921       1.078      0.0      2000
+
+BOOTSTRAP IC
+ cluster  n_clusters  ano    regra        desfecho   metrica  ponto  ic95_inf  ic95_sup  sd_boot
+  lista         859 2018 top_necr competitividade cobertura 0.8090    0.7791    0.8386   0.0150
+  lista         859 2018 top_necr competitividade  precisao 0.3095    0.2798    0.3429   0.0165
+  lista         859 2018 top_necr competitividade      lift 1.8737    1.7641    1.9927   0.0579
+  lista         859 2018 top_necr         eleicao cobertura 0.8674    0.8180    0.9113   0.0236
+  lista         859 2018 top_necr         eleicao  precisao 0.1920    0.1713    0.2148   0.0114
+  lista         859 2018 top_necr         eleicao      lift 1.9815    1.8431    2.1343   0.0748
+  lista         859 2018   top_50 competitividade cobertura 0.5732    0.5443    0.6049   0.0152
+  lista         859 2018   top_50 competitividade  precisao 0.3893    0.3541    0.4273   0.0186
+  lista         859 2018   top_50 competitividade      lift 2.0771    1.9375    2.2276   0.0731
+  lista         859 2018   top_50         eleicao cobertura 0.6640    0.6153    0.7128   0.0249
+  lista         859 2018   top_50         eleicao  precisao 0.2610    0.2315    0.2922   0.0158
+  lista         859 2018   top_50         eleicao      lift 2.3801    2.1788    2.6213   0.1148
+  lista         859 2018   top_80 competitividade cobertura 0.7840    0.7545    0.8116   0.0148
+  lista         859 2018   top_80 competitividade  precisao 0.3016    0.2697    0.3361   0.0170
+  lista         859 2018   top_80 competitividade      lift 1.9262    1.8082    2.0484   0.0619
+  lista         859 2018   top_80         eleicao cobertura 0.8421    0.7967    0.8850   0.0224
+  lista         859 2018   top_80         eleicao  precisao 0.1874    0.1652    0.2120   0.0120
+  lista         859 2018   top_80         eleicao      lift 2.0309    1.8762    2.2035   0.0831
+  lista         711 2022 top_necr competitividade cobertura 0.8268    0.8053    0.8474   0.0110
+  lista         711 2022 top_necr competitividade  precisao 0.2784    0.2509    0.3054   0.0138
+  lista         711 2022 top_necr competitividade      lift 1.8900    1.8016    1.9892   0.0473
+  lista         711 2022 top_necr         eleicao cobertura 0.9263    0.8966    0.9533   0.0143
+  lista         711 2022 top_necr         eleicao  precisao 0.1243    0.1072    0.1433   0.0093
+  lista         711 2022 top_necr         eleicao      lift 2.1174    1.9876    2.2689   0.0734
+  lista         711 2022   top_50 competitividade cobertura 0.5277    0.5024    0.5532   0.0127
+  lista         711 2022   top_50 competitividade  precisao 0.3824    0.3477    0.4168   0.0173
+  lista         711 2022   top_50 competitividade      lift 2.6543    2.5098    2.8128   0.0768
+  lista         711 2022   top_50         eleicao cobertura 0.7041    0.6560    0.7536   0.0249
+  lista         711 2022   top_50         eleicao  precisao 0.2032    0.1759    0.2331   0.0146
+  lista         711 2022   top_50         eleicao      lift 3.5987    3.2855    3.9438   0.1668
+  lista         711 2022   top_80 competitividade cobertura 0.8137    0.7937    0.8346   0.0102
+  lista         711 2022   top_80 competitividade  precisao 0.2787    0.2516    0.3059   0.0141
+  lista         711 2022   top_80 competitividade      lift 1.9797    1.8920    2.0748   0.0463
+  lista         711 2022   top_80         eleicao cobertura 0.9194    0.8886    0.9477   0.0151
+  lista         711 2022   top_80         eleicao  precisao 0.1255    0.1075    0.1451   0.0097
+  lista         711 2022   top_80         eleicao      lift 2.3379    2.1931    2.4951   0.0782
+partido          35 2018 top_necr competitividade cobertura 0.8090    0.7445    0.8563   0.0285
+partido          35 2018 top_necr competitividade  precisao 0.3095    0.2143    0.4169   0.0524
+partido          35 2018 top_necr competitividade      lift 1.8737    1.7526    2.0000   0.0615
+partido          35 2018 top_necr         eleicao cobertura 0.8674    0.7562    0.9445   0.0511
+partido          35 2018 top_necr         eleicao  precisao 0.1920    0.1316    0.2630   0.0338
+partido          35 2018 top_necr         eleicao      lift 1.9815    1.8416    2.1669   0.0829
+partido          35 2018   top_50 competitividade cobertura 0.5732    0.5314    0.6114   0.0202
+partido          35 2018   top_50 competitividade  precisao 0.3893    0.2816    0.5062   0.0586
+partido          35 2018   top_50 competitividade      lift 2.0771    1.9078    2.2517   0.0870
+partido          35 2018   top_50         eleicao cobertura 0.6640    0.5767    0.7405   0.0427
+partido          35 2018   top_50         eleicao  precisao 0.2610    0.1811    0.3537   0.0442
+partido          35 2018   top_50         eleicao      lift 2.3801    2.1221    2.7195   0.1555
+partido          35 2018   top_80 competitividade cobertura 0.7840    0.7270    0.8264   0.0255
+partido          35 2018   top_80 competitividade  precisao 0.3016    0.2072    0.4121   0.0529
+partido          35 2018   top_80 competitividade      lift 1.9262    1.7858    2.0546   0.0670
+partido          35 2018   top_80         eleicao cobertura 0.8421    0.7459    0.9156   0.0459
+partido          35 2018   top_80         eleicao  precisao 0.1874    0.1275    0.2596   0.0342
+partido          35 2018   top_80         eleicao      lift 2.0309    1.8774    2.2209   0.0889
+partido          32 2022 top_necr competitividade cobertura 0.8268    0.7941    0.8557   0.0156
+partido          32 2022 top_necr competitividade  precisao 0.2784    0.2043    0.3500   0.0369
+partido          32 2022 top_necr competitividade      lift 1.8900    1.7465    2.0527   0.0778
+partido          32 2022 top_necr         eleicao cobertura 0.9263    0.8700    0.9751   0.0277
+partido          32 2022 top_necr         eleicao  precisao 0.1243    0.0728    0.1794   0.0269
+partido          32 2022 top_necr         eleicao      lift 2.1174    1.9340    2.3226   0.1019
+partido          32 2022   top_50 competitividade cobertura 0.5277    0.4945    0.5598   0.0170
+partido          32 2022   top_50 competitividade  precisao 0.3824    0.2810    0.4802   0.0497
+partido          32 2022   top_50 competitividade      lift 2.6543    2.4557    2.8783   0.1081
+partido          32 2022   top_50         eleicao cobertura 0.7041    0.6097    0.7995   0.0507
+partido          32 2022   top_50         eleicao  precisao 0.2032    0.1265    0.2837   0.0407
+partido          32 2022   top_50         eleicao      lift 3.5987    3.2889    4.1005   0.2140
+partido          32 2022   top_80 competitividade cobertura 0.8137    0.7900    0.8378   0.0123
+partido          32 2022   top_80 competitividade  precisao 0.2787    0.2038    0.3541   0.0382
+partido          32 2022   top_80 competitividade      lift 1.9797    1.8490    2.1090   0.0662
+partido          32 2022   top_80         eleicao cobertura 0.9194    0.8655    0.9689   0.0268
+partido          32 2022   top_80         eleicao  precisao 0.1255    0.0724    0.1841   0.0286
+partido          32 2022   top_80         eleicao      lift 2.3379    2.1767    2.5148   0.0863
+
+DIFERENCAS
+ cluster       ano                                        comparacao   ponto  ic95_inf  ic95_sup  prop_boot_le_0
+  lista      2018       lift eleitos - lift competitivos (Top-NECr)  0.1079    0.0028    0.2151          0.0240
+  lista      2018       lift Top-50% - lift Top-NECr (competitivos)  0.2034    0.1334    0.2786          0.0000
+  lista      2018            lift Top-50% - lift Top-NECr (eleitos)  0.3986    0.2849    0.5262          0.0000
+  lista      2018       lift Top-80% - lift Top-NECr (competitivos)  0.0526    0.0200    0.0852          0.0000
+  lista      2022       lift eleitos - lift competitivos (Top-NECr)  0.2275    0.1310    0.3383          0.0000
+  lista      2022       lift Top-50% - lift Top-NECr (competitivos)  0.7643    0.6696    0.8689          0.0000
+  lista      2022            lift Top-50% - lift Top-NECr (eleitos)  1.4812    1.2611    1.7266          0.0000
+  lista      2022       lift Top-80% - lift Top-NECr (competitivos)  0.0897    0.0509    0.1274          0.0000
+  lista 2022-2018    lift 2022 - lift 2018 (competitivos, Top-NECr)  0.0163   -0.1280    0.1626          0.4085
+  lista 2022-2018         lift 2022 - lift 2018 (eleitos, Top-NECr)  0.1359   -0.0673    0.3423          0.1025
+  lista 2022-2018 cobertura 2022 - 2018 (competitividade, Top-NECr)  0.0178   -0.0191    0.0538          0.1595
+  lista 2022-2018         cobertura 2022 - 2018 (eleicao, Top-NECr)  0.0589    0.0083    0.1124          0.0110
+  lista 2022-2018  precisao 2022 - 2018 (competitividade, Top-NECr) -0.0311   -0.0738    0.0082          0.9300
+  lista 2022-2018          precisao 2022 - 2018 (eleicao, Top-NECr) -0.0677   -0.0975   -0.0390          1.0000
+partido      2018       lift eleitos - lift competitivos (Top-NECr)  0.1079    0.0172    0.2321          0.0055
+partido      2018       lift Top-50% - lift Top-NECr (competitivos)  0.2034    0.1381    0.2716          0.0000
+partido      2018            lift Top-50% - lift Top-NECr (eleitos)  0.3986    0.2432    0.6051          0.0000
+partido      2018       lift Top-80% - lift Top-NECr (competitivos)  0.0526    0.0137    0.0890          0.0070
+partido      2022       lift eleitos - lift competitivos (Top-NECr)  0.2275    0.1298    0.3572          0.0000
+partido      2022       lift Top-50% - lift Top-NECr (competitivos)  0.7643    0.6665    0.8728          0.0000
+partido      2022            lift Top-50% - lift Top-NECr (eleitos)  1.4812    1.1899    1.8368          0.0000
+partido      2022       lift Top-80% - lift Top-NECr (competitivos)  0.0897    0.0241    0.1315          0.0070
+partido 2022-2018    lift 2022 - lift 2018 (competitivos, Top-NECr)  0.0163   -0.1742    0.2168          0.3980
+partido 2022-2018         lift 2022 - lift 2018 (eleitos, Top-NECr)  0.1359   -0.1069    0.3920          0.1320
+partido 2022-2018 cobertura 2022 - 2018 (competitividade, Top-NECr)  0.0178   -0.0377    0.0873          0.2760
+partido 2022-2018         cobertura 2022 - 2018 (eleicao, Top-NECr)  0.0589   -0.0346    0.1832          0.1530
+partido 2022-2018  precisao 2022 - 2018 (competitividade, Top-NECr) -0.0311   -0.1624    0.0872          0.6830
+partido 2022-2018          precisao 2022 - 2018 (eleicao, Top-NECr) -0.0677   -0.1544    0.0176          0.9405
+
+MEDIA DAS RAZOES / DEGENERADAS
+                                               0                1        2        3
+desfecho                        competitividade  competitividade  eleicao  eleicao
+ano                                        2018             2022     2018     2022
+listas                                      859              711      859      711
+financiadas                                 786              647      786      648
+degeneradas_k_igual_C                       207              100      207      100
+share_k_degeneradas                      0.1714           0.0837   0.1713   0.0837
+share_G_degeneradas                      0.1185           0.0093    0.115   0.0019
+share_A0_degeneradas                     0.2745           0.0213   0.2627   0.0045
+share_H_degeneradas                      0.1465           0.0113   0.1326   0.0021
+lift_razao_somas                         1.8737             1.89   1.9815   2.1174
+lift_so_nao_degeneradas                  2.2042           1.9094   2.3313   2.1224
+cobertura_razao_somas                     0.809           0.8268   0.8674   0.9263
+cobertura_media_listas_G_pos             0.8287           0.8321   0.9086   0.9333
+cobertura_mediana_listas_G_pos              1.0              1.0      1.0      1.0
+precisao_razao_somas                     0.3095           0.2784    0.192   0.1243
+precisao_media_listas_k_pos              0.3864           0.2765   0.2329   0.1131
+lift_media_listas_A0_pos                 2.7048           2.4186   3.0906   2.9021
+lift_mediana_listas_A0_pos                  2.0            1.875      2.0   2.3333
+listas_com_G_pos                            448              385      302      207
+listas_G_pos_e_0_k_C                        346              372      248      206
+listas_G_pos_cobertura_100                  327              227      259      180
+
+CONTRIBUICAO 10% MAIORES LISTAS (por G_l)
+        desfecho  ano  listas_top10pct  share_G  share_H  share_A0  share_k  lift_top10pct  lift_resto   ufs_top10pct
+competitividade 2018               86    0.483    0.469     0.414    0.217          2.125       1.696 SP, MG, RJ, BA
+competitividade 2022               72    0.456    0.449     0.423    0.219          2.008       1.804 SP, RJ, MG, RS
+        eleicao 2018               86    0.550    0.513     0.486    0.222          2.092       1.877 SP, MG, BA, PR
+        eleicao 2022               72    0.639    0.634     0.638    0.209          2.104       2.141 SP, MG, RJ, BA
+
+NUCLEO POR SEXO
+  ano    grupo  candidaturas  competitivos_pct  posicoes_nucleo  share_posicoes_nucleo  precisao_comp_no_grupo  precisao_eleitos_no_grupo
+2018 mulheres          2414              4.47           761.95                   0.33                   13.12                       9.81
+2018   homens          5212             14.93          1554.05                   0.67                   39.69                      23.76
+2022 mulheres          3404              5.96          1383.89                   0.36                   12.96                       6.22
+2022   homens          6268             17.29          2438.11                   0.64                   36.29                      15.96
+
+GRADIENTE MARGINAL
+        desfecho  ano          faixa  lift_acumulado  lift_marginal_faixa  densidade_marginal  precisao_acumulada
+competitividade 2018      0->top_50           2.077                2.077               0.389               0.389
+competitividade 2018 top_50->top_60           2.054                1.862               0.231               0.365
+competitividade 2018 top_60->top_70           2.019                1.791               0.220               0.338
+competitividade 2018 top_70->top_80           1.926                1.259               0.134               0.302
+competitividade 2018 top_80->top_90           1.730                0.714               0.070               0.247
+competitividade 2018 top_90->top_95           1.534                0.364               0.040               0.210
+competitividade 2022      0->top_50           2.654                2.654               0.382               0.382
+competitividade 2022 top_50->top_60           2.439                1.668               0.240               0.351
+competitividade 2022 top_60->top_70           2.205                1.313               0.181               0.315
+competitividade 2022 top_70->top_80           1.980                1.175               0.158               0.279
+competitividade 2022 top_80->top_90           1.607                0.565               0.078               0.225
+competitividade 2022 top_90->top_95           1.375                0.293               0.041               0.192
+        eleicao 2018      0->top_50           2.380                2.380               0.261               0.261
+        eleicao 2018 top_50->top_60           2.352                2.099               0.141               0.242
+        eleicao 2018 top_60->top_70           2.223                1.420               0.105               0.217
+        eleicao 2018 top_70->top_80           2.031                0.759               0.051               0.187
+        eleicao 2018 top_80->top_90           1.786                0.512               0.030               0.150
+        eleicao 2018 top_90->top_95           1.566                0.201               0.012               0.126
+        eleicao 2022      0->top_50           3.599                3.599               0.203               0.203
+        eleicao 2022 top_50->top_60           3.166                1.696               0.101               0.181
+        eleicao 2022 top_60->top_70           2.772                1.135               0.057               0.154
+        eleicao 2022 top_70->top_80           2.338                0.612               0.029               0.125
+        eleicao 2022 top_80->top_90           1.777                0.205               0.011               0.095
+        eleicao 2022 top_90->top_95           1.465                0.088               0.005               0.079
+
+OK

@@ -1,0 +1,44 @@
+
+===== 2018 =====
+(a) ELEITOS: H=445.000 | A0 todas C=224.572 lift=1.982 | A0 recebedores=249.695 lift=1.782
+    eleitos com R=0: 32 de 513; candidaturas com R=0: 2046 de 7630
+(a) COMPETITIVOS: H=716.750 | A0 todas=382.715 lift=1.873 | A0 recebedores=425.216 lift=1.686
+    competitivos com R=0: 75 de 886
+    cobertura máxima possível (só recebedores podem estar no núcleo): eleitos 0.9376, competitivos 0.9153
+(b) candidaturas com 0<w<1: 226 (em 49 listas); eleitas entre elas: 3; competitivas: 4; soma dos pesos fracionários: 102.00
+    candidaturas com w==1: 2216; posições k somadas: 2318
+(e) COMPETITIVOS precisão com sum k integral = 0.3092 vs válidos = 0.3095; lift com C_l integral = 1.8731 vs válidos = 1.8728
+(d) por sexo (0=homem,1=mulher): n, % competitivas, peso médio no núcleo, % recebedoras:
+            n    comp  no_nucleo     rec
+mulher                                 
+0.0     5212  0.1493     0.2982  0.6901
+1.0     2414  0.0447     0.3156  0.8219
+    parcela das posições do núcleo ocupadas por mulheres: 0.3290; competitivas entre mulheres no núcleo (ponderado): 0.1312; entre homens no núcleo: 0.3969
+
+===== 2022 =====
+(a) ELEITOS: H=475.192 | A0 todas C=224.419 lift=2.117 | A0 recebedores=231.987 lift=2.048
+    eleitos com R=0: 8 de 513; candidaturas com R=0: 1086 de 9675
+(a) COMPETITIVOS: H=1064.115 | A0 todas=563.086 lift=1.890 | A0 recebedores=574.863 lift=1.851
+    competitivos com R=0: 36 de 1287
+    cobertura máxima possível (só recebedores podem estar no núcleo): eleitos 0.9844, competitivos 0.9720
+(b) candidaturas com 0<w<1: 477 (em 108 listas); eleitas entre elas: 13; competitivas: 28; soma dos pesos fracionários: 235.00
+    candidaturas com w==1: 3589; posições k somadas: 3824
+(e) COMPETITIVOS precisão com sum k integral = 0.2783 vs válidos = 0.2784; lift com C_l integral = 1.8898 vs válidos = 1.8898
+(d) por sexo (0=homem,1=mulher): n, % competitivas, peso médio no núcleo, % recebedoras:
+            n    comp  no_nucleo     rec
+mulher                                 
+0.0     6268  0.1729     0.3890  0.8709
+1.0     3404  0.0596     0.4065  0.9189
+    parcela das posições do núcleo ocupadas por mulheres: 0.3621; competitivas entre mulheres no núcleo (ponderado): 0.1296; entre homens no núcleo: 0.3629
+
+(c) piso/arredondado/teto (df_cobertura_top_necr_resumo.csv):
+ ano_eleicao     regra_k  n_posicoes_top_necr  cobertura  precisao   lift
+        2018        piso                 2058     0.8255    0.2058 2.1763
+        2018 arredondado                 2318     0.8674    0.1920 1.9815
+        2018        teto                 2618     0.8767    0.1718 1.7487
+        2022        piso                 3520     0.9164    0.1336 2.2554
+        2022 arredondado                 3824     0.9263    0.1243 2.1174
+        2022        teto                 4119     0.9347    0.1164 1.9835
+
+menção a 'piso' ou 'teto' no capítulo:
+ piso: 0 | teto: 0 | lceil: 0

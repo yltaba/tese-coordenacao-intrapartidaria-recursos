@@ -1,0 +1,30 @@
+
+```{python}
+import pandas as pd
+
+bancada_api = pd.read_csv("data/processed/bancada_partido_uf.csv")
+
+mapa = {"PCdoB": "PC do B", "PP**": "PP", "SD": "SOLIDARIEDADE"}
+bancada_api["sg_partido"] = (
+    bancada_api["sg_partido"].map(mapa).fillna(bancada_api["sg_partido"])
+)
+
+api_partidos = bancada_api[["ano_eleicao", "sg_partido"]].drop_duplicates()
+
+rrd = pd.read_parquet("data/processed/rrd_df_novo.parquet")
+rrd_partidos = rrd[["ano_eleicao", "sg_partido"]].drop_duplicates()
+
+merged = api_partidos.merge(
+    rrd_partidos, on=["ano_eleicao", "sg_partido"], how="outer", indicator=True
+)
+diff = merged[merged["_merge"] != "both"].sort_values(["ano_eleicao", "sg_partido"])
+diff["origem"] = diff["_merge"].map({"left_only": "só API", "right_only": "só RRD"})
+diff.drop(columns="_merge")
+diff
+```
+
+
+
+```{python}
+bancada_api.to_csv("data/processed/bancada_partido_uf.csv", index=False)
+```

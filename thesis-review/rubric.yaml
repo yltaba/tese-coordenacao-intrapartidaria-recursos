@@ -1,0 +1,59 @@
+# Rubrica do sistema de revisão da tese
+version: 1
+
+severidades:
+  CRITICAL: "Invalida uma conclusão do capítulo ou o desenho da medida (ex.: variável dependente não corresponde à hipótese; número central errado)."
+  MAJOR: "Exige mudança de método, medida, especificação ou interpretação; a conclusão pode sobreviver, mas não como está escrita."
+  MODERATE: "Correção de número, definição, denominador ou redação que afeta a leitura, sem mudar a conclusão."
+  MINOR: "Polimento: clareza, redundância, notação, formatação. Sem efeito no argumento."
+
+confianca:
+  alta: "Verificado por recomputação ou artefato inequívoco."
+  media: "Inferido de artefatos/código, sem recomputação completa, ou depende de interpretação razoável."
+  baixa: "Suspeita fundamentada em texto; não foi possível verificar."
+
+escalas:
+  macro: "Cadeia pergunta -> teoria -> hipótese -> desenho -> medida -> resultado -> conclusão."
+  micro: "Parágrafo, frase, número, tabela, figura, nota, citação, equação."
+
+tipos_de_evidencia:
+  recomputacao: "Número reproduzido/refutado rodando código sobre data/processed ou CSVs."
+  artefato: "Comparação com CSV, tabela, figura ou JSON de auditoria existente."
+  codigo: "Leitura do código que produz a medida (src/, tese/scripts/)."
+  textual: "Inconsistência interna do texto ou entre capítulos."
+  ausencia: "Artefato, definição ou passo que deveria existir e não existe."
+
+prefixos_de_agente:
+  MEA: measurement-reviewer
+  STA: statistics-reviewer
+  RES: results-reviewer
+  MET: methodology-reviewer
+  THE: theory-reviewer
+  LIT: literature-reviewer
+  WRI: writing-reviewer
+  ADV: adversarial-reviewer
+  I: issue arbitrado pelo chair
+
+status_de_claim: [supported, partially_supported, unsupported, contradicted, unverifiable]
+
+status_de_issue: [open, accepted, rejected, resolved, superseded]
+
+esquema_finding:
+  obrigatorios: [id, titulo, escala, localizacao, afirmacao_do_autor, problema, evidencia, severidade, confianca, recomendacao]
+  opcionais: [claims, relacionados, nota]
+  localizacao: {arquivo: str, linha: int, secao: str, trecho: str}
+  evidencia: {tipo: str, fontes: [str], detalhe: str}
+
+esquema_claim:
+  obrigatorios: [claim_id, capitulo, secao, claim, localizacao, evidencia, assessment, agent]
+  evidencia: {tipo: "figura|tabela|csv|codigo|equacao|citacao|nenhuma", referencia: str}
+  assessment: {status: str, confidence: str}
+  opcionais: [concerns]
+
+esquema_issue:
+  obrigatorios: [issue_id, titulo, capitulo, findings, claims, severidade_inicial, contra_argumento, severidade_final, confianca, razao, recomendacao, status]
+  contra_argumento: {agent: adversarial-reviewer, assessment: "valid|partially_valid|invalid|not_reviewed", resumo: str}
+
+gates_por_capitulo:
+  # PASS: 0 CRITICAL e 0 MAJOR abertos; WARN: 0 CRITICAL, >=1 MAJOR; FAIL: >=1 CRITICAL
+  dimensoes: [measurement, statistics, results, theory, literature, writing, internal_validity]

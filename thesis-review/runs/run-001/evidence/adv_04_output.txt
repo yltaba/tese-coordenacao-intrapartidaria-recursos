@@ -1,0 +1,11 @@
+ ano   alvo    G  sum_k  cobertura  precisao  lift                    universo
+2018   comp  886   2318     0.8090    0.3092 1.873            todas (original)
+2018 eleito  513   2318     0.8674    0.1920 1.982            todas (original)
+2022   comp 1287   3824     0.8268    0.2783 1.890            todas (original)
+2022 eleito  513   3824     0.9263    0.1243 2.117            todas (original)
+2018   comp  778   1758     0.8027    0.3552 1.622 só homens, Top-NECr refeito
+2018 eleito  435   1758     0.8548    0.2115 1.689 só homens, Top-NECr refeito
+2022   comp 1084   2656     0.8374    0.3418 1.742 só homens, Top-NECr refeito
+2022 eleito  422   2656     0.9323    0.1481 1.918 só homens, Top-NECr refeito
+2018: parcela dos recursos partidários a mulheres = 0.256; parcela de mulheres entre candidaturas = 0.317
+2022: parcela dos recursos partidários a mulheres = 0.317; parcela de mulheres entre candidaturas = 0.352

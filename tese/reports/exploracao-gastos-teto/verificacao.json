@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "Candidatos únicos": true,
+    "513 eleitos em cada ano": true,
+    "Despesas finitas e não negativas": true,
+    "Todos os eleitos têm despesas registradas": true,
+    "Valores agregados reconciliados": true,
+    "Ajuste não aumenta gastos": true,
+    "Faixas cobrem todos os registros": true,
+    "Distribuição soma 100%": true
+  },
+  "fontes": {
+    "2018": "https://www.tse.jus.br/legislacao/compilada/res/2017/resolucao-no-23-553-de-18-de-dezembro-de-2017",
+    "2022": "https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-607-de-17-de-dezembro-de-2019",
+    "teto2022": "https://www.tre-mg.jus.br/comunicacao/noticias/2022/Julho/eleicoes-2022-tse-divulga-limites-de-gastos-nas-campanhas-666390"
+  },
+  "data_consulta": "2026-09-11",
+  "sha256": {
+    "rrd_df_novo.parquet": "292aa9ec830cf41e46ef0d59eada0fbd3f3a4f1d8a6f7788bea8b1f4b7f7d530",
+    "despesas.parquet": "415f04c069960913f3d399062d94d28c7f8589134c00c70ac8aeebe84e043d9a"
+  }
+}

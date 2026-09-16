@@ -1,0 +1,8 @@
+resultado,estatuto,justificativa
+"Lift > 1 em todo o espectro de magnitude, nos dois anos e alvos",resultado_central,"Robusto, monotônico, sem exceção, replica nas duas eleições."
+Focalização (lift > 1) generalizada entre partidos com volume mínimo de informação,resultado_central,Não é artefato de poucas legendas grandes; reforça a validade externa do achado nacional.
+Lift cresce sistematicamente com magnitude,heterogeneidade_relevante,"Padrão real e replicável, mas qualifica o achado central em vez de constituí-lo."
+"Ranking de lift por partido pouco/nada persistente entre 2018-2022 (rho=0,60 eleitos; rho~0 competitivos)",heterogeneidade_relevante,"Substantivo sobre limites de uma leitura de traço fixo do partido, mas N pequeno de famílias comparáveis."
+"Outliers de lift muito alto concentrados em partidos com E esperado pequeno (PPL, PMN, REDE etc.)",diagnostico_robustez,"Aviso de leitura da tabela, não achado substantivo sobre focalização partidária."
+PSOL como outlier de lift alto sem denominador pequeno,diagnostico_robustez,"Caso único digno de nota, não sustenta generalização por ora."
+"Partidos marginais com lift indefinido (PCB, PCO, PMB, PRTB, PSTU, UP, DC, AGIR)",ruido,Ausência quase total de eleitos/competitivos no período torna o indicador não interpretável.

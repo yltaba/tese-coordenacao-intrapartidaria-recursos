@@ -1,0 +1,105 @@
+---
+title: "O mecanismo de coordenação via recursos"
+---
+
+## *Timing* do recebimento do recurso pelas campanhas
+
+Utilizando o calendário eleitoral de 2022 como exemplo, em 16 de junho daquele ano o TSE divulgou os valores do FEFC que foram distribuídos aos partidos. Os partidos tiveram até o dia 5 de agosto para realizar suas convenções e divulgar as nominatas das candidaturas aprovadas pelas direções. A campanha eleitoral teve início em 16 de agosto, com a permissão de veiculação de propaganda eleitoral em todos os meios de comunicação. As eleições em si ocorreram em 2 de outubro.
+
+Entre a divulgação dos valores do FEFC e a data final para realização das convenções há 50 dias de diferença. É neste contexto que as cúpulas partidárias avaliam candidaturas e formam suas listas. Já entre as convenções e o início do período eleitoral com a permissão de propaganda são mais 11 dias de diferença. Ou seja, entre os partidos saberem os valores que teriam à disposição e o início das campanhas são 61 dias no total, período em que a estratégia eleitoral está sendo desenhada.
+
+O recebimento de receitas de campanha pelas candidaturas depende de 1) requerimento do registro da candidatura, 2) CNPJ específico da campanha e 3) abertura de conta corrente específica. Dado este cenário, as transferências monetárias realizadas aos candidatos ocorrem de fato durante o próprio período de campanha. Dito de outra maneira, é no período eleitoral que se torna visível a estratégia adotada pelos partidos para coordenar suas nominatas em termos de aplicação de recursos de fundos públicos.
+
+Aqui a tese proposta se diferencia novamente de @cheibubsin2020, ao identificar no prazo de realização das campanhas eleitorais o momento em que ocorre a coordenação dos partidos políticos diante da competição intrapartidária. Para os autores, dada a seleção estratégica de candidaturas competitivas, a coordenação da competição intrapartidária se daria sobretudo antes da formação das listas. Além disso, a tese também se difere ao considerar indicadores pré-eleitorais sobre a capacidade e expectativa partidárias. Para esta finalidade, aproveita as reformas de financiamento de campanhas que substituíram o protagonismo empresarial pelo de fundos públicos bilionários cujo controle da alocação entre candidaturas é partidário.
+
+Nesta seção, analiso o *timing* da distribuição de recursos por partidos políticos a suas candidaturas a Deputado Federal em 2018 e 2022. Estas eleições compartilham o regime de financiamento público centralizado via FEFC, mas diferem em aspectos institucionais relevantes.
+
+Em 2018, após a proibição das doações de pessoas jurídicas (em vigor desde 2016), o FEFC se consolidou como principal provedor de recursos de campanha. Partidos ainda podiam se coligar em eleições proporcionais, e a campanha eleitoral durou 52 dias. Em 2022, as coligações foram proibidas nas eleições proporcionais, a campanha durou 47 dias, e a cláusula de barreira seguia sendo implementada gradualmente com patamares crescentes. Estes fatores criaram incentivos adicionais para que os partidos alocassem recursos de forma mais concentrada, já que não contavam com uma coligação para garantir o quociente partidário, cada legenda precisou construir seu desempenho eleitoral de forma autônoma.
+
+Sob o FEFC, partidos ganham capacidade de agência significativa. Ao saber de antemão o montante reservado para a legenda, lideranças partidárias podem desenhar a estratégia de distribuição dos recursos antes mesmo da campanha começar, adquirindo uma posição de *gatekeeper*, conforme formalizado por @fivaetal2024. O recebimento antecipado de recursos de campanha dá aos candidatos contemplados maior margem para aplicação deste dinheiro, podendo garantir melhores profissionais, materiais e fornecedores. Além de contribuir para "colocar a campanha na rua" mais cedo e por mais tempo. Dessa forma, os resultados indicam que partidos políticos antecipam isso e priorizam a distribuição de recursos para candidaturas competitivas, com estas recebendo recursos sistematicamente antes que seus concorrentes.
+
+![Proporção acumulada dos recursos recebidos por semana de campanha](../figs/cap3_cumulative_proportion_cs.png){#fig-semana-campanha fig-align="center" width="100%"}
+
+A @fig-semana-campanha apresenta a proporção acumulada dos recursos recebidos por candidaturas a Deputado Federal. Em 2018, há um salto relevante na proporção acumulada entre a primeira e segunda semanas do período eleitoral para todos os candidatos e partidos. O salto, porém, é mais acentuado quando se considera apenas candidaturas competitivas, e ainda maior para estes candidatos em partidos competitivos.
+
+Em 2022, o salto do acúmulo de recursos entre as primeiras semanas permanece elevado para candidatos competitivos em partidos também competitivos, mas a diferença para seus concorrentes é menor que em 2018. Com relação aos candidatos dos partidos menos competitivos, a diferença das proporções da semana um e dois é parecida para os dois tipos de candidatos, mas os competitivos já largam em vantagem de 20p.p.
+
+![Valores absolutos dos recursos recebidos por semana de campanha](../figs/cap3_cumulative_abs_cs.png){#fig-semana-abs fig-align="center" width="100%"}
+
+Em termos absolutos, a @fig-semana-abs confirma o padrão. Em 2018, candidatos competitivos acumularam recursos muito maiores que seus concorrentes, com o nítido salto entre a primeira e segunda semanas de campanha. Neste período, candidatos competitivos de partidos também competitivos tiveram um acréscimo de 250 milhões de reais em suas campanhas, enquanto nos demais partidos, o salto para o mesmo tipo de candidaturas foi menor, de 60 milhões de reais.
+
+Os gráficos relacionados a 2022 na @fig-semana-abs apresentam os resultados mais relevantes em termos teóricos. Enquanto para partidos menos competitivos a vantagem inicial dos candidatos competitivos é revertida logo na terceira semana, o salto dos repasses nas primeiras semanas para candidatos competitivos em partidos competitivos é da ordem de quase 400 milhões de reais — mais do que o dobro do salto do mesmo tipo de candidatos em partidos menos competitivos.
+
+Como vimos, o "dilema do gatekeeper" formulado por @fivaetal2024 prevê que partidos mais fortes eleitoralmente, aqui considerados competitivos quando possuíam mais de 20 cadeiras na Câmara pré período das convenções, se saem melhor quando o assunto é agir seletivamente. Os resultados apresentados corroboram ao menos ao informar que candidaturas competitivas em partidos competitivos acumulam mais recursos que seus concorrentes, e em uma *velocidade* também maior.
+
+## O timing dos repasses: Kaplan-Meier
+
+A análise de sobrevivência operacionaliza o "evento" de duas maneiras considerando a diferença em dias entre o início da campanha eleitoral e: i) o primeiro repasse recebido pelo candidato, e ii) o maior repasse recebido ao longo da campanha.
+
+O teste Kaplan-Meier é um método descritivo não-paramétrico usado para calcular a probabilidade de que um indivíduo não tenha experimentado determinado evento até determinada data. Aqui será utilizado para mostrar a probabilidade de que candidaturas competitivas e menos competitivas não tenham recebido o primeiro ou o maior repasse ao longo das semanas de campanha de 2018 e 2022.
+
+A @fig-km-cs mostra os resultados do teste considerando o primeiro repasse e a @fig-km-maior-cs o maior repasse. A alocação antecipada de recursos para candidaturas competitivas é o padrão observado nos dois ciclos eleitorais: candidatos competitivos apresentam menores probabilidades de não terem recebido o primeiro repasse, em especial nos partidos competitivos. A especificação do evento altera substancialmente a curva produzida pelo teste — ao considerar o maior repasse em vez do primeiro, as diferenças entre competitivos e não-competitivos se mantêm na mesma direção, confirmando que a antecipação não é apenas do contato inicial, mas do investimento principal do partido.
+
+![Curvas de sobrevivência Kaplan-Meier: dias até o primeiro repasse partidário por grupo de competitividade (ex-ante)](../figs/cap3_survival_km_cs_v2.png){#fig-km-cs fig-align="center" width="100%"}
+
+![Curvas de sobrevivência Kaplan-Meier: dias até o maior repasse partidário por grupo de competitividade (ex-ante)](../figs/cap3_survival_km_maior_cs_v2.png){#fig-km-maior-cs fig-align="center" width="100%"}
+
+## Modelos de Cox: determinantes do recebimento antecipado
+
+As curvas de Kaplan-Meier são evidências preliminares da antecipação da transferência de recursos controlados pelos partidos para candidaturas competitivas, porém os testes não dão conta de controlar por fatores que possam causar a diferença observada, como variáveis institucionais, por exemplo. Os modelos de riscos proporcionais de Cox [-@cox1972] permitem estimar o efeito de múltiplas variáveis como determinantes estruturais sobre a "taxa instantânea" da alocação dos recursos de campanha. É uma especificação semi-paramétrica, que estima a probabilidade condicional de um candidato receber a transferência do partido em um dado instante. Nestes modelos, calcula-se a *hazard ratio* (HR) que indica o quanto a "taxa instantânea" da ocorrência da alocação aumenta ou diminui para cada unidade adicional da variável. O HR superior a um indica recebimento antecipado.
+
+Aplicando os testes para os dois ciclos eleitorais em separado, nota-se que para cada eleição anteriormente vencida para deputado federal, candidatos têm aumento de 58% na "taxa instantânea" de recebimento em 2018, caindo para 38% em 2022. O maior efeito está na proporção de votos nominais dentro do distrito disputado na eleição anterior, indicando que além do histórico eleitoral de vitórias, o desempenho eleitoral imediatamente anterior para recandidaturas à Câmara dos Deputados é um determinante para recebimento antecipado de recursos partidários na campanha eleitoral. Um resultado consistente entre os dois ciclos é que não há efeito da magnitude do distrito sobre o tempo das transferências de recursos entre partidos a seus candidatos.
+
+```{python}
+#| label: tbl-cox
+#| tbl-cap: "Determinantes do *timing* do repasse partidário — Modelo Cox PH. HR: *hazard ratio*; IC 95\\%: intervalo de confiança de 95\\%. SE clusterizados por partido × UF. \\*p<0,05; \\*\\*p<0,01; \\*\\*\\*p<0,001."
+import pandas as pd
+from tabulate import tabulate
+from IPython.display import Markdown
+
+rotulos = {
+    "n_eleicoes_deputado_federal":  "N. Eleições Dep. Federal",
+    "n_eleicoes_deputado_estadual": "N. Eleições Dep. Estadual",
+    "n_eleicoes_vereador":          "N. Eleições Vereador",
+    "n_eleicoes_prefeito":          "N. Eleições Prefeito",
+    "n_eleicoes_governador":        "N. Eleições Governador",
+    "n_eleicoes_senador":           "N. Eleições Senador",
+    "prop_votos_nominais_lag":      "Prop. votos nominais (t-1)",
+    "log_qt_vaga":                  "Ln(magnitude)",
+    "mulher":                       "Mulher",
+    "negra":                        "Negra/Parda",
+}
+
+def sig(p):
+    if p < 0.001: return "***"
+    if p < 0.01:  return "**"
+    if p < 0.05:  return "*"
+    return ""
+
+df = pd.read_parquet("../data/processed/df_cox_survival.parquet")
+df = df[df["ano"].isin([2018, 2022])].copy()
+df["label"] = df["variavel"].map(rotulos)
+
+def formatar_ano(df, ano):
+    d = df[df["ano"] == ano].copy()
+    d["HR"] = d["exp(coef)"].map("{:.3f}".format) + d["p"].apply(sig)
+    d["IC 95%"] = (
+        "["
+        + d["exp(coef) lower 95%"].map("{:.3f}".format)
+        + "; "
+        + d["exp(coef) upper 95%"].map("{:.3f}".format)
+        + "]"
+    )
+    return d.set_index("label")[["HR", "IC 95%"]]
+
+t18 = formatar_ano(df, 2018).rename(columns={"HR": "HR 2018", "IC 95%": "IC 95% 2018"})
+t22 = formatar_ano(df, 2022).rename(columns={"HR": "HR 2022", "IC 95%": "IC 95% 2022"})
+
+tbl = t18.join(t22).reset_index().rename(columns={"label": "Covariável"})
+
+Markdown(tabulate(tbl, headers="keys", tablefmt="pipe", showindex=False))
+```
+
+
+
+## Discussão dos resultados
