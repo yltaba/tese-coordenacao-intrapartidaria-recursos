@@ -1,0 +1,309 @@
+---
+title: "EDA — Receitas de candidatos a Deputado Federal e Estadual (2018 e 2022)"
+date: "2026-05-17"
+format:
+  html:
+    toc: true
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{python}
+import pandas as pd
+
+RAW = "data/raw/finanças"
+CARGO = "DEPUTADO FEDERAL"
+ORIGEM_PARTIDO = "Recursos de partido político"
+ORIGEM_OUTROS = "Recursos de outros candidatos"
+
+_dtype = {"CD_ESFERA_PARTIDARIA_DOADOR": "str", "NR_DOCUMENTO_DOACAO": "str"}
+rec_raw = pd.concat([
+    pd.read_csv(f"{RAW}/receitas_candidatos_{ano}_BRASIL.csv", sep=";", encoding="latin1", dtype=_dtype)
+    for ano in [2018, 2022]
+])
+rec_raw.columns = rec_raw.columns.str.lower()
+rec_raw["vr_receita"] = rec_raw["vr_receita"].str.replace(",", ".").astype(float)
+rec_raw["ds_cargo"] = rec_raw["ds_cargo"].str.upper()
+rec_raw["ds_cargo_candidato_doador"] = rec_raw["ds_cargo_candidato_doador"].str.upper().str.strip()
+
+rec_fed = rec_raw[rec_raw["ds_cargo"] == CARGO].copy()
+rec_fed["vr_mi"] = rec_fed["vr_receita"] / 1_000_000
+
+rrd = pd.read_parquet("data/processed/rrd_df_novo.parquet")
+```
+
+# Receitas de candidaturas a DF por origem
+
+```{python}
+df_origem_ano = (
+    rec_fed
+    .groupby(["ano_eleicao", "ds_origem_receita"], as_index=False)
+    .agg(vr_mi=("vr_mi", "sum"), n_candidatos=("sq_candidato", "nunique"))
+)
+df_origem_ano["pct"] = (
+    df_origem_ano["vr_mi"]
+    / df_origem_ano.groupby("ano_eleicao")["vr_mi"].transform("sum")
+    * 100
+).round(1)
+df_origem_ano["vr_mi"] = df_origem_ano["vr_mi"].round(2)
+df_origem_ano = df_origem_ano.sort_values(["ano_eleicao", "vr_mi"], ascending=[True, False])
+df_origem_ano
+```
+
+# Candidatos com e sem recursos de partido político
+
+```{python}
+rows = []
+for ano in [2018, 2022]:
+    df_ano = rec_fed[rec_fed["ano_eleicao"] == ano]
+    total = df_ano["sq_candidato"].nunique()
+    com = df_ano[df_ano["ds_origem_receita"] == ORIGEM_PARTIDO]["sq_candidato"].nunique()
+    sem = total - com
+    rows.append({"Ano": ano, "Com recursos de partido": com, "Sem recursos de partido": sem,
+                 "Total (c/ ao menos 1 receita)": total,
+                 "% com partido": round(com / total * 100, 1),
+                 "% sem partido": round(sem / total * 100, 1)})
+pd.DataFrame(rows)
+```
+
+## No dataset analítico (`rrd_df_novo`)
+
+O `rrd_df_novo` cobre apenas candidatos dentro da janela eleitoral (2018: 16/08–07/10; 2022: 16/08–02/10).
+Candidatos sem transferência de partido aparecem como `NaN` em `vr_receita_recursos_partidos` (não há zeros).
+
+```{python}
+rows_rrd = []
+for ano in [2018, 2022]:
+    df = rrd[rrd["ano_eleicao"] == ano]
+    total = len(df)
+    com = (df["vr_receita_recursos_partidos"] > 0).sum()
+    sem = df["vr_receita_recursos_partidos"].isna().sum()
+    rows_rrd.append({
+        "Ano": ano,
+        "Total": total,
+        "Com (> 0)": com,
+        "Sem (NaN)": sem,
+        "% com partido": round(com / total * 100, 1),
+        "% sem partido": round(sem / total * 100, 1),
+    })
+pd.DataFrame(rows_rrd)
+```
+
+## Eleitos por status de recebimento de partido
+
+```{python}
+rows_el = []
+for ano in [2018, 2022]:
+    df = rrd[rrd["ano_eleicao"] == ano]
+    teve = df["vr_receita_recursos_partidos"] > 0
+    for status, label in [(True, "Recebeu partido"), (False, "Não recebeu (NaN)")]:
+        sub = df[teve == status]
+        eleitos = sub["eleito"].sum()
+        nao = len(sub) - eleitos
+        rows_el.append({
+            "Ano": ano,
+            "Status": label,
+            "Não eleitos": nao,
+            "Eleitos": int(eleitos),
+            "% eleitos": round(eleitos / len(sub) * 100, 1),
+        })
+pd.DataFrame(rows_el)
+```
+
+A cobertura de recursos de partido cresceu de ~73% (2018) para ~89% (2022). Candidatos sem
+transferência de partido que se elegeram são raros em 2022 (8 casos, 1,6% dos eleitos).
+
+# Origens dos recursos — candidatos sem partido
+
+Para os candidatos sem transferência de partido, as receitas de outras origens se distribuem assim
+(excluindo registros `#NULO`, que representam candidaturas com declaração zerada):
+
+```{python}
+rows_sem = []
+for ano in [2018, 2022]:
+    df_ano = rec_fed[rec_fed["ano_eleicao"] == ano]
+    cands_com = set(df_ano[df_ano["ds_origem_receita"] == ORIGEM_PARTIDO]["sq_candidato"])
+    cands_sem = set(df_ano["sq_candidato"]) - cands_com
+
+    df_sem = df_ano[
+        df_ano["sq_candidato"].isin(cands_sem) &
+        (df_ano["ds_origem_receita"] != "#NULO")
+    ]
+    n_zerados = len(cands_sem) - df_sem["sq_candidato"].nunique()
+
+    tab = (
+        df_sem.groupby("ds_origem_receita")
+        .agg(n_candidatos=("sq_candidato", "nunique"), vr_mi=("vr_mi", "sum"))
+        .sort_values("vr_mi", ascending=False)
+        .assign(pct=lambda d: (d["vr_mi"] / d["vr_mi"].sum() * 100).round(1),
+                vr_mi=lambda d: d["vr_mi"].round(2),
+                ano=ano,
+                declaracao_zerada=n_zerados)
+    )
+    rows_sem.append(tab.reset_index())
+
+df_sem_concat = pd.concat(rows_sem)
+df_sem_concat
+```
+
+**Nota:** candidatos com declaração zerada (`#NULO`) — sem nenhuma movimentação financeira —
+somam 772 em 2018 e 989 em 2022.
+
+Os candidatos sem recursos de partido dependeram quase exclusivamente de **recursos próprios**
+(52,6% em 2018) e **doações de pessoas físicas** (55,3% em 2022), perfil oposto ao dos
+candidatos contemplados pelo FEFC.
+
+# Dupla contagem em "Recursos de outros candidatos"
+
+A preocupação metodológica levantada é a seguinte: se o partido repassa R$ 10 mi ao candidato A,
+e este repassa R$ 5 mi ao candidato B, a soma bruta das receitas (R$ 15 mi) supera o valor
+original saído do partido (R$ 10 mi). O campo `ds_origem_receita = "Recursos de outros candidatos"`
+registra o repasse de B, mas a origem última é o partido.
+
+Para mensurar a magnitude desse problema, identificamos as transações em que:
+
+1. o receptor é candidato a Deputado Federal,
+2. a origem é `"Recursos de outros candidatos"`,
+3. o doador também é candidato a Deputado Federal (`ds_cargo_candidato_doador`), e
+4. esse doador-candidato **recebeu** `"Recursos de partido político"` no mesmo ano.
+
+## Cargo do doador em "Recursos de outros candidatos"
+
+```{python}
+tab_cargo = (
+    rec_fed[rec_fed["ds_origem_receita"] == ORIGEM_OUTROS]
+    .groupby(["ano_eleicao", "ds_cargo_candidato_doador"])
+    .agg(vr_mi=("vr_mi", "sum"), n_transacoes=("vr_receita", "count"))
+    .round(2)
+)
+tab_cargo
+```
+
+## Mensuração da dupla contagem
+
+```{python}
+rows_dc = []
+for ano in [2018, 2022]:
+    df_ano = rec_fed[rec_fed["ano_eleicao"] == ano]
+    cands_com_partido = set(df_ano[df_ano["ds_origem_receita"] == ORIGEM_PARTIDO]["sq_candidato"])
+
+    rec_df_df = df_ano[
+        (df_ano["ds_origem_receita"] == ORIGEM_OUTROS) &
+        (df_ano["ds_cargo_candidato_doador"] == "DEPUTADO FEDERAL")
+    ].copy()
+    rec_df_df["doador_teve_partido"] = rec_df_df["sq_candidato_doador"].isin(cands_com_partido)
+
+    total_df_df   = rec_df_df["vr_mi"].sum()
+    dupla         = rec_df_df[rec_df_df["doador_teve_partido"]]["vr_mi"].sum()
+    nao_dupla     = total_df_df - dupla
+    total_outros  = df_ano[df_ano["ds_origem_receita"] == ORIGEM_OUTROS]["vr_mi"].sum()
+    total_partido = df_ano[df_ano["ds_origem_receita"] == ORIGEM_PARTIDO]["vr_mi"].sum()
+
+    rows_dc.append({
+        "Ano": ano,
+        "Total partido (R$ mi)": round(total_partido, 2),
+        "Outros candidatos — todos cargos (R$ mi)": round(total_outros, 2),
+        "DF doando para DF (R$ mi)": round(total_df_df, 2),
+        "Dupla contagem (doador c/ partido, R$ mi)": round(dupla, 2),
+        "% DF-DF com dupla contagem": round(dupla / total_df_df * 100, 1),
+        "Dupla contagem / total partido (%)": round(dupla / total_partido * 100, 1),
+    })
+
+pd.DataFrame(rows_dc).T
+```
+
+## Conclusão
+
+A preocupação é metodologicamente válida: ~96% do valor repassado entre candidatos a Deputado
+Federal originou-se de candidatos que eles mesmos receberam recursos de partido — configurando
+dupla contagem caso o objetivo seja medir o total de recursos partidários que chegaram às campanhas.
+
+No entanto, **a magnitude é negligenciável**: o valor em dupla contagem representa apenas
+**0,3% (2018) e 0,2% (2022)** do total de recursos de partido distribuído.
+
+Além disso, a variável `vr_receita_recursos_partidos` do `rrd_df_novo` — usada nos modelos da
+tese (regressão fracionária e sobrevivência) — registra apenas o que o candidato recebeu
+*diretamente* do partido, e portanto **não sofre dupla contagem**. O problema afetaria apenas
+análises descritivas que somam todas as origens em conjunto.
+
+# Dupla contagem ao combinar Deputado Federal e Estadual
+
+A preocupação metodológica se agrava caso a análise inclua candidatos a Deputado Estadual (DE)
+em conjunto com os federais (DF). O fluxo dominante em `"Recursos de outros candidatos"` não é
+DF → DF, mas sim **DF → DE**: candidatos a deputado federal recebem recursos do partido e
+repassam parte deles a candidatos a deputado estadual da mesma lista.
+
+## Matriz de fluxos entre cargos (R$ mi)
+
+```{python}
+CARGOS = ["DEPUTADO FEDERAL", "DEPUTADO ESTADUAL"]
+
+rec_dep = rec_raw[rec_raw["ds_cargo"].isin(CARGOS)].copy()
+rec_dep["vr_mi"] = rec_dep["vr_receita"] / 1_000_000
+
+tab_fluxo = (
+    rec_dep[
+        (rec_dep["ds_origem_receita"] == ORIGEM_OUTROS) &
+        (rec_dep["ds_cargo_candidato_doador"].isin(CARGOS))
+    ]
+    .groupby(["ano_eleicao", "ds_cargo", "ds_cargo_candidato_doador"])
+    .agg(vr_mi=("vr_mi", "sum"), n_transacoes=("vr_receita", "count"))
+    .round(2)
+)
+tab_fluxo
+```
+
+O fluxo DF → DE concentra R$ 114 mi (2018) e R$ 125 mi (2022) — muito superior ao fluxo DF → DF
+(R$ 2,7 mi e R$ 5,7 mi).
+
+## Mensuração da dupla contagem com DF + DE
+
+```{python}
+rows_dc2 = []
+for ano in [2018, 2022]:
+    df_ano = rec_dep[rec_dep["ano_eleicao"] == ano]
+    cands_com_partido = set(df_ano[df_ano["ds_origem_receita"] == ORIGEM_PARTIDO]["sq_candidato"])
+
+    rec_outros = df_ano[df_ano["ds_origem_receita"] == ORIGEM_OUTROS].copy()
+    rec_outros["doador_teve_partido"] = rec_outros["sq_candidato_doador"].isin(cands_com_partido)
+
+    total_partido = df_ano[df_ano["ds_origem_receita"] == ORIGEM_PARTIDO]["vr_mi"].sum()
+    total_outros  = rec_outros["vr_mi"].sum()
+    dupla_total   = rec_outros[rec_outros["doador_teve_partido"]]["vr_mi"].sum()
+
+    # só DF-DF para comparação
+    dupla_df_df = rec_outros[
+        (rec_outros["ds_cargo"] == "DEPUTADO FEDERAL") &
+        (rec_outros["ds_cargo_candidato_doador"] == "DEPUTADO FEDERAL") &
+        rec_outros["doador_teve_partido"]
+    ]["vr_mi"].sum()
+
+    rows_dc2.append({
+        "Ano": ano,
+        "Total partido DF+DE (R$ mi)": round(total_partido, 1),
+        "Outros candidatos — todos (R$ mi)": round(total_outros, 1),
+        "Dupla contagem — só DF→DF (R$ mi)": round(dupla_df_df, 2),
+        "% total partido": f"{dupla_df_df / total_partido * 100:.2f}%",
+        "Dupla contagem — todos fluxos (R$ mi)": round(dupla_total, 1),
+        "% total partido ": f"{dupla_total / total_partido * 100:.1f}%",
+    })
+
+pd.DataFrame(rows_dc2).T
+```
+
+## Conclusão
+
+Ao combinar DF e DE, a dupla contagem passa de **~0,2%** (análise restrita a DF) para
+**8,2% em 2018 e 3,2% em 2022** do total de recursos de partido. A diferença é explicada
+quase inteiramente pelo canal DF → DE: candidatos federais funcionam como intermediários que
+redistribuem para candidatos estaduais recursos que originalmente saíram do partido.
+
+Isso tem implicações diretas para a escolha do escopo analítico:
+
+- **Análise restrita a DF** (tese): dupla contagem desprezível (<0,3%); `vr_receita_recursos_partidos`
+  já isola o recebimento direto do partido sem recontagem.
+- **Análise DF + DE combinada**: é necessário ou (a) restringir a variável de receita ao
+  recebimento direto de partido — excluindo `"Recursos de outros candidatos"` — ou (b) rastrear
+  a origem última de cada repasse via `sq_candidato_doador` para evitar dupla contagem.
