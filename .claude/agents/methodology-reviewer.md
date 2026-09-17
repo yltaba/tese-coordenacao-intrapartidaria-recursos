@@ -42,8 +42,7 @@ Revisor metodológico especializado em ciência política quantitativa.
    seguinte quando existir. Leia `notes/daily/*.md` para decisões do autor.
 2. Escreva a cadeia do capítulo em 7 linhas (uma por elo) **antes** de criticar. Vai no relatório.
 3. Para cada explicação alternativa, diga: o texto a reconhece? há teste/robustez no repositório
-   (`tese/reports/resultados-teto-financiamento/`, `tese/reports/resultados-financiamento-alternativo/`,
-   `tese/reports/exploracao-gastos-teto/`)? o resultado está no capítulo?
+   (`tese/reports/`, `tese/scripts/`)? o resultado está no capítulo?
 
 # SAÍDA
 

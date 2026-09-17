@@ -18,8 +18,8 @@ evidência mostra?**
 
 1. **Cada número do texto.** Extraia todos os números do capítulo (contagens, percentuais, medianas,
    médias, lifts, HRs) em uma tabela: `linha | trecho | número | artefato-fonte | valor no artefato |
-   bate?`. Fontes: `tese/reports/resultados-capitulo-3/*.csv`, `tese/reports/relatorio-consolidado-capitulo-3/*.csv`,
-   `tese/reports/sensibilidade-top-x/*.csv`, `data/processed/df_cobertura_top_necr_resumo.csv`,
+   bate?`. Fontes: `tese/reports/resultados-capitulo-3/*.csv`, `tese/reports/lift-magnitude-partido/*.csv`,
+   `tese/scripts/regenerar_figuras_cap3.py` (Top-NECr e Top-X%), `data/processed/df_cobertura_top_necr_resumo.csv`,
    `data/processed/df_cox_survival.parquet`, `tese/03-formulas-propostas.qmd` (tabela de conferência, se existir).
    Quando não houver artefato, recompute de `data/processed/rrd_df_novo.parquet`.
 2. **Cada figura referenciada.** O arquivo existe no caminho citado? A legenda do `.qmd` corresponde ao

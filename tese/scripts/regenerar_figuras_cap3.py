@@ -3,15 +3,14 @@ candidato_competitivo (e por isso mudaram com as correções I-3-002/I-3-001 de 
 
   figs/cap3_fig_amplitude_barras.png
   figs/cap3_fig_concentracao_barras.png
-  tese/reports/relatorio-consolidado-capitulo-3/figuras/03-top-necr.png
-  tese/reports/relatorio-consolidado-capitulo-3/figuras/04-topx-competitividade.png
-  tese/reports/relatorio-consolidado-capitulo-3/figuras/05-topx-eleicao.png
+  figs/cap3_fig_top_necr.png               (credenciais prévias; Resultados)
+  figs/cap3_fig_top_necr_eleicao.png       (eleitos; Robustez)
+  figs/cap3_fig_topx_competitividade.png   (Robustez)
+  figs/cap3_fig_topx_eleicao.png           (Robustez)
 
-Recomputa direto da base (mesma fórmula do capítulo, @eq-indicadores), sem passar pela cadeia
-tese/reports/resultados-exploracao-nucleo -> alternativas-top-necr -> sensibilidade-top-x ->
-relatorio-consolidado-capitulo-3, que tem caminhos obsoletos (pré-reorganização de 14/09) e
-asserts de regressão com os números antigos. Reproduz o layout e as cores das figuras
-originais (ver thesis-review/runs/run-001/implementacao_2026-09-14.md), mas o traçado é novo.
+Recomputa direto da base (mesma fórmula do capítulo, @eq-indicadores). É o único gerador das
+figuras de Top-NECr e Top-X% do Cap. 3; a cadeia anterior (alternativas-top-necr ->
+sensibilidade-top-x -> relatorio-consolidado-capitulo-3) foi removida em 16/09/2026.
 
 Execute da raiz do repositório: python tese/scripts/regenerar_figuras_cap3.py
 """
@@ -30,11 +29,12 @@ from cap3_cs_features import gerar_features  # noqa: E402
 from cap3_taa_features import _preparar, acertos_fracionarios  # noqa: E402
 
 FIGS = ROOT / "figs"
-FIGURAS_CONSOLIDADO = ROOT / "tese/reports/relatorio-consolidado-capitulo-3/figuras"
 
 PRETO, CINZA = "#222222", "#a6a6a6"
 TAUS = [50, 60, 70, 80, 90, 95]
 YEARS = [2018, 2022]
+# Sem título geral nas imagens: o título vem da legenda da figura no .qmd.
+REF_ALEATORIA = "Referência aleatória"
 
 
 def carregar_listas():
@@ -128,7 +128,6 @@ def fig_amplitude(listas):
         ax.spines[["right", "top"]].set_visible(False)
         ax.invert_yaxis()
     axes[0].legend(loc="lower right", frameon=False)
-    fig.suptitle("Amplitude formal e efetiva das nominatas financiadas")
     fig.tight_layout()
     out = FIGS / "cap3_fig_amplitude_barras.png"
     fig.savefig(out, dpi=200)
@@ -157,7 +156,6 @@ def fig_concentracao(listas):
         ax.set_title(titulo)
         ax.spines[["right", "top"]].set_visible(False)
     axes[0].legend(loc="lower right", frameon=False)
-    fig.suptitle("Concentração relativa nas nominatas financiadas")
     fig.tight_layout()
     out = FIGS / "cap3_fig_concentracao_barras.png"
     fig.savefig(out, dpi=200)
@@ -169,50 +167,44 @@ def fig_concentracao(listas):
 # 3) Top-NECr: cobertura, precisão e lift — competitivos e eleitos, 2018 x 2022
 # ---------------------------------------------------------------------------
 
-def fig_top_necr(listas):
-    perfis = {"competitividade": "Competitivos prévios", "eleicao": "Eleitos"}
-    metricas = {"cobertura": "Cobertura (%)", "precisao": "Precisão (%)", "lift": "Lift (observado / acaso)"}
+def fig_top_necr(listas, outcome, out_path):
+    """Uma linha (cobertura, precisão, lift) para um perfil. Credenciais prévias vão para
+    Resultados (03-top-necr.png); eleitos, para Robustez (03-top-necr-eleicao.png)."""
+    metricas = {"cobertura": "Cobertura (%)", "precisao": "Precisão (%)", "lift": "Lift (observado / referência)"}
     ymax = {"cobertura": 100, "precisao": 45, "lift": 3.4}
-    fig, axes = plt.subplots(2, 3, figsize=(13.6, 8.5))
-    handles_labels = None
-    for row, (outcome, perfil) in enumerate(perfis.items()):
-        h_col = f"H_{outcome}_topnecr"
-        nac = nacional(listas, outcome, "k_arredondado", h_col)
-        for col, (metric, label) in enumerate(metricas.items()):
-            ax = axes[row, col]
-            factor = 1 if metric == "lift" else 1
-            for serie, cor, estilo, marker_fc in [("observado", PRETO, "-o", None), ("acaso", "#999999", ":o", "white")]:
-                if metric == "lift":
-                    y = np.ones(2) if serie == "acaso" else [nac[a]["lift"] for a in YEARS]
-                else:
-                    y = [nac[a][metric if serie == "observado" else metric + "_acaso"] for a in YEARS]
-                ax.plot(YEARS, y, estilo, color=cor, lw=2, ms=6,
-                        label="Top-NECr" if serie == "observado" else "Acaso intralista",
-                        markerfacecolor=marker_fc or cor)
-                for ano, v in zip(YEARS, y):
-                    ax.annotate(fmt(v, 2 if metric == "lift" else 1), (ano, v),
-                                xytext=(0, -16 if serie == "acaso" else 9), textcoords="offset points",
-                                ha="center", color=cor, fontsize=10)
-            ax.set(title=f"{perfil} · {label}", xlim=(2017.3, 2022.7), ylim=(0, ymax[metric]), xticks=YEARS)
-            ax.grid(axis="y", color="#e6eaed")
-            ax.spines[["right", "top"]].set_visible(False)
-            if handles_labels is None and row == 0 and col == 0:
-                handles_labels = ax.get_legend_handles_labels()
-    fig.legend(*handles_labels, loc="lower center", bbox_to_anchor=(0.5, 0.01), ncol=2, frameon=False)
-    fig.suptitle("Top-NECr: correspondência com credenciais e eleição")
-    fig.tight_layout(rect=[0.01, 0.06, 0.99, 0.97], h_pad=3, w_pad=2)
-    out = FIGURAS_CONSOLIDADO / "03-top-necr.png"
-    fig.savefig(out, dpi=200)
+    nac = nacional(listas, outcome, "k_arredondado", f"H_{outcome}_topnecr")
+    fig, axes = plt.subplots(1, 3, figsize=(13.6, 4.6))
+    for ax, (metric, label) in zip(axes, metricas.items()):
+        for serie, cor, estilo, marker_fc in [("observado", PRETO, "-o", None), ("acaso", "#999999", ":o", "white")]:
+            if metric == "lift":
+                y = np.ones(2) if serie == "acaso" else [nac[a]["lift"] for a in YEARS]
+            else:
+                y = [nac[a][metric if serie == "observado" else metric + "_acaso"] for a in YEARS]
+            ax.plot(YEARS, y, estilo, color=cor, lw=2, ms=6,
+                    label="Top-NECr" if serie == "observado" else REF_ALEATORIA,
+                    markerfacecolor=marker_fc or cor)
+            for ano, v in zip(YEARS, y):
+                ax.annotate(fmt(v, 2 if metric == "lift" else 1), (ano, v),
+                            xytext=(0, -16 if serie == "acaso" else 9), textcoords="offset points",
+                            ha="center", color=cor, fontsize=10)
+        ax.set(title=label, xlim=(2017.3, 2022.7), ylim=(0, ymax[metric]), xticks=YEARS)
+        ax.grid(axis="y", color="#e6eaed")
+        ax.spines[["right", "top"]].set_visible(False)
+    fig.legend(*axes[0].get_legend_handles_labels(), loc="lower center", bbox_to_anchor=(0.5, 0.01), ncol=2, frameon=False)
+    fig.tight_layout(rect=[0.01, 0.1, 0.99, 1], w_pad=2)
+    fig.savefig(out_path, dpi=200)
     plt.close(fig)
-    print(f"[fig_top_necr] {out}")
+    print(f"[fig_top_necr:{outcome}] {out_path}")
+    for ano in YEARS:
+        print("   ", ano, {m: round(v, 3) for m, v in nac[ano].items()})
 
 
 # ---------------------------------------------------------------------------
 # 4) e 5) Sensibilidade Top-X%: competitivos e eleitos, 6 limiares x 3 indicadores x 2 anos
 # ---------------------------------------------------------------------------
 
-def fig_topx(listas, outcome, out_path, titulo):
-    metricas = {"cobertura": "Cobertura (%)", "precisao": "Precisão (%)", "lift": "Lift (observado / acaso)"}
+def fig_topx(listas, outcome, out_path):
+    metricas = {"cobertura": "Cobertura (%)", "precisao": "Precisão (%)", "lift": "Lift (observado / referência)"}
     ymax = {"cobertura": 100, "precisao": 60, "lift": 4.0}
     h_topnecr_col = f"H_{outcome}_topnecr"
     nac_topnecr = nacional(listas, outcome, "k_arredondado", h_topnecr_col)
@@ -228,7 +220,7 @@ def fig_topx(listas, outcome, out_path, titulo):
                 obs.append(nac[ano][metric])
                 aca.append(nac[ano][metric if metric == "lift" else metric + "_acaso"] if metric != "lift" else 1.0)
             ax.plot(TAUS, obs, "-o", color=PRETO, lw=2, ms=5, label="Observado")
-            ax.plot(TAUS, aca, ":o", color="#999999", lw=2, ms=5, markerfacecolor="white", label="Acaso intralista")
+            ax.plot(TAUS, aca, ":o", color="#999999", lw=2, ms=5, markerfacecolor="white", label=REF_ALEATORIA)
             idx80 = TAUS.index(80)
             ax.plot(TAUS[idx80], obs[idx80], "o", color=PRETO, ms=10, zorder=5)
             ref = nac_topnecr[ano]["lift"] if metric == "lift" else nac_topnecr[ano][metric]
@@ -242,8 +234,7 @@ def fig_topx(listas, outcome, out_path, titulo):
             if handles_labels is None and row == 0 and col == 0:
                 handles_labels = ax.get_legend_handles_labels()
     fig.legend(*handles_labels, loc="lower center", bbox_to_anchor=(0.5, 0.01), ncol=2, frameon=False)
-    fig.suptitle(titulo)
-    fig.tight_layout(rect=[0.01, 0.06, 0.99, 0.97], h_pad=3, w_pad=2)
+    fig.tight_layout(rect=[0.01, 0.06, 0.99, 1], h_pad=3, w_pad=2)
     fig.savefig(out_path, dpi=180)
     plt.close(fig)
     print(f"[fig_topx:{outcome}] {out_path}")
@@ -254,11 +245,11 @@ def main():
     print(f"{len(listas)} nominatas (2018+2022)")
     fig_amplitude(listas)
     fig_concentracao(listas)
-    fig_top_necr(listas)
-    fig_topx(listas, "competitividade", FIGURAS_CONSOLIDADO / "04-topx-competitividade.png",
-             "Sensibilidade Top-X%: Competitivos prévios")
-    fig_topx(listas, "eleicao", FIGURAS_CONSOLIDADO / "05-topx-eleicao.png",
-             "Sensibilidade Top-X%: Eleitos")
+    # Resultados: só credenciais eleitorais prévias. Robustez: eleitos e Top-X%.
+    fig_top_necr(listas, "competitividade", FIGS / "cap3_fig_top_necr.png")
+    fig_top_necr(listas, "eleicao", FIGS / "cap3_fig_top_necr_eleicao.png")
+    fig_topx(listas, "competitividade", FIGS / "cap3_fig_topx_competitividade.png")
+    fig_topx(listas, "eleicao", FIGS / "cap3_fig_topx_eleicao.png")
 
 
 if __name__ == "__main__":

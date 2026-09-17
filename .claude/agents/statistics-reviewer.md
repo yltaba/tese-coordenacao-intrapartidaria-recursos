@@ -48,8 +48,8 @@ modelos para proporções e métricas de classificação/ranqueamento.
 
 1. Leia o capítulo inteiro e `tese/03-formulas-propostas.qmd`, se existir.
 2. Localize os artefatos: `tese/reports/resultados-capitulo-3/15_cobertura_nacional.csv`,
-   `benchmark_precisao_top_necr*.csv/json`, `tese/reports/sensibilidade-top-x/resumo_nacional.csv`,
-   `tese/reports/resultados-validacao-top-necr/sorteios_referencia.csv`, `data/processed/df_cox_survival.parquet`.
+   `tese/reports/lift-magnitude-partido/lift_por_magnitude.csv`, `tese/scripts/regenerar_figuras_cap3.py`
+   (Top-X%, recomputa de `rrd_df_novo.parquet`), `data/processed/df_cox_survival.parquet`.
 3. Recompute pelo menos uma coisa que o texto **não** reporta e que decide um achado seu — por exemplo,
    um intervalo de permutação para o lift de 2018 (sorteio de k_l dentro de cada lista, 2.000
    réplicas) a partir de `df_cobertura_top_necr_lista.parquet` + `rrd_df_novo.parquet`, ou a

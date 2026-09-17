@@ -14,12 +14,11 @@ Idioma de trabalho: **português (pt-BR)**. Toda saída de agente de revisão é
 | `src/2_gold/cap3_*.py` | Cálculo das medidas do Cap. 3. Núcleo: `cap3_cobertura_top_necr.py` (NECr, k, cobertura), `cap3_cs_features.py` (definição de competitivo, tipo de partido), `cap3_taa_features.py` (`acertos_fracionarios`, empates), `cap3_survival_features.py` (Cap. 4). |
 | `data/processed/` | Bases. `rrd_df_novo.parquet` (candidaturas 2014/2018/2022), `df_cobertura_top_necr_lista.parquet` e `df_cobertura_top_necr_resumo.csv` (Top-NECr por lista e nacional), `df_cox_survival.parquet` (Cox, Cap. 4), `bancada_partido_uf.csv` (Mp). |
 | `tese/reports/resultados-capitulo-3/` | Tabelas auditadas do Cap. 3 (`00_sintese.csv` … `26_fontes.csv`). **`19_notas_redacao.csv` lista divergências texto × código já conhecidas; `21_verificacoes.csv` lista checagens automáticas.** |
-| `tese/reports/relatorio-consolidado-capitulo-3/` | Figuras que o Cap. 3 referencia (`figuras/03-top-necr.png` etc.), `construir.py`, `manifesto-figuras.csv`, `auditoria.json`, CSVs de dados das figuras. |
-| `tese/reports/sensibilidade-top-x/` | Robustez Top-X% (`resumo_nacional.csv`, `analisar.py`, `verificacao.json`). |
-| `tese/reports/resultados-validacao-top-necr/`, `tese/reports/alternativas-top-necr/` | Validações e alternativas ao Top-NECr (auditorias em JSON). |
-| `tese/reports/` | Relatórios, auditorias e resultados intermediários (reorganizado em 14/09/2026). |
-| `tese/scripts/` | Scripts de consolidação/verificação (`resultados_capitulo3.py`, `verificar_*.py`, `render_capitulos.py`). |
-| `figs/` | PNGs referenciados pelos capítulos (`cap3_*`, `cap4_*`). |
+| `tese/reports/lift-magnitude-partido/` | *Lift* do Top-NECr por magnitude (`lift_por_magnitude.csv`, fonte das tabelas `tbl-cap3-01`/`tbl-cap3-02`) e por partido. |
+| `tese/reports/regressao-fracionaria/` | AMEs (`ames.csv`) e coeficientes brutos (`coeficientes.csv`) do modelo fracionário de "prêmio" das credenciais eleitorais (`sec-premio-credenciais`), recalculado em 16/09/2026 a partir de `rrd_df_novo.parquet` corrigida. |
+| `tese/reports/` | Só resultados em uso pela versão atual (limpo em 16/09/2026; versões anteriores — Top-X%/validações/alternativas/explorações com a definição pré-correção de competitivo — ficam apenas no histórico do git). |
+| `tese/scripts/` | `regenerar_figuras_cap3.py` (único gerador das figuras de Top-NECr, Top-X%, amplitude e concentração do Cap. 3; também é a fonte dos números de Top-X%), `regressao_fracionaria_cap3.py` (GLM Binomial/logit à la Papke-Wooldridge do prêmio de credenciais eleitorais, `fig-reg-frac`), `resultados_capitulo3.py` (gera `resultados-capitulo-3/`), `render_capitulos.py`. |
+| `figs/` | PNGs referenciados pelos capítulos (`cap3_*`, `cap4_*`). Cap. 3: `cap3_fig_top_necr.png` (Resultados), `cap3_fig_top_necr_eleicao.png`, `cap3_fig_topx_*.png` (Robustez), `cap3_regressao_fracionaria.png` (prêmio das credenciais, `fig-reg-frac`). |
 | `notes/daily/` | Diário de decisões do autor. |
 | `revisoes/` | Versões renderizadas e anteriores dos capítulos. |
 | `thesis-review/` | **Sistema de revisão por agentes.** Estado persistente: rubrica, ledger de afirmações, runs, fila de revisão. |
