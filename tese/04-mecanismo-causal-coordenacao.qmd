@@ -30,7 +30,7 @@ Em 2022, o salto absoluto para candidatos competitivos chega a R$525 milhões en
 
 Como vimos, o "dilema do gatekeeper" formulado por @fivaetal2024 prevê que partidos, ao controlarem a distribuição do FEFC, têm incentivos para agir seletivamente diante da competição intrapartidária. Os resultados apresentados corroboram essa expectativa: candidaturas competitivas acumulam mais recursos que seus concorrentes, e em uma *velocidade* também maior, nas duas eleições analisadas.
 
-## O timing do evento do repasses: Kaplan-Meier
+## O timing do evento do repasse: Kaplan-Meier
 
 A análise de sobrevivência operacionaliza o "evento" de duas maneiras considerando a diferença em dias entre o início da campanha eleitoral e: i) o primeiro repasse recebido pelo candidato, e ii) o maior repasse recebido ao longo da campanha.
 

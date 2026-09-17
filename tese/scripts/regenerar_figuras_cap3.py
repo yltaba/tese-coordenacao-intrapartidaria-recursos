@@ -137,25 +137,22 @@ def fig_amplitude(listas):
 
 def fig_concentracao(listas):
     fund = listas[listas.Recursos > 0].copy()
-    fund["Q"] = fund.C / fund.NECr
     fund["R"] = 100 * fund.NECr / fund.C
-    fig, axes = plt.subplots(1, 2, figsize=(12, 4.6))
-    specs = [("Q", "C/NECr", 0, 5, ""), ("R", "NECr/C (%)", 0, 100, "%")]
-    for ax, (col, titulo, xmin, xmax, suf) in zip(axes, specs):
-        labels = ["Mediana", "Média"]
-        y = np.arange(len(labels))
-        for i, ano in enumerate(YEARS):
-            g = fund[fund.ano_eleicao == ano][col]
-            vals = [g.median(), g.mean()]
-            offset = (i - 0.5) * 0.38
-            bars = ax.barh(y + offset, vals, height=0.36, color=PRETO if ano == 2018 else CINZA, label=str(ano))
-            for b, v in zip(bars, vals):
-                ax.text(v + xmax * 0.02, b.get_y() + b.get_height() / 2, fmt(v) + suf, va="center", fontsize=9)
-        ax.set_yticks(y, labels)
-        ax.set_xlim(xmin, xmax)
-        ax.set_title(titulo)
-        ax.spines[["right", "top"]].set_visible(False)
-    axes[0].legend(loc="lower right", frameon=False)
+    fig, ax = plt.subplots(figsize=(6.5, 4.6))
+    labels = ["Mediana", "Média"]
+    y = np.arange(len(labels))
+    for ano in YEARS:
+        g = fund[fund.ano_eleicao == ano]["R"]
+        vals = [g.median(), g.mean()]
+        offset = 0.19 if ano == 2018 else -0.19
+        bars = ax.barh(y + offset, vals, height=0.36, color=PRETO if ano == 2018 else CINZA, label=str(ano))
+        for b, v in zip(bars, vals):
+            ax.text(v + 100 * 0.02, b.get_y() + b.get_height() / 2, fmt(v) + "%", va="center", fontsize=9)
+    ax.set_yticks(y, labels)
+    ax.set_xlim(0, 100)
+    ax.set_title("NECr/C (%)")
+    ax.spines[["right", "top"]].set_visible(False)
+    ax.legend(loc="lower right", frameon=False)
     fig.tight_layout()
     out = FIGS / "cap3_fig_concentracao_barras.png"
     fig.savefig(out, dpi=200)

@@ -55,21 +55,25 @@ REPORTS.mkdir(parents=True, exist_ok=True)
 YEARS = [2018, 2022]
 PRETO, CINZA = "#222222", "#a6a6a6"
 
-# Ordem e rótulos pt-BR iguais aos da figura de 12/09/2026 (revisoes/...).
+# Ordem e rótulos pt-BR (reordenado em 17/09/2026: eleições por cargo em ordem
+# hierárquica Governador > Senador > Deputado Federal > Deputado Estadual > Prefeito >
+# Vereador; Ln Magnitude do distrito movido para o bloco de controles abaixo).
 COVARS = [
-    ("ln_qt_vaga", "Ln Magnitude do distrito"),
-    ("n_eleicoes_deputado_estadual", "Nº Eleições Deputado Estadual"),
-    ("n_eleicoes_deputado_federal", "Nº Eleições Deputado Federal"),
     ("n_eleicoes_governador", "Nº Eleições Governador"),
-    ("n_eleicoes_prefeito", "Nº Eleições Prefeito"),
     ("n_eleicoes_senador", "Nº Eleições Senador"),
+    ("n_eleicoes_deputado_federal", "Nº Eleições Deputado Federal"),
+    ("n_eleicoes_deputado_estadual", "Nº Eleições Deputado Estadual"),
+    ("n_eleicoes_prefeito", "Nº Eleições Prefeito"),
     ("n_eleicoes_vereador", "Nº Eleições Vereador"),
     ("prop_votos_nominais_lag", "Proporção de votos nominais intralista t-1"),
 ]
-# Controles estruturais (pisos legais de repasse), acrescentados em 16/09/2026 — ver
-# docstring do módulo. Plotados junto aos AMEs de credenciais, mas conceitualmente
-# separados: não são credenciais eleitorais, são obrigações legais de alocação.
+# Controles estruturais, plotados junto aos AMEs de credenciais mas conceitualmente
+# separados: Ln Magnitude do distrito é uma característica do distrito (não uma
+# credencial eleitoral individual); mulher/negra são pisos legais de repasse
+# acrescentados em 16/09/2026 — ver docstring do módulo. Movidos para este bloco
+# em 17/09/2026.
 CONTROLES = [
+    ("ln_qt_vaga", "Ln Magnitude do distrito"),
     ("mulher", "Mulher"),
     ("negra", "Negra"),
 ]
