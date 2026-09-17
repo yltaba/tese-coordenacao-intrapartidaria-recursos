@@ -1,9 +1,0 @@
-{
-  "status": "OK",
-  "figuras_interativas": 5,
-  "arquivos_no_pacote": 12,
-  "pontos_reconciliados": 24,
-  "links_validos": 36,
-  "checks_consolidacao": 53,
-  "revisao_visual": "PNGs inspecionados após a remoção dos títulos gerais e dos textos inferiores; HTML verificado estruturalmente, sem navegador disponível."
-}

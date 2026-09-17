@@ -1,9 +1,0 @@
-﻿Arquivo,Uso,Bytes,Modificado em,SHA-256
-data/processed/rrd_df_novo.parquet,Base de candidaturas: classificação competitiva e verificação independente de NECr e cobertura.,1172370,2026-09-14T20:05:24,9b6a5c088f41a6e97ec3a5980a99403f641d5504d239e340a4510add7caf53e1
-data/processed/bancada_partido_uf.csv,Referência pré-eleitoral de cadeiras (Mp).,12495,2026-05-29T11:35:51,d1ca9de3a0470568268e6417067dad70f4868e1e5fa90e66c280105bf807f94a
-data/processed/df_calibracao_lista.parquet,"Painel salvo: NECr, candidatos, eleitos, Mp, diferenças e razões; confrontado com cobertura.",212032,2026-09-02T21:35:44,ff1e9c41192e8dd02880c7ca6f9c733ebe4d27beadeac59b38968ee221265263
-data/processed/df_cobertura_top_necr_lista.parquet,"Painel principal de nominatas, inclui listas sem recursos.",51664,2026-09-02T21:36:55,8b6ccac6460adc39a6a30adb63714635cdaaa29fd800bc38f21c2a821907e6b9
-data/processed/df_cobertura_top_necr_resumo.csv,"Cobertura nacional e sensibilidade: piso, arredondamento e teto.",763,2026-09-02T21:36:55,53788bdc858aaa87ca1e2c386760d3423d72b933bc68d38039c701ce4fd8647b
-data/processed/df_taa_lista.parquet,Complementar: acerto entre os Mp maiores recebedores; não confundir com Top-NECr.,31212,2026-08-23T17:42:01,6145fed7a0f259a3848727fb63ccf4780af58a819ecfe2c416fd8789d1d49a1f
-data/processed/df_metricas_concentracao_recursos.parquet,"Complementar antigo: Gini e NECr por vaga distrital, distintos de NECr/Mp e NECr/E.",68594,2025-11-14T13:27:43,65595c30cd35b18e0137588f2a2e87ca9838527110d27e1bfbe34e67779c0250
-data/processed/historico_eleitoral_deputados_2018_2022.parquet,Histórico auxiliar; classificação deste relatório utiliza flags da base consolidada.,226816,2026-03-03T16:44:28,8d7e4b2dd6649f804a5ea306f6a209e7012ea40fef0f0d54093f2b3b084e732a
