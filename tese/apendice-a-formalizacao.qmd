@@ -1,0 +1,121 @@
+# Formalização das medidas do Capítulo 3 {#sec-apendice-formal}
+
+<!--
+RASCUNHO PARA EDIÇÃO DO AUTOR (criado em 17/09/2026).
+
+O conteúdo abaixo foi copiado literalmente de 03-medindo-coordenacao-intrapartidaria.qmd.
+Nada foi reescrito. Só foram acrescentados os títulos de seção e este comentário.
+
+Sobre os rótulos das equações:
+  - As equações que a sugestão era MOVER para cá mantêm o rótulo original
+    (#eq-competitivo, #eq-acerto, #eq-indicadores, #eq-referencia-aleatoria, #eq-lift),
+    porque o apêndice passa a ser a casa delas quando forem cortadas do capítulo.
+  - As equações que a sugestão era MANTER no corpo (NECr e Top-X%) aparecem aqui
+    com rótulo alternativo (#eq-ap-necr, #eq-ap-ktopx) só para não duplicar rótulo
+    enquanto as duas versões coexistirem. Se decidir movê-las de vez, basta
+    restaurar os rótulos originais (#eq-necr, #eq-ktopx).
+
+Já registrado no _quarto.yml como `appendices`. Atenção: enquanto o texto estiver
+duplicado entre este arquivo e o capítulo 3, os rótulos #eq-competitivo, #eq-acerto,
+#eq-indicadores, #eq-referencia-aleatoria e #eq-lift existem nos dois lugares e o
+Quarto vai avisar de rótulo repetido na renderização. O aviso some quando o bloco
+for cortado do capítulo.
+-->
+
+## Notação
+
+Cada lista $l$ possui $C_l$ candidaturas e um núcleo de tamanho $k_l$. Para cada candidatura $i$, define-se $g_{il}=1$ quando ela possui as credenciais eleitorais prévias estabelecidas na seção anterior, e $g_{il}=0$ caso contrário. Assim, $G_l=\sum_i g_{il}$ corresponde ao total de candidaturas com essas credenciais na lista.
+
+## Número Efetivo de Candidatos em recursos (NECr)
+
+O NECr ao nível da nominata é calculado da seguinte maneira:
+
+$$
+NECr_l=\frac{1}{\sum_{i=1}^{C_l}s_{il}^{2}},
+\qquad
+s_{il}=\frac{R_{il}}{R_l},
+\qquad
+R_l=\sum_{i=1}^{C_l}R_{il}>0 .
+$$ {#eq-ap-necr}
+
+Onde $R_i$ representa os recursos controlados por partidos políticos recebidos pelos candidatos.
+
+O NECr de cada lista é convertido em inteiro por $k_l=\lfloor NECr_l+0{,}5\rfloor$, um arredondamento convencional. As candidaturas são ordenadas de maneira decrescente pelos recursos recebidos e as $k_l$ primeiras posições formam o Top-NECr. Se há empate na posição igual a $k_l$, as posições que restam são divididas igualmente entre as candidaturas empatadas. Em listas sem recursos partidários, não há definição de NECr e atribui-se $k_l=0$.
+
+## Credenciais eleitorais prévias
+
+$$
+\text{Competitivo}_{iy} =
+\begin{cases}
+1 & \text{se, antes de } y,\ i \text{ satisfez (i) ou (ii)} \\
+0 & \text{caso contrário}
+\end{cases}
+$$ {#eq-competitivo}
+
+## Composição do núcleo: acertos, precisão e cobertura
+
+A participação no núcleo é representada por $w_{il}$: vale 1 para candidaturas integralmente incluídas, 0 para excluídas e uma fração quando há empate na fronteira de seleção, conforme a regra apresentada anteriormente. A soma desses pesos preserva o tamanho do núcleo: $\sum_i w_{il}=k_l$. O número de candidaturas com credenciais prévias incluídas no núcleo é, portanto:
+
+$$
+H_l = \sum_{i=1}^{C_l} w_{il}\,g_{il}.
+$$ {#eq-acerto}
+
+A partir dessa contagem, calculam-se a precisão e a cobertura, agregando as listas de cada eleição:
+
+$$
+\text{Precisão} = \frac{\sum_l H_l}{\sum_l k_l},
+\qquad
+\text{Cobertura} = \frac{\sum_l H_l}{\sum_l G_l}.
+$$ {#eq-indicadores}
+
+A precisão descreve a composição do núcleo: quanto maior seu valor, maior a parcela de suas posições ocupada por candidaturas com credenciais eleitorais prévias. A cobertura descreve a abrangência da priorização entre essas candidaturas: quanto maior seu valor, maior a parcela delas incluída nos núcleos de suas respectivas listas. As duas medidas permitem distinguir um núcleo composto predominantemente por candidaturas com credenciais de um núcleo que alcança grande parte dessas candidaturas, mas também inclui muitas outras.
+
+## Referência aleatória e *lift*
+
+Para avaliar se a presença dessas credenciais no núcleo é desproporcional, é necessário considerar sua frequência nas nominatas e o tamanho dos subconjuntos selecionados. A referência adotada corresponde à seleção aleatória, sem reposição e com igual probabilidade de inclusão, de $k_l$ candidaturas entre as $C_l$ integrantes de cada lista. Sob essa referência, o número esperado de candidaturas com credenciais prévias no núcleo é:
+
+$$
+\mathbb{E}[H_l] = G_l,\frac{k_l}{C_l}.
+$$ {#eq-referencia-aleatoria}
+
+Essa referência preserva o tamanho de cada nominata, o número de candidaturas com credenciais e o tamanho do núcleo.
+
+O *lift* corresponde à razão entre a soma das presenças observadas e a soma das presenças esperadas:
+
+$$
+\text{Lift} =
+\frac{\sum_l H_l}
+{\sum_l G_l,k_l/C_l}.
+$$ {#eq-lift}
+
+Um *lift* igual a 1 indica que a presença observada coincide com a expectativa da seleção aleatória. Valores superiores a 1 indicam sobrerrepresentação de candidaturas com credenciais prévias; valores inferiores a 1 indicam sub-representação. Um valor de 1,9, por exemplo, significa que os núcleos reúnem 90% mais candidaturas com essas credenciais do que seria esperado sob essa referência. Nos recortes por magnitude distrital, aplica-se o mesmo cálculo às listas pertencentes a cada categoria.
+
+A comparação com a referência aleatória também pode ser expressa nas escalas da precisão e da cobertura. Para isso, substitui-se o numerador observado, $\sum_l H_l$, pelo esperado, $\sum_l G_l\,k_l/C_l$, mantendo-se os respectivos denominadores.
+
+As três medidas são utilizadas tanto para o Top-NECr quanto para as operacionalizações alternativas do núcleo. Como análise complementar, as medidas também são calculadas para as candidaturas posteriormente eleitas. Nesse exercício, $g_{il}$ passa a indicar a eleição da candidatura, mantendo-se as demais definições. Os resultados descrevem a correspondência entre a priorização financeira e o sucesso eleitoral posterior, oferecendo uma validação *ex post* da relevância eleitoral do núcleo priorizado. Essa correspondência, contudo, não permite distinguir a seleção de candidaturas previamente viáveis dos possíveis efeitos do financiamento sobre suas chances de eleição.
+
+## Limiar Top-X%
+
+$$
+k^{\tau}_l=\min\left\{k\in\{1,\dots,C_l\}:\ \sum_{j=1}^{k}s_{(j)l}\ \ge\ \tau\right\},
+\qquad \tau\in\{0{,}50;\,0{,}60;\,0{,}70;\,0{,}80;\,0{,}90;\,0{,}95\} .
+$$ {#eq-ap-ktopx}
+
+<!--
+PENDÊNCIAS ANOTADAS NA CONVERSA DE 17/09/2026 (não escritas no texto):
+
+1. A agregação é razão de somas: os números nacionais somam numeradores e
+   denominadores de todas as listas da eleição antes de dividir — não é média
+   das razões por lista. Se as fórmulas saírem do corpo, isso precisa ser dito
+   em prosa lá.
+2. A referência aleatória é calculada lista a lista e depois somada
+   (\sum_l G_l k_l / C_l) — é o que sustenta a frase "preserva o tamanho de cada
+   lista e de cada núcleo".
+3. Os pesos fracionários nos empates fazem com que as contagens de acertos
+   possam ser fracionárias.
+4. A identidade "lift de cobertura = lift de precisão no agregado" fica implícita
+   sem as fórmulas.
+5. Erro de digitação herdado do capítulo: em #eq-referencia-aleatoria e #eq-lift
+   está "G_l,\frac{k_l}{C_l}" e "G_l,k_l/C_l" — a vírgula deveria ser "\," (espaço
+   fino), como em #eq-indicadores. Renderiza como vírgula literal.
+-->

@@ -1,2 +1,12 @@
 \usepackage{colortbl}
 \definecolor{magnitudegray}{RGB}{242,242,242}
+
+\usepackage{etoolbox}
+\usepackage{setspace}
+
+% Tabelas: entrelinha simples dentro das celulas (o corpo usa 1,5) e folga
+% vertical entre linhas, para que celulas que quebram em varias linhas nao
+% se confundam com a linha seguinte.
+\AtBeginEnvironment{longtable}{\setstretch{1.0}}
+\AtBeginEnvironment{tabular}{\setstretch{1.0}}
+\renewcommand{\arraystretch}{1.35}

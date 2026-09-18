@@ -77,6 +77,7 @@ def build_combined_qmd(chapters, out_path: Path):
         "    number-sections: true\n"
         "    toc: false\n"
         "    link-citations: true\n"
+        f"    include-in-header: {tese_rel}/latex/preamble.tex\n"
         "---\n\n"
     )
     out_path.write_text(frontmatter + "\n\n".join(parts), encoding="utf-8")

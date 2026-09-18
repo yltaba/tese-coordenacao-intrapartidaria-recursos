@@ -10,6 +10,8 @@ book:
     - 02-literatura.qmd
     - 03-medindo-coordenacao-intrapartidaria.qmd
     - 04-mecanismo-causal-coordenacao.qmd
+  appendices:
+    - apendice-a-formalizacao.qmd
 
 bibliography: references.bib
 csl: associacao-brasileira-de-normas-tecnicas.csl

@@ -8,7 +8,11 @@ Entre a divulgação dos valores do FEFC e a data final para realização das co
 
 O recebimento de receitas de campanha pelas candidaturas depende de 1) requerimento do registro da candidatura, 2) CNPJ específico da campanha e 3) abertura de conta corrente específica. Dado este cenário, as transferências monetárias realizadas aos candidatos ocorrem de fato durante o próprio período de campanha. Dito de outra maneira, é no período eleitoral que se torna visível a estratégia adotada pelos partidos para coordenar suas nominatas em termos de aplicação de recursos de fundos públicos.
 
-Aqui a tese proposta se diferencia novamente de @cheibubsin2020, ao identificar no prazo de realização das campanhas eleitorais o momento em que ocorre a coordenação dos partidos políticos diante da competição intrapartidária. Para os autores, dada a seleção estratégica de candidaturas competitivas, a coordenação da competição intrapartidária se daria sobretudo antes da formação das listas. Além disso, a tese também se difere ao considerar indicadores pré-eleitorais sobre a capacidade e expectativa partidárias. Para esta finalidade, aproveita as reformas de financiamento de campanhas que substituíram o protagonismo empresarial pelo de fundos públicos bilionários cujo controle da alocação entre candidaturas é partidário.
+Aqui a tese proposta se diferencia novamente de @cheibubsin2020, ao identificar no prazo de realização das campanhas eleitorais o momento em que ocorre a coordenação dos partidos políticos diante da competição intrapartidária. Para os autores, dada a seleção estratégica de candidaturas competitivas, a coordenação da competição intrapartidária se daria sobretudo antes da formação das listas. 
+
+Além disso, a tese também se difere ao considerar indicadores pré-eleitorais sobre a capacidade e expectativa partidárias. Para esta finalidade, aproveita as reformas de financiamento de campanhas que substituíram o protagonismo empresarial pelo de fundos públicos bilionários cujo controle da alocação entre candidaturas é partidário.
+
+## A campanha eleitoral semana a semana
 
 Nesta seção, analiso o *timing* da distribuição de recursos por partidos políticos a suas candidaturas a Deputado Federal em 2018 e 2022. Estas eleições compartilham o regime de financiamento público centralizado via FEFC, mas diferem em aspectos institucionais relevantes.
 
@@ -30,7 +34,7 @@ Em 2022, o salto absoluto para candidatos competitivos chega a R$525 milhões en
 
 Como vimos, o "dilema do gatekeeper" formulado por @fivaetal2024 prevê que partidos, ao controlarem a distribuição do FEFC, têm incentivos para agir seletivamente diante da competição intrapartidária. Os resultados apresentados corroboram essa expectativa: candidaturas competitivas acumulam mais recursos que seus concorrentes, e em uma *velocidade* também maior, nas duas eleições analisadas.
 
-## O timing do evento do repasse: Kaplan-Meier
+## Alocação partidária como um evento: análise de sobrevivência com Kaplan-Meier
 
 A análise de sobrevivência operacionaliza o "evento" de duas maneiras considerando a diferença em dias entre o início da campanha eleitoral e: i) o primeiro repasse recebido pelo candidato, e ii) o maior repasse recebido ao longo da campanha.
 
@@ -98,6 +102,4 @@ tbl = t18.join(t22).reset_index().rename(columns={"label": "Covariável"})
 Markdown(tabulate(tbl, headers="keys", tablefmt="pipe", showindex=False))
 ```
 
-
-
-## Discussão dos resultados
+## Discussão
