@@ -1,0 +1,44 @@
+[
+  {
+    "ano": 2018,
+    "literal": 966,
+    "implementado": 973,
+    "discordantes": 7,
+    "candidatos_com_vitoria_presidencial": 0,
+    "candidatos_com_vitoria_distrital": 11,
+    "historico_anos": [
+      1998,
+      2000,
+      2002,
+      2004,
+      2006,
+      2008,
+      2010,
+      2012,
+      2014,
+      2016
+    ]
+  },
+  {
+    "ano": 2022,
+    "literal": 1351,
+    "implementado": 1354,
+    "discordantes": 3,
+    "candidatos_com_vitoria_presidencial": 0,
+    "candidatos_com_vitoria_distrital": 10,
+    "historico_anos": [
+      1998,
+      2000,
+      2002,
+      2004,
+      2006,
+      2008,
+      2010,
+      2012,
+      2014,
+      2016,
+      2018,
+      2020
+    ]
+  }
+]

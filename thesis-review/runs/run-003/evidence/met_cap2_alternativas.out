@@ -1,0 +1,60 @@
+=== A. Receitas de candidatos a DF por origem (% do total) ===
+ano_eleicao                             2018   2022
+ds_origem_receita                                  
+Recursos de partido político           75.27  87.86
+Recursos de pessoas físicas            12.32   8.71
+Recursos próprios                       9.58   2.22
+Recursos de outros candidatos           2.43   1.01
+Recursos de Financiamento Coletivo      0.39   0.19
+Rendimentos de aplicações financeiras   0.01   0.01
+Comercialização de Bens com OR           NaN   0.00
+Comercialização de Bens com FEFC         NaN   0.00
+
+=== B. 'Recursos de partido político' por fonte (% do total da origem) ===
+ano_eleicao        2018   2022
+ds_fonte_receita              
+FUNDO ESPECIAL    80.38  90.72
+FUNDO PARTIDARIO  18.40   7.31
+OUTROS RECURSOS    1.22   1.96
+
+=== C. Recursos não partidários (vr_receita_outros) por credencial ===
+                      n             R  ...  pct_O_pos  O_sobre_total
+ano_eleicao comp                       ...                          
+2018        False  6657  2.772588e+08  ...      0.714          0.363
+            True    973  7.280242e+08  ...      0.950          0.188
+2022        False  8321  1.305404e+09  ...      0.540          0.113
+            True   1354  1.541870e+09  ...      0.888          0.128
+
+[4 rows x 6 columns]
+2018 corr intralista sR x sO = 0.407 n = 7244
+2022 corr intralista sR x sO = 0.337 n = 9131
+
+=== D. Candidaturas com R_il = 0 em listas financiadas; lift com e sem elas ===
+2018 listas=786 cand=7395 cand_R0=1811 (24.5%) comp_R0=64 H=786.8 lift_todos=1.891 lift_so_R>0=1.697 cobertura=0.819
+2022 listas=648 cand=9345 cand_R0=756 (8.1%) comp_R0=37 H=1095.3 lift_todos=1.855 lift_so_R>0=1.824 cobertura=0.810
+
+=== E. Parcela de não-competitivos com R>0 que recebe menos que 1/C (quase-simbólico) ===
+2018 não-comp: R=0: 0.272 | s<1/(2C): 0.681 | comp: R=0: 0.067
+2022 não-comp: R=0: 0.09 | s<1/(2C): 0.561 | comp: R=0: 0.027
+
+=== F. Cotas: parcela dos recursos partidários (DF) destinada a mulheres; credenciais por grupo ===
+2018 mulheres: % candidaturas = 31.7 | % recursos partidários = 25.6 | % com credencial (M/H) = 4.8 16.4
+   partidos com % mulheres dos recursos DF entre 28% e 35%: 4 de 35 | mediana = 27.8
+2022 mulheres: % candidaturas = 35.2 | % recursos partidários = 31.7 | % com credencial (M/H) = 6.1 18.3
+   partidos com % mulheres dos recursos DF entre 28% e 35%: 11 de 31 | mediana = 33.8
+
+=== G. Composição do grupo com credencial: vitória acima de vereador vs só votação (10% QE) ===
+2018 credenciados = 973 | com vitória acima de vereador = 738 | já eleito dep. federal = 484 | só votação >=10% QE = 235
+2022 credenciados = 1354 | com vitória acima de vereador = 945 | já eleito dep. federal = 572 | só votação >=10% QE = 409
+
+=== H. Lift observado vs teto mecânico (H<=min(G,k)) por magnitude ===
+                     listas        H        E  ...   lift  lift_teto  lift/teto
+ano_eleicao faixa                              ...                             
+2018        Pequeno     413  233.000  166.646  ...  1.398      1.566      0.893
+            Médio       242  259.500  132.484  ...  1.959      2.219      0.883
+            Grande      131  294.250  116.938  ...  2.516      2.993      0.841
+2022        Pequeno     321  323.000  236.335  ...  1.367      1.608      0.850
+            Médio       210  361.800  180.999  ...  1.999      2.376      0.841
+            Grande      117  410.482  173.046  ...  2.372      2.855      0.831
+
+[6 rows x 8 columns]

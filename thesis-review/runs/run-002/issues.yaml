@@ -1,0 +1,84 @@
+- issue_id: I-3-001
+  titulo: "Escolha do estimando e massa não unitária na regressão intralista"
+  capitulo: 3
+  findings: [STA-3-001]
+  claims: [C3.8.01]
+  severidade_inicial: MAJOR
+  contra_argumento: {agent: adversarial-reviewer, assessment: valid, resumo: "A alteração nos coeficientes é pequena, mas a especificação e a variância pressupõem massa unitária que não existe em listas filtradas."}
+  severidade_final: MAJOR
+  confianca: alta
+  razao: "A evidência reproduz listas com massa remanescente abaixo de 1; decidir o estimando e reestimar é necessário antes de consolidar a seção."
+  recomendacao: "Renormalizar as parcelas dos remanescentes ou incorporar a massa m_l à média, Hessiana e escores; atualizar coeficientes, EP e AMEs."
+  status: open
+- issue_id: I-3-002
+  titulo: "Inferência racial em 2022 depende do nível de cluster"
+  capitulo: 3
+  findings: [STA-3-002]
+  claims: [C3.8.08]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: valid, resumo: "A razão estimada e o sinal persistem, mas a significância não resiste ao agrupamento por partido."}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "A frase é válida sob cluster por lista, mas deve qualificar a sensibilidade institucional."
+  recomendacao: "Reportar sensibilidade por partido e escrever que a distinção de paridade depende do agrupamento por lista."
+  status: open
+- issue_id: I-3-003
+  titulo: "Declarar agregação nacional e contraste dos AMEs"
+  capitulo: 3
+  findings: [STA-3-003, STA-3-004]
+  claims: [C3.4.01, C3.8.05]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: partially_valid, resumo: "As quantidades estão corretas, mas os estimandos precisam ser nomeados."}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "A correção é de definição e interpretação, sem exigir troca das métricas."
+  recomendacao: "Explicitar razões de somas e definir os pontos percentuais como AME 0→1 com denominador recalculado."
+  status: open
+- issue_id: I-3-004
+  titulo: "Origem partidária e fundos específicos"
+  capitulo: 3
+  findings: [MEA-3-001]
+  claims: []
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: partially_valid, resumo: "A diferença é pequena e localizada na redação."}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "A frase atual afirma exclusividade que a variável não assegura."
+  recomendacao: "Dizer ‘origem partidária’ e que os recursos incluem FP/FEFC."
+  status: open
+- issue_id: I-3-005
+  titulo: "Cargos definidos versus estimados"
+  capitulo: 3
+  findings: [MEA-3-002]
+  claims: []
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: valid, resumo: "A frase ‘todos os cargos’ excede a figura."}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "A redação pode levar a uma leitura errada do conjunto de covariáveis."
+  recomendacao: "Listar os cargos estimados ou substituir por ‘cargos incluídos no modelo’."
+  status: open
+- issue_id: I-3-006
+  titulo: "Alcance associativo do mecanismo"
+  capitulo: 3
+  findings: [THE-3-001]
+  claims: []
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: partially_valid, resumo: "O capítulo já contém uma cautela observacional, mas precisa reaparecer na contribuição."}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "A ressalva existe, porém a interpretação de coordenação deve manter o caráter compatível/associativo."
+  recomendacao: "Nomear explicações rivais e evitar converter associação em mecanismo demonstrado."
+  status: open
+- issue_id: I-3-007
+  titulo: "Legendas e chaves visuais"
+  capitulo: 3
+  findings: [WRI-3-001, WRI-3-002]
+  claims: []
+  severidade_inicial: MINOR
+  contra_argumento: {agent: adversarial-reviewer, assessment: valid, resumo: "São ajustes de apresentação sem impacto no argumento."}
+  severidade_final: MINOR
+  confianca: alta
+  razao: "Melhoram a leitura, mas os valores e a estrutura estão corretos."
+  recomendacao: "Adicionar legendas descritivas e explicar a linha Top-NECr/destaque de 80%."
+  status: open

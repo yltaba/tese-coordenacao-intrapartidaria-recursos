@@ -1,0 +1,15 @@
+ano_eleicao,sg_uf,sg_partido,nr_candidato,vr_receita_recursos_partidos,eleito,candidato_competitivo
+2018,CE,PDT,1200,500000.0,0,True
+2018,CE,PDT,1212,500000.0,1,True
+2018,CE,PDT,1213,0.0,1,False
+2018,CE,PDT,1214,0.0,1,False
+2018,CE,PDT,1221,0.0,1,True
+2018,CE,PDT,1223,10000.0,0,False
+2018,CE,PDT,1225,0.0,0,False
+2018,CE,PDT,1233,0.0,1,True
+2018,CE,PDT,1234,720000.0,1,True
+2018,CE,PDT,1235,0.0,0,True
+2018,CE,PDT,1263,50000.0,0,False
+2018,CE,PDT,1265,0.0,0,False
+2018,CE,PDT,1277,0.0,0,False
+2018,CE,PDT,1288,10000.0,0,False

@@ -1,0 +1,82 @@
+=== A. Correlação intralista sR x sO: total, por estrato de credencial e residualizada ===
+2018 total=0.407 (n=7244) | credenciados=0.280 (n=694) | sem credencial=0.233 (n=6277) | parcial|credenciais=0.324
+2022 total=0.337 (n=9131) | credenciados=0.205 (n=1259) | sem credencial=0.237 (n=7766) | parcial|credenciais=0.250
+
+=== B. Distância da divisão igualitária (listas financiadas, C>1) ===
+             count   mean    std   min    10%    25%    50%    75%    90%  max
+ano_eleicao                                                                   
+2018         649.0  0.469  0.265  0.02  0.133  0.250  0.466  0.650  0.872  1.0
+2022         623.0  0.536  0.262  0.03  0.184  0.327  0.519  0.747  0.918  1.0
+% listas com NECr/C >= 0,9 (quase igualitárias): {2018: 8.2, 2022: 11.7}
+
+=== C. Parcela normalizada (s*C) por quintil da proporção de votos intralista t-1 ===
+2018 (todos com votação DF anterior)
+     n  votlag_med  sRn_media  sRn_mediana  pct_comp
+q                                                   
+Q1  62       0.004      0.192        0.086     0.016
+Q2  61       0.037      1.875        1.000     0.475
+Q3  61       0.117      2.528        2.247     0.820
+Q4  61       0.291      4.448        2.897     0.852
+Q5  62       0.850      3.566        1.968     0.903
+2018 (só quem já venceu para DF antes; quartis de votos t-1)
+     n  votlag_med  sRn_media  sRn_mediana
+q                                         
+Q1  41       0.089      3.307        2.532
+Q2  40       0.183      3.657        2.619
+Q3  40       0.376      5.417        2.871
+Q4  40       0.914      3.662        2.000
+2018 Spearman(votlag, s*C) entre ex-eleitos DF = -0.067 | só incumbente==1: -0.067
+2022 (todos com votação DF anterior)
+      n  votlag_med  sRn_media  sRn_mediana  pct_comp
+q                                                    
+Q1  121       0.005      0.370        0.195     0.050
+Q2  120       0.031      1.575        1.088     0.450
+Q3  120       0.113      3.174        2.320     0.817
+Q4  120       0.287      3.935        3.308     0.925
+Q5  121       0.776      4.308        3.386     0.975
+2022 (só quem já venceu para DF antes; quartis de votos t-1)
+     n  votlag_med  sRn_media  sRn_mediana
+q                                         
+Q1  80       0.073      3.333        2.361
+Q2  80       0.185      4.241        4.050
+Q3  80       0.370      4.610        3.385
+Q4  80       0.869      4.341        3.561
+2022 Spearman(votlag, s*C) entre ex-eleitos DF = 0.174 | só incumbente==1: 0.174
+
+=== E. Mulheres × homens: parcela normalizada (s*C) média, listas financiadas ===
+2018 | bruto M/H=1.01 (R$ médio M/H=0.74) | credenciados M/H=1.26 (nM=116, nH=845) | sem credencial M/H=1.46 (nM=2231, nH=4203)
+2022 | bruto M/H=0.95 (R$ médio M/H=0.86) | credenciados M/H=1.20 (nM=207, nH=1145) | sem credencial M/H=1.25 (nM=3075, nH=4916)
+
+=== C2. Igual a C/D, com prop_votos_nominais_lag_candidato (merge UF+CPF, cobre trocas de partido) ===
+2018 (todos com votação DF anterior)
+      n  votlag_med  sRn_media  sRn_mediana  pct_comp
+q                                                    
+Q1  136       0.004      0.396        0.084     0.007
+Q2  136       0.032      1.753        0.355     0.309
+Q3  135       0.111      2.563        2.031     0.756
+Q4  136       0.268      4.024        2.305     0.846
+Q5  136       0.858      3.352        1.954     0.904
+2018 (ex-eleitos DF; quartis de votos t-1)
+     n  votlag_med  sRn_media  sRn_mediana
+q                                         
+Q1  74       0.091      4.191        2.584
+Q2  74       0.190      4.006        2.650
+Q3  74       0.427      5.885        3.376
+Q4  74       0.957      3.256        1.991
+2018 Spearman(votlag_cand, s*C) ex-eleitos DF = -0.126 | sem credencial OU credenciado só por votação (sem vitória DF) = 0.431
+2022 (todos com votação DF anterior)
+      n  votlag_med  sRn_media  sRn_mediana  pct_comp
+q                                                    
+Q1  252       0.004      0.442        0.227     0.036
+Q2  251       0.029      1.298        0.665     0.343
+Q3  251       0.100      2.402        1.870     0.657
+Q4  251       0.287      3.628        2.771     0.857
+Q5  252       0.843      3.068        2.377     0.857
+2022 (ex-eleitos DF; quartis de votos t-1)
+      n  votlag_med  sRn_media  sRn_mediana
+q                                          
+Q1  125       0.078      3.403        2.409
+Q2  125       0.208      4.061        3.563
+Q3  124       0.422      4.411        3.464
+Q4  125       0.941      3.640        2.716
+2022 Spearman(votlag_cand, s*C) ex-eleitos DF = 0.059 | sem credencial OU credenciado só por votação (sem vitória DF) = 0.466

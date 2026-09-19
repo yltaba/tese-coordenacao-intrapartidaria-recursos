@@ -1,0 +1,94 @@
+run: run-002
+capitulo: 3
+arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd
+iniciado_em: 2026-09-18 15:30:42-03:00
+agentes:
+- measurement
+- statistics
+- results
+- writing
+- theory
+- thesis-chair
+- adversarial
+insumos:
+- arquivo: tese/03-medindo-coordenacao-intrapartidaria.qmd
+  sha256: 567dfd80086fe2dccfd2c09ca967de5a87fa5e6cd7da60861ab645504374a8ad
+- arquivo: tese/03-formulas-propostas.qmd
+  sha256: AUSENTE
+- arquivo: src/1_silver/gerar_rrd.py
+  sha256: 11ff0ecad4ee8adf877e9cabb68529395b9791564c8f115949386de0aa9e4ab6
+- arquivo: data/processed/rrd_df_novo.parquet
+  sha256: 6245252f085f80f11316c183e761eca60505ebe0823cfb35872dcf50f149c08a
+- arquivo: src/2_gold/cap3_cobertura_top_necr.py
+  sha256: 5bd976965c9a506412d908b137eeb3c700ffd0845f57463c91f97a1a4ea0d64f
+- arquivo: src/2_gold/cap3_cs_features.py
+  sha256: 2604d1c2160be9e60a52d21b90106b7777d45daa23502355e34491497e151222
+- arquivo: src/2_gold/cap3_taa_features.py
+  sha256: 596486b7a16478052a814664124ad40a74190b60335915644357486cff038386
+- arquivo: tese/reports/resultados-capitulo-3/15_cobertura_nacional.csv
+  sha256: 3243938ff33b378eced107433a20149af06f2ede63e247975861c3289b4408f5
+- arquivo: tese/reports/resultados-capitulo-3/00_sintese.csv
+  sha256: 92297733b5e06b829f119de9d42b3433c4d9b19b68a7b2fbd7a8a80e5dfcb786
+- arquivo: tese/reports/sensibilidade-top-x/resumo_nacional.csv
+  sha256: AUSENTE
+- arquivo: data/processed/df_cobertura_top_necr_resumo.csv
+  sha256: 9d0ffd27d8705b3c0bbb58d2fd9b3e77ec6906a61ddea4fb0e2599fe7eb22ee3
+- arquivo: tese/02-literatura.qmd
+  sha256: 84e86f06dc9de9713eec1e7d0fb52f6dfe2886fd589aef70bfa273646eb394c1
+- arquivo: tese/04-mecanismo-causal-coordenacao.qmd
+  sha256: c7d984b2596c5e0df933fae95bfab55ea90f452f485fadd93ff82a87fbec04d0
+- arquivo: tese/scripts/regressao_fracionaria_cap3.py
+  sha256: 3f25a7dccd1cad04bcee32f0c6056739e273904b0659795ba72018d473a3164d
+- arquivo: tese/scripts/regenerar_figuras_cap3.py
+  sha256: 8ffce9cd3f3cf1ea785de00680e4cfb9321e2fe570e58c962d9c64ad3da5216d
+- arquivo: tese/scripts/resultados_capitulo3.py
+  sha256: 4ecf0552af00e28684b878309f3c1a55ad0b854d8a63ae37e9d7706d73588893
+- arquivo: tese/references.bib
+  sha256: c0f35e8ac622de6243d6c409163dbbce712a0eeeee2e3c685ed4e0f8c4329ec5
+- arquivo: tese/reports/regressao-fracionaria/ames.csv
+  sha256: 48cb0e5c784ef8bf63acf54abf74c22110bafeab55cdb2da0a23140710efeb2f
+- arquivo: tese/reports/regressao-fracionaria/amostra.csv
+  sha256: 170c69a6d6684e31d33be8c747406f0e31939f2bf56eee95201289bbbb547606
+- arquivo: tese/reports/regressao-fracionaria/coeficientes.csv
+  sha256: f6524ef0e087e96d043b2b66565ee55e22302d707e1f5f32ef84761eef251bd5
+- arquivo: tese/reports/regressao-fracionaria/interacao_magnitude.csv
+  sha256: 3e300caeb37c3c105c5f13b55ef6d66f421e2568c23bf587120795109d42e8e0
+- arquivo: figs/cap3_cumulative_abs_cs.png
+  sha256: 611d8fda6ab1190e2f40d6146917392cf9b7dbeb766c603433c041c8804d1244
+- arquivo: figs/cap3_cumulative_proportion_cs.png
+  sha256: 24bf8235aecb624627ade7911005a0c40c275726576402940fd481e655136b90
+- arquivo: figs/cap3_fig_amplitude_barras.png
+  sha256: a83b371c2dae3d3c9ba0a3e621e53c5490e73adad7e2d158c209cd04a34fcc90
+- arquivo: figs/cap3_fig_concentracao_barras.png
+  sha256: fd55faf8ebe567b9da915f5a0ab58b7aad91000c602fd6dcd70f2bc68644207f
+- arquivo: figs/cap3_fig_lift_partido.png
+  sha256: 6366a256148315d49cafc7e02e21132cc08f6e17a62fc8f314385001314549b8
+- arquivo: figs/cap3_fig_topx_competitividade.png
+  sha256: 0cfdbbcbc4ac6ae0febf7cf63d0e0d74fdf97696a59be55a3ed7131e267db61d
+- arquivo: figs/cap3_fig_topx_eleicao.png
+  sha256: 8343213449e5bcbf9521ad9b3204eb612d648198196deb7b74185d7f0c5d6b3d
+- arquivo: figs/cap3_fig_top_necr.png
+  sha256: 1ddadd9f3b766e0b17c00123e1ddbe4da18e6a5a5ff25034145ed3c9a6aa7f64
+- arquivo: figs/cap3_fig_top_necr_eleicao.png
+  sha256: 63df0c1f0227b7896cc7bfd512999ab38d3268bc5143359192b0ddc1bf60bc78
+- arquivo: figs/cap3_regressao_fracionaria.png
+  sha256: 8de896175ced54730b320fd92ff8c91e223635309c1e97ce6f3ed4cf9e7687b4
+- arquivo: figs/cap3_survival_km_cs_v2.png
+  sha256: 6f604b64fb817d19ac33f8b8ebb777fe2c3820fa2a70e8cbb734e20ec887fee6
+- arquivo: figs/cap3_survival_km_maior_cs_v2.png
+  sha256: bf121b785e250d7c29f66951b264fb50022691881dd95c0e774377d178d0bfa8
+concluido_em: '2026-09-18T16:00:00-03:00'
+contagens:
+  CRITICAL: 0
+  MAJOR: 1
+  MODERATE: 5
+  MINOR: 1
+gate: 'WARN — Measurement WARN; Statistics WARN; Results PASS; Internal validity WARN'
+escopo:
+  objetivo: Avaliar coerência e estrutura do capítulo 3 antes da escrita final da
+    discussão.
+  exclusoes:
+  - Ausência ou incompletude da discussão deliberadamente fora dos achados e gates.
+  alteracao_do_capitulo: false
+  fluxo: measurement/statistics/results; theory; chair pass 1; writing; chair complemento
+    pass 1; adversarial; chair pass 2

@@ -10,6 +10,7 @@ book:
     - 02-literatura.qmd
     - 03-medindo-coordenacao-intrapartidaria.qmd
     - 04-mecanismo-causal-coordenacao.qmd
+    - 05-consideracoes-finais.qmd
   appendices:
     - apendice-a-formalizacao.qmd
 

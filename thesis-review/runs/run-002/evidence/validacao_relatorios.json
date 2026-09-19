@@ -1,0 +1,109 @@
+{
+  "reports": [
+    {
+      "report": "measurement.md",
+      "findings": [
+        {
+          "id": "MEA-3-001",
+          "missing": [],
+          "literal": true,
+          "line_matches": true,
+          "sources_present": true
+        },
+        {
+          "id": "MEA-3-002",
+          "missing": [],
+          "literal": true,
+          "line_matches": true,
+          "sources_present": true
+        }
+      ]
+    },
+    {
+      "report": "results.md",
+      "findings": [
+        {
+          "id": "RES-3-001",
+          "missing": [],
+          "literal": true,
+          "line_matches": true,
+          "sources_present": true
+        },
+        {
+          "id": "RES-3-002",
+          "missing": [],
+          "literal": true,
+          "line_matches": true,
+          "sources_present": true
+        }
+      ]
+    },
+    {
+      "report": "statistics.md",
+      "findings": [
+        {
+          "id": "STA-3-001",
+          "missing": [],
+          "literal": true,
+          "line_matches": true,
+          "sources_present": true
+        },
+        {
+          "id": "STA-3-002",
+          "missing": [],
+          "literal": true,
+          "line_matches": true,
+          "sources_present": true
+        },
+        {
+          "id": "STA-3-003",
+          "missing": [],
+          "literal": true,
+          "line_matches": true,
+          "sources_present": true
+        },
+        {
+          "id": "STA-3-004",
+          "missing": [],
+          "literal": true,
+          "line_matches": true,
+          "sources_present": true
+        }
+      ]
+    },
+    {
+      "report": "theory.md",
+      "findings": [
+        {
+          "id": "THE-3-001",
+          "missing": [],
+          "literal": true,
+          "line_matches": true,
+          "sources_present": true
+        }
+      ]
+    },
+    {
+      "report": "writing.md",
+      "findings": [
+        {
+          "id": "WRI-3-001",
+          "missing": [],
+          "literal": true,
+          "line_matches": true,
+          "sources_present": true
+        },
+        {
+          "id": "WRI-3-002",
+          "missing": [],
+          "literal": true,
+          "line_matches": true,
+          "sources_present": true
+        }
+      ]
+    }
+  ],
+  "inputs_changed": [
+    "tese/03-medindo-coordenacao-intrapartidaria.qmd"
+  ]
+}

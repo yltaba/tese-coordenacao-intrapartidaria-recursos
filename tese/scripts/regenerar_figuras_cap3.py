@@ -7,6 +7,10 @@ candidato_competitivo (e por isso mudaram com as correções I-3-002/I-3-001 de 
   figs/cap3_fig_top_necr_eleicao.png       (eleitos; Robustez)
   figs/cap3_fig_topx_competitividade.png   (Robustez)
   figs/cap3_fig_topx_eleicao.png           (Robustez)
+  figs/cap3_fig_lift_partido.png           (lift por partido e ano, com teto e bancada; Robustez)
+
+Os números da figura por partido ficam em
+tese/reports/lift-magnitude-partido/lift_por_partido_ano.csv.
 
 Recomputa direto da base (mesma fórmula do capítulo, @eq-indicadores). É o único gerador das
 figuras de Top-NECr e Top-X% do Cap. 3; a cadeia anterior (alternativas-top-necr ->
@@ -237,6 +241,113 @@ def fig_topx(listas, outcome, out_path):
     print(f"[fig_topx:{outcome}] {out_path}")
 
 
+# ---------------------------------------------------------------------------
+# 6) Lift do Top-NECr por partido e ano, com teto mecânico e bancada eleita
+# ---------------------------------------------------------------------------
+
+ALVOS_PARTIDO = {"competitividade": "F", "eleicao": "E"}
+
+
+def lift_por_partido(listas):
+    """Lift por (ano, partido) e alvo, na mesma razão de somas do lift nacional.
+
+    Além de H e E = Σ G·k/C, traz o teto do lift (Hmax = Σ min(k, G): o núcleo não comporta
+    mais acertos que min(k, G)), o lift normalizado (H−E)/(Hmax−E) e o DP do lift sob a
+    hipótese nula hipergeométrica. Listas sem recursos (k = 0) não entram em H nem em E, mas
+    seus eleitos contam na bancada."""
+    d = listas.copy()
+    k, C = d["k_arredondado"], d["C"]
+    linhas = []
+    for alvo, G_col in ALVOS_PARTIDO.items():
+        G = d[G_col]
+        p = G / C
+        d[f"E_{alvo}"] = G * k / C
+        d[f"Hmax_{alvo}"] = np.minimum(k, G)
+        d[f"var_{alvo}"] = np.where(C > 1, k * p * (1 - p) * (C - k) / (C - 1).clip(lower=1), 0.0)
+    for (ano, partido), g in d.groupby(["ano_eleicao", "sg_partido_norm"]):
+        financiada = g["Recursos"] > 0
+        base = dict(
+            ano_eleicao=int(ano), sg_partido_norm=partido, n_listas=len(g),
+            n_listas_financiadas=int(financiada.sum()),
+            bancada=int(g["E"].sum()), bancada_listas_financiadas=int(g.loc[financiada, "E"].sum()),
+        )
+        for alvo in ALVOS_PARTIDO:
+            H = g[f"H_{alvo}_topnecr"].sum()
+            E = g[f"E_{alvo}"].sum()
+            Hmax = g[f"Hmax_{alvo}"].sum()
+            linhas.append(dict(
+                base, alvo=alvo, H_observado=H, E_esperado=E, H_maximo=Hmax,
+                lift=H / E if E > 0 else np.nan,
+                teto_lift=Hmax / E if E > 0 else np.nan,
+                lift_normalizado=(H - E) / (Hmax - E) if Hmax - E > 1e-9 else np.nan,
+                dp_nulo_lift=np.sqrt(g[f"var_{alvo}"].sum()) / E if E > 0 else np.nan,
+                denominador_pequeno=bool(E < 5),
+            ))
+    return pd.DataFrame(linhas)
+
+
+def fig_lift_partido(tab, out_path):
+    """Painéis 2018 | 2022; partidos com ≥1 eleito, ordenados pela bancada. Segmento cinza de
+    1 até o teto do lift de eleitos; círculo = lift de eleitos (área ∝ bancada); losango vazado
+    = lift de credenciais prévias. Cada marcador fica cinza quando o E do seu alvo é < 5."""
+    wide = tab.pivot_table(
+        index=["ano_eleicao", "sg_partido_norm", "bancada"], columns="alvo",
+        values=["lift", "teto_lift", "E_esperado"],
+    ).reset_index()
+    wide.columns = ["_".join(c).strip("_") for c in wide.columns]
+    wide = wide[wide["bancada"] > 0]
+
+    n_por_ano = wide.groupby("ano_eleicao").size()
+    n_max = n_por_ano.max()
+    # Mesma altura de linha nos dois painéis, alinhados pelo topo: o de 2022 (menos partidos)
+    # ocupa só as primeiras linhas da grade.
+    fig = plt.figure(figsize=(12.5, 0.27 * n_max + 2.0))
+    gs = fig.add_gridspec(n_max, 2, wspace=0.45)
+    axes = [fig.add_subplot(gs[: n_por_ano[ano], i]) for i, ano in enumerate(YEARS)]
+    area = lambda b: 14 + 3.2 * b  # noqa: E731 — área do marcador ∝ bancada
+    COR_SEG, COR_PEQ = "#d9d9d9", "#b0b0b0"
+
+    for ax, ano in zip(axes, YEARS):
+        g = wide[wide.ano_eleicao == ano].sort_values(["bancada", "sg_partido_norm"], ascending=[True, False])
+        y = np.arange(len(g))
+        cor_ele = np.where(g["E_esperado_eleicao"] < 5, COR_PEQ, PRETO)
+        cor_comp = np.where(g["E_esperado_competitividade"] < 5, COR_PEQ, PRETO)
+
+        ax.hlines(y, 1, g["teto_lift_eleicao"], color=COR_SEG, lw=3, zorder=1)
+        ax.scatter(g["teto_lift_eleicao"], y, marker="|", s=90, color="#8c8c8c", lw=1.5, zorder=2)
+        ax.scatter(g["lift_eleicao"], y, s=area(g["bancada"]), color=cor_ele,
+                   edgecolor="white", lw=1, alpha=0.9, zorder=3)
+        # Losango por cima do círculo, para não sumir nas bancadas grandes.
+        ax.scatter(g["lift_competitividade"], y, marker="D", s=26, facecolor="white",
+                   edgecolor=cor_comp, lw=1.2, zorder=4)
+        ax.axvline(1, color="#999999", lw=1, ls=":", zorder=0)
+
+        ax.set_yticks(y)
+        ax.set_yticklabels([f"{p} ({b})" for p, b in zip(g["sg_partido_norm"], g["bancada"])], fontsize=8.5)
+        ax.set_ylim(-0.7, len(g) - 0.3)
+        ax.set_title(str(ano), loc="left", fontsize=11)
+        ax.set_xlim(-0.2, 10)
+        ax.set_xticks(range(0, 11))
+        ax.set_xlabel("Lift (observado / referência aleatória)")
+        ax.grid(axis="x", color="#e6eaed")
+        ax.set_axisbelow(True)
+        ax.spines[["right", "top", "left"]].set_visible(False)
+        ax.tick_params(axis="y", length=0)
+
+    handles = [
+        plt.Line2D([], [], marker="o", ls="", color=PRETO, ms=9, label="Lift de eleitos (área ∝ bancada)"),
+        plt.Line2D([], [], marker="D", ls="", mfc="white", mec=PRETO, ms=6, label="Lift de credenciais prévias"),
+        plt.Line2D([], [], color=COR_SEG, lw=3, marker="|", mec="#8c8c8c", ms=10,
+                   label="Faixa de 1 ao teto do lift de eleitos"),
+        plt.Line2D([], [], marker="o", ls="", color=COR_PEQ, ms=9, label="Cinza: esperado ao acaso < 5"),
+    ]
+    fig.legend(handles=handles, loc="lower center", bbox_to_anchor=(0.5, 0.0), ncol=4, frameon=False, fontsize=9)
+    fig.subplots_adjust(left=0.13, right=0.98, top=0.96, bottom=0.1)
+    fig.savefig(out_path, dpi=200)
+    plt.close(fig)
+    print(f"[fig_lift_partido] {out_path}")
+
+
 def main():
     listas = carregar_listas()
     print(f"{len(listas)} nominatas (2018+2022)")
@@ -247,6 +358,10 @@ def main():
     fig_top_necr(listas, "eleicao", FIGS / "cap3_fig_top_necr_eleicao.png")
     fig_topx(listas, "competitividade", FIGS / "cap3_fig_topx_competitividade.png")
     fig_topx(listas, "eleicao", FIGS / "cap3_fig_topx_eleicao.png")
+    tab_partido = lift_por_partido(listas)
+    tab_partido.to_csv(ROOT / "tese/reports/lift-magnitude-partido/lift_por_partido_ano.csv",
+                       index=False, encoding="utf-8")
+    fig_lift_partido(tab_partido, FIGS / "cap3_fig_lift_partido.png")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,32 @@
+[
+  {
+    "ano": 2018,
+    "candidatos": 7630,
+    "competitivos": 973,
+    "listas": 859,
+    "listas_financiadas": 786,
+    "sem_recursos": 73,
+    "eleitos_sem_recursos": 3.0,
+    "C_mediana": 4.0,
+    "F_mediana": 1.0,
+    "F_media": 1.22264631043257,
+    "NECr_mediana": 1.8781287826229383,
+    "C_NECr_mediana": 1.9469058205584957,
+    "NECr_C_mediana": 51.363652282404445
+  },
+  {
+    "ano": 2022,
+    "candidatos": 9675,
+    "competitivos": 1354,
+    "listas": 711,
+    "listas_financiadas": 648,
+    "sem_recursos": 63,
+    "eleitos_sem_recursos": 0.0,
+    "C_mediana": 9.0,
+    "F_mediana": 1.0,
+    "F_media": 2.0864197530864197,
+    "NECr_mediana": 4.8144236052308536,
+    "C_NECr_mediana": 1.8640930724388212,
+    "NECr_C_mediana": 53.64539372816394
+  }
+]

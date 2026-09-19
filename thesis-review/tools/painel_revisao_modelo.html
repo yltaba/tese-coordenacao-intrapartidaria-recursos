@@ -1,0 +1,601 @@
+<title>Pendências da Tese</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap">
+<style>
+:root {
+  --chao: #F3F5F2;
+  --papel: #FFFFFF;
+  --papel-2: #EBEFEB;
+  --tinta: #16232A;
+  --tinta-2: #4A5A60;
+  --tinta-3: #6D7C81;
+  --regua: #D5DDD8;
+  --acento: #155E6E;
+  --acento-suave: #DCEBEE;
+  --alta: #B0362A;
+  --alta-suave: #F6E1DE;
+  --media: #A86A10;
+  --media-suave: #F5E9D4;
+  --baixa: #4C7658;
+  --baixa-suave: #E1ECE3;
+  --ok: #3F7A57;
+  --neutro: #7B8A8F;
+  --neutro-suave: #E7ECEA;
+  --foco: #155E6E;
+  --sombra: 0 1px 2px rgba(22, 35, 42, .06), 0 4px 14px rgba(22, 35, 42, .05);
+  --serif: "Newsreader", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --sans: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --chao: #10171A; --papel: #172125; --papel-2: #1D292E; --tinta: #E2E9E7; --tinta-2: #AFBDBF; --tinta-3: #8A999D;
+    --regua: #2A383D; --acento: #6BB8C6; --acento-suave: #1B3339; --alta: #E7735F; --alta-suave: #3A2220;
+    --media: #DDA64A; --media-suave: #372C19; --baixa: #85B794; --baixa-suave: #1D3024; --ok: #7FBF95;
+    --neutro: #8D9CA0; --neutro-suave: #222E32; --foco: #6BB8C6; --sombra: 0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"] {
+  --chao: #10171A; --papel: #172125; --papel-2: #1D292E; --tinta: #E2E9E7; --tinta-2: #AFBDBF; --tinta-3: #8A999D;
+  --regua: #2A383D; --acento: #6BB8C6; --acento-suave: #1B3339; --alta: #E7735F; --alta-suave: #3A2220;
+  --media: #DDA64A; --media-suave: #372C19; --baixa: #85B794; --baixa-suave: #1D3024; --ok: #7FBF95;
+  --neutro: #8D9CA0; --neutro-suave: #222E32; --foco: #6BB8C6; --sombra: 0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.25);
+}
+* { box-sizing: border-box; }
+body { background: var(--chao); color: var(--tinta); font-family: var(--sans); font-size: 15px; line-height: 1.5; }
+.envelope { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 0 64px; }
+@media (max-width: 520px) { .envelope { padding-inline: 16px; } }
+h1, h2, h3 { font-family: var(--serif); font-weight: 500; text-wrap: balance; margin: 0; letter-spacing: -.005em; }
+h1 { font-size: clamp(30px, 5vw, 42px); line-height: 1.1; }
+h2 { font-size: 26px; line-height: 1.2; }
+h3 { font-size: 19px; line-height: 1.25; }
+p { margin: 0; }
+code, .mono { font-family: var(--mono); font-size: .86em; }
+code { background: var(--papel-2); padding: 1px 5px; border-radius: 4px; word-break: break-word; }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+.rotulo-sup { font-family: var(--mono); font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-3); }
+.num { font-variant-numeric: tabular-nums; }
+
+/* topo */
+.topo { padding-block: 40px 22px; display: grid; gap: 14px; }
+.topo .sub { color: var(--tinta-2); max-width: 70ch; }
+.progresso { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.barra { flex: 1 1 260px; max-width: 520px; height: 8px; border-radius: 99px; background: var(--papel-2); overflow: hidden; }
+.barra > span { display: block; height: 100%; background: var(--ok); border-radius: 99px; transition: width .3s ease; }
+.progresso .txt { font-size: 13.5px; color: var(--tinta-2); }
+
+/* navegação */
+.nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--chao) 92%, transparent); backdrop-filter: blur(6px); border-bottom: 1px solid var(--regua); }
+.nav .envelope { padding-block: 0; display: flex; gap: 4px; overflow-x: auto; }
+.nav a { padding: 11px 12px; color: var(--tinta-2); text-decoration: none; font-size: 14px; white-space: nowrap; border-bottom: 2px solid transparent; }
+.nav a:hover { color: var(--tinta); border-color: var(--regua); }
+
+section.bloco { padding-top: 40px; display: grid; gap: 20px; scroll-margin-top: 48px; }
+.cab-bloco { display: grid; gap: 6px; }
+.cab-bloco p { color: var(--tinta-2); max-width: 75ch; }
+
+/* indicadores */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+.kpi { background: var(--papel); border: 1px solid var(--regua); border-radius: 10px; padding: 14px 16px; display: grid; gap: 4px; align-content: start; }
+.kpi .v { font-family: var(--serif); font-size: 36px; line-height: 1; font-variant-numeric: tabular-nums lining-nums; }
+.kpi .l { font-size: 13.5px; font-weight: 500; }
+.kpi .d { font-size: 12.5px; color: var(--tinta-3); }
+.kpi.destaque { border-color: color-mix(in srgb, var(--alta) 45%, var(--regua)); }
+.kpi.destaque .v { color: var(--alta); }
+
+.duas { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 16px; }
+@media (max-width: 860px) { .duas { grid-template-columns: 1fr; } }
+.painel { background: var(--papel); border: 1px solid var(--regua); border-radius: 10px; padding: 16px 18px; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.painel .nota { font-size: 12.5px; color: var(--tinta-3); }
+.rolagem { overflow-x: auto; }
+
+/* matriz */
+table { border-collapse: collapse; width: 100%; }
+.matriz th, .matriz td { padding: 7px 6px; text-align: center; font-size: 13px; }
+.matriz thead th { font-weight: 500; color: var(--tinta-2); font-size: 12px; vertical-align: bottom; line-height: 1.2; }
+.matriz tbody th { text-align: left; font-weight: 500; white-space: nowrap; }
+.matriz td button { width: 100%; min-width: 34px; border: 0; border-radius: 6px; padding: 6px 0; cursor: pointer; font-variant-numeric: tabular-nums; background: var(--papel-2); color: var(--tinta-3); }
+.matriz td button.tem { color: var(--tinta); font-weight: 600; }
+.matriz td button:hover { outline: 1px solid var(--acento); }
+.matriz tfoot td, .matriz tfoot th { border-top: 1px solid var(--regua); color: var(--tinta-2); font-size: 12.5px; }
+
+/* barras de prioridade */
+.barras { display: grid; gap: 12px; }
+.linha-barra { display: grid; grid-template-columns: 74px 1fr 34px; gap: 10px; align-items: center; font-size: 13px; }
+.pilha { display: flex; height: 20px; border-radius: 5px; overflow: hidden; background: var(--papel-2); }
+.pilha span { display: block; height: 100%; }
+.pilha .a { background: var(--alta); } .pilha .m { background: var(--media); } .pilha .b { background: var(--baixa); }
+.legenda { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12.5px; color: var(--tinta-2); }
+.legenda i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+
+/* frentes e issues */
+.tabela { font-size: 13.5px; }
+.tabela th { text-align: left; font-weight: 500; color: var(--tinta-2); font-size: 12px; padding: 8px 10px; border-bottom: 1px solid var(--regua); white-space: nowrap; }
+.tabela td.mono { white-space: nowrap; }
+.tabela td { padding: 10px; border-bottom: 1px solid var(--regua); vertical-align: top; }
+.tabela tr:last-child td { border-bottom: 0; }
+.estado { display: flex; gap: 8px; align-items: flex-start; min-width: 170px; }
+.estado .pt { flex: none; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; }
+.pt.ok { background: var(--ok); } .pt.parcial { background: var(--media); } .pt.alerta { background: var(--media); box-shadow: 0 0 0 2px var(--media-suave); } .pt.lacuna { background: var(--alta); }
+.frente { font-family: var(--serif); font-size: 18px; }
+.sev { display: inline-block; font-family: var(--mono); font-size: 11px; letter-spacing: .05em; padding: 2px 7px; border-radius: 99px; font-weight: 500; }
+.sev.MAJOR { background: var(--alta-suave); color: var(--alta); }
+.sev.MODERATE { background: var(--media-suave); color: var(--media); }
+.sev.MINOR { background: var(--neutro-suave); color: var(--tinta-2); }
+
+/* filtros */
+.filtros { background: var(--papel); border: 1px solid var(--regua); border-radius: 10px; padding: 14px 16px; display: grid; gap: 12px; }
+.grupo { display: flex; gap: 8px 10px; align-items: center; flex-wrap: wrap; }
+.grupo > .rotulo-sup { width: 88px; flex: none; }
+@media (max-width: 560px) { .grupo > .rotulo-sup { width: 100%; } }
+.chip-f { border: 1px solid var(--regua); background: var(--papel); border-radius: 99px; padding: 4px 11px; font-size: 13px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.chip-f .c { font-family: var(--mono); font-size: 11.5px; color: var(--tinta-3); }
+.chip-f[aria-pressed="true"] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+.chip-f[aria-pressed="true"] .c { color: inherit; opacity: .75; }
+.segmentado { display: inline-flex; border: 1px solid var(--regua); border-radius: 8px; overflow: hidden; }
+.segmentado button { border: 0; background: var(--papel); padding: 5px 12px; font-size: 13px; cursor: pointer; }
+.segmentado button + button { border-left: 1px solid var(--regua); }
+.segmentado button[aria-pressed="true"] { background: var(--acento-suave); color: var(--acento); font-weight: 600; }
+.busca { flex: 1 1 240px; display: flex; gap: 8px; flex-wrap: wrap; }
+.busca input { flex: 1 1 200px; min-width: 0; border: 1px solid var(--regua); background: var(--chao); border-radius: 8px; padding: 7px 11px; }
+.busca select { border: 1px solid var(--regua); background: var(--chao); border-radius: 8px; padding: 7px 8px; }
+.limpar { border: 0; background: none; color: var(--acento); cursor: pointer; font-size: 13px; text-decoration: underline; text-underline-offset: 3px; }
+.contagem { font-size: 13.5px; color: var(--tinta-2); }
+
+/* cartões */
+.lista { display: grid; gap: 10px; }
+.card { background: var(--papel); border: 1px solid var(--regua); border-left: 4px solid var(--neutro); border-radius: 8px; box-shadow: var(--sombra); scroll-margin-top: 60px; }
+.card.p-alta { border-left-color: var(--alta); }
+.card.p-media { border-left-color: var(--media); }
+.card.p-baixa { border-left-color: var(--baixa); }
+.card.t-rascunho { border-left-color: var(--acento); }
+.card.feito { opacity: .62; }
+.card.feito .resumo { text-decoration: line-through; text-decoration-color: var(--tinta-3); }
+.card.pisca { animation: pisca 1.4s ease; }
+@keyframes pisca { 0%, 40% { box-shadow: 0 0 0 3px var(--acento); } 100% { box-shadow: var(--sombra); } }
+.card-topo { display: grid; grid-template-columns: 1fr auto; gap: 10px; padding: 12px 14px; align-items: start; }
+.abrir { border: 0; background: none; text-align: left; padding: 0; cursor: pointer; display: grid; gap: 6px; min-width: 0; }
+.meta { display: flex; gap: 6px 8px; flex-wrap: wrap; align-items: center; }
+.rot { font-family: var(--mono); font-size: 12.5px; font-weight: 500; color: var(--acento); }
+.chip { font-size: 11.5px; padding: 1px 8px; border-radius: 99px; background: var(--neutro-suave); color: var(--tinta-2); white-space: nowrap; }
+.chip.prio-alta { background: var(--alta-suave); color: var(--alta); font-weight: 600; }
+.chip.prio-media { background: var(--media-suave); color: var(--media); font-weight: 600; }
+.chip.prio-baixa { background: var(--baixa-suave); color: var(--baixa); font-weight: 600; }
+.chip.issue { font-family: var(--mono); font-size: 11px; background: transparent; border: 1px solid var(--regua); }
+.chip.issue.MAJOR { border-color: var(--alta); color: var(--alta); }
+.resumo { font-size: 15px; font-weight: 500; line-height: 1.4; color: var(--tinta); }
+.onde { font-size: 12.5px; color: var(--tinta-3); }
+.onde .mono { font-size: 11.5px; }
+.seta { color: var(--tinta-3); font-size: 12px; }
+.marcar { display: inline-flex; gap: 6px; align-items: center; font-size: 12.5px; color: var(--tinta-2); cursor: pointer; white-space: nowrap; padding-top: 2px; }
+.marcar input { width: 16px; height: 16px; accent-color: var(--ok); }
+.detalhe { border-top: 1px solid var(--regua); padding: 14px 16px 16px; display: grid; gap: 12px; }
+.detalhe .corpo { font-size: 14px; color: var(--tinta-2); max-width: 88ch; line-height: 1.6; }
+.corpo q { font-family: var(--serif); font-style: italic; font-size: 1.06em; color: var(--tinta); quotes: "“" "”"; }
+.atualizacao { background: var(--baixa-suave); color: var(--tinta); border-radius: 6px; padding: 9px 12px; font-size: 13.5px; }
+.refs { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; font-size: 12.5px; color: var(--tinta-3); }
+.ref { font-family: var(--mono); font-size: 12px; border: 1px solid var(--regua); background: var(--chao); border-radius: 5px; padding: 1px 7px; cursor: pointer; color: var(--acento); }
+.ref:hover { border-color: var(--acento); }
+.ref.falta { color: var(--tinta-3); cursor: default; text-decoration: line-through; }
+.rascunho { font-family: var(--serif); font-size: 17px; line-height: 1.62; color: var(--tinta); max-width: 68ch; display: grid; gap: 12px; }
+.aviso-ia { font-size: 12.5px; color: var(--acento); background: var(--acento-suave); border-radius: 6px; padding: 8px 12px; }
+.notas-r { display: grid; gap: 8px; font-size: 13.5px; color: var(--tinta-2); padding-left: 0; list-style: none; margin: 0; }
+.notas-r li { border-left: 2px solid var(--regua); padding-left: 10px; }
+.vazio { padding: 28px; text-align: center; color: var(--tinta-3); background: var(--papel); border: 1px dashed var(--regua); border-radius: 8px; }
+
+/* tarefas das notas */
+.notas-grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 14px; }
+@media (max-width: 400px) { .notas-grade { grid-template-columns: 1fr; } }
+.tarefa { display: grid; grid-template-columns: 18px 1fr; gap: 10px; font-size: 13.5px; align-items: start; padding-block: 7px; border-top: 1px solid var(--regua); }
+.tarefa:first-of-type { border-top: 0; }
+.tarefa input { margin-top: 3px; width: 16px; height: 16px; accent-color: var(--ok); }
+.tarefa.feita span.t { color: var(--tinta-3); text-decoration: line-through; }
+.tarefa .refs { margin-top: 4px; }
+
+/* consistência */
+.consist { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.consist ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: 13.5px; color: var(--tinta-2); }
+.rodape { padding-top: 40px; font-size: 12.5px; color: var(--tinta-3); display: grid; gap: 4px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<header class="envelope topo">
+  <span class="rotulo-sup">Revisão por comentários · tese/*.qmd</span>
+  <h1>Pendências da tese</h1>
+  <p class="sub" id="sub"></p>
+  <div class="progresso">
+    <div class="barra" role="progressbar" aria-label="Ações resolvidas" id="barra"><span style="width:0%"></span></div>
+    <span class="txt num" id="progresso-txt"></span>
+  </div>
+</header>
+
+<nav class="nav" aria-label="Seções">
+  <div class="envelope">
+    <a href="#visao">Visão geral</a>
+    <a href="#comentarios">Comentários</a>
+    <a href="#tarefas">Tarefas das notas</a>
+    <a href="#consistencia">Consistência</a>
+  </div>
+</nav>
+
+<main class="envelope">
+  <section class="bloco" id="visao">
+    <div class="cab-bloco">
+      <h2>Visão geral</h2>
+      <p>Cada comentário HTML dos capítulos foi classificado pelo que pede: rever o argumento, reorganizar ou remeter, corrigir um ponto, refazer uma conta — ou apenas registrar que um número confere.</p>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <div class="duas">
+      <div class="painel">
+        <h3>Capítulo × tipo de comentário</h3>
+        <div class="rolagem"><table class="matriz" id="matriz"></table></div>
+        <p class="nota">Clique numa célula para filtrar a lista de comentários.</p>
+      </div>
+      <div class="painel">
+        <h3>Ações abertas por prioridade</h3>
+        <div class="barras" id="barras"></div>
+        <div class="legenda"><span><i style="background:var(--alta)"></i>Alta</span><span><i style="background:var(--media)"></i>Média</span><span><i style="background:var(--baixa)"></i>Baixa</span></div>
+        <p class="nota">Descontadas as ações marcadas como resolvidas neste navegador.</p>
+      </div>
+    </div>
+    <div class="painel">
+      <h3>As três frentes empíricas, do Argumento aos capítulos</h3>
+      <div class="rolagem"><table class="tabela" id="frentes"></table></div>
+      <p class="nota">Fonte: notes/revisao-pendente/00-coerencia-caps-2-3-4.md, seção 1, e comentários citados.</p>
+    </div>
+    <div class="painel">
+      <h3>Issues arbitrados no run-002 (Cap. 3)</h3>
+      <div class="rolagem"><table class="tabela" id="issues"></table></div>
+    </div>
+  </section>
+
+  <section class="bloco" id="comentarios">
+    <div class="cab-bloco">
+      <h2>Comentários</h2>
+      <p>Clique num comentário para ler o texto completo. Rótulos citados viram atalhos. Marcar como resolvido fica salvo só neste navegador; o comentário some do painel quando for apagado do <code>.qmd</code> e o painel for gerado de novo.</p>
+    </div>
+    <div class="filtros" id="filtros">
+      <div class="grupo"><span class="rotulo-sup">Capítulo</span><span id="f-cap" class="grupo"></span></div>
+      <div class="grupo"><span class="rotulo-sup">Tipo</span><span id="f-tipo" class="grupo"></span></div>
+      <div class="grupo"><span class="rotulo-sup">Prioridade</span><span id="f-prio" class="grupo"></span></div>
+      <div class="grupo">
+        <span class="rotulo-sup">Situação</span>
+        <span class="segmentado" id="f-sit">
+          <button type="button" data-v="abertas" id="sit-abertas">Ações abertas</button>
+          <button type="button" data-v="todas" id="sit-todas">Todos</button>
+          <button type="button" data-v="resolvidas" id="sit-resolvidas">Resolvidas</button>
+        </span>
+        <div class="busca">
+          <input id="q" type="search" placeholder="Buscar no texto, rótulo ou seção (ex.: cluster, A9, Top-NECr)" aria-label="Buscar">
+          <select id="ordem" aria-label="Ordenar">
+            <option value="prio">Prioridade primeiro</option>
+            <option value="texto">Ordem no texto</option>
+          </select>
+        </div>
+      </div>
+      <div class="grupo"><span class="contagem num" id="contagem"></span><button class="limpar" type="button" id="limpar">Limpar filtros</button></div>
+    </div>
+    <div class="lista" id="lista"></div>
+  </section>
+
+  <section class="bloco" id="tarefas">
+    <div class="cab-bloco">
+      <h2>Tarefas das notas de revisão</h2>
+      <p>Checklists de <code>notes/revisao-pendente/</code>. Várias repetem, em forma de tarefa, o que os comentários pedem; os rótulos levam ao comentário correspondente.</p>
+    </div>
+    <div class="notas-grade" id="notas"></div>
+  </section>
+
+  <section class="bloco" id="consistencia">
+    <div class="cab-bloco">
+      <h2>Consistência do sistema de comentários</h2>
+      <p>Checagens automáticas feitas ao gerar o painel.</p>
+    </div>
+    <div class="consist" id="consist"></div>
+  </section>
+
+  <footer class="rodape">
+    <span>Gerado por <code>thesis-review/tools/painel_revisao.py</code>. Para atualizar: <code>python thesis-review/tools/painel_revisao.py</code>.</span>
+    <span id="rodape-data"></span>
+  </footer>
+</main>
+
+<script>
+const DADOS = __DADOS__;
+const CHAVE = "pendencias-tese:v1";
+const CAPS = { "2": "Cap. 2", "3": "Cap. 3", "4": "Cap. 4", "A": "Apêndice A" };
+const PRIO = { alta: "Alta", media: "Média", baixa: "Baixa" };
+const PESO = { alta: 0, media: 1, baixa: 2 };
+const ORDEM_TIPOS = ["argumento", "estrutura", "correcao", "metodo", "roteiro", "verificado", "rascunho", "sem"];
+
+function lerEstado() {
+  try { const e = JSON.parse(localStorage.getItem(CHAVE) || "{}"); return { feitos: e.feitos || {}, tarefas: e.tarefas || {}, filtros: e.filtros || null }; }
+  catch (err) { return { feitos: {}, tarefas: {}, filtros: null }; }
+}
+const estado = lerEstado();
+function salvar() { try { localStorage.setItem(CHAVE, JSON.stringify(estado)); } catch (err) { /* armazenamento indisponível */ } }
+
+const itens = DADOS.itens;
+const porRotulo = {};
+itens.forEach(i => { (porRotulo[i.rotulo] = porRotulo[i.rotulo] || []).push(i); });
+const tiposPresentes = ORDEM_TIPOS.filter(t => itens.some(i => i.tipo === t));
+const aberto = i => !!i.prioridade;
+const feito = i => !!estado.feitos[i.id];
+
+const f = Object.assign({ cap: [], tipo: [], prio: [], sit: "abertas", q: "", ordem: "prio" }, estado.filtros || {});
+const expandidos = new Set();
+
+function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+function acharItem(rot, capPreferido) {
+  const l = porRotulo[rot]; if (!l) return null;
+  return l.find(i => i.cap === capPreferido) || l[0];
+}
+function refBtn(rot, capPreferido) {
+  const alvo = acharItem(rot, capPreferido);
+  return alvo ? `<button type="button" class="ref" data-alvo="${esc(alvo.id)}">[${esc(rot)}]</button>`
+              : `<span class="ref falta" title="Rótulo sem comentário correspondente nos .qmd">[${esc(rot)}]</span>`;
+}
+function fmt(texto, cap) {
+  let s = esc(texto);
+  s = s.replace(/`([^`\n]+)`/g, "<code>$1</code>");
+  s = s.replace(/“([^”\n]{2,420})”/g, "<q>$1</q>");
+  s = s.replace(/"([^"\n]{2,420})"/g, "<q>$1</q>");
+  s = s.replace(/(^|[\s(])\*([^*\n]{1,60})\*(?=[\s).,;:]|$)/g, "$1<em>$2</em>");
+  s = s.replace(/\[((?:A\d+)|(?:\d\.\d(?:-\d+)?)|(?:\d\.D))\]/g, (m, r) => refBtn(r, cap));
+  s = s.replace(/\n{2,}/g, "<br><br>").replace(/\n/g, "<br>");
+  return s;
+}
+
+/* ── Topo e indicadores ─────────────────────────────── */
+function contarAbertas() {
+  const acoes = itens.filter(aberto);
+  const resolvidas = acoes.filter(feito).length;
+  return { total: acoes.length, resolvidas, abertas: acoes.length - resolvidas };
+}
+function renderTopo() {
+  const c = contarAbertas();
+  const pct = c.total ? Math.round(100 * c.resolvidas / c.total) : 0;
+  document.querySelector("#barra span").style.width = pct + "%";
+  document.getElementById("barra").setAttribute("aria-valuenow", pct);
+  document.getElementById("progresso-txt").textContent = `${c.resolvidas} de ${c.total} ações marcadas como resolvidas (${pct}%)`;
+  document.getElementById("sub").textContent =
+    `${itens.length} comentários de revisão em quatro arquivos (Caps. 2, 3 e 4 e Apêndice A), mais as checklists das notas e os issues do run-002. Gerado em ${DADOS.geradoEm}.`;
+  document.getElementById("rodape-data").textContent = `Dados de ${DADOS.geradoEm}. Marcações de “resolvido” ficam só neste navegador.`;
+}
+function renderKpis() {
+  const c = contarAbertas();
+  const conf = itens.filter(i => i.tipo === "verificado").length;
+  const rasc = itens.filter(i => i.tipo === "rascunho");
+  const altas = itens.filter(i => i.prioridade === "alta" && !feito(i));
+  const altasTipo = {};
+  altas.forEach(i => altasTipo[i.tipo] = (altasTipo[i.tipo] || 0) + 1);
+  const altasTxt = Object.entries(altasTipo).sort((a, b) => b[1] - a[1]).map(([t, n]) => `${n} ${DADOS.tipos[t].toLowerCase()}`).join(" · ");
+  const iss = DADOS.issues.filter(i => i.status === "open");
+  const sev = s => iss.filter(i => i.severidade === s).length;
+  const tarefas = DADOS.tarefas.length, tarefasFeitas = DADOS.tarefas.filter(t => estado.tarefas[t.id] ?? t.feita).length;
+  const k = [
+    { v: itens.length, l: "Comentários nos capítulos", d: `${c.total} pedem ação · ${conf} só conferem · ${rasc.length} rascunhos` },
+    { v: c.abertas, l: "Ações abertas", d: `${c.resolvidas} marcadas como resolvidas` },
+    { v: altas.length, l: "Prioridade alta", d: altasTxt || "nenhuma aberta", destaque: true },
+    { v: iss.length, l: "Issues abertos no run-002", d: `${sev("MAJOR")} MAJOR · ${sev("MODERATE")} MODERATE · ${sev("MINOR")} MINOR` },
+    { v: tarefas - tarefasFeitas, l: "Tarefas nas notas", d: `de ${tarefas} itens de checklist` },
+    { v: DADOS.orfaos.length + DADOS.problemas.length, l: "Alertas de consistência", d: `${DADOS.orfaos.length} rótulos citados sem comentário` },
+  ];
+  document.getElementById("kpis").innerHTML = k.map(x =>
+    `<div class="kpi${x.destaque ? " destaque" : ""}"><span class="v">${x.v}</span><span class="l">${x.l}</span><span class="d">${esc(x.d)}</span></div>`).join("");
+}
+function renderMatriz() {
+  const caps = Object.keys(CAPS).filter(c => itens.some(i => i.cap === c));
+  const max = Math.max(1, ...caps.flatMap(c => tiposPresentes.map(t => itens.filter(i => i.cap === c && i.tipo === t).length)));
+  let h = "<thead><tr><th></th>" + tiposPresentes.map(t => `<th scope="col">${DADOS.tipos[t]}</th>`).join("") + "<th scope=\"col\">Total</th></tr></thead><tbody>";
+  caps.forEach(c => {
+    h += `<tr><th scope="row">${CAPS[c]}</th>`;
+    tiposPresentes.forEach(t => {
+      const n = itens.filter(i => i.cap === c && i.tipo === t).length;
+      const mix = n ? Math.round(10 + 50 * n / max) : 0;
+      const bg = n ? `style="background:color-mix(in srgb, var(--acento) ${mix}%, var(--papel-2))${mix > 38 ? ";color:var(--papel)" : ""}"` : "";
+      h += `<td><button type="button" class="${n ? "tem" : ""}" data-cap="${c}" data-tipo="${t}" ${bg} aria-label="${CAPS[c]}, ${DADOS.tipos[t]}: ${n}">${n}</button></td>`;
+    });
+    h += `<td class="num"><strong>${itens.filter(i => i.cap === c).length}</strong></td></tr>`;
+  });
+  h += "</tbody><tfoot><tr><th scope=\"row\">Total</th>" + tiposPresentes.map(t => `<td class="num">${itens.filter(i => i.tipo === t).length}</td>`).join("") + `<td class="num">${itens.length}</td></tr></tfoot>`;
+  const m = document.getElementById("matriz");
+  m.innerHTML = h;
+  m.querySelectorAll("button[data-cap]").forEach(b => b.addEventListener("click", () => {
+    Object.assign(f, { cap: [b.dataset.cap], tipo: [b.dataset.tipo], prio: [], sit: "todas", q: "" });
+    aplicarFiltros(); document.getElementById("comentarios").scrollIntoView({ behavior: "smooth" });
+  }));
+}
+function renderBarras() {
+  const caps = Object.keys(CAPS).filter(c => itens.some(i => i.cap === c));
+  const cont = caps.map(c => {
+    const l = itens.filter(i => i.cap === c && aberto(i) && !feito(i));
+    return { c, a: l.filter(i => i.prioridade === "alta").length, m: l.filter(i => i.prioridade === "media").length, b: l.filter(i => i.prioridade === "baixa").length };
+  });
+  const max = Math.max(1, ...cont.map(x => x.a + x.m + x.b));
+  document.getElementById("barras").innerHTML = cont.map(x => {
+    const t = x.a + x.m + x.b;
+    return `<div class="linha-barra"><span>${CAPS[x.c]}</span>
+      <div class="pilha" style="width:${Math.max(4, 100 * t / max)}%" title="Alta ${x.a} · Média ${x.m} · Baixa ${x.b}">
+        <span class="a" style="flex:${x.a}"></span><span class="m" style="flex:${x.m}"></span><span class="b" style="flex:${x.b}"></span></div>
+      <span class="num" style="text-align:right">${t}</span></div>`;
+  }).join("");
+}
+function celulaEstado(v) {
+  const [st, txt, ref] = v;
+  return `<div class="estado"><span class="pt ${st}" aria-hidden="true"></span><span>${esc(txt)}${ref ? " " + refBtn(ref) : ""}</span></div>`;
+}
+function renderFrentes() {
+  let h = "<thead><tr><th>Frente</th><th>Anunciada</th><th>Justificada no Cap. 2</th><th>Testada</th><th>Conexão explícita</th></tr></thead><tbody>";
+  DADOS.frentes.forEach(x => {
+    h += `<tr><td><span class="frente">${x.frente}</span><br><span style="font-size:12.5px;color:var(--tinta-2)">${esc(x.nome)}</span></td>
+      <td>${celulaEstado(x.anunciada)}</td><td>${celulaEstado(x.justificada)}</td><td>${celulaEstado(x.testada)}</td><td>${celulaEstado(x.conectada)}</td></tr>`;
+  });
+  document.getElementById("frentes").innerHTML = h + "</tbody>";
+}
+function renderIssues() {
+  let h = "<thead><tr><th>Issue</th><th>Severidade</th><th>O que é</th><th>Comentários</th></tr></thead><tbody>";
+  DADOS.issues.forEach(x => {
+    const onde = itens.filter(i => i.issues.includes(x.id)).map(i => refBtn(i.rotulo, i.cap)).join(" ");
+    h += `<tr><td class="mono">${esc(x.id)}</td><td><span class="sev ${esc(x.severidade)}">${esc(x.severidade)}</span></td>
+      <td><strong style="font-weight:500">${esc(x.titulo)}</strong><br><span style="color:var(--tinta-2);font-size:13px">${esc(x.recomendacao || "")}</span></td>
+      <td><div class="refs">${onde || "—"}</div></td></tr>`;
+  });
+  document.getElementById("issues").innerHTML = h + "</tbody>";
+}
+
+/* ── Filtros e lista ────────────────────────────────── */
+function chip(grupo, valor, texto, n) {
+  const on = f[grupo].includes(valor);
+  return `<button type="button" class="chip-f" id="f-${grupo}-${valor}" data-g="${grupo}" data-v="${valor}" aria-pressed="${on}">${texto}<span class="c num">${n}</span></button>`;
+}
+function renderChips() {
+  document.getElementById("f-cap").innerHTML = Object.keys(CAPS).filter(c => itens.some(i => i.cap === c)).map(c => chip("cap", c, CAPS[c], itens.filter(i => i.cap === c).length)).join("");
+  document.getElementById("f-tipo").innerHTML = tiposPresentes.map(t => chip("tipo", t, DADOS.tipos[t], itens.filter(i => i.tipo === t).length)).join("");
+  document.getElementById("f-prio").innerHTML = ["alta", "media", "baixa", "nenhuma"].map(p =>
+    chip("prio", p, PRIO[p] || "Sem ação", itens.filter(i => (i.prioridade || "nenhuma") === p).length)).join("");
+  document.querySelectorAll(".chip-f").forEach(b => b.addEventListener("click", () => {
+    const g = b.dataset.g, v = b.dataset.v, arr = f[g];
+    const k = arr.indexOf(v); if (k >= 0) arr.splice(k, 1); else arr.push(v);
+    aplicarFiltros();
+  }));
+  document.querySelectorAll("#f-sit button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === f.sit)));
+  document.getElementById("q").value = f.q;
+  document.getElementById("ordem").value = f.ordem;
+}
+function passa(i) {
+  if (f.cap.length && !f.cap.includes(i.cap)) return false;
+  if (f.tipo.length && !f.tipo.includes(i.tipo)) return false;
+  if (f.prio.length && !f.prio.includes(i.prioridade || "nenhuma")) return false;
+  if (f.sit === "abertas" && (!aberto(i) || feito(i))) return false;
+  if (f.sit === "resolvidas" && !feito(i)) return false;
+  if (f.q) {
+    const alvo = (i.rotulo + " " + i.resumo + " " + i.texto + " " + i.secao + " " + i.issues.join(" ")).toLowerCase();
+    if (!f.q.toLowerCase().split(/\s+/).filter(Boolean).every(p => alvo.includes(p))) return false;
+  }
+  return true;
+}
+const ORD_CAP = { "2": 0, "3": 1, "4": 2, "A": 3 };
+function ordenar(l) {
+  return l.sort((a, b) => {
+    if (f.ordem === "prio") {
+      const pa = a.prioridade ? PESO[a.prioridade] : 3, pb = b.prioridade ? PESO[b.prioridade] : 3;
+      if (pa !== pb) return pa - pb;
+    }
+    return ORD_CAP[a.cap] - ORD_CAP[b.cap] || a.linha - b.linha;
+  });
+}
+function cartao(i) {
+  const cls = ["card", i.prioridade ? "p-" + i.prioridade : "", "t-" + i.tipo, feito(i) ? "feito" : ""].join(" ");
+  const aberto_ = expandidos.has(i.id);
+  const issues = i.issues.map(x => {
+    const sev = (DADOS.issues.find(y => y.id === x) || {}).severidade || "";
+    return `<span class="chip issue ${esc(sev)}" title="${esc(sev)}">${esc(x)}</span>`;
+  }).join("");
+  const prio = i.prioridade ? `<span class="chip prio-${i.prioridade}">${PRIO[i.prioridade]}</span>` : "";
+  const extra = i.tipo === "rascunho" ? `<span class="chip">${i.palavras} palavras · ${i.rascunho.length} parágrafos</span>` : "";
+  const marcar = aberto(i) ? `<label class="marcar"><input type="checkbox" id="feito-${esc(i.id)}" data-id="${esc(i.id)}" ${feito(i) ? "checked" : ""}> Resolvido</label>` : "";
+  let det = "";
+  if (aberto_) {
+    const refs = i.refs.length ? `<div class="refs">Remete a: ${i.refs.map(r => refBtn(r, i.cap)).join(" ")}</div>` : "";
+    const atual = i.atualizacao ? `<div class="atualizacao"><strong>Atualização:</strong> ${fmt(i.atualizacao, i.cap)}</div>` : "";
+    const citadoPor = itens.filter(o => o.id !== i.id && o.refs.includes(i.rotulo));
+    const cit = citadoPor.length ? `<div class="refs">Citado por: ${citadoPor.map(o => refBtn(o.rotulo, o.cap)).join(" ")}</div>` : "";
+    if (i.tipo === "rascunho") {
+      det = `<div class="detalhe"><div class="aviso-ia">${fmt(i.cabecalho, i.cap)}</div>
+        <div class="rascunho">${i.rascunho.map(p => `<p>${fmt(p, i.cap)}</p>`).join("")}</div>
+        <h3>Notas do rascunho</h3><ul class="notas-r">${i.notas.map(n => `<li>${fmt(n, i.cap)}</li>`).join("")}</ul>${refs}${cit}</div>`;
+    } else {
+      det = `<div class="detalhe">${atual}<div class="corpo">${fmt(i.texto, i.cap)}</div>${refs}${cit}</div>`;
+    }
+  }
+  return `<article class="${cls}" id="c-${esc(i.id)}">
+    <div class="card-topo">
+      <button type="button" class="abrir" data-id="${esc(i.id)}" aria-expanded="${aberto_}">
+        <span class="meta"><span class="rot">[${esc(i.rotulo)}]</span><span class="chip">${DADOS.tipos[i.tipo]}</span>${prio}${issues}${extra}${i.atualizacao ? '<span class="chip prio-baixa">atualizado</span>' : ""}</span>
+        <span class="resumo">${fmt(i.resumo, i.cap)}</span>
+        <span class="onde">${CAPS[i.cap]} · ${esc(i.secao)} · <span class="mono">${esc(i.arquivo)}:${i.linha}</span> <span class="seta">${aberto_ ? "▲ fechar" : "▼ ler comentário"}</span></span>
+      </button>
+      ${marcar}
+    </div>${det}</article>`;
+}
+function renderLista() {
+  const l = ordenar(itens.filter(passa));
+  document.getElementById("contagem").textContent = `${l.length} de ${itens.length} comentários`;
+  const el = document.getElementById("lista");
+  el.innerHTML = l.length ? l.map(cartao).join("") : `<div class="vazio">Nenhum comentário com esses filtros. <button class="limpar" type="button" data-limpar>Limpar filtros</button></div>`;
+}
+function aplicarFiltros() {
+  estado.filtros = { cap: f.cap, tipo: f.tipo, prio: f.prio, sit: f.sit, ordem: f.ordem }; salvar();
+  renderChips(); renderLista();
+}
+function irPara(id) {
+  const alvo = itens.find(i => i.id === id); if (!alvo) return;
+  if (!itens.filter(passa).includes(alvo)) { Object.assign(f, { cap: [], tipo: [], prio: [], sit: "todas", q: "" }); aplicarFiltros(); }
+  expandidos.add(id); renderLista();
+  const el = document.getElementById("c-" + id);
+  if (el) { el.scrollIntoView({ behavior: "smooth", block: "start" }); el.classList.remove("pisca"); void el.offsetWidth; el.classList.add("pisca"); }
+}
+function atualizarTudo() { renderTopo(); renderKpis(); renderBarras(); renderLista(); renderNotas(); }
+
+document.addEventListener("click", e => {
+  const r = e.target.closest(".ref[data-alvo]");
+  if (r) { e.preventDefault(); e.stopPropagation(); irPara(r.dataset.alvo); return; }
+  const a = e.target.closest(".abrir");
+  if (a) { const id = a.dataset.id; expandidos.has(id) ? expandidos.delete(id) : expandidos.add(id); renderLista(); const el = document.getElementById("c-" + id); if (el) el.querySelector(".abrir").focus(); return; }
+  if (e.target.closest("[data-limpar]") || e.target.id === "limpar") { Object.assign(f, { cap: [], tipo: [], prio: [], sit: "todas", q: "" }); aplicarFiltros(); }
+});
+document.addEventListener("change", e => {
+  const c = e.target.closest(".marcar input");
+  if (c) { if (c.checked) estado.feitos[c.dataset.id] = true; else delete estado.feitos[c.dataset.id]; salvar(); atualizarTudo(); return; }
+  const t = e.target.closest(".tarefa input");
+  if (t) { estado.tarefas[t.dataset.id] = t.checked; salvar(); renderKpis(); renderNotas(); }
+});
+document.querySelectorAll("#f-sit button").forEach(b => b.addEventListener("click", () => { f.sit = b.dataset.v; aplicarFiltros(); }));
+document.getElementById("q").addEventListener("input", e => { f.q = e.target.value; renderLista(); });
+document.getElementById("ordem").addEventListener("change", e => { f.ordem = e.target.value; aplicarFiltros(); });
+
+/* ── Tarefas das notas ─────────────────────────────── */
+const NOMES_NOTAS = {
+  "00-coerencia-caps-2-3-4.md": "Coerência entre Caps. 2, 3 e 4",
+  "02-literatura-secoes-iniciais.md": "Cap. 2 · Seções iniciais",
+  "02-literatura-revisao-de-estilo-e-autoria.md": "Cap. 2 · Estilo e autoria",
+  "02-literatura-financiamento-e-argumento.md": "Cap. 2 · Financiamento e Argumento",
+  "03-medindo-coordenacao.md": "Cap. 3 · Revisão",
+  "04-mecanismo-temporal.md": "Cap. 4 · Revisão",
+};
+function renderNotas() {
+  const grupos = {};
+  DADOS.tarefas.forEach(t => (grupos[t.arquivo] = grupos[t.arquivo] || []).push(t));
+  const capDe = arq => (arq.match(/^0([234])/) || [])[1];
+  document.getElementById("notas").innerHTML = Object.entries(grupos).map(([arq, l]) => {
+    const feitas = l.filter(t => estado.tarefas[t.id] ?? t.feita).length;
+    return `<div class="painel"><div><span class="rotulo-sup">${esc(arq)}</span><h3>${esc(NOMES_NOTAS[arq] || arq)}</h3>
+      <span class="nota num">${feitas} de ${l.length} marcadas</span></div><div>` +
+      l.map(t => {
+        const ok = estado.tarefas[t.id] ?? t.feita;
+        const refs = t.refs.length ? `<div class="refs">${t.refs.map(r => refBtn(r, capDe(arq))).join(" ")}</div>` : "";
+        const txt = esc(t.texto).replace(/`([^`]+)`/g, "<code>$1</code>").replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>").replace(/\*([^*]+)\*/g, "<em>$1</em>");
+        return `<label class="tarefa${ok ? " feita" : ""}"><input type="checkbox" id="t-${esc(t.id)}" data-id="${esc(t.id)}" ${ok ? "checked" : ""}><span><span class="t">${txt}</span>${refs}</span></label>`;
+      }).join("") + "</div></div>";
+  }).join("");
+}
+
+/* ── Consistência ──────────────────────────────────── */
+function renderConsist() {
+  const orf = DADOS.orfaos.length ? `<ul>${DADOS.orfaos.map(o => `<li><span class="mono">[${esc(o.rotulo)}]</span> citado em ${o.notas.map(esc).join(", ")}, mas não existe comentário com esse rótulo nos <code>.qmd</code>.</li>`).join("")}</ul>` : "<p>Nenhum.</p>";
+  const prob = DADOS.problemas.length ? `<ul>${DADOS.problemas.map(p => `<li>${esc(p)}</li>`).join("")}</ul>` : "<p>Nenhum comentário dentro de chunk de código; aberturas e fechamentos equilibrados em todos os arquivos.</p>";
+  const sem = DADOS.semClassificacao.length ? `<ul>${DADOS.semClassificacao.map(s => `<li>${refBtn(s)} — acrescentar ao dicionário <code>CLASSIFICACAO</code>.</li>`).join("")}</ul>` : "<p>Todos os comentários estão classificados.</p>";
+  const atual = itens.filter(i => i.atualizacao);
+  const at = atual.length ? `<ul>${atual.map(i => `<li>${refBtn(i.rotulo, i.cap)} ${fmt(i.atualizacao, i.cap)}</li>`).join("")}</ul>` : "<p>Nenhuma.</p>";
+  document.getElementById("consist").innerHTML =
+    `<div class="painel"><h3>Rótulos órfãos</h3>${orf}<p class="nota">A nota promete um comentário que não foi inserido — ou ele foi apagado sem atualizar a nota.</p></div>
+     <div class="painel"><h3>Integridade dos comentários</h3>${prob}</div>
+     <div class="painel"><h3>Checagens posteriores ao comentário</h3>${at}</div>
+     <div class="painel"><h3>Sem classificação</h3>${sem}</div>`;
+}
+
+renderTopo(); renderKpis(); renderMatriz(); renderBarras(); renderFrentes(); renderIssues(); renderChips(); renderLista(); renderNotas(); renderConsist();
+</script>

@@ -1,0 +1,21 @@
+{
+  "referencias": [
+    "fig-amplitude",
+    "fig-cap3-03-top-necr",
+    "fig-cap3-03-top-necr-eleicao",
+    "fig-cap3-04-topx-competitividade",
+    "fig-cap3-05-topx-eleicao",
+    "fig-concentracao",
+    "fig-reg-frac",
+    "sec-apendice-formal",
+    "sec-competitivos",
+    "sec-dados",
+    "sec-discussao-cap3",
+    "sec-metricas",
+    "tbl-cap3-01-lift-magnitude",
+    "tbl-cap3-02-lift-magnitude-eleicao",
+    "tbl-cap3-03-premio-magnitude",
+    "tbl-resumo-indicadores"
+  ],
+  "nao_definidas": []
+}

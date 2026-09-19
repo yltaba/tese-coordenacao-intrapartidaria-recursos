@@ -1,0 +1,29 @@
+run: run-003
+capitulo: 2
+arquivo: tese/02-literatura.qmd
+iniciado_em: 2026-09-19T00:03:22-03:00
+agentes:
+  - theory
+  - literature
+  - methodology
+  - writing
+  - thesis-chair
+  - adversarial
+insumos:
+  - {arquivo: tese/02-literatura.qmd, sha256: f4ba3b00d8e7ca8a23d81b4fa03806f28970cd2fe07409b4caf739349fd4d202}
+  - {arquivo: tese/references.bib, sha256: 6e5cbcfd119a1f280a0832d7145631a16e09dec9a2c1e785b7bef93341656f9d}
+concluido_em: '2026-09-19T00:35:24-03:00'
+contagens: {CRITICAL: 0, MAJOR: 3, MODERATE: 19, MINOR: 6}
+gate: 'WARN — Theory WARN; Literature WARN; Writing PASS; Internal validity WARN; Measurement/Statistics/Results n/a'
+achados: {theory: 10, literature: 17, methodology: 11, writing: 22, adversarial: 2, chair: 3, descartados: 0}
+issues: 28
+observacoes_de_processo:
+  - "tese/01-introducao.qmd (mtime 00:18:48) e tese/05-consideracoes-finais.qmd (00:18:52) foram alterados durante o run, depois dos especialistas e do issues_draft; não estão entre os insumos. Autoria perguntada ao autor (I-2-024); nenhuma severidade depende deles."
+  - "writing-reviewer leu issues_draft.yaml antes de revisar (por instrução); desvio de PROTOCOL §1.6 com efeito limitado a não polir passagens condenadas."
+  - "O chair usou, no pass 2, textos-fonte já presentes no repositório: revisoes/fontes-discussao-capitulo3/{janusz,bolognesi,fiva,cheibub}.txt."
+fontes_consultadas_pelo_chair:
+  - revisoes/fontes-discussao-capitulo3/janusz.txt
+  - revisoes/fontes-discussao-capitulo3/bolognesi.txt
+  - revisoes/fontes-discussao-capitulo3/fiva.txt
+  - revisoes/fontes-discussao-capitulo3/cheibub.txt
+  - revisoes/fontes-discussao-capitulo3/mapa-evidencias.md

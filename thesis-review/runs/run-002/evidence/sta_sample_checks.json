@@ -1,0 +1,26 @@
+[
+  {
+    "year": 2018,
+    "max_sum_error": 0.18351055695454033,
+    "sample": {
+      "ano_eleicao": 2018,
+      "candidaturas_listas_financiadas": 7391,
+      "listas_financiadas": 786,
+      "candidaturas_modelo": 7254,
+      "listas_modelo": 649,
+      "listas_com_variacao_competitivo": 373
+    }
+  },
+  {
+    "year": 2022,
+    "max_sum_error": 0.904662943688981,
+    "sample": {
+      "ano_eleicao": 2022,
+      "candidaturas_listas_financiadas": 9288,
+      "listas_financiadas": 648,
+      "candidaturas_modelo": 9263,
+      "listas_modelo": 623,
+      "listas_com_variacao_competitivo": 371
+    }
+  }
+]

@@ -1,0 +1,84 @@
+- issue_id: I-3-001
+  titulo: "Escolha do estimando e massa não unitária na regressão intralista"
+  capitulo: 3
+  findings: [STA-3-001]
+  claims: [C3.8.01]
+  severidade_inicial: MAJOR
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MAJOR
+  confianca: alta
+  razao: ""
+  recomendacao: ""
+  status: open
+- issue_id: I-3-002
+  titulo: "Inferência racial em 2022 depende do nível de cluster"
+  capitulo: 3
+  findings: [STA-3-002]
+  claims: [C3.8.08]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: ""
+  recomendacao: ""
+  status: open
+- issue_id: I-3-003
+  titulo: "Declarar agregação nacional e contraste dos AMEs"
+  capitulo: 3
+  findings: [STA-3-003, STA-3-004]
+  claims: [C3.4.01, C3.8.05]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: ""
+  recomendacao: ""
+  status: open
+- issue_id: I-3-004
+  titulo: "Origem partidária e fundos específicos"
+  capitulo: 3
+  findings: [MEA-3-001]
+  claims: []
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: ""
+  recomendacao: ""
+  status: open
+- issue_id: I-3-005
+  titulo: "Cargos definidos versus estimados"
+  capitulo: 3
+  findings: [MEA-3-002]
+  claims: []
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: ""
+  recomendacao: ""
+  status: open
+- issue_id: I-3-006
+  titulo: "Alcance associativo do mecanismo"
+  capitulo: 3
+  findings: [THE-3-001]
+  claims: []
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: ""
+  recomendacao: ""
+  status: open
+- issue_id: I-3-007
+  titulo: "Legendas e chaves visuais"
+  capitulo: 3
+  findings: [WRI-3-001, WRI-3-002]
+  claims: []
+  severidade_inicial: MINOR
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MINOR
+  confianca: alta
+  razao: ""
+  recomendacao: ""
+  status: open

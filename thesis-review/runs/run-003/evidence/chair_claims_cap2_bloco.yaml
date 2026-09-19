@@ -1,0 +1,723 @@
+
+
+  # ================================================================ Cap. 2 (run-003, sha f4ba3b00)
+  # Seções: 1 Primeira/segunda gerações · 2 Cânone · 3 Segunda geração · 4 Partidos heterogêneos · 5 Competição e gastos ·
+  # 6 Financiamento · 7 Argumento. Correspondência de IDs: runs/run-003/synthesis/conflicts.md §2 e evidence/chair_mesclar_claims.py.
+  - claim_id: C2.1.01
+    capitulo: 2
+    secao: '## Primeira e segunda gerações de estudos sobre os efeitos do voto preferencial'
+    claim: Mershon (2020) organiza a literatura em primeira e segunda gerações, sem fronteira rígida entre elas.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 41}
+    evidencia: {tipo: citacao, referencia: '@mershon2020'}
+    assessment: {status: unverifiable, confidence: baixa}
+    concerns: ['O vocabulário de ''gerações'' pode ser síntese do autor, não de Mershon.']
+    agent: literature-reviewer
+    ids_origem: {literature: C2.1.01}
+    issues: [I-2-017]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.1.50
+    capitulo: 2
+    secao: '## Primeira e segunda gerações de estudos sobre os efeitos do voto preferencial'
+    claim: Neste capítulo, argumenta-se que a segunda geração contesta o argumento canônico ao deslocar o foco para
+      a agência partidária (propósito declarado do capítulo).
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 9}
+    evidencia: {tipo: nenhuma, referencia: 'Estrutura do capítulo, L5-218'}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns: ['As seções 1-3 cumprem o propósito. As seções Financiamento e Argumento vão além dele, e a abertura
+        não as anuncia (WRI-2-001).']
+    agent: writing-reviewer
+    ids_origem: {writing: C2.1.50}
+    issues: [I-2-025]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.2.01
+    capitulo: 2
+    secao: '### O cânone sobre os incentivos para cultivar o voto pessoal'
+    claim: 'Katz (1986): candidatos podem valorizar o próprio sucesso acima do sucesso do partido; Rae supõe partidos
+      coesos.'
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 13}
+    evidencia: {tipo: citacao, referencia: '@katz1986; @rae1971'}
+    assessment: {status: supported, confidence: media}
+    concerns: []
+    agent: literature-reviewer
+    ids_origem: {literature: C2.2.01}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.2.02
+    capitulo: 2
+    secao: '### O cânone sobre os incentivos para cultivar o voto pessoal'
+    claim: Carey & Shugart (1995) ordenam ballot, pool, vote e magnitude em três níveis; o efeito da magnitude se
+      inverte entre lista fechada e aberta.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 17}
+    evidencia: {tipo: citacao, referencia: '@careyshugart1995'}
+    assessment: {status: supported, confidence: alta}
+    concerns: []
+    agent: literature-reviewer
+    ids_origem: {literature: C2.2.02}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.2.03
+    capitulo: 2
+    secao: '### O cânone sobre os incentivos para cultivar o voto pessoal'
+    claim: O pooling brasileiro não se encaixa nos níveis de Carey & Shugart e fica entre o menor e o intermediário.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 33}
+    evidencia: {tipo: citacao, referencia: '@careyshugart1995; @figueiredo_limongi_2002_incentivos'}
+    assessment: {status: contradicted, confidence: media}
+    concerns: ['Pela definição da própria L21, o caso é pool=0 (LIT-2-003).']
+    agent: literature-reviewer
+    ids_origem: {literature: C2.2.03}
+    issues: [I-2-014]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.2.04
+    capitulo: 2
+    secao: '### O cânone sobre os incentivos para cultivar o voto pessoal'
+    claim: Mainwaring (1999) sugere que a competição intrapartidária poderia superar a interpartidária no Brasil.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 39}
+    evidencia: {tipo: citacao, referencia: '@mainwaring1999'}
+    assessment: {status: supported, confidence: media}
+    concerns: []
+    agent: literature-reviewer
+    ids_origem: {literature: C2.2.04}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.3.01
+    capitulo: 2
+    secao: '### A segunda geração e a agência partidária'
+    claim: O que une a segunda geração é o condicionamento contextual dos efeitos das regras (Ferree et al. 2014).
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 45}
+    evidencia: {tipo: citacao, referencia: '@ferree2014'}
+    assessment: {status: partially_supported, confidence: media}
+    concerns: ['Ferree et al. tratam de sistemas partidários, não de voto preferencial (LIT-2-006).']
+    agent: literature-reviewer
+    ids_origem: {literature: C2.3.01}
+    issues: [I-2-017]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.3.02
+    capitulo: 2
+    secao: '### A segunda geração e a agência partidária'
+    claim: Samuels (1999) mostra que partidos brasileiros podem cultivar voto partidário apesar do sistema centrado
+      no candidato.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 49}
+    evidencia: {tipo: citacao, referencia: '@samuels1999'}
+    assessment: {status: supported, confidence: alta}
+    concerns: []
+    agent: literature-reviewer
+    ids_origem: {literature: C2.3.02}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.3.03
+    capitulo: 2
+    secao: '### A segunda geração e a agência partidária'
+    claim: Listas incompletas (Braga & Amaral 2013) indicam controle partidário.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 57}
+    evidencia: {tipo: citacao, referencia: '@braga_amaral_2013_implicacoes'}
+    assessment: {status: unverifiable, confidence: baixa}
+    concerns: ['Inferência alternativa: escassez de candidatos (LIT-2-014).']
+    agent: literature-reviewer
+    ids_origem: {literature: C2.3.03}
+    issues: [I-2-021]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.3.04
+    capitulo: 2
+    secao: '### A segunda geração e a agência partidária'
+    claim: Desposato (2006) encontra coesão partidária igual na Câmara e no Senado.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 51}
+    evidencia: {tipo: citacao, referencia: '@desposato_2006_impact'}
+    assessment: {status: unverifiable, confidence: baixa}
+    concerns: [Possível inversão do achado (LIT-2-005).]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.3.04}
+    issues: [I-2-016]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.3.05
+    capitulo: 2
+    secao: '### A segunda geração e a agência partidária'
+    claim: Deputados brasileiros votam segundo a orientação das lideranças (Figueiredo & Limongi 1999).
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 51}
+    evidencia: {tipo: citacao, referencia: '@figueiredolimongi1999'}
+    assessment: {status: supported, confidence: alta}
+    concerns: [Falta o contraponto de Pereira & Mueller 2003 sobre a arena eleitoral (LIT-2-010).]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.3.05}
+    issues: [I-2-019]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.3.06
+    capitulo: 2
+    secao: '### A segunda geração e a agência partidária'
+    claim: Partidos reduzem a sobreposição regional entre copartidários viáveis.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 63}
+    evidencia: {tipo: citacao, referencia: '@avelinobidermansilva2011; @silotto2019; @cheibub_junqueira_moreira_2024'}
+    assessment: {status: partially_supported, confidence: media}
+    concerns: [avelinobidermansilva2011 é um artigo de medidas (LIT-2-013).]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.3.06}
+    issues: [I-2-021]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.3.07
+    capitulo: 2
+    secao: '### A segunda geração e a agência partidária'
+    claim: Evidências de listas flexíveis corroboram que o gatekeeping não termina na convenção.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 67}
+    evidencia: {tipo: citacao, referencia: '@andreetal2015; @crispetal2013'}
+    assessment: {status: unsupported, confidence: alta}
+    concerns: [A recompensa ocorre na formação da lista seguinte (LIT-2-004).]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.3.07}
+    issues: [I-2-015]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.3.08
+    capitulo: 2
+    secao: '### A segunda geração e a agência partidária'
+    claim: Partidos brasileiros manipulam número de urna, TV e dinheiro (resource gatekeeping), produzindo desigualdade
+      entre candidaturas.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 65}
+    evidencia: {tipo: citacao, referencia: '@janusz_barreiro_cintron_2021'}
+    assessment: {status: supported, confidence: alta}
+    nota_status: 'Chair (pass 2): o resumo de Janusz et al. lista número de urna, apoio financeiro e tempo de TV e
+      chama isso de ''resource gatekeeping'' (janusz.txt L10-15). O rótulo e os instrumentos da L65 conferem.'
+    concerns: [A lista de instrumentos não foi verificada (LIT-2-016).]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.3.08}
+    issues: [I-2-005]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.4.01
+    capitulo: 2
+    secao: '## Partidos como organizações heterogêneas'
+    claim: Partidos resolvem problemas de ação coletiva de candidatos (Aldrich 2011).
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 75}
+    evidencia: {tipo: citacao, referencia: '@aldrich2011'}
+    assessment: {status: supported, confidence: alta}
+    concerns: []
+    agent: literature-reviewer
+    ids_origem: {literature: C2.4.01}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.4.02
+    capitulo: 2
+    secao: '## Partidos como organizações heterogêneas'
+    claim: Em Cox & McCubbins (2005), lideranças protegem a reputação partidária pelo controle de recursos escassos.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 77}
+    evidencia: {tipo: citacao, referencia: '@cox_mccubbins_2005_setting'}
+    assessment: {status: partially_supported, confidence: media}
+    concerns: [O recurso escasso é a agenda (LIT-2-015).]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.4.02}
+    issues: [I-2-021]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.4.03
+    capitulo: 2
+    secao: '## Partidos como organizações heterogêneas'
+    claim: 'Fiva et al. (2024): atribuir vantagem a alguns candidatos reduz o esforço agregado (p. 100).'
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 89}
+    evidencia: {tipo: citacao, referencia: '@fivaetal2024'}
+    assessment: {status: partially_supported, confidence: alta}
+    nota_status: 'Chair (pass 2): conteúdo confirmado (resumo: ''the moral hazard concern is real''), mas o localizador
+      ''p. 100'' não existe; o artigo é o nº 105133 e tem 13 páginas de PDF (fiva.txt L2).'
+    concerns: [O dilema bate com o título; o localizador p. 100 é implausível (LIT-2-007).]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.4.03}
+    issues: [I-2-018]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.4.04
+    capitulo: 2
+    secao: '## Partidos como organizações heterogêneas'
+    claim: Fiva et al. teorizam que partidos mais competitivos transitam melhor pelo trade-off.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 93}
+    evidencia: {tipo: citacao, referencia: '@fivaetal2024'}
+    assessment: {status: supported, confidence: alta}
+    nota_status: 'Chair (pass 2): verificado na fonte primária. Fiva et al., resumo (''the trade-off is weaker for
+      more popular parties'') e seção 4 (revisoes/fontes-discussao-capitulo3/fiva.txt L26-37, L930-934). Falta localizador
+      na L93 (I-2-018).'
+    concerns: ['É implicação da literatura adotada, mas não é formulada como expectativa nem testada (THE-2-008).',
+      'Sem localizador; o comentário [2.2-3] propõe derivar dela uma hipótese auxiliar.']
+    agent: theory-reviewer, literature-reviewer
+    ids_origem: {theory: C2.4.03, literature: C2.4.04}
+    issues: [I-2-007, I-2-018]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.4.05
+    capitulo: 2
+    secao: '## Partidos como organizações heterogêneas'
+    claim: Partidos brasileiros centralizam decisões via comissões provisórias (Guarnieri 2011).
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 97}
+    evidencia: {tipo: citacao, referencia: '@guarnieri2011'}
+    assessment: {status: supported, confidence: alta}
+    concerns: []
+    agent: literature-reviewer
+    ids_origem: {literature: C2.4.05}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.4.06
+    capitulo: 2
+    secao: '## Partidos como organizações heterogêneas'
+    claim: Tavits mostra que inactive branches funcionam como ferramentas de mobilização; Tavits e Webb & Keith amparam
+      a RBV.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 97}
+    evidencia: {tipo: citacao, referencia: '@tavits2012; @webbkeith2017'}
+    assessment: {status: unverifiable, confidence: baixa}
+    concerns: [LIT-2-012]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.4.06}
+    issues: [I-2-021]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.4.07
+    capitulo: 2
+    secao: Partidos como organizações heterogêneas
+    claim: A distribuição discricionária de recursos públicos constitui um instrumento de atribuição de vantagem competitiva
+      a parte das candidaturas.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 95}
+    evidencia: {tipo: citacao, referencia: '@silvacodato2024 (desigualdade)'}
+    assessment: {status: partially_supported, confidence: media}
+    concerns: [A desigualdade é sustentada pela citação; a 'vantagem competitiva' (efeito sobre a disputa) não é testada
+        na tese.]
+    agent: theory-reviewer
+    ids_origem: {theory: C2.4.01}
+    issues: [I-2-004, I-2-013]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.4.08
+    capitulo: 2
+    secao: Partidos como organizações heterogêneas
+    claim: No Brasil, o gatekeeping ocorre também depois da definição das nominatas.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 95}
+    evidencia: {tipo: citacao, referencia: '@janusz_barreiro_cintron_2021 (L65)'}
+    assessment: {status: supported, confidence: media}
+    concerns: ['Sustentada pela literatura citada. Por isso mesmo não é contribuição original, e o texto não delimita
+        o que a tese acrescenta (THE-2-005).']
+    agent: theory-reviewer
+    ids_origem: {theory: C2.4.02}
+    issues: [I-2-005]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.4.50
+    capitulo: 2
+    secao: '## Partidos como organizações heterogêneas'
+    claim: Os estudos discutidos na próxima seção tratam dos efeitos da competição intrapartidária sobre os gastos
+      de campanha.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 103}
+    evidencia: {tipo: nenhuma, referencia: 'tese/02-literatura.qmd:105-127'}
+    assessment: {status: supported, confidence: alta}
+    concerns: ['O conteúdo anunciado bate com a seção seguinte, mas a frase não tem referente (WRI-2-003).']
+    agent: writing-reviewer
+    ids_origem: {writing: C2.4.50}
+    issues: [I-2-026]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.5.01
+    capitulo: 2
+    secao: '## Competição intrapartidária e gastos de campanha'
+    claim: 'Cox & Thies (1998): no SNTV japonês, a competição intra e interpartidária eleva o gasto.'
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 117}
+    evidencia: {tipo: citacao, referencia: '@cox_thies_1998_cost'}
+    assessment: {status: supported, confidence: media}
+    concerns: []
+    agent: literature-reviewer
+    ids_origem: {literature: C2.5.01}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.5.02
+    capitulo: 2
+    secao: '## Competição intrapartidária e gastos de campanha'
+    claim: 'Samuels (2001): o número de adversários não afeta o gasto; a qualidade dos colegas de lista afeta.'
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 121}
+    evidencia: {tipo: citacao, referencia: '@samuels_2001_every_penny; @cox1997'}
+    assessment: {status: supported, confidence: media}
+    concerns: []
+    agent: literature-reviewer
+    ids_origem: {literature: C2.5.02}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.5.50
+    capitulo: 2
+    secao: '## Competição intrapartidária e gastos de campanha'
+    claim: A próxima seção discute a literatura sobre financiamento político no Brasil.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 129}
+    evidencia: {tipo: nenhuma, referencia: 'tese/02-literatura.qmd:131-169'}
+    assessment: {status: supported, confidence: alta}
+    concerns: [Frase sem sujeito (WRI-2-005).]
+    agent: writing-reviewer
+    ids_origem: {writing: C2.5.50}
+    issues: [I-2-026]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.6.01
+    capitulo: 2
+    secao: '## Financiamento de campanhas no Brasil'
+    claim: Mancuso (2015) divide a literatura em três vertentes (efeitos no desempenho, benefícios a doadores, determinantes
+      do financiamento).
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 133}
+    evidencia: {tipo: citacao, referencia: '@mancuso_2015_investimento'}
+    assessment: {status: supported, confidence: media}
+    concerns: []
+    agent: literature-reviewer
+    ids_origem: {literature: C2.6.01}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.6.02
+    capitulo: 2
+    secao: '## Financiamento de campanhas no Brasil'
+    claim: 'Thomsen (2023): recursos são mais concentrados que votos; propõe medida de concentração de recursos como
+      medida de competição.'
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 139}
+    evidencia: {tipo: citacao, referencia: '@thomsen2023'}
+    assessment: {status: supported, confidence: media}
+    concerns: []
+    agent: literature-reviewer
+    ids_origem: {literature: C2.6.02}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.6.03
+    capitulo: 2
+    secao: '## Financiamento de campanhas no Brasil'
+    claim: 'Silva & Cervi (2017): em 2014 os partidos são a principal origem das receitas; 89,6% dos repasses vieram
+      de PJ, 7,5% do FP; a desigualdade cresceu.'
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 145}
+    evidencia: {tipo: citacao, referencia: '@silvacervi2017'}
+    assessment: {status: unverifiable, confidence: baixa}
+    concerns: [Números não conferidos; Bolognesi et al. 2020 ausente (LIT-2-001).]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.6.03}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.6.04
+    capitulo: 2
+    secao: '## Financiamento de campanhas no Brasil'
+    claim: Regras do FEFC/FP, cotas e cláusula de desempenho descritas nas L153-165.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 159}
+    evidencia: {tipo: nenhuma, referencia: sem citação}
+    assessment: {status: unsupported, confidence: alta}
+    concerns: ['Sem fonte, embora o .bib tenha fontes (LIT-2-008). A correção substantiva dos números fica fora do
+        escopo deste agente.']
+    agent: literature-reviewer
+    ids_origem: {literature: C2.6.04}
+    issues: [I-2-011]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.6.05
+    capitulo: 2
+    secao: '## Financiamento de campanhas no Brasil'
+    claim: O FEFC deu aos partidos maior centralidade na estruturação da competição (Silva & Codato 2024).
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 157}
+    evidencia: {tipo: citacao, referencia: '@silvacodato2024'}
+    assessment: {status: partially_supported, confidence: media}
+    concerns: [Falta a literatura de partido-cartel (LIT-2-011).]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.6.05}
+    issues: [I-2-019]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.6.06
+    capitulo: 2
+    secao: '## Financiamento de campanhas no Brasil'
+    claim: 'Janusz et al.: distribuição seletiva a incumbentes e ex-ocupantes de cargo; mulheres recebem menos mesmo
+      controlando pela experiência.'
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 151}
+    evidencia: {tipo: citacao, referencia: '@janusz_barreiro_cintron_2021'}
+    assessment: {status: supported, confidence: alta}
+    nota_status: 'Chair (pass 2): conferido em janusz.txt (L18, L528-540). Ressalva: dados de 2014, VD em nível de
+      R$ com EF de partido estadual; a L151 não diz o ano (I-2-023).'
+    concerns: [Período e fonte dos recursos não indicados (LIT-2-016).]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.6.06}
+    issues: [I-2-005, I-2-023]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.6.07
+    capitulo: 2
+    secao: Financiamento de campanhas no Brasil
+    claim: Por a eleição para DF ser crucial à sobrevivência, partidos têm incentivos para distribuir recursos de
+      maneira seletiva e estratégica.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 169}
+    evidencia: {tipo: nenhuma, referencia: argumento teórico; direção da seletividade não derivada}
+    assessment: {status: partially_supported, confidence: media}
+    concerns: [As regras sustentam o incentivo ao desempenho; não sustentam que a seletividade tome a forma de concentração
+        em credenciados (THE-2-002)., 'MET-2-002: incentivo por votos é compatível com dispersão']
+    agent: theory-reviewer, methodology-reviewer
+    ids_origem: {theory: C2.6.01, methodology: C2.6.04}
+    issues: [I-2-002]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.6.08
+    capitulo: 2
+    secao: Financiamento de campanhas no Brasil
+    claim: O confundimento pela intermediação partidária de doações não ocorre em 2018 e 2022.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 147}
+    evidencia: {tipo: csv, referencia: 'evidence/met_cap2_alternativas.out bloco B (OUTROS RECURSOS 1,22%/1,96% da
+        origem partidária)'}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns: ['residual, não nulo; fungibilidade doação→FEFC indetectável (MET-2-009)']
+    agent: methodology-reviewer
+    ids_origem: {methodology: C2.6.01}
+    issues: [I-2-012]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.6.09
+    capitulo: 2
+    secao: Financiamento de campanhas no Brasil
+    claim: Com o fundo público, os partidos passaram a distribuir a maior parte dos recursos de campanha.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 157}
+    evidencia: {tipo: csv, referencia: 'evidence/met_cap2_alternativas.out bloco A (origem partidária 75,27%/87,86%
+        da receita de DF)'}
+    assessment: {status: supported, confidence: alta}
+    concerns: []
+    agent: methodology-reviewer
+    ids_origem: {methodology: C2.6.02}
+    issues: [I-2-012]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.01
+    capitulo: 2
+    secao: Argumento
+    claim: O vínculo desempenho–recursos gera incentivo à distribuição seletiva visando ampliar o quociente partidário.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 174}
+    evidencia: {tipo: nenhuma, referencia: 'tese/02-literatura.qmd:159-165'}
+    assessment: {status: partially_supported, confidence: media}
+    concerns: ['As regras premiam votos; com pooling, isso é compatível com dispersão. O Cap. 4 L25 deriva o incentivo
+        oposto para 2022.', MET-2-002, 'MET-2-006: em 2018 o quociente era da coligação']
+    agent: theory-reviewer, methodology-reviewer
+    ids_origem: {theory: C2.7.01, methodology: C2.7.01}
+    issues: [I-2-002, I-2-009]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.02
+    capitulo: 2
+    secao: Argumento
+    claim: A alocação de recursos partidários constitui um instrumento de coordenação intrapartidária que orienta
+      a competição para objetivos coletivos.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 176}
+    evidencia: {tipo: nenhuma, referencia: Nenhuma frente de L214 testa efeito sobre competição ou desempenho coletivo}
+    assessment: {status: unsupported, confidence: alta}
+    nota_status: 'Status divergente entre agentes (theory: unsupported; methodology: partially_supported); mantido
+      o mais conservador.'
+    concerns: ['Os testes medem priorização, não coordenação (THE-2-004).', 'MET-2-005: o desenho observa priorização,
+        não coordenação', 'Chair (pass 2): passa a partially_supported se o capítulo adotar a definição comportamental
+        de coordenação (Cox 1997; Cheibub & Sin) e trocar ''constitui'' por ''pode operar como'' (I-2-004).']
+    agent: theory-reviewer, methodology-reviewer
+    ids_origem: {theory: C2.7.02, methodology: C2.7.02}
+    issues: [I-2-004, I-2-024]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.03
+    capitulo: 2
+    secao: Argumento
+    claim: 'E1: se a distribuição busca favorecer quem contribui para o desempenho coletivo, espera-se presença desproporcional,
+      em relação ao acaso, de credenciados entre os que concentram mais recursos.'
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 204}
+    evidencia: {tipo: figura, referencia: 'Cap. 3 fig-cap3-03-top-necr (lift 1,89/1,86)'}
+    assessment: {status: partially_supported, confidence: alta}
+    nota_status: 'Status divergente entre agentes (theory: partially_supported; methodology: supported); mantido o
+      mais conservador.'
+    concerns: ['A expectativa é implicada pelo argumento, mas também pelas rivais de L178; não é discriminante (THE-2-001).',
+      'MET-2-007: o contraste com o acaso é inflado por candidaturas sem recurso; direção 2018×2022 depende da referência',
+      'Chair (pass 2): E1 também é prevista por captura, barganha, força do candidato e foco em marginais; a divisão
+        igualitária é rejeitada pelo desenho (NECr/C mediano 0,47/0,52; adv_rivais_cap2.out bloco B).']
+    agent: theory-reviewer, methodology-reviewer
+    ids_origem: {theory: C2.7.03, methodology: C2.7.08}
+    issues: [I-2-001, I-2-008, I-2-024]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.04
+    capitulo: 2
+    secao: Argumento
+    claim: 'Frente (i): identificar um núcleo priorizado a partir da distribuição de recursos e verificar sua composição.'
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 214}
+    evidencia: {tipo: figura, referencia: Cap. 3 Top-NECr (L102-127)}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns: [O conceito e o tamanho do núcleo não são derivados no Cap. 2 (THE-2-006).]
+    agent: theory-reviewer
+    ids_origem: {theory: C2.7.04}
+    issues: [I-2-008]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.05
+    capitulo: 2
+    secao: Argumento
+    claim: 'Frente (ii): associação, desagregada por cargo, entre credenciais e parcela intralista de recursos.'
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 214}
+    evidencia: {tipo: figura, referencia: Cap. 3 fig-reg-frac (L129-186)}
+    assessment: {status: partially_supported, confidence: alta}
+    concerns: [O agregado é derivado de L204; para a desagregação por cargo não há expectativa (quais sinais pesam
+        mais e por quê).]
+    agent: theory-reviewer
+    ids_origem: {theory: C2.7.05}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.06
+    capitulo: 2
+    secao: Argumento
+    claim: 'Frente (iii): identificação de uma priorização temporal ao núcleo priorizado da lista.'
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 214}
+    evidencia: {tipo: figura, referencia: 'Cap. 4 fig-semana-campanha, fig-km-cs (corte por competitivo, não por núcleo)'}
+    assessment: {status: contradicted, confidence: alta}
+    nota_status: 'Status divergente entre agentes (theory: unsupported; methodology: contradicted); mantido o mais
+      conservador.'
+    concerns: [Sem justificativa teórica (THE-2-003); a lógica de Fiva et al. pode prever retenção., MET-2-003, 'Adversarial/chair:
+        a correção núcleo → credencial é de uma palavra; o que fica é a falta de expectativa temporal e a rival da
+        prontidão (I-2-003).']
+    agent: theory-reviewer, methodology-reviewer
+    ids_origem: {theory: C2.7.06, methodology: C2.7.11}
+    issues: [I-2-003]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.07
+    capitulo: 2
+    secao: Argumento
+    claim: Diferentemente de Silva & Cervi e de Cheibub & Sin, que usam o desempenho da própria eleição, a tese classifica
+      as credenciais exclusivamente com resultados anteriores.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 212}
+    evidencia: {tipo: citacao, referencia: Cap. 3 L49-53 (definição ex-ante)}
+    assessment: {status: supported, confidence: media}
+    concerns: ['Não verifiquei as páginas citadas (p. 85, p. 79). É uma diferença de mensuração; a diferença teórica
+        declarada no Cap. 4 L13 é outra (THE-2-005).', Consistente com a caracterização de candidato_forte_cs como
+        ex-post no CLAUDE.md; páginas dentro dos intervalos do .bib., detalhes de horizonte e cargos são escopo do
+        measurement-reviewer]
+    agent: theory-reviewer, literature-reviewer, methodology-reviewer
+    ids_origem: {theory: C2.7.07, literature: C2.7.01, methodology: C2.7.09}
+    issues: [I-2-005]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.08
+    capitulo: 2
+    secao: Argumento
+    claim: O Cap. 3 trata das frentes (i) e (ii), e o Cap. 4 da (iii).
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 218}
+    evidencia: {tipo: citacao, referencia: 'Cap. 3 L3; Cap. 4 L17, L61'}
+    assessment: {status: partially_supported, confidence: alta}
+    nota_status: 'Status divergente entre agentes (theory: partially_supported; methodology: partially_supported;
+      writing: supported); mantido o mais conservador.'
+    concerns: ['O Cap. 4 opera com o corte por credencial, não com o ''núcleo priorizado'' anunciado em (iii).', '(i)
+        e (ii) cumpridas; (iii) testada sobre credencial, não núcleo', 'Os rótulos existem e o Cap. 4 L17 remete de
+        volta à @sec-argumento. A correspondência de conteúdo da frente (iii) é tratada em I-2-003, fora do meu escopo.']
+    agent: theory-reviewer, methodology-reviewer, writing-reviewer
+    ids_origem: {theory: C2.7.08, methodology: C2.7.12, writing: C2.7.50}
+    issues: [I-2-003, I-2-025]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.09
+    capitulo: 2
+    secao: '## Argumento'
+    claim: A seletividade pode refletir captura por incumbentes, barganha ou ameaça de saída.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 178}
+    evidencia: {tipo: nenhuma, referencia: sem citação}
+    assessment: {status: unsupported, confidence: alta}
+    nota_status: 'Status divergente entre agentes (literature: unsupported; methodology: supported); mantido o mais
+      conservador.'
+    concerns: [LIT-2-009, 'MET-2-001: reconhecida, mas não convertida em teste']
+    agent: literature-reviewer, methodology-reviewer
+    ids_origem: {literature: C2.7.02, methodology: C2.7.03}
+    issues: [I-2-001]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.10
+    capitulo: 2
+    secao: '## Argumento'
+    claim: Credenciais prévias são sinais da capacidade de contribuir para o desempenho coletivo, o que leva à priorização.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 204}
+    evidencia: {tipo: nenhuma, referencia: sem citação}
+    assessment: {status: unsupported, confidence: alta}
+    nota_status: 'Status divergente entre agentes (literature: unsupported; methodology: partially_supported); mantido
+      o mais conservador.'
+    concerns: [Faltam as literaturas de alocação e de atributos de candidatos (LIT-2-002)., associação sustentada;
+        motivo não identificado pelo desenho (MET-2-001), 'Chair (pass 2): a justificativa informacional da L204 já
+        está em Janusz et al. (2021, p. 2-3 do PDF; janusz.txt L180-213), com a mesma hipótese testada em 2014. O
+        ''porque'' não é testado pelo desenho (I-2-001) e não é original (I-2-005).']
+    agent: literature-reviewer, methodology-reviewer
+    ids_origem: {literature: C2.7.03, methodology: C2.7.07}
+    issues: [I-2-001, I-2-002, I-2-005, I-2-024]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.11
+    capitulo: 2
+    secao: '## Argumento'
+    claim: As cotas de financiamento não fixam a parcela a ser transferida.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 188}
+    evidencia: {tipo: nenhuma, referencia: sem citação}
+    assessment: {status: unsupported, confidence: media}
+    nota_status: 'Status divergente entre agentes (literature: unsupported; methodology: partially_supported); mantido
+      o mais conservador.'
+    concerns: [Tensão com a L155; tse2018financiamentofeminino e tse2022criteriosfefc existem no .bib (LIT-2-008).,
+      'MET-2-008: piso agregado por partido; sentido do viés omitido']
+    agent: literature-reviewer, methodology-reviewer
+    ids_origem: {literature: C2.7.04, methodology: C2.7.05}
+    issues: [I-2-010, I-2-011, I-2-023]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.12
+    capitulo: 2
+    secao: '## Argumento'
+    claim: A tese segue a orientação ex-ante de Janusz et al.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 212}
+    evidencia: {tipo: citacao, referencia: '@janusz_barreiro_cintron_2021'}
+    assessment: {status: supported, confidence: alta}
+    nota_status: 'Chair (pass 2): Janusz et al. classificam a experiência só com cargos e candidaturas anteriores
+      (janusz.txt L449-462), ou seja, ex-ante. O problema é outro: eles testam a mesma hipótese (I-2-005).'
+    concerns: [Coerente com a L151 (experiência prévia como qualidade); não verificado no texto-fonte.]
+    agent: literature-reviewer
+    ids_origem: {literature: C2.7.05}
+    issues: [I-2-005]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.13
+    capitulo: 2
+    secao: Argumento
+    claim: A ação de transferir recursos é sempre atribuível ao partido.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 180}
+    evidencia: {tipo: codigo, referencia: 'src/1_silver/gerar_rrd.py:288-332'}
+    assessment: {status: partially_supported, confidence: media}
+    concerns: ['MET-2-010: pressuposto justificado por observabilidade']
+    agent: methodology-reviewer
+    ids_origem: {methodology: C2.7.04}
+    issues: [I-2-020]
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.14
+    capitulo: 2
+    secao: Argumento
+    claim: A predominância do financiamento público não eliminou a desigualdade de recursos entre candidaturas.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 196}
+    evidencia: {tipo: figura, referencia: 'Cap. 3 fig-concentracao (NECr/C mediano 51,36%/53,65%)'}
+    assessment: {status: supported, confidence: media}
+    concerns: []
+    agent: methodology-reviewer
+    ids_origem: {methodology: C2.7.06}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00
+  - claim_id: C2.7.15
+    capitulo: 2
+    secao: Argumento
+    claim: A separação ex-ante permite verificar associação entre alocação e credenciais sem definir prioridade pelo
+      sucesso posterior.
+    localizacao: {arquivo: tese/02-literatura.qmd, linha: 214}
+    evidencia: {tipo: codigo, referencia: 'src/2_gold/cap3_cs_features.py:97-116 (candidato_forte_cs ex-post segregado)'}
+    assessment: {status: supported, confidence: alta}
+    concerns: []
+    agent: methodology-reviewer
+    ids_origem: {methodology: C2.7.10}
+    issues: []
+    runs: [run-003]
+    versao_capitulo: f4ba3b00

@@ -1,0 +1,457 @@
+# run-003 — Capítulo 2 (tese/02-literatura.qmd, sha256 f4ba3b00…) — issues arbitrados (thesis-chair, pass 2, 2026-09-19).
+# Ordenados por severidade final. Campos extras (dimensao, depende_de, evidencia_chair, pergunta_ao_autor) auxiliam a fila e o parecer.
+# findings: [CHAIR] = verificação do próprio chair no pass 2, com evidência em 'evidencia_chair'.
+# Fontes primárias usadas pelo chair: revisoes/fontes-discussao-capitulo3/{janusz,bolognesi,fiva,cheibub}.txt
+# (extrações de texto dos PDFs listados em fontes.json). Nenhum especialista nem o adversarial as consultou.
+
+# ======================================================================= MAJOR
+- issue_id: I-2-001
+  titulo: "A expectativa central não discrimina o mecanismo de sinalização das rivais que o próprio Argumento nomeia"
+  capitulo: 2
+  findings: [THE-2-001, MET-2-001, LIT-2-009]
+  claims: [C2.7.03, C2.7.09, C2.7.10]
+  dimensao: [theory, internal_validity, literature]
+  severidade_inicial: MAJOR
+  contra_argumento:
+    agent: adversarial-reviewer
+    assessment: valid
+    resumo: "A L204 afirma o 'porque' como tese, e a implicação testada (sobrerrepresentação em relação ao acaso) também decorre de captura, barganha, ameaça de saída (L178) e força do candidato. A recomputação do adversarial reforça a crítica: entre ex-eleitos para DF a parcela não cresce com a votação anterior (Spearman −0,13/0,06), o que é compatível com captura por posição. Há um teste discriminante que já existe e o Cap. 2 não anuncia: fora dos mandatários, a parcela cresce com a votação prévia (Spearman 0,43/0,47; qe_sem_vitoria 2,89/1,70)."
+  severidade_final: MAJOR
+  confianca: alta
+  razao: "Mantido MAJOR, como sugerido pelo adversarial. O trecho da L204 ('priorizam … porque estas constituem sinais') enuncia um mecanismo que o desenho não separa das rivais da L178, e evidence/adv_rivais_cap2.out (bloco C2) mostra que, entre mandatários, o padrão observado é o que a captura prevê. O atenuante da Introdução (L36) não entra na decisão, porque a autoria e o estatuto desse texto estão em aberto (I-2-024)."
+  recomendacao: "Reformular a L204 como padrão compatível com a sinalização, sem o 'porque' como tese demonstrada. Depois da L178, dar a cada rival sua implicação diferencial e dizer qual o desenho separa e qual não separa: (a) a captura por mandatários não prevê prêmio a quem teve votação expressiva sem vitória, nem o gradiente da parcela com a votação prévia fora dos mandatários (Cap. 3 L157: 2,89/1,70; Spearman 0,43/0,47), e a sinalização prevê; (b) barganha, ameaça de saída e força do candidato não são separadas (correlação intralista partidário × não partidário de +0,41/+0,34, parcial de 0,32/0,25 com as credenciais controladas); (c) entre mandatários, o perfil plano é compatível com a captura. Ancorar as rivais em literatura: Janusz et al. (2021, p. 2-3 do PDF) já listam a rival 'razões de política' (Norris & Lovenduski)."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-005
+  titulo: "A contribuição não é delimitada frente a precedentes que testaram a mesma hipótese (Janusz et al., 2014) e já construíram um número efetivo de financiados (Bolognesi et al., 2014)"
+  capitulo: 2
+  findings: [THE-2-005, LIT-2-001, LIT-2-016, CHAIR]
+  claims: [C2.3.08, C2.4.08, C2.6.06, C2.7.07, C2.7.10, C2.7.12]
+  dimensao: [theory, literature]
+  severidade_inicial: MAJOR
+  contra_argumento:
+    agent: adversarial-reviewer
+    assessment: partially_valid
+    resumo: "Sugeriu MODERATE: a diferença frente a Cheibub & Sin são três eixos compatíveis (só o 'novamente' do Cap. 4 L13 é defeito), Bolognesi seria 2014 e já coberto pelo critério institucional da L153, e o capítulo não reivindica novidade falsa sobre Janusz. Deixou uma condição explícita para voltar a MAJOR: se Janusz et al. fizerem comparação intralista com classificação ex-ante no período do FEFC."
+  severidade_final: MAJOR
+  confianca: alta
+  razao: "Não sigo o adversarial. Os textos-fonte que estão no repositório decidem a questão, e nenhum agente os leu. Janusz et al. testam em 2014, com efeitos fixos de partido estadual (= lista), exatamente a hipótese 'party elites provide experienced politicians greater campaign resources', e a justificam como a L204 (incerteza sobre as chances, experiência como sinal de potencial eleitoral, maximizar cadeiras; janusz.txt L180-213, L418-445). Bolognesi et al. constroem um 'número efetivo de financiados' para os deputados federais de 2014 (bolognesi.txt L1434-1509). A condição do adversarial se cumpre em duas das três partes: intralista e ex-ante, sim; FEFC, não. Com isso, a L204 ('O argumento desta tese é…') apresenta como próprio um argumento já formulado e testado, e isso exige reenquadrar a contribuição, não só acrescentar uma citação."
+  evidencia_chair:
+    - fonte: "revisoes/fontes-discussao-capitulo3/janusz.txt:180-213"
+      detalhe: "'an individual candidate's chances of electoral success … is never known with certainty … Information on candidate background and electoral experience is likely to have an outsized impact on elite perceptions of electoral potential … (Cheibub and Sin, 2020) … Hypothesis 1: Party elites provide experienced politicians greater campaign resources than inexperienced candidates.'"
+    - fonte: "revisoes/fontes-discussao-capitulo3/janusz.txt:418-419, 440-462, 528-540"
+      detalhe: "Dados das eleições de 2014 para a Câmara (5.864 candidaturas). VD = recursos do partido estadual (R$ 10 mil). 'we employ state party fixed effects'. Variáveis: incumbente, ocupou cargo nos últimos 10 anos, candidatura anterior sem eleição. Resultado: incumbentes recebem ≈ R$ 236.660 a mais, ex-ocupantes ≈ R$ 25.000 a mais. 2018 aparece só de passagem (L790: 'R$2,900 less')."
+    - fonte: "revisoes/fontes-discussao-capitulo3/bolognesi.txt:1-30, 1434-1509"
+      detalhe: "'Como os partidos distribuem o dinheiro… em 2014'. Hipótese: recursos de origem partidária privilegiam candidatos com mandato. 'Operacionalizamos um indicador de número efetivo de financiados (NEF)'; correlação NEF × bancada eleita r = 0,924. O próprio mapa-evidencias.md (L9) do autor já registra: 'Não atribuir à tese a invenção do número efetivo em recursos'. grep: bolognesietal2020 não é citado em nenhum tese/*.qmd."
+  recomendacao: "Reescrever o fecho do Argumento como delimitação explícita: (1) a hipótese de priorização da experiência e sua justificativa informacional são de Janusz et al. (2021) e da literatura norte-americana que eles citam (Jacobson; Damore & Hansford; Herrnson); a tese a reexamina sob outro regime (pós-ADI 4650, FEFC, 2018 e 2022). (2) O que a tese acrescenta: a composição de um núcleo de tamanho endógeno por lista (Top-NECr) em vez do nível em R$ ou da correlação agregada NEF × bancada de Bolognesi et al.; parcelas intralista desagregadas por cargo e o teste da votação sem vitória; o timing dos repasses. (3) Citar Bolognesi et al. (2020) como antecedente do número efetivo em recursos. (4) Na L151, dizer que Janusz et al. analisam 2014 e recursos do partido estadual. (5) Manter uma única formulação da diferença frente a Cheibub & Sin e corrigir o 'novamente' do Cap. 4 L13. A parte de medida (NEF × NECr) também vai para o próximo run do Cap. 3."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-003
+  titulo: "A frente (iii), timing, não tem expectativa derivada no Cap. 2, e a rival da prontidão administrativa não aparece"
+  capitulo: 2
+  findings: [THE-2-003, MET-2-003]
+  claims: [C2.7.06, C2.7.08]
+  dimensao: [theory, internal_validity]
+  severidade_inicial: MAJOR
+  contra_argumento:
+    agent: adversarial-reviewer
+    assessment: partially_valid
+    resumo: "Caem duas partes: a troca núcleo → credencial é uma correção de uma palavra, já justificada em outros lugares (circularidade), e a leitura 'Fiva prevê o contrário' não tem apoio na L91. Fica o núcleo: não há expectativa temporal no Cap. 2, e a prontidão administrativa é uma rival que a base não permite testar (não há data de habilitação de conta/CNPJ em rrd_df_novo.parquet). Enquanto isso, o Cap. 4 L47 conclui intenção."
+  severidade_final: MAJOR
+  confianca: alta
+  razao: "Sigo o adversarial. O Cap. 2 não diz por que o momento do repasse seria um instrumento de priorização, e o Cap. 4 L47 ('partidos políticos consideram a vantagem que distribuir dinheiro antecipadamente constitui') tira disso uma conclusão de intenção que uma rival não testável também explica. Isso limita a interpretação de um capítulo inteiro. A justificativa substantiva já existe no Cap. 4 L29, então o custo no Cap. 2 é baixo."
+  recomendacao: "No Cap. 2: (a) derivar uma expectativa temporal mínima (dinheiro recebido cedo = mais tempo de campanha; ver Cap. 4 L29) e ligá-la à L77 ('e quando os recebem'); (b) reescrever a frente (iii) para o que o Cap. 4 testa ('antecipação dos repasses a candidaturas com credenciais prévias'), com a justificativa da circularidade; (c) nomear a prontidão administrativa como rival e dizer que a base atual não permite separá-la. Não usar Fiva et al. para prever o sentido do timing. No Cap. 4: trocar a L47 por uma formulação compatível e rever a atribuição a Fiva et al. na L49."
+  status: open
+  depende_de: []
+
+# ======================================================================= MODERATE
+- issue_id: I-2-002
+  titulo: "O Argumento não diz que o foco em marginais e a concentração em credenciados são indistinguíveis em E1, nem que não prevê direção para 2018→2022; a literatura de alocação partidária está ausente"
+  capitulo: 2
+  findings: [THE-2-002, MET-2-002, LIT-2-002]
+  claims: [C2.6.07, C2.7.01, C2.7.10]
+  dimensao: [theory, literature]
+  severidade_inicial: MAJOR
+  contra_argumento:
+    agent: adversarial-reviewer
+    assessment: partially_valid
+    resumo: "O elo incerteza → sinal está na própria L204. A dispersão é rejeitada pelos dados: NECr/C mediano de 0,466/0,519, só 8,2%/11,7% das listas com NECr/C ≥ 0,9, lift 1,89/1,86. O foco em marginais também produz lift > 1 para credenciados. O Cap. 4 L25 fala do grau de concentração, não da composição do topo, então não há 'direção oposta'. Resta um problema de redação e de bibliografia."
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "Sigo o adversarial. Conferi que a L204 contém 'Quando os recursos são distribuídos, a votação ainda é incerta. Vitórias anteriores e votações expressivas oferecem sinais observáveis' e que evidence/adv_rivais_cap2.out (bloco B) reproduz o NECr/C. A interpretação não precisa mudar. Falta dizer o que E1 não distingue. A lacuna bibliográfica tem solução à mão: Janusz et al. (janusz.txt L180-190) citam a literatura de alocação a 'vulnerable incumbents and qualified challengers' (Damore & Hansford 1999; Herrnson 2009)."
+  recomendacao: "No Argumento: (a) uma frase dizendo que a divisão igualitária é rejeitada pelo próprio desenho (lift = 1 e NECr/C = 1 por construção sob igualdade); (b) uma frase dizendo que o foco em marginais e a concentração em credenciados só divergem dentro do grupo credenciado, o que a tese não testa (e, em 2018, o quartil mais votado dos ex-eleitos recebe menos que o Q3); (c) declarar que a tese não prevê direção para 2018→2022 e mover a previsão do Cap. 4 L25 para I-2-009; (d) citar a literatura de alocação partidária (Jacobson; Damore & Hansford; Herrnson, via Janusz et al.) e, se útil, PVEA (Shugart, Valdini & Suominen)."
+  status: open
+  depende_de: [I-2-005]
+
+- issue_id: I-2-004
+  titulo: "'Coordenação intrapartidária' não é definida no Cap. 2, muda de sentido e é afirmada como fato ('constitui')"
+  capitulo: 2
+  findings: [THE-2-004, MET-2-005]
+  claims: [C2.7.02, C2.4.07]
+  dimensao: [theory, internal_validity]
+  severidade_inicial: MAJOR
+  contra_argumento:
+    agent: adversarial-reviewer
+    assessment: partially_valid
+    resumo: "Há uma definição comportamental de coordenação ancorada em obras já citadas (Cheibub & Sin, L63; Cox 1997), e o autor a adotou na nota de 11/09 ('não é concentração, mas priorização de um conjunto competitivo'). Sob essa definição, a medida corresponde ao conceito. A parte 'objetivos coletivos' duplica o I-2-001."
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "A condição do pass 1 (conflicts.md C1) se cumpre, e conferi as fontes independentemente da Introdução/Considerações. notes/daily/2026-09-11.md:5 traz a definição do autor, e Cheibub & Sin usam 'coordinated' no sentido estrutural de Cox (1997) (cheibub.txt L71-72, L712). O defeito que resta é de definição e redação: 'coordenação' não é definida no capítulo, muda de sentido (L55, L63, L176) e a L176 diz 'constitui'. A motivação coletiva já está contada no I-2-001."
+  recomendacao: "Definir coordenação uma vez, no sentido comportamental (priorização sistemática de recursos escassos a um conjunto de candidaturas identificadas como viáveis, à Cox 1997 e Cheibub & Sin 2020), e declarar que a tese não mede o efeito dessa coordenação sobre o resultado da legenda. Na L176, trocar 'constitui um instrumento de coordenação' por 'pode operar como'. Harmonizar os usos das L55, L63 e L176."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-008
+  titulo: "O núcleo priorizado e o contraste 'em relação ao acaso' não são definidos no Argumento (tamanho e conjunto de referência)"
+  capitulo: 2
+  findings: [THE-2-006, MET-2-007]
+  claims: [C2.7.03, C2.7.04]
+  dimensao: [theory, internal_validity]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "Os dois especialistas convergem. Pela ressalva do pass 1 (C3), restringir a referência a R > 0 é uma sensibilidade (lift 1,70/1,82), não a referência correta."
+  recomendacao: "Uma frase no Argumento, sem antecipar a fórmula: o partido financia com peso relevante um número efetivo de candidaturas, endógeno à lista, e a comparação é com um núcleo de mesmo tamanho sorteado na mesma lista. Reconhecer que candidaturas sem campanha financiada (24,5%/8,1%; Hott & Menezes, L61) inflam o contraste. No Cap. 3, reportar o lift com R > 0 como sensibilidade."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-023
+  titulo: "L151 reporta a desvantagem das mulheres segundo Janusz et al. sem dizer que é de 2014, em nível de R$, e não a reconcilia com a vantagem intralista das mulheres no Cap. 3"
+  capitulo: 2
+  findings: [ADV-2-001, CHAIR]
+  claims: [C2.6.06, C2.7.11]
+  dimensao: [literature, internal_validity]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: "Omissão apontada pelo próprio adversarial."}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "O adversarial deixou o período de Janusz et al. em aberto. O texto-fonte o fecha: 2014 (janusz.txt L418), antes do piso da ADI 5617, com a VD em nível de R$ e efeitos fixos de partido estadual. O próprio artigo registra que a desigualdade diminuiu depois da mudança (Wylie 2020, L785-790). Não há contradição; há duas medidas em dois regimes. A recomputação do adversarial (bloco E: M/H em R$ 0,74/0,86; parcela intralista das mulheres maior dentro de cada estrato de credencial, 1,26/1,46 e 1,20/1,25) está conferida em adv_rivais_cap2.out L47-48."
+  recomendacao: "Na L151, informar que Janusz et al. analisam 2014 e recursos do partido estadual em nível de R$. Acrescentar uma frase: sob o piso de 2018/2022, a desvantagem feminina em R$ persiste no agregado, mas, dentro da lista, as mulheres recebem parcelas maiores com as credenciais controladas (Cap. 3 L171). Usar isso na delimitação (I-2-005) e na frase das cotas (I-2-010)."
+  status: open
+  depende_de: [I-2-005]
+
+- issue_id: I-2-024
+  titulo: "Introdução e Considerações finais foram alteradas durante o run e adotam a leitura 'compatível com'; o Cap. 2 ficou dessincronizado delas"
+  capitulo: 2
+  findings: [ADV-2-002]
+  claims: [C2.7.02, C2.7.03, C2.7.10]
+  dimensao: [internal_validity]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: "Omissão/fato de processo apontado pelo próprio adversarial."}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "Conferi: 01-introducao.qmd (mtime 00:18:48) e 05-consideracoes-finais.qmd (00:18:52) são posteriores a theory/literature/methodology (00:07-00:10) e ao issues_draft (00:16); o sha256 do Cap. 2 continua f4ba3b00…. Os dois arquivos não estão commitados, e o repositório não registra quem os escreveu. As citações que o adversarial faz deles existem literalmente (Intro L36, 'Tampouco se pressupõe…'; Considerações L20, 'compatível com o emprego do dinheiro partidário como instrumento de coordenação intrapartidária'; parágrafo 'Diferenças de prontidão das campanhas…'). A tese hoje sustenta duas posições sobre o próprio mecanismo. Nenhuma severidade deste run foi decidida com base nesses textos."
+  pergunta_ao_autor: "Os textos atuais de tese/01-introducao.qmd e tese/05-consideracoes-finais.qmd (alterados em 19/09 às 00:18, não commitados; cada um abre com um bloco 'Roteiro para a redação' de 12 itens) são versão sua, a ser mantida? O parecer não presume a resposta. Se forem seus, o alinhamento do Cap. 2 a eles fecha boa parte de I-2-001 e I-2-004. Se não forem, eles não podem servir de referência para a reescrita do Cap. 2."
+  recomendacao: "Primeiro responder à pergunta ao autor. Depois, alinhar o Cap. 2 (L176, L204, L214) à formulação que o autor fixar para a tese inteira. Em runs futuros, incluir 01 e 05 nos insumos do manifest."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-010
+  titulo: "Cotas (L188): nível da restrição e sentido do viés sobre o teste não declarados"
+  capitulo: 2
+  findings: [MET-2-008, THE-2-010]
+  claims: [C2.7.11]
+  dimensao: [theory, internal_validity]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: "Observação (sem veredito formal): o bloco E mostra que a desigualdade em R$ está entre listas e que, dentro da lista, as mulheres têm parcela maior; isso reforça a leitura de que o piso opera no agregado do partido e de que o teste é conservador."}
+  severidade_final: MODERATE
+  confianca: media
+  razao: "Mantido MODERATE (C4 do pass 1). O piso opera no agregado (mulheres = 25,6% dos recursos DF em 2018; met_cap2_alternativas.out, bloco F), e o Cap. 3 L171 usa o piso para interpretar a razão 1,44, o que depende de o Cap. 2 dizer em que nível ele opera. A confiança é média porque o sentido exato do viés depende da interação entre o piso e as credenciais, que não foi modelada."
+  recomendacao: "Reescrever a L188: piso agregado por partido, alocação livre entre candidaturas e cargos, viés esperado contra a hipótese (teste conservador), controle do gênero na regressão intralista e não no Top-NECr. Ligar a I-2-023."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-012
+  titulo: "L147 afirma que o confundimento 'não ocorre' (é residual), e o Argumento ignora os recursos não partidários"
+  capitulo: 2
+  findings: [MET-2-009]
+  claims: [C2.6.08, C2.6.09]
+  dimensao: [internal_validity]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: "Observação (sem veredito formal): a correlação intralista +0,41/+0,34 sobrevive ao controle pelas credenciais (parcial 0,32/0,25), então nomear a rival se sustenta. A direção causal não é identificável: o dinheiro do partido pode atrair doadores."}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "Números conferidos em met_cap2_alternativas.out e adv_rivais_cap2.out (bloco A). A frase 'não ocorre' é falsa em sentido estrito (1,2%/2,0%), mas residual. A rival privada é real e se liga ao I-2-001."
+  recomendacao: "Trocar 'não ocorre' por 'é residual (≈ 1–2%)'. Nomear o financiamento privado como fator que se move junto com o partidário (comovimento, não substituição), sem afirmar 'força do candidato' como fato. Registrar a fungibilidade doação → partido como limitação."
+  status: open
+  depende_de: [I-2-001]
+
+- issue_id: I-2-009
+  titulo: "Comparabilidade 2018 × 2022: coligações, cláusula crescente e cota racial ausentes do Argumento; a previsão do Cap. 4 L25 não tem base no Cap. 2"
+  capitulo: 2
+  findings: [MET-2-006]
+  claims: [C2.7.01]
+  dimensao: [internal_validity]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: "No veredito de I-2-002, o adversarial classifica o Cap. 4 L25 como previsão auxiliar não derivada, que pertence a este issue."}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "Em 2018 o pooling ocorria na coligação, e as L33 e L174 descrevem a regra de 2022 como se valesse nos dois anos. O Cap. 4 L25 deriva uma previsão de desconcentração em 2022 que o Cap. 2 não sustenta. Isso vem do I-2-002."
+  recomendacao: "Um parágrafo curto sobre as diferenças de regra 2018 × 2022 e o que cada uma implica para a alocação. Declarar que a unidade de decisão coincide com a de pooling só em 2022. Dizer se a tese prevê alguma direção para o grau de concentração; se não prevê, reescrever o Cap. 4 L25 como descrição."
+  status: open
+  depende_de: [I-2-002]
+
+- issue_id: I-2-006
+  titulo: "A magnitude é teorizada na revisão, mas não gera expectativa; o gradiente do Cap. 3 é lido post hoc, é em parte mecânico e contraria a direção de Cheibub & Sin"
+  capitulo: 2
+  findings: [THE-2-007, MET-2-004, CHAIR]
+  claims: []
+  dimensao: [theory, internal_validity]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "Os dois especialistas concordam que falta a expectativa. A 'inversão' de MET-2-004 depende da normalização: pela do repositório, (H−E)/(Hmax−E), o gradiente se atenua, mas não se inverte (0,70/0,79/0,76 e 0,60/0,73/0,74; conflicts.md C2). Achado do chair: Cheibub & Sin, que o Cap. 2 usa como referência de coordenação, encontram coordenação mais difícil em distritos grandes, e a priorização financeira do Cap. 3 é mais forte neles. O capítulo precisa dizer como as duas coisas se relacionam."
+  evidencia_chair:
+    - fonte: "revisoes/fontes-discussao-capitulo3/cheibub.txt:70-73"
+      detalhe: "'We find this to be true especially for small districts and for larger parties, where coordination is easier to achieve. For larger districts, we find that coordination is more difficult to attain'."
+  recomendacao: "Cap. 2: derivar a implicação (se a credencial vale como sinal sob incerteza e a incerteza cresce com M, L121/Cox 1997, a priorização financeira deve ser mais forte onde a coordenação estrutural de Cheibub & Sin é mais difícil, e o dinheiro funcionaria como substituto), registrando a rival (personalismo → dispersão). Cap. 3, próximo run: reportar o lift por magnitude com o teto ou o lift normalizado e apoiar o gradiente sobretudo na razão intralista."
+  status: open
+  depende_de: [I-2-002]
+
+- issue_id: I-2-018
+  titulo: "Fiva et al. (2024): o localizador 'p. 100' não existe no artigo; a previsão da L93 existe, mas está sem localizador"
+  capitulo: 2
+  findings: [LIT-2-007, CHAIR]
+  claims: [C2.4.03, C2.4.04]
+  dimensao: [literature]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "Confiança elevada de média para alta pela fonte primária. O artigo é o nº 105133 do JPubE 234, com 13 páginas de PDF, e não tem 'p. 100'. A previsão atribuída na L93 existe: resumo ('the trade-off is weaker for more popular parties') e §4 ('electorally stronger parties experience a weaker trade-off'; fiva.txt L930-934). O defeito é de localizador, não de conteúdo."
+  evidencia_chair:
+    - fonte: "revisoes/fontes-discussao-capitulo3/fiva.txt:2, 26-37, 930-934, 1243-1256"
+      detalhe: "Cabeçalho 'Journal of Public Economics 234 (2024) 105133'; resumo com a previsão sobre partidos mais populares e o achado 'larger parties are indeed more likely to use their power to make some candidates safe'."
+  recomendacao: "Substituir 'p. 100' pela seção ou página do PDF (ex.: seção 4 ou p. 8) e dar localizador à previsão da L93 (resumo; seção 4; seção 5)."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-007
+  titulo: "A heterogeneidade partidária é teorizada (Scarrow & Webb; Fiva et al.; Cheibub & Sin), mas não gera expectativa nem teste"
+  capitulo: 2
+  findings: [THE-2-008, MET-2-011]
+  claims: [C2.4.04]
+  dimensao: [theory, internal_validity]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "O grep dos especialistas confirma que 'tipo de partido' e lift_por_partido_ano.csv não aparecem no corpo dos Caps. 3/4. A premissa teórica está confirmada nas fontes primárias: Fiva et al. (partidos maiores protegem mais) e Cheibub & Sin (coordenação mais fácil em partidos maiores)."
+  recomendacao: "Escolher: (a) derivar uma expectativa auxiliar por tamanho/tipo de partido (Fiva et al., resumo e §4; Cheibub & Sin, p. 2 do PDF) e testá-la no Cap. 3 com o lift normalizado por partido já calculado; ou (b) apresentar a seção como contexto e dizer que a tese estima um padrão médio."
+  status: open
+  depende_de: [I-2-018]
+
+- issue_id: I-2-011
+  titulo: "Afirmações institucionais e empíricas de Financiamento sem fonte, embora o .bib tenha as fontes"
+  capitulo: 2
+  findings: [LIT-2-008]
+  claims: [C2.6.04, C2.7.11]
+  dimensao: [literature]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "Ausência verificável: evidence/lit_cruzamento_citacoes.out lista as entradas do .bib sem uso."
+  recomendacao: "Citar tse2018financiamentofeminino, tse2022criteriosfefc, fischmesquita2022, schaefer2024, horochovski2024 e as fontes legais (ADI 4650, ADI 5617, ADPF 738, EC 97, EC 117, Lei 13.488). Dar fonte aos valores de 2022."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-014
+  titulo: "A classificação do pooling brasileiro (L33) contradiz a definição da L21 e, provavelmente, a codificação de Carey & Shugart"
+  capitulo: 2
+  findings: [LIT-2-003]
+  claims: [C2.2.03]
+  dimensao: [literature]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: media
+  razao: "A contradição interna (L21 × L33) é textual e verificável. A codificação de Carey & Shugart não foi conferida no original."
+  recomendacao: "Conferir a tabela de Carey & Shugart (1995) e classificar o Brasil como pool = 0, ou justificar a divergência (ver comentário [2.1-4])."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-015
+  titulo: "André et al. e Crisp et al. não mostram gatekeeping pós-convenção: a recompensa ocorre na lista seguinte"
+  capitulo: 2
+  findings: [LIT-2-004]
+  claims: [C2.3.07]
+  dimensao: [literature]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "A inferência da L67 não decorre do instrumento estudado pelas obras (posição na lista da eleição seguinte). A tese do gatekeeping pós-convenção já está sustentada por Janusz et al. ('party gatekeeping does not end at the nomination stage', janusz.txt L794-795)."
+  recomendacao: "Usar André et al./Crisp et al. para sustentar o uso de sinais de desempenho passado nas decisões de priorização e deixar a conclusão sobre o pós-convenção com Janusz et al."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-017
+  titulo: "Ferree et al. (2014) usados como definição da 'segunda geração'; o vocabulário de 'gerações' em Mershon não foi verificado"
+  capitulo: 2
+  findings: [LIT-2-006]
+  claims: [C2.1.01, C2.3.01]
+  dimensao: [literature]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: media
+  razao: "A moldura que organiza o capítulo depende de atribuições que não foram verificadas no original. Não há texto-fonte no repositório."
+  recomendacao: "Atribuir a caracterização da segunda geração a Mershon, se ela a fizer, ou assumi-la como síntese do autor. Usar Ferree et al. só como apoio geral."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-016
+  titulo: "O achado de Desposato (2006) pode estar reportado de forma invertida"
+  capitulo: 2
+  findings: [LIT-2-005]
+  claims: [C2.3.04]
+  dimensao: [literature]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: baixa
+  razao: "O issue mais frágil do run: repousa só na memória do revisor, e não há texto-fonte no repositório. Mantido porque a conferência custa pouco. Cai se o autor confirmar o achado."
+  recomendacao: "Reler o resumo e a conclusão de Desposato (2006). Se o achado for de diferença entre as casas, reescrever a L51."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-019
+  titulo: "Ausências canônicas: Pereira & Mueller, Samuels 2002, Cain et al., Nicolau; Katz & Mair, Panebianco"
+  capitulo: 2
+  findings: [LIT-2-010, LIT-2-011]
+  claims: [C2.3.05, C2.6.05]
+  dimensao: [literature]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "A ausência é verificável no .bib. Pereira & Mueller (2003) é a objeção direta na arena em que a tese atua."
+  recomendacao: "Incluir ao menos Pereira & Mueller (2003) como contraponto nas L51-53, Samuels (2002) como ponte para Financiamento e Katz & Mair (1995) na L157."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-013
+  titulo: "A analogia com o dilema do gatekeeper toma só o lado da proteção; o custo em esforço e a divisibilidade do dinheiro não geram implicação"
+  capitulo: 2
+  findings: [THE-2-009]
+  claims: [C2.4.07]
+  dimensao: [theory]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: media
+  razao: "L89-91 descrevem os dois lados do dilema; L95/L176 importam só a proteção. A divisibilidade do dinheiro, ao contrário da posição fixa na lista norueguesa, não é discutida."
+  recomendacao: "Dizer como a divisibilidade altera o dilema (proteção parcial com incentivo residual aos demais) e se isso implica algo observável. Definir 'gatekeeping' no sentido da tese."
+  status: open
+  depende_de: [I-2-004]
+
+- issue_id: I-2-025
+  titulo: "Estrutura: a abertura não anuncia o Argumento, a ideia central é aberta em três lugares (L95, L176, L204) e a tese só aparece no 7º parágrafo do Argumento"
+  capitulo: 2
+  findings: [WRI-2-001, WRI-2-002, WRI-2-004]
+  claims: [C2.1.50, C2.7.08]
+  dimensao: [writing]
+  severidade_inicial: MODERATE
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MODERATE
+  confianca: alta
+  razao: "Três achados MODERATE de um mesmo problema, a dispersão do enunciado da tese, viram um issue MODERATE. Conferi as L9, L95, L176 e L204. O autor faz o mesmo diagnóstico no comentário [A0] (L172)."
+  recomendacao: "Executar só depois da reescrita substantiva (I-2-001 a I-2-005). Um parágrafo de roteiro antes do primeiro '##' que anuncie o fechamento em @sec-argumento; decidir o lugar do bloco L89-95 (junto do Argumento ou depois de L97-101); enunciar a tese logo depois do incentivo (L174) e levar rivais e ressalvas (L178, L180, L188) para depois das implicações; retirar as reapresentações (L196 ≈ L95; L202 ≈ L63/L65)."
+  status: open
+  depende_de: [I-2-001, I-2-005, I-2-003]
+
+# ======================================================================= MINOR
+- issue_id: I-2-020
+  titulo: "A atribuição da ação ao partido (L180) é justificada por observabilidade; declarar como pressuposto"
+  capitulo: 2
+  findings: [MET-2-010]
+  claims: [C2.7.13]
+  dimensao: [internal_validity]
+  severidade_inicial: MINOR
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MINOR
+  confianca: media
+  razao: "R_il agrega repasses de diretórios de vários níveis (gerar_rrd.py:288-332). Para o que o capítulo testa, basta declarar isso como pressuposto."
+  recomendacao: "Reformular como 'assume-se que…' e dizer que a tese não distingue os níveis decisórios."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-021
+  titulo: "Paráfrases que esticam o que a obra sustenta (Tavits; Avelino et al./Ames; Braga & Amaral/Kselman; Cox & McCubbins)"
+  capitulo: 2
+  findings: [LIT-2-012, LIT-2-013, LIT-2-014, LIT-2-015]
+  claims: [C2.4.06, C2.3.06, C2.3.03, C2.4.02]
+  dimensao: [literature]
+  severidade_inicial: MINOR
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MINOR
+  confianca: media
+  razao: "Os usos são pontuais e não afetam a cadeia."
+  recomendacao: "Conferir cada passagem no original. Marcar as analogias como do autor, mover Kselman para o contraponto de Chang (L29), citar Ames (1995) como origem da tipologia espacial e especificar 'controle da agenda' em Cox & McCubbins."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-022
+  titulo: "Formalidades de citação e do .bib"
+  capitulo: 2
+  findings: [LIT-2-017]
+  claims: []
+  dimensao: [literature]
+  severidade_inicial: MINOR
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MINOR
+  confianca: alta
+  razao: "Todos os pontos são verificáveis no .bib e no capítulo."
+  recomendacao: "Corrigir o '(p.2)' manual (L101), as chaves com ano divergente, o hífen em mainwaring1999 e a duplicata de jonesmainwaring2003. Completar os metadados (incluindo janusz_barreiro_cintron_2021: volume, número, páginas)."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-026
+  titulo: "Clareza de frases e transições (pontes sem referente, frases sem sujeito, fragmentos, redundâncias, parênteses aninhados)"
+  capitulo: 2
+  findings: [WRI-2-003, WRI-2-005, WRI-2-009, WRI-2-010, WRI-2-011, WRI-2-012, WRI-2-013, WRI-2-014, WRI-2-017, WRI-2-018, WRI-2-020, WRI-2-021]
+  claims: [C2.4.50, C2.5.50]
+  dimensao: [writing]
+  severidade_inicial: MINOR
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MINOR
+  confianca: alta
+  razao: "WRI-2-003 (MODERATE no relatório) foi rebaixado para MINOR: a ponte da L103 não tem referente, mas a seção seguinte deixa claro o assunto (o próprio writing registra o claim C2.4.50 como supported). Pela rubrica, clareza sem efeito no argumento é polimento. Trechos conferidos nas L103, L129, L143 e L153."
+  recomendacao: "Aplicar as reformulações de writing.md. WRI-2-011 e WRI-2-014 devem ser feitos junto com as fontes de I-2-011. WRI-2-013 corrige também uma imprecisão (a proibição vale desde 2015/2016; 2018 é a primeira eleição geral sob ela)."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-027
+  titulo: "Gramática e vocabulário: concordância, crase, regência, 'onde', anglicismo, hífen e maiúsculas"
+  capitulo: 2
+  findings: [WRI-2-006, WRI-2-007, WRI-2-008, WRI-2-019, WRI-2-022]
+  claims: []
+  dimensao: [writing]
+  severidade_inicial: MINOR
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MINOR
+  confianca: alta
+  razao: "Conferido por amostragem (L17 'frente a reputação', L47 'Nuances … foram levantados', L89 'insular', L99 'o grau que as bases')."
+  recomendacao: "Aplicar as formas indicadas em writing.md. A correção independe da reescrita substantiva, exceto nas L89-95, que devem ser corrigidas junto com I-2-018."
+  status: open
+  depende_de: []
+
+- issue_id: I-2-028
+  titulo: "Convenções: citações diretas em inglês sem tradução (L85, L127) e seção Financiamento sem rótulo"
+  capitulo: 2
+  findings: [WRI-2-015, WRI-2-016]
+  claims: []
+  dimensao: [writing]
+  severidade_inicial: MINOR
+  contra_argumento: {agent: adversarial-reviewer, assessment: not_reviewed, resumo: ""}
+  severidade_final: MINOR
+  confianca: media
+  razao: "A exigência de tradução depende da norma adotada pelo programa (confiança média). A ausência de rótulo é verificável (grep: só sec-argumento; Cap. 3 L270 remete em texto plano)."
+  recomendacao: "Definir uma política única de tradução para a tese. Adicionar {#sec-financiamento} à L131 e um rótulo de capítulo, e trocar a remissão em texto plano do Cap. 3."
+  status: open
+  depende_de: []

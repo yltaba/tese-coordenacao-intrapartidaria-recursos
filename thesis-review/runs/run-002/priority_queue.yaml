@@ -1,0 +1,7 @@
+- {ordem: 1, issue_id: I-3-001, titulo: "Escolha do estimando e massa não unitária na regressão intralista", severidade_final: MAJOR, confianca: alta, custo: alto, depende_de: [], acao: "Corrigir/definir estimando e regenerar resultados da regressão."}
+- {ordem: 2, issue_id: I-3-002, titulo: "Inferência racial em 2022 depende do nível de cluster", severidade_final: MODERATE, confianca: alta, custo: medio, depende_de: [I-3-001], acao: "Reestimar e reportar sensibilidade por partido."}
+- {ordem: 3, issue_id: I-3-003, titulo: "Declarar agregação nacional e contraste dos AMEs", severidade_final: MODERATE, confianca: alta, custo: baixo, depende_de: [], acao: "Ajustar definições e interpretação."}
+- {ordem: 4, issue_id: I-3-004, titulo: "Origem partidária e fundos específicos", severidade_final: MODERATE, confianca: alta, custo: baixo, depende_de: [], acao: "Corrigir redação da seção Dados."}
+- {ordem: 5, issue_id: I-3-005, titulo: "Cargos definidos versus estimados", severidade_final: MODERATE, confianca: alta, custo: baixo, depende_de: [], acao: "Alinhar a frase à especificação apresentada."}
+- {ordem: 6, issue_id: I-3-006, titulo: "Alcance associativo do mecanismo", severidade_final: MODERATE, confianca: alta, custo: baixo, depende_de: [], acao: "Preservar ressalva observacional na transição para a discussão."}
+- {ordem: 7, issue_id: I-3-007, titulo: "Legendas e chaves visuais", severidade_final: MINOR, confianca: alta, custo: baixo, depende_de: [], acao: "Completar captions e convenções visuais."}
