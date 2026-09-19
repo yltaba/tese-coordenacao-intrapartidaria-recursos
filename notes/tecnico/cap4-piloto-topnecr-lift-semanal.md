@@ -1,5 +1,7 @@
 # Piloto: lift semana a semana e split por Top-NECr no Cap. 4
 
+> **ATUALIZAÇÃO 19/09/2026 — parte (a) SUPERADA.** A medida do piloto (parcela de recursos do Top-NECr ÷ k/C) é ≥ 1 por construção e o benchmark era fixo (totais finais) enquanto o numerador seguia o fluxo até a semana w; a queda 2,04 → 1,89 e a "coincidência" com o lift do Cap. 3 não são informativas. A versão efetivada recalcula o lift do Cap. 3 (competitivos ex-ante no Top-NECr) a cada semana sobre os recursos acumulados: `src/2_gold/cap4_lift_semanal.py`, `tese/reports/lift-semanal/`, `figs/cap4_lift_semanal.png` (resultado: ~1,9 quase constante; ver comentário [4.1-5] no Cap. 4). A parte (b) segue válida.
+
 **18/09/2026.** Avaliação de duas extensões empíricas propostas pelo autor para o Cap. 4: (a) uma medida de *lift* semana a semana; (b) separar candidatos por dentro/fora do Top-NECr em vez de competitivo/não-competitivo (ex-ante). Script: `cap4_piloto_topnecr_lift.py`, nesta pasta. **Não altera nenhum artefato oficial** (`figs/`, `data/processed/df_cox_survival.parquet`); roda à parte, a partir da raiz do repo.
 
 ## (b) Dentro/fora do Top-NECr como variável de grupo

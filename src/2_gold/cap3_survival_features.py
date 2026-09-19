@@ -25,6 +25,8 @@ JANELAS = {
 DURACAO = {ano: (fim - inicio).days for ano, (inicio, fim) in JANELAS.items()}
 # 2014: 91 dias (pré-FEFC) | 2018: 52 dias | 2022: 47 dias
 
+ORIGEM_PARTIDO = "Recursos de partido político"
+# Compatibilidade com explorações antigas: fonte não define repasse partidário.
 FONTES_PARTIDO = {"FP", "PJ_ROTEADO", "FEFC"}
 
 ARQUIVOS_RECEITAS = {
@@ -79,9 +81,10 @@ def tratar_df_receita(df, ano):
       2014: FP | PJ_ROTEADO | PJ_DIRETO | PF | PROPRIO | OUTROS_CAND | OUTROS
       2018/2022: FEFC | FP | PF | PROPRIO | OUTROS_CAND | FINANCIAMENTO_COLETIVO | OUTROS
 
-    Para análises de coordenação partidária, filtrar por FONTES_PARTIDO.
+    Preserva ds_origem_receita na agregação. Para análises de coordenação
+    partidária, usar selecionar_receitas_partido, independentemente da fonte.
     """
-    df.columns = df.columns.str.lower()
+    df.columns = df.columns.str.strip().str.lower()
 
     rename = {k: v for k, v in _RENAME_2014.items() if k in df.columns}
     if rename:
@@ -90,9 +93,14 @@ def tratar_df_receita(df, ano):
     df["ds_cargo"]         = df["ds_cargo"].str.strip().str.title()
     df["ds_fonte_receita"] = df["ds_fonte_receita"].str.upper()
     df = df.loc[df["ds_cargo"] == "Deputado Federal"].copy()
+    # Em 2018 o TSE usa PATRIOTA nas receitas e PATRI nas candidaturas.
+    # É a mesma legenda naquele pleito, não uma fusão entre eleições.
+    if ano == 2018:
+        df["sg_partido"] = df["sg_partido"].replace({"PATRIOTA": "PATRI"})
 
     if ano == 2014:
         tipo = df["tipo receita"].str.strip()
+        df["ds_origem_receita"] = tipo
         df["fonte_tipo"] = np.select(
             [
                 (tipo == "Recursos de partido político") & (df["ds_fonte_receita"] == "FUNDO PARTIDARIO"),
@@ -108,6 +116,7 @@ def tratar_df_receita(df, ano):
         df["dt_receita"] = pd.to_datetime(df["dt_receita"].str[:10], format="%d/%m/%Y")
     else:
         origem = df["ds_origem_receita"].str.strip()
+        df["ds_origem_receita"] = origem
         df["fonte_tipo"] = np.select(
             [
                 df["ds_fonte_receita"] == "FUNDO ESPECIAL",
@@ -129,24 +138,46 @@ def tratar_df_receita(df, ano):
     df = df.loc[(df["dt_receita"] >= inicio) & (df["dt_receita"] <= fim)].copy()
 
     df = df.groupby(
-        ["ano_eleicao", "dt_receita", "sg_uf", "sg_partido", "nr_candidato", "fonte_tipo"],
-        as_index=False,
+        ["ano_eleicao", "dt_receita", "sg_uf", "sg_partido", "nr_candidato",
+         "ds_origem_receita", "fonte_tipo"],
+        as_index=False, dropna=False,
     )["vr_receita"].sum()
     return df
 
 
-def carregar_receitas():
+def selecionar_receitas_partido(df: pd.DataFrame) -> pd.DataFrame:
+    """Seleciona a origem partidária; inclui qualquer fonte e exclui outras origens."""
+    return df.loc[df["ds_origem_receita"].eq(ORIGEM_PARTIDO)].copy()
+
+
+def carregar_receitas(anos=None):
     """Retorna dados transacionais consolidados para Dep. Federal (2014/2018/2022).
 
-    Para análises de coordenação, filtrar a coluna `fonte_tipo` por FONTES_PARTIDO.
+    Para análises de coordenação, usar selecionar_receitas_partido.
+    anos permite restringir a leitura aos pleitos necessários.
     """
     partes = [
         tratar_df_receita(ler_tab_receitas(p), ano)
         for ano, p in ARQUIVOS_RECEITAS.items()
+        if anos is None or ano in anos
     ]
     df = pd.concat(partes, ignore_index=True)
     df["nr_candidato"] = df["nr_candidato"].astype(str)
     return df
+
+
+def recalcular_primeiro_repasse(rrd: pd.DataFrame, receitas: pd.DataFrame) -> pd.DataFrame:
+    """Atualiza datas na cópia de trabalho usando a mesma origem dos demais cálculos."""
+    keys = ["ano_eleicao", "sg_uf", "sg_partido", "nr_candidato"]
+    partido = selecionar_receitas_partido(receitas)
+    primeiro = partido.groupby(keys, as_index=False).agg(data_recalculada=("dt_receita", "min"))
+    d = rrd.merge(primeiro, on=keys, how="left", validate="many_to_one")
+    anos = receitas["ano_eleicao"].unique()
+    mask = d["ano_eleicao"].isin(anos)
+    inicio = d["ano_eleicao"].map({a: JANELAS[a][0] for a in anos})
+    d.loc[mask, "dias_desde_inicio"] = (d["data_recalculada"] - inicio).dt.days.loc[mask]
+    d.loc[mask, "dt_receita"] = d.loc[mask, "data_recalculada"]
+    return d.drop(columns="data_recalculada")
 
 
 # ── Feature engineering ───────────────────────────────────────────────────────
@@ -209,7 +240,7 @@ def preparar_survival(df: pd.DataFrame, ano: int) -> pd.DataFrame:
 
 def calcular_dias_maior_receita(df_rec_partido: pd.DataFrame) -> pd.DataFrame:
     """Para cada candidato, retorna os dias desde o início da campanha até o
-    maior repasse partidário diário (soma de FONTES_PARTIDO no mesmo dia).
+    maior repasse partidário diário (soma da origem partidária no mesmo dia).
 
     Colunas de saída: ano_eleicao, sg_uf, sg_partido, nr_candidato,
                       dias_maior_receita, vr_maior_receita.

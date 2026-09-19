@@ -9,7 +9,8 @@
   confianca: alta
   razao: "A evidência reproduz listas com massa remanescente abaixo de 1; decidir o estimando e reestimar é necessário antes de consolidar a seção."
   recomendacao: "Renormalizar as parcelas dos remanescentes ou incorporar a massa m_l à média, Hessiana e escores; atualizar coeficientes, EP e AMEs."
-  status: open
+  status: resolved
+  resolucao: "2026-09-19: estimando declarado pelo autor no parágrafo das covariáveis (sec-premio-credenciais); código corrigido (massa m_l na média, Hessiana, escores e AMEs; estimando = parcela original), resultados regenerados, 2 números do texto atualizados (12,1->12,0; IC 9,70->9,71). Ver runs/run-002/implementacao_2026-09-19.md."
 - issue_id: I-3-002
   titulo: "Inferência racial em 2022 depende do nível de cluster"
   capitulo: 3

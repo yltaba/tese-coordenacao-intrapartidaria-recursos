@@ -16,6 +16,15 @@ Equivale a Poisson (PPML) de s_il com EF de lista; sem problema de parâmetros i
 Estimado por Newton; EP clusterizados por lista (sanduíche sobre escores somados por lista, com
 correção L/(L-1)).
 
+Massa remanescente (19/09/2026, I-3-001/STA-3-001 do run-002): s_il = R_il / R_l usa o R_l da lista
+completa (mesmo denominador do NECr/Top-NECr), mas as exclusões da amostra (CPF "-4", raça/cor não
+declarada, votos t-1 ausentes) deixam listas em que as parcelas retidas somam m_l = sum_i s_il < 1 (2 listas em 2018,
+12 em 2022). O estimando é mantido — a parcela original — e, como no PPML com EF de lista, a média
+perfilada passa a ser m_l * p_il (o EF absorve m_l; p_il continua o softmax entre as retidas).
+b não muda (o gradiente já era sum (s - m p) x), mas a Hessiana, os escores do sanduíche e os AMEs
+agora usam m_l * p_il. Até 18/09/2026 o código assumia m_l = 1, o que só afetava EP e AMEs.
+Sensibilidade: renormalizar as parcelas entre as retidas (s/m_l) — em sensibilidade_massa.csv.
+
 Por que mudou: o GLM anterior juntava todas as listas; como a parcela média numa lista é 1/C_l,
 parte da variação era tamanho de lista, e ln(magnitude) funcionava como aproximação disso (AME de
 -10 pp em 2018, que vai a ~0 quando ln(C_l) entra). Ver notes/tecnico/cap3-plano-regressao-intralista.md.
@@ -39,7 +48,7 @@ Modelos:
 
 Amostra: candidaturas de listas com R_l > 0 e C_l > 1 (listas de uma candidatura não têm
 comparação intralista e não contribuem para a verossimilhança condicional); exclui CPF "-4" e
-candidaturas sem raça/cor declarada (`negra` NaN).
+candidaturas sem raça/cor declarada (`negra` NaN) ou sem `prop_votos_nominais_lag` (4 em 2018).
 
 Testou-se em 16/09 um proxy de "já disputou eleição antes, mesmo sem vencer" — não significativo
 no GLM agrupado (p=0,80 em 2018; 0,09 em 2022), por isso não entrou; não foi retestado aqui.
@@ -49,6 +58,7 @@ Gera:
   tese/reports/regressao-fracionaria/ames.csv           (AME, EP, IC95%, p por modelo/variável/ano)
   tese/reports/regressao-fracionaria/interacao_magnitude.csv (razão da credencial por magnitude)
   tese/reports/regressao-fracionaria/amostra.csv       (candidaturas/listas antes e depois dos filtros)
+  tese/reports/regressao-fracionaria/sensibilidade_massa.csv (b e EP com parcelas renormalizadas entre as retidas)
   figs/cap3_regressao_fracionaria.png                   (forest plot das razões exp(b) do R2, escala log, 2018 vs 2022)
 
 Execute da raiz do repositório: python tese/scripts/regressao_fracionaria_cap3.py
@@ -145,6 +155,12 @@ def montar_base(ano: int) -> tuple[pd.DataFrame, dict]:
     amostra["listas_com_variacao_competitivo"] = int(
         (df.groupby("lista_id")["competitivo"].nunique() > 1).sum()
     )
+    # Massa remanescente m_l: parte de R_l que ficou nas candidaturas retidas.
+    massa = df.groupby("lista_id")["prop_vr_receita_candidato"].sum()
+    if (massa <= 0).any():
+        raise ValueError("lista sem recursos entre as candidaturas retidas (m_l = 0)")
+    amostra["listas_massa_incompleta"] = int((massa < 1 - 1e-9).sum())
+    amostra["massa_minima"] = float(massa.min())
     return df, amostra
 
 
@@ -168,8 +184,10 @@ def _media_lista(v: np.ndarray, p: np.ndarray, g: np.ndarray) -> np.ndarray:
 def logit_condicional_fracionario(s: np.ndarray, X: np.ndarray, g: np.ndarray,
                                   max_iter: int = 100, tol: float = 1e-10):
     """Maximiza sum_l sum_i s_il log p_il (p = softmax na lista) por Newton.
+    Média perfilada m_l * p_il, com m_l = sum_{i in l} s_il (= 1 em lista completa).
     g: código inteiro da lista (0..L-1). Retorna b, V (cluster por lista), p, iterações."""
     L, K = g.max() + 1, X.shape[1]
+    m = np.bincount(g, s, minlength=L)[g]
     # Regressor constante em todas as listas (ex.: C_l, magnitude) cai no softmax e não é
     # identificado; sem esta checagem o Newton "estima" ruído de ponto flutuante.
     desvio = X - np.column_stack([np.bincount(g, X[:, k]) / np.bincount(g) for k in range(K)])[g]
@@ -179,8 +197,8 @@ def logit_condicional_fracionario(s: np.ndarray, X: np.ndarray, g: np.ndarray,
     for it in range(1, max_iter + 1):
         p = _softmax_lista(X @ b, g)
         Xc = X - _media_lista(X, p, g)
-        grad = Xc.T @ s  # = sum (s - p) x, pois s e p somam 1 em cada lista
-        H = (Xc * p[:, None]).T @ Xc
+        grad = Xc.T @ s  # = sum (s - m p) x, pois p soma 1 e s soma m na lista
+        H = (Xc * (m * p)[:, None]).T @ Xc
         passo = np.linalg.solve(H, grad)
         b = b + passo
         if np.max(np.abs(passo)) < tol:
@@ -189,16 +207,17 @@ def logit_condicional_fracionario(s: np.ndarray, X: np.ndarray, g: np.ndarray,
         raise RuntimeError(f"Newton não convergiu em {max_iter} iterações")
     p = _softmax_lista(X @ b, g)
     Xc = X - _media_lista(X, p, g)
-    H = (Xc * p[:, None]).T @ Xc
-    escores = np.column_stack([np.bincount(g, (s - p) * X[:, k], minlength=L) for k in range(K)])
+    H = (Xc * (m * p)[:, None]).T @ Xc
+    escores = np.column_stack([np.bincount(g, (s - m * p) * X[:, k], minlength=L) for k in range(K)])
     H_inv = np.linalg.inv(H)
     V = H_inv @ (escores.T @ escores) @ H_inv * L / (L - 1)
     return b, V, p, it
 
 
-def _ame_vec(b: np.ndarray, X: np.ndarray, g: np.ndarray, binarias: np.ndarray) -> np.ndarray:
-    """AME sobre a própria parcela, colegas de lista fixos. Contínuas: média de b_k p(1-p).
-    Binárias: média de p(x_k=1) - p(x_k=0)."""
+def _ame_vec(b: np.ndarray, X: np.ndarray, g: np.ndarray, binarias: np.ndarray,
+             m: np.ndarray) -> np.ndarray:
+    """AME sobre a própria parcela (escala original R_il/R_l, média m_l p), colegas de lista
+    fixos. Contínuas: média de b_k m p(1-p). Binárias: média de m [p(x_k=1) - p(x_k=0)]."""
     eta = _centrar_lista(X @ b, g)
     e = np.exp(eta)
     soma = np.bincount(g, e)[g]
@@ -209,13 +228,13 @@ def _ame_vec(b: np.ndarray, X: np.ndarray, g: np.ndarray, binarias: np.ndarray) 
         if binarias[k]:
             e1 = np.exp(eta + b[k] * (1 - X[:, k]))
             e0 = np.exp(eta - b[k] * X[:, k])
-            out[k] = np.mean(e1 / (e1 + outros) - e0 / (e0 + outros))
+            out[k] = np.mean(m * (e1 / (e1 + outros) - e0 / (e0 + outros)))
         else:
-            out[k] = b[k] * np.mean(p * (1 - p))
+            out[k] = b[k] * np.mean(m * p * (1 - p))
     return out
 
 
-def _jacobiano_numerico(b, X, g, binarias, eps: float = 1e-5) -> np.ndarray:
+def _jacobiano_numerico(b, X, g, binarias, m, eps: float = 1e-5) -> np.ndarray:
     """Jacobiano d(AME)/d(b) por diferenças finitas centradas (método delta)."""
     G = np.zeros((len(b), len(b)))
     for k in range(len(b)):
@@ -223,7 +242,7 @@ def _jacobiano_numerico(b, X, g, binarias, eps: float = 1e-5) -> np.ndarray:
         bp, bm = b.copy(), b.copy()
         bp[k] += h
         bm[k] -= h
-        G[:, k] = (_ame_vec(bp, X, g, binarias) - _ame_vec(bm, X, g, binarias)) / (2 * h)
+        G[:, k] = (_ame_vec(bp, X, g, binarias, m) - _ame_vec(bm, X, g, binarias, m)) / (2 * h)
     return G
 
 
@@ -240,8 +259,9 @@ def estimar(df: pd.DataFrame, ano: int, modelo: str) -> dict:
     erro_soma = np.max(np.abs(np.bincount(g, p) - 1))
     assert erro_soma < 1e-8, f"parcelas previstas não somam 1 na lista (erro {erro_soma})"
 
-    ames = _ame_vec(b, X, g, binarias)
-    G = _jacobiano_numerico(b, X, g, binarias)
+    m = np.bincount(g, y)[g]
+    ames = _ame_vec(b, X, g, binarias, m)
+    G = _jacobiano_numerico(b, X, g, binarias, m)
     se_ames = np.sqrt(np.diag(G @ V @ G.T))
 
     base = {"modelo": modelo, "ano_eleicao": ano, "n_candidaturas": len(df),
@@ -274,6 +294,27 @@ def estimar(df: pd.DataFrame, ano: int, modelo: str) -> dict:
     print(tab_coef[["rotulo", "beta", "ep", "p", "razao"]].to_string(index=False))
     print(tab_ame[["rotulo", "tipo_ame", "ame", "ep", "p"]].to_string(index=False))
     return {"coef": tab_coef, "ame": tab_ame}
+
+
+def sensibilidade_massa(df: pd.DataFrame, ano: int) -> pd.DataFrame:
+    """R1 e R2 com parcelas renormalizadas entre as candidaturas retidas (s_il / m_l): estimando
+    alternativo em que a comparação é só entre remanescentes. Compara b e EP com a principal."""
+    s = df["prop_vr_receita_candidato"].to_numpy(dtype=float)
+    _, g = np.unique(df["lista_id"].to_numpy(), return_inverse=True)
+    s_ren = s / np.bincount(g, s)[g]
+    linhas = []
+    for modelo, variaveis in MODELOS.items():
+        nomes = [c for c, _ in variaveis]
+        X = df[nomes].to_numpy(dtype=float)
+        b0, V0, _, _ = logit_condicional_fracionario(s, X, g)
+        b1, V1, _, _ = logit_condicional_fracionario(s_ren, X, g)
+        linhas.append(pd.DataFrame({
+            "ano_eleicao": ano, "modelo": modelo, "variavel": nomes,
+            "beta_principal": b0, "ep_principal": np.sqrt(np.diag(V0)),
+            "beta_renormalizado": b1, "ep_renormalizado": np.sqrt(np.diag(V1)),
+            "razao_principal": np.exp(b0), "razao_renormalizado": np.exp(b1),
+        }))
+    return pd.concat(linhas, ignore_index=True)
 
 
 GRUPOS_MAG = [("Pequeno", 0, 12, "Pequeno (8–12)"), ("Médio", 13, 31, "Médio (16–31)"),
@@ -385,7 +426,7 @@ def fig_razoes(coef_por_ano: dict) -> None:
 
 def main():
     coef_r2, interacoes = {}, {}
-    coefs, ames, amostras = [], [], []
+    coefs, ames, amostras, sens = [], [], [], []
     for ano in YEARS:
         df, amostra = montar_base(ano)
         amostras.append(amostra)
@@ -396,12 +437,14 @@ def main():
             if modelo == "R2":
                 coef_r2[ano] = r["coef"]
         interacoes[ano] = estimar_interacao_magnitude(df, ano)
+        sens.append(sensibilidade_massa(df, ano))
 
     pd.concat(coefs, ignore_index=True).to_csv(REPORTS / "coeficientes.csv", index=False)
     pd.concat(ames, ignore_index=True).to_csv(REPORTS / "ames.csv", index=False)
     pd.concat(interacoes.values(), ignore_index=True).to_csv(
         REPORTS / "interacao_magnitude.csv", index=False)
     pd.DataFrame(amostras).to_csv(REPORTS / "amostra.csv", index=False)
+    pd.concat(sens, ignore_index=True).to_csv(REPORTS / "sensibilidade_massa.csv", index=False)
     print(f"\nTabelas salvas em {REPORTS}")
 
     fig_razoes(coef_r2)

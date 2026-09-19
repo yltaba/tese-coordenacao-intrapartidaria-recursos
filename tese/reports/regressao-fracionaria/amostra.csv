@@ -1,3 +1,3 @@
-ano_eleicao,candidaturas_listas_financiadas,listas_financiadas,candidaturas_modelo,listas_modelo,listas_com_variacao_competitivo
-2018,7391,786,7254,649,373
-2022,9288,648,9263,623,371
+ano_eleicao,candidaturas_listas_financiadas,listas_financiadas,candidaturas_modelo,listas_modelo,listas_com_variacao_competitivo,listas_massa_incompleta,massa_minima
+2018,7391,786,7254,649,373,2,0.8164894430454597
+2022,9288,648,9263,623,371,12,0.095337056311019
