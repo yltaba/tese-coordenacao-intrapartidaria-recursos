@@ -47,7 +47,7 @@ format:
     linestretch: 1.5
     number-sections: true
     toc: true
-    toc-depth: 3
+    toc-depth: 2
     toc-title: "Sumário"
     lof: true
     lot: true
